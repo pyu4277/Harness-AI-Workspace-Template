@@ -62,3 +62,24 @@ pip install, npm install은 settings.json allowedTools에 유지하되, curl/wge
 
 **결과**:
 `Bash(pip *)`, `Bash(npm *)` 허용. `Bash(curl *)`, `Bash(wget *)` deny.
+
+---
+
+## ADR-004: 각인(Imprint) 시스템 도입 -- 위키 상위의 구조적 학습
+
+**상태**: 채택 (2026-04-07)
+
+**컨텍스트**:
+기존 학습 메커니즘(AER, session-handoff, CLAUDE.md 자기 진화)은 모두 "기록" 수준이다. 기록은 찾아봐야 하고, 에이전트가 자발적으로 참조하지 않는다. 같은 실수가 다른 세션에서 반복될 수 있다.
+
+**결정**:
+`.harness/imprints.json`에 구조화된 각인(상황/고투/해결/원칙)을 저장하고, SessionStart 훅으로 상위 각인을 자동 주입, UserPromptSubmit 훅으로 키워드 매칭 시 자동 회수하는 시스템 도입.
+
+**근거**:
+- 기록(위키)은 수동 회수, 각인은 자동 회수
+- recall_count 가중치로 자주 회수되는 각인이 더 높은 우선순위
+- 시간이 지날수록 시스템이 진화 (에이전트 실수 감소)
+- 하네스 4기둥 중 "피드백 루프"의 구체적 구현
+
+**결과**:
+5개 파일 추가 (imprints.json, active-imprints.md, imprint-session-start.js, imprint-prompt-match.js, harness-imprint/SKILL.md). hooks.json의 SessionStart + UserPromptSubmit에 각인 훅 추가.

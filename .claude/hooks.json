@@ -8,6 +8,11 @@
         "hooks": [
           {
             "type": "command",
+            "command": "node .claude/hooks/imprint-session-start.js",
+            "timeout": 3000
+          },
+          {
+            "type": "command",
             "command": "node .bkit/plugin/hooks/session-start.js",
             "timeout": 5000
           }
@@ -103,6 +108,11 @@
     "UserPromptSubmit": [
       {
         "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/imprint-prompt-match.js",
+            "timeout": 2000
+          },
           {
             "type": "command",
             "command": "node .bkit/plugin/scripts/user-prompt-handler.js",

@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "imprints": [
+    {
+      "id": "IMP-001",
+      "created": "2026-04-07T21:30:00Z",
+      "category": "encoding",
+      "trigger_keywords": ["cp949", "UnicodeDecodeError", "인코딩", "euc-kr", "codec"],
+      "situation": "HWP/CSV 등 한글 레거시 파일을 Python으로 읽을 때",
+      "struggle": "UnicodeDecodeError 반복. utf-8 -> euc-kr -> cp949 순서로 시도하며 3회 실패",
+      "resolution": "encoding='cp949', errors='replace' 조합 사용",
+      "principle": "한글 레거시 파일은 cp949 + errors='replace'가 기본값",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-002",
+      "created": "2026-04-07T21:30:00Z",
+      "category": "environment",
+      "trigger_keywords": ["python", "PATH", "not found", "Store redirect", "WindowsApps"],
+      "situation": "bash 스크립트에서 python 명령어 호출 시",
+      "struggle": "Windows Store 리다이렉트로 python 실행 불가. python, python3 모두 실패",
+      "resolution": "python 대신 node로 전환. Windows 환경에서는 Node.js가 확실히 동작",
+      "principle": "Windows에서 스크립트 런타임은 node 우선. python은 PATH 보장 안 됨",
+      "severity": "critical",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-003",
+      "created": "2026-04-07T21:30:00Z",
+      "category": "path-handling",
+      "trigger_keywords": ["bash", "node -e", "이스케이프", "escape", "backslash", "정규식"],
+      "situation": "bash에서 node -e 인라인 코드로 경로/정규식 처리 시",
+      "struggle": "bash 이스케이프와 JS 이스케이프 충돌. \\\\가 여러 단계에서 소비되어 원하는 패턴 불가",
+      "resolution": "인라인 node -e 대신 별도 .js 파일로 분리",
+      "principle": "bash + node -e 이스케이프 지옥 회피: 항상 별도 .js 파일 사용",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    }
+  ],
+  "stats": {
+    "total_imprints": 3,
+    "total_recalls": 0,
+    "last_updated": "2026-04-07T21:30:00Z"
+  }
+}
