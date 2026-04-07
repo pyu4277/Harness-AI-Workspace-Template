@@ -110,8 +110,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node .claude/hooks/imprint-prompt-match.js",
-            "timeout": 2000
+            "command": "node .claude/hooks/prompt-refiner.js",
+            "timeout": 3000
           },
           {
             "type": "command",

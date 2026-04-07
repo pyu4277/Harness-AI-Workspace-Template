@@ -83,3 +83,27 @@ pip install, npm install은 settings.json allowedTools에 유지하되, curl/wge
 
 **결과**:
 5개 파일 추가 (imprints.json, active-imprints.md, imprint-session-start.js, imprint-prompt-match.js, harness-imprint/SKILL.md). hooks.json의 SessionStart + UserPromptSubmit에 각인 훅 추가.
+
+---
+
+## ADR-005: 프롬프트 자동 정제 + 용어사전 자동 진화 + ToT 프레임워크
+
+**상태**: 채택 (2026-04-07)
+
+**컨텍스트**:
+사용자가 비공식 표현("요약해줘", "대충")으로 프롬프트를 입력하면 에이전트가 의도를 부정확하게 해석할 수 있다. 용어사전이 존재하지만 수동으로만 갱신되어 활용도가 낮았다.
+
+**결정**:
+1. `prompt-refiner.js` (UserPromptSubmit 훅)로 용어사전 + 각인을 사용자 입력마다 자동 매칭
+2. "요약" -> "발췌 정리" 등 고정 교정 맵 내장
+3. 작업 완료 시 용어사전 자동 갱신 규칙을 CLAUDE.md에 명시
+4. ToT(Tree-of-Thought) 4단계 프레임워크를 `prompt-rules.md`에 문서화
+5. prompt-refiner.js가 기존 imprint-prompt-match.js를 흡수 (단일 훅으로 통합)
+
+**근거**:
+- 프롬프트 품질 = 응답 품질. 입력 단계에서 정제하면 출력 품질이 구조적으로 향상
+- 용어사전이 사용할수록 풍부해지면 매칭 정확도 상승 (진화하는 시스템)
+- ToT는 복잡한 문제에만 적용하여 단순 질문의 오버헤드 방지
+
+**결과**:
+prompt-refiner.js가 UserPromptSubmit에서 3가지를 동시 수행: (1)고정 교정, (2)용어사전 매칭, (3)각인 회수. 단일 훅으로 통합하여 타임아웃 3초 내 처리.

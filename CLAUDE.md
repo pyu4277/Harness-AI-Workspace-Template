@@ -39,10 +39,15 @@
 - 코딩 규칙: `./code-convention.md`
 - 아키텍처 결정: `./adr.md`
 - 활성 각인: `./.harness/active-imprints.md` (세션 시작 시 자동 갱신)
+- 프롬프트 규칙: `./docs/support/prompt-rules.md` (ToT + 용어 정제 + 응답 규칙)
+- 용어사전: `./docs/LogManagement/용어사전.md` (프롬프트 정제 훅이 자동 매칭)
 
 ## 에이전트 운영
 
 - 실수 발생 시 이 파일에 규칙 1줄 추가 (자기 진화 메커니즘)
 - 작업 중 고투/에러/재시도 발생 시 `/imprint record`로 각인 기록 (진화하는 학습)
+- 작업 완료 시 대화에서 전문용어 대체 가능한 표현 발견하면 용어사전 자동 등록
+- "요약"이라는 단어는 "발췌 정리"로 내부 해석 (환각 방지, prompt-refiner 훅이 감지)
+- 복잡한 분석/기획 요청 시 ToT(Tree-of-Thought) 4단계 내부 수행 (prompt-rules.md 참조)
 - 코드 작성과 코드 리뷰는 반드시 다른 에이전트
 - 구현 완료 후 컨텍스트 사용량 40% 이하 유지 권장
