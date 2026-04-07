@@ -16,6 +16,7 @@
 - 핵심 용어 동의어: 지침 = 기능 = 워크플로우 = 파이프라인
 - 존재하지 않는 스킬/MCP/스크립트 지어내기 금지
 - 50페이지 이상 PDF 분석 시 `.txt` 사전 추출 후 시작 (AER-003)
+- 계획/설계 단계 진입 시 `docs/support/design-documents.md` 28종에서 필요 문서만 선별 후 사용자 승인
 
 ## 절대 금지
 
@@ -39,6 +40,7 @@
 - 코딩 규칙: `./code-convention.md`
 - 아키텍처 결정: `./adr.md`
 - 활성 각인: `./.harness/active-imprints.md` (세션 시작 시 자동 갱신)
+- 설계문서 카탈로그: `./docs/support/design-documents.md` (28종 조건부 선택)
 - 프롬프트 규칙: `./docs/support/prompt-rules.md` (ToT + 응답 규칙)
 - 용어사전: `./docs/LogManagement/용어사전.md`
 

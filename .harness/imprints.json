@@ -39,10 +39,23 @@
       "severity": "high",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-004",
+      "created": "2026-04-07T23:00:00Z",
+      "category": "process",
+      "trigger_keywords": ["계획", "설계", "plan", "design", "기획", "pdca plan", "plan-plus", "문서"],
+      "situation": "계획/설계 단계에서 산출물로 어떤 문서를 만들어야 하는지 결정할 때",
+      "struggle": "28종 설계문서를 전부 만들거나, 반대로 필요한 문서를 빠뜨림",
+      "resolution": "docs/support/design-documents.md의 조건 테이블로 프로젝트 프로파일(규모/DB/API/UI/팀) 대조하여 필요 문서만 선별",
+      "principle": "계획 수립 시 28종 설계문서 카탈로그에서 조건 기반 선별 후 사용자 승인. 전수 생성 금지",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 3,
+    "total_imprints": 4,
     "total_recalls": 0,
     "last_updated": "2026-04-07T21:30:00Z"
   }

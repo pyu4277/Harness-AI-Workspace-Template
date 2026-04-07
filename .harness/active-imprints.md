@@ -6,7 +6,8 @@
 | ID | 심각도 | 원칙 | 트리거 키워드 |
 |---|---|---|---|
 | IMP-002 | critical | Windows에서 스크립트 런타임은 node 우선. python은 PATH 보장 안 됨 | python, PATH, not found |
+| IMP-004 | high | 계획 수립 시 28종 설계문서 카탈로그에서 조건 기반 선별 후 사용자 승인. 전수 생성 금지 | 계획, 설계, plan |
 | IMP-001 | high | 한글 레거시 파일은 cp949 + errors='replace'가 기본값 | cp949, UnicodeDecodeError, 인코딩 |
 | IMP-003 | high | bash + node -e 이스케이프 지옥 회피: 항상 별도 .js 파일 사용 | bash, node -e, 이스케이프 |
 
-> 총 3개 각인 중 상위 3개 표시. 전체 목록: /imprint list
+> 총 4개 각인 중 상위 4개 표시. 전체 목록: /imprint list
