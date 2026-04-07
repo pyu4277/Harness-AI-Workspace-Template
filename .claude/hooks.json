@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-hooks.json",
+  "description": "005_AI_Project - Harness 4-Pillar + bkit v1.6.2 통합 훅",
+  "hooks": {
+    "SessionStart": [
+      {
+        "once": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/hooks/session-start.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/pre-tool-guard.js",
+            "timeout": 5000
+          },
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/pre-write.js",
+            "timeout": 5000
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/unified-bash-pre.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-tool-validate.js",
+            "timeout": 5000
+          },
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/unified-write-post.js",
+            "timeout": 5000
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/unified-bash-post.js",
+            "timeout": 5000
+          }
+        ]
+      },
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/skill-post.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/unified-stop.js",
+            "timeout": 10000
+          }
+        ]
+      }
+    ],
+    "StopFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/stop-failure-handler.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/user-prompt-handler.js",
+            "timeout": 3000
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "auto|manual",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/context-compaction.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/post-compaction.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "TaskCompleted": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/pdca-task-completed.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/subagent-start-handler.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/subagent-stop-handler.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "TeammateIdle": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .bkit/plugin/scripts/team-idle-handler.js",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "lastUpdated": null,
+  "platform": null,
+  "data": {
+    "session": {
+      "sessionCount": 0,
+      "lastSessionStarted": null,
+      "lastSessionEnded": null
+    },
+    "pdca": {
+      "lastFeature": null,
+      "activePdca": null,
+      "preferredLevel": "Starter"
+    },
+    "preferences": {
+      "language": "ko",
+      "automationLevel": "semi-auto"
+    },
+    "custom": {}
+  }
+}

@@ -1,0 +1,14 @@
+# Python 의존성 목록
+# pip install -r requirements.txt
+
+# 공통 의존성 (필요한 항목만 주석 해제)
+# pdfplumber>=0.10.0       # PDF 텍스트 추출
+# pymupdf>=1.23.0          # PDF 처리 (fitz)
+# python-docx>=1.1.0       # DOCX 생성/수정
+# docxtpl>=0.16.0          # DOCX 템플릿 렌더링
+# python-pptx>=0.6.23      # PPTX 생성/수정
+# anthropic>=0.34.0        # Claude API
+# aiohttp>=3.9.0           # 비동기 HTTP
+# aiofiles>=23.2.1         # 비동기 파일 I/O
+# tqdm>=4.66.0             # 진행 표시줄
+# python-dotenv>=1.0.0     # .env 환경변수 로드

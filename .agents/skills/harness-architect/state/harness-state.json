@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "project_name": "",
+  "current_phase": 0,
+  "phases": {
+    "1_analyze": { "status": "pending", "completed_at": null },
+    "2_select": { "status": "pending", "completed_at": null },
+    "3_generate": { "status": "pending", "completed_at": null },
+    "4_design": { "status": "pending", "completed_at": null },
+    "5_review": { "status": "pending", "completed_at": null },
+    "6_iterate": { "status": "pending", "completed_at": null },
+    "7_install": { "status": "pending", "completed_at": null }
+  },
+  "selected_documents": [],
+  "generated_files": [],
+  "decisions": [],
+  "review_history": [],
+  "started_at": "",
+  "updated_at": ""
+}

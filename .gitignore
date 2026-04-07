@@ -1,0 +1,42 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+Temporary Storage/*
+!Temporary Storage/.gitkeep
+
+# Session logs (generated per-user)
+Projects/*/Log/*
+!Projects/*/Log/.gitkeep
+
+# PDCA generated docs (per-project)
+docs/01-plan/
+docs/02-design/
+docs/03-analysis/
+docs/04-report/
+docs/archive/
+
+# Claude Code user-specific
+.claude/settings.local.json

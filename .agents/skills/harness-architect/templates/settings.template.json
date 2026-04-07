@@ -1,0 +1,50 @@
+{
+  "$comment": "Harness Architect가 생성한 설정 템플릿. {{}} 부분을 프로젝트에 맞게 치환.",
+  "permissions": {
+    "allow": [
+      "Read({{PROJECT_PATH}}/**)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash {{PROJECT_PATH}}/.claude/hooks/pre_tool_guard.sh",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash {{PROJECT_PATH}}/.claude/hooks/post_tool_validate.sh",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}
