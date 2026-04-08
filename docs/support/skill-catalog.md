@@ -21,6 +21,7 @@
 | "스킬 만들어줘", "ServiceMaker" | `ServiceMaker` | 9단계 개발 + CLAUDE.md 자동 등록 |
 | "마크다운 검사", "md 오류", "mdGuide" | `mdGuide` | Zero-Defect MD 린팅 |
 | "하네스", "프로젝트 초기화", "harness" | `harness-architect` | 하네스 4기둥 프로젝트 초기화 |
+| "위키", "wiki", "인제스트", "지식 정리", "지식베이스" | `llm-wiki` | Ingest/Query/Lint 자동 판별 후 실행 |
 
 ## bkit 로컬 스킬
 
@@ -74,7 +75,7 @@
 
 | Tier | 스킬 목록 | 특징 |
 |:---|:---|:---|
-| Tier-A (스크립트 포함) | HWPX_Master, DocKit, PaperResearch, VisualCapture, session-handoff, auto-error-recovery, ServiceMaker | Navigator.md 필수 |
+| Tier-A (스크립트 포함) | HWPX_Master, DocKit, PaperResearch, VisualCapture, session-handoff, auto-error-recovery, ServiceMaker, llm-wiki | Navigator.md 필수 |
 | Tier-B (순수 프롬프트) | PromptKit, Mermaid_FlowChart, FileNameMaking, mdGuide, term-organizer | SKILL.md 인라인 |
 | Tier-C (bkit 프레임워크) | pdca, bkit-rules, bkit-templates, plan-plus, development-pipeline, code-review, zero-script-qa, btw | bkit 런타임 연동 |
 | Tier-S (하네스 메타) | harness-architect | 프로젝트 하네스 설계 |

@@ -107,3 +107,26 @@ pip install, npm install은 settings.json allowedTools에 유지하되, curl/wge
 
 **결과**:
 prompt-refiner.js가 UserPromptSubmit에서 3가지를 동시 수행: (1)고정 교정, (2)용어사전 매칭, (3)각인 회수. 단일 훅으로 통합하여 타임아웃 3초 내 처리.
+
+---
+
+## ADR-006: Cross-Project Wiki (001_Wiki_AI) with Relative Path Bridge
+
+**상태**: 채택 (2026-04-08)
+
+**컨텍스트**:
+지식(용어, 개념, 소스 분석)이 프로젝트 세션 로그에 흩어져 있어 누적/검색이 어렵다. Karpathy LLM Wiki 패턴을 적용하여 중앙 집중 지식 위키를 구축하되, 프로젝트 수명주기와 독립적으로 운영해야 한다.
+
+**결정**:
+001_Wiki_AI를 005_AI_Project의 형제 디렉토리(../001_Wiki_AI)로 배치. WIKI_ROOT = ../001_Wiki_AI 상대경로로 연결. pre-tool-guard.js에 형제 디렉토리 쓰기 허용 추가.
+
+**근거**:
+- 관심사 분리: 프로젝트 작업공간(005) vs 지식 기반(001)
+- 위키는 프로젝트 수명주기를 초월 (지식 > 프로젝트)
+- Obsidian Vault 호환성: 표준 마크다운 링크만 사용
+- OneDrive 동기화: 상대경로만 사용하여 멀티PC 이식성 보장
+
+**결과**:
+- pre-tool-guard.js에 형제 디렉토리 허용 로직 추가 (IMP-005)
+- CLAUDE.md에 WIKI_ROOT 경로 명시
+- llm-wiki 스킬이 Tier-A로 등록 (scripts/ + Navigator.md)

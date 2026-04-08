@@ -52,11 +52,17 @@ process.stdin.on('end', () => {
     ];
 
     const isAllowed = allowed.some(rx => rx.test(rel));
-    if (!isAllowed) {
+
+    // --- 위키 형제 디렉토리 허용 (IMP-005: WIKI_ROOT = ../001_Wiki_AI) ---
+    const parentDir = normCwd.replace(/\/[^/]+$/, '');
+    const wikiRoot = parentDir + '/001_wiki_ai';
+    const isWikiPath = normFile.startsWith(wikiRoot + '/');
+
+    if (!isAllowed && !isWikiPath) {
       console.log(JSON.stringify({
         decision: 'block',
         reason: '하네스 가드: 허용 경로 외 쓰기 차단 - ' + rel +
-          '. 허용: src/, docs/, Projects/, .agents/, Output/, Temporary Storage/'
+          '. 허용: src/, docs/, Projects/, .agents/, Output/, Temporary Storage/, ../001_Wiki_AI/'
       }));
     }
     // 허용 시 조용히 통과 (성공은 조용히, 실패만 시끄럽게)

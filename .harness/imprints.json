@@ -5,7 +5,13 @@
       "id": "IMP-001",
       "created": "2026-04-07T21:30:00Z",
       "category": "encoding",
-      "trigger_keywords": ["cp949", "UnicodeDecodeError", "인코딩", "euc-kr", "codec"],
+      "trigger_keywords": [
+        "cp949",
+        "UnicodeDecodeError",
+        "인코딩",
+        "euc-kr",
+        "codec"
+      ],
       "situation": "HWP/CSV 등 한글 레거시 파일을 Python으로 읽을 때",
       "struggle": "UnicodeDecodeError 반복. utf-8 -> euc-kr -> cp949 순서로 시도하며 3회 실패",
       "resolution": "encoding='cp949', errors='replace' 조합 사용",
@@ -18,7 +24,13 @@
       "id": "IMP-002",
       "created": "2026-04-07T21:30:00Z",
       "category": "environment",
-      "trigger_keywords": ["python", "PATH", "not found", "Store redirect", "WindowsApps"],
+      "trigger_keywords": [
+        "python",
+        "PATH",
+        "not found",
+        "Store redirect",
+        "WindowsApps"
+      ],
       "situation": "bash 스크립트에서 python 명령어 호출 시",
       "struggle": "Windows Store 리다이렉트로 python 실행 불가. python, python3 모두 실패",
       "resolution": "python 대신 node로 전환. Windows 환경에서는 Node.js가 확실히 동작",
@@ -31,7 +43,14 @@
       "id": "IMP-003",
       "created": "2026-04-07T21:30:00Z",
       "category": "path-handling",
-      "trigger_keywords": ["bash", "node -e", "이스케이프", "escape", "backslash", "정규식"],
+      "trigger_keywords": [
+        "bash",
+        "node -e",
+        "이스케이프",
+        "escape",
+        "backslash",
+        "정규식"
+      ],
       "situation": "bash에서 node -e 인라인 코드로 경로/정규식 처리 시",
       "struggle": "bash 이스케이프와 JS 이스케이프 충돌. \\\\가 여러 단계에서 소비되어 원하는 패턴 불가",
       "resolution": "인라인 node -e 대신 별도 .js 파일로 분리",
@@ -44,7 +63,16 @@
       "id": "IMP-004",
       "created": "2026-04-07T23:00:00Z",
       "category": "process",
-      "trigger_keywords": ["계획", "설계", "plan", "design", "기획", "pdca plan", "plan-plus", "문서"],
+      "trigger_keywords": [
+        "계획",
+        "설계",
+        "plan",
+        "design",
+        "기획",
+        "pdca plan",
+        "plan-plus",
+        "문서"
+      ],
       "situation": "계획/설계 단계에서 산출물로 어떤 문서를 만들어야 하는지 결정할 때",
       "struggle": "28종 설계문서를 전부 만들거나, 반대로 필요한 문서를 빠뜨림",
       "resolution": "docs/support/design-documents.md의 조건 테이블로 프로젝트 프로파일(규모/DB/API/UI/팀) 대조하여 필요 문서만 선별",
@@ -52,11 +80,98 @@
       "severity": "high",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-005",
+      "created": "2026-04-08T08:00:00Z",
+      "category": "path-handling",
+      "trigger_keywords": [
+        "wiki",
+        "위키",
+        "001_Wiki_AI",
+        "WIKI_ROOT",
+        "지식베이스"
+      ],
+      "situation": "LLM-Wiki 스킬에서 001_Wiki_AI 경로 참조 시",
+      "struggle": "프로젝트 간 경로 참조가 일관되지 않으면 guard 차단 또는 링크 깨짐",
+      "resolution": "WIKI_ROOT = ../001_Wiki_AI (PROJECT_ROOT 기준 상대경로). CLAUDE.md + SKILL.md 양쪽 명시. pre-tool-guard.js에 형제 디렉토리 허용 추가",
+      "principle": "위키 경로는 항상 WIKI_ROOT(../001_Wiki_AI) 기준 상대경로. 절대경로 금지. guard 허용 목록에 등록 필수",
+      "severity": "high",
+      "recall_count": 4,
+      "last_recalled": "2026-04-08T00:21:30.612Z"
+    },
+    {
+      "id": "IMP-006",
+      "created": "2026-04-08T09:00:00Z",
+      "category": "tool-integration",
+      "trigger_keywords": [
+        "obsidian",
+        "CLI",
+        "obsidian cli",
+        "vault",
+        "backlinks",
+        "orphans"
+      ],
+      "situation": "LLM-Wiki 스킬에서 Obsidian CLI를 활용할 때",
+      "struggle": "Obsidian 미실행 시 CLI 명령 실패. 항상 실행 상태를 전제할 수 없음",
+      "resolution": "Hybrid 모드: obsidian-detect.js로 실행 감지 후 CLI/파일시스템 분기. 미실행 시 사용자에게 선택권 제공",
+      "principle": "Obsidian CLI는 항상 Hybrid. 파일시스템 폴백 100% 보장. Obsidian 미실행 시 사용자 선택(켜기/그냥진행) 필수",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-007",
+      "created": "2026-04-08T09:30:00Z",
+      "category": "process",
+      "trigger_keywords": [
+        "완료",
+        "끝",
+        "done",
+        "finished",
+        "작업 종료",
+        "다 했",
+        "구현 완료"
+      ],
+      "situation": "다단계 작업이 완료되었을 때",
+      "struggle": "Feature Usage 요약, 전문용어 등록, 에러 각인을 빠뜨리고 작업을 종료함",
+      "resolution": "prompt-refiner.js가 작업성 프롬프트에 완료 체크리스트를 자동 주입. CLAUDE.md에 구조적 강제 규칙 추가",
+      "principle": "다단계 작업 완료 시 반드시 출력: (1) Feature Usage 요약 (2) 전문용어 등록 (3) 에러 각인. prompt-refiner.js가 자동 주입하므로 누락 시 하네스 위반",
+      "severity": "critical",
+      "recall_count": 0,
+      "last_recalled": null
+    }
+    ,
+    {
+      "id": "IMP-008",
+      "created": "2026-04-08T09:45:00Z",
+      "category": "i18n",
+      "trigger_keywords": ["글자수", "length", "임계값", "threshold", "한국어 짧", "단문 판별"],
+      "situation": "한국어 프롬프트의 길이 기반 판별 로직을 작성할 때",
+      "struggle": "영어 기준 임계값(15자, 20자)을 적용하여 한국어 작업 프롬프트를 단순 질문으로 오판. 2회 재시도",
+      "resolution": "한국어 단문 임계값 7자, 작업성 판별 임계값 10자로 하향. 한국어는 조사 포함 14자로도 완전한 작업 지시 가능",
+      "principle": "한국어 문자열 길이 기반 판별 시 영어의 1/2~1/3 수준으로 임계값 설정. 단문=7자, 작업=10자",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-009",
+      "created": "2026-04-08T09:45:00Z",
+      "category": "environment",
+      "trigger_keywords": ["obsidian cli", "PATH 등록", "obsidian version", "CLI 활성화", "명령줄 인터페이스"],
+      "situation": "Obsidian CLI를 사용하려 할 때",
+      "struggle": "Obsidian 설정에서 CLI 토글을 켜도 시스템 PATH에 자동 등록되지 않음. obsidian version 명령 실패",
+      "resolution": "Obsidian Settings -> General -> CLI 섹션에서 Register 버튼을 별도로 클릭해야 PATH 등록됨. 토글만으로는 불충분",
+      "principle": "Obsidian CLI는 토글 ON + Register 버튼 클릭 2단계 필요. 터미널 재시작도 필수",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 4,
-    "total_recalls": 0,
-    "last_updated": "2026-04-07T21:30:00Z"
+    "total_imprints": 9,
+    "total_recalls": 4,
+    "last_updated": "2026-04-08T09:45:00Z"
   }
 }
