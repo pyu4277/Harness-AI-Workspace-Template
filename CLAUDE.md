@@ -45,6 +45,7 @@
 - 프롬프트 규칙: `./docs/support/prompt-rules.md` (ToT + 응답 규칙)
 - 용어사전: `./docs/LogManagement/용어사전.md`
 - ECC 통합: ECC_HOOK_PROFILE=minimal, ECC_DISABLED_HOOKS=session:start (하네스 우선, ADR-007)
+- 시스템 네비게이터: `./SYSTEM_NAVIGATOR.md` (체계도+흐름도+스킬 카탈로그+Gap 분석)
 
 ## 에이전트 운영
 

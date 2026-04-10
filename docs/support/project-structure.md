@@ -17,13 +17,17 @@
 │   ├── settings.local.json  권한 deny 목록
 │   ├── hooks.json         하네스 + bkit 통합 훅
 │   ├── hooks/             하네스 가드 스크립트
-│   │   ├── pre-tool-guard.sh     경로 차단 (기둥 3)
-│   │   └── post-tool-validate.sh 금지 패턴 (기둥 2)
+│   │   ├── pre-tool-guard.js        경로 차단 (기둥 3)
+│   │   ├── post-tool-validate.js    금지 패턴 (기둥 2)
+│   │   ├── prompt-refiner.js        프롬프트 정제 (기둥 4)
+│   │   ├── imprint-session-start.js 각인 로드 (기둥 4)
+│   │   ├── imprint-prompt-match.js  각인 매칭
+│   │   └── navigator-updater.js     SYSTEM_NAVIGATOR 자동 갱신
 │   └── commands/          슬래시 커맨드 정의
 ├── .agents/
-│   ├── skills/            도메인 스킬 21개 + bkit 8개
+│   ├── skills/            25개 스킬 디렉토리 (도메인 + bkit + 외부)
 │   ├── agents/            에이전트 정의 31개
-│   └── templates/         PDCA 문서 템플릿
+│   └── templates/         PDCA 문서 템플릿 21개
 ├── .bkit/
 │   ├── plugin/            bkit v1.6.2 런타임
 │   └── state/             PDCA 상태, 메모리
@@ -44,7 +48,7 @@
 ```
 [하네스 계층 -- 거버넌스 (구조적 강제)]
   CLAUDE.md (60줄)           무엇이 허용/금지인지 선언
-  .claude/hooks/*.sh         PreToolUse/PostToolUse 차단
+  .claude/hooks/*.js         PreToolUse/PostToolUse 차단 (6개 스크립트)
   settings.local.json deny   명령어 차단
 
 [bkit 계층 -- 워크플로우 (프로세스 가이던스)]

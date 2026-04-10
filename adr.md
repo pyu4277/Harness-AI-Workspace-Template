@@ -152,3 +152,27 @@ ECC_HOOK_PROFILE=minimal로 충돌 훅 비활성화. ECC_DISABLED_HOOKS=session:
 - 005에서 ECC 181 스킬 + 47 에이전트 + 89 규칙 사용 가능
 - Harness 모든 기능(각인, pre-tool-guard, post-tool-validate, prompt-refiner, PDCA, Wiki) 그대로 유지
 - AgentShield 보안 스캐너 npx로 실행 가능
+
+---
+
+## ADR-008: SYSTEM_NAVIGATOR.md 도입
+
+**상태**: 채택 (2026-04-10)
+
+**컨텍스트**:
+시스템 복잡도 증가(28개 스킬, 12개 각인, 15개 훅 이벤트, 9개 MCP, 9개 지원문서)로 전체 구조 파악이 어려워짐. 하네스/bkit/스킬 3계층의 관계와 각 컴포넌트의 동기/동작방식을 문서화할 필요 발생.
+
+**결정**:
+프로젝트 루트에 SYSTEM_NAVIGATOR.md를 배치. Mermaid 체계도+흐름도로 시스템 전체를 시각화. navigator-updater.js PostToolUse 훅으로 핵심 파일 변경 시 자동 갱신. AUTO 마커 기반 섹션 교체 방식.
+
+**근거**:
+- CLAUDE.md(70줄)은 규칙 정의용이지 시스템 구조 문서화용이 아님
+- 9개 지원문서는 각각의 도메인을 다루지만 전체 그림을 보여주지 못함
+- 비작동 구간(Gap) 식별과 추적이 필요
+- harness-architect 7단계 프로세스를 통해 구조적으로 생성
+
+**결과**:
+- pre-tool-guard.js 허용 목록에 system_navigator.md 추가
+- governance-rules.md 루트 구조 테이블에 SYSTEM_NAVIGATOR.md 행 추가
+- navigator-updater.js PostToolUse 훅으로 자동 갱신
+- CLAUDE.md 참조 문서에 시스템 네비게이터 추가

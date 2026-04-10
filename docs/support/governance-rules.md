@@ -37,6 +37,7 @@ AI가 생성, 작성, 수정하는 모든 결과물(기술문서, 지침서, 스
 | `code-convention.md` | 파일 | 코딩 규칙 |
 | `adr.md` | 파일 | 아키텍처 결정 기록 |
 | `bkit.config.json` | 파일 | bkit 자동화 설정 |
+| `skills-lock.json` | 파일 | 스킬 무결성 잠금 (SHA-256 해시) |
 | `.gitignore` | 파일 | Git 제외 목록 |
 | `requirements.txt` | 파일 | Python 의존성 |
 | `.claude/` | 폴더 | CC 설정 + 하네스 훅 |
@@ -45,6 +46,7 @@ AI가 생성, 작성, 수정하는 모든 결과물(기술문서, 지침서, 스
 | `Projects/` | 폴더 | YYMMDD_이름 형식 프로젝트 |
 | `docs/` | 폴더 | 지원 문서 + PDCA 문서 + 세션 로그 |
 | `Temporary Storage/` | 폴더 | 임시 파일 전용 |
+| `SYSTEM_NAVIGATOR.md` | 파일 | 시스템 네비게이터 (체계도+흐름도) |
 
 위 목록에 없는 파일/폴더는 루트에 직접 생성 금지. 불명확한 경우 `Temporary Storage/`에 임시 저장.
 
