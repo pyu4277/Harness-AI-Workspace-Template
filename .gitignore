@@ -2,6 +2,8 @@
 .env
 .env.*
 *.env
+!.env.example
+!.mcp.json.example
 
 # Python
 __pycache__/
@@ -41,3 +43,6 @@ docs/archive/
 # Claude Code user-specific
 .claude/settings.local.json
 .mcp.json
+
+# Backup files (atomicWriteWithBackup, scaffold tools)
+*.bak

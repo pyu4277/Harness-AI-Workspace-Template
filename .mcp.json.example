@@ -1,0 +1,61 @@
+{
+  "_comment": "이 파일은 .mcp.json 템플릿입니다. 복사하여 .mcp.json을 만들고 API 키를 입력하세요.",
+  "_setup": "cp .mcp.json.example .mcp.json && notepad .mcp.json",
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "token-optimizer": {
+      "command": "npx",
+      "args": ["-y", "token-optimizer-mcp"]
+    },
+    "firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "YOUR_FIRECRAWL_API_KEY_HERE"
+      }
+    },
+    "fal-ai": {
+      "command": "npx",
+      "args": ["-y", "fal-ai-mcp-server"],
+      "env": {
+        "FAL_KEY": "YOUR_FAL_KEY_HERE"
+      }
+    },
+    "exa-web-search": {
+      "command": "npx",
+      "args": ["-y", "exa-mcp-server"],
+      "env": {
+        "EXA_API_KEY": "YOUR_EXA_API_KEY_HERE"
+      }
+    },
+    "jira": {
+      "command": "uvx",
+      "args": ["mcp-atlassian==0.21.0"],
+      "env": {
+        "JIRA_URL": "https://YOUR_DOMAIN.atlassian.net",
+        "JIRA_EMAIL": "YOUR_EMAIL@example.com",
+        "JIRA_API_TOKEN": "YOUR_JIRA_API_TOKEN_HERE"
+      }
+    },
+    "confluence": {
+      "command": "uvx",
+      "args": ["mcp-atlassian==0.21.0"],
+      "env": {
+        "CONFLUENCE_URL": "https://YOUR_DOMAIN.atlassian.net/wiki",
+        "CONFLUENCE_EMAIL": "YOUR_EMAIL@example.com",
+        "CONFLUENCE_API_TOKEN": "YOUR_CONFLUENCE_API_TOKEN_HERE"
+      }
+    },
+    "supabase": {
+      "type": "http",
+      "url": "https://mcp.supabase.com/mcp?project_ref=YOUR_PROJECT_REF_HERE"
+    }
+  }
+}
