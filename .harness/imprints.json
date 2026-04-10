@@ -209,11 +209,89 @@
       "severity": "critical",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-013",
+      "created": "2026-04-10T14:15:00Z",
+      "category": "parsing",
+      "trigger_keywords": ["정규식", "regex", "escape", "slash", "리터럴", "소스 파싱"],
+      "situation": "JavaScript 소스 파일의 정규식 리터럴 배열에서 패턴을 추출할 때",
+      "struggle": "navigator-updater-helpers.js의 readPreToolGuard reader에서 `/^\\.agents\\/skills\\//` 같은 escape된 슬래시 포함 정규식을 `[^/]+?`로 매칭 시도하여 경로 중간에서 잘림. `.agents/`까지만 추출되고 `skills/`, `agents/`, `templates/` 구분 불가",
+      "resolution": "문자 단위 스캔으로 전환. 정규식 시작 `/^` 탐지 후 내부 문자를 한 글자씩 순회하면서 `\\/`(2글자)는 escape된 슬래시로 누적, 단일 `/`를 만나면 정규식 종료로 처리",
+      "principle": "JS source에서 정규식 리터럴 내부의 escape된 슬래시를 포함한 긴 경로는 단순 regex로 매칭 불가. 문자 단위 상태 머신 스캔 또는 AST 파서 사용 필수",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-014",
+      "created": "2026-04-10T14:15:00Z",
+      "category": "meta-documentation",
+      "trigger_keywords": ["SYSTEM_NAVIGATOR", "자동 갱신", "마커", "AUTO", "살아있는 문서", "메타 문서"],
+      "situation": "대용량 메타 문서(3000줄+)의 특정 섹션을 코드로 자동 갱신할 때",
+      "struggle": "전체 파일 재생성은 수동 편집 영역 손실 위험. 단순 문자열 replace는 섹션 경계 불명확",
+      "resolution": "AUTO 마커(`<!-- AUTO:id:START/END -->`) 기반 부분 교체 + 원자적 쓰기(.tmp -> rename) + 자동 .bak 백업 + 50% 크기 감소 안전 체크의 4중 방어",
+      "principle": "메타 문서 자동 갱신은 마커 기반 부분 교체 + 원자적 쓰기 + 백업 + 크기 안전 체크 4종 세트. 절대 전체 파일 재생성 금지",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-015",
+      "created": "2026-04-10T14:15:00Z",
+      "category": "security",
+      "trigger_keywords": ["MCP", ".mcp.json", "시크릿", "API 키", "환경변수", "외부화", "템플릿"],
+      "situation": ".mcp.json 또는 설정 파일의 API 키를 외부화할 때",
+      "struggle": "${VAR} 자동 치환 지원 여부가 공식 문서에 없어 실제 동작 확신 불가. 자동 치환 가정 시 MCP 서버 전면 장애 위험",
+      "resolution": "템플릿 분리 전략: 실제 .mcp.json은 로컬 전용(gitignored), .mcp.json.example은 플레이스홀더 포함 템플릿(tracked). .gitignore에 `!.example` 예외 추가",
+      "principle": "MCP 및 설정 파일 시크릿 외부화는 `${VAR}` 치환 가정 금지. 템플릿 분리(.example 파일) + gitignore 예외 패턴이 가장 안전. 공식 문서 미확인 기능은 실험 금지",
+      "severity": "critical",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-016",
+      "created": "2026-04-10T14:15:00Z",
+      "category": "process",
+      "trigger_keywords": ["대규모", "세션 분할", "체크포인트", "진화", "4세션", "8 Phase"],
+      "situation": "3시간+ 대규모 최적화 작업을 1회 세션으로 처리하려 할 때",
+      "struggle": "컨텍스트 한계 근접. 중간 실패 시 롤백 단위 불명확. 사용자 중간 확인 기회 부족",
+      "resolution": "Phase별 세션 분할 + 각 세션 완료 시 체크리스트 보고 + 다음 세션 진입 시 사용자 승인. SYSTEM_NAVIGATOR 최적화는 4세션(Phase 0-3 / 4-5 / 6 / 7-8)으로 분할 성공",
+      "principle": "예상 3시간 이상 작업은 반드시 세션별 분할. 각 세션 끝에 완료 보고 + 다음 세션 의존성 명시. 복잡도 높은 Phase(Phase 6 navigator-updater)는 단독 세션",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-017",
+      "created": "2026-04-10T15:20:00Z",
+      "category": "wiki",
+      "trigger_keywords": ["Raw", "Clippings", "archive", "990_Meta", "raw_source", "원본 보관", "지식화 완료"],
+      "situation": "llm-wiki 인제스트 완료 후 000_Raw/Clippings의 원본 파일 처리를 결정할 때",
+      "struggle": "초기 SKILL.md는 Raw를 불변 소스로 정의했으나, 실제 워크플로우에서는 지식화 완료된 원본이 Raw에 계속 누적되어 미처리/완료 구분 불가. 사용자가 정책 괴리 지적",
+      "resolution": "Raw layer 정책 재정의: (1) 000_Raw/Clippings는 미처리 입력 큐로만 사용, (2) 지식화 완료 원본은 990_Meta/archive/로 이동 (삭제 금지), (3) 파생 위키 페이지 프론트매터에 raw_source 필드로 원본 경로 필수 기록, (4) 파생 위키 본문 하단에 Raw Source Archive 섹션으로 명시적 링크, (5) 한 원본에서 여러 위키 파생 시 모든 파생 페이지가 동일 raw_source 참조",
+      "principle": "위키 Raw layer는 미처리 입력 큐. 지식화 완료 원본은 990_Meta/archive/로 중앙 보관 + 파생 위키에 raw_source 프론트매터 필수. 정책과 실제 괴리는 Living System Mirror 원칙 위반이므로 즉시 수정",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-018",
+      "created": "2026-04-10T16:20:00Z",
+      "category": "process",
+      "trigger_keywords": ["세션 종료", "Warm Boot", "핸드오프", "다음 세션", "체크포인트", "next-session"],
+      "situation": "장시간 다단계 세션(4세션 + 진화 + 위키 + 파일럿) 종료 시 맥락 손실 방지가 필요할 때",
+      "struggle": "세션 종료 후 재개 시 무엇을 먼저 읽어야 하는지 불명확. 미커밋 변경, 진행 중 작업, 사용자 피드백 대기 항목 등이 산재하여 컨텍스트 복원 비용이 큼",
+      "resolution": "단일 플래닝 문서(plans/*.md)를 세션 간 연속성 앵커로 활용. 종료 시 `.harness/next-session.md` 신규 생성하여 Warm Boot 진입점 명시. Step 단위 종료 체크리스트(IMP-018) + 재개 체크리스트 이중 구조",
+      "principle": "장시간 세션 종료 시 반드시 (1) 플래닝 문서 최신화 (2) .harness/next-session.md 진입점 생성 (3) session-handoff 로그 (4) 1st_Log.md 갱신. 다음 세션 첫 Read는 next-session.md부터",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 12,
+    "total_imprints": 18,
     "total_recalls": 4,
-    "last_updated": "2026-04-08T09:45:00Z"
+    "last_updated": "2026-04-10T16:20:00Z"
   }
 }

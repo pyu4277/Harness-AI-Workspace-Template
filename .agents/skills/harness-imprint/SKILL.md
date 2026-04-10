@@ -13,7 +13,7 @@ description: |
   각인 기록, 각인 검색, 각인 통계
 
   Do NOT use for: 단순 메모, 세션 로그(session-handoff 사용), 용어 정리(term-organizer 사용)
-argument-hint: "[record|list|search|stats] [키워드]"
+argument-hint: "[record|list|search|stats|decay|archive|edit] [키워드|ID]"
 user-invocable: true
 ---
 
@@ -29,6 +29,9 @@ user-invocable: true
 | `/imprint list` | 전체 각인 목록 (가중치순) | `/imprint list` |
 | `/imprint search <키워드>` | 키워드로 각인 검색 | `/imprint search 인코딩` |
 | `/imprint stats` | 각인 통계 | `/imprint stats` |
+| `/imprint decay` | 수동 decay 체크 실행 | `/imprint decay` |
+| `/imprint archive` | 아카이브된 각인 목록 조회 | `/imprint archive` |
+| `/imprint edit <ID>` | 특정 각인 수정 (대화형) | `/imprint edit IMP-005` |
 
 ---
 
@@ -127,15 +130,86 @@ user-invocable: true
 
 ---
 
+## decay -- 수동 decay 체크
+
+각인 라이프사이클 관리. 세션 시작 시 `imprint-session-start.js`가 자동 수행하지만 수동 호출도 가능.
+
+**decay 조건**:
+- 30일 이상 `recall_count === 0` 상태인 각인 → `.harness/imprints-archive.json`으로 이동
+- 12개 초과 시 가중치 최하위 각인 → 아카이브로 이동
+
+**실행**:
+1. 현재 `imprints.json` 로드
+2. decay 조건 체크
+3. 해당 각인들을 archive로 이동 (원자적 쓰기)
+4. `imprint-decay.log`에 기록
+5. 사용자에게 요약 보고
+
+**출력 예시**:
+```
+decay 체크 완료
+---------------------------------
+archive 이동: 2개
+  - IMP-015 (low, 30일 미리콜): "테스트 임시 각인"
+  - IMP-020 (medium, 35일 미리콜): "일회성 실험 각인"
+imprints.json 잔류: 12개
+---------------------------------
+```
+
+---
+
+## archive -- 아카이브 조회
+
+`.harness/imprints-archive.json`에 보관된 decay 각인을 조회한다.
+
+```
+/imprint archive
+→ 아카이브 각인 (총 5개)
+  [IMP-TEST-1] low    | 2026-03-10 아카이브 | 테스트 임시 각인
+  [IMP-TEST-2] medium | 2026-03-15 아카이브 | 일회성 실험 각인
+  ...
+```
+
+**주의**: 아카이브는 읽기 전용. 복구가 필요한 경우 `/imprint edit` 또는 수동 편집.
+
+---
+
+## edit -- 각인 개정
+
+특정 각인의 내용을 수정한다. 원칙이 부정확했거나 더 나은 해결책이 발견된 경우 사용.
+
+**절차**:
+1. `/imprint edit IMP-005` 실행
+2. 현재 각인 내용 표시
+3. 수정할 필드 선택 (principle/situation/struggle/resolution/severity/trigger_keywords)
+4. 새 값 입력
+5. `imprints.json` 원자적 갱신
+6. 수정 이력은 `imprint-decay.log`에 기록
+
+**사용 시나리오**:
+- 각인 적용 후에도 재발한 경우 (원칙 불충분)
+- 더 간결한 해결책 발견
+- 트리거 키워드 확장
+
+---
+
 ## 자동 메커니즘 (훅 연동)
 
-이 스킬의 수동 명령 외에도 두 가지 자동 메커니즘이 작동한다:
+이 스킬의 수동 명령 외에도 여러 자동 메커니즘이 작동한다:
 
 1. **SessionStart 훅** (`imprint-session-start.js`):
-   세션 시작 시 `.harness/active-imprints.md`를 자동 갱신. CLAUDE.md가 이 파일을 참조하므로 에이전트가 매 세션 상위 각인을 자동으로 인지.
+   세션 시작 시 `.harness/active-imprints.md`를 자동 갱신. 추가 기능:
+   - 30일 미리콜 + recall_count=0 각인 자동 decay
+   - 12개 초과 시 최하위 weight 자동 아카이브
+   - `imprints-archive.json` 자동 생성/병합
+   - `imprint-decay.log`에 변경 이력 기록
+   CLAUDE.md가 active-imprints.md를 참조하므로 에이전트가 매 세션 상위 각인을 자동으로 인지.
 
-2. **UserPromptSubmit 훅** (`imprint-prompt-match.js`):
+2. **UserPromptSubmit 훅** (`prompt-refiner.js`):
    사용자 입력에서 trigger_keywords를 매칭. 매칭 시 `[각인 IMP-XXX] 원칙: ...`을 stderr로 출력하여 에이전트에게 즉시 알림. recall_count 자동 증가.
+
+3. **원자적 쓰기 보장**:
+   모든 `imprints.json` 변경은 `.tmp.{timestamp}` 경유 rename으로 처리하여 중단 시에도 손상 방지.
 
 ---
 

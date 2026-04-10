@@ -59,6 +59,11 @@
             "type": "command",
             "command": "node .bkit/plugin/scripts/unified-write-post.js",
             "timeout": 5000
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/navigator-updater.js",
+            "timeout": 3000
           }
         ]
       },
