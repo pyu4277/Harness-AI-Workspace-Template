@@ -11,9 +11,8 @@ const path = require('path');
 const TIER_MAP = {
   'harness-architect':              { tier: 'S', command: '`/harness-architect init`', desc: '7단계 하네스 초기화 파이프라인' },
   'HWPX_Master':                    { tier: 'A', command: '자동 트리거', desc: '4-Track HWP/HWPX 문서 처리' },
-  'llm-wiki':                       { tier: 'A', command: '대화형 호출', desc: 'LLM Wiki 지식 관리 (Karpathy 3-layer)' },
+  'llm-wiki':                       { tier: 'A', command: '대화형 호출', desc: '지식 관리 + 세션 핸드오프 통합 (3-mode Ingest)' },
   'PaperResearch':                  { tier: 'A', command: '자동 트리거', desc: '학술 논문 자동 검색' },
-  'session-handoff':                { tier: 'A', command: '자동 트리거', desc: '지식 증류 + 분산 로깅' },
   'VisualCapture':                  { tier: 'A', command: '자동 트리거', desc: '3단계 시각 콘텐츠 파이프라인' },
   'auto-error-recovery':            { tier: 'B', command: '자동 트리거', desc: '4-phase 에러 복구 시스템' },
   'DocKit':                         { tier: 'B', command: '자동 트리거', desc: 'PDF/DOCX/PPTX 포맷 통합 처리' },

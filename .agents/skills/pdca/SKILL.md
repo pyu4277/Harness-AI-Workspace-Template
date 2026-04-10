@@ -553,7 +553,7 @@ Domain-specific skills should be referenced during each PDCA phase:
 | Do | `DocKit` | Output includes Word/PowerPoint/PDF documents |
 | Do | `VisualCapture` | Screen capture or visual annotation required |
 | Check | `mdGuide` | Markdown document quality validation |
-| Report | `session-handoff` | Session log and knowledge distillation |
+| Report | `llm-wiki` (Mode 2/3) | Session log, knowledge distillation, and next-session.md (integrated) |
 
 ### Domain-Specific Plan Considerations
 

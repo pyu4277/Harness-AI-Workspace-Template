@@ -12,7 +12,7 @@ description: |
   Triggers: 각인, imprint, 교훈 기록, 이거 기억해, 교훈, lesson learned,
   각인 기록, 각인 검색, 각인 통계
 
-  Do NOT use for: 단순 메모, 세션 로그(session-handoff 사용), 용어 정리(term-organizer 사용)
+  Do NOT use for: 단순 메모, 세션 로그(llm-wiki ingest Mode 2/3 사용), 용어 정리(term-organizer 사용)
 argument-hint: "[record|list|search|stats|decay|archive|edit] [키워드|ID]"
 user-invocable: true
 ---

@@ -278,12 +278,13 @@
     {
       "id": "IMP-018",
       "created": "2026-04-10T16:20:00Z",
+      "updated": "2026-04-11T07:00:00Z",
       "category": "process",
-      "trigger_keywords": ["세션 종료", "Warm Boot", "핸드오프", "다음 세션", "체크포인트", "next-session"],
+      "trigger_keywords": ["세션 종료", "Warm Boot", "핸드오프", "다음 세션", "체크포인트", "next-session", "지식화", "저장해줘", "대화 저장"],
       "situation": "장시간 다단계 세션(4세션 + 진화 + 위키 + 파일럿) 종료 시 맥락 손실 방지가 필요할 때",
-      "struggle": "세션 종료 후 재개 시 무엇을 먼저 읽어야 하는지 불명확. 미커밋 변경, 진행 중 작업, 사용자 피드백 대기 항목 등이 산재하여 컨텍스트 복원 비용이 큼",
-      "resolution": "단일 플래닝 문서(plans/*.md)를 세션 간 연속성 앵커로 활용. 종료 시 `.harness/next-session.md` 신규 생성하여 Warm Boot 진입점 명시. Step 단위 종료 체크리스트(IMP-018) + 재개 체크리스트 이중 구조",
-      "principle": "장시간 세션 종료 시 반드시 (1) 플래닝 문서 최신화 (2) .harness/next-session.md 진입점 생성 (3) session-handoff 로그 (4) 1st_Log.md 갱신. 다음 세션 첫 Read는 next-session.md부터",
+      "struggle": "세션 종료 후 재개 시 무엇을 먼저 읽어야 하는지 불명확. 미커밋 변경, 진행 중 작업, 사용자 피드백 대기 항목 등이 산재하여 컨텍스트 복원 비용이 큼. 과거에는 wiki/session-handoff/next-session을 개별 호출해야 하는 번거로움 존재",
+      "resolution": "2026-04-11 llm-wiki에 session-handoff + next-session.md 통합 흡수. 종료 시 `wiki ingest` Mode 2(핸드오프만) 또는 Mode 3(위키+핸드오프 통합, 권장)을 한 번 호출하면 (1) 위키 지식화 (2) 개별 로그 (3) 1st_Log.md (4) .harness/next-session.md 4종이 원자적으로 갱신됨. 다음 세션 첫 Read는 여전히 next-session.md부터",
+      "principle": "장시간 세션 종료 시 반드시 `llm-wiki ingest` Mode 2 또는 Mode 3 호출. 단일 진입점으로 3중 백업(위키/로그/next-session) 원자적 갱신. 플래닝 문서는 유지. 다음 세션 Warm Boot는 next-session.md → 1st_Log.md → 001_Wiki_AI 순서",
       "severity": "high",
       "recall_count": 0,
       "last_recalled": null

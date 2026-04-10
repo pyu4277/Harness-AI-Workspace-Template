@@ -1,8 +1,8 @@
 # llm-wiki -- Navigator
 
 > SYSTEM_NAVIGATOR 스타일 시각적 네비게이터
-> 최종 갱신: 2026-04-10 (Phase B 업그레이드)
-> Karpathy 3-layer + 3-operation 패턴 기반 LLM Wiki 지식 관리 스킬
+> 최종 갱신: 2026-04-11 (session-handoff 통합 + Mode Selector)
+> Karpathy 3-layer + 세션 핸드오프 통합 지식 관리 스킬
 
 ---
 
@@ -24,14 +24,23 @@
 - `:::warning` = 에러/차단/실패 블럭
 - `click NODE "#anchor"` = 블럭 상세 카드로 이동
 
-### 3-Operation 요약
+### 5-Operation 요약 + Ingest 3-Mode
 
 | 연산 | 목적 | 주요 Phase | 대표 트리거 |
 |------|------|-----------|-------------|
-| **Ingest** | 원본 → 위키 페이지 변환 | 0~7 (사전점검, 읽기, 분류, 생성, 바로가기, archive 이동, 인덱스 갱신, 연계) | "위키에 추가", "인제스트" |
-| **Query** | 위키 기반 질의응답 | 0~3 (인덱스, 검색, 종합, 로그) | "위키에서 검색", "Transformer 뭐야" |
-| **Lint** | 위키 건강 검사 | 1~3 (구조, 의미, 보고) | "위키 린트", "건강 검사" |
-| **Status** | 위키 현황 요약 | 단일 Phase | "위키 상태", "현황" |
+| **Ingest** | 원본 → 위키 + 세션 핸드오프 (Mode Selector) | Mode 1: 0~7 / Mode 2: A~D / Mode 3: 복합 | "위키에 추가", "저장해줘", "핸드오프", "지식화" |
+| **Update** | 정본 수정 + 바로가기 동기화 | 0~2 | "위키 수정" |
+| **Query** | 위키 기반 질의응답 | 0~3 (인덱스, 검색, 종합, 로그) | "위키에서 검색" |
+| **Lint** | 위키 건강 검사 | 1~3 (구조, 의미, 보고) | "위키 린트" |
+| **Status** | 위키 현황 요약 | 단일 Phase | "위키 상태" |
+
+**Ingest Mode Selector** (인자 없이 호출 시 번호 선택):
+
+| Mode | 이름 | 동작 | 권장 상황 |
+|:----:|------|------|----------|
+| **1** | Source only | 기존 원본 파일 → 위키 페이지 변환 (Phase 0~7) | Raw 파일이나 PDF를 위키에 추가 |
+| **2** | Session handoff only | 대화 증류 → 로그 + 1st_Log + next-session (Phase A~D) | 위키 지식화 없이 세션만 저장 |
+| **3** | Both (권장) | 대화 → 위키 concepts + source + 세션 핸드오프 | 세션 종료 시 3중 백업 |
 
 ---
 
@@ -52,18 +61,26 @@ flowchart TD
     UserChoice -.->|재감지| Phase_Neg1
 
     OpType{연산 유형?}
-    OpType -->|wiki ingest| IngestFlow[[Ingest 흐름]]
+    OpType -->|wiki ingest| ModeSel{Mode Selector<br/>1/2/3 선택}
     OpType -->|wiki query| QueryFlow[[Query 흐름]]
     OpType -->|wiki lint| LintFlow[[Lint 흐름]]
     OpType -->|wiki status| StatusFlow[[Status 흐름]]
     OpType -->|wiki update| UpdateFlow[[Update 흐름]]
 
-    IngestFlow --> Done
+    ModeSel -->|Mode 1<br/>Source only| Mode1[[Mode 1: 원본 파일<br/>Phase 0~7]]
+    ModeSel -->|Mode 2<br/>Handoff only| Mode2[[Mode 2: 세션 핸드오프<br/>Phase A~D]]
+    ModeSel -->|Mode 3<br/>Both 권장| Mode3[[Mode 3: 통합<br/>A+ + 1~6 + B~D]]
+
+    Mode1 --> Done
+    Mode2 --> Done
+    Mode3 --> Done
     QueryFlow --> Done
     LintFlow --> Done
     StatusFlow --> Done
     UpdateFlow --> Done
     Done([완료])
+
+    Done -.->|다음 세션 Warm Boot| Start
 
     click Start "#node-start"
     click Phase_Neg1 "#node-phase-neg1"
@@ -71,7 +88,10 @@ flowchart TD
     click CLIMode "#node-cli-mode"
     click FsMode "#node-fs-mode"
     click OpType "#node-op-type"
-    click IngestFlow "#ingest-상세"
+    click ModeSel "#node-mode-sel"
+    click Mode1 "#ingest-상세"
+    click Mode2 "#handoff-상세"
+    click Mode3 "#both-상세"
     click QueryFlow "#query-상세"
     click LintFlow "#node-lint-flow"
     click StatusFlow "#node-status-flow"
@@ -93,7 +113,7 @@ flowchart TD
 
 ---
 
-## 2. Ingest 상세 흐름도 (Phase 0~7) {#ingest-상세}
+## 2. Mode 1: Source Only 상세 흐름도 (Phase 0~7) {#ingest-상세}
 
 ```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
@@ -434,14 +454,129 @@ flowchart TD
 
 | 항목 | 내용 |
 |------|------|
-| 소속 | Ingest Phase 7 (마지막) |
+| 소속 | Mode 1 Phase 7 (마지막) |
 | 동기 | 신규 전문용어 발견 시 term-organizer로 자동 용어사전 등록. 지식 증류 누락 방지 |
-| 내용 | 신규 용어 감지 → term-organizer 스킬 호출. 세션 종료 시 session-handoff 연계 |
-| 동작 방식 | Skill 도구로 다른 스킬 호출 |
+| 내용 | 신규 용어 감지 → term-organizer 스킬 호출. 세션 종료 시 Mode 2/3으로 승격 권장 |
+| 동작 방식 | Skill 도구로 term-organizer 호출. 세션 핸드오프는 내장됨 (Mode 2/3) |
 | 상태 | [작동] |
-| 관련 파일 | `term-organizer` 스킬, `session-handoff` 스킬 |
+| 관련 파일 | `term-organizer` 스킬 |
 
 [다이어그램으로 복귀](#ingest-상세)
+
+---
+
+## 2.5. Mode 2: Session Handoff Only 상세 흐름도 (Phase A~D) {#handoff-상세}
+
+```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
+flowchart TD
+    H_Start([Mode 2 진입<br/>Session Handoff]):::io --> PA[Phase A<br/>Context Analysis]
+    PA --> PA1[대화 전체 스캔<br/>프로젝트 귀속 특정]
+    PA1 --> Multi{2개 이상<br/>프로젝트?}
+    Multi -->|No| Single[단일 프로젝트<br/>4요소 증류]
+    Multi -->|Yes| MultiProj[프로젝트별 Q&A 분리<br/>임시파일 N개]
+    Single --> QATemp[QA 임시파일 생성<br/>.tmp/qa_YYMMDD_*.md]
+    MultiProj --> QATemp
+
+    QATemp --> PB[Phase B<br/>handoff.py 호출]
+    PB --> Exec{node 우선<br/>시도?}
+    Exec -->|node OK| Run[python handoff.py<br/>via subprocess]
+    Exec -->|PATH 없음 IMP-002| Manual[AI 직접 Write<br/>Node 로직 수동 수행]:::warning
+    Run --> Log1[개별 로그 생성<br/>Projects/YYMMDD_*/Log/<br/>session_YYMMDD_HHMM.md]
+    Manual --> Log1
+    Log1 --> Log2[1st_Log.md<br/>대시보드 append]
+    Log2 --> Size{500줄<br/>초과?}
+    Size -->|Yes| Archive[docs/archive/<br/>자동 분할]
+    Size -->|No| PC
+    Archive --> PC[Phase C<br/>next-session.md 갱신<br/>IMP-018]
+
+    PC --> NSContent[이전 세션 정보<br/>성과 / 상태<br/>다음 작업 선택지<br/>Warm Boot 체크리스트]
+    NSContent --> NSWrite[atomicWriteWithBackup<br/>.bak 자동 생성]
+    NSWrite --> PD[Phase D<br/>완료 보고]
+
+    PD --> Cleanup[임시파일 정리<br/>.tmp/qa_*.md 삭제]
+    Cleanup --> Report[생성 파일 경로 요약<br/>+ 각인 후보 출력]
+    Report --> H_Done([Mode 2 완료]):::io
+
+    H_Done -.->|다음 세션 Warm Boot| Start([첫 Read:<br/>next-session.md])
+
+    classDef warning fill:#fee,stroke:#c00,stroke-width:2px
+    classDef io fill:#eef,stroke:#338,stroke-width:2px
+
+    click H_Start "#node-h-start"
+    click PA "#node-pa"
+    click PA1 "#node-pa-scan"
+    click Multi "#node-h-multi"
+    click QATemp "#node-qa-temp"
+    click PB "#node-pb"
+    click Exec "#node-exec-check"
+    click Run "#node-run"
+    click Manual "#node-manual-fallback"
+    click Log1 "#node-log1"
+    click Log2 "#node-log2"
+    click Size "#node-size"
+    click Archive "#node-archive"
+    click PC "#node-pc"
+    click NSContent "#node-ns-content"
+    click NSWrite "#node-ns-write"
+    click PD "#node-pd"
+    click Cleanup "#node-cleanup"
+    click Report "#node-report"
+```
+
+**동기**: 세션 종료 시점에 위키 지식화 없이도 시간순 로그 + 진입점을 원자적으로 갱신해야 할 때 사용. Mode 3의 서브셋이며, 빠른 저장에 적합.
+
+[맨 위로](#범례--사용법)
+
+---
+
+## 2.6. Mode 3: Both (통합 세션 종료) 상세 흐름도 {#both-상세}
+
+```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
+flowchart TD
+    B_Start([Mode 3 진입<br/>Both 통합]):::io --> BPA[Phase A<br/>Context Analysis<br/>Mode 2와 동일]
+    BPA --> BAPlus[Phase A+<br/>재사용 개념 후보 식별]
+    BAPlus --> Extract[3-5개 concept 선정<br/>설계 패턴/워크플로우/표준]
+
+    Extract --> Wiki[Mode 1 Phase 1~6<br/>재사용]
+    Wiki --> W1[Phase 1: 기존 위키 탐색<br/>중복 방지]
+    W1 --> W2[Phase 2: 3축 분류<br/>KDC + 신뢰도 + 맥락]
+    W2 --> W3[Phase 3: concept 페이지 N개<br/>+ source 페이지 1개]
+    W3 --> W4[Phase 4: 바로가기 필요 여부]
+    W4 --> W5[Phase 5 SKIP<br/>대화는 원본 파일 없음]:::info
+    W5 --> W6[Phase 6: index.md + log.md<br/>갱신]
+
+    W6 --> BPB[Phase B<br/>handoff.py 호출<br/>Mode 2와 동일]
+    BPB --> BPC[Phase C<br/>next-session.md<br/>Mode 2와 동일]
+    BPC --> BPD[Phase D<br/>3중 백업 결과 요약]
+
+    BPD --> Triple[위키 concepts/sources<br/>+ 세션 로그<br/>+ next-session.md]
+    Triple --> B_Done([Mode 3 완료<br/>3중 백업 완성]):::io
+
+    B_Done -.->|다음 세션 Warm Boot<br/>3단 복원| Start([1. next-session.md<br/>2. 1st_Log.md<br/>3. 001_Wiki_AI])
+
+    classDef info fill:#eef,stroke:#66a,stroke-width:1px
+    classDef io fill:#eef,stroke:#338,stroke-width:2px
+
+    click B_Start "#node-b-start"
+    click BPA "#node-pa"
+    click BAPlus "#node-a-plus"
+    click Extract "#node-extract"
+    click Wiki "#node-wiki-reuse"
+    click W3 "#node-w3"
+    click W5 "#node-w5-skip"
+    click W6 "#node-w6"
+    click BPB "#node-pb"
+    click BPC "#node-pc"
+    click BPD "#node-bpd"
+    click Triple "#node-triple"
+    click B_Done "#node-b-done"
+```
+
+**동기**: 세션 종료 시 한 번의 호출로 3중 백업(재사용 지식 + 시간순 로그 + 다음 세션 진입점) 완성. 사용자가 매번 session-handoff, next-session, llm-wiki를 따로 부를 필요를 제거.
+
+[맨 위로](#범례--사용법)
 
 ### Query 진입 {#node-query-start}
 
@@ -563,6 +698,149 @@ flowchart TD
 | 상태 | [작동] |
 
 [다이어그램으로 복귀](#전체-체계도)
+
+### Mode Selector 분기 {#node-mode-sel}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Ingest 진입 직전 결정 블럭 |
+| 동기 | 기존 `wiki ingest`가 원본 파일 인제스트만 지원했으나, 사용자가 매 세션 세 개의 지식 보존 호출(wiki + session-handoff + next-session)을 개별적으로 해야 하는 비용 발생 → 하나의 진입점으로 통합 |
+| 내용 | 번호 1/2/3 선택 UI 또는 `--mode=source\|handoff\|both` 인자 기반 분기 |
+| 동작 방식 | 인자 없으면 AskUserQuestion으로 대화형, 있으면 직접 라우팅 |
+| 상태 | [작동] -- 2026-04-11 도입 |
+| 관련 파일 | `.agents/skills/llm-wiki/SKILL.md` (Operations 섹션) |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### Mode 2 진입: Session Handoff Only {#node-h-start}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 2 진입점 |
+| 동기 | 위키 지식화 없이 단순히 세션 로그 + 1st_Log + next-session만 갱신하고 싶을 때 (빠른 저장) |
+| 내용 | 기존 session-handoff 스킬의 모든 기능이 이 Mode로 내장됨 |
+| 동작 방식 | Phase A → B → C → D 순차 실행 |
+| 상태 | [작동] -- 2026-04-11 통합 |
+| 관련 파일 | `.agents/skills/llm-wiki/scripts/handoff.py` (이동) |
+
+[다이어그램으로 복귀](#handoff-상세)
+
+### Phase A: Context Analysis (대화 증류) {#node-pa}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 2/3 공통 Phase A |
+| 동기 | 시행착오를 제거하고 Goal/Actions/Result/Next Steps 4요소만 추출해야 다음 세션에서 재활용 가능 |
+| 내용 | 대화 전체 스캔 → 프로젝트 귀속 특정 → 4요소 도출 → QA 임시파일 생성 |
+| 동작 방식 | LLM 기반 대화 분석 + 다중 프로젝트 자동 분리 |
+| 상태 | [작동] |
+| 관련 파일 | `.tmp/qa_*.md` (임시) |
+
+[다이어그램으로 복귀](#handoff-상세)
+
+### Phase B: handoff.py 호출 (node 우선) {#node-pb}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 2/3 Phase B |
+| 동기 | AI가 1st_Log.md를 직접 편집하면 충돌/포맷 오류 가능성. 검증된 스크립트 경유. Python PATH 미보장(IMP-002) 환경에서도 동작해야 함 |
+| 내용 | handoff.py에 4요소 + QA 임시파일 경로 전달 → 개별 로그 + 1st_Log + 500줄 archive 원자적 수행 |
+| 동작 방식 | node 우선 시도 → python 대체 → 실패 시 AI 직접 Write |
+| 상태 | [부분] -- Python 의존성으로 인해 Node 포팅 필요 (IMP-021 후보) |
+| 관련 파일 | `.agents/skills/llm-wiki/scripts/handoff.py` |
+
+[다이어그램으로 복귀](#handoff-상세)
+
+### IMP-002 폴백: AI 직접 수동 수행 {#node-manual-fallback}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Phase B 복구 경로 (ISO 5807 Error Handling) |
+| 동기 | Windows에서 `python` PATH 미보장 시 handoff.py 실행 실패. 사용자 작업 중단 방지 필요 |
+| 내용 | AI가 Read → Write 순서로 handoff.py의 로직을 직접 재현 (session_*.md 생성 + 1st_Log append + 500줄 체크) |
+| 동작 방식 | Node Write 도구 기반 원자적 쓰기. atomicWriteWithBackup 재사용 가능 |
+| 상태 | [작동] -- 2026-04-11 세션에서 실측 |
+| 관련 파일 | `handoff.py` 참조 구현 + `navigator-updater-helpers.js` |
+
+[다이어그램으로 복귀](#handoff-상세)
+
+### Phase C: next-session.md 갱신 (IMP-018) {#node-pc}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 2/3 Phase C |
+| 동기 | 다음 세션 Warm Boot 시 첫 Read가 이 파일이어야 맥락 즉시 복원 가능. IMP-018 구조적 강제 |
+| 내용 | 템플릿: 이전 세션 정보 / 성과 / 현재 상태 / 다음 작업 선택지 / Warm Boot 체크리스트 / 각인 후보 |
+| 동작 방식 | `atomicWriteWithBackup` 사용 → .bak 자동 생성 |
+| 상태 | [작동] |
+| 관련 파일 | `.harness/next-session.md`, `.claude/hooks/navigator-updater-helpers.js` |
+
+[다이어그램으로 복귀](#handoff-상세)
+
+### Phase D: 완료 보고 + 임시파일 정리 {#node-pd}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 2/3 Phase D (마지막) |
+| 동기 | 사용자에게 3중 백업 결과를 명확히 보여주고 임시파일 누적 방지 |
+| 내용 | session_*.md + 1st_Log 엔트리 + next-session.md 경로 요약 + `.tmp/qa_*.md` 삭제 |
+| 동작 방식 | Markdown 요약 출력 + Bash rm |
+| 상태 | [작동] |
+| 관련 파일 | 없음 |
+
+[다이어그램으로 복귀](#handoff-상세)
+
+### Mode 3 진입: Both (통합 세션 종료) {#node-b-start}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 3 진입점 (권장 기본) |
+| 동기 | 사용자가 매 세션 종료 시 위키 지식화 + 로그 + 진입점 세 가지를 모두 원하지만 한 번의 호출로 처리하고 싶어함 |
+| 내용 | Phase A → A+ (개념 식별) → Mode 1 Phase 1~6 (위키 ingest) → Phase B → C → D 복합 실행 |
+| 동작 방식 | Mode 2 + Mode 1 재사용 파이프라인 |
+| 상태 | [작동] -- 2026-04-11 통합 |
+| 관련 파일 | `.agents/skills/llm-wiki/SKILL.md`, `handoff.py` |
+
+[다이어그램으로 복귀](#both-상세)
+
+### Phase A+: 재사용 개념 후보 식별 {#node-a-plus}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 3 전용 Phase A+ |
+| 동기 | 대화의 모든 내용이 위키에 가치 있지 않음. 프로젝트 특수 내용과 재사용 가능한 보편 개념을 분리해야 위키 노이즈 방지 |
+| 내용 | 설계 패턴, 워크플로우, 표준 매핑, 방법론 등 3-5개 concept 후보 선정 |
+| 동작 방식 | LLM 판단 + 기존 위키 Glob/Grep으로 중복 방지 |
+| 상태 | [작동] |
+| 관련 파일 | 기존 위키 전체 |
+
+[다이어그램으로 복귀](#both-상세)
+
+### Mode 3 Phase 5 SKIP: 대화는 Raw 원본 없음 {#node-w5-skip}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 3 내 Mode 1 Phase 5 변형 |
+| 동기 | Mode 1은 물리 파일 원본을 archive로 이동하지만, Mode 3 (대화 기반)은 원본이 없음 |
+| 내용 | Raw archive 이동 스킵. `raw_source` 필드는 `Projects/YYMMDD_*/Log/session_*.md`를 가리킴 |
+| 동작 방식 | Phase 5 건너뜀 + raw_source 경로 변경 |
+| 상태 | [작동] |
+| 관련 파일 | 세션 로그 파일 |
+
+[다이어그램으로 복귀](#both-상세)
+
+### Mode 3 완료: 3중 백업 {#node-b-done}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | Mode 3 종료점 |
+| 동기 | 하나의 호출로 지식 보존의 3가지 계층 모두 갱신 완료 확인 |
+| 내용 | (1) 위키 concepts N개 + source 1개, (2) 개별 세션 로그 + 1st_Log, (3) next-session.md |
+| 동작 방식 | 3중 백업 결과를 Markdown 표로 출력 |
+| 상태 | [작동] |
+| 관련 파일 | 전체 |
+
+[다이어그램으로 복귀](#both-상세)
 
 </details>
 
@@ -742,5 +1020,10 @@ archive 보관: 2개 원본 (SYSTEM_NAVIGATOR, ISO-5807)"
 |  | ISO 5807 기호 준수, 22 블럭 카드, click 네비게이션, AUTO 마커 | |
 |  | IMP-017 Phase 5 Raw archive 이동 신규 반영 | |
 |  | 피드백 루프 3개 추가 (Phase 0 재진입, Data Missing, 답변 불가) | |
+| 2026-04-11 | **session-handoff 스킬 통합** | 사용자 요청 |
+|  | Ingest에 Mode Selector 3모드 추가 (Source/Handoff/Both) | |
+|  | handoff.py 이동 (`session-handoff/scripts/` → `llm-wiki/scripts/`) | |
+|  | Mode 2/3 상세 흐름도 2개 Mermaid 추가 + 블럭 카드 11개 신규 | |
+|  | Warm Boot 피드백 루프 (다음 세션 진입점) 추가 | |
 
 [맨 위로](#범례--사용법)

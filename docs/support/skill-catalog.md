@@ -18,11 +18,10 @@
 | "파일명 정리", "파일 이름 바꿔줘" | `FileNameMaking` | 시맨틱 평가 후 일괄 변경 |
 | "스크린샷", "화면 캡처", "에러 캡처" | `VisualCapture` | 캡처 + 주석 + Vision 분석 보고서 |
 | "전문용어 정리", "용어 추가" | `term-organizer` | 용어사전.md 관리 |
-| 세션 종료, "저장해줘", "핸드오프", "/handoff" | `session-handoff` | 지식 증류 + 로그 저장 |
 | "스킬 만들어줘", "ServiceMaker" | `ServiceMaker` | 9단계 개발 + CLAUDE.md 자동 등록 |
 | "마크다운 검사", "md 오류", "mdGuide" | `mdGuide` | Zero-Defect MD 린팅 |
 | "하네스", "프로젝트 초기화", "harness" | `harness-architect` | 하네스 4기둥 프로젝트 초기화 |
-| "위키", "wiki", "인제스트", "지식 정리", "지식베이스" | `llm-wiki` | Ingest/Query/Lint 자동 판별 후 실행 |
+| "위키", "wiki", "인제스트", "지식 정리", "지식베이스", "저장해줘", "핸드오프", "지식화", "체크포인트" | `llm-wiki` | 통합 스킬: Ingest(3-mode: Source/Handoff/Both) + Query/Lint/Update/Status. Mode 2/3에서 session-handoff + next-session.md 자동 갱신 |
 | "각인", "imprint", "교훈", "/imprint" | `harness-imprint` | 각인 기록/검색/통계 + decay/archive/edit |
 
 ## bkit 로컬 스킬 (8개)
@@ -87,13 +86,13 @@
 | Do | `HWPX_Master` | 산출물이 한글 문서 형식 시 |
 | Do | `DocKit` | 산출물이 Word/PowerPoint/PDF 형식 시 |
 | Check | `mdGuide` | 마크다운 문서 품질 검증 |
-| Report | `session-handoff` | 세션 로그/지식 증류 |
+| Report | `llm-wiki` (Mode 2/3) | 세션 로그 + 지식 증류 + next-session 통합 |
 
 ## 스킬 Tier 분류
 
 | Tier | 스킬 목록 | 특징 |
 |:---|:---|:---|
-| Tier-A (스크립트 포함) | HWPX_Master, DocKit, PaperResearch, VisualCapture, session-handoff, auto-error-recovery, ServiceMaker, llm-wiki | Navigator.md 필수 |
+| Tier-A (스크립트 포함) | HWPX_Master, DocKit, PaperResearch, VisualCapture, auto-error-recovery, ServiceMaker, llm-wiki (session-handoff 통합) | Navigator.md 필수 |
 | Tier-B (순수 프롬프트) | PromptKit, Mermaid_FlowChart, FileNameMaking, mdGuide, term-organizer, harness-imprint | SKILL.md 인라인 |
 | Tier-C (bkit 프레임워크) | pdca, bkit-rules, bkit-templates, plan-plus, development-pipeline, code-review, zero-script-qa, btw | bkit 런타임 연동 |
 | Tier-S (하네스 메타) | harness-architect | 프로젝트 하네스 설계 |

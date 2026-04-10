@@ -1,19 +1,22 @@
 ---
 name: llm-wiki
 classification: workflow
-classification-reason: "3-operation orchestration (Ingest/Query/Lint) across cross-project boundary (005 -> 001_Wiki_AI)"
+classification-reason: "Integrated knowledge management + session handoff orchestration across cross-project boundary (005 -> 001_Wiki_AI)"
 deprecation-risk: none
 description: |
-  LLM Wiki 지식 관리 스킬. Karpathy 3-layer(Raw/Wiki/Schema) + 3-operation(Ingest/Query/Lint) 패턴.
-  Claude Code가 위키 에이전트로서 마크다운 위키를 점진적으로 구축/유지합니다.
+  LLM Wiki 지식 관리 + 세션 핸드오프 통합 스킬.
+  Karpathy 3-layer(Raw/Wiki/Schema) 위에 세션 컨텍스트 증류를 결합.
+  Claude Code가 위키 에이전트로서 마크다운 위키 구축 + 세션 지식 보존을 동시 수행합니다.
   WIKI_ROOT: ../001_Wiki_AI (PROJECT_ROOT 기준 상대경로)
 
   Triggers: 위키, wiki, 인제스트, ingest, 위키 검색, wiki query,
-  위키 린트, wiki lint, 지식 정리, 지식베이스, knowledge base, 위키에 추가
+  위키 린트, wiki lint, 지식 정리, 지식베이스, knowledge base, 위키에 추가,
+  저장해줘, 핸드오프, handoff, 세션 저장, 기록해줘, 지식화, 대화 저장,
+  체크포인트, Warm Boot, next-session, 다음 세션
 
   Do NOT trigger for: 단순 파일 검색(Glob/Grep), 용어사전(term-organizer),
-  세션 로그(session-handoff), 각인(harness-imprint)
-argument-hint: "[ingest|query|lint|status] [source-path|query-text]"
+  각인(harness-imprint)
+argument-hint: "[ingest|update|query|lint|status] [--mode=source|handoff|both] [source-path|query-text]"
 user-invocable: true
 allowed-tools:
   - Read
@@ -129,7 +132,31 @@ node .agents/skills/llm-wiki/scripts/obsidian-detect.js "001_Wiki_AI"
 
 ## Operations
 
-### wiki ingest [source-path]
+### wiki ingest [--mode=MODE] [source-path]
+
+통합 지식화 스킬. **Mode Selector**로 3가지 목적을 하나의 진입점에서 처리한다.
+
+**Mode Selector**:
+
+인자 없이 호출하면 사용자에게 번호 선택 UI 제공:
+
+```
+어떤 작업을 수행할까요?
+1) Source only -- 원본 파일 → 위키 페이지 인제스트만 (기존 방식)
+2) Session handoff only -- 대화 증류 + Projects/Log + 1st_Log + next-session.md
+3) Both (권장) -- 대화를 위키 지식화 + 세션 핸드오프 동시 수행
+```
+
+직접 지정도 가능:
+- `wiki ingest --mode=source <source-path>` -- Mode 1 강제
+- `wiki ingest --mode=handoff` -- Mode 2 강제
+- `wiki ingest --mode=both` -- Mode 3 강제
+
+각 모드는 아래 세부 Phase 순서를 따른다.
+
+---
+
+### Mode 1: Source Only (기존 파일 인제스트)
 
 원본 문서를 읽고 위키 페이지로 변환한다.
 
@@ -176,7 +203,77 @@ node .agents/skills/llm-wiki/scripts/obsidian-detect.js "001_Wiki_AI"
 
 **Phase 7 -- 연계 스킬**
 - 신규 전문용어 발견 시: term-organizer 연계
-- 세션 종료 시: session-handoff에 위키 연산 요약 포함
+- 세션 종료 시: 내장된 Mode 2/3으로 자동 승격 가능 (사용자가 요청 시)
+
+---
+
+### Mode 2: Session Handoff Only (대화 증류 + 로그)
+
+현재 대화 컨텍스트를 증류하여 세션 로그 + 1st_Log 대시보드 + next-session.md 진입점을 원자적으로 갱신한다. 위키 concept/source 페이지는 생성하지 않는다.
+
+**Phase A -- Context Analysis (대화 증류)**
+- 현재 대화 전체를 스캔하여 프로젝트 귀속 특정 (단일 또는 다중)
+- 4요소 도출: **Goal / Actions / Result / Next Steps**
+- Q&A 쌍을 `<details><summary>` 형식으로 임시 파일 생성 (`.tmp/qa_*.md`)
+- 다중 프로젝트 감지 시 프로젝트별 Q&A 분리 + 임시 파일 N개
+
+**Phase B -- handoff.py 호출**
+- 경로: `.agents/skills/llm-wiki/scripts/handoff.py`
+- 호출 시도 순서: **node 우선 확인 후 python** (IMP-002 준수). Windows에서 python PATH 미보장 시 AI가 직접 로직을 Node/Write로 수행하는 대체 경로 사용
+- 자동 작업:
+  - `Projects/YYMMDD_*/Log/session_YYMMDD_HHMM.md` 생성 (개별 로그)
+  - `docs/LogManagement/1st_Log.md` 대시보드 업데이트 (하이퍼링크 포함)
+  - 500줄 초과 시 `docs/archive/`로 자동 분할
+- 다중 프로젝트 시 handoff.py 순차 호출 (병렬 금지, 쓰기 경쟁 방지)
+
+```bash
+# node 우선
+node -e "require('child_process').execSync('python .agents/skills/llm-wiki/scripts/handoff.py ...', {stdio:'inherit'})"
+
+# 또는 직접
+python ".agents/skills/llm-wiki/scripts/handoff.py" \
+  "Projects/YYMMDD_이름" "<Goal>" "<Actions>" "<Result>" "<Next>" "<QA임시파일경로>"
+```
+
+**Phase C -- .harness/next-session.md 갱신 (IMP-018)**
+- 템플릿 구성: 이전 세션 정보 / 이번 세션 성과 / 현재 시스템 상태 / 다음 작업 선택지 / Warm Boot 체크리스트 / 각인 후보
+- `atomicWriteWithBackup` 사용 (helpers.js 재사용) -- .bak 자동 생성
+- 구조적 강제: 세션 종료 시 이 파일 갱신이 누락되면 하네스 위반
+
+**Phase D -- 완료 보고 + 임시파일 정리**
+- 생성/갱신된 파일 경로 요약 (session_*.md, 1st_Log.md, next-session.md)
+- `.tmp/qa_*.md` 삭제
+- IMP-019 후보 등 발견된 각인 기록 권장 사항 출력
+
+---
+
+### Mode 3: Both (통합 세션 종료, 권장 기본)
+
+대화 증류 → 재사용 가능한 개념을 위키에 ingest → 세션 핸드오프를 순차적으로 수행. 세션 종료 시 하나의 호출로 3중 백업(위키 / 로그 / next-session) 완성.
+
+**Phase A -- Context Analysis** (Mode 2와 동일)
+- 4요소 도출 + QA 임시파일
+
+**Phase A+ -- 재사용 개념 후보 식별**
+- 증류 결과에서 프로젝트 특수 내용과 재사용 가능한 보편 개념 분리
+- 재사용 후보 예: 설계 패턴, 워크플로우, 표준 매핑, 방법론
+- 3-5개 정도가 적절. 너무 많으면 위키 노이즈
+
+**Phase 1-6 -- Wiki Ingest** (Mode 1의 Phase 1-6 재사용)
+- 각 재사용 개념마다 concept 페이지 생성
+- 세션 전체 기록은 source 페이지 1개로 묶음 (`500_Technology/sources/YYMMDD_<session_theme>_V001.md`)
+- `raw_source` 필드는 `Projects/YYMMDD_*/Log/session_YYMMDD_HHMM.md` 경로를 가리킴 (Raw archive 이동 생략 -- 대화에는 물리 원본 없음)
+- index.md + log.md 갱신
+
+**Phase B -- handoff.py 호출** (Mode 2와 동일)
+
+**Phase C -- next-session.md 갱신** (Mode 2와 동일)
+
+**Phase D -- 완료 보고 + 임시파일 정리**
+- 3중 백업 결과 요약:
+  - 위키 concepts/sources: N개 경로
+  - 세션 로그 + 1st_Log 엔트리
+  - next-session.md 진입점
 
 ### wiki update [page-path]
 
@@ -270,11 +367,13 @@ node .agents/skills/llm-wiki/scripts/wiki-lint.js "../001_Wiki_AI"
 
 | 연계 스킬 | 시점 | 조건 |
 |:---|:---|:---|
-| term-organizer | Ingest 완료 | 신규 전문용어 발견 시 |
+| term-organizer | Ingest (Mode 1/3) 완료 | 신규 전문용어 발견 시 |
 | PaperResearch | Pre-Ingest | 학술 검색 결과를 000_Raw/papers/에 저장 |
-| session-handoff | 연산 종료 | 위키 연산 요약을 세션 로그에 포함 |
 | mdGuide | Ingest/Lint | 위키 페이지 마크다운 품질 검증 |
 | Mermaid_FlowChart | Analysis 생성 | 관계도 시각화 |
+| harness-imprint | Mode 2/3 Phase D | 세션 중 발견된 각인 후보 기록 권장 |
+
+> 세션 핸드오프는 Mode 2/3에 내장되었으므로 별도 스킬 연계 불필요.
 
 ## Constraints
 
@@ -283,3 +382,11 @@ node .agents/skills/llm-wiki/scripts/wiki-lint.js "../001_Wiki_AI"
 - 컨텍스트 사용량 40% 이하 유지 (Query 시 최대 5 페이지)
 - 이모티콘 금지
 - 절대경로 금지
+
+### Session Handoff (Mode 2/3) 전용 제약
+
+- `docs/LogManagement/1st_Log.md` AI 직접 편집 금지 -- 반드시 `handoff.py` 경유 (node 또는 python)
+- 다중 프로젝트 시 handoff.py 순차 호출 의무 (병렬 금지)
+- 다중 프로젝트 내용을 하나의 로그에 병합 금지
+- Phase C (next-session.md 갱신) 누락 시 IMP-018 위반
+- Python PATH 미보장 환경(IMP-002)에서는 node 우선 시도 후 AI가 직접 로직 수행
