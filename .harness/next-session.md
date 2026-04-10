@@ -3,11 +3,30 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
-## 이전 세션 정보 (2026-04-10 ~ 2026-04-11 Phase 3)
+## 이전 세션 정보 (2026-04-11 옵션 D 완료)
 
-- **세션 시작**: 2026-04-10 (Warm Boot)
-- **세션 종료**: 2026-04-11 (Phase 3 완료)
-- **프로젝트**: 260410_Harness_Evolution (Navigator Phase 3 -- Tier-A 완주)
+- **세션 시작**: 2026-04-11 (Warm Boot, Phase 3 직후 이어짐)
+- **세션 종료**: 2026-04-11 (옵션 D: commit + 안정화 완료)
+- **프로젝트**: 260410_Harness_Evolution (Navigator Phase 3 + 커밋 안정화)
+
+## 이번 세션 (옵션 D) 성과
+
+38개 미커밋 파일을 6개 의미 단위 커밋으로 분류 완료. Working tree 깨끗함.
+
+### 커밋 히스토리 (신규 6개)
+
+| 커밋 | 타입 | 요약 |
+|------|------|------|
+| `a1ccd56` | feat | Navigator 시스템 -- 살아있는 시스템 거울 (Phase 1-3). 6개 Navigator + scaffold 도구 + SYSTEM_NAVIGATOR.md. 10 files, +8478 -338 |
+| `4228d9b` | feat | 각인 시스템 진화 -- IMP-013~018 + 훅 강화. 7 files, +372 -41 |
+| `60c59db` | feat(llm-wiki) | Raw 레이어 정책 재정의 + lint 안정화. 2 files, +35 -6 |
+| `ed8c3d5` | docs | 거버넌스 + 용어사전 + 세션 로그 갱신. 7 files, +100 -11 |
+| `09a7207` | feat | 보안 템플릿 분리 + .bak 제외 (IMP-015). 3 files, +104 |
+| `8cd33ee` | chore | 세션 핸드오프 + 3rd-party 스킬 잠금. 13 files |
+
+### `.gitignore` 추가
+
+- `*.bak` -- atomicWriteWithBackup 및 scaffold 도구 백업 파일 전역 제외
 
 ## 이번 세션 주요 성과
 
@@ -79,42 +98,35 @@ Phase 3에서 추가로 변경/생성된 파일:
 
 ## 다음 세션 작업 선택지
 
-Phase 3까지 완료되어 Tier-S/A 커버리지 100%. 다음 진화 방향 선택 필요:
+옵션 D (commit + 안정화)까지 완료. 남은 권장 순서: **B → A → C**.
 
-### 옵션 A: Tier-B/C 확장 (기존 방식 연장)
-
-- 대상: term-organizer, auto-error-recovery, cross-validation-spell 등
-- 각 스킬 ~30분, scaffold 도구로 속도 향상 기대
-- 예상: 세션당 3-4개 가능
-
-### 옵션 B: Scaffold 도구 고도화 (IMP-019 실행)
+### 옵션 B: Scaffold 도구 고도화 (IMP-019 실행) -- 다음 권장
 
 - **IMP-019 후보**: 섹션명 변형 대응
-  - "공통 주의사항" / "주의사항" / "Notes" 등 변형 섹션명 정규식 확장
+  - "공통 주의사항" / "주의사항" / "Notes" / "Constraints" 등 변형 섹션명 정규식 확장
   - `extractPreservedSections` 함수 개선
 - **추가 개선**:
   - linear 기본값 → operation/dispatcher 구조 자동 감지 향상
-  - Mermaid 템플릿 패턴별 분리 (Track/Linear/Branching/Conditional)
+  - Mermaid 템플릿 패턴별 분리 (Track/Linear/Branching/Conditional 4종)
+  - 블럭 카드 "동기/동작 방식" 자동 추론 (SKILL.md 본문 기반 LLM 추론)
+- **예상 시간**: 60-90분
+
+### 옵션 A: Tier-B/C 확장 (scaffold 고도화 후)
+
+- 대상: term-organizer, auto-error-recovery, cross-validation-spell 등
+- IMP-019 적용 후 각 스킬 ~20분 (scaffold 자동화 향상 덕분)
+- 예상: 세션당 4-5개 가능
 
 ### 옵션 C: Wiki/지식 베이스 통합 강화
 
 - llm-wiki ↔ Navigator 양방향 참조 자동화
 - 세션 간 "살아있는 거울" 자동 동기화
-- SYSTEM_NAVIGATOR.md 재생성 (6개 Navigator를 상위 레벨에 집계)
+- SYSTEM_NAVIGATOR.md 재생성 (6개 Navigator를 상위 레벨에 집계, 현재 수동)
 
-### 옵션 D: git commit + 안정화
+### 참고: 옵션 D -- 완료 (2026-04-11)
 
-- 미커밋 35개 파일 분류 커밋
-- ADR 추가 (Navigator 스타일 채택 결정)
-- 테스트 확장 (pre-tool-guard 통합 테스트)
-
-### 권장 순서
-
-1. **먼저 옵션 D** (commit + 안정화): 대규모 변경을 고정
-2. **그다음 옵션 B** (IMP-019): 향후 Tier-B/C 확장을 위한 기반
-3. **마지막 옵션 A** (Tier-B/C): scaffold 고도화 후 빠르게 확장
-
-사용자 피드백 수집 후 확정.
+- 38개 미커밋 파일 6개 커밋으로 분류 완료
+- Working tree clean
 
 ---
 
@@ -168,12 +180,12 @@ node .claude/hooks/generate-navigator-cli.js --help
 ## 다음 세션 시작 명령어 제안
 
 ```
-세션 재개. .harness/next-session.md 읽고 다음 작업 옵션 브리핑해줘.
+세션 재개. .harness/next-session.md 읽고 옵션 B (IMP-019 scaffold 고도화) 준비해줘.
 ```
 
-또는 바로 특정 옵션 지정:
+또는 다른 옵션:
 ```
-옵션 B 시작. IMP-019 (섹션명 변형 대응) scaffold 도구 고도화.
+옵션 A 시작. Tier-B 스킬 Navigator 확장.
 ```
 
 ---
