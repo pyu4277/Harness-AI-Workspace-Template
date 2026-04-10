@@ -288,11 +288,37 @@
       "severity": "high",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-019",
+      "created": "2026-04-11T08:00:00Z",
+      "category": "tooling",
+      "trigger_keywords": ["scaffold", "navigator", "섹션명", "extractPreservedSections", "patterns", "Mermaid 템플릿", "공통 주의사항"],
+      "situation": "navigator-updater-helpers.js의 scaffold 도구가 Tier-A 6개 스킬에 적용될 때, 원본 SKILL.md/Navigator의 제약사항 섹션이 '제약사항' 단독 헤더가 아닌 '공통 주의사항', '금지 사항' 등 변형명으로 존재하면 extractPreservedSections가 인식하지 못해 보존 실패. 또한 processType 무관하게 모든 Mermaid placeholder가 generic Start→TODO→End 뼈대여서 Track/Linear/Conditional 등 실제 구조에 맞지 않음. 블럭 카드 TODO도 '(TODO: 수동 작성)' 하드코딩으로 LLM이 채울 컨텍스트 부족",
+      "struggle": "Phase 3 Tier-A 3개 확장 중 3회 연속 수동 복원 필요. scaffold 결과를 Write로 덮어쓰기 전에 원본 Navigator의 제약/시나리오 섹션을 수동 복사해야 했음. Mermaid 다이어그램은 scaffold 결과를 거의 버리고 처음부터 재설계. 블럭 카드는 각 섹션마다 동기/동작 방식을 수동으로 SKILL.md에서 찾아 작성",
+      "resolution": "2026-04-11 Option B 고도화: (a) SECTION_PATTERNS 상수 분리 + 변형명 확장 (공통 주의사항/주의사항/금지 사항/Constraints/Notes/Limitations 등 정규식 통합), (b) generateMermaidTemplateByPattern 신규 함수로 4종 패턴 (Track decision tree / Linear pipeline / Branching+Phase / Conditional Step) 자동 생성, (c) extractContextAroundKeyword + inferBlockCardHints 결정론적 힌트 추론 (LLM 호출 없이 키워드 기반 문장 추출). Dogfood: term-organizer scaffold 생성 시 Linear Pipeline 자동 + 블럭 카드 힌트 작동 확인",
+      "principle": "scaffold는 뼈대가 아닌 '80% 완성형'을 목표로 한다. 정규식은 실측 데이터 기반으로 확장하고, 템플릿은 processType별로 분기하며, 힌트는 결정론적으로 본문에서 추출. LLM 후속 정제는 남은 20%만 담당",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-020",
+      "created": "2026-04-11T08:00:00Z",
+      "category": "tooling",
+      "trigger_keywords": ["scaffold", "Write", "Edit", "linter", "exact match", "덮어쓰기", "navigator 풍부화"],
+      "situation": "scaffold 도구(generate-navigator-cli.js)로 Navigator 기본 뼈대 생성 후 사용자가 수동으로 Mermaid 다이어그램과 블럭 카드 세부 내용을 풍부화할 때, Edit의 exact match가 반복적으로 실패하여 부분 수정 불가능",
+      "struggle": "Phase 3 세션에서 PaperResearch/session-handoff/VisualCapture 3개 스킬 모두 동일 증상 3회 발생. 원인: scaffold 결과를 파일에 쓴 후 formatter/linter가 파일을 자동 수정 → Edit 도구의 'old_string exact match' 보장이 깨짐",
+      "resolution": "풍부화 단계에서 Edit 대신 Write 전체 덮어쓰기 사용. scaffold 생성 → 전체 내용을 메모리에 로드 → 수동 보완 → Write로 원자적 재작성. atomicWriteWithBackup 헬퍼로 .bak 백업 자동 생성되므로 롤백 안전",
+      "principle": "scaffold 후 풍부화는 Edit이 아닌 Write 전체 덮어쓰기 사용. scaffold 뼈대 + 수동 내용 = 1회 Write 원자적 쓰기. linter 경합 회피를 위해 동일 파일에 연속 Edit 적용 금지",
+      "severity": "medium",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 18,
+    "total_imprints": 20,
     "total_recalls": 4,
-    "last_updated": "2026-04-10T16:20:00Z"
+    "last_updated": "2026-04-11T08:00:00Z"
   }
 }

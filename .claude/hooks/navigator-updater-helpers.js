@@ -35,6 +35,13 @@ const TIER_MAP = {
   'supabase-postgres-best-practices': { tier: '외부', command: '자동 트리거', desc: 'Supabase Postgres 최적화 (외부)' }
 };
 
+// --- SECTION_PATTERNS: Navigator 보존 섹션 헤더 정규식 (IMP-019 대응) ---
+// 실측 기반: 6개 Navigator에서 관찰된 변형명 + SKILL.md 영문 헤더 커버
+const SECTION_PATTERNS = {
+  scenarios: /사용\s*시나리오|예시\s*시나리오|시나리오|사용\s*예시|Scenarios?|Examples?|Use\s*Cases?/i,
+  constraints: /제약사항|제약|공통\s*주의사항|주의사항|주의점|금지\s*사항|절대\s*금지|안전\s*규칙|Constraints?|Notes?|Limitations?|Restrictions?|Safety/i
+};
+
 // --- MCP 용도 매핑 ---
 const MCP_PURPOSE = {
   memory:                 '대화 간 메모리 저장/검색',
@@ -610,10 +617,11 @@ function extractPreservedSections(existingNavPath) {
   let constraints = null;
   for (let i = 0; i < sectionStarts.length; i++) {
     const h = sectionStarts[i].heading;
-    if (/사용\s*시나리오|예시\s*시나리오|시나리오|Scenarios?/i.test(h) && !scenarios) {
+    // IMP-019: SECTION_PATTERNS 상수 사용 (섹션명 변형 대응)
+    if (SECTION_PATTERNS.scenarios.test(h) && !scenarios) {
       scenarios = sliceSection(i);
     }
-    if (/제약사항|제약|Constraints?/i.test(h) && !constraints) {
+    if (SECTION_PATTERNS.constraints.test(h) && !constraints) {
       constraints = sliceSection(i);
     }
   }
@@ -642,21 +650,197 @@ function extractPreservedSections(existingNavPath) {
   return { scenarios, constraints, history };
 }
 
+// --- generateMermaidTemplateByPattern(processType, structure) -> Mermaid markdown string ---
+// IMP-019 (b): 4종 패턴별 Mermaid 템플릿 (Track / Linear / Branching+Phase / Conditional Step)
+// 공통: ELK 렌더러 + securityLevel loose + classDef warning/io + click 자동 생성
+function generateMermaidTemplateByPattern(processType, structure) {
+  const out = [];
+  out.push('```mermaid');
+  out.push('%%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%');
+  out.push('flowchart TD');
+
+  const clicks = [];
+  const pushClick = (id, anchor) => clicks.push('    click ' + id + ' "#' + anchor + '"');
+
+  if (processType === 'track' && structure.tracks && structure.tracks.length >= 2) {
+    // === Track 패턴 (Decision Tree) ===
+    out.push('    Start([사용자 호출]):::io --> Q1{진입 조건?}');
+    pushClick('Start', 'node-start');
+    pushClick('Q1', 'node-q1');
+    structure.tracks.forEach((t, idx) => {
+      const nodeId = 'Track' + t.id;
+      const nameShort = truncate(t.name || ('Track ' + t.id), 30);
+      const condLabel = '조건 ' + t.id;
+      out.push('    Q1 -->|' + condLabel + '| ' + nodeId + '[Track ' + t.id + '<br/>' + escapeMdCell(nameShort) + ']');
+      out.push('    ' + nodeId + ' --> End');
+      pushClick(nodeId, 'node-track-' + t.id.toLowerCase());
+    });
+    out.push('    End([완료]):::io');
+    pushClick('End', 'node-end');
+  } else if (processType === 'phase' && structure.phases && structure.phases.length >= 2) {
+    // === Branching + Phase 패턴 (Mode 분기 또는 단순 Phase 순차) ===
+    // Mode 키워드 감지: 섹션 이름이나 본문에 "Mode"/"모드"가 있으면 분기, 없으면 선형
+    const hasModeHint = (structure.sections || []).some(s => /mode|모드/i.test(s.heading));
+    if (hasModeHint) {
+      out.push('    Start([진입]):::io --> ModeCheck{모드 선택?}');
+      pushClick('Start', 'node-start');
+      pushClick('ModeCheck', 'node-mode-check');
+      out.push('    ModeCheck -->|Mode A<br/>전체| FullP1[Phase 1]');
+      // 감지된 Phase를 Mode A의 순차로 나열
+      structure.phases.forEach((p, idx) => {
+        const curId = 'FullP' + (idx + 1);
+        const nextId = idx < structure.phases.length - 1 ? 'FullP' + (idx + 2) : 'End';
+        const nameShort = truncate(p.name || ('Phase ' + p.id), 30);
+        if (idx > 0) {
+          out.push('    ' + curId + '[Phase ' + p.id + '<br/>' + escapeMdCell(nameShort) + '] --> ' + nextId);
+        }
+        pushClick(curId, 'node-full-p' + p.id);
+      });
+      out.push('    ModeCheck -->|Mode B<br/>간단| ShortPath[Append 경로] --> End');
+      pushClick('ShortPath', 'node-short');
+    } else {
+      // 단순 Phase 순차
+      out.push('    Start([진입]):::io --> P1');
+      pushClick('Start', 'node-start');
+      structure.phases.forEach((p, idx) => {
+        const curId = 'P' + (idx + 1);
+        const nextId = idx < structure.phases.length - 1 ? 'P' + (idx + 2) : 'End';
+        const nameShort = truncate(p.name || ('Phase ' + p.id), 30);
+        out.push('    ' + curId + '[Phase ' + p.id + '<br/>' + escapeMdCell(nameShort) + '] --> ' + nextId);
+        pushClick(curId, 'node-p' + p.id);
+      });
+    }
+    out.push('    End([완료]):::io');
+    pushClick('End', 'node-end');
+  } else if (processType === 'step' && structure.steps && structure.steps.length >= 2) {
+    // === Conditional Step 패턴 (Yes/No 분기로 각 단계 생략 가능) ===
+    out.push('    Start([사용자 요청]):::io --> Q1{Step 1<br/>필요?}');
+    pushClick('Start', 'node-start');
+    structure.steps.forEach((s, idx) => {
+      const qId = 'Q' + (idx + 1);
+      const sId = 'S' + (idx + 1);
+      const nameShort = truncate(s.name || ('Step ' + s.id), 30);
+      const nextQ = idx < structure.steps.length - 1 ? 'Q' + (idx + 2) : 'End';
+      out.push('    ' + qId + ' -->|Yes| ' + sId + '[Step ' + s.id + '<br/>' + escapeMdCell(nameShort) + ']');
+      out.push('    ' + qId + ' -->|No| ' + nextQ);
+      out.push('    ' + sId + ' --> ' + nextQ);
+      // 다음 Q 노드의 정의 (마지막 Step이 아니면)
+      if (idx < structure.steps.length - 1) {
+        const nextIdx = idx + 2;
+        const nextStep = structure.steps[idx + 1];
+        out.push('    Q' + nextIdx + '{Step ' + nextStep.id + '<br/>필요?}');
+      }
+      pushClick(qId, 'node-q' + s.id);
+      pushClick(sId, 'node-step-' + s.id);
+    });
+    out.push('    End([완료]):::io');
+    pushClick('End', 'node-end');
+  } else {
+    // === Linear Pipeline 패턴 (기본) ===
+    // level=2 sections 중 앞쪽 3-8개를 파이프라인 단계로
+    const stageSections = (structure.sections || [])
+      .filter(s => s.level === 2)
+      .filter(s => !SECTION_PATTERNS.scenarios.test(s.heading) && !SECTION_PATTERNS.constraints.test(s.heading))
+      .slice(0, 8);
+    if (stageSections.length >= 2) {
+      out.push('    Start([입력]):::io --> S1');
+      pushClick('Start', 'node-start');
+      stageSections.forEach((s, idx) => {
+        const curId = 'S' + (idx + 1);
+        const nextId = idx < stageSections.length - 1 ? 'S' + (idx + 2) : 'End';
+        const nameShort = truncate(s.heading, 30);
+        out.push('    ' + curId + '[' + escapeMdCell(nameShort) + '] --> ' + nextId);
+        pushClick(curId, 'node-' + slugify(s.heading));
+      });
+      out.push('    End([출력]):::io');
+      pushClick('End', 'node-end');
+    } else {
+      // Fallback: generic placeholder
+      out.push('    Start([사용자 호출]):::io --> TODO[(TODO: SKILL.md 기반 수동 작성)]');
+      out.push('    TODO --> End([완료]):::io');
+      pushClick('Start', 'node-start');
+      pushClick('TODO', 'node-todo');
+      pushClick('End', 'node-end');
+    }
+  }
+
+  out.push('');
+  clicks.forEach(c => out.push(c));
+  out.push('');
+  out.push('    classDef warning fill:#fee,stroke:#c00,stroke-width:2px');
+  out.push('    classDef io fill:#eef,stroke:#338,stroke-width:2px');
+  out.push('```');
+  return out.join('\n');
+}
+
+// --- extractContextAroundKeyword(body, pattern) -> 키워드 주변 문장 추출 ---
+// IMP-019 (c): 결정론적 힌트 추론 (LLM 호출 없음)
+function extractContextAroundKeyword(body, pattern) {
+  if (!body) return null;
+  // 문장 단위 분할 (한국어 마침표 포함)
+  const sentences = body.split(/[.!?。\n]+/).map(s => s.trim()).filter(Boolean);
+  for (const s of sentences) {
+    if (pattern.test(s)) return s;
+  }
+  return null;
+}
+
+// --- inferBlockCardHints(section, structure) -> {motivationHint, actionHint, status, fileMatches} ---
+function inferBlockCardHints(section, structure) {
+  const body = section.body || '';
+  const firstSentence = body.split(/[.!?。\n]/)[0].trim();
+
+  // 1. 동기 힌트: "목적"/"이유"/"때문에" 등 키워드 주변 문장
+  const motivationKeywords = /목적|이유|때문에|위해|필요|해결|동기|문제|방지|보장/;
+  const motivationHint = extractContextAroundKeyword(body, motivationKeywords) || firstSentence;
+
+  // 2. 동작 방식 힌트: 동사형 키워드 주변 문장
+  const actionKeywords = /호출|실행|수행|생성|저장|처리|변환|검사|입력|출력|전달|반환|계산|파싱|갱신|이동/;
+  const actionHint = extractContextAroundKeyword(body, actionKeywords);
+
+  // 3. 상태 힌트: "[작동]"/"[미구현]"/"[부분]" 스캔
+  const statusMatch = body.match(/\[(작동|부분|미구현)\]/);
+  const status = statusMatch ? '[' + statusMatch[1] + ']' : '[작동]';
+
+  // 4. 관련 파일: `경로` 패턴 스캔 (백틱으로 감싸진 .md/.js/.py/.json 파일)
+  const fileRegex = /`([^`]+\.(?:md|js|py|json|sh|yml|yaml))`/g;
+  const fileMatches = [];
+  let fm;
+  while ((fm = fileRegex.exec(body)) !== null) {
+    fileMatches.push(fm[1]);
+  }
+
+  return { motivationHint, actionHint, status, fileMatches };
+}
+
 // --- generateBlockCardSkeleton(section, processType, skillName) -> markdown 블럭 카드 ---
 function generateBlockCardSkeleton(section, processType, skillName) {
   const anchor = 'node-' + slugify(section.heading);
   const bodyPreview = truncate(firstLine(section.body) || '(SKILL.md 본문 참조)', 100);
+
+  // IMP-019 (c): 결정론적 힌트 추론으로 TODO placeholder 강화
+  const hints = inferBlockCardHints(section, null);
+  const motivationCell = hints.motivationHint
+    ? '(TODO: 다음 문장 기반 정제) ' + escapeMdCell(truncate(hints.motivationHint, 120))
+    : '(TODO: SKILL.md 기반 수동 작성)';
+  const actionCell = hints.actionHint
+    ? '(TODO: 다음 힌트 기반 구체화) ' + escapeMdCell(truncate(hints.actionHint, 120))
+    : '(TODO: 수동 작성)';
+  const fileCell = hints.fileMatches.length > 0
+    ? hints.fileMatches.slice(0, 3).map(f => '`' + f + '`').join(', ')
+    : '`.agents/skills/' + skillName + '/SKILL.md`';
+
   const rows = [
     '### ' + section.heading + ' {#' + anchor + '}',
     '',
     '| 항목 | 내용 |',
     '|------|------|',
     '| 소속 | ' + processType + ' 구조 |',
-    '| 동기 | (TODO: SKILL.md 기반 수동 작성) |',
+    '| 동기 | ' + motivationCell + ' |',
     '| 내용 | ' + escapeMdCell(bodyPreview) + ' |',
-    '| 동작 방식 | (TODO: 수동 작성) |',
-    '| 상태 | [작동] |',
-    '| 관련 파일 | `.agents/skills/' + skillName + '/SKILL.md` |',
+    '| 동작 방식 | ' + actionCell + ' |',
+    '| 상태 | ' + hints.status + ' |',
+    '| 관련 파일 | ' + fileCell + ' |',
     '',
     '[다이어그램으로 복귀](#전체-체계도)',
     ''
@@ -726,20 +910,10 @@ function generateNavigatorScaffold(cwd, skillName, options) {
   out.push('');
   out.push('<!-- AUTO:DIAGRAM_MAIN:START -->');
   out.push('');
-  out.push('```mermaid');
-  out.push('%%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%');
-  out.push('flowchart TD');
-  out.push('    Start([사용자 호출]) --> TODO[(TODO: SKILL.md 기반 수동 작성)]');
-  out.push('    TODO --> End([완료])');
+  // IMP-019 (b): 패턴별 Mermaid 템플릿 자동 생성
+  out.push(generateMermaidTemplateByPattern(processType, structure));
   out.push('');
-  out.push('    click Start "#node-start"');
-  out.push('    click TODO "#node-todo"');
-  out.push('    click End "#node-end"');
-  out.push('');
-  out.push('    classDef warning fill:#fee,stroke:#c00,stroke-width:2px');
-  out.push('```');
-  out.push('');
-  out.push('> **TODO (수동 작성)**: 위 Mermaid 다이어그램을 ' + processType + ' 패턴에 맞게 수동 작성하세요.');
+  out.push('> **TODO (피드백 루프 + 세부화)**: 위 Mermaid는 ' + processType + ' 패턴 기본 뼈대. 피드백 루프(`-.->`), 분기 조건, 에러 복구 경로를 수동 보완하세요.');
   if (structure.tracks) {
     out.push('> 감지된 Track: ' + structure.tracks.map(t => t.id + ' (' + truncate(t.name, 30) + ')').join(', '));
   }
@@ -878,5 +1052,10 @@ module.exports = {
   extractPreservedSections,
   generateBlockCardSkeleton,
   generateNavigatorScaffold,
-  mergeNavigator
+  mergeNavigator,
+  // IMP-019 scaffold 고도화 (Option B)
+  SECTION_PATTERNS,
+  generateMermaidTemplateByPattern,
+  extractContextAroundKeyword,
+  inferBlockCardHints
 };
