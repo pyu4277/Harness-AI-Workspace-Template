@@ -42,12 +42,19 @@ Karpathy LLM Wiki 패턴 기반 지식 관리 스킬.
   index.md                         카탈로그 (매 Ingest 재구성)
   log.md                           활동 이력 (append-only)
   000_Raw/                         Raw layer (불변 소스)
-  100_AI_ML/                       Domain: AI/ML
-  200_Research_Methods/            Domain: 연구방법론
-  300_Engineering/                 Domain: 엔지니어링
-  400_University_Admin/            Domain: 대학 행정
-  500_Energy_Systems/              Domain: 에너지 시스템
-  900_Meta/                        Domain: 위키 메타
+  Clippings/                       Raw layer (불변 소스, 000_Raw와 동일 취급)
+  010_Verified/                    신뢰도: 검증된 정식 발행 문서
+  001_General/                     KDC: 총류
+  100_Philosophy/                  KDC: 철학
+  200_Religion/                    KDC: 종교
+  300_Social_Science/              KDC: 사회과학, 행정, 교육
+  400_Natural_Science/             KDC: 자연과학
+  500_Technology/                  KDC: 기술과학, AI, 에너지, 컴퓨터
+  600_Arts/                        KDC: 예술
+  700_Language/                    KDC: 어학
+  800_Literature/                  KDC: 문학
+  900_History/                     KDC: 역사, 지리
+  990_Meta/                        위키 메타
 ```
 
 각 도메인 하위: `entities/` `concepts/` `sources/` `analysis/`
@@ -115,20 +122,49 @@ node .agents/skills/llm-wiki/scripts/obsidian-detect.js "001_Wiki_AI"
 - Read로 소스 전체 읽기
 - Glob + Grep으로 WIKI_ROOT 내 관련 기존 페이지 탐색 (AER-004: 읽기 먼저)
 
-**Phase 2 -- 도메인 판별 + 페이지 생성**
-- 소스 주제에 맞는 도메인 코드(100~900) 결정
-- sources/YYMMDD_Subject_V001.md 생성 (소스 요약)
-- entities/ 페이지 생성 또는 Edit으로 업데이트 (살아있는 문서)
-- concepts/ 페이지 생성 또는 Edit으로 업데이트 (살아있는 문서)
-- 필요 시 analysis/ 페이지 생성 (교차 분석)
+**Phase 2 -- 3축 분류 판정 (v3)**
+- 축 1 (주제): KDC 어디에 해당하는가? (001~900)
+- 축 2 (신뢰도): 010~070 중 어디인가?
+  - 010 정식발행 / 020 공적기관 / 030 업무물 / 040 공문메일 / 050 프로젝트 / 060 영상 / 070 웹스크랩
+- 축 3 (맥락): 어떤 프로젝트/업무 영역과 관련되는가? (프론트매터 context)
 
-**Phase 3 -- 인덱스/로그 갱신**
+**Phase 3 -- 정본 위치 결정 + 페이지 생성**
+- 정본 위치: "이 자료의 정체성은 무엇인가?" 기준
+  - 논문 -> 010_Verified, 정부보고서 -> 020_Official, 프로젝트 결과 -> 050_Projects 등
+- sources/YYMMDD_Subject_V001.md 생성 (소스 요약, 프론트매터에 domain + reliability + context)
+- entities/ concepts/ 페이지 생성 또는 Edit으로 업데이트
+
+**Phase 4 -- 바로가기(Shortcut) 생성 (v3 신규)**
+- 정본 외 관련 분류 2-3곳 식별
+- 각 관련 분류에 SHORTCUT.md 자동 생성
+- SHORTCUT 형식: type=shortcut, canonical=정본경로, 본문 링크만 포함
+- 파일명: `원본파일명_SHORTCUT.md`
+- 사용자에게 바로가기 위치 확인 요청
+
+**Phase 5 -- 인덱스/로그 갱신**
 - Glob으로 WIKI_ROOT 전체 스캔 후 index.md 재구성
-- log.md에 INGEST 기록 append
+- 정본은 [C], 바로가기는 [S]로 구분
+- log.md에 INGEST 기록 append (정본 위치 + 바로가기 수)
 
-**Phase 4 -- 연계 스킬**
+**Phase 6 -- 연계 스킬**
 - 신규 전문용어 발견 시: term-organizer 연계
 - 세션 종료 시: session-handoff에 위키 연산 요약 포함
+
+### wiki update [page-path]
+
+정본 페이지를 수정하고 바로가기를 동기화한다. (IMP-010)
+
+**Phase 0 -- 정본 확인**
+- 대상 페이지의 type이 shortcut이 아닌지 확인 (바로가기는 직접 수정 금지)
+- 정본의 shortcuts[] 필드를 읽어 바로가기 목록 파악
+
+**Phase 1 -- 정본 수정**
+- 사용자 요청에 따라 정본 내용 Edit
+
+**Phase 2 -- 바로가기 동기화**
+- 정본의 title이 변경되었으면: 각 바로가기의 title도 업데이트
+- 정본의 경로가 변경되었으면: 각 바로가기의 canonical 경로 + 본문 링크 업데이트
+- 동기화 완료 후 log.md에 UPDATE + SYNC 기록
 
 ### wiki query [question]
 

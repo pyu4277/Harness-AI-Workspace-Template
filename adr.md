@@ -130,3 +130,25 @@ prompt-refiner.js가 UserPromptSubmit에서 3가지를 동시 수행: (1)고정 
 - pre-tool-guard.js에 형제 디렉토리 허용 로직 추가 (IMP-005)
 - CLAUDE.md에 WIKI_ROOT 경로 명시
 - llm-wiki 스킬이 Tier-A로 등록 (scripts/ + Navigator.md)
+
+---
+
+## ADR-007: ECC(Everything Claude Code) 전체 통합
+
+**상태**: 채택 (2026-04-10)
+
+**컨텍스트**:
+ECC v1.10.0(147K stars, 181 스킬, 47 에이전트, 33 훅 스크립트)을 Harness에 통합하여 범용 개발 자동화 기능을 확보하고자 함. 글로벌(~/.claude/)에 이미 설치 완료. 10/14 Hook 이벤트에서 충돌 발생.
+
+**결정**:
+ECC_HOOK_PROFILE=minimal로 충돌 훅 비활성화. ECC_DISABLED_HOOKS=session:start로 세션 초기화는 Harness 전용. settings.local.json에 env로 설정. deny 목록에 sudo/chmod 777/>/dev/ 추가.
+
+**근거**:
+- Harness 우선 원칙: 프로젝트 레벨이 글로벌 레벨보다 우선
+- ECC minimal 프로필: 충돌 없는 유용한 훅만 생존 (block-no-verify, auto-tmux, command-log, session-end, evaluate-session, cost-tracker)
+- 스킬/에이전트/규칙은 글로벌 레벨에서 자동 공존 (프로젝트 섀도잉으로 충돌 해결)
+
+**결과**:
+- 005에서 ECC 181 스킬 + 47 에이전트 + 89 규칙 사용 가능
+- Harness 모든 기능(각인, pre-tool-guard, post-tool-validate, prompt-refiner, PDCA, Wiki) 그대로 유지
+- AgentShield 보안 스캐너 npx로 실행 가능

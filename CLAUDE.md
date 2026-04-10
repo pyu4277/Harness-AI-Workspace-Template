@@ -44,6 +44,7 @@
 - 설계문서 카탈로그: `./docs/support/design-documents.md` (28종 조건부 선택)
 - 프롬프트 규칙: `./docs/support/prompt-rules.md` (ToT + 응답 규칙)
 - 용어사전: `./docs/LogManagement/용어사전.md`
+- ECC 통합: ECC_HOOK_PROFILE=minimal, ECC_DISABLED_HOOKS=session:start (하네스 우선, ADR-007)
 
 ## 에이전트 운영
 
@@ -55,6 +56,8 @@
 - 분석/기획/설계/비교/의사결정 요청 시 ToT 4단계 자동 적용. 단순 질문/파일 작업은 즉시 처리 (prompt-rules.md 참조)
 - 코드 작성과 코드 리뷰는 반드시 다른 에이전트
 - 구현 완료 후 컨텍스트 사용량 40% 이하 유지 권장
+- /harness-architect 호출 시 SKILL.md Phase 1~7 전체를 반드시 순서대로 실행. Phase 건너뛰기 금지 (2026-04-10 실수 기반 추가)
+- 계획/설계/개발 요청 시 SKILL.md에 정의된 프로세스가 있으면 그 프로세스를 100% 따른다. 임의 단축 금지 (2026-04-10 실수 기반 추가)
 
 ## 완료 체크리스트 (구조적 강제 -- prompt-refiner.js가 자동 주입)
 

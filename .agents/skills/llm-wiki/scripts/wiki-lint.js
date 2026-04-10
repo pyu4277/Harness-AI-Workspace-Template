@@ -143,6 +143,51 @@ function checkFrontmatter() {
   }
 }
 
+// --- Check 8: Shortcut bidirectional validation (v3.1) ---
+function checkShortcuts() {
+  const allPages = getAllWikiPages();
+
+  for (const pagePath of allPages) {
+    let content;
+    try {
+      content = fs.readFileSync(pagePath, { encoding: 'utf-8' });
+    } catch (e) {
+      continue;
+    }
+
+    const relPath = path.relative(WIKI_ROOT, pagePath).replace(/\\/g, '/');
+
+    // A. Shortcut -> Canonical validation
+    if (content.includes('type: shortcut')) {
+      const canonicalMatch = content.match(/canonical:\s*"([^"]+)"/);
+      if (!canonicalMatch) {
+        addIssue('WARNING', 'SHORTCUT', relPath, 'Shortcut missing canonical path', false);
+        continue;
+      }
+      const canonicalRel = canonicalMatch[1];
+      const canonicalAbs = path.resolve(WIKI_ROOT, canonicalRel);
+      if (!fs.existsSync(canonicalAbs)) {
+        addIssue('WARNING', 'SHORTCUT_ORPHAN', relPath,
+          'Shortcut points to non-existent canonical: ' + canonicalRel, false);
+      }
+    }
+
+    // B. Canonical -> Shortcuts validation (정본의 shortcuts[] 검증)
+    const shortcutsMatch = content.match(/shortcuts:\s*\n((?:\s*-\s*"[^"]+"\n?)*)/);
+    if (shortcutsMatch) {
+      const shortcuts = shortcutsMatch[1].match(/"([^"]+)"/g) || [];
+      for (const raw of shortcuts) {
+        const shortcutRel = raw.replace(/"/g, '');
+        const shortcutAbs = path.resolve(WIKI_ROOT, shortcutRel);
+        if (!fs.existsSync(shortcutAbs)) {
+          addIssue('WARNING', 'CANONICAL_BROKEN_SHORTCUT', relPath,
+            'Canonical lists non-existent shortcut: ' + shortcutRel, false);
+        }
+      }
+    }
+  }
+}
+
 // --- Helper: Get all wiki .md pages (excluding root files) ---
 function getAllWikiPages() {
   const pages = [];
@@ -236,6 +281,7 @@ function main() {
 
   checkNaming();
   checkFrontmatter();
+  checkShortcuts();
 
   // Output JSON to stdout
   const report = {

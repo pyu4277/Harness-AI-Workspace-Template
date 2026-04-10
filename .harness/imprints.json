@@ -168,9 +168,51 @@
       "recall_count": 0,
       "last_recalled": null
     }
+    ,
+    {
+      "id": "IMP-010",
+      "created": "2026-04-10T10:00:00Z",
+      "category": "wiki",
+      "trigger_keywords": ["바로가기", "shortcut", "정본", "canonical", "동기화", "sync", "SHORTCUT.md"],
+      "situation": "위키 정본 페이지를 수정하거나 바로가기 관련 작업 시",
+      "struggle": "정본 수정 후 바로가기 동기화를 잊어 정보 불일치 발생. 구조가 깨져도 어디에 바로가기가 있는지 모름",
+      "resolution": "정본 프론트매터에 shortcuts[] 필수 기록. 수정 시 바로가기 title/canonical 동기화. wiki-lint.js가 양방향 검증",
+      "principle": "위키 정본 수정 시 반드시 shortcuts[] 확인 후 바로가기 동기화. 정본에 바로가기 경로 명기로 구조 깨져도 즉시 복구 가능. 바로가기에는 본문 금지",
+      "severity": "critical",
+      "recall_count": 0,
+      "last_recalled": null
+    }
+    ,
+    {
+      "id": "IMP-011",
+      "created": "2026-04-10T11:00:00Z",
+      "category": "integration",
+      "trigger_keywords": ["ECC", "everything-claude-code", "통합", "integration", "hook profile", "minimal"],
+      "situation": "ECC와 Harness가 동시에 동작할 때",
+      "struggle": "10/14 Hook 이벤트 충돌. SessionStart 이중 실행. Stop 7개 훅 동시 실행으로 지연",
+      "resolution": "ECC_HOOK_PROFILE=minimal + ECC_DISABLED_HOOKS=session:start (settings.local.json env). Harness 프로젝트 레벨이 항상 우선",
+      "principle": "ECC 통합 시 반드시 minimal 프로필 유지. Harness 훅이 모든 Write/Edit/SessionStart의 최종 권한. ECC는 보충(block-no-verify, command-log, cost-tracker, Instinct)만 담당",
+      "severity": "critical",
+      "recall_count": 0,
+      "last_recalled": null
+    }
+    ,
+    {
+      "id": "IMP-012",
+      "created": "2026-04-10T12:00:00Z",
+      "category": "process",
+      "trigger_keywords": ["harness-architect", "7단계", "Phase", "파이프라인", "설계문서", "계획서"],
+      "situation": "harness-architect 또는 다단계 파이프라인 스킬이 호출되었을 때",
+      "struggle": "SKILL.md에 정의된 7단계 파이프라인(Phase 1~7)을 건너뛰고 바로 구현에 들어감. 설계문서 선별(Phase 2), Decision Gate(G1~G5)를 모두 무시",
+      "resolution": "SKILL.md를 먼저 Read로 전체 로드하고, Phase 번호를 순서대로 실행. 각 Phase 완료 후 Decision Gate에서 사용자 승인 필수",
+      "principle": "다단계 파이프라인 스킬 호출 시 SKILL.md의 Phase를 1번부터 순서대로 100% 실행. 임의 단축/건너뛰기 금지. Decision Gate에서 반드시 사용자 승인",
+      "severity": "critical",
+      "recall_count": 0,
+      "last_recalled": null
+    }
   ],
   "stats": {
-    "total_imprints": 9,
+    "total_imprints": 12,
     "total_recalls": 4,
     "last_updated": "2026-04-08T09:45:00Z"
   }

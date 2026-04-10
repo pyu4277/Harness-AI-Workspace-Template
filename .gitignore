@@ -40,3 +40,4 @@ docs/archive/
 
 # Claude Code user-specific
 .claude/settings.local.json
+.mcp.json
