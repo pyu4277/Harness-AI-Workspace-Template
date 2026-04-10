@@ -203,7 +203,8 @@ function getAllWikiPages() {
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
-        if (entry.name === '000_Raw' || entry.name.startsWith('.')) continue;
+        // 제외: 000_Raw (미처리 큐), Clippings (미처리 큐), archive (원본 보관소, IMP-017), 숨김 폴더
+        if (entry.name === '000_Raw' || entry.name === 'Clippings' || entry.name === 'archive' || entry.name.startsWith('.')) continue;
         walk(fullPath);
       } else if (entry.isFile() && entry.name.endsWith('.md')) {
         const relToRoot = path.relative(WIKI_ROOT, fullPath);

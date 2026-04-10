@@ -41,8 +41,8 @@ Karpathy LLM Wiki 패턴 기반 지식 관리 스킬.
   CLAUDE.md                        Schema (위키 거버넌스)
   index.md                         카탈로그 (매 Ingest 재구성)
   log.md                           활동 이력 (append-only)
-  000_Raw/                         Raw layer (불변 소스)
-  Clippings/                       Raw layer (불변 소스, 000_Raw와 동일 취급)
+  000_Raw/                         Raw layer (미처리 입력 큐)
+  Clippings/                       Raw layer (미처리 입력 큐, 000_Raw와 동일 취급)
   010_Verified/                    신뢰도: 검증된 정식 발행 문서
   001_General/                     KDC: 총류
   100_Philosophy/                  KDC: 철학
@@ -55,9 +55,30 @@ Karpathy LLM Wiki 패턴 기반 지식 관리 스킬.
   800_Literature/                  KDC: 문학
   900_History/                     KDC: 역사, 지리
   990_Meta/                        위키 메타
+    archive/                       원본 보관소 (지식화 완료된 원본 파일)
 ```
 
 각 도메인 하위: `entities/` `concepts/` `sources/` `analysis/`
+
+## Raw Layer 정책 (IMP-017)
+
+**000_Raw/와 Clippings/는 미처리 입력 큐**로만 사용한다. 지식화(Ingest) 완료된 원본은 반드시 `990_Meta/archive/`로 이동하여 중앙 보관한다.
+
+### 핵심 원칙
+
+1. **입력 큐**: 새 원본 파일은 `000_Raw/` 또는 `Clippings/`에 배치
+2. **지식화**: `wiki ingest` 실행 → sources/concepts/entities 페이지 생성
+3. **원본 보관**: 지식화 완료 시 원본을 `990_Meta/archive/`로 이동 (삭제 금지)
+4. **양방향 연결**:
+   - 파생 위키 페이지 프론트매터에 `raw_source: "990_Meta/archive/<원본파일>"` 필수
+   - 파생 위키 본문 하단에 "## Raw Source Archive" 섹션으로 명시적 링크
+5. **재참조 가능**: 원본은 archive/에서 언제든 읽기 가능 (수정 금지)
+
+### 한 원본에서 파생된 여러 위키
+
+한 원본이 여러 위키 페이지의 소스가 될 수 있다. 예: `SYSTEM_NAVIGATOR.md` 원본 1개 → `Living_System_Mirror` concept + `260410_SYSTEM_NAVIGATOR_Optimization_V001` source + `Harness_Engineering` concept (3개 파생).
+
+이 경우 **모든 파생 위키**가 동일한 `raw_source` 필드로 같은 원본을 참조한다. 이는 일종의 "역인덱스" 역할을 한다.
 
 ## Hybrid Mode (IMP-006: Obsidian CLI Integration)
 
@@ -141,12 +162,19 @@ node .agents/skills/llm-wiki/scripts/obsidian-detect.js "001_Wiki_AI"
 - 파일명: `원본파일명_SHORTCUT.md`
 - 사용자에게 바로가기 위치 확인 요청
 
-**Phase 5 -- 인덱스/로그 갱신**
+**Phase 5 -- Raw 원본 archive 이동 (IMP-017)**
+- `000_Raw/` 또는 `Clippings/`에 있는 원본 파일을 `990_Meta/archive/`로 이동
+- 파일명 충돌 시 `<원본명>_<YYMMDD>.<ext>` 형식으로 suffix
+- 이동 후 파생 위키 페이지 프론트매터에 `raw_source: "990_Meta/archive/<파일명>"` 추가
+- 파생 위키 본문 하단에 "## Raw Source Archive" 섹션 생성 + 원본 링크 + 메타데이터 (크기, 획득 경로, 지식화 날짜)
+- 한 원본에서 여러 위키가 파생된 경우 **모든** 파생 위키에 동일 raw_source 설정
+
+**Phase 6 -- 인덱스/로그 갱신**
 - Glob으로 WIKI_ROOT 전체 스캔 후 index.md 재구성
 - 정본은 [C], 바로가기는 [S]로 구분
-- log.md에 INGEST 기록 append (정본 위치 + 바로가기 수)
+- log.md에 INGEST 기록 append (정본 위치 + 바로가기 수 + raw_source 경로)
 
-**Phase 6 -- 연계 스킬**
+**Phase 7 -- 연계 스킬**
 - 신규 전문용어 발견 시: term-organizer 연계
 - 세션 종료 시: session-handoff에 위키 연산 요약 포함
 
