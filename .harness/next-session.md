@@ -3,6 +3,37 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Option G + H 완료)
+
+- **세션 시작**: 2026-04-11 16:30 (Warm Boot, Option C 이후)
+- **세션 종료**: 2026-04-11 (Option G + H + 000_Raw 점검 통합 완료)
+- **프로젝트**: 260410_Harness_Evolution (지식 통합 + 각인 시스템 진화)
+
+## 이번 세션 (Option G + H) 성과
+
+3 작업 통합 처리 (~60분):
+
+### Option H -- IMP-021 공식 기록
+
+- `.harness/imprints.json`에 IMP-021 추가 (total_imprints: 20 → 21)
+- 마크다운 표 마커는 ASCII 한정 (`O`/`-`/`[O]`/`[X]`/`Y`/`N`)
+- PromptKit Navigator 작성 시 발견된 실수 (Option A 세션 3) 공식 학습
+
+### 000_Raw 점검
+
+- 4 하위 디렉토리(papers/reports/snapshots/transcripts) 모두 0 파일
+- Raw 위키 진화 작업 불필요 (모든 외부 자료 이미 위키화 완료)
+
+### Option G -- Wiki 진화 (llm-wiki Mode 3)
+
+신규 위키 페이지 2개:
+1. **SYSTEM_NAVIGATOR_Auto_Aggregation.md** (concept) -- 메타 문서 자동 집계 4 요소 패턴
+2. **260411_Option_C_Auto_Aggregation_V001.md** (source) -- Option C 단일 세션 전체 기록
+
+위키 통계: total_pages 20 → 22, 500_Technology 20 → 22
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Option C 완료)
 
 - **세션 시작**: 2026-04-11 (Warm Boot, Option F 이후)
@@ -94,7 +125,7 @@ SYSTEM_NAVIGATOR.md의 자동 갱신 영역을 **3.5% → ~14%**로 확대. 14 N
 
 ### 각인 + 용어
 
-- 각인: 20개 (IMP-001~020)
+- 각인: 21개 (IMP-001~021, IMP-021 NEW)
 - 전문용어: 54개
 - 위키 wiki-lint: 0 issues
 
@@ -125,9 +156,13 @@ llm-wiki Mode 3로 이번 작업을 위키화:
 - 260411_Option_C_Auto_Aggregation source
 - Navigator_Pattern_Library 통계 자동화 명시
 
-### 옵션 H: IMP-021 공식 기록
+### 옵션 I: 표준화 마이그레이션 (NEW)
 
-Mermaid 표 마커 체크마크(`✓`/`✗`) 이모티콘 차단 → ASCII (`O`/`-`) 사용. 이전 PromptKit 작성 시 발견. 5분 작업.
+harness-architect, llm-wiki를 ### 스킬 메타 표 구조로 전환 → PILOT_PATTERNS hardcoded fallback 제거. helpers.js 단순화 (~30분).
+
+### 옵션 J: README/CHANGELOG 자동 집계 (NEW)
+
+Auto-Aggregation 패턴 재사용. README.md가 하위 모듈 메타데이터를 자동 수집하도록 multi-marker 적용 (~60분).
 
 ### 참고: 완료된 옵션
 
@@ -135,7 +170,9 @@ Mermaid 표 마커 체크마크(`✓`/`✗`) 이모티콘 차단 → ASCII (`O`/
 - **Option B** (scaffold 고도화 + IMP-019/020)
 - **Option A 세션 1-3** (Tier-B 9/9)
 - **Option F** (Wiki 진화 -- Tier-B 100% 마일스톤)
-- **Option C** (SYSTEM_NAVIGATOR.md 자동 재생성) ← 이번 세션
+- **Option C** (SYSTEM_NAVIGATOR.md 자동 재생성)
+- **Option G** (Wiki 진화 -- Option C 결과 지식화) ← 이번 세션
+- **Option H** (IMP-021 공식 기록) ← 이번 세션
 
 ---
 

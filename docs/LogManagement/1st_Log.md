@@ -10,6 +10,37 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-11 16:30 -- Option G + H (Wiki 진화: Option C 결과 지식화 + IMP-021 공식 기록)
+
+**프로젝트**: 260410_Harness_Evolution
+**상세 로그**: [session_260411_1630.md](../../Projects/260410_Harness_Evolution/Log/session_260411_1630.md)
+
+**주요 성과**:
+1. **Option H -- IMP-021 공식 기록**: 마크다운 표 마커 ASCII 한정 원칙
+   - imprints.json IMP-021 추가 (category: format, severity: low)
+   - trigger_keywords + situation + struggle + resolution + principle 완전 기록
+2. **000_Raw 점검**: 4 하위 디렉토리 모두 비어 있음 → Raw 위키 진화 작업 불필요 확인
+3. **Option G -- Wiki 진화 (llm-wiki Mode 3)**:
+   - SYSTEM_NAVIGATOR_Auto_Aggregation.md 신규 concept (4 요소 디자인 패턴)
+   - 260411_Option_C_Auto_Aggregation_V001.md 신규 source (Option C 단일 세션 전체 기록)
+4. **메타 문서 자동 집계 패턴 공식화**: AUTO 마커 + Multi-Marker Single Trigger + 4계층 Fallback + 자동 분류 정규화
+
+**수치 변화**:
+- Wiki pages: 20 → **22**
+- 500_Technology concepts: 9 → **10** (Auto-Aggregation Pattern 추가)
+- 500_Technology sources: 7 → **8** (Option C source 추가)
+- Imprints: 20 → **21** (IMP-021)
+- Auto-Aggregation 재사용 영역 5종 명시
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+**남은 과제**:
+- 옵션 E: Tier-C 확장 (bkit 프레임워크 8개)
+- 옵션 I: 표준화 마이그레이션 (harness-architect/llm-wiki ### 스킬 메타 표 전환)
+- 옵션 J: README/CHANGELOG 자동 집계 (Auto-Aggregation 패턴 재사용)
+
+---
+
 ## 2026-04-11 15:27 -- Option F (Wiki 진화 -- Tier-B 100% 마일스톤 지식화)
 
 **프로젝트**: 260410_Harness_Evolution

@@ -314,11 +314,24 @@
       "severity": "medium",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-021",
+      "created": "2026-04-11T16:00:00Z",
+      "category": "format",
+      "trigger_keywords": ["체크마크", "✓", "✗", "Mermaid 표", "이모티콘 차단", "Navigator 작성", "마크다운 표 마커"],
+      "situation": "Navigator/문서 작성 시 마크다운 표나 리스트의 마커로 체크마크(✓/✗)를 사용하면 PostToolUse 이모티콘 차단 훅이 발동",
+      "struggle": "PromptKit Navigator 작성 중 5-Step + Trigger 분기 매트릭스 표에 ✓ 사용 → 검증 스크립트가 emoji 10개 검출 → Edit으로 일괄 치환 (1회 발생, Option A 세션 3)",
+      "resolution": "마크다운 표/리스트의 마커는 ASCII만 사용. 체크마크 대안: O/-, [O]/[X], Y/N, OK/FAIL, ✔ 대신 v 등. 이모티콘 차단 훅의 정규식 범위(/[\\u{1F300}-\\u{1FAFF}\\u{2600}-\\u{27BF}]/u)에 ✓(U+2713), ✗(U+2717)이 포함되므로 사전 회피",
+      "principle": "Navigator/문서의 표 마커는 ASCII 문자(O/-/[O]/[X]/Y/N)만 사용. 체크마크/엑스마크 등 유니코드 dingbats는 이모티콘 차단 정책에 걸리므로 작성 단계부터 회피",
+      "severity": "low",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 20,
+    "total_imprints": 21,
     "total_recalls": 4,
-    "last_updated": "2026-04-11T08:00:00Z"
+    "last_updated": "2026-04-11T16:00:00Z"
   }
 }
