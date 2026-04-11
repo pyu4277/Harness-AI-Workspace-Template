@@ -173,7 +173,7 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
 flowchart TD
-    Root([SYSTEM_NAVIGATOR<br/>14 Navigators]):::io
+    Root([SYSTEM_NAVIGATOR<br/>18 Navigators]):::io
 
     subgraph LP["Linear Pipeline (5)"]
       LP_PaperResearch[PaperResearch<br/>612줄]
@@ -183,19 +183,23 @@ flowchart TD
       LP_Mermaid_FlowChart[Mermaid_FlowChart<br/>547줄]
     end
 
-    subgraph OD["Operation Dispatcher (2)"]
+    subgraph OD["Operation Dispatcher (4)"]
       OD_llm_wiki[llm-wiki<br/>1030줄]
       OD_harness_imprint[harness-imprint<br/>864줄]
+      OD_pdca[pdca<br/>973줄]
+      OD_btw[btw<br/>394줄]
+    end
+
+    subgraph BL["Branching + Linear (4)"]
+      BL_mdGuide[mdGuide<br/>757줄]
+      BL_term_organizer[term-organizer<br/>596줄]
+      BL_bkit_rules[bkit-rules<br/>678줄]
+      BL_plan_plus[plan-plus<br/>526줄]
     end
 
     subgraph TR["Track (2)"]
       TR_HWPX_Master[HWPX_Master<br/>602줄]
       TR_DocKit[DocKit<br/>589줄]
-    end
-
-    subgraph BL["Branching + Linear (2)"]
-      BL_mdGuide[mdGuide<br/>757줄]
-      BL_term_organizer[term-organizer<br/>596줄]
     end
 
     subgraph BP["Branching + Phase (1)"]
@@ -212,8 +216,8 @@ flowchart TD
 
     Root --> LP
     Root --> OD
-    Root --> TR
     Root --> BL
+    Root --> TR
     Root --> BP
     Root --> CS
     Root --> PRL
@@ -226,10 +230,14 @@ flowchart TD
     click LP_Mermaid_FlowChart "#navigator-카탈로그"
     click OD_llm_wiki "#navigator-카탈로그"
     click OD_harness_imprint "#navigator-카탈로그"
-    click TR_HWPX_Master "#navigator-카탈로그"
-    click TR_DocKit "#navigator-카탈로그"
+    click OD_pdca "#navigator-카탈로그"
+    click OD_btw "#navigator-카탈로그"
     click BL_mdGuide "#navigator-카탈로그"
     click BL_term_organizer "#navigator-카탈로그"
+    click BL_bkit_rules "#navigator-카탈로그"
+    click BL_plan_plus "#navigator-카탈로그"
+    click TR_HWPX_Master "#navigator-카탈로그"
+    click TR_DocKit "#navigator-카탈로그"
     click BP_harness_architect "#navigator-카탈로그"
     click CS_VisualCapture "#navigator-카탈로그"
     click PRL_auto_error_recovery "#navigator-카탈로그"
@@ -1235,14 +1243,18 @@ graph TD
 | FileNameMaking | B | Linear Pipeline | 590 | 1 | 24 | 25 |
 | DocKit | B | Track | 589 | 1 | 23 | 24 |
 | Mermaid_FlowChart | B | Linear Pipeline | 547 | 4 | 21 | 22 |
+| pdca | C | Operation Dispatcher | 973 | 1 | 51 | 52 |
+| bkit-rules | C | Branching + Linear | 678 | 1 | 33 | 40 |
+| plan-plus | C | Branching + Linear | 526 | 1 | 24 | 25 |
+| btw | C | Operation Dispatcher | 394 | 1 | 16 | 17 |
 
 #### 총합
 
-- 총 Navigator: **14개**
-- 총 줄수: **9,824줄**
-- 총 Mermaid 블럭: **28개**
-- 총 블럭 카드: **394개**
-- 총 클릭 네비게이션: **487개**
+- 총 Navigator: **18개**
+- 총 줄수: **12,395줄**
+- 총 Mermaid 블럭: **32개**
+- 총 블럭 카드: **518개**
+- 총 클릭 네비게이션: **621개**
 
 #### 커버리지
 
@@ -1272,23 +1284,23 @@ graph TD
 
 | 패턴 | 적용 수 | 비율 | 대표 스킬 |
 |------|:------:|:----:|:----------|
-| Linear Pipeline | 5 | 36% | PaperResearch, ServiceMaker, PromptKit, FileNameMaking |
-| Operation Dispatcher | 2 | 14% | llm-wiki, harness-imprint |
-| Track | 2 | 14% | HWPX_Master, DocKit |
-| Branching + Linear | 2 | 14% | mdGuide, term-organizer |
-| Branching + Phase | 1 | 7% | harness-architect |
-| Conditional Step | 1 | 7% | VisualCapture |
-| Phase + Recursive Loop | 1 | 7% | auto-error-recovery |
+| Linear Pipeline | 5 | 28% | PaperResearch, ServiceMaker, PromptKit, FileNameMaking |
+| Operation Dispatcher | 4 | 22% | llm-wiki, harness-imprint, pdca, btw |
+| Branching + Linear | 4 | 22% | mdGuide, term-organizer, bkit-rules, plan-plus |
+| Track | 2 | 11% | HWPX_Master, DocKit |
+| Branching + Phase | 1 | 6% | harness-architect |
+| Conditional Step | 1 | 6% | VisualCapture |
+| Phase + Recursive Loop | 1 | 6% | auto-error-recovery |
 
 #### 패턴별 상세
 
 **Linear Pipeline** (5개): PaperResearch, ServiceMaker, PromptKit, FileNameMaking, Mermaid_FlowChart
 
-**Operation Dispatcher** (2개): llm-wiki, harness-imprint
+**Operation Dispatcher** (4개): llm-wiki, harness-imprint, pdca, btw
+
+**Branching + Linear** (4개): mdGuide, term-organizer, bkit-rules, plan-plus
 
 **Track** (2개): HWPX_Master, DocKit
-
-**Branching + Linear** (2개): mdGuide, term-organizer
 
 **Branching + Phase** (1개): harness-architect
 
@@ -1809,15 +1821,11 @@ flowchart TD
 
 <!-- AUTO:gap-analysis:START -->
 
-#### Tier-C 미생성 Navigator (8개)
+#### Tier-C 미생성 Navigator (4개)
 
-- `bkit-rules`
 - `bkit-templates`
-- `btw`
 - `code-review`
 - `development-pipeline`
-- `pdca`
-- `plan-plus`
 - `zero-script-qa`
 
 #### 비표준 메타 표 (구버전 파일럿)
@@ -1828,7 +1836,7 @@ flowchart TD
 #### 검증 통과 요약
 
 - Tier-S/A/B Navigator 보유: **14/14** (100%)
-- Tier-C Navigator 보유: 0/8 (0%)
+- Tier-C Navigator 보유: 4/8 (50%)
 - 블럭 카드 ≥ 15 통과: 14/14
 - Mermaid ≥ 1 통과: 14/14
 - 표준 메타 표 사용: 12/14
@@ -4240,5 +4248,9 @@ flowchart TD
 | 2026-04-11 | Option C: Navigator 자동 집계 4 마커 추가 (§1.2 + §5.3 + §5.4 + §9.0) | 수동 (helpers.js + updater.js + SYSTEM_NAVIGATOR.md 동시 확장) |
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/term-organizer/term-organizer_navigator.md 변경 |
 | 2026-04-11 | 스킬 카탈로그 1/1 updated | .agents/skills/term-organizer/skill.md 변경 |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/btw/btw_navigator.md 변경 |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/plan-plus/plan-plus_navigator.md 변경 |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/bkit-rules/bkit-rules_navigator.md 변경 |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/pdca/pdca_navigator.md 변경 |
 
 [맨 위로](#범례--사용법)

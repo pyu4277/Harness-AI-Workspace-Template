@@ -3,6 +3,54 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Option E 세션 1 완료)
+
+- **세션 시작**: 2026-04-11 (Warm Boot, Option G + H 이후)
+- **세션 종료**: 2026-04-11 (Option E 세션 1: Tier-C 4개 신규 생성 완료)
+- **프로젝트**: 260410_Harness_Evolution (Tier-C 100% 커버리지 진행)
+
+## 이번 세션 (Option E 세션 1) 성과
+
+Tier-C 8개 중 균형 잡힌 4개를 신규 생성. **전체 커버리지 14/22 → 18/22 (82%)**.
+
+### 신규 Navigator 4개
+
+| 스킬 | 줄 | 블럭 | Mermaid | click | 패턴 |
+|------|-----|------|---------|-------|------|
+| btw | 393 | 16 | 1 | 17 | Operation Dispatcher (5 ops) |
+| plan-plus | 525 | 24 | 1 | 25 | Branching + Linear (7 Phase + HARD-GATE) |
+| bkit-rules | 677 | 33 | 1 | 40 | Branching + Linear (9 규칙 + 다중 분기) |
+| pdca | 972 | 51 | 1 | 52 | Operation Dispatcher (12 ops + 4 agents) |
+| **합계** | **2567** | **124** | **4** | **134** | -- |
+
+### SYSTEM_NAVIGATOR.md 자동 갱신 검증
+
+PostToolUse 훅이 4 마커 모두 자동 채움:
+- §1.2 navigator-diagram: OD_pdca/OD_btw + BL_bkit_rules/BL_plan_plus 추가
+- §5.3 navigators-meta: 14 → 18 Navigator 표 자동 갱신
+- §5.4 pattern-stats: Operation Dispatcher 2→4, Branching+Linear 2→4
+- §9.0 gap-analysis: Tier-C 미생성 8 → 4 (50%)
+
+총 줄수: 4244 → **4256** (+12, 자동 갱신만)
+
+### 검증 결과
+
+- **회귀 0**: 기존 14 Navigator + 8 AUTO 마커 모두 보존
+- **이모티콘 0**: 4개 모두 PostToolUse emoji 차단 통과 (IMP-021 준수)
+- **절대경로 0**: PostToolUse path-guard 통과
+- **PostToolUse 훅 4회 성공**: 각 Navigator 작성 시 4 섹션 자동 갱신
+- **블럭 카드 평균**: 31개/Navigator (15 기준 초과)
+- **시간**: ~95분 (예상 ~115분 이내)
+
+### 작성 순서 (작은 것 → 큰 것)
+
+1. btw (~15분, 393줄, Operation Dispatcher 워밍업)
+2. plan-plus (~20분, 525줄, Branching + Linear 첫 적용)
+3. bkit-rules (~25분, 677줄, 9 규칙 다중 분기)
+4. pdca (~35분, 972줄, 12 ops 가장 큼)
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Option G + H 완료)
 
 - **세션 시작**: 2026-04-11 16:30 (Warm Boot, Option C 이후)
@@ -112,9 +160,17 @@ SYSTEM_NAVIGATOR.md의 자동 갱신 영역을 **3.5% → ~14%**로 확대. 14 N
 
 ## 현재 시스템 상태 스냅샷
 
-### Navigator 보유 (15개, Tier-S/A/B 100%)
+### Navigator 보유 (19개, Tier-S/A/B 100% + Tier-C 4/8)
 
-이전 세션 동일. 변동 없음.
+| Tier | 보유 | 전체 | 비율 |
+|:---:|:---:|:---:|:---:|
+| S | 1 | 1 | 100% |
+| A | 4 | 4 | 100% |
+| B | 9 | 9 | 100% |
+| C | 4 | 8 | **50%** |
+| **합계** | **18** | **22** | **82%** |
+
+(15 → 19로 +4 증가. Option E 세션 1 결과)
 
 ### SYSTEM_NAVIGATOR.md 자동화 인프라
 
@@ -140,14 +196,19 @@ SYSTEM_NAVIGATOR.md의 자동 갱신 영역을 **3.5% → ~14%**로 확대. 14 N
 
 ## 다음 세션 작업 선택지
 
-### 옵션 E: Tier-C 확장 (다음 권장)
+### 옵션 E 세션 2 (다음 권장): Tier-C 큰 것 + 중간 것
 
-자동 Gap 감지(§9.0)가 Tier-C 8개를 자동 추적하므로, 이제 Tier-C Navigator 작성으로 100% 완전 커버리지 달성 가능.
+세션 1에서 4/8 완료. 남은 4개 중 큰 것 + 중간 것 우선.
 
-**Tier-C 8개**:
-- pdca, bkit-rules, bkit-templates, plan-plus, development-pipeline, code-review, zero-script-qa, btw
+**세션 2 권장 2개**:
+- **zero-script-qa** (~1400줄, Linear Pipeline, 가장 큼)
+- **development-pipeline** (~280줄, Linear Pipeline, 9 Phase)
 
-**예상**: 세션당 3-4개, 2-3 세션 분할.
+**세션 3 권장 2개** (마지막):
+- **code-review** (~300줄, Operation Dispatcher)
+- **bkit-templates** (~360줄, Linear Pipeline)
+
+세션 3 완료 후 Tier-C 8/8 = 100% (전체 22/22 = 100%) 달성 → 옵션 K (Tier-C Wiki 진화) 권장.
 
 ### 옵션 G: Wiki 진화 (Option C 결과 지식화)
 
@@ -171,8 +232,9 @@ Auto-Aggregation 패턴 재사용. README.md가 하위 모듈 메타데이터를
 - **Option A 세션 1-3** (Tier-B 9/9)
 - **Option F** (Wiki 진화 -- Tier-B 100% 마일스톤)
 - **Option C** (SYSTEM_NAVIGATOR.md 자동 재생성)
-- **Option G** (Wiki 진화 -- Option C 결과 지식화) ← 이번 세션
-- **Option H** (IMP-021 공식 기록) ← 이번 세션
+- **Option G** (Wiki 진화 -- Option C 결과 지식화)
+- **Option H** (IMP-021 공식 기록)
+- **Option E 세션 1** (Tier-C 4개: btw/plan-plus/bkit-rules/pdca) ← 이번 세션
 
 ---
 
