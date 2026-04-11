@@ -3,6 +3,44 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Option E 세션 1 + Wiki 진화 완료)
+
+- **세션 시작**: 2026-04-11 (Option E 세션 1 직후)
+- **세션 종료**: 2026-04-11 (Tier-C 세션 1 결과 위키화 완료)
+- **프로젝트**: 260410_Harness_Evolution
+
+## 이번 추가 작업 (Wiki 진화) 성과
+
+llm-wiki Mode 3로 Option E 세션 1 결과를 위키화:
+
+### 갱신/신규 위키 페이지
+
+1. **Navigator_Pattern_Library.md** (concept, 갱신):
+   - 14 → 18 Navigator 통계 갱신
+   - 적용 검증 표 14행 → 18행 (Tier-C 4 항목 추가)
+   - 5 패턴 변형 4종 추가:
+     - Operation Dispatcher: 5 ops 단순형 (btw) + 12 ops + 4 agents 대형 (pdca)
+     - Branching + Linear: 9 규칙 다중 분기 (bkit-rules) + 7 Phase HARD-GATE (plan-plus)
+   - 총 통계: 10488줄 / 25 Mermaid / 333 카드 → 13055줄 / 29 Mermaid / 457 카드
+
+2. **260411_Tier_C_Session1_V001.md** (source, 신규):
+   - Tier-C 세션 1 전체 기록
+   - 4 Navigator 실측 데이터 + 작성 순서
+   - SYSTEM_NAVIGATOR.md 자동 갱신 검증
+   - 핵심 발견 4종 (scaffold 한계 + 12 ops 표현력 + 9 규칙 표현 + HARD-GATE 패턴)
+   - IMP-022/023 후보 (scaffold 헤딩 파싱 + processType 일관성)
+
+3. **index.md + log.md 갱신**:
+   - total_pages 22 → 23
+   - log 3개 신규 엔트리 (UPDATE concept + INGEST source + UPDATE index)
+
+### 검증
+
+- **wiki-lint**: 0 issues
+- **회귀 0**: 기존 22 페이지 모두 보존
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Option E 세션 1 완료)
 
 - **세션 시작**: 2026-04-11 (Warm Boot, Option G + H 이후)
