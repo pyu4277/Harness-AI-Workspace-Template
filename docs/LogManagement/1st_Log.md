@@ -10,6 +10,49 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-12 00:30 -- Wiki 진화 5차+ (3 destructive 작업 + PDF 워크플로우)
+
+**프로젝트**: 260410_Harness_Evolution
+
+**주요 성과**: 사용자 3 결정 승인 후 즉시 진행
+
+### A. 100_AI 폴더 archive 이동
+- `001_Wiki_AI/000_Raw/Obsidian Knowledge/100_AI 대화 저장` → `990_Meta/archive/100_AI_Conversation_260411/`
+- ~2.3 MB, 21 unique md
+- 8 위키 페이지가 raw_source 프론트매터로 추적 가능
+- index.md Archived Raw Sources 표 갱신 (2 → 3)
+
+### B. (2) 중복본 일괄 삭제
+- 위치별: 000_Raw 285 + archive 21 = **총 306개**
+- diff 검증 2 샘플 → 100% 동일 확인
+- 디스크 절약 ~75 MB
+- wiki-lint: 0 issues
+
+### C. PDF MCP 우회 워크플로우 스크립트 작성
+- **위치**: `.claude/hooks/wiki-pdf-stage.js` (200줄)
+- **3 명령**: stage / list / cleanup
+- **검증**: 1 PDF stage → display_pdf 호출 성공 (viewUUID 발급) → cleanup
+- **임시 디렉토리**: `Temporary Storage/wiki-pdf-stage/` (신규)
+- 안전 정책: 위키 root 검증 + 허용 prefix + 100MB 한도 + 충돌 timestamp
+
+### D. PDF MCP 후속 interact 한계 발견 (IMP-027 후보)
+- display_pdf는 OK (viewUUID 발급)
+- interact (get_text)는 viewer mount 실패 ("Viewer never connected")
+- **원인**: PDF MCP는 사용자가 활성 시청 중이어야 후속 interact 작동
+- **결론**: 자동 발췌 한계 → 다음 세션에 pdf-parse npm 등 대체 검토
+
+**수치 변화**:
+- Wiki pages: 38 (변동 없음)
+- total_archived_raw: 2 → **3**
+- 디스크: ~75 MB 절약
+- 005 신규: wiki-pdf-stage.js (200줄)
+
+**핵심 발견**: PDF MCP는 시청 전용. 자동 발췌는 별도 도구 필요 (IMP-027 후보)
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+---
+
 ## 2026-04-11 23:55 -- Wiki 진화 5차 (000/200/300 폴더 카탈로그 + PDF MCP 한계 발견)
 
 **프로젝트**: 260410_Harness_Evolution

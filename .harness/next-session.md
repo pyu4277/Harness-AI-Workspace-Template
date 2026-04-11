@@ -3,6 +3,137 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Wiki 진화 5차+ -- 3 destructive 작업 + PDF 워크플로우)
+
+- **세션 시작**: 2026-04-11 (5차 직후, 사용자 3 결정 승인)
+- **세션 종료**: 2026-04-11 (archive + 중복본 + PDF 스크립트 모두 완료)
+
+## 이번 추가 작업 성과
+
+사용자 3 결정 승인 후 즉시 진행:
+
+### A. 100_AI 폴더 archive 이동 완료
+
+```
+mv 001_Wiki_AI/000_Raw/Obsidian Knowledge/100_AI 대화 저장
+   → 001_Wiki_AI/990_Meta/archive/100_AI_Conversation_260411/
+```
+
+- ~2.3 MB, 21 unique md
+- 8 위키 페이지가 raw_source 프론트매터로 추적 가능
+- index.md의 Archived Raw Sources 표 갱신 (2 → 3)
+
+### B. (2) 중복본 일괄 삭제 완료
+
+| 위치 | 삭제 수 |
+|------|--------:|
+| 000_Raw/Obsidian Knowledge/ 전체 | 285 |
+| 990_Meta/archive/100_AI_Conversation_260411/ | 21 |
+| **총합** | **306** |
+
+- diff 검증 2 샘플 (test.md, Project_Drafting_Rules) → 100% 동일 확인
+- 일괄 삭제 후 wiki-lint 0 issues
+- 디스크 절약: 약 ~75 MB 추정
+
+### C. PDF MCP 우회 워크플로우 스크립트 작성
+
+**위치**: `.claude/hooks/wiki-pdf-stage.js` (200줄)
+
+**3 명령**:
+```bash
+# 위키 PDF를 005 임시 디렉토리로 복사
+node .claude/hooks/wiki-pdf-stage.js stage <wiki-pdf-absolute-path>
+
+# 현재 임시 파일 목록
+node .claude/hooks/wiki-pdf-stage.js list
+
+# 임시 파일 모두 정리
+node .claude/hooks/wiki-pdf-stage.js cleanup
+```
+
+**기능**:
+- 위키 root + 허용 prefix(`000_Raw/`, `990_Meta/archive/`) 검증
+- 허용 확장자 검증 (PDF/HWP/HWPX/DOCX/PPTX)
+- 100 MB 크기 한도
+- 임시 디렉토리: `Temporary Storage/wiki-pdf-stage/`
+- 충돌 시 timestamp suffix 자동 추가
+- cleanup은 stage 디렉토리 안의 파일만 삭제 (외부 0 영향)
+
+**검증**:
+- list 빈 디렉토리 OK
+- stage 1 파일 (53.5 KB) OK
+- PDF MCP `display_pdf` 호출 성공 (viewUUID 발급)
+- cleanup 완료 OK
+- 다시 list 비어 있음 OK
+
+### D. PDF MCP 후속 interact 한계 발견 (IMP-027 후보)
+
+**시도**:
+```javascript
+display_pdf(staged_path)  // OK (viewUUID 발급)
+interact(viewUUID, "get_text", intervals=[{1,5}])
+```
+
+**결과**:
+```
+ERROR: Viewer never connected for viewUUID ...
+The iframe likely failed to mount — this happens when the conversation
+goes idle before the viewer finishes loading.
+```
+
+**원인**: PDF MCP의 후속 `interact`는 뷰어가 mount되어 사용자가 활성 상태로 보고 있어야 함. 비동기 자동 발췌에는 부적합.
+
+**우회 방법**:
+1. **사용자 시청 모드**: 사용자가 뷰어를 직접 열어 보면서 발췌 (수동)
+2. **연속 호출**: display_pdf + interact를 매우 빠르게 (< 8s) 연속 실행 (자동화 한계)
+3. **별도 도구**: pdf-parse npm 패키지 등 대체 라이브러리 (다음 세션 검토)
+
+→ **IMP-027 후보**: PDF MCP는 사용자 시청 모드 전용. 자동 발췌는 별도 도구 필요.
+
+## 위키 통계 (변동)
+
+- total_pages: **38** (변동 없음, 신규 위키 페이지 0)
+- total_archived_raw: 2 → **3** (100_AI_Conversation_260411 추가)
+- 디스크: ~75 MB 절약 (306 중복본 삭제)
+- wiki-lint: **0 issues**
+
+## 005 신규 파일
+
+- `.claude/hooks/wiki-pdf-stage.js` (200줄, 신규)
+- `Temporary Storage/wiki-pdf-stage/` (신규 디렉토리, 빈 상태로 생성)
+
+## 미처리 (다음 세션)
+
+### PDF MCP 한계 우회 (선택)
+
+- IMP-027 공식 기록 (PDF MCP 자동 발췌 한계)
+- 대체 도구 검토: `pdf-parse`, `pdfjs-dist`, `mupdf` 등
+- 사용자 시청 모드 워크플로우 가이드 작성
+
+### 미발견 폴더 (다음 세션 발견)
+
+`Obsidian Knowledge/` 루트에 카탈로그 외 파일 다수:
+- 9 VIDEO md (하네스 / Claude Code / RAG 관련)
+- AI_Workspace_Master_Class_Complete.md
+- Google_Apps_Chapter_Script_v1.0.md
+- Project_Drafting_Rules_v1.0.md
+- table-export-001~003.csv
+- 칫솔살균기_비교분석_리포트.md
+- 80개 Pasted image PNG
+- 002_전기 Study (폴더, 미확인)
+- 001_포멧하고 Claude Code 사용하기 (폴더)
+- 260108_sinsanupTraining (폴더)
+- Clippings, Excalidraw, Landom Report (폴더)
+
+→ 다음 세션 별도 카탈로그 source 작성 필요.
+
+### 큰 작업 (5-7 세션)
+
+- **300_제일대학교** AI 교재개발 (200 md 분할 처리)
+- **200_사업** PDF/HWP 본문 발췌 (wiki-pdf-stage.js + 사용자 시청 모드)
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Wiki 진화 5차 -- 000/200/300 폴더 카탈로그)
 
 - **세션 시작**: 2026-04-11 (Wiki 진화 4차 직후, 사용자 권장 인용)
