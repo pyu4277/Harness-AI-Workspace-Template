@@ -3,6 +3,110 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Wiki 진화 5차 -- 000/200/300 폴더 카탈로그)
+
+- **세션 시작**: 2026-04-11 (Wiki 진화 4차 직후, 사용자 권장 인용)
+- **세션 종료**: 2026-04-11 (3 신규 폴더 처리 + PDF MCP 한계 발견)
+
+## 이번 작업 (Wiki 진화 5차) 성과
+
+### 신규 위키 페이지 3종
+
+1. **Google_Calendar_MCP_Guide.md** (entity, 000_일단은 폴더)
+   - Skypage AI 엔지니어용 가이드 발췌
+   - **005에 이미 통합된 Google Calendar MCP 8 도구와 매핑** 확인
+2. **260411_200_Business_Folder_Catalog_V001.md** (source, 200_사업 폴더)
+   - 순천제일대 신산업사업단 매뉴얼 개발 + 출장 양식 + PDF 7 + HWP 2
+   - **CQI / NCS / 벤치마킹 구조** 발견 (bkit-rules + pdca와 직접 일치)
+   - **OutreachAutomation 스킬 후보** 명시
+3. **260411_300_University_Folder_Catalog_V001.md** (source, 300_제일대학교 폴더)
+   - 200 unique md (99% AI 교재개발 참고자료)
+   - URL 19 + Youtube 180 (대부분 Laurence Svekis Google Apps Script)
+   - **거대 HTML 보고서 65979 토큰** (분할 발췌 필요)
+   - 5-7 세션 분할 처리 권장
+
+### 위키 통계
+
+- total_pages: 35 → **38** (+3)
+- 500_Technology entities: 13 → **14** (+1)
+- 500_Technology sources: 10 → **12** (+2)
+- 500_Technology concepts: 11 (변동 없음)
+- wiki-lint: **0 issues**
+
+### PDF MCP 한계 발견 (IMP-026 후보)
+
+**문제**:
+```
+mcp__plugin_pdf-viewer_pdf__display_pdf
+url: D:/OneDrive - 순천대학교/001_Wiki_AI/000_Raw/...
+Error: Local file not in allowed list
+Allowed directories: D:\OneDrive - 순천대학교\005_AI_Project
+```
+
+**원인**: PDF MCP가 005_AI_Project 디렉토리만 허용. 위키 폴더 직접 접근 차단.
+
+**우회**: 발췌 대상 PDF를 005로 임시 복사 → PDF MCP → 발췌 후 정리. 자동화 스크립트 권장.
+
+**Read 도구도 실패**:
+```
+pdftoppm failed: Command 'pdftoppm' not found or is in an unsafe location
+```
+→ pdftoppm이 환경에 없거나 unsafe location에 있음. PDF 직접 발췌 불가.
+
+## 사용자 결정 필요 사항 (즉시 처리)
+
+### 결정 1: 100_AI 폴더 archive 이동
+
+**현재 상태**: 100_AI 21 unique 100% 위키화 완료 (8 페이지). Karpathy LLM Wiki Raw 정책에 따라 archive 이동 권장.
+
+**제안**:
+```
+mv "001_Wiki_AI/000_Raw/Obsidian Knowledge/100_AI 대화 저장"
+   "001_Wiki_AI/990_Meta/archive/100_AI_Conversation_260411/"
+```
+
+→ destructive 작업이라 사용자 명시 승인 필요.
+
+### 결정 2: (2).md 중복본 정리
+
+**100_AI**: 21개 중복본
+**Mermaid (순서도)**: 27개 중복본
+**000_일단은**: 1개 중복본
+**200_사업**: 약 14개 중복본 (md 3 + pdf 6 + hwp 2)
+**300_제일대학교**: 약 154개 중복본 (200 unique → 354 - 200 = 154)
+
+**총합**: ~217개 ` (2).md`/`(2).pdf`/`(2).hwp` 중복본
+
+→ 즉시 삭제 또는 archive 이동. 사용자 명시 승인 필요.
+
+### 결정 3: PDF MCP allowed list 확장
+
+**현재 한계**: 005_AI_Project 디렉토리만 허용
+**해결책 옵션**:
+- (a) PDF MCP 설정에서 위키 폴더 추가 (사용자 직접 수정)
+- (b) 자동화 스크립트 (발췌 시 005로 임시 복사 → PDF MCP → 정리)
+- (c) Read 도구의 pdftoppm 의존 해결 (pdftoppm 설치)
+
+→ 사용자 결정 필요.
+
+## 미처리 (다음 세션)
+
+### 큰 작업 (다세션 필요)
+
+- **300_제일대학교** AI 교재개발 200 자료 (5-7 세션 분할):
+  - 거대 HTML 보고서 (65979 토큰, 분할 발췌)
+  - URL 19 (Google Apps Script + Gemini 그룹화)
+  - YouTube 180 (Laurence Svekis 시리즈 우선)
+- **200_사업** PDF/HWP 본문 발췌 (PDF MCP 임시 복사 워크플로우 필요)
+
+### 작은 작업
+
+- 100_AI archive 이동 (사용자 승인 후)
+- (2).md 중복본 217개 정리 (사용자 승인 후)
+- IMP-024/025/026 공식 기록 (도구 가용성 + 민감 정보 + PDF MCP 한계)
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Wiki 진화 4차 -- 100_AI 100% 완료 + Mermaid 카탈로그)
 
 - **세션 시작**: 2026-04-11 (Wiki 진화 3차 직후, 사용자 두 번째 "나머지 알아서" 지시)

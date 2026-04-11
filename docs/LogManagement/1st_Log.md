@@ -10,6 +10,50 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-11 23:55 -- Wiki 진화 5차 (000/200/300 폴더 카탈로그 + PDF MCP 한계 발견)
+
+**프로젝트**: 260410_Harness_Evolution
+
+**주요 성과**: 100_AI archive 권장 후 새 폴더 3개 처리. PDF MCP allowed list 한계 발견.
+
+### 신규 페이지 3종
+
+1. **Google_Calendar_MCP_Guide.md** (entity)
+   - 000_일단은 폴더의 Skypage 가이드
+   - 005에 이미 통합된 Google Calendar MCP 8 도구와 매핑
+
+2. **260411_200_Business_Folder_Catalog_V001.md** (source)
+   - 순천제일대 신산업사업단 (CQI/NCS/벤치마킹)
+   - 매뉴얼 개발 방법 + 출장 양식 + PDF 7 + HWP 2
+   - **OutreachAutomation 스킬 후보 명시**
+   - PDF MCP 한계 첫 발견
+
+3. **260411_300_University_Folder_Catalog_V001.md** (source)
+   - 200 unique md (99% AI 교재개발 참고자료)
+   - URL 19 (Google Apps Script + Gemini) + YouTube 180 (Laurence Svekis 다수)
+   - **거대 HTML 보고서 65979 토큰** (분할 발췌 필요)
+   - 5-7 세션 분할 처리 권장
+
+**수치 변화**:
+- Wiki pages: 35 → **38** (+3)
+- 500_Technology entities: 13 → **14** (+1)
+- 500_Technology sources: 10 → **12** (+2)
+- wiki-lint: 0 issues
+
+**핵심 발견**:
+- **PDF MCP 한계**: 005_AI_Project 디렉토리만 허용. 위키 폴더 PDF 직접 발췌 불가
+- **Read 도구 PDF 한계**: pdftoppm 미설치/unsafe location 오류
+- **300_제일대학교는 다세션 필요**: 200 md + 거대 HTML 보고서
+
+**사용자 결정 필요**:
+- 100_AI 폴더 archive 이동 (사용자 승인 대기)
+- (2).md 중복본 217개 정리 (사용자 승인 대기)
+- PDF MCP allowed list 확장 또는 임시 복사 워크플로우 결정
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+---
+
 ## 2026-04-11 23:00 -- Wiki 진화 4차 (100_AI 100% 완료 + Mermaid 카탈로그)
 
 **프로젝트**: 260410_Harness_Evolution
