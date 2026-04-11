@@ -10,6 +10,44 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-11 21:00 -- Wiki 진화 3차 (100_AI 세션 2-4 자율 진행)
+
+**프로젝트**: 260410_Harness_Evolution
+
+**주요 성과**: 사용자 "나머지 알아서 세션 분류하여 시작" 지시 → 100_AI 세션 2-4 자율 연속 진행 → 신규 entity 4종 (총 5종 누적)
+
+### 세션 2 (평가 + GravityESS)
+- **Evaluation_Skill_Genesis.md**: /CIPP평가 → /Evaluation 진화. **Plan A/B 패턴** + 조건부 OCR + 동적 템플릿 변환 선행
+- **GravityESS_Project.md**: 003_AI_Project 활성 스킬 8 + MCP 4 카탈로그 + RAG 7요소 + Total_SystemRun 4단계
+
+### 세션 3 (도구 가이드 5종)
+- **Tool_Guides_Collection_260411.md**: Bkit 명령어 + Playwright e2e **10-Agent 멀티 오케스트레이션** + Notion+Calendar **일정 추출 GPT** + Google Opal 출장 자동화 + 폴더 메타 통합
+
+### 세션 4 (홈서버)
+- **Smartphone_Home_Server.md**: 잠자는 폰 → Termux + Ubuntu chroot + tmux + VSCode Server + CloudFlare Tunnel **5단계 아키텍처**. 무공인 IP 외부 접속
+
+**보안 경고 (사용자 즉시 조치 필요)**:
+- OpenAI API 키 2개 + Org ID 평문 노출 (Notion+Calendar 파일) → **즉시 무효화 + 재발급**
+- VSCode Server 비밀번호 평문 노출 (Phon 서버 파일) → **즉시 변경**
+- SSH 공개키 노출 (Phon 서버 파일) → 키 페어 폐기 권장 (위험 낮음)
+
+**수치 변화**:
+- Wiki pages: 26 → **31** (+5 entity)
+- 500_Technology entities: 6 → **10** (+4)
+- wiki-lint: 0 issues (broken link 1 발견 후 즉시 수정)
+- 100_AI 처리 진행: 21 unique → **9 처리 (43%)**, 12 미처리
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+**남은 과제**:
+- 100_AI 세션 5: 전기기기 GUI + Gemini 주가 + 여행 + 크롤링 (~67KB 합계)
+- 100_AI 세션 6: OCR Grok 99KB + 도전율 44KB + 아두이노 + yt-assets
+- 100_AI 세션 7: 폴더 archive 이동 + 마무리
+- 300_제일대학교 354 md (별도 우선순위 결정 필요)
+- 200_사업 PDF/HWP (PDF MCP 활용)
+
+---
+
 ## 2026-04-11 19:00 -- Wiki 진화 2차 (PDF MCP entity + Raw 자료 추가 처리)
 
 **프로젝트**: 260410_Harness_Evolution

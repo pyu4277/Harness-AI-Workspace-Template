@@ -3,6 +3,95 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Wiki 진화 3차 -- 100_AI 세션 2-4 자율 진행)
+
+- **세션 시작**: 2026-04-11 (Wiki 진화 2차 직후, 사용자 "나머지 알아서" 지시)
+- **세션 종료**: 2026-04-11 (100_AI 세션 2/3/4 연속 완료)
+
+## 이번 작업 (Wiki 진화 3차) 성과
+
+100_AI 대화 저장의 5+ 세션 점진 위키화 계획 중 **세션 2-4 자율 진행**.
+
+### 세션 2: 평가 에이전트 + GravityESS
+
+| entity | 출처 | 핵심 발견 |
+|--------|------|----------|
+| **Evaluation_Skill_Genesis.md** | 260226 평가 에이전트 89KB | /CIPP평가 → /Evaluation 진화. **Plan A/B 패턴** + **조건부 OCR** + **동적 템플릿 변환 선행** |
+| **GravityESS_Project.md** | 260308_GravityESS 51KB | **003_AI_Project 활성 스킬 8 + MCP 4 카탈로그** + RAG 7요소 + Total_SystemRun 4단계 거버넌스 |
+
+### 세션 3: 도구 가이드 5종 통합
+
+| entity | 출처 | 핵심 발견 |
+|--------|------|----------|
+| **Tool_Guides_Collection_260411.md** | Bkit + Playwright e2e + Notion+Cal + Google Opal + 폴더 메타 | **10-Agent 멀티 오케스트레이션 패턴** (project-orchestrator + 9 sub-agent), **일정 추출 JSON GPT 프롬프트** (Make 호환), **bkit 트리거 키워드 자동 활성** |
+
+### 세션 4: 홈서버 통합
+
+| entity | 출처 | 핵심 발견 |
+|--------|------|----------|
+| **Smartphone_Home_Server.md** | Phon 87KB + 잠자는 폰 39KB + 영상 2KB | **5단계 아키텍처**: PC → SSH → Termux → Ubuntu chroot → tmux → VSCode Server → CloudFlare Tunnel. 무공인IP + termux-wake-lock 패턴 |
+
+### 신규 entity 5종 (세션 2~4 합계)
+
+1. Evaluation_Skill_Genesis.md
+2. GravityESS_Project.md
+3. Tool_Guides_Collection_260411.md
+4. Smartphone_Home_Server.md
+5. (Wiki 진화 2차의 PaperResearch_Genesis.md는 이미 등록됨)
+
+### 위키 통계 변화
+
+- total_pages: 26 → **31** (+5 entity)
+- 500_Technology entities: 6 → **10** (+4)
+- 500_Technology sources: 10 (변동 없음)
+- wiki-lint: **0 issues** (broken link 1개 발견 후 수정)
+
+## 보안 경고 (사용자 즉시 조치 필요)
+
+원본 Raw 파일 발췌 중 **민감 정보 3건 발견**. 위키 entity에는 모두 마스킹 처리:
+
+### 1. OpenAI API 키 평문 노출
+- **파일**: `Notion & Calender 연동 Make용 GPT 프롬프트.md`
+- **노출**: `sk-proj-Iy5tup***` + `sk-proj-_wdUPq***` + `org-FG5rNW***`
+- **조치**: OpenAI 대시보드에서 두 키 즉시 무효화 + 재발급
+
+### 2. VSCode Server 비밀번호 평문 노출
+- **파일**: `Phon으로 server만들기.md`
+- **노출**: `park1095!@`
+- **조치**: 즉시 변경. 다른 계정에 같은 비번 사용 시 모두 변경
+
+### 3. SSH 공개키 노출
+- **파일**: `Phon으로 server만들기.md`
+- **노출**: `gei_personal@DESKTOP-415PRO0` 공개키
+- **조치**: 위험도 낮음. 단, 노출된 공개키 페어 폐기 권장
+
+## 100_AI 세션 진행 상황
+
+| 세션 | 대상 | 상태 |
+|:----:|------|:----:|
+| 1 | 카탈로그 + PaperResearch Genesis | OK (Wiki 진화 2차) |
+| **2** | 평가 에이전트 + GravityESS | **OK (이번 세션)** |
+| **3** | 도구 가이드 5종 통합 | **OK (이번 세션)** |
+| **4** | 홈서버 (Phon + 잠자는 폰) | **OK (이번 세션)** |
+| 5 | 전기기기 GUI + Gemini 주가 + 여행 + 크롤링 | 대기 |
+| 6 | OCR Grok + 도전율 + 아두이노 + yt-assets | 대기 |
+| 7 | 100_AI 폴더 archive 이동 + 마무리 | 대기 |
+
+**남은 unique 파일 (~10개)**:
+- 전기기기 GUI 27KB / Gemini 주가 16KB / 여행 사이트 14KB / 251225 크롤링 10KB
+- OCR Grok 99KB / 도전율 44KB / 아두이노 14KB / yt-assets 12KB
+- + 빈 파일 1개 + Notion+Cal에 미흡수 부분
+
+## 기타 폴더 (다음 옵션)
+
+- **300_제일대학교** 354 md (가장 큼)
+- **200_사업** 6 md + 12 pdf + 4 hwp (PDF MCP 활용)
+- AI CLI Development 8 md
+- 순서도 4 md
+- 000_일단은 5 md
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Wiki 진화 -- PDF MCP + Raw 자료 추가 처리)
 
 - **세션 시작**: 2026-04-11 (Tier-C 세션 1 위키 진화 직후)
