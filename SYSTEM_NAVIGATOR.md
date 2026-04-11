@@ -29,6 +29,25 @@
 
 `<!-- AUTO:section-id:START -->` ~ `<!-- AUTO:section-id:END -->` 구간은 `navigator-updater.js` 훅이 자동 갱신한다.
 
+**자동 갱신 마커 목록 (12개)**:
+
+| 마커 ID | 트리거 파일 | Reader | 섹션 |
+|---------|------------|--------|------|
+| `skills-catalog` | `.agents/skills/*/SKILL.md` | `readSkillsCatalog` | §5.2 |
+| `mcp-servers` | `.mcp.json` | `readMcpServers` | §6 |
+| `commands` | `.claude/commands/*.md` | `readCommands` | §7.1 |
+| `imprints` | `.harness/imprints.json` | `readImprints` | §3.7 |
+| `pre-tool-guard` | `.claude/hooks/pre-tool-guard.js` | `readPreToolGuard` | §3.2 |
+| `bkit-scripts` | `.bkit/plugin/scripts/` | `readBkitScripts` | §4.3 |
+| **`navigators-meta`** | **`.agents/skills/*/Navigator.md`** | **`readNavigatorsMeta`** | **§5.3 (신규)** |
+| **`pattern-stats`** | **(동상)** | **`readPatternStats`** | **§5.4 (신규)** |
+| **`gap-analysis`** | **(동상)** | **`readGapAnalysis`** | **§9.1 (신규)** |
+| **`navigator-diagram`** | **(동상)** | **`readNavigatorDiagram`** | **§1.2 (신규)** |
+| `section-id` | (예시 placeholder) | -- | §10 |
+| (암묵적) 갱신 이력 | -- | `appendHistory` | §11 |
+
+> **Option C 신규 (2026-04-11)**: Navigator 메타 자동 집계 4 마커 추가. 14 Navigator 변경 시 동시 갱신.
+
 ---
 
 ## 1. 시스템 전체 체계도 {#시스템-전체-체계도}
@@ -141,6 +160,86 @@ flowchart TD
 </details>
 
 **동기**: 시스템이 3계층으로 분리됨에 따라 각 계층의 역할과 데이터 흐름을 명확히 하기 위해 작성. 하네스는 거버넌스(무엇을 금지할지), bkit는 워크플로우(어떤 순서로 할지), 스킬은 도메인(무엇을 할지)을 담당한다.
+
+[맨 위로](#범례--사용법)
+
+### 1.2 Navigator 시스템 체계도 (자동) {#navigator-시스템-체계도}
+
+> 14 Navigator를 5 패턴 그룹으로 분류한 자동 생성 다이어그램. `readNavigatorDiagram` reader가 갱신.
+> 클릭 시 §5.3 Navigator 카탈로그로 이동.
+
+<!-- AUTO:navigator-diagram:START -->
+
+```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
+flowchart TD
+    Root([SYSTEM_NAVIGATOR<br/>14 Navigators]):::io
+
+    subgraph LP["Linear Pipeline (5)"]
+      LP_PaperResearch[PaperResearch<br/>612줄]
+      LP_ServiceMaker[ServiceMaker<br/>830줄]
+      LP_PromptKit[PromptKit<br/>676줄]
+      LP_FileNameMaking[FileNameMaking<br/>590줄]
+      LP_Mermaid_FlowChart[Mermaid_FlowChart<br/>547줄]
+    end
+
+    subgraph OD["Operation Dispatcher (2)"]
+      OD_llm_wiki[llm-wiki<br/>1030줄]
+      OD_harness_imprint[harness-imprint<br/>864줄]
+    end
+
+    subgraph TR["Track (2)"]
+      TR_HWPX_Master[HWPX_Master<br/>602줄]
+      TR_DocKit[DocKit<br/>589줄]
+    end
+
+    subgraph BL["Branching + Linear (2)"]
+      BL_mdGuide[mdGuide<br/>757줄]
+      BL_term_organizer[term-organizer<br/>596줄]
+    end
+
+    subgraph BP["Branching + Phase (1)"]
+      BP_harness_architect[harness-architect<br/>791줄]
+    end
+
+    subgraph CS["Conditional Step (1)"]
+      CS_VisualCapture[VisualCapture<br/>666줄]
+    end
+
+    subgraph PRL["Phase + Recursive Loop (1)"]
+      PRL_auto_error_recovery[auto-error-recovery<br/>674줄]
+    end
+
+    Root --> LP
+    Root --> OD
+    Root --> TR
+    Root --> BL
+    Root --> BP
+    Root --> CS
+    Root --> PRL
+
+    click Root "#navigator-카탈로그"
+    click LP_PaperResearch "#navigator-카탈로그"
+    click LP_ServiceMaker "#navigator-카탈로그"
+    click LP_PromptKit "#navigator-카탈로그"
+    click LP_FileNameMaking "#navigator-카탈로그"
+    click LP_Mermaid_FlowChart "#navigator-카탈로그"
+    click OD_llm_wiki "#navigator-카탈로그"
+    click OD_harness_imprint "#navigator-카탈로그"
+    click TR_HWPX_Master "#navigator-카탈로그"
+    click TR_DocKit "#navigator-카탈로그"
+    click BL_mdGuide "#navigator-카탈로그"
+    click BL_term_organizer "#navigator-카탈로그"
+    click BP_harness_architect "#navigator-카탈로그"
+    click CS_VisualCapture "#navigator-카탈로그"
+    click PRL_auto_error_recovery "#navigator-카탈로그"
+
+    classDef io fill:#eef,stroke:#338,stroke-width:2px
+```
+
+<!-- AUTO:navigator-diagram:END -->
+
+**동기**: 14 Navigator의 패턴별 분포를 한눈에 파악. 신규 Navigator 추가 시 자동 반영. 5 패턴 라이브러리(`Navigator_Pattern_Library`)와 동기화.
 
 [맨 위로](#범례--사용법)
 
@@ -1035,7 +1134,7 @@ graph TD
 
 <!-- AUTO:skills-catalog:START -->
 
-### 커스텀 스킬 전체 목록 (25개)
+### 커스텀 스킬 전체 목록 (24개)
 
 | # | 스킬명 | Tier | 커맨드 | 상태 | 요약 |
 |---|--------|------|--------|------|------|
@@ -1055,15 +1154,14 @@ graph TD
 | 14 | development-pipeline | C | `/development-pipeline` | [작동] | 9단계 개발 파이프라인 가이드 |
 | 15 | harness-architect | S | `/harness-architect init` | [작동] | 7단계 하네스 초기화 파이프라인 |
 | 16 | harness-imprint | B | `/imprint [action]` | [작동] | 각인 기록/검색/통계/decay |
-| 17 | llm-wiki | A | 대화형 호출 | [작동] | LLM Wiki 지식 관리 (Karpathy 3-layer) |
+| 17 | llm-wiki | A | 대화형 호출 | [작동] | 지식 관리 + 세션 핸드오프 통합 (3-mode Ingest) |
 | 18 | mdGuide | B | `/mdGuide [action]` | [작동] | Zero-Defect 마크다운 검증 |
 | 19 | pdca | C | `/pdca [action]` | [작동] | PDCA 전체 주기 관리 |
 | 20 | plan-plus | C | `/plan-plus [feature]` | [작동] | 브레인스토밍 강화 기획 |
-| 21 | session-handoff | A | 자동 트리거 | [작동] | 지식 증류 + 분산 로깅 |
-| 22 | supabase | 외부 | 자동 트리거 | [작동] | Supabase 통합 (외부 스킬) |
-| 23 | supabase-postgres-best-practices | 외부 | 자동 트리거 | [작동] | Supabase Postgres 최적화 (외부) |
-| 24 | term-organizer | B | 대화형 호출 | [작동] | 전문용어 자동 추출/정리 |
-| 25 | zero-script-qa | C | `/zero-script-qa [target]` | [작동] | Docker 로그 기반 제로 스크립트 QA |
+| 21 | supabase | 외부 | 자동 트리거 | [작동] | Supabase 통합 (외부 스킬) |
+| 22 | supabase-postgres-best-practices | 외부 | 자동 트리거 | [작동] | Supabase Postgres 최적화 (외부) |
+| 23 | term-organizer | B | 대화형 호출 | [작동] | 전문용어 자동 추출/정리 |
+| 24 | zero-script-qa | C | `/zero-script-qa [target]` | [작동] | Docker 로그 기반 제로 스크립트 QA |
 <!-- AUTO:skills-catalog:END -->
 
 <details><summary>스킬 사용법 상세</summary>
@@ -1107,6 +1205,102 @@ graph TD
 ```
 
 </details>
+
+[맨 위로](#범례--사용법)
+
+---
+
+### 5.3 Navigator 카탈로그 (자동 집계) {#navigator-카탈로그}
+
+> 14 Navigator의 메타데이터, 통계, 커버리지를 자동 수집. `readNavigatorsMeta` reader가 갱신.
+> Tier-S/A/B 스킬 중 SYSTEM_NAVIGATOR 스타일 Navigator를 보유한 모든 스킬이 대상.
+
+<!-- AUTO:navigators-meta:START -->
+
+#### Navigator 메타 표
+
+| 스킬 | Tier | 패턴 | 줄 | Mermaid | 블럭 | 클릭 |
+|------|:----:|------|---:|:-------:|:----:|:----:|
+| harness-architect | S | Branching + Phase | 791 | 3 | 33 | 45 |
+| llm-wiki | A | Operation Dispatcher | 1030 | 5 | 36 | 87 |
+| VisualCapture | A | Conditional Step | 666 | 2 | 25 | 26 |
+| PaperResearch | A | Linear Pipeline | 612 | 1 | 21 | 22 |
+| HWPX_Master | A | Track | 602 | 1 | 24 | 25 |
+| harness-imprint | B | Operation Dispatcher | 864 | 5 | 30 | 49 |
+| ServiceMaker | B | Linear Pipeline | 830 | 1 | 41 | 42 |
+| mdGuide | B | Branching + Linear | 757 | 1 | 32 | 33 |
+| PromptKit | B | Linear Pipeline | 676 | 1 | 31 | 32 |
+| auto-error-recovery | B | Phase + Recursive Loop | 674 | 1 | 29 | 30 |
+| term-organizer | B | Branching + Linear | 596 | 1 | 24 | 25 |
+| FileNameMaking | B | Linear Pipeline | 590 | 1 | 24 | 25 |
+| DocKit | B | Track | 589 | 1 | 23 | 24 |
+| Mermaid_FlowChart | B | Linear Pipeline | 547 | 4 | 21 | 22 |
+
+#### 총합
+
+- 총 Navigator: **14개**
+- 총 줄수: **9,824줄**
+- 총 Mermaid 블럭: **28개**
+- 총 블럭 카드: **394개**
+- 총 클릭 네비게이션: **487개**
+
+#### 커버리지
+
+| Tier | 진행 | 비율 |
+|:---:|:---:|:---:|
+| S | 1/1 | 100% |
+| A | 4/4 | 100% |
+| B | 9/9 | 100% |
+| **합계** | **14/14** | **100%** |
+
+<!-- AUTO:navigators-meta:END -->
+
+**동기**: 14 Navigator의 현황(줄/패턴/Mermaid/블럭/클릭)을 한곳에 모아 시스템 전체 시각화 자산을 즉시 파악. Tier 커버리지로 진행 상황 추적.
+
+[맨 위로](#범례--사용법)
+
+---
+
+### 5.4 패턴 라이브러리 통계 (자동) {#pattern-stats}
+
+> 5 패턴 라이브러리의 적용 분포. `readPatternStats` reader가 갱신.
+> 패턴 정의: [`Navigator_Pattern_Library`](../001_Wiki_AI/500_Technology/concepts/Navigator_Pattern_Library.md)
+
+<!-- AUTO:pattern-stats:START -->
+
+#### 5 패턴 적용 분포
+
+| 패턴 | 적용 수 | 비율 | 대표 스킬 |
+|------|:------:|:----:|:----------|
+| Linear Pipeline | 5 | 36% | PaperResearch, ServiceMaker, PromptKit, FileNameMaking |
+| Operation Dispatcher | 2 | 14% | llm-wiki, harness-imprint |
+| Track | 2 | 14% | HWPX_Master, DocKit |
+| Branching + Linear | 2 | 14% | mdGuide, term-organizer |
+| Branching + Phase | 1 | 7% | harness-architect |
+| Conditional Step | 1 | 7% | VisualCapture |
+| Phase + Recursive Loop | 1 | 7% | auto-error-recovery |
+
+#### 패턴별 상세
+
+**Linear Pipeline** (5개): PaperResearch, ServiceMaker, PromptKit, FileNameMaking, Mermaid_FlowChart
+
+**Operation Dispatcher** (2개): llm-wiki, harness-imprint
+
+**Track** (2개): HWPX_Master, DocKit
+
+**Branching + Linear** (2개): mdGuide, term-organizer
+
+**Branching + Phase** (1개): harness-architect
+
+**Conditional Step** (1개): VisualCapture
+
+**Phase + Recursive Loop** (1개): auto-error-recovery
+
+> **5 패턴 라이브러리 참조**: [`Navigator_Pattern_Library`](../001_Wiki_AI/500_Technology/concepts/Navigator_Pattern_Library.md), [`Watcher_Gate_Pattern`](../001_Wiki_AI/500_Technology/concepts/Watcher_Gate_Pattern.md), [`Recursive_Recovery_Loop_Pattern`](../001_Wiki_AI/500_Technology/concepts/Recursive_Recovery_Loop_Pattern.md)
+
+<!-- AUTO:pattern-stats:END -->
+
+**동기**: 5 패턴(Linear Pipeline / Operation Dispatcher / Track / Branching+Phase / Conditional Step) + 변형(Phase+Recursive Loop, Branching+Linear)의 적용 빈도를 자동 추적. 새 Navigator 추가 시 패턴 분포 즉시 업데이트.
 
 [맨 위로](#범례--사용법)
 
@@ -1606,6 +1800,44 @@ flowchart TD
 ## 9. Gap 분석 (정의됨 vs 미작동) {#gap-분석}
 
 > **최적화 진행 상태** (2026-04-10): 10개 Gap 중 9개 해결 완료, 1개 진행 중
+> **Option C 추가 (2026-04-11)**: §9.0 자동 Gap 감지 신규. Navigator 미생성/검증 미달 자동 추적.
+
+### 9.0 자동 Gap 감지 (Navigator 검증) {#auto-gap-analysis}
+
+> Navigator 파일 시스템 자동 감사. `readGapAnalysis` reader가 갱신.
+> SKILL.md는 있으나 Navigator.md가 없는 스킬, 검증 기준 미달 Navigator를 추적.
+
+<!-- AUTO:gap-analysis:START -->
+
+#### Tier-C 미생성 Navigator (8개)
+
+- `bkit-rules`
+- `bkit-templates`
+- `btw`
+- `code-review`
+- `development-pipeline`
+- `pdca`
+- `plan-plus`
+- `zero-script-qa`
+
+#### 비표준 메타 표 (구버전 파일럿)
+
+- `harness-architect` (### 스킬 메타 섹션 없음, fallback 사용)
+- `llm-wiki` (### 스킬 메타 섹션 없음, fallback 사용)
+
+#### 검증 통과 요약
+
+- Tier-S/A/B Navigator 보유: **14/14** (100%)
+- Tier-C Navigator 보유: 0/8 (0%)
+- 블럭 카드 ≥ 15 통과: 14/14
+- Mermaid ≥ 1 통과: 14/14
+- 표준 메타 표 사용: 12/14
+
+<!-- AUTO:gap-analysis:END -->
+
+**동기**: Tier-S/A/B 14 Navigator 100% 달성 후, Tier-C 8개 미생성 + 향후 신규 스킬에서 Navigator 누락 등을 자동 감지. 수동 §9.1-§9.4 (정적 GAP-001~010)와 별개로 동적 검증 결과 표시.
+
+[맨 위로](#범례--사용법)
 
 ### 9.1 문서-실제 불일치
 
@@ -1744,6 +1976,12 @@ flowchart TD
 | `CLAUDE.md` | 3.1 CLAUDE.md 구조 | (수동) |
 | `.claude/hooks/pre-tool-guard.js` | 3.2 경로 목록 | `pre-tool-guard` |
 | `.bkit/plugin/scripts/` | 4.3 bkit 스크립트 | `bkit-scripts` |
+| **`.agents/skills/*/Navigator.md`** | **1.2 Navigator 다이어그램** | **`navigator-diagram`** |
+| **(동상)** | **5.3 Navigator 카탈로그** | **`navigators-meta`** |
+| **(동상)** | **5.4 패턴 통계** | **`pattern-stats`** |
+| **(동상)** | **9.0 자동 Gap 감지** | **`gap-analysis`** |
+
+> **Option C 신규 (2026-04-11)**: Navigator 4 마커는 단일 트리거(Navigator.md 변경)로 동시 갱신. navigator-updater.js의 multi-marker 처리.
 
 ### 마커 형식
 
@@ -3999,5 +4237,8 @@ flowchart TD
 | 2026-04-10 | 각인 시스템 갱신 완료 | .harness/imprints.json 변경 |
 | 2026-04-10 | 각인 시스템 갱신 완료 | .harness/imprints.json 변경 |
 | 2026-04-10 | 각인 시스템 갱신 완료 | .harness/imprints.json 변경 |
+| 2026-04-11 | Option C: Navigator 자동 집계 4 마커 추가 (§1.2 + §5.3 + §5.4 + §9.0) | 수동 (helpers.js + updater.js + SYSTEM_NAVIGATOR.md 동시 확장) |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/term-organizer/term-organizer_navigator.md 변경 |
+| 2026-04-11 | 스킬 카탈로그 1/1 updated | .agents/skills/term-organizer/skill.md 변경 |
 
 [맨 위로](#범례--사용법)

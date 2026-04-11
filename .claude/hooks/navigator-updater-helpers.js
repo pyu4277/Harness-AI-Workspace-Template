@@ -1033,6 +1033,450 @@ function mergeNavigator(scaffold, preserved, options) {
   return scaffold;
 }
 
+// =============================================================================
+// Option C: Navigator Catalog + Gap Analysis + Pattern Stats + Diagram Reader
+// SYSTEM_NAVIGATOR.md 자동 갱신 영역 확대 (3.5% → ~20%)
+// =============================================================================
+
+// --- 프로세스 타입을 5 패턴으로 정규화 ---
+// 입력: "Linear Pipeline (5-Step + Trigger 분기)" 또는 "Operation Dispatcher (7 ops + 2 훅)"
+// 출력: 5 패턴 중 하나 ('Linear Pipeline' / 'Operation Dispatcher' / 'Track' / 'Branching + Phase' / 'Conditional Step' / 'Phase + Recursive Loop' / 'Branching + Linear')
+function normalizeProcessType(rawType) {
+  if (!rawType) return 'Unknown';
+  const t = rawType.trim();
+  if (/Operation\s*Dispatcher/i.test(t)) return 'Operation Dispatcher';
+  if (/Phase.*Recursive|Recursive.*Loop|Recursive\s*Recovery/i.test(t)) return 'Phase + Recursive Loop';
+  if (/Conditional\s*Step/i.test(t)) return 'Conditional Step';
+  if (/Branching\s*\+\s*Linear/i.test(t)) return 'Branching + Linear';
+  if (/Branching\s*\+\s*Phase|Branch.*Phase/i.test(t)) return 'Branching + Phase';
+  if (/Linear\s*Pipeline|Linear/i.test(t)) return 'Linear Pipeline';
+  if (/Track/i.test(t)) return 'Track';
+  if (/Phase/i.test(t)) return 'Branching + Phase'; // Phase 단독은 Branching+Phase로 분류 (harness-architect)
+  return 'Unknown';
+}
+
+// --- parseSkillMetaTable: Navigator의 ### 스킬 메타 섹션 5-컬럼 표 파싱 ---
+// fallback: 섹션 없으면 SKILL.md frontmatter의 description 활용
+function parseSkillMetaTable(navContent, skillName, skillFrontmatter) {
+  const meta = {
+    name: skillName,
+    tier: null,
+    command: null,
+    processType: null,
+    description: null
+  };
+
+  // 1. ### 스킬 메타 섹션 추출
+  const sectionMatch = navContent.match(/###\s*스킬\s*메타[\s\S]*?(?=\n###|\n##|\n---|\n$)/);
+  if (sectionMatch) {
+    const section = sectionMatch[0];
+    // 표 행 파싱: | key | value |
+    const rowRegex = /\|\s*([^|\n]+?)\s*\|\s*([^|\n]+?)\s*\|/g;
+    let m;
+    while ((m = rowRegex.exec(section)) !== null) {
+      const key = m[1].trim();
+      const val = m[2].trim();
+      if (key === '항목' || key.startsWith('---')) continue; // header/separator
+      if (key === '이름' || key === 'Name') meta.name = val;
+      else if (key === 'Tier') meta.tier = val;
+      else if (key === '커맨드' || key === 'Command') meta.command = val;
+      else if (key === '프로세스 타입' || key === 'Process Type' || key === 'processType') meta.processType = val;
+      else if (key === '설명' || key === 'Description') meta.description = val;
+    }
+  }
+
+  // 2. Fallback: SKILL.md frontmatter에서 description 추출
+  if (!meta.description && skillFrontmatter && skillFrontmatter.description) {
+    meta.description = firstLine(String(skillFrontmatter.description)).slice(0, 120);
+  }
+
+  // 3. Fallback: TIER_MAP에서 tier 추론
+  if (!meta.tier && TIER_MAP[skillName]) {
+    meta.tier = TIER_MAP[skillName].tier;
+  }
+  if (!meta.command && TIER_MAP[skillName]) {
+    meta.command = TIER_MAP[skillName].command;
+  }
+
+  // 4. processType 없으면 hardcoded fallback (구버전 파일럿 2개 보호)
+  if (!meta.processType || meta.processType === 'Unknown') {
+    // 구버전 파일럿: harness-architect(7-Phase) + llm-wiki(Operation Dispatcher)
+    const PILOT_PATTERNS = {
+      'harness-architect': 'Branching + Phase (7 Phase)',
+      'llm-wiki': 'Operation Dispatcher (5 ops + 3-mode)'
+    };
+    if (PILOT_PATTERNS[skillName]) {
+      meta.processType = PILOT_PATTERNS[skillName];
+    } else {
+      meta.processType = 'Unknown';
+    }
+  }
+
+  meta.normalizedPattern = normalizeProcessType(meta.processType);
+  return meta;
+}
+
+// --- collectNavigatorsData: 14 Navigator 메타데이터 + 통계 수집 (단일 진입점) ---
+function collectNavigatorsData(cwd) {
+  const skillsDir = path.join(cwd, '.agents', 'skills');
+  if (!fs.existsSync(skillsDir)) return [];
+
+  const skills = fs.readdirSync(skillsDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .sort();
+
+  const navigators = [];
+  for (const skill of skills) {
+    const skillMd = path.join(skillsDir, skill, 'SKILL.md');
+    const navPath = path.join(skillsDir, skill, skill + '_Navigator.md');
+    if (!fs.existsSync(navPath)) continue;
+
+    let content = '';
+    try {
+      content = fs.readFileSync(navPath, 'utf8');
+    } catch (e) {
+      continue;
+    }
+
+    // SKILL.md frontmatter (fallback용)
+    let skillFm = {};
+    if (fs.existsSync(skillMd)) {
+      try {
+        const skillContent = fs.readFileSync(skillMd, 'utf8');
+        skillFm = parseFrontmatter(skillContent) || {};
+      } catch (e) { /* ignore */ }
+    }
+
+    const meta = parseSkillMetaTable(content, skill, skillFm);
+
+    // 통계 카운트
+    const lines = content.split('\n').length;
+    const mermaidCount = (content.match(/```mermaid/g) || []).length;
+    const blockCount = (content.match(/^\|\s*상태\s*\|/gm) || []).length;
+    const clickCount = (content.match(/click\s+\w+\s+"#/g) || []).length;
+
+    navigators.push({
+      skill,
+      ...meta,
+      lines,
+      mermaidCount,
+      blockCount,
+      clickCount
+    });
+  }
+
+  // Tier 우선 정렬: S → A → B → 그 외
+  const tierOrder = { S: 0, A: 1, B: 2 };
+  navigators.sort((a, b) => {
+    const ta = tierOrder[a.tier] !== undefined ? tierOrder[a.tier] : 9;
+    const tb = tierOrder[b.tier] !== undefined ? tierOrder[b.tier] : 9;
+    if (ta !== tb) return ta - tb;
+    return b.lines - a.lines;
+  });
+
+  return navigators;
+}
+
+// --- readNavigatorsMeta(cwd) -> AUTO:navigators-meta 마커 콘텐츠 ---
+function readNavigatorsMeta(cwd) {
+  const navigators = collectNavigatorsData(cwd);
+  if (navigators.length === 0) return '_No Navigator files found_';
+
+  const out = [];
+  out.push('');
+  out.push('#### Navigator 메타 표');
+  out.push('');
+  out.push('| 스킬 | Tier | 패턴 | 줄 | Mermaid | 블럭 | 클릭 |');
+  out.push('|------|:----:|------|---:|:-------:|:----:|:----:|');
+  for (const n of navigators) {
+    const pattern = escapeMdCell(n.normalizedPattern || n.processType || '-');
+    const tier = n.tier || '-';
+    out.push('| ' + n.skill + ' | ' + tier + ' | ' + pattern + ' | ' + n.lines + ' | ' + n.mermaidCount + ' | ' + n.blockCount + ' | ' + n.clickCount + ' |');
+  }
+
+  // 총합
+  const totalLines = navigators.reduce((s, n) => s + n.lines, 0);
+  const totalMermaid = navigators.reduce((s, n) => s + n.mermaidCount, 0);
+  const totalBlocks = navigators.reduce((s, n) => s + n.blockCount, 0);
+  const totalClicks = navigators.reduce((s, n) => s + n.clickCount, 0);
+
+  out.push('');
+  out.push('#### 총합');
+  out.push('');
+  out.push('- 총 Navigator: **' + navigators.length + '개**');
+  out.push('- 총 줄수: **' + totalLines.toLocaleString() + '줄**');
+  out.push('- 총 Mermaid 블럭: **' + totalMermaid + '개**');
+  out.push('- 총 블럭 카드: **' + totalBlocks + '개**');
+  out.push('- 총 클릭 네비게이션: **' + totalClicks + '개**');
+
+  // 커버리지 (Tier별)
+  const tierCounts = { S: 0, A: 0, B: 0 };
+  for (const n of navigators) {
+    if (tierCounts[n.tier] !== undefined) tierCounts[n.tier]++;
+  }
+  // 분모: TIER_MAP에서 정의된 Tier별 스킬 수 (외부 제외)
+  const tierTotals = { S: 0, A: 0, B: 0 };
+  for (const skill in TIER_MAP) {
+    const t = TIER_MAP[skill].tier;
+    if (tierTotals[t] !== undefined) tierTotals[t]++;
+  }
+
+  out.push('');
+  out.push('#### 커버리지');
+  out.push('');
+  out.push('| Tier | 진행 | 비율 |');
+  out.push('|:---:|:---:|:---:|');
+  for (const t of ['S', 'A', 'B']) {
+    const ratio = tierTotals[t] > 0 ? Math.round(tierCounts[t] / tierTotals[t] * 100) : 0;
+    out.push('| ' + t + ' | ' + tierCounts[t] + '/' + tierTotals[t] + ' | ' + ratio + '% |');
+  }
+  const totalCov = tierCounts.S + tierCounts.A + tierCounts.B;
+  const totalDen = tierTotals.S + tierTotals.A + tierTotals.B;
+  const totalRatio = totalDen > 0 ? Math.round(totalCov / totalDen * 100) : 0;
+  out.push('| **합계** | **' + totalCov + '/' + totalDen + '** | **' + totalRatio + '%** |');
+  out.push('');
+
+  return out.join('\n');
+}
+
+// --- readPatternStats(cwd) -> AUTO:pattern-stats 마커 콘텐츠 ---
+function readPatternStats(cwd) {
+  const navigators = collectNavigatorsData(cwd);
+  if (navigators.length === 0) return '_No Navigator files found_';
+
+  // 5 패턴 (+ 변형) 그룹화
+  const patternGroups = {};
+  for (const n of navigators) {
+    const key = n.normalizedPattern || 'Unknown';
+    if (!patternGroups[key]) patternGroups[key] = [];
+    patternGroups[key].push(n);
+  }
+
+  // 적용 수 내림차순 정렬
+  const sortedPatterns = Object.entries(patternGroups)
+    .sort((a, b) => b[1].length - a[1].length);
+
+  const out = [];
+  out.push('');
+  out.push('#### 5 패턴 적용 분포');
+  out.push('');
+  out.push('| 패턴 | 적용 수 | 비율 | 대표 스킬 |');
+  out.push('|------|:------:|:----:|:----------|');
+  for (const [pattern, list] of sortedPatterns) {
+    const ratio = Math.round(list.length / navigators.length * 100);
+    const reps = list.slice(0, 4).map(n => n.skill).join(', ');
+    out.push('| ' + escapeMdCell(pattern) + ' | ' + list.length + ' | ' + ratio + '% | ' + escapeMdCell(reps) + ' |');
+  }
+
+  out.push('');
+  out.push('#### 패턴별 상세');
+  out.push('');
+  for (const [pattern, list] of sortedPatterns) {
+    out.push('**' + pattern + '** (' + list.length + '개): ' + list.map(n => n.skill).join(', '));
+    out.push('');
+  }
+
+  out.push('> **5 패턴 라이브러리 참조**: [`Navigator_Pattern_Library`](../001_Wiki_AI/500_Technology/concepts/Navigator_Pattern_Library.md), [`Watcher_Gate_Pattern`](../001_Wiki_AI/500_Technology/concepts/Watcher_Gate_Pattern.md), [`Recursive_Recovery_Loop_Pattern`](../001_Wiki_AI/500_Technology/concepts/Recursive_Recovery_Loop_Pattern.md)');
+  out.push('');
+  return out.join('\n');
+}
+
+// --- readGapAnalysis(cwd) -> AUTO:gap-analysis 마커 콘텐츠 ---
+function readGapAnalysis(cwd) {
+  const skillsDir = path.join(cwd, '.agents', 'skills');
+  if (!fs.existsSync(skillsDir)) return '_No skills directory_';
+
+  const skills = fs.readdirSync(skillsDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .sort();
+
+  const gaps = {
+    missingNavigator: [],
+    insufficientBlocks: [],
+    noMermaid: [],
+    nonStandardMeta: []
+  };
+
+  // TIER_MAP에 정의되지 않은 외부 스킬 필터
+  const knownSkills = new Set(Object.keys(TIER_MAP));
+
+  for (const skill of skills) {
+    const skillMd = path.join(skillsDir, skill, 'SKILL.md');
+    const navMd = path.join(skillsDir, skill, skill + '_Navigator.md');
+    if (!fs.existsSync(skillMd)) continue; // SKILL.md 없으면 스킬 아님
+
+    if (!fs.existsSync(navMd)) {
+      // 외부 스킬은 스킵
+      if (knownSkills.has(skill) && TIER_MAP[skill].tier !== '외부') {
+        gaps.missingNavigator.push({ skill, tier: TIER_MAP[skill].tier });
+      }
+      continue;
+    }
+
+    const content = fs.readFileSync(navMd, 'utf8');
+    const blockCount = (content.match(/^\|\s*상태\s*\|/gm) || []).length;
+    const mermaidCount = (content.match(/```mermaid/g) || []).length;
+
+    if (mermaidCount === 0) gaps.noMermaid.push(skill);
+    if (blockCount < 15) gaps.insufficientBlocks.push({ skill, count: blockCount });
+    if (!/###\s*스킬\s*메타/.test(content)) gaps.nonStandardMeta.push(skill);
+  }
+
+  const out = [];
+  out.push('');
+
+  // 1. Tier-C 미생성 (gaps.missingNavigator 중 tier C)
+  const tierCMissing = gaps.missingNavigator.filter(x => x.tier === 'C');
+  if (tierCMissing.length > 0) {
+    out.push('#### Tier-C 미생성 Navigator (' + tierCMissing.length + '개)');
+    out.push('');
+    for (const item of tierCMissing) {
+      out.push('- `' + item.skill + '`');
+    }
+    out.push('');
+  }
+
+  // 2. Tier-B 미생성 (있어서는 안 됨)
+  const tierBMissing = gaps.missingNavigator.filter(x => x.tier === 'B');
+  if (tierBMissing.length > 0) {
+    out.push('#### Tier-B 미생성 Navigator -- 경고');
+    out.push('');
+    for (const item of tierBMissing) {
+      out.push('- `' + item.skill + '`');
+    }
+    out.push('');
+  }
+
+  // 3. Tier-A 미생성 (있어서는 안 됨, critical)
+  const tierAMissing = gaps.missingNavigator.filter(x => x.tier === 'A' || x.tier === 'S');
+  if (tierAMissing.length > 0) {
+    out.push('#### Tier-S/A 미생성 Navigator -- CRITICAL');
+    out.push('');
+    for (const item of tierAMissing) {
+      out.push('- `' + item.skill + '` (Tier-' + item.tier + ')');
+    }
+    out.push('');
+  }
+
+  // 4. 검증 기준 미달
+  if (gaps.insufficientBlocks.length > 0) {
+    out.push('#### 블럭 카드 < 15 (검증 기준 미달)');
+    out.push('');
+    for (const item of gaps.insufficientBlocks) {
+      out.push('- `' + item.skill + '`: ' + item.count + '개');
+    }
+    out.push('');
+  }
+
+  if (gaps.noMermaid.length > 0) {
+    out.push('#### Mermaid 0개 (검증 기준 미달)');
+    out.push('');
+    for (const skill of gaps.noMermaid) {
+      out.push('- `' + skill + '`');
+    }
+    out.push('');
+  }
+
+  // 5. 비표준 메타 (구버전 파일럿)
+  if (gaps.nonStandardMeta.length > 0) {
+    out.push('#### 비표준 메타 표 (구버전 파일럿)');
+    out.push('');
+    for (const skill of gaps.nonStandardMeta) {
+      out.push('- `' + skill + '` (### 스킬 메타 섹션 없음, fallback 사용)');
+    }
+    out.push('');
+  }
+
+  // 6. 검증 통과 요약
+  const tierSAB = Object.values(TIER_MAP).filter(v => ['S', 'A', 'B'].includes(v.tier)).length;
+  const tierC = Object.values(TIER_MAP).filter(v => v.tier === 'C').length;
+  const passedSAB = tierSAB - gaps.missingNavigator.filter(g => ['S', 'A', 'B'].includes(g.tier)).length;
+  out.push('#### 검증 통과 요약');
+  out.push('');
+  out.push('- Tier-S/A/B Navigator 보유: **' + passedSAB + '/' + tierSAB + '** (' + Math.round(passedSAB / tierSAB * 100) + '%)');
+  out.push('- Tier-C Navigator 보유: ' + (tierC - tierCMissing.length) + '/' + tierC + ' (' + Math.round((tierC - tierCMissing.length) / tierC * 100) + '%)');
+  out.push('- 블럭 카드 ≥ 15 통과: ' + (passedSAB - gaps.insufficientBlocks.length) + '/' + passedSAB);
+  out.push('- Mermaid ≥ 1 통과: ' + (passedSAB - gaps.noMermaid.length) + '/' + passedSAB);
+  out.push('- 표준 메타 표 사용: ' + (passedSAB - gaps.nonStandardMeta.length) + '/' + passedSAB);
+  out.push('');
+
+  return out.join('\n');
+}
+
+// --- generateNavigatorDiagram(cwd) -> AUTO:navigator-diagram 마커 콘텐츠 ---
+// 14 Navigator를 5 패턴 subgraph로 그룹화하여 Mermaid 자동 생성
+function readNavigatorDiagram(cwd) {
+  const navigators = collectNavigatorsData(cwd);
+  if (navigators.length === 0) return '_No Navigator files found_';
+
+  // 패턴별 그룹화
+  const patternGroups = {};
+  for (const n of navigators) {
+    const key = n.normalizedPattern || 'Unknown';
+    if (!patternGroups[key]) patternGroups[key] = [];
+    patternGroups[key].push(n);
+  }
+
+  // 패턴별 subgraph ID 매핑 (영문 ID 필수, 한글 노드 ID 금지)
+  const subgraphIds = {
+    'Linear Pipeline': 'LP',
+    'Operation Dispatcher': 'OD',
+    'Track': 'TR',
+    'Branching + Phase': 'BP',
+    'Conditional Step': 'CS',
+    'Phase + Recursive Loop': 'PRL',
+    'Branching + Linear': 'BL',
+    'Unknown': 'UN'
+  };
+
+  const out = [];
+  out.push('');
+  out.push('```mermaid');
+  out.push('%%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%');
+  out.push('flowchart TD');
+  out.push('    Root([SYSTEM_NAVIGATOR<br/>' + navigators.length + ' Navigators]):::io');
+  out.push('');
+
+  // 패턴별 subgraph
+  const sortedGroups = Object.entries(patternGroups)
+    .sort((a, b) => b[1].length - a[1].length);
+
+  const allClicks = [];
+  for (const [pattern, list] of sortedGroups) {
+    const sgId = subgraphIds[pattern] || 'UNK';
+    out.push('    subgraph ' + sgId + '["' + pattern + ' (' + list.length + ')"]');
+    for (const n of list) {
+      // 노드 ID는 영문/숫자만 (한글 금지)
+      const nodeId = sgId + '_' + n.skill.replace(/[^a-zA-Z0-9]/g, '_');
+      out.push('      ' + nodeId + '[' + escapeMdCell(n.skill) + '<br/>' + n.lines + '줄]');
+      // 클릭 시 §5.3 카탈로그로 이동
+      allClicks.push('    click ' + nodeId + ' "#navigator-카탈로그"');
+    }
+    out.push('    end');
+    out.push('');
+  }
+
+  // Root → 각 subgraph 연결
+  for (const [pattern, list] of sortedGroups) {
+    const sgId = subgraphIds[pattern] || 'UNK';
+    out.push('    Root --> ' + sgId);
+  }
+  out.push('');
+
+  // 클릭 매핑
+  out.push('    click Root "#navigator-카탈로그"');
+  for (const click of allClicks) {
+    out.push(click);
+  }
+  out.push('');
+  out.push('    classDef io fill:#eef,stroke:#338,stroke-width:2px');
+  out.push('```');
+  out.push('');
+  return out.join('\n');
+}
+
 module.exports = {
   parseFrontmatter,
   firstLine,
@@ -1057,5 +1501,13 @@ module.exports = {
   SECTION_PATTERNS,
   generateMermaidTemplateByPattern,
   extractContextAroundKeyword,
-  inferBlockCardHints
+  inferBlockCardHints,
+  // Option C: SYSTEM_NAVIGATOR.md 자동 갱신 확장
+  normalizeProcessType,
+  parseSkillMetaTable,
+  collectNavigatorsData,
+  readNavigatorsMeta,
+  readPatternStats,
+  readGapAnalysis,
+  readNavigatorDiagram
 };

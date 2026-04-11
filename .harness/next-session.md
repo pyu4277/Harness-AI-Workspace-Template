@@ -3,152 +3,168 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
-## 이전 세션 정보 (2026-04-11 Option A 세션 3 완료)
+## 이전 세션 정보 (2026-04-11 Option C 완료)
 
-- **세션 시작**: 2026-04-11 (Warm Boot, Option A 세션 2 이후)
-- **세션 종료**: 2026-04-11 (Option A 세션 3: **Tier-B 100% 달성**)
-- **프로젝트**: 260410_Harness_Evolution (Tier-B 확장 3/3 완료)
+- **세션 시작**: 2026-04-11 (Warm Boot, Option F 이후)
+- **세션 종료**: 2026-04-11 (Option C: SYSTEM_NAVIGATOR.md 자동 재생성 완료)
+- **프로젝트**: 260410_Harness_Evolution (Navigator 자동화 인프라 확대)
 
-## 이번 세션 (Option A 세션 3) 성과
+## 이번 세션 (Option C) 성과
 
-Tier-B 마지막 3개 Navigator 신규 생성. **Tier-B 9/9 = 100% 달성**.
+SYSTEM_NAVIGATOR.md의 자동 갱신 영역을 **3.5% → ~14%**로 확대. 14 Navigator 메타데이터를 자동 수집하여 4개 신규 섹션 자동 갱신.
 
-| 스킬 | 줄 | Mermaid | 블럭 카드 | 클릭 | 패턴 |
-|------|-----|---------|-----------|------|------|
-| **PromptKit** | 676 | 1 | 31 | 32 | Linear Pipeline (5-Step + Trigger 분기) |
-| **ServiceMaker** | 830 | 1 | 41 | 42 | Linear Pipeline (9-Step + Watcher Gate) |
-| **Mermaid_FlowChart** | 547 | 4 | 21 | 22 | Linear Pipeline (4-Step 소형) |
+### 신규 reader 함수 4개 (helpers.js)
 
-**합계**: 2053줄 신규, 블럭 카드 93개, 클릭 96개
+1. **`readNavigatorsMeta(cwd)`**: 14 Navigator 메타 표 + 통계(줄/Mermaid/블럭/클릭) + Tier 커버리지
+2. **`readPatternStats(cwd)`**: 5 패턴 적용 분포 + 패턴별 상세
+3. **`readGapAnalysis(cwd)`**: Tier-C 미생성 + 비표준 메타 + 검증 통과 요약
+4. **`readNavigatorDiagram(cwd)`**: 14 Navigator를 5 패턴 subgraph로 그룹화한 자동 Mermaid
 
-### 패턴 검증
+### 보조 함수 3개
 
-- **PromptKit**: 5-Step + Trigger 분기 (3가지 요청 유형: 변환만/예시만/전체) + 사용자 승인 게이트 + mdGuide 검증 루프
-- **ServiceMaker**: 9-Step (Step 0-9) + Watcher Gate (Step 5 중 반복) + E2E 실패 시 Step 5 복귀 + 레거시 패턴 잔류 검증
-- **Mermaid_FlowChart**: 4-Step (소형) + 자가 검증 4종 린팅 + 후처리 (HTML/괄호 정리) + 시나리오 예시 4개 (Mermaid 5개 = 메인 1 + 예시 4)
+- `parseSkillMetaTable(navContent, skillName, skillFm)`: ### 스킬 메타 표 파싱 (구버전 파일럿 fallback 포함)
+- `normalizeProcessType(rawType)`: 다양한 표기를 5 패턴 + 변형 2종으로 정규화
+- `collectNavigatorsData(cwd)`: 14 Navigator 단일 진입점 (4 reader 공통 사용)
+
+### navigator-updater.js 확장
+
+- `watchMap`을 단일 마커 → 다중 마커 배열로 확장 (`markers: [...], labels: [...]`)
+- 단일 트리거(`.agents/skills/*/Navigator.md` 변경)가 4 마커 동시 갱신
+- 마커 누락 시 스킵 (점진적 도입 안전)
+- 안전 검증 (50% 임계값) 보존
+
+### SYSTEM_NAVIGATOR.md 신규 4 섹션
+
+| 섹션 | 마커 | 위치 |
+|------|------|------|
+| **§1.2 Navigator 시스템 체계도 (자동)** | `navigator-diagram` | 신규 |
+| **§5.3 Navigator 카탈로그 (자동 집계)** | `navigators-meta` | 신규 |
+| **§5.4 패턴 라이브러리 통계 (자동)** | `pattern-stats` | 신규 |
+| **§9.0 자동 Gap 감지 (Navigator 검증)** | `gap-analysis` | 신규 |
+
+### 통계 변화
+
+| 항목 | Option C 이전 | Option C 이후 |
+|------|--------------|--------------|
+| SYSTEM_NAVIGATOR.md 줄수 | 4003 | **4244** (+241, +6%) |
+| AUTO 마커 수 | 8 | **13** (+5, navigator 4 + 통계용 표 갱신) |
+| 자동 갱신 영역 | 3.5% (~143줄) | **~14% (~600줄)** |
+| helpers.js 줄수 | 1061 | **~1500** (신규 함수 7개 + 모듈 exports 7) |
+| Reader 함수 수 | 6 | **10** (+4) |
+| 모듈 exports | 22 | **29** (+7) |
 
 ### 검증 결과
 
-- 이모티콘 0, 절대경로 0 (전 스킬)
-- ServiceMaker가 가장 큰 Navigator (830줄, 41 블럭) -- 9-Step 복잡도 반영
-- Mermaid_FlowChart는 가장 작은 Navigator (547줄, 21 블럭) -- 4-Step 단순 구조
-- 6 Golden Rules 준수
+- **회귀 0**: 기존 8 AUTO 마커 (skills-catalog/mcp-servers/commands/imprints/pre-tool-guard/bkit-scripts) 모두 보존
+- **신규 4 마커 자동 채움**: navigators-meta(38행) + pattern-stats(7 패턴) + gap-analysis(검증 통과) + navigator-diagram(자동 Mermaid 5 subgraph)
+- **훅 시뮬레이션 성공**:
+  - Navigator.md 변경 → 4 마커 동시 갱신
+  - SKILL.md 변경 → skills-catalog 단일 갱신 (회귀 0)
+- **wiki-lint**: 0 issues
+- **기존 콘텐츠 0 손실**: 9 Mermaid + 217 블럭 카드 + 갱신 이력 모두 그대로
+
+### 14 Navigator 자동 분류 결과
+
+| 패턴 | 적용 수 | 대표 |
+|------|:------:|------|
+| Linear Pipeline | 5 | PaperResearch, ServiceMaker, PromptKit, FileNameMaking, Mermaid_FlowChart |
+| Operation Dispatcher | 2 | llm-wiki, harness-imprint |
+| Track | 2 | HWPX_Master, DocKit |
+| Branching + Linear | 2 | mdGuide, term-organizer |
+| Branching + Phase | 1 | harness-architect |
+| Conditional Step | 1 | VisualCapture |
+| Phase + Recursive Loop | 1 | auto-error-recovery |
+
+**참고**: 이전 세션 분류와 mdGuide가 "Branching + Linear"로 재분류됨 (이전: Linear Pipeline) -- 정확한 normalizeProcessType 매칭 결과
 
 ---
 
 ## 현재 시스템 상태 스냅샷
 
-### Navigator 보유 스킬 (15개, **Tier-S/A 100% + Tier-B 100% = 14/14**)
+### Navigator 보유 (15개, Tier-S/A/B 100%)
 
-| 스킬 | Tier | 줄 | 패턴 |
-|------|------|-----|------|
-| llm-wiki | A | 1030 | Operation Dispatcher (5 ops + 3-mode) |
-| harness-imprint | B | 864 | Operation Dispatcher (7 ops + 2 훅) |
-| **ServiceMaker** | **B** | **830** | **Linear Pipeline (9-Step + Watcher Gate)** |
-| harness-architect | S | 790 | Branching + Phase (7 Phase) |
-| mdGuide | B | 757 | Branching + Linear (3 커맨드 + 훅) |
-| auto-error-recovery | B | 674 | Phase + Recursive Loop |
-| **PromptKit** | **B** | **676** | **Linear Pipeline (5-Step + Trigger)** |
-| VisualCapture | A | 665 | Conditional Step |
-| session-handoff | (폐지) | 638 | llm-wiki Mode 2/3 통합 |
-| PaperResearch | A | 611 | Linear Pipeline |
-| HWPX_Master | A | 601 | Track |
-| term-organizer | B | 596 | Branching + Linear |
-| FileNameMaking | B | 590 | Linear Pipeline (3-Step) |
-| DocKit | B | 589 | Track (3-Track) |
-| **Mermaid_FlowChart** | **B** | **547** | **Linear Pipeline (4-Step 소형)** |
+이전 세션 동일. 변동 없음.
 
-**Tier-S/A 커버리지**: 5/5 (100%)
-**Tier-B 커버리지**: **9/9 (100%)**
-**전체 커버리지**: 14/14 (100%, session-handoff 통합 제외)
+### SYSTEM_NAVIGATOR.md 자동화 인프라
 
-### 총 통계
-
-- **총 Navigator**: 15개 (session-handoff 포함)
-- **총 줄수**: 10,488줄 (이전 8,485 + 이번 2,053)
-- **총 Mermaid 블럭**: 25개
-- **총 블럭 카드**: 약 333개
-- **총 클릭**: 약 350개
+- **AUTO 마커**: 8 → 13개 (+5)
+- **Reader 함수**: 6 → 10개 (+4)
+- **자동 갱신 영역**: 143줄 → ~600줄
+- **navigator-updater.js**: 단일 마커 → 다중 마커 처리
 
 ### 각인 + 용어
 
 - 각인: 20개 (IMP-001~020)
 - 전문용어: 54개
-- 위키: Navigator_Pattern_Library 5 패턴 + Recursive_Recovery_Loop_Pattern
+- 위키 wiki-lint: 0 issues
 
-### 미커밋 파일 (세션 종료 시)
+### 미커밋 파일
 
-- `.agents/skills/PromptKit/PromptKit_Navigator.md` (신규)
-- `.agents/skills/ServiceMaker/ServiceMaker_Navigator.md` (신규)
-- `.agents/skills/Mermaid_FlowChart/Mermaid_FlowChart_Navigator.md` (신규)
+- `.claude/hooks/navigator-updater-helpers.js` (신규 함수 7개 + exports 7)
+- `.claude/hooks/navigator-updater.js` (watchMap 확장 + multi-marker 처리)
+- `SYSTEM_NAVIGATOR.md` (신규 4 섹션 + AUTO 마커 4 + 회귀 0)
 - `.harness/next-session.md` (이 파일 갱신)
 
 ---
 
 ## 다음 세션 작업 선택지
 
-**Tier-S/A/B 100% 달성!** Option A 완료. 남은 옵션:
+### 옵션 E: Tier-C 확장 (다음 권장)
 
-### 옵션 C: Wiki/지식 베이스 통합 강화 (다음 권장)
+자동 Gap 감지(§9.0)가 Tier-C 8개를 자동 추적하므로, 이제 Tier-C Navigator 작성으로 100% 완전 커버리지 달성 가능.
 
-- llm-wiki ↔ Navigator 양방향 참조 자동화
-- SYSTEM_NAVIGATOR.md 재생성 (15개 Navigator 집계, 현재 수동)
-- llm-wiki Mode 3로 이번 3개 세션(Option A 전체) 지식화
-- 5 패턴 라이브러리 통계 갱신 (15 Navigator 기반)
+**Tier-C 8개**:
+- pdca, bkit-rules, bkit-templates, plan-plus, development-pipeline, code-review, zero-script-qa, btw
 
-### 옵션 E: Tier-C 확장 (bkit 프레임워크 8개)
+**예상**: 세션당 3-4개, 2-3 세션 분할.
 
-| 스킬 | 카테고리 |
-|------|----------|
-| pdca | PDCA 전체 주기 관리 |
-| bkit-rules | 코어 규칙 |
-| bkit-templates | PDCA 문서 템플릿 |
-| plan-plus | 브레인스토밍 강화 기획 |
-| development-pipeline | 9단계 개발 파이프라인 |
-| code-review | 코드 품질 분석 |
-| zero-script-qa | Docker 기반 QA |
-| btw | 개선 제안 수집 |
+### 옵션 G: Wiki 진화 (Option C 결과 지식화)
 
-각 스킬당 ~20분, 세션당 3-4개. 2-3 세션 분할 가능.
+llm-wiki Mode 3로 이번 작업을 위키화:
+- "SYSTEM_NAVIGATOR Auto-Aggregation" 신규 concept
+- 260411_Option_C_Auto_Aggregation source
+- Navigator_Pattern_Library 통계 자동화 명시
 
-### 옵션 F: Wiki 진화 (이번 Option A 전체 지식화)
+### 옵션 H: IMP-021 공식 기록
 
-- Tier-B 완성 마일스톤 source 페이지 작성
-- Navigator_Pattern_Library 통계 9 → 14 갱신
-- 6번째 패턴 후보 검토 (만약 발견되면 확장)
+Mermaid 표 마커 체크마크(`✓`/`✗`) 이모티콘 차단 → ASCII (`O`/`-`) 사용. 이전 PromptKit 작성 시 발견. 5분 작업.
 
 ### 참고: 완료된 옵션
 
 - **Option D** (commit 안정화)
 - **Option B** (scaffold 고도화 + IMP-019/020)
-- **Option A 세션 1-3** (Tier-B 9개 100% 완성)
-- **llm-wiki 진화** (Operation Dispatcher 5번째 패턴 + Recursive_Recovery_Loop_Pattern)
+- **Option A 세션 1-3** (Tier-B 9/9)
+- **Option F** (Wiki 진화 -- Tier-B 100% 마일스톤)
+- **Option C** (SYSTEM_NAVIGATOR.md 자동 재생성) ← 이번 세션
 
 ---
 
 ## Warm Boot 체크리스트 (에이전트 자동 수행)
 
 ### 1. 자동 훅
-
 - SessionStart 훅이 `active-imprints.md` 갱신 (20개 각인 중 상위 10개 로드)
 
 ### 2. 맥락 복원 Read
-
 1. **이 파일** (`.harness/next-session.md`) -- **첫 번째**
 2. `docs/LogManagement/1st_Log.md` (시간순 대시보드)
-3. `001_Wiki_AI/500_Technology/concepts/Navigator_Pattern_Library.md` (5 패턴 라이브러리)
+3. `SYSTEM_NAVIGATOR.md` §5.3 Navigator 카탈로그 (자동 집계 결과 확인)
+4. `001_Wiki_AI/500_Technology/concepts/Navigator_Pattern_Library.md`
 
 ### 3. Git 상태 확인
-
 ```bash
 git status --short
 git log --oneline -5
 ```
 
-### 4. Navigator 상태 확인
-
+### 4. SYSTEM_NAVIGATOR.md 확인
 ```bash
-wc -l .agents/skills/*/*_Navigator.md | sort -rn | head -16
+wc -l SYSTEM_NAVIGATOR.md
+grep -c "AUTO:.*:START" SYSTEM_NAVIGATOR.md
+```
+
+### 5. navigator-updater.js 동작 확인 (선택)
+```bash
+echo '{"tool_input":{"file_path":".agents/skills/term-organizer/term-organizer_Navigator.md"}}' | node .claude/hooks/navigator-updater.js
 ```
 
 ---
@@ -156,25 +172,39 @@ wc -l .agents/skills/*/*_Navigator.md | sort -rn | head -16
 ## 다음 세션 시작 명령어 제안
 
 ```
-세션 재개. .harness/next-session.md 읽고 옵션 C (Wiki 통합 강화) 또는 옵션 E (Tier-C 확장) 중 선택해줘.
+세션 재개. .harness/next-session.md 읽고 옵션 E (Tier-C 확장) 시작해줘.
 ```
 
-**권장**:
-1. **옵션 F (Wiki 진화)** -- 즉시 실행. 이번 세션 결과 지식화 (15-20분)
-2. **옵션 C (Wiki 통합 강화)** -- SYSTEM_NAVIGATOR.md 재생성 (60-90분)
-3. **옵션 E (Tier-C 확장)** -- 마지막. Tier-C는 bkit 프레임워크 종속이라 우선순위 낮음
+또는 다른 옵션:
+
+```
+세션 재개. 옵션 G (Wiki 진화 -- Option C 결과 지식화) 시작해줘.
+세션 재개. 옵션 H (IMP-021 공식 기록) 처리해줘.
+```
 
 ---
 
-## 세션 1-3 시간 비교 (Option A 통합)
+## Option C 핵심 기술 노트
 
-| 세션 | 스킬 | 합계 줄 | 시간 |
-|------|------|---------|------|
-| 세션 1 | term-organizer + auto-error-recovery + harness-imprint | 2134 | ~75분 |
-| 세션 2 | DocKit + FileNameMaking + mdGuide | 1936 | ~70분 |
-| 세션 3 | PromptKit + ServiceMaker + Mermaid_FlowChart | 2053 | ~65분 |
+### multi-marker 트리거 처리
 
-세션을 거듭할수록 시간 단축 (75 → 70 → 65분). 패턴 인식 + 기존 Navigator 레퍼런스 누적 효과.
+`navigator-updater.js`가 단일 트리거(`Navigator.md` 변경)로 4 마커를 동시 갱신할 수 있도록 확장:
+- 기존: `marker: 'X'` 단일 필드
+- 신규: `markers: ['A', 'B', 'C', 'D'], labels: [...]` 배열
+- 마커별 순차 처리 + 누적 변경 → 단일 atomicWriteWithBackup
+
+### 구버전 파일럿 fallback
+
+harness-architect, llm-wiki는 `### 스킬 메타` 섹션이 없는 구버전 구조:
+- `parseSkillMetaTable`이 hardcoded fallback 사용 (PILOT_PATTERNS)
+- 향후 두 파일럿을 표준 메타 표로 마이그레이션 권장
+
+### 자동 정규식 분류
+
+`normalizeProcessType` 함수가 자유 형식 표기를 5 패턴 + 변형 2종으로 정규화:
+- "Linear Pipeline (5-Step + Trigger 분기)" → "Linear Pipeline"
+- "Operation Dispatcher (7 ops + 2 훅)" → "Operation Dispatcher"
+- "Phase + Recursive Loop" → "Phase + Recursive Loop"
 
 ---
 
@@ -183,6 +213,6 @@ wc -l .agents/skills/*/*_Navigator.md | sort -rn | head -16
 - 플래닝 문서: `C:\Users\pyu42\.claude\plans\noble-booping-peach.md`
 - 각인: 20개 (IMP-001~020)
 - 이 파일: `.harness/next-session.md` (이번 세션 갱신 완료)
-- Tier-B 9개 완료 (세션 1+2+3)
+- Navigator 자동화 인프라 확대 (8 → 13 AUTO 마커, 6 → 10 reader)
 
 **다음 세션 종료 시에도 이 파일을 최신화할 것. (IMP-018)**
