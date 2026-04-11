@@ -3,255 +3,173 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
-## 이전 세션 정보 (2026-04-11 Option B 완료)
+## 이전 세션 정보 (2026-04-11 Option A 세션 1 완료)
 
-- **세션 시작**: 2026-04-11 (Warm Boot, Option D + llm-wiki 통합 이후)
-- **세션 종료**: 2026-04-11 (Option B: IMP-019 scaffold 고도화 완료)
-- **프로젝트**: 260410_Harness_Evolution (Navigator scaffold 도구 고도화)
+- **세션 시작**: 2026-04-11 (Warm Boot, Option B 이후)
+- **세션 종료**: 2026-04-11 (Option A 세션 1: Tier-B Navigator 3개 완성)
+- **프로젝트**: 260410_Harness_Evolution (Tier-B 확장 1/3 진행)
 
-## 이번 세션 (Option B) 성과
+## 이번 세션 (Option A 세션 1) 성과
 
-scaffold 도구 `.claude/hooks/navigator-updater-helpers.js`를 879 → 1061줄로 확장하여 3가지 고도화 완료:
+Tier-B 3개 Navigator를 완전 수동 + scaffold 힌트 참조 방식으로 신규 생성.
 
-### (a) SECTION_PATTERNS 상수 분리
+| 스킬 | 줄 | Mermaid | 블럭 카드 | 클릭 | 패턴 |
+|------|-----|---------|-----------|------|------|
+| **term-organizer** | 596 | 1 | 24 | 25 | Branching + Linear (4 커맨드 분기) |
+| **auto-error-recovery** | 674 | 1 | 29 | 30 | Phase (4-Phase + 재귀 루프 3회 한도) |
+| **harness-imprint** | 864 | 5 | 30 | 49 | Operation Dispatcher (7 operations + 2 훅) |
 
-- 모듈 상단에 `SECTION_PATTERNS` 상수 추가 (scenarios / constraints)
-- 변형명 정규식 확장: "공통 주의사항", "주의사항", "금지 사항", "절대 금지", "Constraints", "Notes", "Limitations", "Restrictions", "Examples", "Use Cases" 등
-- 기존 6개 Navigator 회귀 0 (모두 원본 섹션 정확히 추출)
+**합계**: 2131줄 신규 생성, 블럭 카드 83개, 클릭 104개
 
-### (b) generateMermaidTemplateByPattern 신규 함수
+### 패턴 검증
 
-- 4종 패턴 자동 생성:
-  - **Track** (decision tree): HWPX_Master에서 4-Track 자동 생성 확인
-  - **Linear Pipeline**: PaperResearch/llm-wiki/term-organizer 자동 생성
-  - **Branching + Phase**: harness-architect 7-Phase 감지
-  - **Conditional Step**: VisualCapture 3-Step 자동 생성 (Yes/No 분기 포함)
-- 공통 요소: ELK 렌더러 + classDef warning/io + click 자동 생성
+- **Branching + Linear** (term-organizer): 4개 커맨드 분기 후 각자 파이프라인 흐름 + 중앙 O4 노드로 수렴
+- **Phase + Recursive Loop** (auto-error-recovery): 4-Phase + 재귀 루프 (Phase 1 무조건 복귀) + 3회 한도 + post_mortem 에스컬레이션
+- **Operation Dispatcher** (harness-imprint): 7 operations 각자 독립 Mermaid + SessionStart/UserPromptSubmit 훅 피드백 루프
 
-### (c) inferBlockCardHints (결정론적 힌트 추론)
+### 검증 결과
 
-- `extractContextAroundKeyword` 유틸 신규
-- 동기 키워드: 목적/이유/때문에/위해/필요/해결/동기/문제/방지/보장
-- 동작 키워드: 호출/실행/수행/생성/저장/처리/변환/검사/입력/출력/전달/반환/계산/파싱/갱신/이동
-- 상태 자동 감지: `[작동]`/`[부분]`/`[미구현]`
-- 관련 파일 자동 추출: 백틱 감싼 .md/.js/.py/.json/.sh/.yml
-
-**LLM 호출 0** -- 모든 추론이 결정론적. LLM(Claude)은 scaffold 힌트를 후속 정제만 담당.
-
-## Dogfood 검증 (term-organizer)
-
-기존 Navigator 없던 term-organizer를 scaffold 도구로 신규 생성:
-- Linear Pipeline Mermaid 자동 생성 (5단계)
-- 7개 블럭 카드 뼈대 + 클릭 네비게이션 자동
-- 214줄 scaffold 즉시 생성 (수동 작업 대폭 감소 예상)
-
-## 각인 IMP-019/020 공식 기록
-
-- **IMP-019**: scaffold 도구 3가지 한계와 해결책 (situation/struggle/resolution/principle)
-- **IMP-020**: scaffold 후 풍부화 시 Edit 대신 Write 덮어쓰기 패턴
-- imprints.json total_imprints: 18 → **20**
-
-## 이번 세션 (옵션 D) 성과
-
-38개 미커밋 파일을 6개 의미 단위 커밋으로 분류 완료. Working tree 깨끗함.
-
-### 커밋 히스토리 (신규 6개)
-
-| 커밋 | 타입 | 요약 |
-|------|------|------|
-| `a1ccd56` | feat | Navigator 시스템 -- 살아있는 시스템 거울 (Phase 1-3). 6개 Navigator + scaffold 도구 + SYSTEM_NAVIGATOR.md. 10 files, +8478 -338 |
-| `4228d9b` | feat | 각인 시스템 진화 -- IMP-013~018 + 훅 강화. 7 files, +372 -41 |
-| `60c59db` | feat(llm-wiki) | Raw 레이어 정책 재정의 + lint 안정화. 2 files, +35 -6 |
-| `ed8c3d5` | docs | 거버넌스 + 용어사전 + 세션 로그 갱신. 7 files, +100 -11 |
-| `09a7207` | feat | 보안 템플릿 분리 + .bak 제외 (IMP-015). 3 files, +104 |
-| `8cd33ee` | chore | 세션 핸드오프 + 3rd-party 스킬 잠금. 13 files |
-
-### `.gitignore` 추가
-
-- `*.bak` -- atomicWriteWithBackup 및 scaffold 도구 백업 파일 전역 제외
-
-## 이번 세션 주요 성과
-
-### 1. Phase 3 -- Tier-A 나머지 3개 Navigator 확장 완료
-
-scaffold 도구 활용 + 수동 Mermaid 작성 하이브리드 워크플로우로 3개 스킬 모두 SYSTEM_NAVIGATOR 스타일로 업그레이드.
-
-| 스킬 | 이전 | 확장 후 | Mermaid | 블럭 카드 | 클릭 | 패턴 |
-|------|------|--------|---------|-----------|------|------|
-| **PaperResearch** | 213줄 | **611줄** | 1개 | 21개 | 22개 | Linear Pipeline + 품질 게이트 + AER 복구 |
-| **session-handoff** | 173줄 | **638줄** | 1개 | 26개 | 27개 | Branching + Phase + 복구 루프 + Warm Boot 피드백 |
-| **VisualCapture** | 194줄 | **665줄** | 2개 | 25개 | 26개 | Conditional Step + API 키 복구 + Retry 루프 |
-
-**검증 결과**:
-- 이모티콘 0개, 절대경로 0개 (전 스킬)
-- 기존 시나리오 전부 보존 (5 + 5 + 5)
-- 기존 제약사항 보존 + 각인 참조 추가
-- `.bak` 자동 백업 3개 생성
-
-### 2. Navigator 전체 현황 (Tier-S/A 완주)
-
-| 스킬 | Tier | 크기 | 스타일 | 상태 |
-|------|------|------|-------|------|
-| harness-architect | S | 790줄 | SYSTEM_NAVIGATOR | 파일럿 1 |
-| llm-wiki | A | 746줄 | SYSTEM_NAVIGATOR | 파일럿 2 |
-| HWPX_Master | A | 601줄 | SYSTEM_NAVIGATOR | 이전 세션 |
-| **PaperResearch** | A | 611줄 | SYSTEM_NAVIGATOR | **이번 세션** |
-| **session-handoff** | A | 638줄 | SYSTEM_NAVIGATOR | **이번 세션** |
-| **VisualCapture** | A | 665줄 | SYSTEM_NAVIGATOR | **이번 세션** |
-
-**Tier-A 커버리지**: 4/4 (100%)
-**Tier-S 커버리지**: 1/1 (100%)
-
-### 3. 패턴 라이브러리 완성
-
-scaffold 도구 + 수동 Mermaid 하이브리드로 4가지 대표 패턴 검증 완료:
-
-- **Track 패턴** (HWPX_Master): 4-Track 병렬 decision tree
-- **Linear Pipeline 패턴** (PaperResearch): 선형 파이프라인 + 품질 게이트 피드백
-- **Branching + Phase 패턴** (session-handoff): 모드 분기 → Phase 1-3 순차
-- **Conditional Step 패턴** (VisualCapture): 3단계 선택적 생략
+- 이모티콘 0, 절대경로 0 (전 스킬)
+- Mermaid 블럭 총 7개 (harness-imprint는 복잡도 때문에 5개 서브 다이어그램)
+- 블럭 카드 ≥15 기준 모두 충족
+- Tier-S/A 파일 참조로 구조 일관성 유지
 
 ---
 
 ## 현재 시스템 상태 스냅샷
 
-### Navigator 보유 스킬 (6개, Tier-S/A 100%)
+### Navigator 보유 스킬 (9개, Tier-S/A 100% + Tier-B 3/9)
 
-Tier-S 1개 + Tier-A 4개 + 기존 Tier-A/B 1개 (HWPX_Master). 총 SYSTEM_NAVIGATOR 스타일 6개.
+| 스킬 | Tier | 줄 | 패턴 | 세션 |
+|------|------|-----|------|------|
+| harness-architect | S | 790 | 7-Phase | Phase 1 |
+| llm-wiki | A | 1030 | 5-operation + 3-mode | Phase B + llm-wiki 통합 |
+| HWPX_Master | A | 601 | 4-Track | Phase 2 |
+| PaperResearch | A | 611 | Linear Pipeline | Phase 3 |
+| VisualCapture | A | 665 | Conditional Step | Phase 3 |
+| **harness-imprint** | **B** | **864** | **Operation Dispatcher** | **Option A 세션 1** |
+| **auto-error-recovery** | **B** | **674** | **4-Phase + Loop** | **Option A 세션 1** |
+| **term-organizer** | **B** | **596** | **Branching + Linear** | **Option A 세션 1** |
+| session-handoff | (폐지) | 638 | (llm-wiki Mode 2/3에 통합) | - |
+
+**Tier-S/A 커버리지**: 5/5 (100%)
+**Tier-B 커버리지**: 3/9 (33%)
 
 ### 각인 + 용어
 
-- 각인: 18개 (IMP-001~018) -- 변동 없음
+- 각인: 20개 (IMP-001~020)
 - 전문용어: 54개
 - 위키 wiki-lint: 0 issues
 
-### 미커밋 파일 (세션 종료 시)
+### 미커밋 파일
 
-Phase 3에서 추가로 변경/생성된 파일:
-- `.agents/skills/PaperResearch/PaperResearch_Navigator.md` (+ .bak)
-- `.agents/skills/session-handoff/session-handoff_Navigator.md` (+ .bak)
-- `.agents/skills/VisualCapture/VisualCapture_Navigator.md` (+ .bak)
+- `.agents/skills/term-organizer/term-organizer_Navigator.md` (신규)
+- `.agents/skills/auto-error-recovery/auto-error-recovery_Navigator.md` (신규)
+- `.agents/skills/harness-imprint/harness-imprint_Navigator.md` (신규)
 - `.harness/next-session.md` (이 파일 갱신)
-- 이전 세션 미커밋 32개 + 상기 파일들
-
-**git commit은 여전히 사용자 재량**
 
 ---
 
 ## 다음 세션 작업 선택지
 
-Option D (commit 안정화) + Option B (scaffold 고도화)까지 완료. 남은 권장 순서: **A → C**.
+### 옵션 A 세션 2: Tier-B 나머지 6개 중 3개 (권장)
 
-### 옵션 A: Tier-B/C Navigator 확장 (다음 권장)
+다음 3개 (중간 난이도):
 
-scaffold 도구 고도화로 생산성 대폭 향상된 상태에서 Tier-B/C 스킬들을 SYSTEM_NAVIGATOR 스타일로 일괄 확장:
+| 스킬 | SKILL.md | 예상 패턴 |
+|------|----------|----------|
+| **DocKit** | 87줄 | Track (PDF/DOCX/PPTX 포맷별) 추정 |
+| **FileNameMaking** | 67줄 | Step (3단계 평가) |
+| **mdGuide** | 33줄 | Linear (소형) |
 
-- **Tier-B 우선**: term-organizer (scaffold 이미 생성됨), auto-error-recovery, DocKit, FileNameMaking, harness-imprint, mdGuide, Mermaid_FlowChart, PromptKit, ServiceMaker
-- **예상 시간**: 스킬당 ~20분 (scaffold 자동 Mermaid + 블럭 힌트 활용)
-- **세션당 가능**: 4-5개
-- **검증 기준**: Mermaid ≥1, 블럭 카드 ≥15, 시나리오/제약 보존, 이모티콘 0
+또는 대안 조합:
+- PromptKit (80줄, 5-Step)
+- ServiceMaker (91줄, 9-Step)
+- Mermaid_FlowChart (40줄, 소형)
+
+### 옵션 A 세션 3: Tier-B 마지막 3개
+
+세션 1, 2에서 제외된 나머지.
 
 ### 옵션 C: Wiki/지식 베이스 통합 강화
 
 - llm-wiki ↔ Navigator 양방향 참조 자동화
-- 세션 간 "살아있는 거울" 자동 동기화
-- SYSTEM_NAVIGATOR.md 재생성 (6개 Navigator를 상위 레벨에 집계, 현재 수동)
+- SYSTEM_NAVIGATOR.md 재생성 (9개 Navigator 집계, 현재 수동)
 
 ### 참고: 완료된 옵션
 
-- **Option D** (2026-04-11): 38개 미커밋 파일 → 7개 의미 단위 커밋 완료
-- **Option B** (2026-04-11): scaffold 3가지 고도화 + IMP-019/020 기록 완료
+- **Option D** (commit 안정화)
+- **Option B** (scaffold 고도화 + IMP-019/020)
+- **Option A 세션 1** (Tier-B 3개: term-organizer / auto-error-recovery / harness-imprint)
 
 ---
 
 ## Warm Boot 체크리스트 (에이전트 자동 수행)
 
 ### 1. 자동 훅
-- SessionStart 훅이 `active-imprints.md` 갱신 (18개 각인 중 상위 10개 로드)
+- SessionStart 훅이 `active-imprints.md` 갱신 (20개 각인 중 상위 10개 로드)
 
 ### 2. 맥락 복원 Read
 1. **이 파일** (`.harness/next-session.md`) -- **첫 번째**
-2. `docs/LogManagement/1st_Log.md` (세션 요약 확인)
-3. `C:\Users\pyu42\.claude\plans\noble-booping-peach.md` (Phase 1-3 전체 계획 + 완료 상태)
+2. `docs/LogManagement/1st_Log.md` (시간순 대시보드)
+3. `001_Wiki_AI/500_Technology/concepts/Navigator_Pattern_Library.md` (패턴 라이브러리 참조)
 
 ### 3. Git 상태 확인
 ```bash
 git status --short
+git log --oneline -5
 ```
 
 ### 4. Navigator 상태 확인
 ```bash
-wc -l .agents/skills/harness-architect/harness-architect_Navigator.md \
-      .agents/skills/llm-wiki/llm-wiki_Navigator.md \
-      .agents/skills/HWPX_Master/HWPX_Master_Navigator.md \
-      .agents/skills/PaperResearch/PaperResearch_Navigator.md \
-      .agents/skills/session-handoff/session-handoff_Navigator.md \
-      .agents/skills/VisualCapture/VisualCapture_Navigator.md
+wc -l .agents/skills/*/＊_Navigator.md | sort -rn | head -12
 ```
 
-### 5. Scaffold 도구 동작 확인 (필요 시, 옵션 B 진행 시)
+### 5. Scaffold 도구 동작 확인
 ```bash
-node .claude/hooks/generate-navigator-cli.js --help
+node .claude/hooks/generate-navigator-cli.js <skillName> --dry-run
 ```
-
----
-
-## 사용자 피드백 수집 (다음 세션 시작 시)
-
-1. **Phase 3 Navigator 3개 확인하셨나요?**
-   - PaperResearch (611줄, Linear Pipeline)
-   - session-handoff (638줄, Branching + Phase)
-   - VisualCapture (665줄, Conditional Step + 2 Mermaid)
-   - 렌더링 품질, 블럭 카드 내용, 시나리오 보존 여부
-
-2. **다음 작업 확정**:
-   - 옵션 A/B/C/D 중 어느 방향으로?
-
-3. **git commit 여부** (여전히 사용자 재량)
 
 ---
 
 ## 다음 세션 시작 명령어 제안
 
 ```
-세션 재개. .harness/next-session.md 읽고 옵션 B (IMP-019 scaffold 고도화) 준비해줘.
+세션 재개. .harness/next-session.md 읽고 Option A 세션 2 (Tier-B 3개 확장) 시작해줘.
 ```
 
-또는 다른 옵션:
+또는 특정 스킬 지정:
 ```
-옵션 A 시작. Tier-B 스킬 Navigator 확장.
+Option A 세션 2 시작. DocKit + FileNameMaking + mdGuide 3개 확장.
 ```
 
 ---
 
-## 현재 작업 중 발견된 개선 포인트 (향후 각인 후보)
+## 세션 1 작업 패턴 (다음 세션 참고)
 
-### IMP-019 후보 (재확인): scaffold 도구의 섹션명 변형 대응
+### 완전 수동 + scaffold 힌트 참조 방식
 
-- **상황**: PaperResearch/session-handoff/VisualCapture 모두 scaffold로 기본 골격 생성 후 수동으로 Mermaid와 블럭 카드 풍부화 진행
-- **현재 한계**: Mermaid 다이어그램은 여전히 수동. scaffold는 뼈대만 제공
-- **반복된 패턴**: 3개 스킬 모두 scaffold 결과를 `Write`로 전체 덮어쓰기 (Edit 대신)
-- **해결 방향**:
-  1. `extractPreservedSections` 정규식을 "공통 주의사항", "주의사항", "Constraints", "Notes" 등 변형 섹션명도 포함
-  2. scaffold에 패턴별 Mermaid 템플릿 추가 (Linear/Branching/Conditional/Track 4종)
-  3. 블럭 카드 "동기/동작 방식" 자동 생성 (SKILL.md 본문 기반 LLM 추론)
-- **심각도**: medium → high (Tier-B/C 확장 시 반복 비용 누적)
+1. SKILL.md 전체 읽기 → 패턴 파악
+2. Tier-S/A 기존 Navigator 구조 참조 (특히 llm-wiki의 Operation Dispatcher, harness-architect의 Phase)
+3. Write 전체 파일 한 번에 작성 (IMP-020)
+4. 검증 스크립트로 mermaid/clicks/blocks/emoji/absolute path 체크
 
-### IMP-020 후보: Navigator 풍부화 시 Write vs Edit 선택
+### 소요 시간 (실측)
 
-- **상황**: scaffold 후 수동 풍부화 시 전체 내용을 `Write`로 덮어쓰는 것이 현재 유일한 방법
-- **원인**: 기존 파일이 linter 등으로 자동 변경되어 `Edit`의 exact match가 반복 실패
-- **해결**: scaffold 출력 → 풍부화 → `Write` 플로우를 공식 절차로 문서화
+- term-organizer (Linear+Branching): 약 15분
+- auto-error-recovery (Phase): 약 20분
+- harness-imprint (Operation Dispatcher, 가장 복잡): 약 30분
+- **세션 전체**: 약 65분 (브리핑 + 검증 + next-session 갱신 포함)
 
-Phase 3에서 3회 연속 발생하여 패턴 확실.
+기존 Tier-A 수동 작업(스킬당 40분) 대비 약 37% 단축. 완전 수동이지만 4 패턴 라이브러리와 기존 Navigator 참조로 구조 재사용 효과 큼.
 
 ---
 
 ## 세션 간 연속성 보장
 
-- 플래닝 문서: `C:\Users\pyu42\.claude\plans\noble-booping-peach.md` (Phase 1-3 전체 완료)
-- 각인: 18개 (IMP-019/020 후보는 다음 세션에서 사용자 확인 후 기록)
+- 플래닝 문서: `C:\Users\pyu42\.claude\plans\noble-booping-peach.md`
+- 각인: 20개 (IMP-001~020)
 - 이 파일: `.harness/next-session.md` (이번 세션 갱신 완료)
-- 세션 로그: `Projects/260410_Harness_Evolution/Log/session_260410_1616.md` (세션 1) + 이번 Phase 3 로그 작성 권장
+- Tier-B 3개 신규 Navigator (미커밋)
 
-**다음 세션 종료 시에도 이 파일을 최신화할 것.**
+**다음 세션 종료 시에도 이 파일을 최신화할 것. (IMP-018)**
