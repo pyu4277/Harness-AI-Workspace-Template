@@ -10,6 +10,45 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-11 19:00 -- Wiki 진화 2차 (PDF MCP entity + Raw 자료 추가 처리)
+
+**프로젝트**: 260410_Harness_Evolution
+
+**주요 성과**:
+1. **PDF MCP 능력 재발견 + entity 작성**:
+   - 이전 잘못된 안내 ("PDF 못 본다") 정정
+   - mcp__plugin_pdf-viewer_pdf 능력 명세화 (display_pdf + interact 14 액션 + 9 주석 타입)
+   - **PDF_Viewer_MCP.md** entity 신규
+2. **000_Raw 신규 자료 처리 (Obsidian Knowledge 668 파일)**:
+   - 사용자가 Obsidian vault 전체 동기화 (524 md + 80 png + 44 pdf + 4 hwp 등)
+   - 5 주요 폴더: 200_사업 / 300_제일대학교 / 100_AI 대화 저장 / Landom Report / AI CLI Development
+   - 우선 처리 폴더 선정: **100_AI 대화 저장** (42 md, 21 unique)
+3. **100_AI 대화 저장 세션 1**:
+   - **카탈로그 source 작성** (260411_100_AI_Conversation_Archive_Catalog_V001.md)
+   - 21 unique md → 5 카테고리 (AI 프로젝트 4 / 도구 5 / 실험 5 / 검색 6 / 메타 1)
+   - 5 세션 점진 위키화 계획 명시
+4. **PaperResearch_Genesis entity** (V1+V2 핵심 발췌):
+   - 002_AI_Project 연구자료 에이전트 V1 (616KB) + V2 (10KB)
+   - 005_AI_Project PaperResearch 스킬의 기원
+   - **핵심 발견**: Sci-Hub MCP 통합 시도 → 서버 불안정 → "Search & Log" 전환 (현재 PaperResearch 동작 원리의 출처)
+
+**수치 변화**:
+- Wiki pages: 23 → **26**
+- 500_Technology entities: 4 → **6** (PDF Viewer + PaperResearch Genesis)
+- 500_Technology sources: 9 → **10** (100_AI 카탈로그)
+- Raw 처리 진행: 668 파일 중 3 처리 (1 카탈로그 + 2 entity 발췌), 665 미처리
+
+**미처리 / 다음 세션**:
+- 100_AI 대화 저장 세션 2-5: 평가 에이전트 / GravityESS / 도구 가이드 / 실험 / 검색 → 5+ 세션 필요
+- 300_제일대학교 354 md: 매우 큼, 우선순위 별도 결정
+- 200_사업 PDF/HWP: PDF MCP 활용 가능
+- (2).md 중복본 16개: 사용자 승인 후 정리
+- IMP-024 후보: 도구 가용성 자가 검증 (실수 기반)
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+---
+
 ## 2026-04-11 17:50 -- Wiki 진화 (Option E 세션 1 결과 지식화)
 
 **프로젝트**: 260410_Harness_Evolution

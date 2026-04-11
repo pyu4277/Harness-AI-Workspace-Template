@@ -3,6 +3,61 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Wiki 진화 -- PDF MCP + Raw 자료 추가 처리)
+
+- **세션 시작**: 2026-04-11 (Tier-C 세션 1 위키 진화 직후)
+- **세션 종료**: 2026-04-11 (PDF MCP entity + Raw 자료 카탈로그 + PaperResearch Genesis 완료)
+
+## 이번 추가 작업 (Wiki 진화 2차) 성과
+
+### A. PDF MCP 능력 재발견
+
+이전 세션에서 "PDF 못 본다" 잘못 안내한 실수 → 이번에 도구 목록 재확인 → `mcp__plugin_pdf-viewer_pdf` 발견:
+- `display_pdf` + `interact` 두 진입점
+- 14 액션 + 9 주석 타입 + 좌표 시스템 + 폼 입력 + 저장
+- **PDF_Viewer_MCP.md** entity 신규
+
+→ **IMP-024 후보**: 도구 가용성 자가 검증 의무 (단정 금지)
+
+### B. 000_Raw 신규 자료 (Obsidian Knowledge 668 파일)
+
+사용자가 Obsidian 노트 vault 전체를 `001_Wiki_AI/000_Raw/`에 추가:
+- 524 md + 80 png + 44 pdf + 4 hwp + 6 html + 6 csv = 668 파일
+- 5 주요 폴더: 200_사업(757M), 300_제일대학교(169M), 100_AI 대화 저장(2.3M), Landom Report(15M), AI CLI Development
+
+이번 세션 우선 처리: **100_AI 대화 저장** (42 md, 21 unique)
+
+### C. 신규 위키 페이지 3종
+
+1. **PDF_Viewer_MCP.md** (entity, 030_Work)
+2. **260411_100_AI_Conversation_Archive_Catalog_V001.md** (source) -- 21 unique md 카탈로그 + 5 세션 점진 위키화 계획
+3. **PaperResearch_Genesis.md** (entity) -- 002_AI_Project 연구자료 V1 (616KB) + V2 (10KB) 발췌. **Sci-Hub MCP 통합 시도 → Search & Log 전환 핵심 발견** (현재 PaperResearch 스킬의 기원)
+
+### D. 위키 통계 변화
+
+- total_pages: 23 → **26**
+- 500_Technology entities: 4 → **6** (PDF Viewer + PaperResearch Genesis)
+- 500_Technology sources: 9 → **10** (100_AI 대화 카탈로그)
+
+### E. 미처리 (다음 세션)
+
+**Raw 자료 점진 위키화**:
+- 100_AI 대화 저장 세션 2: 평가 에이전트 89KB + GravityESS 51KB → 2 entity
+- 100_AI 대화 저장 세션 3: Bkit 명령어 / Playwright e2e / Notion+Calendar 등 → 3 entity
+- 100_AI 대화 저장 세션 4: 개발 시도 5개 통합 concept
+- 100_AI 대화 저장 세션 5: 검색/리서치 6개 + 통합 + archive 이동 → 100% 완료
+
+**기타 폴더 (524 md 중 482 미처리)**:
+- 300_제일대학교 354 md (가장 큼, 다세션 필요)
+- 200_사업 6 md + 12 pdf + 4 hwp (PDF MCP로 PDF 발췌 가능)
+- AI CLI Development 8 md
+- Landom Report 0 md (15M, 첨부 위주)
+
+**(2).md 중복본 16개**:
+- 사용자 승인 후 archive 이동 또는 삭제 권장
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Option E 세션 1 + Wiki 진화 완료)
 
 - **세션 시작**: 2026-04-11 (Option E 세션 1 직후)
