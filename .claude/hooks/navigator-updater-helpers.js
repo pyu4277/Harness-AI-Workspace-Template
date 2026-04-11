@@ -13,6 +13,7 @@ const TIER_MAP = {
   'HWPX_Master':                    { tier: 'A', command: '자동 트리거', desc: '4-Track HWP/HWPX 문서 처리' },
   'llm-wiki':                       { tier: 'A', command: '대화형 호출', desc: '지식 관리 + 세션 핸드오프 통합 (3-mode Ingest)' },
   'PaperResearch':                  { tier: 'A', command: '자동 트리거', desc: '학술 논문 자동 검색' },
+  'pdf':                            { tier: 'A', command: '자동 트리거', desc: 'PDF 모든 작업 (읽기/편집/병합/분할/생성/폼/OCR, Anthropic vendor)' },
   'VisualCapture':                  { tier: 'A', command: '자동 트리거', desc: '3단계 시각 콘텐츠 파이프라인' },
   'auto-error-recovery':            { tier: 'B', command: '자동 트리거', desc: '4-phase 에러 복구 시스템' },
   'DocKit':                         { tier: 'B', command: '자동 트리거', desc: 'PDF/DOCX/PPTX 포맷 통합 처리' },

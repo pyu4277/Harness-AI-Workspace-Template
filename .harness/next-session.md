@@ -3,6 +3,123 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-12 Wiki 진화 6차 세션 A -- PDF skill 도입 + 의존성 자동 설치)
+
+- **세션 시작**: 2026-04-12 02:00 (사용자 라이선스 결정 + /harness-architect 호출)
+- **세션 종료**: 2026-04-12 03:00 (PDF skill Tier-A 도입 + 9 Python + 3 CLI 자동 설치 완료)
+
+## 이번 작업 (Wiki 진화 6차 세션 A) 성과
+
+### 1. anthropics/skills 17 카탈로그 source 작성
+
+- **260411_Anthropic_Skills_Catalog_V001.md** (source, 010_Verified)
+- 17 공식 스킬 분류 + description 발췌 + 005 매핑 + 도입 우선순위
+- 카테고리: 문서 처리 4 / 디자인 5 / 개발 도구 5 / 커뮤니케이션 3
+- 라이선스: Proprietary (사용자 결정으로 005 내부 사용 허용)
+
+### 2. PDF skill Tier-A 신규 도입 (vendor + 한국화)
+
+**신규 파일 13개**:
+```
+.agents/skills/pdf/
+├── SKILL.md              (한국어, 005 통합)
+├── SKILL.en.md           (vendor 영문)
+├── reference.md          (한국어 wrapper)
+├── reference.en.md       (vendor 영문)
+├── forms.md              (한국어 wrapper)
+├── forms.en.md           (vendor 영문)
+├── LICENSE.txt           (vendor Anthropic Proprietary)
+├── ATTRIBUTION.md        (출처 + commit hash + 사용자 결정 명시)
+├── pdf_Navigator.md      (Tier-A, Track 4-Track, 891줄, 46 블럭)
+└── scripts/              (vendor 8개 Python)
+    ├── check_fillable_fields.py
+    ├── extract_form_field_info.py
+    ├── extract_form_structure.py
+    ├── convert_pdf_to_images.py
+    ├── check_bounding_boxes.py
+    ├── create_validation_image.py
+    ├── fill_fillable_fields.py
+    └── fill_pdf_form_with_annotations.py
+```
+
+**vendor 출처**: `github.com/anthropics/skills/skills/pdf` commit `12ab35c`
+
+### 3. TIER_MAP 등록 + PostToolUse 자동 갱신
+
+- `navigator-updater-helpers.js`에 'pdf' 항목 추가 (Tier-A)
+- PostToolUse 훅이 4 마커 자동 갱신:
+  - §1.2 navigator-diagram (pdf 노드 추가)
+  - §5.3 navigators-meta (Track 패턴 +1)
+  - §5.4 pattern-stats
+  - §9.0 gap-analysis
+
+### 4. 의존성 자동 설치 (사용자 결정)
+
+**Python (winget + pip 9 패키지 모두 설치 OK)**:
+- python 3.12.10 (winget Python.Python.3.12)
+- pypdf 6.10.0 / pdfplumber 0.11.9 / reportlab 4.4.10 / pypdfium2 5.7.0
+- pytesseract 0.3.13 / pdf2image 1.17.0 / Pillow 12.2.0 / pandas 3.0.2 / openpyxl 3.1.5
+
+**CLI (winget 3 도구 + 한국어 모델)**:
+- qpdf 12.3.2 (winget qpdf.qpdf)
+- tesseract 5.4.0 (winget UB-Mannheim.TesseractOCR)
+- poppler 25.07.0 (winget oschwartz10612.Poppler)
+- **kor.traineddata** 15 MB (Python urllib 다운로드, 사용자 폴더 `C:\Users\pyu42\tessdata`에 설치 -- Program Files 권한 거부 회피)
+
+**경로 정보 (PATH 미등록)**:
+- Python: `C:/Users/pyu42/AppData/Local/Programs/Python/Python312/python.exe`
+- qpdf: `C:/Program Files/qpdf 12.3.2/bin/qpdf.exe`
+- tesseract: `C:/Program Files/Tesseract-OCR/tesseract.exe`
+- pdftotext: `C:/Users/pyu42/AppData/Local/Microsoft/WinGet/Packages/oschwartz10612.Poppler_*/poppler-25.07.0/Library/bin/pdftotext.exe`
+- tessdata 한국어: `C:/Users/pyu42/tessdata/kor.traineddata`
+
+### 5. CDM PDF 검증 (부분)
+
+- 56 MB CDM PDF 메타데이터 추출 OK (224 페이지, Adobe InDesign CS3, 2018-10-17 작성)
+- 본문 텍스트 추출: 페이지당 ~10자 (사실상 이미지/스캔 PDF) → **OCR 필요** (Track D)
+- pdfplumber + pypdfium2 두 라이브러리 모두 같은 결과 (이미지 기반 PDF 확정)
+- 발췌 entity 작성은 다음 세션 (Track D OCR 사용 + 한국어 모델)
+
+### 위키 + 005 통계 변화
+
+- **위키 pages**: 38 → **39** (+1, Anthropic 카탈로그 source)
+- **500_Technology sources**: 12 → **13**
+- **005 신규 스킬**: pdf (Tier-A) -- Track 4-Track 패턴
+- **TIER_MAP**: pdf 항목 추가
+- **PostToolUse 훅**: 4 마커 자동 갱신 검증 OK
+- **wiki-lint**: 0 issues
+- **회귀 0**: 기존 22 Navigator + 13 AUTO 마커 모두 보존
+
+## 사용자 라이선스 결정 (영구 기록)
+
+> "우리가 지금 대화하고 있는 이 프로그램 자체가 Anthropic 프로그램이고
+> 마음껏 사용하라고 공식적으로 공개한거라 모두 그대로 사용해도 아무 문제없어."
+
+→ ATTRIBUTION.md에 명시. 005 내부 사용만 허용 (외부 공개 별도 승인 필요).
+
+## 다음 세션 (세션 B) 예정 작업
+
+### 작업 3: CDM PDF 발췌 검증 (즉시)
+
+- CDM은 OCR 필요 (224 페이지 전체 OCR ~30분 예상)
+- pytesseract + lang='kor' + tessdata-dir custom config
+- 결과를 `CDM_Project_Guide_2018.md` entity로 작성
+- 또는 첫 10-20 페이지만 발췌 후 나머지는 archive
+
+### 작업 4: 200_사업 PDF 7개 발췌
+
+- wiki-pdf-stage.js로 7 PDF 임시 복사
+- 각 PDF 텍스트/표/메타 추출 (pdfplumber 또는 OCR)
+- `Suncheon_1st_College_Quality_Management.md` entity 작성
+
+### 후속 작업 (세션 B 또는 그 이후)
+
+- IMP-024/025/026/027 공식 기록
+- docx/xlsx/pptx skill 검토 (DocKit과 비교)
+- 300_제일대학교 354 md 분할 처리
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Wiki 진화 5차+ -- 3 destructive 작업 + PDF 워크플로우)
 
 - **세션 시작**: 2026-04-11 (5차 직후, 사용자 3 결정 승인)

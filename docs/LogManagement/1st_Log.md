@@ -10,6 +10,56 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-12 03:00 -- Wiki 진화 6차 세션 A (PDF skill Tier-A 도입 + 의존성 자동 설치)
+
+**프로젝트**: 260410_Harness_Evolution
+
+**주요 성과**: anthropics/skills 17 카탈로그 + PDF skill Tier-A 신규 도입 + Python/CLI 의존성 자동 설치 (사용자 무조건 설치 결정)
+
+### 1. anthropics/skills 17 카탈로그 source
+- 260411_Anthropic_Skills_Catalog_V001.md (010_Verified)
+- 17 공식 스킬 카테고리 분류 + 005 매핑
+- 라이선스: Proprietary (사용자 결정으로 005 내부 사용)
+
+### 2. PDF skill Tier-A 신규 도입
+- 13 vendor 파일 (SKILL/reference/forms 영문 + LICENSE + 8 scripts)
+- 한국어 wrapper 3 (SKILL.md/reference.md/forms.md)
+- ATTRIBUTION.md (출처 + commit hash + 사용자 결정 명시)
+- pdf_Navigator.md (Tier-A, Track 4-Track, 891줄, 46 블럭)
+- TIER_MAP 등록 + PostToolUse 자동 갱신 OK
+
+### 3. 의존성 자동 설치 (사용자 결정)
+- Python 3.12.10 (winget) + 9 패키지 (pip) → 100% 설치
+- qpdf 12.3.2 + tesseract 5.4.0 + poppler 25.07.0 (winget 3종)
+- 한국어 OCR 모델 (kor.traineddata, 15 MB) → 사용자 폴더 (Program Files 권한 회피)
+
+### 4. CDM PDF 검증 (부분)
+- 56 MB / 224 페이지 / Adobe InDesign CS3
+- 메타데이터 OK / 본문은 사실상 이미지 (페이지당 ~10자) → OCR 필요
+- 작업 3 (CDM 발췌)는 다음 세션 (세션 B)으로 미룸
+
+**수치 변화**:
+- Wiki pages: 38 → **39** (+1)
+- 005 스킬: 24 → **25** (+1, pdf Tier-A)
+- TIER_MAP: pdf 항목 추가
+- 005 신규 파일: 13 vendor + 5 한국화/Navigator/ATTRIBUTION = 18 파일
+- wiki-lint: 0 issues
+
+**핵심 발견**:
+- **PDF MCP는 사용자 시청 모드 전용** (자동 발췌 불가) → IMP-027 후보
+- **올바른 자동 PDF 처리**: anthropics/skills의 pdf 스킬 (Python + CLI)
+- **CDM PDF는 스캔 PDF**: pdfplumber/pypdfium2 모두 텍스트 추출 실패 → Track D OCR 필요
+- **사용자 라이선스 결정**: Anthropic 공식 공개로 해석, 005 내부 사용 허용
+
+**다음 세션 (세션 B)**:
+- 작업 3: CDM PDF Track D OCR 발췌
+- 작업 4: 200_사업 PDF 7개 발췌
+- IMP-024/025/026/027 공식 기록
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+---
+
 ## 2026-04-12 00:30 -- Wiki 진화 5차+ (3 destructive 작업 + PDF 워크플로우)
 
 **프로젝트**: 260410_Harness_Evolution

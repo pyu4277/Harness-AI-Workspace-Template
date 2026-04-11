@@ -173,7 +173,7 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
 flowchart TD
-    Root([SYSTEM_NAVIGATOR<br/>18 Navigators]):::io
+    Root([SYSTEM_NAVIGATOR<br/>19 Navigators]):::io
 
     subgraph LP["Linear Pipeline (5)"]
       LP_PaperResearch[PaperResearch<br/>612줄]
@@ -197,7 +197,8 @@ flowchart TD
       BL_plan_plus[plan-plus<br/>526줄]
     end
 
-    subgraph TR["Track (2)"]
+    subgraph TR["Track (3)"]
+      TR_pdf[pdf<br/>891줄]
       TR_HWPX_Master[HWPX_Master<br/>602줄]
       TR_DocKit[DocKit<br/>589줄]
     end
@@ -236,6 +237,7 @@ flowchart TD
     click BL_term_organizer "#navigator-카탈로그"
     click BL_bkit_rules "#navigator-카탈로그"
     click BL_plan_plus "#navigator-카탈로그"
+    click TR_pdf "#navigator-카탈로그"
     click TR_HWPX_Master "#navigator-카탈로그"
     click TR_DocKit "#navigator-카탈로그"
     click BP_harness_architect "#navigator-카탈로그"
@@ -1231,6 +1233,7 @@ graph TD
 |------|:----:|------|---:|:-------:|:----:|:----:|
 | harness-architect | S | Branching + Phase | 791 | 3 | 33 | 45 |
 | llm-wiki | A | Operation Dispatcher | 1030 | 5 | 36 | 87 |
+| pdf | A | Track | 891 | 1 | 46 | 47 |
 | VisualCapture | A | Conditional Step | 666 | 2 | 25 | 26 |
 | PaperResearch | A | Linear Pipeline | 612 | 1 | 21 | 22 |
 | HWPX_Master | A | Track | 602 | 1 | 24 | 25 |
@@ -1250,20 +1253,20 @@ graph TD
 
 #### 총합
 
-- 총 Navigator: **18개**
-- 총 줄수: **12,395줄**
-- 총 Mermaid 블럭: **32개**
-- 총 블럭 카드: **518개**
-- 총 클릭 네비게이션: **621개**
+- 총 Navigator: **19개**
+- 총 줄수: **13,286줄**
+- 총 Mermaid 블럭: **33개**
+- 총 블럭 카드: **564개**
+- 총 클릭 네비게이션: **668개**
 
 #### 커버리지
 
 | Tier | 진행 | 비율 |
 |:---:|:---:|:---:|
 | S | 1/1 | 100% |
-| A | 4/4 | 100% |
+| A | 5/5 | 100% |
 | B | 9/9 | 100% |
-| **합계** | **14/14** | **100%** |
+| **합계** | **15/15** | **100%** |
 
 <!-- AUTO:navigators-meta:END -->
 
@@ -1284,13 +1287,13 @@ graph TD
 
 | 패턴 | 적용 수 | 비율 | 대표 스킬 |
 |------|:------:|:----:|:----------|
-| Linear Pipeline | 5 | 28% | PaperResearch, ServiceMaker, PromptKit, FileNameMaking |
-| Operation Dispatcher | 4 | 22% | llm-wiki, harness-imprint, pdca, btw |
-| Branching + Linear | 4 | 22% | mdGuide, term-organizer, bkit-rules, plan-plus |
-| Track | 2 | 11% | HWPX_Master, DocKit |
-| Branching + Phase | 1 | 6% | harness-architect |
-| Conditional Step | 1 | 6% | VisualCapture |
-| Phase + Recursive Loop | 1 | 6% | auto-error-recovery |
+| Linear Pipeline | 5 | 26% | PaperResearch, ServiceMaker, PromptKit, FileNameMaking |
+| Operation Dispatcher | 4 | 21% | llm-wiki, harness-imprint, pdca, btw |
+| Branching + Linear | 4 | 21% | mdGuide, term-organizer, bkit-rules, plan-plus |
+| Track | 3 | 16% | pdf, HWPX_Master, DocKit |
+| Branching + Phase | 1 | 5% | harness-architect |
+| Conditional Step | 1 | 5% | VisualCapture |
+| Phase + Recursive Loop | 1 | 5% | auto-error-recovery |
 
 #### 패턴별 상세
 
@@ -1300,7 +1303,7 @@ graph TD
 
 **Branching + Linear** (4개): mdGuide, term-organizer, bkit-rules, plan-plus
 
-**Track** (2개): HWPX_Master, DocKit
+**Track** (3개): pdf, HWPX_Master, DocKit
 
 **Branching + Phase** (1개): harness-architect
 
@@ -1835,11 +1838,11 @@ flowchart TD
 
 #### 검증 통과 요약
 
-- Tier-S/A/B Navigator 보유: **14/14** (100%)
+- Tier-S/A/B Navigator 보유: **15/15** (100%)
 - Tier-C Navigator 보유: 4/8 (50%)
-- 블럭 카드 ≥ 15 통과: 14/14
-- Mermaid ≥ 1 통과: 14/14
-- 표준 메타 표 사용: 12/14
+- 블럭 카드 ≥ 15 통과: 15/15
+- Mermaid ≥ 1 통과: 15/15
+- 표준 메타 표 사용: 13/15
 
 <!-- AUTO:gap-analysis:END -->
 
@@ -4252,5 +4255,6 @@ flowchart TD
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/plan-plus/plan-plus_navigator.md 변경 |
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/bkit-rules/bkit-rules_navigator.md 변경 |
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/pdca/pdca_navigator.md 변경 |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/pdf/pdf_navigator.md 변경 |
 
 [맨 위로](#범례--사용법)
