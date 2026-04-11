@@ -3,6 +3,83 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
+## 이전 세션 정보 (2026-04-11 Wiki 진화 4차 -- 100_AI 100% 완료 + Mermaid 카탈로그)
+
+- **세션 시작**: 2026-04-11 (Wiki 진화 3차 직후, 사용자 두 번째 "나머지 알아서" 지시)
+- **세션 종료**: 2026-04-11 (100_AI 세션 5/6/7 + Mermaid 폴더 처리 완료)
+
+## 이번 작업 (Wiki 진화 4차) 성과
+
+100_AI **세션 5/6/7 자율 연속 진행 + Mermaid 폴더 추가 처리**.
+
+### 100_AI 100% 완료 (세션 5/6/7)
+
+| 세션 | 산출물 | 출처 |
+|:----:|--------|------|
+| **5** | **AI_Development_Trial_Patterns.md** (concept) | 전기기기 GUI 27KB + Gemini 주가 16KB + 여행 사이트 14KB |
+| **6** | **Electrical_Engineering_Domain_Knowledge.md** (entity) | OCR Grok 99KB + 도전율 44KB + 아두이노 14KB |
+| **6** | **n8n_Self_Hosting_Guide.md** (entity) | yt-assets n8n 12KB |
+| **7** | 카탈로그 100% 갱신 (메타) | -- |
+
+### 추가: Mermaid 폴더 발췌
+
+| entity | 출처 |
+|--------|------|
+| **Mermaid_Diagram_Type_Catalog.md** (entity) | 순서도 폴더 25 mermaidchart.com 다이어그램 타입 + Blog + draw.io |
+
+### 신규 wiki 페이지 4종 (세션 5~7 + Mermaid)
+
+1. AI_Development_Trial_Patterns.md (concept) -- 5 공통 패턴 + 3 안티패턴
+2. Electrical_Engineering_Domain_Knowledge.md (entity) -- MKS/CGS 변환표 + 도전율 + 아두이노 4 프로젝트
+3. n8n_Self_Hosting_Guide.md (entity) -- Docker + Railway + Webhook
+4. Mermaid_Diagram_Type_Catalog.md (entity) -- 25 다이어그램 타입 + 005 Mermaid_FlowChart 확장 후보
+
+### 위키 통계 변화
+
+- total_pages: 31 → **35** (+4)
+- 500_Technology entities: 10 → **13** (+3)
+- 500_Technology concepts: 10 → **11** (+1)
+- wiki-lint: **0 issues**
+
+### 100_AI 폴더 처리 완료 (21/21 = 100%)
+
+| 카테고리 | unique | 처리 위키 |
+|----------|:-----:|----------|
+| AI 프로젝트 | 4 | PaperResearch_Genesis + Evaluation_Skill_Genesis + GravityESS_Project |
+| 도구 가이드 | 5 | Tool_Guides_Collection_260411 (5 통합) |
+| 개발 시도 | 5 | Smartphone_Home_Server (Phon) + AI_Development_Trial_Patterns (3 concept) + PaperResearch_Genesis (크롤링) |
+| 검색/리서치 | 6 | Smartphone_Home_Server (잠자는 폰 2) + Electrical_Engineering_Domain_Knowledge (3) + n8n_Self_Hosting_Guide (1) |
+| 메타 | 1 | Tool_Guides_Collection_260411 (CLAUDE.md 흡수) |
+
+**100_AI 신규 위키 누적**: 6 entity + 1 concept + 1 source = **8 페이지**
+
+### 100_AI 다음 단계 (사용자 승인 필요)
+
+1. **archive 이동**: 100_AI 폴더 → `990_Meta/archive/100_AI_Conversation_260411/`
+2. **(2).md 중복본 16개 정리**: diff 검증 후 일괄 삭제 또는 archive
+3. **빈 파일 1개 정리**: Google Digital Office (2 bytes)
+4. **민감 정보 raw 파일 처리**: API 키 / 비밀번호 노출 파일 (Notion+Cal, Phon 서버)
+
+## 미처리 (다음 세션)
+
+### 큰 폴더 (별도 우선순위 결정 필요)
+
+- **300_제일대학교** 354 md (가장 큼) -- 다세션
+- **200_사업** 6 md + 12 pdf + 4 hwp (PDF MCP 활용 가능)
+
+### 작은 폴더
+
+- **000_일단은 저장부터** 5 md (Google Calendar MCP 가이드 1개 + 4)
+- **AI CLI Development** 0 md (서브폴더만, 처리 불요)
+- **Landom Report** 0 md (15M 첨부만)
+
+### 기타 보안 작업
+
+- IMP-024 후보: 도구 가용성 자가 검증
+- IMP-025 후보: Raw 발췌 시 민감 정보 자동 검출 + 마스킹
+
+---
+
 ## 이전 세션 정보 (2026-04-11 Wiki 진화 3차 -- 100_AI 세션 2-4 자율 진행)
 
 - **세션 시작**: 2026-04-11 (Wiki 진화 2차 직후, 사용자 "나머지 알아서" 지시)

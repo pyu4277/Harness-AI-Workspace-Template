@@ -10,6 +10,56 @@ description: 세션 핸드오프 누적 로그. session-handoff 스킬이 자동
 
 ---
 
+## 2026-04-11 23:00 -- Wiki 진화 4차 (100_AI 100% 완료 + Mermaid 카탈로그)
+
+**프로젝트**: 260410_Harness_Evolution
+
+**주요 성과**: 사용자 두 번째 "나머지 알아서" 지시 → 100_AI 세션 5/6/7 자율 진행 → 100_AI 폴더 100% 위키화 완료 + Mermaid 폴더 추가 발췌
+
+### 세션 5 (개발 시도 3 → concept)
+- **AI_Development_Trial_Patterns.md** (concept)
+- 전기기기 GUI + Gemini 주가 + 여행 사이트 (~57KB)
+- **5 공통 패턴**: 정밀 명세 + 페르소나 + 출력 포맷 강제 + 환각금지 3원칙 + 사용자 친화 입력
+- 3 안티패턴: 너무 큰 명세 / 검증 부재 / 한 회 시도
+
+### 세션 6 (검색/리서치 4 → entity 2)
+- **Electrical_Engineering_Domain_Knowledge.md** (entity)
+  - OCR Grok 99KB MKS/CGS 변환표 + 도전율 단위 + 아두이노 4 프로젝트
+  - 005 term-organizer 전기 공학 11 용어 후보
+- **n8n_Self_Hosting_Guide.md** (entity)
+  - Docker + Railway + Webhook + CloudFlare Tunnel
+  - Smartphone_Home_Server entity와 보완 관계
+
+### 세션 7 (100_AI 카탈로그 100% 갱신)
+- 21 unique → 21 처리 (100% 완료)
+- 7 세션 산출물 표 + archive 이동 권장 + (2).md 정리 권장 명시
+
+### 추가: Mermaid 폴더 발췌
+- **Mermaid_Diagram_Type_Catalog.md** (entity)
+- mermaidchart.com 25 다이어그램 타입 카탈로그
+- 005 Mermaid_FlowChart 스킬 확장 후보 명시
+
+**수치 변화**:
+- Wiki pages: 31 → **35** (+4)
+- 500_Technology entities: 10 → **13** (+3)
+- 500_Technology concepts: 10 → **11** (+1)
+- 100_AI 처리: 9/21 → **21/21 (100%)**
+- wiki-lint: 0 issues
+
+**100_AI 누적 산출물 (1~7 세션)**: 6 entity + 1 concept + 1 source = **8 페이지**
+
+**다음 세션 진입점**: `.harness/next-session.md`
+
+**남은 과제**:
+- 100_AI 폴더 archive 이동 (사용자 승인)
+- (2).md 중복본 16개 정리 (사용자 승인)
+- 민감 정보 raw 파일 처리 (API 키/비번)
+- 300_제일대학교 354 md (다세션 필요)
+- 200_사업 PDF/HWP (PDF MCP 활용)
+- 000_일단은 5 md (Google Calendar MCP 가이드)
+
+---
+
 ## 2026-04-11 21:00 -- Wiki 진화 3차 (100_AI 세션 2-4 자율 진행)
 
 **프로젝트**: 260410_Harness_Evolution
