@@ -50,6 +50,20 @@ const ALLOWED_WIKI_PREFIXES = [
   '990_Meta/archive/'
 ];
 
+// 2026-04-14: 무제약 허용 root (IMP-037)
+// 배경: 위키 외부 OneDrive 작업 폴더(118/, 200/, 300/ 등)의 PDF/HWP를
+//       MCP/스킬 등록 작업에서 stage 해야 하나 hook이 거부.
+// 정책: OneDrive 작업 root는 prefix 검증 면제 (확장자/크기/존재 검증은 유지).
+//       추가 root는 env WIKI_STAGE_EXTRA_ROOTS (세미콜론/쉼표 구분)로 확장.
+const UNRESTRICTED_ROOTS_DEFAULT = [
+  'D:/OneDrive - 순천대학교'
+];
+const UNRESTRICTED_ROOTS = [
+  ...UNRESTRICTED_ROOTS_DEFAULT,
+  ...((process.env.WIKI_STAGE_EXTRA_ROOTS || '')
+    .split(/[;,]/).map(s => s.trim()).filter(Boolean))
+].map(p => p.replace(/\\/g, '/'));
+
 // cleanup 시 재귀 삭제가 허용된 서브디렉토리 화이트리스트
 // (HWPX_Master convert_hwp_to_hwpx.py 가 생성하는 .hwp-archive 등)
 // 이 목록에 없는 서브디렉토리는 cleanup 에서 건너뛰고 경고만 출력 (안전)
@@ -74,16 +88,31 @@ function normalizeSlash(p) {
 
 function isAllowedWikiPath(absPath) {
   const norm = normalizeSlash(absPath);
+
+  // 1차: WIKI_ROOT 내부 → prefix 화이트리스트 검증 (기존 정책)
   const wikiNorm = normalizeSlash(WIKI_ROOT);
-  if (!norm.startsWith(wikiNorm + '/')) {
-    return { ok: false, reason: '위키 root 외부 경로 (허용 안 됨): ' + WIKI_ROOT };
+  if (norm.startsWith(wikiNorm + '/')) {
+    const rel = norm.slice(wikiNorm.length + 1);
+    const allowed = ALLOWED_WIKI_PREFIXES.some(prefix => rel.startsWith(prefix));
+    if (!allowed) {
+      return { ok: false, reason: '위키 내 허용 prefix 외 (' + ALLOWED_WIKI_PREFIXES.join(', ') + '): ' + rel };
+    }
+    return { ok: true, rel, source: 'wiki' };
   }
-  const rel = norm.slice(wikiNorm.length + 1);
-  const allowed = ALLOWED_WIKI_PREFIXES.some(prefix => rel.startsWith(prefix));
-  if (!allowed) {
-    return { ok: false, reason: '허용 prefix 외 (' + ALLOWED_WIKI_PREFIXES.join(', ') + '): ' + rel };
+
+  // 2차: 무제약 허용 root (OneDrive 작업 폴더 + env extra)
+  for (const root of UNRESTRICTED_ROOTS) {
+    if (norm.startsWith(root + '/')) {
+      return { ok: true, rel: norm.slice(root.length + 1), source: 'extra:' + root };
+    }
   }
-  return { ok: true, rel };
+
+  return {
+    ok: false,
+    reason: '허용 root 외부: ' + absPath +
+      ' (허용 root: ' + WIKI_ROOT + ', ' + UNRESTRICTED_ROOTS.join(', ') +
+      '. 추가는 env WIKI_STAGE_EXTRA_ROOTS)'
+  };
 }
 
 function isAllowedExtension(absPath) {
@@ -433,6 +462,8 @@ switch (cmd) {
     process.stderr.write('\n');
     process.stderr.write('허용 확장자: ' + ALLOWED_EXTENSIONS.join(', ') + '\n');
     process.stderr.write('허용 wiki prefix: ' + ALLOWED_WIKI_PREFIXES.join(', ') + '\n');
+    process.stderr.write('무제약 root (작업 폴더): ' + UNRESTRICTED_ROOTS.join(', ') + '\n');
+    process.stderr.write('  └ 확장: env WIKI_STAGE_EXTRA_ROOTS="<path1>;<path2>"\n');
     process.stderr.write('임시 디렉토리: Temporary Storage/wiki-pdf-stage/\n');
     process.stderr.write('archive 루트: 990_Meta/archive/\n');
     process.stderr.write('\n');
