@@ -738,12 +738,34 @@
         ".claude/hooks.json SessionStart에 등록 (timeout 3000)"
       ],
       "recall_count": 0
+    },
+    {
+      "id": "IMP-037",
+      "created": "2026-04-14T15:00:00Z",
+      "category": "mobile-touch-event",
+      "trigger_keywords": [
+        "preventDefault",
+        "터치 이벤트 차단",
+        "X 버튼 안눌림",
+        "모바일 핀치줌",
+        "stopPropagation",
+        "touch-action:none"
+      ],
+      "situation": "모바일 이미지 뷰어에서 핀치 줌 구현 시 touch-action:none + touchstart preventDefault 로 인해 UI 버튼(X 닫기)의 click/tap 이벤트가 완전 차단됨",
+      "mistake": "뷰어 컨테이너에 touch 이벤트 preventDefault 를 무차별 적용하여, 컨테이너 내부의 닫기 버튼도 터치 불가 상태. 확대 상태에서 뷰어를 닫을 수 없는 치명적 UX 문제 발생",
+      "rule": "모바일 터치 커스텀 구현 시 UI 버튼에는 반드시 (1) 독립 touchstart/touchend + stopPropagation 등록 (2) 부모의 터치 핸들러에서 버튼 영역 좌표 판별 후 예외 처리 (3) 버튼 크기 48px 이상 (터치 타겟 가이드라인)",
+      "examples": [
+        "closeBtn.addEventListener('touchend', e => { e.stopPropagation(); e.preventDefault(); close(); })",
+        "function _isCloseBtn(touch) { const r = btn.getBoundingClientRect(); return touch in rect; }",
+        "viewer touchstart 에서 _isCloseBtn() true 면 return (이벤트 가로채지 않음)"
+      ],
+      "recall_count": 0
     }
   ],
   "stats": {
     "total_imprints": 30,
     "total_recalls": 5,
-    "last_updated": "2026-04-13T00:00:00Z",
-    "total": 36
+    "last_updated": "2026-04-14T15:00:00Z",
+    "total": 37
   }
 }

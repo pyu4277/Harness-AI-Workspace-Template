@@ -5,6 +5,34 @@
 
 ---
 
+## 이전 세션 정보 (2026-04-14 SiYoonsSchedule 진화 + 시간표 등록 + 갤러리 + 시스템 진화)
+
+- **세션 시작**: 2026-04-14 09:00
+- **세션 종료**: 2026-04-14 15:00
+- **주요 성과**: SiYoonsSchedule v3->v6 진화 + 시스템/Wiki 8차 진화
+  1. SiYoonsSchedule v4: 치명적 버그 2개 수정 (JSON.parse 크래시 + localStorage 쿼터 오버플로)
+  2. SiYoonsSchedule v5: 2026-1학기 전기자동화과 강의시간표 v7 등록 + 이미지 갤러리 + 24시간 시계
+  3. SiYoonsSchedule v6: 모바일 핀치줌 X버튼 터치 불가 수정 (IMP-037)
+  4. Wiki 진화 8차: entity 1 + concept 1 = 2 신규 페이지
+  5. IMP 각인 36->37 (IMP-037: 모바일 터치 이벤트 격리)
+
+### SiYoonsSchedule 진화 상세
+
+| 버전 | 내용 |
+|:---:|:---|
+| v3->v4 | safeParse/safeSetItem/pruneOldProgress/createAutoBackup, rAF 시계, 탭 동기화 |
+| v4->v5 | 전기자동화과 시간표 JSON 주입, 24시간 원형차트, 이미지 갤러리 독립 패널 |
+| v5->v6 | 핀치줌 뷰어 X버튼 터치 수정 (stopPropagation + 좌표 예외 + 48px 터치타겟) |
+
+### Wiki 8차 진화 (+2 페이지)
+
+| 유형 | 페이지 | 내용 |
+|:---:|:---|:---|
+| entity | SiYoonsSchedule_PWA | 개인 스케줄 앱 아키텍처, v3-v6 이력, 데이터 안전 계층 |
+| concept | Mobile_Touch_Event_Isolation | preventDefault vs UI 버튼 충돌 해결 3단계 패턴 |
+
+---
+
 ## 이전 세션 정보 (2026-04-12 대규모 세션 -- HWP 통합 + 위키 진화 + Raw 전수 정리 + 시스템 진화)
 
 - **세션 시작**: 2026-04-11 20:00
