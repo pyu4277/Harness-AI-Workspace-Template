@@ -431,11 +431,24 @@
       "severity": "low",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-030",
+      "created": "2026-04-13T00:00:00Z",
+      "category": "rule-implementation-drift",
+      "trigger_keywords": ["ALLOWED_WIKI_PREFIXES", "Clippings 거부", "SKILL 선언 훅 불일치", "드리프트", "rule-implementation drift", "prefix 누락"],
+      "situation": "SKILL.md 정책과 훅 스크립트의 화이트리스트가 불일치하여 정책이 실제로 enforce 되지 않을 때",
+      "struggle": "llm-wiki SKILL.md L47-48 가 Clippings/ 를 Raw Layer 와 동일 취급으로 선언했으나, wiki-pdf-stage.js 의 ALLOWED_WIKI_PREFIXES 에 Clippings/ 가 누락되어 실제 입력 시 거부. 선언과 enforce 사이의 구조적 드리프트. 직전 세션에서도 미발견, 사용자 지적으로 드러남",
+      "resolution": "(1) wiki-pdf-stage.js L43-46 에 'Clippings/' 추가 (2) tests/wiki/feat-01-3layer-clippings.sh 로 회귀 테스트 (3) 신규 정책 선언 시 반드시 대응 훅의 화이트리스트·블랙리스트를 함께 갱신",
+      "principle": "정책 문서의 선언(SKILL.md 등)과 훅의 실제 화이트리스트·블랙리스트는 동일 커밋에서 함께 수정해야 한다. 한쪽만 수정하면 rule-implementation drift 가 발생하고 정책이 유명무실해진다. 회귀 테스트로 구조적 잠금을 걸어라.",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 29,
+    "total_imprints": 30,
     "total_recalls": 5,
-    "last_updated": "2026-04-12T02:30:00Z"
+    "last_updated": "2026-04-13T00:00:00Z"
   }
 }

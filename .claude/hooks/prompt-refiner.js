@@ -13,6 +13,9 @@ const path = require('path');
 
 const IMPRINTS_PATH = path.join(process.cwd(), '.harness', 'imprints.json');
 const GLOSSARY_PATH = path.join(process.cwd(), 'docs', 'LogManagement', '용어사전.md');
+const REFINE_LOG = path.join(process.cwd(), '.harness', 'refine-log.jsonl');
+const PROMOTE_MD = path.join(process.cwd(), '..', '001_Wiki_AI', '990_Meta', 'promote-candidates.md');
+const PROMOTE_THRESHOLD = 30;
 
 // 작업성 프롬프트 감지 키워드 (이 키워드가 포함되면 완료 체크리스트 주입)
 const TASK_KEYWORDS = [
@@ -88,21 +91,22 @@ process.stdin.on('end', () => {
     }
 
     // ========================================
-    // 2. 용어사전 치환 (장황한 표현 -> 전문용어)
+    // 2. PromptRefinementGate (warn+substitute) — Phase 0 IMP-027
+    //    용어사전 매칭 → stderr 힌트 + refine-log.jsonl 누적 + 30회 도달 시 로드맵 생성.
+    //    원문은 파괴하지 않는다 (warn 모드). 치환본은 다음 턴 참고용.
     // ========================================
     if (fs.existsSync(GLOSSARY_PATH)) {
       try {
         const glossary = fs.readFileSync(GLOSSARY_PATH, 'utf8');
-        // 용어사전에서 | 용어 | 원문 | 패턴 추출
         const termRows = glossary.match(/\|[^|]+\|[^|]+\|/g) || [];
-        let termsApplied = [];
+        const termsApplied = [];
 
         for (const row of termRows) {
           const cells = row.split('|').map(c => c.trim()).filter(c => c);
           if (cells.length >= 2) {
             const term = cells[0];
             const original = cells[1];
-            // 원문이 4자 이상이고 사용자 메시지에 포함되면 치환 알림
+            if (term === '전문용어' || original === '원문') continue;
             if (original && original.length >= 4 && userMessage.includes(original) && term !== original) {
               termsApplied.push({ from: original, to: term });
             }
@@ -110,8 +114,63 @@ process.stdin.on('end', () => {
         }
 
         if (termsApplied.length > 0) {
-          const termNote = termsApplied.map(t => '"' + t.from + '" -> "' + t.to + '"').join(', ');
-          process.stderr.write('[용어 치환] ' + termNote + '\n');
+          // 압축본 생성 (긴 원문부터 적용)
+          let compressed = userMessage;
+          const sorted = [...termsApplied].sort((a, b) => b.from.length - a.from.length);
+          for (const t of sorted) compressed = compressed.split(t.from).join(t.to);
+
+          const termNote = termsApplied
+            .map(t => '"' + t.from + '" -> "' + t.to + '"')
+            .join(', ');
+          process.stderr.write('[HINT 압축 제안] ' + termNote + '\n');
+          process.stderr.write('[HINT compressed] ' + compressed.slice(0, 200) +
+            (compressed.length > 200 ? ' ...' : '') + '\n');
+
+          // refine-log.jsonl 누적
+          try {
+            fs.mkdirSync(path.dirname(REFINE_LOG), { recursive: true });
+            fs.appendFileSync(REFINE_LOG, JSON.stringify({
+              ts: new Date().toISOString(),
+              original_len: userMessage.length,
+              compressed_len: compressed.length,
+              hits: termsApplied.map(t => ({ from: t.from, to: t.to })),
+            }) + '\n', 'utf8');
+          } catch { /* noop */ }
+
+          // 30회 도달 시 promote-candidates.md 생성
+          try {
+            const logText = fs.existsSync(REFINE_LOG)
+              ? fs.readFileSync(REFINE_LOG, 'utf8')
+              : '';
+            const lineCount = logText.split('\n').filter(l => l.trim()).length;
+            if (lineCount >= PROMOTE_THRESHOLD && lineCount % PROMOTE_THRESHOLD === 0) {
+              const recent = logText.split('\n').filter(l => l.trim()).slice(-PROMOTE_THRESHOLD);
+              const freq = new Map();
+              for (const line of recent) {
+                try {
+                  const rec = JSON.parse(line);
+                  for (const h of (rec.hits || [])) {
+                    freq.set(h.to, (freq.get(h.to) || 0) + 1);
+                  }
+                } catch { /* noop */ }
+              }
+              const top = [...freq.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+              const body = [
+                '# 프롬프트 압축 승격 후보 (auto-generated)',
+                '',
+                '- 생성: ' + new Date().toISOString(),
+                '- 로그 총 ' + lineCount + '건 중 최근 ' + PROMOTE_THRESHOLD + '건 분석',
+                '',
+                '| 전문용어 | 빈도 |',
+                '|----------|------|',
+                ...top.map(([t, f]) => '| ' + t + ' | ' + f + ' |'),
+              ].join('\n');
+              fs.mkdirSync(path.dirname(PROMOTE_MD), { recursive: true });
+              fs.writeFileSync(PROMOTE_MD, body, 'utf8');
+              process.stderr.write('[로드맵 생성] ' + PROMOTE_MD + '\n');
+            }
+          } catch { /* noop */ }
+
           modifications.push('term_substitution');
         }
       } catch (e) {

@@ -1,0 +1,33 @@
+[project]
+name = "harness-005-ai-project"
+version = "0.1.0"
+description = "005_AI_Project Harness — Reference-Port LLM Wiki runtime"
+requires-python = ">=3.11"
+# Reference-Port 노선: 통합 제품(mindvault-ai, graphifyy) 금지.
+# 단일 책임 알고리즘 라이브러리만 허용.
+dependencies = [
+  "rank-bm25>=0.2.2",
+  "networkx>=3.3",
+  "python-igraph>=1.0.0",
+  "leidenalg>=0.11.0",
+  "tree-sitter>=0.25.0",
+  "watchdog>=6.0.0",
+  "schedule>=1.2.0",
+]
+
+[project.optional-dependencies]
+audio = [
+  # whisper/ffmpeg 는 OS 레벨 설치 필요 — 파이썬 wrapper 만 선언
+  "openai-whisper>=20240930",
+]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.harness]
+# Reference-Port: 흡수 출처를 각 스크립트 헤더 주석에 명시할 것.
+forbidden_packages = ["mindvault-ai", "graphifyy", "mindvault", "graphify"]
+allowed_algorithms = [
+  "rank-bm25", "networkx", "python-igraph", "leidenalg",
+  "tree-sitter", "watchdog", "schedule"
+]

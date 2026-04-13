@@ -40,8 +40,13 @@ const STAGE_DIR = path.join(process.cwd(), 'Temporary Storage', 'wiki-pdf-stage'
 const ALLOWED_EXTENSIONS = ['.pdf', '.hwp', '.hwpx', '.docx', '.pptx', '.xlsx', '.xls', '.xlsm', '.csv'];
 
 // 위키 root 시작 + 허용 prefix
+// 2026-04-13: 'Clippings/' 추가 (IMP-027 드리프트 수정)
+// 배경: llm-wiki SKILL.md L47-48에서 Clippings/를 Raw Layer와 동일 취급으로 선언했으나
+//       이 훅이 prefix 화이트리스트에서 제외하여 Clippings PDF 스테이징이 거부됨.
+//       규칙-구현 드리프트를 구조적으로 해소.
 const ALLOWED_WIKI_PREFIXES = [
   '000_Raw/',
+  'Clippings/',
   '990_Meta/archive/'
 ];
 

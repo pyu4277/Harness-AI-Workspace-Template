@@ -233,3 +233,33 @@ permissions (allow/deny) + hooks (PreToolUse, PostToolUse)
 | 4. 피드백 루프 | 자기 진화 메커니즘 | 실수→규칙추가 루프 |
 
 **최상위 규칙**: 실수하면 프롬프트가 아닌 하네스를 고쳐라.
+
+---
+
+## Phase 8 — Global Wiki Registry (Phase 4 Reference-Port)
+
+```mermaid
+flowchart TD
+  REG[~/.claude/wiki-registry.json] --> IT{iterate projects}
+  IT --> L[wiki-lint.js per project]
+  IT --> G[graph-build.py per project]
+  IT --> R[GRAPH_REPORT.md per project]
+  L & G & R --> SUM[cross-project dashboard]
+```
+
+### 예시
+
+```json
+{
+  "projects": [
+    {"id": "005_AI_Project", "root": "D:/.../005_AI_Project", "wiki_root": "D:/.../001_Wiki_AI", "active": true}
+  ]
+}
+```
+
+### 실행 스케치
+
+```bash
+# 멀티 프로젝트 lint 실행 (개념 예시)
+python -c "import json; d=json.load(open('C:/Users/USER/.claude/wiki-registry.json')); [print(p['id']) for p in d['projects']]"
+```

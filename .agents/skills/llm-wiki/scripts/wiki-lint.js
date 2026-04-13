@@ -17,6 +17,7 @@ const REQUIRED_SUBFOLDERS = ['entities', 'concepts', 'sources', 'analysis'];
 const DOMAIN_PATTERN = /^\d{3}_/;
 const SOURCE_NAME_PATTERN = /^\d{6}_.*_V\d{3}\.md$/;
 const REQUIRED_FRONTMATTER = ['title', 'domain', 'type', 'created', 'updated'];
+const CURRENT_SCHEMA_VERSION = 2;
 
 const issues = [];
 
@@ -188,6 +189,52 @@ function checkShortcuts() {
   }
 }
 
+// --- Check 9: Schema version diff (Phase 1) ---
+// WIKI_ROOT/CLAUDE.md 의 schema_version: N 을 기준 버전으로 삼고,
+// 각 페이지 프론트매터의 schema_version 값과 비교해 마이그레이션 대상을 감지한다.
+function checkSchemaDiff() {
+  const claudeMd = path.join(WIKI_ROOT, 'CLAUDE.md');
+  let rootVer = CURRENT_SCHEMA_VERSION;
+  if (fs.existsSync(claudeMd)) {
+    try {
+      const txt = fs.readFileSync(claudeMd, 'utf-8');
+      const m = txt.match(/schema_version:\s*(\d+)/);
+      if (m) rootVer = parseInt(m[1], 10);
+    } catch (e) { /* fall through */ }
+  }
+
+  const allPages = getAllWikiPages();
+  const migrationLog = [];
+  for (const pagePath of allPages) {
+    let content;
+    try { content = fs.readFileSync(pagePath, 'utf-8'); } catch { continue; }
+    const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+    if (!fmMatch) continue;
+    const fm = fmMatch[1];
+    const verM = fm.match(/schema_version:\s*(\d+)/);
+    const pageVer = verM ? parseInt(verM[1], 10) : 1;
+    const relPath = path.relative(WIKI_ROOT, pagePath).replace(/\\/g, '/');
+    if (pageVer < rootVer) {
+      addIssue('INFO', 'SCHEMA_DIFF', relPath,
+        'schema_version ' + pageVer + ' < root ' + rootVer + ' (migration candidate)', true);
+      migrationLog.push({ file: relPath, from: pageVer, to: rootVer });
+    }
+  }
+
+  if (migrationLog.length > 0) {
+    try {
+      const metaDir = path.join(WIKI_ROOT, '990_Meta');
+      if (fs.existsSync(metaDir)) {
+        const logFile = path.join(metaDir, 'schema-migration.log');
+        const entry = '[' + new Date().toISOString() + '] root=' + rootVer +
+          ' candidates=' + migrationLog.length + '\n' +
+          migrationLog.map(m => '  ' + m.file + ' v' + m.from + ' -> v' + m.to).join('\n') + '\n';
+        fs.appendFileSync(logFile, entry, 'utf-8');
+      }
+    } catch (e) { /* noop */ }
+  }
+}
+
 // --- Helper: Get all wiki .md pages (excluding root files) ---
 function getAllWikiPages() {
   const pages = [];
@@ -283,6 +330,7 @@ function main() {
   checkNaming();
   checkFrontmatter();
   checkShortcuts();
+  checkSchemaDiff();
 
   // Output JSON to stdout
   const report = {
