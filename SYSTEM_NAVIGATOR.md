@@ -199,7 +199,7 @@ flowchart TD
 
     subgraph TR["Track (3)"]
       TR_pdf[pdf<br/>891줄]
-      TR_HWPX_Master[HWPX_Master<br/>602줄]
+      TR_HWPX_Master[HWPX_Master<br/>697줄]
       TR_DocKit[DocKit<br/>589줄]
     end
 
@@ -1234,9 +1234,9 @@ graph TD
 | harness-architect | S | Branching + Phase | 791 | 3 | 33 | 45 |
 | llm-wiki | A | Operation Dispatcher | 1030 | 5 | 36 | 87 |
 | pdf | A | Track | 891 | 1 | 46 | 47 |
+| HWPX_Master | A | Track | 697 | 1 | 30 | 31 |
 | VisualCapture | A | Conditional Step | 666 | 2 | 25 | 26 |
 | PaperResearch | A | Linear Pipeline | 612 | 1 | 21 | 22 |
-| HWPX_Master | A | Track | 602 | 1 | 24 | 25 |
 | harness-imprint | B | Operation Dispatcher | 864 | 5 | 30 | 49 |
 | ServiceMaker | B | Linear Pipeline | 830 | 1 | 41 | 42 |
 | mdGuide | B | Branching + Linear | 757 | 1 | 32 | 33 |
@@ -1254,10 +1254,10 @@ graph TD
 #### 총합
 
 - 총 Navigator: **19개**
-- 총 줄수: **13,286줄**
+- 총 줄수: **13,381줄**
 - 총 Mermaid 블럭: **33개**
-- 총 블럭 카드: **564개**
-- 총 클릭 네비게이션: **668개**
+- 총 블럭 카드: **570개**
+- 총 클릭 네비게이션: **674개**
 
 #### 커버리지
 
@@ -4256,5 +4256,6 @@ flowchart TD
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/bkit-rules/bkit-rules_navigator.md 변경 |
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/pdca/pdca_navigator.md 변경 |
 | 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/pdf/pdf_navigator.md 변경 |
+| 2026-04-11 | Navigator 카탈로그+패턴 통계+Gap 분석+Navigator 다이어그램 4/4 updated | .agents/skills/hwpx_master/hwpx_master_navigator.md 변경 |
 
 [맨 위로](#범례--사용법)

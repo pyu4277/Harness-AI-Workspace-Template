@@ -37,12 +37,19 @@ const path = require('path');
 
 const WIKI_ROOT = 'D:/OneDrive - 순천대학교/001_Wiki_AI';
 const STAGE_DIR = path.join(process.cwd(), 'Temporary Storage', 'wiki-pdf-stage');
-const ALLOWED_EXTENSIONS = ['.pdf', '.hwp', '.hwpx', '.docx', '.pptx'];
+const ALLOWED_EXTENSIONS = ['.pdf', '.hwp', '.hwpx', '.docx', '.pptx', '.xlsx', '.xls', '.xlsm', '.csv'];
 
 // 위키 root 시작 + 허용 prefix
 const ALLOWED_WIKI_PREFIXES = [
   '000_Raw/',
   '990_Meta/archive/'
+];
+
+// cleanup 시 재귀 삭제가 허용된 서브디렉토리 화이트리스트
+// (HWPX_Master convert_hwp_to_hwpx.py 가 생성하는 .hwp-archive 등)
+// 이 목록에 없는 서브디렉토리는 cleanup 에서 건너뛰고 경고만 출력 (안전)
+const ALLOWED_CLEANUP_SUBDIRS = [
+  '.hwp-archive'
 ];
 
 // =============================================================================
@@ -77,6 +84,31 @@ function isAllowedWikiPath(absPath) {
 function isAllowedExtension(absPath) {
   const ext = path.extname(absPath).toLowerCase();
   return ALLOWED_EXTENSIONS.includes(ext);
+}
+
+// 디렉토리 총 크기 (바이트) 재귀 계산
+// Dirent.isFile() 이 한글 경로에서 불안정하므로 fs.statSync() 로 fallback
+function getDirSize(dir) {
+  let size = 0;
+  let fileCount = 0;
+  try {
+    const names = fs.readdirSync(dir);
+    for (const name of names) {
+      const fp = path.join(dir, name);
+      try {
+        const stat = fs.statSync(fp);
+        if (stat.isFile()) {
+          size += stat.size;
+          fileCount++;
+        } else if (stat.isDirectory()) {
+          const sub = getDirSize(fp);
+          size += sub.size;
+          fileCount += sub.fileCount;
+        }
+      } catch (e) { /* ignore */ }
+    }
+  } catch (e) { /* ignore */ }
+  return { size, fileCount };
 }
 
 // =============================================================================
@@ -114,11 +146,12 @@ function cmdStage(wikiPdfPath) {
     process.exit(1);
   }
 
-  // 파일 크기 확인 (100 MB 한도, 안전 검증)
+  // 파일 크기 확인 (200 MB 한도, 안전 검증)
+  // 2026-04-11: 100 → 200 MB 상향 (순천제일대 175 MB HWP 성과평가보고서 처리 위해)
   const stat = fs.statSync(wikiPdfPath);
-  const MAX_SIZE = 100 * 1024 * 1024;
+  const MAX_SIZE = 200 * 1024 * 1024;
   if (stat.size > MAX_SIZE) {
-    process.stderr.write('[wiki-pdf-stage] 거부: 파일 100 MB 초과 (' + (stat.size / 1024 / 1024).toFixed(1) + ' MB)\n');
+    process.stderr.write('[wiki-pdf-stage] 거부: 파일 200 MB 초과 (' + (stat.size / 1024 / 1024).toFixed(1) + ' MB)\n');
     process.exit(1);
   }
 
@@ -162,29 +195,58 @@ function cmdCleanup() {
     return;
   }
 
-  const files = fs.readdirSync(STAGE_DIR);
-  if (files.length === 0) {
+  const names = fs.readdirSync(STAGE_DIR);
+  if (names.length === 0) {
     process.stderr.write('[wiki-pdf-stage] 임시 디렉토리 비어 있음\n');
     return;
   }
 
-  let count = 0;
+  let fileCount = 0;
+  let dirCount = 0;
+  let skippedDirCount = 0;
   let totalSize = 0;
-  for (const f of files) {
-    const fp = path.join(STAGE_DIR, f);
+
+  for (const name of names) {
+    const fp = path.join(STAGE_DIR, name);
     try {
       const stat = fs.statSync(fp);
       if (stat.isFile()) {
         totalSize += stat.size;
         fs.unlinkSync(fp);
-        count++;
+        fileCount++;
+      } else if (stat.isDirectory()) {
+        if (ALLOWED_CLEANUP_SUBDIRS.includes(name)) {
+          // 화이트리스트 서브디렉토리 재귀 삭제 (.hwp-archive 등)
+          const dirInfo = getDirSize(fp);
+          totalSize += dirInfo.size;
+          fs.rmSync(fp, { recursive: true, force: true });
+          dirCount++;
+          process.stderr.write(
+            '[wiki-pdf-stage] 서브디렉토리 재귀 삭제: ' + name +
+            ' (' + dirInfo.fileCount + '개 파일, ' +
+            (dirInfo.size / 1024).toFixed(1) + ' KB)\n'
+          );
+        } else {
+          // 화이트리스트 외 서브디렉토리는 건너뛰고 경고
+          skippedDirCount++;
+          process.stderr.write(
+            '[wiki-pdf-stage] 경고: 화이트리스트 외 서브디렉토리 무시: ' + name +
+            ' (수동 정리 필요)\n'
+          );
+        }
       }
     } catch (e) {
-      process.stderr.write('[wiki-pdf-stage] 삭제 실패: ' + f + ' (' + e.message + ')\n');
+      process.stderr.write('[wiki-pdf-stage] 삭제 실패: ' + name + ' (' + e.message + ')\n');
     }
   }
 
-  process.stderr.write('[wiki-pdf-stage] cleanup 완료: ' + count + '개 파일 (' + (totalSize / 1024 / 1024).toFixed(2) + ' MB)\n');
+  process.stderr.write(
+    '[wiki-pdf-stage] cleanup 완료: ' +
+    fileCount + '개 파일 + ' + dirCount + '개 디렉토리 (' +
+    (totalSize / 1024 / 1024).toFixed(2) + ' MB)' +
+    (skippedDirCount > 0 ? ', ' + skippedDirCount + '개 서브디렉토리 건너뜀' : '') +
+    '\n'
+  );
 }
 
 // =============================================================================
@@ -197,22 +259,144 @@ function cmdList() {
     return;
   }
 
-  const files = fs.readdirSync(STAGE_DIR);
-  if (files.length === 0) {
+  const names = fs.readdirSync(STAGE_DIR);
+  if (names.length === 0) {
     process.stderr.write('[wiki-pdf-stage] 임시 디렉토리 비어 있음\n');
     return;
   }
 
-  process.stderr.write('[wiki-pdf-stage] 임시 파일 ' + files.length + '개:\n');
-  for (const f of files) {
-    const fp = path.join(STAGE_DIR, f);
+  const fileNames = [];
+  const dirNames = [];
+  for (const name of names) {
+    const fp = path.join(STAGE_DIR, name);
     try {
       const stat = fs.statSync(fp);
-      process.stderr.write('  ' + f + ' (' + (stat.size / 1024).toFixed(1) + ' KB)\n');
+      if (stat.isFile()) fileNames.push(name);
+      else if (stat.isDirectory()) dirNames.push(name);
+    } catch (e) { /* ignore */ }
+  }
+
+  process.stderr.write(
+    '[wiki-pdf-stage] 임시 항목: ' +
+    fileNames.length + '개 파일 + ' + dirNames.length + '개 서브디렉토리\n'
+  );
+
+  for (const name of fileNames) {
+    const fp = path.join(STAGE_DIR, name);
+    try {
+      const stat = fs.statSync(fp);
+      process.stderr.write('  ' + name + ' (' + (stat.size / 1024).toFixed(1) + ' KB)\n');
     } catch (e) {
-      process.stderr.write('  ' + f + ' (stat 실패)\n');
+      process.stderr.write('  ' + name + ' (stat 실패)\n');
     }
   }
+
+  for (const name of dirNames) {
+    const fp = path.join(STAGE_DIR, name);
+    const info = getDirSize(fp);
+    const marker = ALLOWED_CLEANUP_SUBDIRS.includes(name) ? '[cleanup OK]' : '[수동]';
+    process.stderr.write(
+      '  ' + name + '/ ' + marker +
+      ' (' + info.fileCount + '개 파일, ' + (info.size / 1024).toFixed(1) + ' KB)\n'
+    );
+    // 서브디렉토리 내부 파일 들여쓰기 표시
+    try {
+      const subNames = fs.readdirSync(fp);
+      for (const sub of subNames) {
+        const subPath = path.join(fp, sub);
+        try {
+          const stat = fs.statSync(subPath);
+          if (stat.isFile()) {
+            process.stderr.write('    ' + sub + ' (' + (stat.size / 1024).toFixed(1) + ' KB)\n');
+          }
+        } catch (e) { /* ignore */ }
+      }
+    } catch (e) { /* ignore */ }
+  }
+}
+
+// =============================================================================
+// 명령: archive-original (IMP-023 구조적 예방책, 2026-04-12 추가)
+// 지식화 완료된 Raw 원본 파일을 990_Meta/archive/<category>/ 로 이동한다.
+// stage 의 반대 개념: 임시 사본이 아닌 실 원본 이동.
+// =============================================================================
+
+const WIKI_ARCHIVE_ROOT = path.join(WIKI_ROOT, '990_Meta', 'archive');
+
+function cmdArchiveOriginal(rawPath, category) {
+  if (!rawPath) {
+    process.stderr.write('[wiki-pdf-stage] 사용법: archive-original <wiki-raw-path> [category]\n');
+    process.exit(1);
+  }
+
+  // 절대경로 검증
+  if (!path.isAbsolute(rawPath)) {
+    process.stderr.write('[wiki-pdf-stage] 거부: 절대경로 필요. 입력: ' + rawPath + '\n');
+    process.exit(1);
+  }
+
+  // 위키 경로 검증 (stage 와 동일 규칙)
+  const wikiCheck = isAllowedWikiPath(rawPath);
+  if (!wikiCheck.ok) {
+    process.stderr.write('[wiki-pdf-stage] 거부: ' + wikiCheck.reason + '\n');
+    process.exit(1);
+  }
+
+  // 파일 존재 확인
+  if (!fs.existsSync(rawPath)) {
+    process.stderr.write('[wiki-pdf-stage] 파일 없음: ' + rawPath + '\n');
+    process.exit(1);
+  }
+
+  const stat = fs.statSync(rawPath);
+  if (!stat.isFile()) {
+    process.stderr.write('[wiki-pdf-stage] 파일이 아님 (디렉토리는 지원 안 함): ' + rawPath + '\n');
+    process.exit(1);
+  }
+
+  // 카테고리 정리 (기본: "generic_processed")
+  const safeCategory = (category || 'generic_processed').replace(/[^\w가-힣_.-]/g, '_');
+  const archiveSubDir = path.join(WIKI_ARCHIVE_ROOT, safeCategory);
+
+  try {
+    fs.mkdirSync(archiveSubDir, { recursive: true });
+  } catch (e) {
+    process.stderr.write('[wiki-pdf-stage] 아카이브 디렉토리 생성 실패: ' + e.message + '\n');
+    process.exit(1);
+  }
+
+  const basename = path.basename(rawPath);
+  let dst = path.join(archiveSubDir, basename);
+
+  // 충돌 방지: 동일 이름 존재 시 타임스탬프 추가
+  if (fs.existsSync(dst)) {
+    const ext = path.extname(basename);
+    const stem = basename.slice(0, basename.length - ext.length);
+    const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+    dst = path.join(archiveSubDir, stem + '_' + ts + ext);
+  }
+
+  try {
+    // os.replace 와 동등한 원자적 이동
+    fs.renameSync(rawPath, dst);
+  } catch (e) {
+    // 다른 드라이브 간 이동 시 rename 실패 → copy + unlink 폴백
+    try {
+      fs.copyFileSync(rawPath, dst);
+      fs.unlinkSync(rawPath);
+    } catch (e2) {
+      process.stderr.write('[wiki-pdf-stage] 아카이브 이동 실패: ' + e2.message + '\n');
+      process.exit(1);
+    }
+  }
+
+  process.stderr.write('[wiki-pdf-stage] 아카이브 이동 완료 (' + (stat.size / 1024).toFixed(1) + ' KB)\n');
+  process.stderr.write('[wiki-pdf-stage] 원본: ' + rawPath + '\n');
+  process.stderr.write('[wiki-pdf-stage] archive: ' + dst + '\n');
+  process.stderr.write('[wiki-pdf-stage] IMP-023: 지식화 완료 후 Raw → archive 이동 완료\n');
+
+  // stdout 으로 archive 경로만 출력 (다음 명령이 파싱 가능)
+  process.stdout.write(dst + '\n');
 }
 
 // =============================================================================
@@ -232,14 +416,21 @@ switch (cmd) {
   case 'list':
     cmdList();
     break;
+  case 'archive-original':
+    cmdArchiveOriginal(args[1], args[2]);
+    break;
   default:
     process.stderr.write('사용법:\n');
-    process.stderr.write('  node .claude/hooks/wiki-pdf-stage.js stage <wiki-pdf-path>\n');
+    process.stderr.write('  node .claude/hooks/wiki-pdf-stage.js stage <wiki-raw-path>\n');
+    process.stderr.write('  node .claude/hooks/wiki-pdf-stage.js archive-original <wiki-raw-path> [category]\n');
     process.stderr.write('  node .claude/hooks/wiki-pdf-stage.js cleanup\n');
     process.stderr.write('  node .claude/hooks/wiki-pdf-stage.js list\n');
     process.stderr.write('\n');
     process.stderr.write('허용 확장자: ' + ALLOWED_EXTENSIONS.join(', ') + '\n');
     process.stderr.write('허용 wiki prefix: ' + ALLOWED_WIKI_PREFIXES.join(', ') + '\n');
     process.stderr.write('임시 디렉토리: Temporary Storage/wiki-pdf-stage/\n');
+    process.stderr.write('archive 루트: 990_Meta/archive/\n');
+    process.stderr.write('\n');
+    process.stderr.write('IMP-023 (2026-04-12): 지식화 완료 후 archive-original 로 원본을 즉시 이동하세요.\n');
     process.exit(1);
 }

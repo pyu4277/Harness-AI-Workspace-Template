@@ -189,12 +189,62 @@ node .agents/skills/llm-wiki/scripts/obsidian-detect.js "001_Wiki_AI"
 - 파일명: `원본파일명_SHORTCUT.md`
 - 사용자에게 바로가기 위치 확인 요청
 
-**Phase 5 -- Raw 원본 archive 이동 (IMP-017)**
-- `000_Raw/` 또는 `Clippings/`에 있는 원본 파일을 `990_Meta/archive/`로 이동
-- 파일명 충돌 시 `<원본명>_<YYMMDD>.<ext>` 형식으로 suffix
-- 이동 후 파생 위키 페이지 프론트매터에 `raw_source: "990_Meta/archive/<파일명>"` 추가
-- 파생 위키 본문 하단에 "## Raw Source Archive" 섹션 생성 + 원본 링크 + 메타데이터 (크기, 획득 경로, 지식화 날짜)
-- 한 원본에서 여러 위키가 파생된 경우 **모든** 파생 위키에 동일 raw_source 설정
+**Phase 5 -- Raw 원본 archive 이동 (IMP-017 + IMP-023 강화)**
+
+> **구조적 강제 (IMP-023, 2026-04-12)**: 이 Phase 는 entity/source 작성 직후 반드시 실행한다. **누락 시 하네스 위반**. 이전 세션들에서 stage-based 처리 흐름에서 이 단계가 체계적으로 빠져 438 MB가 Raw 에 방치되는 사고가 발생했음.
+
+### 이동 방법 (우선순위 순)
+
+**방법 1 (권장, 자동화)**: `wiki-pdf-stage.js archive-original` 명령 사용
+
+```bash
+# 기본 카테고리 (generic_processed)
+node .claude/hooks/wiki-pdf-stage.js archive-original \
+  "D:/OneDrive - 순천대학교/001_Wiki_AI/000_Raw/경로/파일명.pdf"
+
+# 명시 카테고리
+node .claude/hooks/wiki-pdf-stage.js archive-original \
+  "D:/OneDrive - 순천대학교/001_Wiki_AI/000_Raw/경로/파일명.pdf" \
+  200_사업_processed
+```
+
+이 명령은 자동으로:
+- 위키 경로 검증 (000_Raw/ 또는 990_Meta/archive/ 만 허용)
+- 파일명 충돌 시 타임스탬프 suffix 추가
+- `os.rename` 원자적 이동
+- stdout 으로 archive 경로 반환
+
+**방법 2 (직접 파일 조작)**: Python `shutil.move` 또는 Node `fs.renameSync`
+- 위 CLI 가 사용 불가 시에만
+- 반드시 같은 카테고리 서브디렉토리 유지 (예: `200_사업_processed/`, `300_제일대_AI교재_processed/`)
+
+### 필수 체크리스트 (모든 Ingest 완료 시)
+
+1. **파일명 충돌 방지**: `<원본명>_<YYMMDD>.<ext>` 형식으로 suffix (자동 명령이 처리)
+2. **frontmatter 갱신**: 파생 위키 페이지에 `raw_source: "990_Meta/archive/<카테고리>/<파일명>"` 추가
+3. **본문 섹션 추가**: 파생 위키 하단에 "## Raw Source Archive" 섹션 + 원본 링크 + 메타데이터 (크기 / 획득 경로 / 지식화 날짜)
+4. **다중 파생 처리**: 한 원본에서 여러 위키가 파생된 경우 **모든** 파생 위키에 동일 raw_source 설정
+5. **용량 검증**: Phase 5 완료 후 Raw 폴더 용량이 파일 크기만큼 감소했는지 확인
+
+### 누락 감지 (사후 검증)
+
+세션 종료 전 Stop 훅 또는 수동 검증:
+
+```bash
+# Raw 폴더 총 용량 확인 (.obsidian 제외)
+python -c "
+import os
+root = r'D:\OneDrive - 순천대학교\001_Wiki_AI\000_Raw'
+total = 0
+for dp, dirs, files in os.walk(root):
+    if '.obsidian' in dp: continue
+    for f in files:
+        total += os.path.getsize(os.path.join(dp, f))
+print(f'Raw 비-obsidian: {total/1024/1024:.1f} MB')
+"
+```
+
+**기대값**: 미처리 파일만 남음 (= 새로 추가되어 아직 지식화되지 않은 파일). 지식화 완료된 파일이 남아 있으면 **IMP-023 위반**.
 
 **Phase 6 -- 인덱스/로그 갱신**
 - Glob으로 WIKI_ROOT 전체 스캔 후 index.md 재구성

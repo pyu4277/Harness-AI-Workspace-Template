@@ -1,7 +1,7 @@
 # HWPX_Master -- Navigator
 
 > SYSTEM_NAVIGATOR 스타일 시각적 네비게이터
-> 최종 갱신: 2026-04-10 (scaffold + 수동 보완)
+> 최종 갱신: 2026-04-11 (HWP 자동 변환 전처리 통합 -- IMP-022)
 > SKILL.md와 교차 참조 (이 파일은 SKILL.md의 시각화 계층)
 
 ---
@@ -30,11 +30,13 @@
 |------|-----|
 | 이름 | HWPX_Master |
 | Tier | A |
-| 커맨드 | 자동 트리거 (HWPX 관련 키워드) |
-| 프로세스 타입 | 4-Track (의사결정 분기) |
-| 플랫폼 | Cross-platform (Track D만 Windows 전용) |
+| 커맨드 | 자동 트리거 (HWPX/HWP 관련 키워드) |
+| 프로세스 타입 | 4-Track (의사결정 분기) + HWP 전처리 게이트 |
+| 플랫폼 | Cross-platform (HWP 전처리 + Track D는 Windows + 한컴 오피스 전용) |
+| 입력 포맷 | `.hwpx` (직접 진입) / `.hwp` (자동 변환 후 진입) |
 | 스크립트 위치 | `.agents/skills/HWPX_Master/scripts/` |
 | 레퍼런스 | `references/generator_guide.md`, `references/restoration_guide.md` |
+| 변환 스크립트 | `scripts/convert_hwp_to_hwpx.py` (IMP-022, 2026-04-11) |
 
 ---
 
@@ -45,16 +47,25 @@
 ```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}, "securityLevel": "loose"} }%%
 flowchart TD
-    Start([사용자 호출]) --> Trigger[/"HWPX 관련 요청 감지"/]
+    Start([사용자 호출]) --> Trigger[/"HWPX/HWP 관련 요청 감지"/]
     Trigger --> ReadSkill[[SKILL.md + references 로드]]
-    ReadSkill --> HasHwpx{첨부 HWPX 있는가?}
+    ReadSkill --> FormatCheck{입력 포맷 판별}
 
-    HasHwpx -->|No| NeedNew{새 문서 필요?}
+    FormatCheck -->|첨부 없음| NeedNew{새 문서 필요?}
     NeedNew -->|Yes| TrackA[Track A: Generator]
     NeedNew -->|No| NoAction[요청 재확인]:::warning
     NoAction -.->|사용자 의도 재수집| Trigger
 
-    HasHwpx -->|Yes| Intent{작업 유형?}
+    FormatCheck -->|.hwp 바이너리| HwpConvert[[convert_hwp_to_hwpx.py]]
+    HwpConvert --> Pywin32[pywin32 COM HWPFrame.HwpObject]
+    Pywin32 --> SaveAs[SaveAs HWPX 한컴 엔진]
+    SaveAs --> VerifyConvert{변환 검증}
+    VerifyConvert -->|ZIP + mimetype + section0 OK| Archive[원본 .hwp → .hwp-archive/]
+    VerifyConvert -->|실패| ConvertFail[원자적 롤백 .hwpx 삭제]:::warning
+    ConvertFail -.->|원본 유지 + 오류 보고| End
+    Archive --> Intent
+
+    FormatCheck -->|.hwpx 직접| Intent{작업 유형?}
     Intent -->|내용 추출| TrackC[Track C: Extraction]
     Intent -->|빈칸 채우기 / 데이터 치환| TrackB[Track B: Auto-fill Restoration]
     Intent -->|이미지 삽입 / 서식 제어| PlatformChk{Windows + 한글 5.0+?}
@@ -94,7 +105,13 @@ flowchart TD
     click Start "#node-start"
     click Trigger "#node-trigger"
     click ReadSkill "#node-read-skill"
-    click HasHwpx "#node-has-hwpx"
+    click FormatCheck "#node-format-check"
+    click HwpConvert "#node-hwp-convert"
+    click Pywin32 "#node-pywin32"
+    click SaveAs "#node-save-as"
+    click VerifyConvert "#node-verify-convert"
+    click Archive "#node-archive"
+    click ConvertFail "#node-convert-fail"
     click NeedNew "#node-need-new"
     click Intent "#node-intent"
     click PlatformChk "#node-platform-chk"
@@ -123,11 +140,11 @@ flowchart TD
 
 <details><summary><strong>블럭 바로가기 (다이어그램 클릭 대안)</strong></summary>
 
-[시작](#node-start) · [트리거 감지](#node-trigger) · [SKILL 로드](#node-read-skill) · [HWPX 존재 확인](#node-has-hwpx) · [새 문서 필요](#node-need-new) · [작업 유형 판단](#node-intent) · [플랫폼 확인](#node-platform-chk) · [Track A Generator](#node-track-a) · [Track B Restoration](#node-track-b) · [Track C Extraction](#node-track-c) · [Track D OLE](#node-track-d) · [Track D 차단](#node-track-d-block) · [JSON 설계도](#node-gen-json) · [generate_hwpx.py](#node-run-gen) · [unpack.py](#node-unpack) · [XML 치환](#node-edit-xml) · [pack.py](#node-pack) · [hwpx-cli 추출](#node-cli-extract) · [추출 폴백](#node-extract-fallback) · [text_extract 폴백](#node-py-extract) · [auto-error-recovery](#node-aer) · [OLE 스크립트](#node-ole-script) · [검증](#node-verify) · [종료](#node-end) · [**전체 블럭 카탈로그**](#block-catalog)
+[시작](#node-start) · [트리거 감지](#node-trigger) · [SKILL 로드](#node-read-skill) · [입력 포맷 판별](#node-format-check) · [**HWP 변환**](#node-hwp-convert) · [pywin32 COM](#node-pywin32) · [SaveAs HWPX](#node-save-as) · [변환 검증](#node-verify-convert) · [원본 아카이브](#node-archive) · [변환 실패](#node-convert-fail) · [새 문서 필요](#node-need-new) · [작업 유형 판단](#node-intent) · [플랫폼 확인](#node-platform-chk) · [Track A Generator](#node-track-a) · [Track B Restoration](#node-track-b) · [Track C Extraction](#node-track-c) · [Track D OLE](#node-track-d) · [Track D 차단](#node-track-d-block) · [JSON 설계도](#node-gen-json) · [generate_hwpx.py](#node-run-gen) · [unpack.py](#node-unpack) · [XML 치환](#node-edit-xml) · [pack.py](#node-pack) · [hwpx-cli 추출](#node-cli-extract) · [추출 폴백](#node-extract-fallback) · [text_extract 폴백](#node-py-extract) · [auto-error-recovery](#node-aer) · [OLE 스크립트](#node-ole-script) · [검증](#node-verify) · [종료](#node-end) · [**전체 블럭 카탈로그**](#block-catalog)
 
 </details>
 
-**동기**: HWPX 관련 요청의 4가지 분기(Track A/B/C/D)를 한눈에 보여주고, 각 Track의 실제 실행 경로(스크립트 + 폴백 + 에러 복구)를 시각화. Track D의 Windows 전용 제약을 게이트로 명시하여 크로스플랫폼 오작동 방지.
+**동기**: HWPX/HWP 관련 요청의 4가지 분기(Track A/B/C/D)를 한눈에 보여주고, 각 Track의 실제 실행 경로(스크립트 + 폴백 + 에러 복구)를 시각화. HWP 바이너리 입력은 전처리 게이트(convert_hwp_to_hwpx.py + Convert-and-Archive)를 거쳐 HWPX 로 변환된 후 동일한 Track 진입 (IMP-022, 2026-04-11). Track D 의 Windows 전용 제약은 게이트로 명시하여 크로스플랫폼 오작동 방지.
 
 [맨 위로](#범례--사용법)
 
@@ -135,7 +152,7 @@ flowchart TD
 
 ## 2. 블럭 상세 카탈로그 {#block-catalog}
 
-<details><summary>전체 블럭 카드 펼치기 (24개)</summary>
+<details><summary>전체 블럭 카드 펼치기 (30개)</summary>
 
 ### 시작 {#node-start}
 
@@ -175,14 +192,92 @@ flowchart TD
 
 [다이어그램으로 복귀](#전체-체계도)
 
-### 첨부 HWPX 존재 확인 {#node-has-hwpx}
+### 입력 포맷 판별 {#node-format-check}
 
 | 항목 | 내용 |
 |------|------|
-| 소속 | 1차 분기 |
-| 동기 | 첨부 유무가 Track A(생성) vs Track B/C/D(수정/추출)의 결정적 기준 |
-| 내용 | 사용자 요청에 HWPX 파일 첨부 여부 확인 |
-| 동작 방식 | 첨부 경로 확인 또는 사용자에게 경로 질문 |
+| 소속 | 1차 분기 (IMP-022 신규) |
+| 동기 | HWPX/HWP 포맷이 다르므로 전처리 필요 여부를 먼저 확정해야 Track 진입 경로 결정 가능 |
+| 내용 | 첨부 파일 확장자 확인 후 3 분기로 라우팅 |
+| 동작 방식 | 첨부 없음 -> 새 문서 필요 분기 / .hwpx -> 직접 Track 진입 / .hwp 바이너리 -> convert_hwp_to_hwpx.py 전처리 게이트 |
+| 상태 | [작동] |
+| 관련 파일 | `SKILL.md` (입력 전처리 섹션) |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### HWP 변환 (convert_hwp_to_hwpx.py) {#node-hwp-convert}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | HWP 전처리 게이트 (IMP-022 신규) |
+| 동기 | HWPX_Master 는 HWPX 만 처리 가능. HWP 바이너리(OLE2) 는 포맷이 달라 Track A/B/C/D 가 작동하지 않음. AI 분석 친화 포맷(HWPX) 트렌드 정렬 |
+| 내용 | HWP 입력을 한컴 오피스 엔진으로 HWPX(OPC XML) 로 무손실 변환 후 원본은 `.hwp-archive/` 로 이동 |
+| 동작 방식 | `scripts/convert_hwp_to_hwpx.py <hwp-path>` 실행. 엔드투엔드: 시그니처 검증 -> COM Dispatch -> SaveAs -> 출력 검증 -> 아카이브 이동 |
+| 상태 | [작동] |
+| 관련 파일 | `scripts/convert_hwp_to_hwpx.py` |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### pywin32 COM HWPFrame.HwpObject {#node-pywin32}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | HWP 전처리 게이트 -- 엔진 호출 |
+| 동기 | 순수 Python HWP 파서는 텍스트만 부분 추출. 무손실 변환에는 한컴 공식 엔진 필수 |
+| 내용 | Windows COM 으로 한컴 오피스 13.0+ HwpObject 인스턴스 Dispatch |
+| 동작 방식 | `win32com.client.Dispatch("HWPFrame.HwpObject")` + `RegisterModule("FilePathCheckDLL", "AutomationModule")` 보안 모듈 + `Open(src, "HWP", "forceopen:true")` |
+| 상태 | [부분] (Windows + 한컴 오피스 설치 필수) |
+| 관련 파일 | `scripts/convert_hwp_to_hwpx.py` (convert_via_pywin32 함수) |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### SaveAs HWPX {#node-save-as}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | HWP 전처리 게이트 -- 변환 실행 |
+| 동기 | 한컴 엔진의 내장 SaveAs 포맷 변환이 OLE2 -> OPC XML 무손실 재작성을 수행 |
+| 내용 | 한컴 엔진에 HWPX 포맷으로 저장 지시 |
+| 동작 방식 | `hwp.SaveAs(dst_hwpx, "HWPX", "")`. 엔진이 내부 레코드 -> XML 요소 매핑 수행 (hp:p, hp:tbl, hp:run, hp:t 등 hwpml/2011 namespace) |
+| 상태 | [작동] |
+| 관련 파일 | `scripts/convert_hwp_to_hwpx.py` |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### 변환 검증 (ZIP + mimetype + section0) {#node-verify-convert}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | HWP 전처리 게이트 -- 무결성 확인 |
+| 동기 | 검증 실패 상태에서 원본을 아카이브로 이동하면 데이터 손실. 원자성 보장 필수 |
+| 내용 | 생성된 HWPX 파일의 3 단계 검증 |
+| 동작 방식 | (1) ZIP 시그니처 `PK\x03\x04` 확인 (2) `mimetype` 엔트리 == `application/hwp+zip` (3) `Contents/section0.xml` 존재 + 문단/표/런/텍스트 노드 카운트 기록 |
+| 상태 | [작동] |
+| 관련 파일 | `scripts/convert_hwp_to_hwpx.py` (verify_hwpx_output 함수) |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### 원본 아카이브 이동 {#node-archive}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | HWP 전처리 게이트 -- 안전한 원본 처리 |
+| 동기 | 사용자 의도("HWP 를 HWPX 로 교체") + 영구 삭제 금지 안전 원칙을 동시에 만족 |
+| 내용 | 검증 성공 후 원본 .hwp 를 `.hwp-archive/YYMMDD-HHMMSS_원본명.hwp` 로 이동 (os.replace, 복구 가능) |
+| 동작 방식 | Convert-and-Archive 패턴. 사용자 폴더에서 .hwp 는 사라지고 .hwpx 가 그 자리에 생성. 원본은 archive 에 보존되어 나중에 수동 삭제/복원 가능 |
+| 상태 | [작동] |
+| 관련 파일 | `scripts/convert_hwp_to_hwpx.py` (archive_original_hwp 함수), `.claude/hooks/wiki-pdf-stage.js` (화이트리스트 cleanup) |
+
+[다이어그램으로 복귀](#전체-체계도)
+
+### 변환 실패 (원자적 롤백) {#node-convert-fail}
+
+| 항목 | 내용 |
+|------|------|
+| 소속 | HWP 전처리 게이트 -- 오류 처리 |
+| 동기 | 변환 실패 시 부분 출력 파일이 남으면 다음 실행이 오염된 상태로 진행될 위험 |
+| 내용 | 검증 실패 시 부분 생성 .hwpx 삭제 + 원본 .hwp 유지 + 오류 상세 보고 |
+| 동작 방식 | try/except 블럭에서 실패 탐지 시 `os.remove(dst_hwpx)` + 원본은 아카이브 이동 전이므로 그대로 유지. 원인 구분: 한컴 미설치 / pywin32 미설치 / COM 초기화 실패 / 검증 실패 |
 | 상태 | [작동] |
 
 [다이어그램으로 복귀](#전체-체계도)

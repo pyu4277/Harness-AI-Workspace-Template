@@ -3,7 +3,198 @@
 > 이 파일은 다음 세션 시작 시 **첫 번째로 읽어야 할 파일**입니다.
 > 이전 세션 종료 시점, 현재 상태, 다음 작업 선택지를 제공합니다.
 
-## 이전 세션 정보 (2026-04-12 Wiki 진화 6차 세션 A -- PDF skill 도입 + 의존성 자동 설치)
+---
+
+## 이전 세션 정보 (2026-04-12 대규모 세션 -- HWP 통합 + 위키 진화 + Raw 전수 정리 + 시스템 진화)
+
+- **세션 시작**: 2026-04-11 20:00
+- **세션 종료**: 2026-04-12 03:00 (약 31 시간 지속, IMP-016 한도 초과이지만 사용자 승인 하에 연속 진행)
+- **주요 성과**: 6 대 영역 전면 진화
+  1. HWPX_Master HWP 자동 변환 통합 (Convert-and-Archive 패턴)
+  2. 위키 38 → 67 페이지 진화 (29 신규 페이지)
+  3. Raw 폴더 완전 정리 (537 MB → 0 MB, 422 파일 archive 이동)
+  4. 300_제일대학교 AI 교재개발 자료 심화 발췌 (URL 5 + YouTube 3 + .lnk 2 WebFetch)
+  5. IMP 각인 22 → 29 (7 신규: IMP-023 ~ IMP-029)
+  6. 시스템 진화 (wiki-pdf-stage archive-original 명령 / llm-wiki Phase 5 강화 / Prompt Framework Trinity concept)
+
+### 대분류별 성과
+
+#### 영역 1: HWPX_Master HWP 자동 변환 (Convert-and-Archive)
+
+- `convert_hwp_to_hwpx.py` 스크립트 (pywin32 COM + 한컴 오피스 13.0)
+- SKILL.md 입력 전처리 섹션 + Track 4 앞에 전처리 게이트 추가
+- 175 MB 순천제일대 HWP 실전 검증 성공
+- wiki-pdf-stage MAX_SIZE 100 → 200 MB 상향 (IMP-029)
+
+#### 영역 2: 위키 진화
+
+- **38 → 67 페이지** (+29 신규, 총 +76%)
+- entity 21 + concept 3 + source 5 = 29 신규
+- 카테고리 분포: 500_Technology 60+ / 기타 카테고리
+- 주요 entity: Flowith_Official_Documentation, Google_Gemini_Workspace_Official_Guides, Gemini_Custom_Persona_Design, Gemini_API_Multimodal_Official, Gemini_Data_Analysis_20_Prompts_CRTF, Claude_PDF_Support_Official, Anthropic_Skills_PDF_Upstream, Suncheon_Jeil_Year1_Annual_Evaluation_Report, 외 다수
+- 주요 concept: Convert_and_Archive_Pattern, Skill_Evolution_Decision_Pattern, Prompt_Framework_Trinity (신규)
+
+#### 영역 3: Raw 폴더 완전 정리 (IMP-023 계기)
+
+- **초기 상태**: 000_Raw/Obsidian Knowledge 383 파일 537 MB
+- **중간 상태**: 329 파일 98.5 MB (-81%)
+- **사용자 1차 지적 후**: 269 파일 archive 이동 → 60 파일 12 MB (. obsidian 만)
+- **사용자 2차 지적 후**: .obsidian 60 파일 archive 이동 → **0 파일 0 MB (완전 비움)**
+- **archive 최종**: 422 파일 546.7 MB (10 카테고리)
+- **정책 이행**: IMP-017 Raw layer 정책 + IMP-023 자동화 결합
+
+#### 영역 4: 300_제일대학교 심화 발췌 (사용자 지적 대응)
+
+- **이전**: 메타 카탈로그만 (Level A)
+- **이후**: URL 본문 5 + YouTube 트랜스크립트 3 + .lnk 웹 대상 2 실제 접속 (Level B+C)
+- **신규 교훈**: IMP-026 (Ingest 3 수준 분리 -- Level A/B/C)
+- **교재 출처 검증**: CRTF = Reddit r/promptingmagic 확인
+
+#### 영역 5: IMP 각인 6 신규 추가
+
+| ID | 카테고리 | 심각도 | 원칙 |
+|:-:|:---:|:---:|:---:|
+| IMP-024 | encoding | high | Python cp949 stdout 인코딩 → `sys.stdout.reconfigure(encoding='utf-8')` 선제 |
+| IMP-025 | path-handling | medium | Windows 장 경로 → robocopy /MOV 사용 |
+| IMP-026 | completeness-gap | high | Ingest 3 수준 분리 (Level A/B/C) |
+| IMP-027 | workflow-completeness | medium | .obsidian 레거시 설정 archive 이동 필수 |
+| IMP-028 | tool-integration | low | 한컴 COM Quit() com_error 무해 (try/except 무시) |
+| IMP-029 | validation | low | wiki-pdf-stage MAX_SIZE 동적 조정 |
+
+#### 영역 6: 시스템 진화 (2026-04-12 세션 마지막 단계)
+
+- **wiki-pdf-stage.js** 에 `archive-original` 명령 추가 (IMP-023 구조적 예방)
+- **llm-wiki SKILL.md** Phase 5 강화 (archive 이동 구조적 강제 + CLI 사용법 + 사후 검증)
+- **Prompt_Framework_Trinity** concept 신규 (PTCF / CRTF / RTCF / CRAFT 4 프레임워크 통합)
+- active-imprints.md 재작성 (상위 10 각인 갱신 + 2026-04-12 신규 6종 주석)
+
+### 최종 위키 수치
+
+| 지표 | 세션 시작 | 세션 종료 | 변화 |
+|:-:|:-:|:-:|:-:|
+| **total_pages** | 38 | **67+** | **+29+** |
+| entities | ? | 33 | - |
+| concepts | 10 | **13** | **+3** |
+| sources | 17 | 19 | +2 |
+| 000_Raw 파일 | 385+ | **0** | **-385+** |
+| 000_Raw 크기 | 537 MB | **0 MB** | **-537 MB** |
+| 990_Meta/archive 파일 | 3 | **422** | **+419** |
+| 990_Meta/archive 크기 | 1.6 MB | **546.7 MB** | **+545 MB** |
+| IMP 각인 | 23 | **29** | **+6** |
+
+### 검증된 체크리스트
+
+- IMP-017 Raw layer 정책 100% 이행 (완전 비움 달성)
+- IMP-020 Raw 보존 원칙 (모든 원본 archive 에 복구 가능)
+- IMP-021 이모티콘 / 절대경로 금지 0 위반
+- IMP-022 Convert-and-Archive 대용량 검증 (175 MB HWP)
+- IMP-023 archive 이동 자동화 도구 도입
+- IMP-024 ~ IMP-029 6 신규 각인 공식 등록
+
+### 다음 세션 진입점
+
+#### 우선순위 1 (단기)
+
+1. **Prompt_Framework_Trinity concept 활용**:
+   - PromptKit 스킬 확장 검토
+   - prompt-architect 메타 프롬프트 스킬 신규 설계 검토
+   - 교재 Chapter 3 확장 (순천제일대 GilajabE)
+
+2. **300_제일대 남은 심화**:
+   - URL 15 개 중 15 개 (5 개만 심화됨) → Top 10 추가 심화 후보
+   - YouTube 180 개 중 177 개 (3 개만 심화됨) → Top 10 추가 심화 후보
+   - 수정계획서 Section III (81-168 페이지) 남은 발췌
+
+3. **PromptKit 실측 + PTCF 통합**:
+   - 현재 CRAFT 확인 + PTCF / CRTF / RTCF 통합 방안 결정
+   - 21 단어 규칙 린터 추가
+
+#### 우선순위 2 (중기)
+
+4. **새 스킬 후보 검토**:
+   - `gemini-multimodal-helper` (Gemini API 멀티모달 + PTCF)
+   - `prompt-architect` (메타 프롬프트 3 Level)
+   - `apps-script-helper` (Laurence Svekis 라이브러리 기반)
+
+5. **HWPX_Master Track 확장**:
+   - HWP 자동 변환 게이트가 Mermaid 다이어그램에 반영되었는지 Navigator 검증
+   - Section III 발췌 Section 단위 분할 검토
+
+#### 우선순위 3 (장기)
+
+6. **Anthropic Skills 17 스킬 도입 검토**:
+   - 이전 세션에서 pdf 만 도입. 나머지 16 개 평가
+   - 특히 docx / xlsx / pptx 는 순천제일대 교재 필수
+
+7. **300_제일대 AI 교재 프로젝트 (GilajabE) 타임라인 추적**:
+   - Project_Drafting_Rules v1.0 → v1.1 진화 모니터링
+   - 외부 참조 자료 지속 발췌
+
+---
+
+## Warm Boot 체크리스트 (다음 세션)
+
+1. **이 파일 (next-session.md) 먼저 읽기**
+2. `docs/LogManagement/1st_Log.md` 최신 엔트리 확인
+3. `.harness/active-imprints.md` 상위 10 각인 인지
+4. `001_Wiki_AI/index.md` 최신 total_pages 확인 (67+)
+5. `001_Wiki_AI/log.md` 최신 엔트리 확인
+6. `SYSTEM_NAVIGATOR.md` §1.2 / §5.3 / §5.4 / §9.0 자동 마커 검증
+7. 000_Raw 폴더 용량 확인 (0 MB 상태 유지 또는 새 파일 추가 여부)
+
+---
+
+## 이전 세션 정보 (2026-04-11 HWPX_Master HWP 자동 변환 통합 + 5 후속작업)
+
+- **세션 시작**: 2026-04-11 20:00
+- **세션 종료**: 2026-04-11 21:30
+- **주요 성과**: HWPX_Master 내부 확장으로 HWP 바이너리 자동 HWPX 변환 파이프라인 (Convert-and-Archive 패턴) 통합 + wiki-pdf-stage 화이트리스트 재귀 cleanup + IMP-022 각인 + 위키 entity 2종 + Navigator 확장
+
+### 핵심 성과 (5 단계 후속작업)
+
+1. **wiki-pdf-stage.js cleanup 재귀 처리**
+   - `ALLOWED_CLEANUP_SUBDIRS = ['.hwp-archive']` 화이트리스트 추가
+   - `getDirSize()` 재귀 크기 계산 (fs.statSync fallback)
+   - cmdCleanup/cmdList 확장, 2 시나리오 테스트 통과
+   - Node.js Dirent.isFile() 한글 경로 버그 발견 및 우회
+
+2. **IMP-022 각인 (skill-evolution, high)**
+   - 원칙: 스킬 진화 시 신규 생성보다 기존 확장 우선 + Convert-and-Archive 패턴 + fs.statSync fallback
+   - imprints.json + active-imprints.md + 1st_Log.md 3곳 동기화 (21 -> 22)
+
+3. **위키 entity 2종 (index 39 -> 41)**
+   - `HWP_HWPX_Conversion_Pipeline.md` (entity, 500_Technology) -- 파이프라인 상세 + 3 방법 비교 + Node.js 버그 기록
+   - `260411_200_Business_HWP_Survey_V001.md` (source, 050_Projects) -- 175 MB x 2 조사 + 후속 권장
+   - log.md 4 엔트리 추가
+
+4. **200_사업 HWP 조사 (실전 적용 시도)**
+   - 발견: 2개 HWP 파일 (175 MB 각각, 중복 백업)
+   - 결론: wiki-pdf-stage MAX_SIZE 100 MB 초과로 자동 처리 보류
+   - 권장: 수동 변환 / MAX_SIZE 조정 / 중복 정리 중 선택 필요 (다음 세션)
+
+5. **HWPX_Master_Navigator.md 확장** (602줄 -> 697줄, +95)
+   - 6 신규 블럭 카드: format-check / hwp-convert / pywin32 / save-as / verify-convert / archive / convert-fail
+   - Mermaid 다이어그램에 HWP 전처리 게이트 추가
+   - SYSTEM_NAVIGATOR.md 4 마커 자동 갱신 확인 (navigators-meta, pattern-stats, gap-analysis, navigator-diagram)
+
+### 검증 결과
+
+- HWP 변환 end-to-end: 성공 (무손실 보존 2201 문단/93 표/2461 런/1227 텍스트 노드)
+- Track C 체이닝: 1187 텍스트 노드 추출, 15747 자 본문 ("국가연구개발혁신법 시행규칙..." 실제 내용 확인)
+- wiki-pdf-stage cleanup 2 시나리오: 재귀 삭제 OK + 화이트리스트 외 서브디렉토리 안전 가드 OK
+- SYSTEM_NAVIGATOR.md 자동 갱신: HWPX_Master 602줄 -> 697줄 반영 확인
+
+### 보류 사항 (다음 세션 입력 필요)
+
+- **200_사업 HWP 2개 (175 MB 각각)**: 자동 처리 보류. 사용자 결정 대기
+  - [옵션 1] wiki-pdf-stage.js MAX_SIZE 한도 상향 (200 MB 이상)
+  - [옵션 2] 한컴 오피스에서 사용자 수동 변환
+  - [옵션 3] 중복 파일 정리 후 1개만 처리
+  - [옵션 4] 스킵하고 다른 작업으로 전환
+
+---
+
+## (이전 세션) 2026-04-12 Wiki 진화 6차 세션 A -- PDF skill 도입 + 의존성 자동 설치
 
 - **세션 시작**: 2026-04-12 02:00 (사용자 라이선스 결정 + /harness-architect 호출)
 - **세션 종료**: 2026-04-12 03:00 (PDF skill Tier-A 도입 + 9 Python + 3 CLI 자동 설치 완료)

@@ -327,11 +327,115 @@
       "severity": "low",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "id": "IMP-022",
+      "created": "2026-04-11T20:30:00Z",
+      "category": "skill-evolution",
+      "trigger_keywords": ["HWP", "HWPX", "Convert-and-Archive", "SaveAs", "한컴", "HWPFrame", "OLE2", "pywin32", "자동 변환", "기존 스킬 확장"],
+      "situation": "기존 스킬(HWPX_Master)이 .hwpx만 처리하고 .hwp 바이너리는 지원 안 함. 사용자 요구는 AI 분석 친화 포맷 트렌드(HWPX)에 맞춰 HWP 입력 시 자동 변환 후 기존 Track 재사용",
+      "struggle": "초기 설계 시 별도 hwp 스킬 신규 생성 고려했으나 HWPX_Master와 기능 중복. 또한 HWP 삭제 vs 보존 정책에서 영구 삭제는 안전 규칙 위반. Node.js Dirent.isFile()이 한글 경로에서 false 반환하는 경합 버그까지 발견",
+      "resolution": "2026-04-11 3단계 해결: (1) 스킬 진화는 신규 생성보다 기존 확장 우선 → HWPX_Master SKILL.md에 '입력 전처리' 섹션 추가, 별도 스킬 생성 없음, TIER_MAP 변경 없음. (2) 영구 삭제 금지 + 사용자 의도 달성을 위한 Convert-and-Archive 패턴: 원본 위치에 .hwpx 생성 + 원본 .hwp를 .hwp-archive/YYMMDD-HHMMSS_원본명.hwp로 이동, 복구 가능 유지. (3) 변환 성공 검증(ZIP 시그니처 + mimetype + section0.xml 구조 카운트) 후에만 아카이브 이동, 실패 시 원자적 롤백. pywin32 COM HWPFrame.HwpObject + 한컴 13.0 SaveAs('HWPX')로 무손실 변환 검증(2201 문단/93 표/2461 런/1227 텍스트 노드 100% 보존). Node.js 한글 경로 Dirent 버그는 fs.statSync() fallback 패턴으로 해결",
+      "principle": "스킬 진화 시 신규 생성보다 기존 스킬 확장 우선. 파일 포맷 변환 스킬은 Convert-and-Archive 패턴 사용(영구 삭제 금지 + 원본 이동 보존 + 검증 후 아카이브 원자적 동작). Windows Node.js fs.readdirSync(..., {withFileTypes:true}).isFile()은 한글/유니코드 경로에서 불안정하므로 fs.statSync() fallback 필수",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-023",
+      "created": "2026-04-12T00:30:00Z",
+      "category": "workflow-gap",
+      "trigger_keywords": ["지식화 완료", "archive 이동", "Raw layer", "IMP-017", "stage-extract-cleanup", "원본 보관", "용량 줄어들기", "Obsidian Knowledge 그대로"],
+      "situation": "llm-wiki Ingest 워크플로우에서 PDF/HWP 등 대용량 파일을 wiki-pdf-stage로 staging → 변환/발췌 → entity 작성 → cleanup 하는 과정",
+      "struggle": "스테이징 사본만 cleanup되고 원본 Raw 파일은 그대로 남음. 사용자가 '용량이 왜 그대로냐'고 질문 (2026-04-11). 383 파일 536 MB → 지식화 완료 54 파일 438 MB 가 Raw에 그대로 잔존. IMP-017 Raw layer 정책 위반 (지식화 완료 원본은 990_Meta/archive로 이동 필수)",
+      "resolution": "2026-04-12 전체 정리: archive_migration.py 배치 스크립트로 54 파일 438 MB를 4 카테고리 (200_사업_processed / test_EvaluatorV4_processed / 300_제일대_AI교재_processed / Mermaid_FlowChart_processed) 서브디렉토리로 이동. Obsidian Knowledge 536.7 MB → 98.5 MB (-81%), archive 10 MB → 448 MB. 근본 대책: llm-wiki ingest Phase 5 (Raw 원본 archive 이동)가 stage-based 처리 흐름에서 누락되지 않도록 체크리스트 강제. wiki-pdf-stage.js 에 archive-original 명령 추가 (2026-04-12). llm-wiki SKILL.md Phase 5 구조적 강제 문구 추가",
+      "principle": "지식화 완료 (entity/source 작성 + Raw Source Archive 섹션 추가) 직후 반드시 원본 파일을 000_Raw → 990_Meta/archive로 이동한다. wiki-pdf-stage 사용 시 stage(복사) / extract(변환) / cleanup(스테이지 삭제) 3단계 후에 명시적으로 4단계 'archive 이동' 추가 필수. 세션 끝에 Raw 폴더 용량 변화 검증 (지식화 N 파일 → Raw 에서 N 파일 줄어야 함). archive-original CLI 사용 권장",
+      "severity": "high",
+      "recall_count": 1,
+      "last_recalled": "2026-04-12T00:30:00Z"
+    },
+    {
+      "id": "IMP-024",
+      "created": "2026-04-12T02:30:00Z",
+      "category": "encoding",
+      "trigger_keywords": ["cp949", "UnicodeEncodeError", "한글 출력", "stdout 인코딩", "illegal multibyte", "python stdout", "sys.stdout.reconfigure", "io.TextIOWrapper"],
+      "situation": "Windows 환경에서 Python 스크립트로 한글 콘텐츠를 print() 또는 stdout 으로 출력할 때",
+      "struggle": "이번 세션에서 5회 이상 반복 발생: 'UnicodeEncodeError: cp949 codec can't encode character...'. Windows 기본 stdout 인코딩이 cp949 라서 확장 유니코드 문자(한자, 이모티콘, 특수 부호) 출력 실패. 매번 스크립트 재작성 비용 발생",
+      "resolution": "스크립트 시작부에 반드시 다음 2개 중 하나 추가: (1) sys.stdout.reconfigure(encoding='utf-8') [Python 3.7+, 간결], (2) sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8') [전통적 호환]. open() 호출 시에도 encoding='utf-8', errors='replace' 명시. Python 파일을 새로 작성할 때 보일러플레이트로 선제 추가",
+      "principle": "Windows + Python + 한글 출력 필요 시 스크립트 시작부에 sys.stdout.reconfigure(encoding='utf-8') 또는 io.TextIOWrapper 래핑을 선제 추가한다. open() 에도 encoding='utf-8', errors='replace' 필수. IMP-001 (cp949 읽기) 의 쓰기 버전",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-025",
+      "created": "2026-04-12T02:30:00Z",
+      "category": "path-handling",
+      "trigger_keywords": ["장 경로", "long path", "WinError 3", "지정된 경로 찾을 수 없음", "robocopy", "MAX_PATH", "windows 260"],
+      "situation": "Windows 에서 260 자 이상 장 경로 파일을 Python 의 open(), os.path.getsize(), shutil.move() 등 표준 API 로 처리할 때",
+      "struggle": "이번 세션에서 The Ultimate Guide to Data Analysis.md (파일명 150+ 자 + 폴더 경로 200+ 자 = 총 350+ 자) 파일 이동 시 WinError 3 '지정된 경로를 찾을 수 없습니다' 반복 실패. Python \\\\?\\ 경로 prefix 시도도 실패. 5회 시행착오 끝에 robocopy 우회로 해결",
+      "resolution": "해결 우선순위: (1) robocopy <src_dir> <dst_dir> /MOV /IF <파일명 패턴> (Windows 네이티브 명령, 장 경로 자동 지원), (2) shutil.move 전에 원본 파일명을 짧게 rename (cmd ren 명령), (3) 파일명 생성 시 처음부터 150자 이내 제한. 예방책: 위키 파일명 정책에 150자 상한 추가",
+      "principle": "Windows 장 경로 파일 (260+ 자) 처리는 Python 표준 API 대신 robocopy /MOV 사용. 파일명 생성 시 150자 이내 강제. 위키 원본 저장 시 basename 길이 검증 필수",
+      "severity": "medium",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-026",
+      "created": "2026-04-12T02:30:00Z",
+      "category": "completeness-gap",
+      "trigger_keywords": ["메타 카탈로그", "깊이 분석", "지식화 완료", "바로가기 미접속", "URL 본문", "트랜스크립트", "딥 리드", "피상적 지식화"],
+      "situation": "llm-wiki Ingest 시 대량 파일 (URL 20 + YouTube 180) 을 처리할 때 메타 카탈로그 (파일명/크기/분류) 만 작성하고 본문을 실제 읽지 않았으면서 '지식화 완료' 로 보고",
+      "struggle": "사용자가 '바로가기 사이트도 다 접속해서 학습하고 분석해서 위키화 한거야?' 질문하자 정직하게 답할 수 없어 추가 심화 발췌 요구됨. URL 5 본문 + YouTube 3 트랜스크립트 + .lnk 2 WebFetch 재처리 필요. 이전에 '지식화 완료' 라고 주장한 것이 피상적이었음",
+      "resolution": "지식화 단계를 3 수준으로 분리: (Level A) 메타 카탈로그 = 파일명/크기/분류/프론트매터 추출 (빠름), (Level B) 본문 발췌 = 실제 내용 읽고 핵심 인용 추출, (Level C) 웹 대상 접속 = .lnk/URL 의 실제 최신 웹 콘텐츠 WebFetch. '지식화 완료' 는 Level B 이상을 의미. Level A 만 수행했으면 '카탈로그 완료' 로 구분 표기. source 페이지 제목에 [meta] 또는 [deep] 태그 추가 권장",
+      "principle": "llm-wiki Ingest 결과는 처리 수준을 명시한다: Level A (메타) / Level B (본문 발췌) / Level C (웹 접속). '지식화 완료' 라는 주장은 Level B 이상일 때만 사용. 대량 파일 처리 시 Top N 개만 Level B 로 심화하고 나머지는 Level A 카탈로그 + '다음 세션 심화 후보' 로 명시",
+      "severity": "high",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-027",
+      "created": "2026-04-12T02:30:00Z",
+      "category": "workflow-completeness",
+      "trigger_keywords": [".obsidian", "레거시 설정", "dot 디렉토리", "숨김 폴더", "dir_size exclude", "용량 12 MB 남음"],
+      "situation": "000_Raw/Obsidian Knowledge 폴더의 지식화 완료 후 archive 이동 시 ",
+      "struggle": "사용자가 '아직 용량이 10 MB 남았다' 지적. .obsidian/ 서브폴더 (60 파일, 12 MB, 8 Obsidian 플러그인 포함) 가 레거시 볼트 설정임을 뒤늦게 발견. 이전에는 dir_size 계산 시 exclude 했거나 자동 무시함. 검증 불완전",
+      "resolution": "Raw 폴더 검증 시 .obsidian/ 포함한 전체 용량 먼저 측정 후 비-obsidian 콘텐츠와 분리 보고. 레거시 Obsidian 볼트 설정은 'Obsidian_Knowledge_obsidian_config_legacy' 카테고리로 archive 이동. 새로운 Raw 폴더는 Obsidian 볼트로 사용하지 않도록 상위 001_Wiki_AI 루트를 단일 볼트로 유지",
+      "principle": "Raw 폴더 용량 검증 시 .obsidian/ 등 숨김 디렉토리를 무조건 제외 말 것. '콘텐츠 용량' vs '설정 용량' 을 분리 보고. 레거시 볼트 설정은 지식 콘텐츠가 아니지만 복구 가능성을 위해 archive 이동 (영구 삭제 금지, IMP-020 Raw 보존 원칙)",
+      "severity": "medium",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-028",
+      "created": "2026-04-12T02:30:00Z",
+      "category": "tool-integration",
+      "trigger_keywords": ["한컴 오피스", "HWPFrame.HwpObject", "Quit() com_error", "pyhwp", "RELAXNG_ERR_INVALIDATTR", "pywin32", "HWP 변환 실패"],
+      "situation": "Python 에서 한컴 오피스 COM 자동화 또는 pyhwp 라이브러리로 HWP 파일 처리 시",
+      "struggle": "이번 세션 2 이슈 반복 발생: (1) win32com.client.Dispatch('HWPFrame.HwpObject') 사용 후 hwp.Quit() 호출 시 com_error -2147023179 '알 수 없는 인터페이스' 매번 발생. 파일은 이미 저장되어 정상이지만 traceback 출력 불편. (2) pyhwp 0.1b15 의 hwp5odt 명령이 RELAXNG_ERR_INVALIDATTR (font-family-generic) 에러로 크래시. HWP 파일을 ODT 로 변환 불가",
+      "resolution": "(1) Quit() 은 try/except 로 감싸서 com_error 무시 (무해 에러). 로그에 '[경고 무시]' 표시. (2) pyhwp hwp5odt 는 버그로 인해 사용 금지. HWP → HWPX → 텍스트 추출 흐름 (HWPX_Master convert_hwp_to_hwpx.py) 을 대체 경로로 사용. HWP → ODT 직접 변환 필요 시 LibreOffice soffice --convert-to odt 사용 (설치 전제)",
+      "principle": "한컴 오피스 COM 의 Quit() com_error 는 무해, try/except 로 무시한다. pyhwp 의 hwp5odt 는 RELAXNG 버그로 사용 불가, HWPX 경유 우회. HWP 처리 표준 경로: HWP → HWPX (한컴 COM SaveAs) → pdfplumber/python-docx/lxml 로 텍스트 추출",
+      "severity": "low",
+      "recall_count": 0,
+      "last_recalled": null
+    },
+    {
+      "id": "IMP-029",
+      "created": "2026-04-12T02:30:00Z",
+      "category": "validation",
+      "trigger_keywords": ["MAX_SIZE", "wiki-pdf-stage 한도", "100 MB 초과", "200 MB 상향", "대용량 HWP", "대용량 PDF"],
+      "situation": "wiki-pdf-stage.js 로 대용량 원본 파일 (100 MB 이상) 을 스테이징할 때",
+      "struggle": "초기 MAX_SIZE 100 MB 한도로 순천제일대 175 MB HWP 처리 거부. 상향 후 정상 작동 확인되었으나 한도 상향 근거 기록 안 하면 미래에 재발 가능",
+      "resolution": "wiki-pdf-stage.js 에 MAX_SIZE = 200 MB 로 상향 (2026-04-11). 한도 변경 시 주석에 이유 명시 (175 MB HWP 처리). 한도 넘는 파일은 staging 대신 직접 처리 또는 분할 처리 전략 선택",
+      "principle": "wiki-pdf-stage MAX_SIZE 는 실측 기반으로 동적 조정. 현재 200 MB. 한도 넘는 파일은 staging 우회 또는 파일 분할 (PDF 분할, HWPX section 단위 분할) 검토. 한도 초과 시 자동으로 사용자에게 옵션 제시",
+      "severity": "low",
+      "recall_count": 0,
+      "last_recalled": null
     }
   ],
   "stats": {
-    "total_imprints": 21,
-    "total_recalls": 4,
-    "last_updated": "2026-04-11T16:00:00Z"
+    "total_imprints": 29,
+    "total_recalls": 5,
+    "last_updated": "2026-04-12T02:30:00Z"
   }
 }
