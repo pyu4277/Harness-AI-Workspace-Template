@@ -718,11 +718,32 @@
         "feat-16-cache-corrupt.sh: 캐시 파일 오염 → graceful {hit:false}"
       ],
       "recall_count": 0
+    },
+    {
+      "id": "IMP-036",
+      "created": "2026-04-14T09:00:00Z",
+      "category": "harness-detection-gap",
+      "trigger_keywords": [
+        "Clippings 누락",
+        "미처리 raw",
+        "Web Clipper 누적",
+        "왜 파일이 남아있지"
+      ],
+      "situation": "Web Clipper 산출물이 001_Wiki_AI/Clippings/ 와 001_Wiki_AI/ 루트에 침묵 누적. 사용자가 직접 발견할 때까지 하네스가 알리지 않음.",
+      "mistake": "Wiki 진화 7차 직후 Clippings 폴더에 3건 + 루트에 7건이 미처리 상태로 잔존. SessionStart 단계에서 감지 매커니즘 부재.",
+      "rule": "Wiki Raw 입구(Clippings/, 루트 VIDEO md)는 SessionStart 훅으로 전수 감지. 24h 이상이면 STALE 경고 + IMP-023 처리 절차 안내.",
+      "examples": [
+        "wiki-clippings-check.js: Clippings/*.md + 루트 ^\\d{4}-\\d{2}-\\d{2} VIDEO 패턴 스캔",
+        "FRESH/STALE 분리 출력 + 처리 가이드 (Level B 발췌 → 990_Meta/archive/)",
+        ".claude/hooks.json SessionStart에 등록 (timeout 3000)"
+      ],
+      "recall_count": 0
     }
   ],
   "stats": {
     "total_imprints": 30,
     "total_recalls": 5,
-    "last_updated": "2026-04-13T00:00:00Z"
+    "last_updated": "2026-04-13T00:00:00Z",
+    "total": 36
   }
 }

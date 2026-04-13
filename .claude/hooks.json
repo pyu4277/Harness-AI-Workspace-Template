@@ -15,6 +15,11 @@
             "type": "command",
             "command": "node .bkit/plugin/hooks/session-start.js",
             "timeout": 5000
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/wiki-clippings-check.js",
+            "timeout": 3000
           }
         ]
       }
