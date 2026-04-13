@@ -1,0 +1,9 @@
+{
+  "id": "s5",
+  "name": "multi-project-global",
+  "status": "PASS",
+  "elapsed_s": 4,
+  "feats": ["27","30","31","32"],
+  "steps": ["PASS:1. obsidian 양방향","PASS:2. daemon-5min --once","PASS:3. LLM autodetect 우선순위","PASS:4. global wiki-registry 검증"],
+  "ts": "2026-04-13T21:53:49+09:00"
+}

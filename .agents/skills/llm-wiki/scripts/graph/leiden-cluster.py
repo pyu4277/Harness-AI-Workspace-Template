@@ -12,11 +12,19 @@ import json
 
 def main():
     data = json.loads(sys.stdin.read() or "{}")
-    nodes = data.get("nodes", [])
+    raw_nodes = data.get("nodes", [])
     edges = data.get("edges", [])
+    nodes = [n["id"] if isinstance(n, dict) else n for n in raw_nodes]
     if not nodes:
         print(json.dumps({"error": "empty graph"}))
         sys.exit(1)
+    norm_edges = []
+    for e in edges:
+        if isinstance(e, dict):
+            norm_edges.append([e.get("src"), e.get("dst"), e.get("weight", 1.0)])
+        else:
+            norm_edges.append(list(e))
+    edges = norm_edges
 
     try:
         import igraph as ig

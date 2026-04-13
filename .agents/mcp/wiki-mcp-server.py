@@ -61,11 +61,14 @@ def tool_get_neighbors(params):
 
 def tool_search_bm25(params):
     query = params.get("query", "")
-    # 위임: wiki-query.py 가 실제 BM25 수행
+    if len(query) > 500:
+        return {"error": "query too long (max 500 chars)"}
+    if not all(c.isprintable() or c.isspace() for c in query):
+        return {"error": "query contains non-printable characters"}
     from subprocess import run, PIPE
     script = Path(__file__).resolve().parent.parent / "skills" / "llm-wiki" / "scripts" / "wiki-query.py"
     if not script.exists():
-        return {"error": f"wiki-query.py missing at {script}"}
+        return {"error": "wiki-query.py missing"}
     env = os.environ.copy()
     env["PYTHONIOENCODING"] = "utf-8"
     r = run([sys.executable, str(script), query, "--layer", "100"],

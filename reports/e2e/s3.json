@@ -1,0 +1,9 @@
+{
+  "id": "s3",
+  "name": "multimedia-ingest",
+  "status": "PASS",
+  "elapsed_s": 1,
+  "feats": ["10","17","19","19","20"],
+  "steps": ["PASS:1. audio-transcribe (graceful skip 허용)","PASS:2. vision-caption (subagent 위임 JSON)","PASS:3. office-parse docx","PASS:4. office-parse pptx","PASS:5. token-budget"],
+  "ts": "2026-04-13T21:53:46+09:00"
+}

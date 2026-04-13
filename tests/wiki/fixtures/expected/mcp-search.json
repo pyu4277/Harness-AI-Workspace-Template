@@ -1,0 +1,6 @@
+{
+  "tool": "search_bm25",
+  "p95_seconds_max": 2.0,
+  "min_results": 1,
+  "must_return_keys": ["results", "query"]
+}

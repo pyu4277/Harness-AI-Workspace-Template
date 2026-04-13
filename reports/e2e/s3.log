@@ -1,0 +1,4 @@
+==[s3] multimedia-ingest ==
+{"skipped": true, "reason": "whisper CLI not installed", "install_hint": "pip install openai-whisper + ffmpeg"}
+  -> 5. token-budget
+==[s3] PASS (1s) -> reports/e2e/s3.json

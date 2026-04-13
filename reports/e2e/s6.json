@@ -1,0 +1,9 @@
+{
+  "id": "s6",
+  "name": "chaos-recovery",
+  "status": "PASS",
+  "elapsed_s": 3,
+  "feats": ["04","05","14","16","18","30"],
+  "steps": ["PASS:1. log-event append","PASS:2. lifecycle 재실행 (재시도 시뮬)","PASS:3. 손상 md graceful 처리 (lint이 0건 추가 또는 graceful)","PASS:4. 캐시 재조회 무손실","PASS:5. extract-post 훅 코드 무결","PASS:6. daemon 재기동 (--once)"],
+  "ts": "2026-04-13T21:53:48+09:00"
+}

@@ -1,0 +1,2 @@
+  -> 2. vision-caption (subagent 위임 JSON)
+{"file": "tests\\wiki\\fixtures\\image\\chart-flow.png", "size_bytes": 68, "suffix": ".png", "caption": null, "delegation": {"target_subagent": "semantic-extractor", "task": "image_caption", "prompt_hint": "Describe image at tests\\wiki\\fixtures\\image\\chart-flow.png in Korean, max 80 chars."}}

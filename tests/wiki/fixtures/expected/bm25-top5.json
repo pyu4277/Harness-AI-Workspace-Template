@@ -1,0 +1,6 @@
+{
+  "query": "transformer attention",
+  "expect_top1_contains": ["karpathy", "transformer", "attention"],
+  "min_results": 1,
+  "max_layer0_tokens": 0
+}

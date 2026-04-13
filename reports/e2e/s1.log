@@ -1,0 +1,13 @@
+==[s1] happy-path-karpathy ==
+  -> 1. PDF cite extraction
+{"file": "tests\\wiki\\fixtures\\pdf\\karpathy-llm101.pdf", "citations": ["Smith, 2020", "10.1234/example)"], "citation_count": 2}
+  -> 2. AST extract on .md
+{"file": "tests\\wiki\\fixtures\\md\\karpathy-excerpt.md", "language": "markdown", "nodes": [{"type": "heading", "name": "Karpathy LLM Wiki — Excerpt", "level": 1, "start_line": 10}, {"type": "heading", "name": "Attention 메커니즘", "level": 2, "start_line": 15}, {"type": "heading", "name": "3-layer 검색", "level": 2, "start_line": 20}], "node_count": 3, "fallback": true}
+  -> 3. wiki-ingest patch
+  -> 4. schema_version 검증
+  -> 5. graph-build
+  -> 6. Leiden cluster (mini graph)
+  -> 7. graph-html viz
+  -> 8. BM25 query
+  -> 9. GRAPH_REPORT 존재
+==[s1] PASS (2s) -> reports/e2e/s1.json

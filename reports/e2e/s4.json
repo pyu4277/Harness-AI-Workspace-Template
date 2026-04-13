@@ -1,0 +1,9 @@
+{
+  "id": "s4",
+  "name": "mcp-search-loop",
+  "status": "PASS",
+  "elapsed_s": 2,
+  "feats": ["16","15","22","28","25","26"],
+  "steps": ["PASS:1. SHA256 cache check","PASS:2. semantic-extractor subagent 정의 존재","PASS:3. MCP query_graph (--once)","PASS:4. MCP search_bm25 (--once) + 시간 측정","PASS:5. 3-layer 100-token query","PASS:6. DFS graph 탐색"],
+  "ts": "2026-04-13T21:53:47+09:00"
+}

@@ -1,0 +1,5 @@
+==[s2] update-watch-evolution ==
+  -> 6. wiki-extract-post 훅 존재
+[post-commit] wiki ingest --update 대상: .agents/skills/harness-architect/SKILL.md
+.agents/subagents/semantic-extractor.md
+==[s2] PASS (4s) -> reports/e2e/s2.json

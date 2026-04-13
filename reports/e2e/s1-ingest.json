@@ -1,0 +1,166 @@
+{
+  "target": "../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md",
+  "summary": "# Karpathy LLM Wiki — Excerpt LLM 위키는 학습한 내용을 영구적으로 보존하는 외부 두뇌 역할을 한다. 핵심 원칙: **0-token retrieval first**, **graph-as-source-of-truth**. ## Attention 메커니즘 Transformer 의 self-attention 은 query-key-valu ...",
+  "token_count": 75,
+  "related": [
+    {
+      "path": "990_Meta/e2e-gap-report.md",
+      "score": 0.1042,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "990_Meta/GRAPH_REPORT.md",
+      "score": 0.1,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/entities/Obsidian_CLI.md",
+      "score": 0.0892,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/sources/260410_Karpathy_LLM_Wiki_Pattern_V001.md",
+      "score": 0.087,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "990_Meta/e2e-matrix.md",
+      "score": 0.0839,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/entities/LLM_Wiki.md",
+      "score": 0.0837,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "990_Meta/verification-matrix.md",
+      "score": 0.0723,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/sources/260410_MCP_Server_Setup_V001.md",
+      "score": 0.0693,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/entities/Everything_Claude_Code.md",
+      "score": 0.062,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/entities/AgentShield.md",
+      "score": 0.0567,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/analysis/260410_ECC_vs_Harness_Comparison_V001.md",
+      "score": 0.0544,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "CLAUDE.md",
+      "score": 0.0519,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/sources/260410_ISO_5807_Flowchart_Standard_V001.md",
+      "score": 0.0445,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/sources/260410_Session_Full_Record_V001.md",
+      "score": 0.0441,
+      "reason": "token-overlap"
+    },
+    {
+      "path": "500_Technology/sources/260411_100_AI_Conversation_Archive_Catalog_V001.md",
+      "score": 0.0437,
+      "reason": "token-overlap"
+    }
+  ],
+  "patch_suggestions": [
+    {
+      "file": "990_Meta/e2e-gap-report.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "990_Meta/GRAPH_REPORT.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/entities/Obsidian_CLI.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/sources/260410_Karpathy_LLM_Wiki_Pattern_V001.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "990_Meta/e2e-matrix.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/entities/LLM_Wiki.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "990_Meta/verification-matrix.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/sources/260410_MCP_Server_Setup_V001.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/entities/Everything_Claude_Code.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/entities/AgentShield.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/analysis/260410_ECC_vs_Harness_Comparison_V001.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "CLAUDE.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/sources/260410_ISO_5807_Flowchart_Standard_V001.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/sources/260410_Session_Full_Record_V001.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    },
+    {
+      "file": "500_Technology/sources/260411_100_AI_Conversation_Archive_Catalog_V001.md",
+      "action": "append-related-link",
+      "diff": "- 관련: [karpathy-excerpt](../../../005_AI_Project/tests/wiki/fixtures/md/karpathy-excerpt.md)"
+    }
+  ],
+  "stats": {
+    "total_pages_scanned": 83,
+    "candidates_found": 83,
+    "target_min": 10,
+    "target_max": 15
+  },
+  "generated": "2026-04-13T12:53:46.066Z"
+}

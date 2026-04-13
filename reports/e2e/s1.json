@@ -1,0 +1,9 @@
+{
+  "id": "s1",
+  "name": "happy-path-karpathy",
+  "status": "PASS",
+  "elapsed_s": 2,
+  "feats": ["11","09","03","05","02","13","12","21","24","23","01"],
+  "steps": ["PASS:1. PDF cite extraction","PASS:2. AST extract on .md","PASS:3. wiki-ingest patch","PASS:4. schema_version 검증","PASS:5. graph-build","PASS:6. Leiden cluster (mini graph)","PASS:7. graph-html viz","PASS:8. BM25 query","PASS:9. GRAPH_REPORT 존재","PASS:10. Clippings prefix 통과"],
+  "ts": "2026-04-13T21:53:47+09:00"
+}

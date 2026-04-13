@@ -1,0 +1,4 @@
+==[s6] chaos-recovery ==
+  -> 3. 손상 md graceful 처리 (lint이 0건 추가 또는 graceful)
+  -> 5. extract-post 훅 코드 무결
+==[s6] PASS (3s) -> reports/e2e/s6.json

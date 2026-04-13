@@ -1,0 +1,4 @@
+  -> 3. office-parse docx
+{"file": "tests\\wiki\\fixtures\\office\\notes.docx", "kind": "docx", "text_length": 55, "text_excerpt": "E2E test note for office parser. transformer attention."}
+  -> 4. office-parse pptx
+{"file": "tests\\wiki\\fixtures\\office\\notes.pptx", "kind": "pptx", "text_length": 22, "text_excerpt": "BM25 layered retrieval"}

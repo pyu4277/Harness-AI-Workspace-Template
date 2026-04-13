@@ -1,0 +1,7 @@
+==[s4] mcp-search-loop ==
+  -> 2. semantic-extractor subagent 정의 존재
+  -> 3. MCP query_graph (--once)
+  -> 4. MCP search_bm25 (--once) + 시간 측정
+  -> 5. 3-layer 100-token query
+  MCP loop p95 (전체 wall): 1.69s
+==[s4] PASS (2s) -> reports/e2e/s4.json

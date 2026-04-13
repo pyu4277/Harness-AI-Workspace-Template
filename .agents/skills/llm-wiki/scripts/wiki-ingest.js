@@ -77,8 +77,17 @@ function main() {
     process.exit(1);
   }
   const target = path.resolve(targetArg);
+  const wikiRootResolved = path.resolve(WIKI_ROOT);
+  const cwdResolved = path.resolve(process.cwd());
+  const allowed = target.startsWith(wikiRootResolved + path.sep)
+    || target === wikiRootResolved
+    || target.startsWith(cwdResolved + path.sep);
+  if (!allowed) {
+    console.error('ERROR: target outside WIKI_ROOT or cwd (path traversal blocked)');
+    process.exit(1);
+  }
   if (!fs.existsSync(target)) {
-    console.error('ERROR: target not found: ' + target);
+    console.error('ERROR: target not found');
     process.exit(1);
   }
   const targetText = fs.readFileSync(target, 'utf-8');
