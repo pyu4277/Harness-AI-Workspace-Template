@@ -1,0 +1,26 @@
+{
+  "scene_id": 1537,
+  "frame_name": "frame_046879.jpg",
+  "start_time": 23432.5,
+  "end_time": 23446.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만들었었는데 아이고 어 베이스 아시 광고가 나오네요네 아무튼 요거 AI 서비스 요거 래플릿 이용하시면은 이거는 알아서 다 됩니다. 요거는 진짜 하나 가입하시면은 싹 다 연결이 돼 있어서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

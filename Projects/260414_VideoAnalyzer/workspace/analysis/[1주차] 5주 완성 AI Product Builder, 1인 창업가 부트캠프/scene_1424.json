@@ -1,0 +1,26 @@
+{
+  "scene_id": 1424,
+  "frame_name": "frame_043102.jpg",
+  "start_time": 21547.5,
+  "end_time": 21554.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐 토론이 있고 뭐지? 댓글 토론 시작. 안녕하세요. 코멘트. 어, 이렇게 댓글 달리죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

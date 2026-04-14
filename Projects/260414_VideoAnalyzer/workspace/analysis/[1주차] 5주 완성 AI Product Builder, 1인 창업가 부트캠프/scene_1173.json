@@ -1,0 +1,26 @@
+{
+  "scene_id": 1173,
+  "frame_name": "frame_036432.jpg",
+  "start_time": 18213.5,
+  "end_time": 18218.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좋아질지는 요거 발전에 따라서 그냥 제일 최신 거, 제일 좋은 거 하시면 됩니다. 그래서 꼭 이거 하나로 이제 고정해서 쓰지"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

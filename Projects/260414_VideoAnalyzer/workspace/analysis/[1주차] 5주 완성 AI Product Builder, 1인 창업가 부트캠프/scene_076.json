@@ -1,0 +1,26 @@
+{
+  "scene_id": 76,
+  "frame_name": "frame_004006.jpg",
+  "start_time": 2000.5,
+  "end_time": 2005.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "실제로 이런 기계가 너무 크다 보니까 여기에 뭐 동작을 안 하면 어 왜 동작을 안 하지 하고 찾아보니까"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

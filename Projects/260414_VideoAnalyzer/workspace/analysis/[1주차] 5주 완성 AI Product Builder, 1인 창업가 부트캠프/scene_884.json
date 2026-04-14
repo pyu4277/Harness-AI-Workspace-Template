@@ -1,0 +1,26 @@
+{
+  "scene_id": 884,
+  "frame_name": "frame_028897.jpg",
+  "start_time": 14440.5,
+  "end_time": 14456.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "구독하셨다.네 네. 요것 중에 하나를 구독하고 계시다라고 하면은 네. 요걸 이용해 가지고 그 구독한 계정이랑 연동해서 유료 플랜 AI 코딩을 사용하실 수가 있습니다. 네. 클로드 아 유료 사용자가 클로드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

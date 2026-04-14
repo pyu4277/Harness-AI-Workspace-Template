@@ -1,0 +1,26 @@
+{
+  "scene_id": 1602,
+  "frame_name": "frame_048653.jpg",
+  "start_time": 24323.0,
+  "end_time": 24329.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됩니다. 저희요 요거 지금 만드신 사이트 있죠? 그러니까 제 사이트 말고 이건 제가 만든 거고 여러분들이 만드신 사이트 그 주소 있잖아요.이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

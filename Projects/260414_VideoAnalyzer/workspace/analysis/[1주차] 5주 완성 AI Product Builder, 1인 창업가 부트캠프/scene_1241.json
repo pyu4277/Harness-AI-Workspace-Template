@@ -1,0 +1,26 @@
+{
+  "scene_id": 1241,
+  "frame_name": "frame_039107.jpg",
+  "start_time": 19550.5,
+  "end_time": 19556.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "사실 어느 정도 좀 위험하기도 한게 요걸 좀 보여 드리면 이런 일도 있었어요. 심지어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

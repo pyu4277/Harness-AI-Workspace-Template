@@ -1,0 +1,26 @@
+{
+  "scene_id": 417,
+  "frame_name": "frame_016600.jpg",
+  "start_time": 8293.0,
+  "end_time": 8306.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그 어느 정도 아, 사실 안 좋아도 되긴 합니다. 여기도 사실 안 좋아도 되는데 이제는 클라우드 넘어가서 할 겁니다. 뒤에서부터는. 네. 그리고 뒤에서부터는 클라우드 넘어갈 거고 이런 식으로 프론트엔드를 만들 수 있다라고 소개를 드립니다.이 코드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

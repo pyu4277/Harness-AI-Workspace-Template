@@ -1,0 +1,26 @@
+{
+  "scene_id": 78,
+  "frame_name": "frame_004089.jpg",
+  "start_time": 2031.0,
+  "end_time": 2057.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "훨씬 좋아졌죠, 요즘. 아, 근데 실제로 요런 것도 있었습니다. 코드를 짠다. 물론 이거 미이긴 합니다. 그냥 미으로 봐 주시면 되는데 예전에 과거에 프로그램에 코딩할 때 진짜로이 코드를 배듯이 반느지를 했다. 네. 그래서 코드를 짠다라고 이렇게 말도 나왔다는 미이 있는데 요건 미미입니다. 네. 물론 이제 진짜로 뭐 청고 카드 뚫고 이렇게 선 연결하고 하면서 이제 코드를 배자듯이 바느질한 네. 요런 시대도 있었고요. 네. 근데 이런 시대를 지나서 이제는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

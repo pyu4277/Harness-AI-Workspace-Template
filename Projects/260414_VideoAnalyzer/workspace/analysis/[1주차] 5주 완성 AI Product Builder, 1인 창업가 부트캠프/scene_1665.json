@@ -1,0 +1,26 @@
+{
+  "scene_id": 1665,
+  "frame_name": "frame_049980.jpg",
+  "start_time": 24988.0,
+  "end_time": 24991.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "링크를 제공해 줄게요. 요거 고품지 사이트 만들기 1번 2번 있죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

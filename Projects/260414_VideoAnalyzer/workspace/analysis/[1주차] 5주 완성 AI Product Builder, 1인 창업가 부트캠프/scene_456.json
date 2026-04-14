@@ -1,0 +1,26 @@
+{
+  "scene_id": 456,
+  "frame_name": "frame_017975.jpg",
+  "start_time": 8985.0,
+  "end_time": 8989.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "놨거든요. 그래서 그 고정 채팅에 있는 수업 자료 들어가 보시면 요길로 들어가실 수 있습니다. 여기에서 강의"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

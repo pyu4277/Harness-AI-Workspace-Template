@@ -1,0 +1,26 @@
+{
+  "scene_id": 894,
+  "frame_name": "frame_029097.jpg",
+  "start_time": 14545.5,
+  "end_time": 14550.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "놨습니다. 그래서 여기에 시키면은 이제 끝났습니다. 이제 진짜 끝났습니다. 재미나이 뭐 오픈 코덱스 클로드 코드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

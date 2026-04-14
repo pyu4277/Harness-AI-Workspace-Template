@@ -1,0 +1,26 @@
+{
+  "scene_id": 1090,
+  "frame_name": "frame_034327.jpg",
+  "start_time": 17159.0,
+  "end_time": 17167.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그 요거 있습니다. permanently del딜 del리트 all 파일 네. 다 삭제하기.이 이 설정의 세팅에 가장 아래쪽 보시면 요게 있는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

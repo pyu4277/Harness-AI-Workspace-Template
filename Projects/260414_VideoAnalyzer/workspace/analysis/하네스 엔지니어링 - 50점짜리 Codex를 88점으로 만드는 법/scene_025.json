@@ -1,0 +1,26 @@
+{
+  "scene_id": 25,
+  "frame_name": "frame_001145.jpg",
+  "start_time": 570.5,
+  "end_time": 574.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "쭉 규칙들을 작성해 줬습니다. 다음으로 플랜.md MD 마크다운"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "쭉 규칙들을 작성해 줬습니다. 다음으로 플랜.md MD 마크다운",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

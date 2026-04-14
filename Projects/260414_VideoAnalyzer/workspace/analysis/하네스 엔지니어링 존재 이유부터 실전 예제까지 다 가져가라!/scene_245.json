@@ -1,0 +1,43 @@
+{
+  "scene_id": 245,
+  "frame_name": "frame_002015.jpg",
+  "start_time": 1005.5,
+  "end_time": 1009.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - verify-task.sh 스크립트 실제 코드",
+    "elements": [
+      "run_check 함수 호출 5종",
+      "1. 단위 테스트: npx vitest run",
+      "2. ESLint: npm run lint",
+      "3. 빌드: npm run build",
+      "4. 파일 크기: bash scripts/check-file-size.sh",
+      "5. 아키텍처 의존성: node scripts/check-arch.js"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "run_check \"단위 테스트 (vitest)\" \"npx vitest run\"",
+      "run_check \"린트 검사 (eslint)\" \"npm run lint\"",
+      "run_check \"빌드 검사 (vite build)\" \"npm run build\"",
+      "bash scripts/check-file-size.sh",
+      "node scripts/check-arch.js"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "verify-task.sh 실제 코드",
+      "run_check 함수",
+      "5종 검증 명령어"
+    ],
+    "summary": "들어가는게 싫다 이거야. 그래서 알아서 커밋을 할 수 있게끔. 그리고 커밋 메시지도 이렇게 형식을 딱 정해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "verify-task.sh 실제 코드: run_check 함수로 5종 검증을 순차 실행. 각 검증의 정확한 명령어(npx vitest run, npm run lint, npm run build) 확인 가능",
+    "text_only_info": "린트 테스트를 꼭 해야 하는 이유 설명",
+    "combined_insight": "하네스 검증 스크립트의 실제 구현: verify-task.sh가 5종 검증(vitest/eslint/vite build/파일크기/아키텍처)을 run_check 함수로 자동 실행. 대본이 설명하는 강제 검증이 실제 코드로 어떻게 구현되는지 보여주는 핵심 프레임"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

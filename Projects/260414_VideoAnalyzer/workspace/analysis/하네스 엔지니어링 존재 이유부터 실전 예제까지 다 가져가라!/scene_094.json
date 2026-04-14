@@ -1,0 +1,26 @@
+{
+  "scene_id": 94,
+  "frame_name": "frame_000569.jpg",
+  "start_time": 282.5,
+  "end_time": 285.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "발견을 할 수도 있고 또 AI가 스스로 어 나 실수했네 하고 다시 피드백을 거쳐서 다시 수정할 수"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1368,
+  "frame_name": "frame_041826.jpg",
+  "start_time": 20911.0,
+  "end_time": 20914.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그냥 이거 복사해 가지고 그냥 그 저희 파이어베이 스튜디오가 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

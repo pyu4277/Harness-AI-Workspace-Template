@@ -1,0 +1,26 @@
+{
+  "scene_id": 538,
+  "frame_name": "frame_019983.jpg",
+  "start_time": 9985.0,
+  "end_time": 9997.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "들어갈 건데. 네. 그때 115부터 140까지니까 어, 얼마 안 남았어요. 거의 나왔습니다. 한 7시면은 끝나지 않을까라는 좀 조심스러운 추측 고급 개발로 가보도록 하겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

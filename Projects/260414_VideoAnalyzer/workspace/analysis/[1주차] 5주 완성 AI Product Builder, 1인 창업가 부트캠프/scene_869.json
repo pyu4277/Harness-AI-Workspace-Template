@@ -1,0 +1,26 @@
+{
+  "scene_id": 869,
+  "frame_name": "frame_028654.jpg",
+  "start_time": 14316.0,
+  "end_time": 14337.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "같은데. 다시 클리어해서요 명령어로 네.요 명령어로 진행을 하고 예. 그다음에 클로드라고 입력하면 아 되네요. 어 이렇게 이제 클로드도 클로드 코드도 설정이 됐습니다.네 뭐 이거 기본 모드로 그냥 하고 로그인도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

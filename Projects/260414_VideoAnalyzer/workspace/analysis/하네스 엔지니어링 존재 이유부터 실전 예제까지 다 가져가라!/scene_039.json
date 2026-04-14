@@ -1,0 +1,26 @@
+{
+  "scene_id": 39,
+  "frame_name": "frame_000236.jpg",
+  "start_time": 116.0,
+  "end_time": 119.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "바로 프롬프트 엔지니어링입니다. 바로 말을 잘하는 기술이죠. 자, 우리가이 프롬프트 엔지니어링을 배우니까 다음에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

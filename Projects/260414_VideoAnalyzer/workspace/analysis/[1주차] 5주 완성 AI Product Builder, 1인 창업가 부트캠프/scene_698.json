@@ -1,0 +1,26 @@
+{
+  "scene_id": 698,
+  "frame_name": "frame_024610.jpg",
+  "start_time": 12301.5,
+  "end_time": 12307.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "워크스페이스를 클릭하시면 이렇게 하나의 개발 환경을 열 수가 있는데요. 네. 저희는 심플 HTML"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

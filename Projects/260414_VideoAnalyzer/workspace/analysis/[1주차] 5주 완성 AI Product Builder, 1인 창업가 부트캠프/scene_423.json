@@ -1,0 +1,26 @@
+{
+  "scene_id": 423,
+  "frame_name": "frame_016661.jpg",
+  "start_time": 8327.5,
+  "end_time": 8332.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "저장하고 열어 보겠습니다. 자, 그러면 오 이제 다섯 게임으로 바뀌었어요. 추천 받기. 딸깍하면 와"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

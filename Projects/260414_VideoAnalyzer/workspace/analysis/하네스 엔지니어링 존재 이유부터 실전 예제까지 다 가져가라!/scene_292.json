@@ -1,0 +1,26 @@
+{
+  "scene_id": 292,
+  "frame_name": "frame_002792.jpg",
+  "start_time": 1393.0,
+  "end_time": 1398.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "엔지니어도 테스트를 하면서 내가 뭐 규칙도 추가하고 빼고 이런 시간이 많이 걸리거든요. 그래서 하네스 엔지니어리 테스트하고 구축하는데 시간은 오래 걸리지만 이게 한 번만"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

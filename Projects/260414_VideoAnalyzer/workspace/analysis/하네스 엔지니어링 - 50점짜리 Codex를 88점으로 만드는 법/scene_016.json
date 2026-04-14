@@ -1,0 +1,44 @@
+{
+  "scene_id": 16,
+  "frame_name": "frame_000753.jpg",
+  "start_time": 359.5,
+  "end_time": 393.0,
+  "visual_analysis": {
+    "layout": "파일 구조 다이어그램 - 트리 뷰",
+    "elements": [
+      "프로젝트 디렉토리 트리",
+      "AGENTS.md",
+      "PLANS.md",
+      "SKILL.md",
+      "evals/",
+      "src/"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "root/ -> AGENTS.md, PLANS.md, README.md, evals/(eval_samples.json), src/(app/, components/, lib/, frontend/AGENTS.md, providers/), .codex/skills/(source-intake/SKILL.md, qa-deadline-links/SKILL.md, ui-polish-check/SKILL.md, release-readiness/SKILL.md)"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "AGENTS.md",
+      "PLANS.md",
+      "SKILL.md",
+      "evals",
+      "프로젝트 구조"
+    ],
+    "summary": "주는 거죠. 그래서 우리는 이번 시간에 한네스 엔지니어링의 대표적인 실습 하나를 해보고 그 결과를 비교해 보겠습니다. 바로 AI 모델을 위한 리드미를 구조적으로 작성해서 전달하는 건데요. 우리 개발자들은 개발한 결과물을 어떻게 실행하고 어떻게 작동하는지 리듬이에다가 작성해 둡니다. 마찬가지로 AI 에이전트가 작업할 때 참고해서 작업하라고 지시서를 작성해서 전달할 수 있는데 그때 마크다운 문서로 작성해서 폴더 구조마다 작성을 해 놓으면 에이전트들이이 마크다운 문서를 기반으로 작업을 하기 시작합니다. 다만 여러분들이 파일 이름을 어떻게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Codex 프로젝트의 이상적 하네스 구조. AGENTS.md(전역 규칙), 하위 AGENTS.md(디렉토리별 규칙), .codex/skills/ 하위 4개 SKILL.md, evals/ 평가 폴더",
+    "text_only_info": "",
+    "combined_insight": "하네스 엔지니어링의 핵심 파일 구조: 계층적 규칙(AGENTS.md), 실행계획(PLANS.md), 자동화 스킬(SKILL.md), 평가(evals/). 에이전트를 위한 README 역할"
+  },
+  "reference_needs": [
+    "Codex AGENTS.md",
+    "Claude Code CLAUDE.md"
+  ],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

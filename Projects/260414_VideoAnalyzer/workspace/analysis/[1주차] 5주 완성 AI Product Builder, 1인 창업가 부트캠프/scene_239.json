@@ -1,0 +1,26 @@
+{
+  "scene_id": 239,
+  "frame_name": "frame_012544.jpg",
+  "start_time": 6268.5,
+  "end_time": 6274.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 이제 직접 구현을 해 보겠습니다. 메모장과 채치T로 구현을 해 보겠습니다. 일단은 좀 개념적인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

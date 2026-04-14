@@ -1,0 +1,26 @@
+{
+  "scene_id": 1465,
+  "frame_name": "frame_044461.jpg",
+  "start_time": 22218.0,
+  "end_time": 22242.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 네. 모델 내보내기를 하면 모델 다운받을 수도 있거든요. 그래서 업로드 가능한 링크네 링크를 업로드를 해 보겠습니다. 그럼 얘가 클라우드도 제공해 줘요. 그래서 업로드 누르면은 텐서플로 JS js가 이제 자바스크립트의 약자거든요. 그래서 자바스크립트로 가져와서 쓸 수가 있는 겁니다. 그래서 요거 어 클라우드의 모델이 올라왔고요. 그럼요 주소로 있는 거죠. 얘를 복사해 가지고 예한테 또 붙여"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

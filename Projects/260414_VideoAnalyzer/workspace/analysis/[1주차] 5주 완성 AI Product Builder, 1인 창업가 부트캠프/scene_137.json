@@ -1,0 +1,26 @@
+{
+  "scene_id": 137,
+  "frame_name": "frame_006569.jpg",
+  "start_time": 3262.5,
+  "end_time": 3305.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "사실 이런 것도 이런 것도 AI가 찾아 줄 거예요. 딱 그냥 딸깍 클릭만 하면 사람들이 막 뭐 예를 들어 예를 들어 이런 거죠. 막 어 나 100만 구독자 유튜브를 갖고 싶은데 하면은 100만 구독자 유튜브 채널 만들어 줘라고 딸깍 누르면은 100만 명의 사람들이 구독할 만한 콘텐츠를 AI가 막 생각해 내 가지고 막 만들어내고 그래서 클릭하자마자 막 유튜브 채널 만들어주고 알고리즘 타 가지고 100만 명이 구독하는 세상이 올 수가 있겠죠. 데 그러면 사실 이런게 필요가 없어지는데 근데 이제 이것까지 이제 AI가 마스터를 해 버린다면 근데 사실 아직은 안 하잖아요. 근데 그 기간이 얼마 남지 않았다라는 생각이 들어서 인간의 노력에 그래도 들어가서 좀 어느 정도 빛을 바랄 시점은 시간이 얼마 남지 않았다. 네. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

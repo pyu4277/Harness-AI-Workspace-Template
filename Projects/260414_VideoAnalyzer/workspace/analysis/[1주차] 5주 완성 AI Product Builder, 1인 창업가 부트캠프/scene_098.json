@@ -1,0 +1,26 @@
+{
+  "scene_id": 98,
+  "frame_name": "frame_004739.jpg",
+  "start_time": 2363.5,
+  "end_time": 2375.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "줍니다. 네. 그래서 이런 UIUX 디자인도 AI가 딸깍하면 해주면 해 주는 시대이기 때문에 네. 굳이 뭐 코딩만 쉬워졌다도 아니고요. 모든 분야가 다 쉬워지고 있다라고 생각을 해 볼 수가 있겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

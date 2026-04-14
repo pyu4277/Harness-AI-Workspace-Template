@@ -1,0 +1,26 @@
+{
+  "scene_id": 922,
+  "frame_name": "frame_029910.jpg",
+  "start_time": 14949.5,
+  "end_time": 14960.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "받아지거든요. 요거를 이렇게 다운 받아서 얘 파일을 이렇게 올려도 돼요. 그렇게 하는게 이제 기터브에 그냥 UI로 딸깍해서 올리는 건데 이거를 좀 자동으로 엮고 싶잖아요. 이게 개발자들 특이 이런 거 마우스로 클릭하는 거 못 합니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1363,
+  "frame_name": "frame_041753.jpg",
+  "start_time": 20874.0,
+  "end_time": 20878.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어,이 리액트로 바뀌었네. 그냥. 아, 여기 있다. I don't see my 플랫폼. 인스털 매뉴얼리 요거 있죠? 아래쪽에.이 이 아래쪽"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

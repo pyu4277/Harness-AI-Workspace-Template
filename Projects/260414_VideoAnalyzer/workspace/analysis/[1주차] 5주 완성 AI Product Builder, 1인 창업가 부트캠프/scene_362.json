@@ -1,0 +1,26 @@
+{
+  "scene_id": 362,
+  "frame_name": "frame_015500.jpg",
+  "start_time": 7745.5,
+  "end_time": 7754.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있어도 이것도 프로그램의 언어라는 관점에서 이제 뭐 어원이나 이런 뭐 어느 정도 비슷할 수 있는데 어느 정도 이제 비슷한 개념이지만 이름이 다르다라고 아예 다르다라고 이해하시면 좋을 것 같습니다. 인도 인도네시아도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

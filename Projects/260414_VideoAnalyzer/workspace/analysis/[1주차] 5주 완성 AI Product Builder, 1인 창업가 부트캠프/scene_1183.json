@@ -1,0 +1,26 @@
+{
+  "scene_id": 1183,
+  "frame_name": "frame_037164.jpg",
+  "start_time": 18564.0,
+  "end_time": 18599.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한번 그냥 쉬는 시간겸 갑자기 생각난 건데 요렇게 하시면 됩니다. 여기서도 어 로또 사이트를 메뉴 저녁 메뉴 추천 사이트로 만들어서 깃 허브 배포까지 진행해. 네. 요렇게 하면 됩니다. 이제 딸깍 시대가 왔다 느껴지죠? 그냥 한글로 요렇게 그냥 어디 명령어 창에 AI 연결된 거 입력하면 다 세팅이 돼 있잖아요. 딸깍 누르면 됩니다. 그럼 배포까지 알아서 해 줍니다. 이렇게. 네. 진짜 이제 이런 시대가 왔어요. 네. 진짜요 요요 시대입니다. 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

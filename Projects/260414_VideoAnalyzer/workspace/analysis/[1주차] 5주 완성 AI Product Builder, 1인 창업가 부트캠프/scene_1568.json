@@ -1,0 +1,26 @@
+{
+  "scene_id": 1568,
+  "frame_name": "frame_048050.jpg",
+  "start_time": 24012.5,
+  "end_time": 24036.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어렵네라고 생각이 들어서 애드 곳이라고 불렀어요. 아 이거 에드센스 지원할 때마다 계속 떨어진다 하고 아 될 때까지 한다. 뭐 아무튼 되게 애드 고시로 고생하시는 분들 많았는데 놀랍게도 이제 AI 시대잖아요. AI 곳이 끝났습니다. AI 곳이 필요가 없습니다. AI가 다 뚫어줍니다. 네. AI AI가 시키면 다 해주죠. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1196,
+  "frame_name": "frame_037459.jpg",
+  "start_time": 18716.0,
+  "end_time": 18742.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "누구나 볼 수 있는이 웹사이트 이제 여러분도 요렇게 제가 웹사이트 주서 채팅에 보내 드렸는데 요걸로 그냥 들어와서 바로 하실 수가 있습니다. 네. 놀랍죠? 진짜 여러분들 놀라운 세계에 지금 살고 있습니다. 진짜 말도 안 되는 세계입니다. 그냥 아 해 줘. 날 누르면 전 세계 누구나 이거 잠면 글로 바로 이런 것도 가능해요. 지금"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

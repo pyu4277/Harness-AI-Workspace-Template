@@ -1,0 +1,26 @@
+{
+  "scene_id": 854,
+  "frame_name": "frame_028438.jpg",
+  "start_time": 14202.5,
+  "end_time": 14234.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요걸로. 네.요 명령으로 설치. 오, 설치 중입니다. 클로드 코드. 네. 다들 이제 채팅에서 써 주신 거 보니까 다 클로드의 그 강력함을 알고 계실 것 같습니다. 네. 그래서 물론 이제 오 그 재미나이 쓰셔도 되고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

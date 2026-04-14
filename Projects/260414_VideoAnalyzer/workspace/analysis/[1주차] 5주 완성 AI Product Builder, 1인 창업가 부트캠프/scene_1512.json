@@ -1,0 +1,26 @@
+{
+  "scene_id": 1512,
+  "frame_name": "frame_045605.jpg",
+  "start_time": 22796.0,
+  "end_time": 22808.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요걸로 구현했거든요. 그래서 요거 보시면은 네. 요게 똑같더라고요. 이게 지금 UI 바뀐게 거의 없죠? 그래서 요거 보시면 되겠습니다. 요거 링크는 올려 드리겠습니다. 네. 힐스 트레이너 이런 거 직접 만드셔도 좋을 것 같고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

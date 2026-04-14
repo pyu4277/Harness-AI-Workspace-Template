@@ -1,0 +1,26 @@
+{
+  "scene_id": 1306,
+  "frame_name": "frame_040355.jpg",
+  "start_time": 20164.5,
+  "end_time": 20190.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 아무튼 이런 비슷한 서비스 되게 많아요. 네. 나중에 보는 건 멤버십으로 보실 수 있습니다. 자, 그럼 시작해 보겠습니다.이 사스 서비스에 제공해 주니까 그러면 우리는 그 폼을 받을 걸 만들어 가지고 연결 하면 되겠죠? 연결해 보겠습니다. 그래서 애드 뉴해서 뉴 폼을 만들어 볼게요. 뉴"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

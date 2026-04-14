@@ -1,0 +1,26 @@
+{
+  "scene_id": 621,
+  "frame_name": "frame_022076.jpg",
+  "start_time": 11021.0,
+  "end_time": 11054.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면 이벤트 약간 쉬는 시간을 가질 동안에 중간 이벤트 아 qr도 나 여기로 완성된 사이트 주소 및 스크린샷 샷. 제출."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

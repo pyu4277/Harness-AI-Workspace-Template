@@ -1,0 +1,26 @@
+{
+  "scene_id": 81,
+  "frame_name": "frame_000490.jpg",
+  "start_time": 243.0,
+  "end_time": 246.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "말로만 말로만 야 빨간색 써라고 말하면은 이게 AI가 알아듣습니까?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

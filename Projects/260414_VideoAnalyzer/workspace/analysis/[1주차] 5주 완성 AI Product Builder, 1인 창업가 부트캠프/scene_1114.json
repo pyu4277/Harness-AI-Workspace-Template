@@ -1,0 +1,26 @@
+{
+  "scene_id": 1114,
+  "frame_name": "frame_034787.jpg",
+  "start_time": 17383.5,
+  "end_time": 17402.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어쩐지 이게 워커라 좀 이상하다 싶었는데. 네. 이게 페이지 쓰여야 맞습니다. 페이지 쓰여야 그 전 세계 무죄한 공짜예요. 네. 페이지여야지 전 세계 무제한 공짜입니다. 아, 폴더로도 옮길 수 있는 거 아닌가요? 아, 그런가? 아, 그 그럴 수 있을 것 같습니다. 아, 그러면 좀 더 쉽게가 보자면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

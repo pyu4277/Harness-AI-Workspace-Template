@@ -1,0 +1,26 @@
+{
+  "scene_id": 756,
+  "frame_name": "frame_026481.jpg",
+  "start_time": 13238.0,
+  "end_time": 13242.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요렇거든요. 서로 업치락 뒤치락 업치락 뒤치락 다 그냥 그 계속"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

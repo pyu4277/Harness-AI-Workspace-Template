@@ -1,0 +1,26 @@
+{
+  "scene_id": 1182,
+  "frame_name": "frame_036950.jpg",
+  "start_time": 18385.0,
+  "end_time": 18564.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아이고 어 아이고 아 대왕킴 님 아유 감사합니다. 항상네 VIP 너무 감사드립니다. VV VIP로 항상 큰 힘이 되고 있습니다.네 밥은 끝나고 먹겠습니다. 메뉴 추천. 어, 메뉴 추천 놀랍게도 한번 그냥 쉬는 시간겸 갑자기 생각난"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

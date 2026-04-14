@@ -1,0 +1,26 @@
+{
+  "scene_id": 199,
+  "frame_name": "frame_001337.jpg",
+  "start_time": 661.0,
+  "end_time": 675.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - 에이전트 설계 문서 + 리포지터리 파일 구조",
+    "elements": ["파일 목록: QUALITY_SCORE.md, RELIABILITY.md, SECURITY.md", "본문: 에이전트 우선 운영 원칙 정의 (핵심 신념 포함)", "설명: 아키텍처 문서를 도메인별 패키지 레이어링 최상위 맵 제공", "핵심: 에이전트가 처음부터 부담 없이 작고 안정적인 진입점에서 시작"],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["에이전트 규칙 무시 문제", "구조적 강제", "리포지터리 내 지식 저장소", "도메인별 파일 분리"],
+    "summary": "우리가 AI한테 야, 뭐뭐 하지 마, 이거 하지 마,이 파일 보지 마. 뭐 이런 식으로 제가 뭐 하지 말라는 얘기는 100만 개도 할 수 있어. 근데 문제는 뭐예요? AI가 얘네를 자꾸 무시한단 말이에요. 그래서 이거를 무시하지 않게 하기 위해서 우리가 어떻게 해야 됩니까? 강제로 AI가 우리 룰 밖으로 벗어나면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "리포지터리 내 지식 저장소 레이어 구조: QUALITY_SCORE.md, RELIABILITY.md, SECURITY.md 등 도메인별 분리. 에이전트 우선 운영 원칙과 점진적 진입점 설계",
+    "text_only_info": "AI가 규칙을 무시하는 문제 -> 프롬프트(부탁)가 아닌 구조적 강제로 해결해야 한다는 하네스 핵심 원리",
+    "combined_insight": "하네스 엔지니어링의 핵심 문제 정의: AI에게 '하지마'라고 100만번 말해도 무시함. 화면은 해결책인 도메인별 파일 분리(QUALITY/RELIABILITY/SECURITY.md)와 점진적 진입점 설계를 보여주고, 대본은 왜 구조적 강제가 필요한지 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

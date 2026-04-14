@@ -1,0 +1,26 @@
+{
+  "scene_id": 132,
+  "frame_name": "frame_006337.jpg",
+  "start_time": 3148.0,
+  "end_time": 3188.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "인원이 많아 아무 소용이 없습니다. 아무 소용이 없고 싹다 망하고 그냥 오히려 진짜 린하게 딱 필요한 걸 만드는게 너무 중요한 시대가 됐죠. 네. 그래서 뭐 게임도 마찬가지죠. 게임도 뭐 콘솔 최고 수준의 그래픽 뭐 실사급 얼굴 뭐 와 퀄리티 아 너무 신경 쓰면서 만들어도네 플레이 가능한 기술 데모다라고네 혹평을들을 정도로 소용이 없습니다. 뭐 이렇게 아무리 공을 드리고 뭘 해도 이게 아무 상관이 없어요. 아 성공이랑 아무 수익이랑 뭐이 잘되는 거랑 아무 상관이 없습니다. 물론이 뭐 예술성은 있을 수 있겠죠. 아, 이게 너무 예술적이다 뭐 이런 느낌은 들 수 있는데 네. 그렇다 뿐이 이제 돈과는 연결되지 않는다라고 말씀드릴 수가 있겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

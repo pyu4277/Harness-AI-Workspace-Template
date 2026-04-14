@@ -1,0 +1,26 @@
+{
+  "scene_id": 1664,
+  "frame_name": "frame_049952.jpg",
+  "start_time": 24963.5,
+  "end_time": 24988.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "링크 요거. 자, 그러면 고품질 사이트를 만들기 위한 도움말 참고해서음 에드센스를 무조건 통과할 수 있는 최적의 사이트로 만들어라고 시켜보도록 하겠습니다. 네. 요렇게 시켜 보고 그다음에 링크를 제공해 줄게요. 링크를 제공해 줄게요. 요거 고품지"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

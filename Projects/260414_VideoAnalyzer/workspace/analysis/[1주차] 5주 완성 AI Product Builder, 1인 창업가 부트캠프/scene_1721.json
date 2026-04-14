@@ -1,0 +1,26 @@
+{
+  "scene_id": 1721,
+  "frame_name": "frame_050925.jpg",
+  "start_time": 25454.0,
+  "end_time": 25470.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "얼마냐? 음. 음. 한 뭐 대충 1800이 정도가 이제 3년이면 1년에 얼마죠? 그 6 38이죠? 600만 원. 뭐 1년에 600씩 나쁘지 않죠? 예. 약간 그 정도 이렇게 그냥"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

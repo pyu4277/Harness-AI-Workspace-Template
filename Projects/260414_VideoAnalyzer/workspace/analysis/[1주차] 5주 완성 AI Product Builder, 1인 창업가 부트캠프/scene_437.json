@@ -1,0 +1,26 @@
+{
+  "scene_id": 437,
+  "frame_name": "frame_017302.jpg",
+  "start_time": 8624.5,
+  "end_time": 8677.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있는데 요즘에 많이 하는게 이제 클라우드라는 걸 많이 이용하죠. 그래서 아마 요런 거 한번 보신 적 있으신가요? 요거는 어떤 거냐면 그 데이터 센터라는 거 요즘에 뭐 주식 투자하시거나 하시는 분들 많이 들어 보셨을 텐데 이렇게 전문적으로 관리하는 컴퓨터들이 있습니다. 그래서 이렇게 전문적으로 그 컴퓨터를 다 모아놓고 그냥 컴퓨터가 열 받잖아요. 이게 지금 제 컴퓨터도 좀 따뜻한데 이게 컴퓨터 오래 틀어 놓으면 따뜻해지거든요. 그래서 얘를 냉각도 시키고 뭐 환기도 시키고 하면서 컴퓨터를 24시간 365일 내내 돌리는 이런 데이터 센터들이 있습니다. 네. 그래서 요런 데다가 내 HTML 파일을 컴퓨터 하나 빌려요. 그래서 컴퓨터 하나 빌려 가지고 여기에 내 HTML 파일을 이렇게 올려 놓게 되면 이제는 어떻게 되냐?이 이 클라우드 서버에서 알아서 컴퓨터 관리나 이런 거 다 해주고 여기에 IP가 다 공개돼 있고 하니까"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

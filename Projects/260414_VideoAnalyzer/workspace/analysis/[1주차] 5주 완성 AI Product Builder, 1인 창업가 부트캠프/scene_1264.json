@@ -1,0 +1,26 @@
+{
+  "scene_id": 1264,
+  "frame_name": "frame_039565.jpg",
+  "start_time": 19774.0,
+  "end_time": 19790.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이름에서 연령을 추정하는 거. 이거 한번 들어가 볼까요? 이거 처음 들어가 보긴 하는데 이런 기능이 엄청 많아요. 어이 영어만 되는 거 같긴 하죠. 한국어 되나? 조코딩. 네. 아 이건 안 영어만 되는 거 같아요. 그래서 아무튼 뭐 이름을 쓰면 아마 나이를 추측해 준다고 하니까. 영어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

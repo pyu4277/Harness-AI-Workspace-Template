@@ -1,0 +1,26 @@
+{
+  "scene_id": 27,
+  "frame_name": "frame_001160.jpg",
+  "start_time": 577.5,
+  "end_time": 581.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "할 거고 각 단계별로 어떤 리스크가 있는지를 쭉 작성해 줬습니다. 그리고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "할 거고 각 단계별로 어떤 리스크가 있는지를 쭉 작성해 줬습니다. 그리고",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

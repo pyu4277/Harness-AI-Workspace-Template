@@ -1,0 +1,26 @@
+{
+  "scene_id": 1197,
+  "frame_name": "frame_037514.jpg",
+  "start_time": 18742.0,
+  "end_time": 18771.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "글로 바로 이런 것도 가능해요. 지금 혹시나 외국에서 보고 계실 수도 있잖아요. 글로벌 우리는 글로벌이니까 이거 글로벌 영어 페이지도 만들어서 배포해. 예 배포회. 야 배포회만 해도 깃 안 써도 됩니다. 배포만 하도 알아서 이해합니다. 맥락이 있으니까. 글로벌 영어 페이지도 만들어서 배포할 수도 있습니다. 그냥 요거 하면은 배포해라고 했으니까 얘가 알아서 또 여기서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

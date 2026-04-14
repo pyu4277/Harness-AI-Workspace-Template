@@ -1,0 +1,26 @@
+{
+  "scene_id": 1195,
+  "frame_name": "frame_037408.jpg",
+  "start_time": 18691.5,
+  "end_time": 18716.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "줬습니다. 라이트 다크모드 있고요. 추천받기. 피자. 아, 피자 드시면 됩니다. 네. 또 추천받기. 순대국. 아, 순대국. 된장찌개, 삼겹살, 햄버거 피자. 네. 다 추천해 주고 있네요. 네. 네. 저녁 메뉴 추천 사이트. 아까 프롬트 한 줄 하면은 이제 실제 누구나 볼 수 있는이 웹사이트 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1240,
+  "frame_name": "frame_039065.jpg",
+  "start_time": 19513.5,
+  "end_time": 19550.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요런 거 아 요것도 뭐 비슷한 거긴 한데 디자이너 우리 아이디어가 좀 비슷한 거 같네 하면 어 너 내가 거 베혔지 약간 렇게 되는 케이스라면 프로그래머들은 서로 사실 잘 다 왔다 갔다 합니다. 그래서 어 자네 코드를 좀 베겼어. 어 그거 내가 산 거 아닌데 나도서 가져온 건데 얘도 가져온는데이 가져온 건데 하고 왔다 갔다 하면서 모든게 다 공유가 되고 있습니다. 그래서 모든 코드를 뭐 직접 개발자들 다 짜진 않아요. 다 갖다 씁니다. 어디서 라이브러리건 뭐 IPI 다 끌어다 쓰는 것들이 되게 많아 가지고 그래서 좀 이게 좀 위험하기도 해요. 사실 어느 정도 좀 위험하기도 한게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

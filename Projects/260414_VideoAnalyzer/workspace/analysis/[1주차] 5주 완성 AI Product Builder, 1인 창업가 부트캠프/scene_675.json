@@ -1,0 +1,26 @@
+{
+  "scene_id": 675,
+  "frame_name": "frame_024000.jpg",
+  "start_time": 11997.0,
+  "end_time": 12002.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 요렇게 가입을 하시는 동안 아마 시간이 좀 걸릴 것 같아서 좀 소개를 드렸는데 네. 파이어베이 스튜디오 가입해 주시고 네. 그다음에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

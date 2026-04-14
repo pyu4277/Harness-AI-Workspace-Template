@@ -1,0 +1,26 @@
+{
+  "scene_id": 194,
+  "frame_name": "frame_001264.jpg",
+  "start_time": 626.5,
+  "end_time": 636.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - AGENTS.md 접근 방식 분석 문서",
+    "elements": ["제목: 하나의 큰 AGENTS.md 접근 방식을 시도", "항목: 컨텍스트는 최소 리소스", "항목: 지침이 너무 많으면 지침이 되지 않음", "항목: 순식간에 평가됨", "항목: 관리하기 어려움", "설명: 에이전트가 예측 가능한 방식으로 실패하는 시도"],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["AGENTS.md", "컨텍스트 최소 리소스", "점진적 공개", "지침 과다의 역효과"],
+    "summary": "보더라라는 거예요. 그래서이 MD 파일을 막 크게 만들기보다는요.이 목차로 취급을 해서 점진적으로 공개할 수 있다. 있게 했다고 합니다. 그래서 여기 보시면요. 그들이 썼던 MD를 MD 파일을 어떤 식으로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "AGENTS.md 단일 파일 접근의 4가지 문제점 목록: (1) 컨텍스트는 최소 리소스 (2) 지침 과다 시 무시됨 (3) 순식간에 평가/폐기됨 (4) 관리 불가능. 예측 가능한 실패 방식에서 배운 교훈",
+    "text_only_info": "MD 파일을 목차처럼 취급하여 점진적 공개 전략으로 전환",
+    "combined_insight": "거대한 AGENTS.md 한 파일에 모든 규칙을 넣는 접근이 왜 실패하는지 4가지 근거 제시. 화면은 구체적 실패 원인을 나열하고, 대본은 이를 '목차 기반 점진적 공개'로 해결한 과정을 설명. 하네스 엔지니어링의 핵심 동기"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

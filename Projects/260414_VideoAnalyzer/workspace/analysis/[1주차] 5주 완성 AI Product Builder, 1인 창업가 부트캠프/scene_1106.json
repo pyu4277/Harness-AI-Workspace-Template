@@ -1,0 +1,26 @@
+{
+  "scene_id": 1106,
+  "frame_name": "frame_034669.jpg",
+  "start_time": 17327.5,
+  "end_time": 17340.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "압축해 가지고 올려야 되네요. 이렇게. 네. 그럼 요렇게 올라가고 그래서 압축해 가지고 네. 맥에서는 아마 압축 프로그램 자동으로 있죠. 그래서 요렇게 올린 다음에 디플로이 사이트를 해 주셔야네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

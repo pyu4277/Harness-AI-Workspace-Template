@@ -1,0 +1,40 @@
+{
+  "scene_id": 253,
+  "frame_name": "frame_002165.jpg",
+  "start_time": 1077.0,
+  "end_time": 1087.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - pre-commit 훅 스크립트 실제 코드",
+    "elements": [
+      "husky/pre-commit 파일",
+      "master/main 브랜치 감지 로직",
+      "STAGED_SRC=",
+      "x master 브랜치에서 src/ 코드를 직접 커밋할 수 없습니다 에러 메시지",
+      "안내: 1. start-task.sh 2. worktree에서 작업 3. PR로 머지"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "if [ \"$BRANCH\" = \"master\" ] || [ \"$BRANCH\" = \"main\" ]",
+      "STAGED_SRC=",
+      "echo \"x master 브랜치에서 src/ 코드를 직접 커밋할 수 없습니다.\""
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "pre-commit 훅",
+      "master 브랜치 직접 커밋 차단",
+      "git diff --cached 검사"
+    ],
+    "summary": "식으로 어 잘못되면 실패할 수 있는 요런 장치들을 남겨 주는 거예요. 그래서 다시 클로드로 돌아가셔서 여러분들이 여기에 이런 식으로 어 반드시 이렇게 해 주세요라고 말을 해도 여러분들 믿으시면 안 됩니다. 왜냐면요. 가끔 에이전트가 이런"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "pre-commit 훅 실제 코드: master/main 브랜치에서 src/ 파일 변경 감지 시 커밋 자동 차단. git diff --cached로 staged 파일 검사, 차단 시 worktree 사용 안내 메시지 출력",
+    "text_only_info": "마스터 브랜치 코드를 직접 바꾸려고 하면 바로 차단되는 메커니즘 설명",
+    "combined_insight": "하네스 핵심 구현 - pre-commit 훅: master 브랜치에서 src/ 직접 수정 시도 시 git 레벨에서 자동 차단. 프롬프트(부탁)가 아닌 구조적 강제의 교과서적 구현. 화면은 실제 bash 코드를, 대본은 이것이 왜 필요한지 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

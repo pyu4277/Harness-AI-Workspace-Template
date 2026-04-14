@@ -1,0 +1,26 @@
+{
+  "scene_id": 1685,
+  "frame_name": "frame_050428.jpg",
+  "start_time": 25210.0,
+  "end_time": 25217.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됩니다. 아, 도메인 붙이고 심사. 네. 그것도 좋죠. 네. 도메인 붙이고 심사도 좋은데. 네. 근데 사실"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 623,
+  "frame_name": "frame_022200.jpg",
+  "start_time": 11080.0,
+  "end_time": 11119.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 중간 이벤트 한번가 보도록 하겠습니다. 아, 근데 주소를 아, 스샷 하나만 받게 지금 해 놓은 거 같은데 잠시만요. 네. 아, 그냥 스샷으로 주소 보이게 캡처해 주시면 되겠습니다. 주소 보이게 캡처해 주시면 좋을 것 같습니다. 아, 스샷으로 제출하셨나요? 하나씩 볼까요? 잘 제출되셨는지. 오. 아, 네. 네. 아, 요거 아, 렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

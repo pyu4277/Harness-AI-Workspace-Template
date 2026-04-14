@@ -1,0 +1,26 @@
+{
+  "scene_id": 1529,
+  "frame_name": "frame_046430.jpg",
+  "start_time": 23213.0,
+  "end_time": 23216.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있으셔야 됩니다. 왜냐면이 세팅이 제일로 어렵잖아요. 요거 아마 아까 아까 요거 있잖아요. 요거 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

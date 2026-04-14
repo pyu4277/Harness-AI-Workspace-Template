@@ -1,0 +1,26 @@
+{
+  "scene_id": 1618,
+  "frame_name": "frame_048943.jpg",
+  "start_time": 24469.5,
+  "end_time": 24472.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "운영비 공짜입니다. 빵원 빵원이고요. 네. 클라우드 플레어 페이지로 다 운영을 했고. 네. 요거는 뭐 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 73,
+  "frame_name": "frame_003896.jpg",
+  "start_time": 1936.0,
+  "end_time": 1959.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있는게 사실 그 예전에 아마 코딩이라는 거를 옛날에는 어떻게 했냐면이 청공 카드라고 하거든요. 여기에 이제 구멍을 뚫어가면서 코딩을 이렇게 했습니다. 그래서 코딩을 하면 요런 식으로 코딩해 가지고 이걸 넣어 가지고 막 계산을 했어요. 그럼 이렇게 계산해 봤자 하는게 뭐 헬로월드 출력하기 뭐 계산하기 이런 거밖에 못 했을 텐데 요게 이제 옛날 방식의 코딩이면 점점 발전해서 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

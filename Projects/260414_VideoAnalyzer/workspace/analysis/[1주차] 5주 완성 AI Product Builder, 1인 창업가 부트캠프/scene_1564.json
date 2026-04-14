@@ -1,0 +1,26 @@
+{
+  "scene_id": 1564,
+  "frame_name": "frame_047908.jpg",
+  "start_time": 23952.0,
+  "end_time": 23955.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 여기까지 1조차만 들으셔도 네. 1조 차만 들으셔도 에드센스 붙인 걸로이 정도 수익 내날 낼 수가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

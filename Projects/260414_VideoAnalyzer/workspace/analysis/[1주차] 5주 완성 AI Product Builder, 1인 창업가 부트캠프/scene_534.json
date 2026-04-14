@@ -1,0 +1,26 @@
+{
+  "scene_id": 534,
+  "frame_name": "frame_019909.jpg",
+  "start_time": 9938.5,
+  "end_time": 9970.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있었던 이유가 다 우리 같은 일을 했기 때문이다. 네. 다 클라우드 플레이어에 내 사이트를 맡겨 가지고 뭐 여기서 처리를 하거나 요런 거를 클라우드 플레이어에 맡긴 기업이 그렇게 많습니다. 어, 계정 확인 메일이 아직 안 온나요? 아, 네. 이거는 뭐 가입 과정에서 아마 조금 그래도 시간이 걸릴테니까 스팸. 어, 그죠. 스팸 메일 한번 확인해 보시면 좋을 것 같습니다. 오늘 강의 몇 시간쯤 더 걸릴까요? 지금 네. 한번 전반적으로 한번 진도를 볼까요?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 386,
+  "frame_name": "frame_016081.jpg",
+  "start_time": 8027.0,
+  "end_time": 8053.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "누르셔야 됩니다. 누르시면 이제 이렇게 오 갑자기 이제 로또 번호 추첨기라는 사이트가 만들어졌어요.네 그래서 번호 추천 받기를 딸깍 누르면 와 이렇게 번호가 나오게 됩니다. 오 바뀌어요. 누를 때마다 자 이제 자바스크립트를 아시니까 이해하셨죠? 이렇게 꾸미는 거 CSS, 뼈대 잡는 거 HTML, 누르면 바뀌는 거 자바스크립트 다 들어가 있죠. 와, 다 들어가 있습니다. 보너스도 뽑기."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

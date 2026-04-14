@@ -1,0 +1,26 @@
+{
+  "scene_id": 938,
+  "frame_name": "frame_030244.jpg",
+  "start_time": 15111.5,
+  "end_time": 15132.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "순서대로 하면 되거든요.음 아 이걸 하는게 나을까? AI 시키는게 나을까 지금 좀 고민인데. 음. 여기까지 직접 할까요? 아니면 AI 시켜 볼까요? 해 줘. 딸깍해야지. 아, 오케이. AI 시키겠습니다. 이거 이제 더 이상 사실 맞아요. 더 이상 인간이 할게 아닌데 이걸 인간이 하고 있다는게 약간 구시대적인 거 같네요. 네. 구시대적인 거 같아서 요거 AI"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1246,
+  "frame_name": "frame_039214.jpg",
+  "start_time": 19589.0,
+  "end_time": 19624.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그 사람들이 코드를 다 직접 안 짜거든요. 다 그냥 외부를 갖다 쓰는 경우가 많은데 갖다 쓰는 거에서 레프트 패드라는 이런 갖다 쓰는 라이브러리가 있었습니다. 얘가 뭐냐면 공백이나 특정 문자를 추가하는 기능입니다. 11 줄짜리 코드예요. 요거 쓰기가 너무 귀찮아요. 아 이거 언제 짜고 있어? 이거 갖다 써야지 하고 다 레프트 패드라는 거를 불러와서 쓰기 이런 거 되게 많이 했거든요. 그래서 개발자들이 직접 다 코드를 쓰지 않습니다. 근데 얘 잘 짠 코드예요. 이거를 불러와서 쓰기를 하다 보니까 다 여기에 의존하고 있었어요. 레프트 패드라는 곳에. 그러다 보니까 무슨 일이 있었냐면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

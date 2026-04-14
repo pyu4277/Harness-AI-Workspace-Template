@@ -1,0 +1,26 @@
+{
+  "scene_id": 47,
+  "frame_name": "frame_001444.jpg",
+  "start_time": 713.0,
+  "end_time": 730.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "평가하고 있습니다. 이런 식으로 쭉 일곱 개의 항목에 대해서 평가하라고 했고 그 합계를 보시면 하네스 엔지니어링이 적용된 코드는 88점, 그렇지 않은 코드는 52점을 평가받았습니다. 그리고 실제로 하네스 엔지니어링이 적용되지 않은 코드들은 왜 이렇게 적은 점수를 받았나 코드를까 보니까 한네스 엔지니어링을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "평가하고 있습니다. 이런 식으로 쭉 일곱 개의 항목에 대해서 평가하라고 했고 그 합계를 보시면 하네스 엔지니어링이 적용된 코드는 88점, 그렇지 않은 코드는 52점을 평가받았습니다. 그리고 실제로 하네스 엔지니어링이 적용되지 않은 코드들은 왜 이렇게 적은 점수를 받았나 코드를까 보니까 한네스 엔지니어링을",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

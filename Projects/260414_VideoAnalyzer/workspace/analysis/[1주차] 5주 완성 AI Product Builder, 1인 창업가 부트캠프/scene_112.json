@@ -1,0 +1,26 @@
+{
+  "scene_id": 112,
+  "frame_name": "frame_005594.jpg",
+  "start_time": 2785.5,
+  "end_time": 2808.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "딸각을 하기만 하면 됩니다. 네. 그래서 하기만 하면 돼서 어느 정도로 이제 개인이 혹은 소수의 인원이 어느 정도까지 성과를 올릴 수 있나에 대해서 요즘에 되게 유행하고 있는게 1인 10억 달러 기업으로 가는 길 해 가지고 요런 그 사이트도 되게 유행하고 있습니다. 요거 직접 한번 들어가서 보면 그 린 리더보드라이트인데음네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 875,
+  "frame_name": "frame_028790.jpg",
+  "start_time": 14389.5,
+  "end_time": 14399.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "음. 네. 그래서 요거는 이제 각자 원하시는 거 쓰고 가장 좋은 걸로 쓰면 됩니다. 그래서 현 시점 가장 좋은 걸로 쓰시면 돼서 요거는 이제 상황에 따라 좀 달라질 것 같습니다. 어떤 걸 쓸지는. 네. 네. 일단 창"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

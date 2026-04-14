@@ -1,0 +1,26 @@
+{
+  "scene_id": 1628,
+  "frame_name": "frame_049088.jpg",
+  "start_time": 24537.0,
+  "end_time": 24550.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진짜로이 사례보다 훨씬 더 잘 되시지 않았을까 싶습니다. 네. 요거는 진짜 옛날에 막 그 AI 시대 이전에 달성하신 분들인데 더 많은 분들이 이제 되시지 않을까 싶어요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

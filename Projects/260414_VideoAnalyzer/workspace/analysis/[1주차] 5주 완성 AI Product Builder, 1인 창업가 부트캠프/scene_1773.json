@@ -1,0 +1,26 @@
+{
+  "scene_id": 1773,
+  "frame_name": "frame_052069.jpg",
+  "start_time": 26015.5,
+  "end_time": 26052.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "넘어가서 애드시 이거는 통과할 수 있다라고 소개해 드렸고 그다음에 혹시 지금까지 배운 거 HTML, CSS, 자바스크립트를 아, 나는 좀 알고 싶은데 하신 분도 있잖아요. 그냥 물론 딸깍하면은 다 되긴 하는데이 시대에도 나는 알고 쓰면 좋다. 약간 이런 분들은 그 아시면 좋긴 합니다. 그러니까 좀 더 풍부하게 할 수 있겠죠. 그러신 분들을 위해서 그냥 학습 도구 좀 소개해 드리면 네. 이게 잠깐 그때 직지적 허영신 막 이런 것도 소개를 드렸는데 사실은 몰라도 됩니다. 사실이 시대에 몰라도 되긴 한데 그냥 어 좀 아는 척하고 싶은데 약간 있어 보이는 척하고 싶은데 하면은 이제 그때 공부하시면 됩니다. 예. 그 그때 공부하시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

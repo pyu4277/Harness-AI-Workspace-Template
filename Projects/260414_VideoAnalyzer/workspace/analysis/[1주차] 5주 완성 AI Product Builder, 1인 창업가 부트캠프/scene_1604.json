@@ -1,0 +1,26 @@
+{
+  "scene_id": 1604,
+  "frame_name": "frame_048692.jpg",
+  "start_time": 24333.0,
+  "end_time": 24358.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "주소 요거 요거 눌러서 나오는 거요 주소를 입력하시면 됩니다. 이게 내 웹사이트입니다. 아 비굿 베러 님 VIP 감사드리고요.네 좋습니다. 그래서 요걸로 들어오시면 된다.요 요 주소로 입력하시면 된다라고 소개를 드리고요. 그럼 바로 진행해 보겠습니다. 가입 되셨다라고 생각이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

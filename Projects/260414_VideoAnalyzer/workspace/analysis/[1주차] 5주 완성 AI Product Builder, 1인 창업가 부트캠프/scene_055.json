@@ -1,0 +1,26 @@
+{
+  "scene_id": 55,
+  "frame_name": "frame_002941.jpg",
+  "start_time": 1461.0,
+  "end_time": 1479.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여전히 성립하고 있다. 네. 내부적으로 둔화되는 증구가 전혀 보이고 있지 않다라고 합니다. 특히이 엔트로픽은 아마 개발자분들은 거의 다 쓰시는 클로드 코드를 만드신 이런 어마어마한 기업인데네 계속된 발전 내부적으로도 발전되는 징후를 보이고 있고네 스케일링 법칙 아직도 깨지지 않고 있다.네 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

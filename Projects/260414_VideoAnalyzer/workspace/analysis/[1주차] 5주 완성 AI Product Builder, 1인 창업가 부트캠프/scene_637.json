@@ -1,0 +1,26 @@
+{
+  "scene_id": 637,
+  "frame_name": "frame_022730.jpg",
+  "start_time": 11361.5,
+  "end_time": 11367.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어, 97번도 계십니다. 오 야, 야, 이런 퍼즐 게임 같은 것도 만드신 분도 계십니다. 야,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

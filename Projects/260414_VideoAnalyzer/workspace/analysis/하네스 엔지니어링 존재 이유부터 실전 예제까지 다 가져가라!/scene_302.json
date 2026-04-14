@@ -1,0 +1,26 @@
+{
+  "scene_id": 302,
+  "frame_name": "frame_002863.jpg",
+  "start_time": 1429.5,
+  "end_time": 1432.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제가 생각했을 때 엔지니어링이라는 거를 가장 알맞게 적용하는 방법은요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

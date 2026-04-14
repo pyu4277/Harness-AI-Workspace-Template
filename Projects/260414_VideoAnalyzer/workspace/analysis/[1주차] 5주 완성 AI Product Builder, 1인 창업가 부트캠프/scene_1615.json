@@ -1,0 +1,26 @@
+{
+  "scene_id": 1615,
+  "frame_name": "frame_048913.jpg",
+  "start_time": 24450.5,
+  "end_time": 24462.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되게 글로벌하게 많이 쓰셨습니다. 네. 그래서 뭐 이런 뭐지 태국 어디 언론에서도 나오고 인스타 스토리도 야 인스타 스토리가 저 12.6만 만 명이 요걸 공유를 했습니다.이 하나의 챌린지 같은 걸로. 그래서 엄청 유행해 가지고 앱스토어 2등까지도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 253,
+  "frame_name": "frame_012920.jpg",
+  "start_time": 6455.5,
+  "end_time": 6463.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해제하고 확인을 누르셔야 이제 요런 식으로 인덱스.txt TXT 뭐 이런 식으로 메모장으로 생기면은 확장자가 있거든요. 요거를 마우스 우클릭하시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

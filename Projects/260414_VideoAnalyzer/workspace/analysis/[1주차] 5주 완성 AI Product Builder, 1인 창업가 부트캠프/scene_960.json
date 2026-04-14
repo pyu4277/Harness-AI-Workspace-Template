@@ -1,0 +1,26 @@
+{
+  "scene_id": 960,
+  "frame_name": "frame_030796.jpg",
+  "start_time": 15387.0,
+  "end_time": 15408.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "입력해야 해요? 해주셨는데 그 여러분들이 만드신 그 기터브 레퍼 스토리가 있잖아요. 그래서 저는 이제 제가 이게 깃터브 아이디고 요게 이제 레퍼 스토리 이름입니다. 즉 제 아이디 이거는 폴더라고 보시면 되는데이 폴더를 열어 가지고 여기에 있는이 주소를 넘기셔야 됩니다. 왜냐면이 아이디와 폴더 이렇게 들어 있잖아요. 그래서 다시 처음부터 가면 깃 메인 화면부터가 볼게요. 메인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

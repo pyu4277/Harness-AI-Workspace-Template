@@ -1,0 +1,26 @@
+{
+  "scene_id": 58,
+  "frame_name": "frame_003135.jpg",
+  "start_time": 1539.0,
+  "end_time": 1595.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런 시대가 와 버렸죠. 네. 그래서 이런 바이브 코딩 전용 툴도 있습니다. 뭐 커서 애플릿, 코파일런 뭐 클로드 코드 이런 거 쓰신 분들 많을 텐데 이거 이런 서비스들이 그냥 딸깍하면은 그 원하는 대로 그냥 코딩을 해 주면서 AI가 원하는 대로 내 그 웹사이트 앱 이런 걸 만들어 주는 서비스인데 요런 것들이 어마어마하게 많이 탄생을 하게 됐습니다. 네. 기업에서 이미 하고 있다. 그렇죠. 기업 개발에서 너무 많이 하고 있고 요즘 안 하는 개발자가 없을 겁니다. 그 정도로 모든 개발자들이 다 그냥 딸깍딸깍으로 코딩을 하고 있습니다. 이제는 AI 안 쓰는 코딩은 이제 말도 안 돼요. 사실 이거 거의 지금이 시대에서 코딩을 하는데 AI를 안 쓴다. 이거는 마치 뭐 지금이 시대에 돌도끼 들고 지금 동물 사냥하고 다니면서 막 불 피워 가지고 고객 막 이런 먹고 이런 생활 하는 그런 거의 원시인이지 않을까? 만약 AI를 안 쓴다고 한다면 말도 안 되는 시대입니다. 네. 진짜 AI를 안 쓸 수가 없는 시대가 되었고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

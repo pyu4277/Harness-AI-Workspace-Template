@@ -1,0 +1,26 @@
+{
+  "scene_id": 1320,
+  "frame_name": "frame_040658.jpg",
+  "start_time": 20325.0,
+  "end_time": 20332.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "수정했고 자 보면은 어 이렇게 제유 무늬가 있죠. 제유무늬. 아 제유무늬 생겼고요. 자 제유무늬가 생겼고 배포도 됐나?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

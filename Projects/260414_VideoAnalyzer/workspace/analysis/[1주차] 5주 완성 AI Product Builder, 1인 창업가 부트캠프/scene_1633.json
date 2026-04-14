@@ -1,0 +1,26 @@
+{
+  "scene_id": 1633,
+  "frame_name": "frame_049202.jpg",
+  "start_time": 24593.5,
+  "end_time": 24607.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "눌러 가지고요 주소 넣으셔 가지고 아 근데 얘는 거절 당할 것 같아요. 일단 얘는 좀 부실한데 얘를 보완해 보겠습니다. 일단 일단 요거는 좀 너무 허접하게 돼 있어서 거절당할 것 같긴 한데 네. 그래도이 웹사이트에 요걸"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

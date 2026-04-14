@@ -1,0 +1,26 @@
+{
+  "scene_id": 102,
+  "frame_name": "frame_000619.jpg",
+  "start_time": 307.5,
+  "end_time": 310.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "서비스가 이제 AI가 알아서 일을 하게 한 거예요. 어떻게? 내가 바로이 AI가 잘 일할 수 있게 하는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

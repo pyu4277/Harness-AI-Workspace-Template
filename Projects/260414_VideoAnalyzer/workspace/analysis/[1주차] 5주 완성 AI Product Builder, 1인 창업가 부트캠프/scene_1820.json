@@ -1,0 +1,26 @@
+{
+  "scene_id": 1820,
+  "frame_name": "frame_053509.jpg",
+  "start_time": 26751.5,
+  "end_time": 26757.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "많이 남았습니다. 유입 성장 이제 SEO 데이터 분석 바이러럴 구조 마케팅 이런 거 전반적으로 해 볼 거고요. 그다음에 AI 결제 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

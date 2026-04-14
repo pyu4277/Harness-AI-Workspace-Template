@@ -1,0 +1,26 @@
+{
+  "scene_id": 630,
+  "frame_name": "frame_022486.jpg",
+  "start_time": 11230.5,
+  "end_time": 11255.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "체크를 못 해요. 아, 이거 네. 아, 새로 만들기 또 귀찮으니. 네. 2분 남았으니까. 네. 딱 한 다섯 분 뽑아 볼까요? 다섯 분. 네. 다른 분들 만드신 거 한번 볼까요? 음. 어. 야, 이분은 와, 이거 어떻게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

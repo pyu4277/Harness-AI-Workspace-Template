@@ -1,0 +1,26 @@
+{
+  "scene_id": 1072,
+  "frame_name": "frame_033027.jpg",
+  "start_time": 16509.5,
+  "end_time": 16516.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이거는 쓸데없는 거 제가 해가지고 좀 낭비를 했는데 자, 재미나이 이제 원하는 거 수정해서 반영하면 됩니다. 예를 들어 지금 여기도 다크 모드,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

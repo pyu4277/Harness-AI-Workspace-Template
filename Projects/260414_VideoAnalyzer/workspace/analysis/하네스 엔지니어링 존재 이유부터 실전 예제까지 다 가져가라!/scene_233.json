@@ -1,0 +1,26 @@
+{
+  "scene_id": 233,
+  "frame_name": "frame_001696.jpg",
+  "start_time": 837.0,
+  "end_time": 858.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code IDE에서 CLAUDE.md 실제 구현 화면",
+    "elements": ["좌측 파일 탐색기: AGENTS.md, CLAUDE.md, package.json 등 프로젝트 구조", "CLAUDE.md 내용: # CLAUDE.md -- AI 에이전트 필수 규칙", "규칙: 이 파일을 모든 작업 전에 자동으로 읽어라", "절대 규칙: 코드 작업 전 반드시 수행할 것", "1단계: EXEC_PLAN 호출", "하단 터미널: Claude Code v2.1.92"],
+    "extracted_formulas": [],
+    "extracted_code": ["# CLAUDE.md -- AI 에이전트 필수 규칙", "## 절대 규칙: 코드 작업 전 반드시 수행할 것", "**1단계: EXEC_PLAN 호출**"],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["CLAUDE.md 실제 구현", "1단계: 플랜 생성", "2단계: 워크트리에서 구현", "계획 없이 코드 작성 금지"],
+    "summary": "단계를 제가 명시를 했습니다. 첫 번째 단계 플랜을 생성한다. 어, 플랜. 그러니까 어떤 걸 개발하기 전에 어떻게 개발할지 그 플랜을 작성을 해 달라라는 거죠. 그래서 계획 없이 코드를 작성하지 않는다가 일단 첫 번째 원칙이고요. 그리고 두 번째 워크트리에서 구현한다라고 되어 있어요.이 하네스 엔지니어링 팀의 특징이요.이 개발을 그냥이 내가 일하고 있는이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "VS Code에서 CLAUDE.md 실제 파일 내용: AI 에이전트 필수 규칙, EXEC_PLAN 호출 단계, 프로젝트 파일 구조(AGENTS.md 포함). Claude Code v2.1.92 터미널 확인",
+    "text_only_info": "하네스 엔지니어링 2대 원칙: (1) 계획 없이 코드 작성 금지 (플랜 먼저) (2) 워크트리에서 격리 구현",
+    "combined_insight": "하네스 엔지니어링의 실전 구현: CLAUDE.md에 AI 에이전트 필수 규칙을 코드로 구현. 화면은 실제 파일 내용과 프로젝트 구조를 보여주고, 대본은 핵심 2대 원칙(플랜 먼저 + 워크트리 격리)을 설명. 이론이 아닌 실제 동작하는 코드 기반 하네스"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 835,
+  "frame_name": "frame_028132.jpg",
+  "start_time": 14062.5,
+  "end_time": 14068.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이게 가장 어렵죠. 다시 코딩은 너무 쉬운데 활성화돼 있고."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

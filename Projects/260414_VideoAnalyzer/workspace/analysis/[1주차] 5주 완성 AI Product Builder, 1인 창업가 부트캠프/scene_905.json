@@ -1,0 +1,26 @@
+{
+  "scene_id": 905,
+  "frame_name": "frame_029570.jpg",
+  "start_time": 14773.0,
+  "end_time": 14796.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가지고 네. 저장소를 하나 파 줄 거고요. 자, 레포지토리 이름은 뭐 프로덕트 빌더라고 지어 보도록 하겠습니다. 그 렉처. 네. 수업용으로 이게 여러분도 참고하실 수 있도록 이거 공개로 해 놓을게요. 요거는 네. 프로덕트 빌더 렉처로 만들었고요. 네. 그다음에 이것만 정해 주시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

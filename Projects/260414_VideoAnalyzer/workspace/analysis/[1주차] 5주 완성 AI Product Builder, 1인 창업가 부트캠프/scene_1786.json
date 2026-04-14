@@ -1,0 +1,26 @@
+{
+  "scene_id": 1786,
+  "frame_name": "frame_052283.jpg",
+  "start_time": 26132.0,
+  "end_time": 26150.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "미션으로 넘어가고 그리고 이게 영어라서 좀 불편하다 하시는 분들은 이렇게 한국어로 번역하면은 요런 식으로 한국어로도 보실 수가 있겠습니다. 네. 그래서 아까 배웠던 거죠. 아까 저희가 배웠던 거 그대로 나옵니다. 그래서 요런 식으로 아, 굳이 나는 좀 더 디테일하게 알고 싶어 하시는 분들은 요런 식으로 공부도 진행을 해 보실 수가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

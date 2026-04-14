@@ -1,0 +1,26 @@
+{
+  "scene_id": 785,
+  "frame_name": "frame_027075.jpg",
+  "start_time": 13533.5,
+  "end_time": 13541.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어 그러면 어, 이거 위험한데. 아, 일단 요거 엄청 위험하진 않은게 어차피 제 로그인을 해야 되니까이 링크로 들어가 보시면 이렇게 로그인 할 수가 있거든요. 제 구글 계정으로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1348,
+  "frame_name": "frame_041512.jpg",
+  "start_time": 20751.5,
+  "end_time": 20759.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 요런 거 이제 배워 봤고요. 그다음에 아 갓 가져다 쓸 수 있는게 너무 많아요. 그래서 너무 많으니까 한번"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1691,
+  "frame_name": "frame_050532.jpg",
+  "start_time": 25249.5,
+  "end_time": 25282.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아, 그래서 도메인은 만약에 별도로 막 나만의 도메인을 갖고 싶다 하면 유료인데 이거는 공짜예요. 지금 그 페이지 스타 대부 있잖아요. 얘는 공짜입니다. 공짜. 얘는 공짜라서 이거 쓰시면 됩니다. 그냥 사실 처음부터 끝까지 공짜로 쓰실 수 있어요. 저희 이번 그 오주 완성 모든 강의가 돈내는게 아마 제가 알기 없습니다. 그러니까 모든 과정을 다 공짜로 할 수가 있어요. 이거 이걸 쓰신다면음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 793,
+  "frame_name": "frame_027333.jpg",
+  "start_time": 13661.0,
+  "end_time": 13671.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기 명령어도 이거 모르면은이 다 물어보면 됩니다. 다 알려줍니다. 채치피한테 뭐 어 이거 오류 났는데 어떻게 하면은 다 알려줍니다. 채치피pt 물어보러 가면서 이거를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

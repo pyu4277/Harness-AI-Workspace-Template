@@ -1,0 +1,26 @@
+{
+  "scene_id": 17,
+  "frame_name": "frame_000102.jpg",
+  "start_time": 49.0,
+  "end_time": 52.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아는 어떤 휴먼 로봇을 만들고 싶은 거잖아. 우리가 결론적으로 AI로 하고 싶은 이거란 말이에요. 근데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

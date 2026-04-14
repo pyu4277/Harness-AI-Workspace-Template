@@ -1,0 +1,26 @@
+{
+  "scene_id": 1326,
+  "frame_name": "frame_040844.jpg",
+  "start_time": 20418.5,
+  "end_time": 20424.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 배포가 됐을 거예요. 볼까요? 어, 배포 됐네요. 어, 미니오니까 방금 된 거 같아요. 그래서 누르면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

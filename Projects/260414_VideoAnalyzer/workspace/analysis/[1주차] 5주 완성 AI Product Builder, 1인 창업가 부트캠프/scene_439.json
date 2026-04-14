@@ -1,0 +1,26 @@
+{
+  "scene_id": 439,
+  "frame_name": "frame_017383.jpg",
+  "start_time": 8682.5,
+  "end_time": 8700.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좀 모르신 분들 있을까 봐 그 막 요즘 아마 주식 관심 있는 분들 좀 많을 텐데 뭐 미국에서 막 데이터 센터를 막 짓는다 뭐 이런 얘기 많잖아요. 그래서 엔비디아가 지금 시총 1인게 이런 그래픽 카드가 붙어 있는 컴퓨터를 이제 많이 지어 가지고 이런 건데 요런데 막 큰데다가 이렇게 요런 시설을 짓습니다. 그래서 다"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

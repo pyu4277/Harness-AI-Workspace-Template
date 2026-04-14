@@ -1,0 +1,26 @@
+{
+  "scene_id": 1261,
+  "frame_name": "frame_039517.jpg",
+  "start_time": 19753.0,
+  "end_time": 19763.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있더라고요. 그래서 가져다 쓸 수 있는 API 모음집 그래서 오픈 API라고 해서 이런 누가 이게 백엔드 이런 걸 되게 잘 만들어 가지고 자 여러분 쓰세요 하고 이렇게 뿌린 사람들이 있습니다. 그래서 오픈"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

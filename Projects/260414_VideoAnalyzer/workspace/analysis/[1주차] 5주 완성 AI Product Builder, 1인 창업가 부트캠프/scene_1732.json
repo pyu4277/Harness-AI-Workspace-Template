@@ -1,0 +1,26 @@
+{
+  "scene_id": 1732,
+  "frame_name": "frame_051319.jpg",
+  "start_time": 25654.0,
+  "end_time": 25664.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "최적화가 완료됐습니다. 오 야 개인 정보 처리 방침도 만들었어요. 야 이거 아까 누가 채팅에서 어떻게 만들어요 해 주셨는데 바로 그냥 딸깍 한 번에 만들어집니다.음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

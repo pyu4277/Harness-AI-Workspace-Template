@@ -1,0 +1,26 @@
+{
+  "scene_id": 1229,
+  "frame_name": "frame_038553.jpg",
+  "start_time": 19274.5,
+  "end_time": 19277.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "쓸 때 이런 분들 계십니다. 그이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (대본 짧지만 시각 정보 포함)",
+  "importance_rule_version": 1
+}

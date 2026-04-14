@@ -1,0 +1,26 @@
+{
+  "scene_id": 955,
+  "frame_name": "frame_030577.jpg",
+  "start_time": 15285.0,
+  "end_time": 15291.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "올려줘. 주소 여기 줄테니까 올려 줘 하니까 코드가 성공적으로 업로드되었습니다. 렇게 나오고 있죠? 이제 코드 새로 고침 딸깍해 주면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

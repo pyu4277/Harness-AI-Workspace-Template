@@ -1,0 +1,26 @@
+{
+  "scene_id": 414,
+  "frame_name": "frame_016537.jpg",
+  "start_time": 8265.5,
+  "end_time": 8271.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "생성이 좀 느린데. 음. 어. 좀 되고 있다. 네. 그래서 이거 좀 빨리 되는 것도 이제 뒤에 소개를 드릴 텐데 일단은 좀 천천히 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

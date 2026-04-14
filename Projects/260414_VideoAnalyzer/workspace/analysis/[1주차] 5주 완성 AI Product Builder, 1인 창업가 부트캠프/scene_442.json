@@ -1,0 +1,26 @@
+{
+  "scene_id": 442,
+  "frame_name": "frame_017442.jpg",
+  "start_time": 8711.5,
+  "end_time": 8729.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "위한 거고 이렇게 생겼습니다. 그래서 데이터 센터에 여기에다가 하나 빌립니다. 그래서 여기에 HTML 파일을 올린다. 이게 이제 가장 좀 초보자들이 접근하기 쉬운 방법입니다. 네. 그래서 요거에 올리면 된다. 그러면 이런 걸 운영하는 기업들이 되게 많을 거잖아요. 뭐 여기서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 8,
+  "frame_name": "frame_000046.jpg",
+  "start_time": 21.0,
+  "end_time": 24.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하는지 그 실전 예시까지 제가 그냥 싹다 보여 드리도록 하겠습니다. 그래서 여러분들 이런 뭐 용어 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

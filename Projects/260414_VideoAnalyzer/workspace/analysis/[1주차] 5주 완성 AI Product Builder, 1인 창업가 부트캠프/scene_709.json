@@ -1,0 +1,26 @@
+{
+  "scene_id": 709,
+  "frame_name": "frame_025023.jpg",
+  "start_time": 12508.0,
+  "end_time": 12514.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아예 이런 서비스 되게 많아요. 이런 것들 만들었다가 구글이 서비스 종료합니다 해가지고 이제 더 이상 운영 안 하는 경우가 꽤 많거든요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

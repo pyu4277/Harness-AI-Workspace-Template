@@ -1,0 +1,26 @@
+{
+  "scene_id": 706,
+  "frame_name": "frame_024891.jpg",
+  "start_time": 12437.5,
+  "end_time": 12453.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "설치할 것도 있거든요. 귀찮으니까 그냥 렇게 클라우드 개발 환경 요걸로 들어가 보도록 하겠습니다. 어 요거는네 접근 허용할 수 있도록 할게요. 이거 구글 클라우드랑도 연동돼 가지고 할 수 있는데 요거는 허용을 해 주면 아 귀찮아지네 그냥"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

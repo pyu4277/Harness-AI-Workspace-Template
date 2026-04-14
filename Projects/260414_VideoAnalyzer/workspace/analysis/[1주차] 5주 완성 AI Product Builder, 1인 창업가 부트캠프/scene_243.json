@@ -1,0 +1,26 @@
+{
+  "scene_id": 243,
+  "frame_name": "frame_012645.jpg",
+  "start_time": 6306.0,
+  "end_time": 6338.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 네. 그래서 요런 식으로 H1이라는 HTML 태그가 있습니다. 이게 제목을 나타낸 태그인데 꺾세 H1 제목입니다라고 꺾세/H1 요렇게 요렇게 쓰는게 이제 HTML 문법입니다. 근데이 개념만 아시고 세부점의 문법은 이제 AI가 다 도와주니까 아 요렇게 생겼구나라고 이해하시면 됩니다. 네. 그래서 H1이 뭔 뜻이냐면 아직 알 필요 없어요. 왜냐면 이게 뭐야라고 AI 물어보면 다 알려주죠. 근데 굳이 설명을 드리자면 헤더 중에 제일 큰 거라는 얘기입니다. 그러니까 제목이라는 겁니다. 네. 그래서 요렇게 생겼고요. 뭐 부가적으로도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

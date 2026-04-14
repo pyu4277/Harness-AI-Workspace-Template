@@ -1,0 +1,26 @@
+{
+  "scene_id": 983,
+  "frame_name": "frame_031237.jpg",
+  "start_time": 15615.0,
+  "end_time": 15621.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거냐면이 아이디에서 작업한 거 깃터로 버전 관리를 할 거고요. 그다음에이 작업한 거를 바로 디플로이랑 여기"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

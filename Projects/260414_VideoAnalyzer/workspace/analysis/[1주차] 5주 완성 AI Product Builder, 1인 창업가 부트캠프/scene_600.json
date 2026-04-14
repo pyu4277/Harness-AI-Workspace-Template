@@ -1,0 +1,26 @@
+{
+  "scene_id": 600,
+  "frame_name": "frame_021106.jpg",
+  "start_time": 10549.5,
+  "end_time": 10556.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어 이게 워커랑 페이지랑 통합이 돼서 지금 되고 있긴 한데 아무튼 HTML 그냥 보내 주는 거는 페이지를 쓰는 겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

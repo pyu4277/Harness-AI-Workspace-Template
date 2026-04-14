@@ -1,0 +1,26 @@
+{
+  "scene_id": 435,
+  "frame_name": "frame_017060.jpg",
+  "start_time": 8517.0,
+  "end_time": 8542.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "접속하기가 어려워요. 그렇기 때문에 두 가지 방법이 있습니다. 크게. 일단 내 컴퓨터에 만들어 놨잖아요. 이거를 서버로 만들어요. 그래서 내 컴퓨터에서 사람들이 그 내 컴퓨터로 접속해 가지고 가져갈 수 있게 만들 수가 있습니다. 아니면은 외부 컴퓨터를 빌려 가지고 거기다가 그 내 그 웹사이트를 런칭하고 그거를 다운받아 가게 할 수도 있죠. 이게 두 가지 방법이 있습니다. 네. 그래서 하나씩 볼게요. 일단 내"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

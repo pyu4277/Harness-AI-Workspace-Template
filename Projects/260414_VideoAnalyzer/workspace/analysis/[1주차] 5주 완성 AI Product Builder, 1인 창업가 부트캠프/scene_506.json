@@ -1,0 +1,26 @@
+{
+  "scene_id": 506,
+  "frame_name": "frame_019248.jpg",
+  "start_time": 9595.0,
+  "end_time": 9652.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "바로 이제는 C드라이브 뭐 이런게 아니라 로또. 조코ading. 인터넷 주소로 들어간 걸 볼 수가 있죠. 그러면 이제 여러분들은 여기 제가 사이트에 지금 채팅창에 방금 입력했는데 여기로 들어가 보시면 이렇게 만든 로또 번너 서비스 누구나 전 세계 누구나 다 이용하실 수가 있습니다. 제 자바스크립트 CSS도 업로드 됩니다. 그 폴더로 만드셔 가지고 폴더를 올려도 되긴 하거든요. 근데 저희는 이제 HTML 안에 다 꾸여 넣었잖아요. 그 CSS도 꾸여 놓고 자바스크립트도 꾸여 넣기 때문에 거기에 다 한꺼번에 있어 가지고 파일 하나만 싹 올리면 됩니다. 어. 아, 사이트 보안 연결할 수 없음. 어디서 그렇게 뜨셨을까요? 혹시 지원되지 않는 프로토콜 뭐지? 어, 이런 거 있잖아요. 그 가장 좋은 점이 지금 AI 시대에 뭔가 막혔다 하시는 분들은 요렇게 하시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

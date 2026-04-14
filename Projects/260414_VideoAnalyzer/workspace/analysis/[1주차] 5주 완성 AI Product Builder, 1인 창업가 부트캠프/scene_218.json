@@ -1,0 +1,26 @@
+{
+  "scene_id": 218,
+  "frame_name": "frame_012126.jpg",
+  "start_time": 6055.5,
+  "end_time": 6069.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있다라고 소개를 드릴 수 있고 같 있을 것 같고요. 그럼 이거를 직접 만들어 봐야겠죠.이 이 개념만 들었을 때는 어 뭐 대충 그런 느낌이다라는 알겠는데 그 웹 프론엔드를 직접 만들어 보도록 하겠습니다. 네. 근데 제가 아까 말씀드렸다시피 설치가 가장"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

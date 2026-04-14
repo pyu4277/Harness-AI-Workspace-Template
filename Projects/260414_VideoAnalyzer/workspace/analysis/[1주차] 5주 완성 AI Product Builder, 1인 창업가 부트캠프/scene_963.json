@@ -1,0 +1,26 @@
+{
+  "scene_id": 963,
+  "frame_name": "frame_030901.jpg",
+  "start_time": 15424.5,
+  "end_time": 15476.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거잖아요. 얘를 클릭하면 네. 요렇게 기터브 유튜브 프로덕 빌더 렉처 요렇게 나옵니다. 그래서 요거랑 이렇게 연동을 하는 거 할 수가 있겠습니다. 어 프라이빗도 되나요? 아 그죠. 어차피 기터브 로그인을 알아서 해 주니까 아 그러네요. 저는 아 뭐 토큰 뭐 이런 거 설정해야 되 생각했는데 알아서 어차피 로그인 어스로 해 주니까 아 그러네요. 사실 프라임이스 하셔도 됩니다. 생각 보니까네 하셔도 되네. 어차피 AI가 다 해 주거든요. AI한테 맡기시면 됩니다. 편하게 맡기세요. 아 궁금한데 계속 버전 하는 이유가 있나요? 내 컴퓨터에도 파일들이 저장돼 있는데 버전업 그 버전 관리 의미하시는 걸까요? 버전 관리는 계속 해야죠. 왜냐면이 코드가 계속 수정되면은 이거를 업데이트를 이제 관리를 하려면 예를 들어요 이런 거 있거든요. 여기 들어가면은 저 여기"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

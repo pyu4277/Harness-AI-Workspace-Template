@@ -1,0 +1,26 @@
+{
+  "scene_id": 325,
+  "frame_name": "frame_014614.jpg",
+  "start_time": 7301.5,
+  "end_time": 7311.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이미지 말고 예를 들어 코딩 사진네 뭐 이런 거 바꿔 볼게요. 여기서 이미지를 마우스 우클릭 해 가지고 이미지 주소 복사가 있거든요.요 이미지가 어떤 주소에 저장이 돼 있는데이 주소를 복사해서 여기서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

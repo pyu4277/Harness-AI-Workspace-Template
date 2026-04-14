@@ -1,0 +1,26 @@
+{
+  "scene_id": 1449,
+  "frame_name": "frame_043472.jpg",
+  "start_time": 21726.0,
+  "end_time": 21745.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 됩니다. 그다음에 어 이제 다음 진도 나가 보자면음네 그다음에 어 재밌는게 있습니다. 아이 너무 재밌는데 요거는.네 재밌는 거."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

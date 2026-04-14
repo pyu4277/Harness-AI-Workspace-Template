@@ -1,0 +1,26 @@
+{
+  "scene_id": 432,
+  "frame_name": "frame_016930.jpg",
+  "start_time": 8463.0,
+  "end_time": 8466.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여러분들 만드신 거의 주소를 직접 확인해 보면 어 요렇게 돼 있습니다. 아 다시 여기 요렇게 돼 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

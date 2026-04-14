@@ -1,0 +1,26 @@
+{
+  "scene_id": 77,
+  "frame_name": "frame_004037.jpg",
+  "start_time": 2005.0,
+  "end_time": 2031.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "동작을 안 하지 하고 찾아보니까 실제로 이런 버그가 있었다고 해요. 버그거든요.이 이 벌레가 실제로 있어 가지고 실제 버그과 발견된 최초 사례. 네. 1947년 어디 컴퓨터 회로에 나방이 들어가 가지고 아 그래서 컴퓨터가 안 됐거든요. 그래서 버그를 찾는다 이런 말 있잖아요. 이게 진짜 버그이 벌레가 낀 거에서 유래가 됐습니다. 네. 그래서 요거 요런 시대도 있었는데 이것도 뭐 과거에 비해 좋아졌다 할 수 있는데 이거에 비해 훨씬 좋아졌죠, 요즘. 아, 근데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

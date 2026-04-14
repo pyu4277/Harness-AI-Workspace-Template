@@ -1,0 +1,26 @@
+{
+  "scene_id": 48,
+  "frame_name": "frame_001474.jpg",
+  "start_time": 730.5,
+  "end_time": 743.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "코드를까 보니까 한네스 엔지니어링을 적용하지 않았을 때에는 겉으로 봤을 때는 잘 돌아가는 시스템인 것처럼 보였지만 그 데이터가 실제 데이터가 아닌 목 데이터 즉 가짜 데이터로 서비스를 만들었습니다. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "코드를까 보니까 한네스 엔지니어링을 적용하지 않았을 때에는 겉으로 봤을 때는 잘 돌아가는 시스템인 것처럼 보였지만 그 데이터가 실제 데이터가 아닌 목 데이터 즉 가짜 데이터로 서비스를 만들었습니다. 그래서",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

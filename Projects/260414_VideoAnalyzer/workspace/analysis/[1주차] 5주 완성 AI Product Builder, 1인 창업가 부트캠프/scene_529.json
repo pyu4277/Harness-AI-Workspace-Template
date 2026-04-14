@@ -1,0 +1,26 @@
+{
+  "scene_id": 529,
+  "frame_name": "frame_019804.jpg",
+  "start_time": 9890.5,
+  "end_time": 9912.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "소개해 드릴 수 있을 것 같고요. 그래서 인터넷 세계가 사실 생각보다 취약합니다. 이런 클라우드 플레이어가 하나 무너지잖아요. 다 안 됩니다. 지금 제가 만든 로또 사이트 클라우드 플레이어가 안 된다. 안 됩니다. 네. 그래서이 클라우드 플레어 문직의 역할이 상당히 중요합니다. 네. 그래서 요렇게 클라우드 플레이어가 그런 역할을 한다라고 이제 이거 이해되시죠? 아까"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

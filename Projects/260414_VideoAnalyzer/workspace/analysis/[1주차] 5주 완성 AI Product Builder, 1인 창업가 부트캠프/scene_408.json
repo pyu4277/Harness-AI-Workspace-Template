@@ -1,0 +1,26 @@
+{
+  "scene_id": 408,
+  "frame_name": "frame_016392.jpg",
+  "start_time": 8187.0,
+  "end_time": 8204.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "걸렸는데. 네. 어, 지금 나오고 있습니다. 어, 다섯 게임 다 알아서 이해합니다. 그래서 이제 코딩을 뭐 자세히 알 필요가 없어요. 그냥 아, 그 개념이고 요거 코드는 AI 딸깍해 가지고 시키면 됩니다. 이제 그 큰 그림이 좀 이해가 되셨죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

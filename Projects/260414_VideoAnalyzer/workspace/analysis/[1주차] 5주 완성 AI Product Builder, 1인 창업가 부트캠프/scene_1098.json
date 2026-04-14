@@ -1,0 +1,26 @@
+{
+  "scene_id": 1098,
+  "frame_name": "frame_034416.jpg",
+  "start_time": 17205.5,
+  "end_time": 17210.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "워커는 돈이 듭니다. 아 이게 아마 무제한이 아닐 거예요. 워커는. 그 어느 정도 무료 제공도 있긴 한데 돈이 들어 가지고 페이지수를 해야"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

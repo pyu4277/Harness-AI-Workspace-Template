@@ -1,0 +1,26 @@
+{
+  "scene_id": 1527,
+  "frame_name": "frame_046267.jpg",
+  "start_time": 23123.5,
+  "end_time": 23143.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "서비스 아이디어 같은 경우도 AI한테 맡겨도 좋을까요? 해주셨는데 어네 그 간습니다. AI가 아이디어도 잘 짭니다. 뭐 아이디어가 뭐 완벽하진 않겠지만 아이디어 뭐 그 해 달라고 하면 다 해 줍니다. 그래서 아이디어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

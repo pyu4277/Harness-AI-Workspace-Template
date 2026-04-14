@@ -1,0 +1,26 @@
+{
+  "scene_id": 1491,
+  "frame_name": "frame_045150.jpg",
+  "start_time": 22570.5,
+  "end_time": 22578.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "강아지 싹 입력하면은에 오류가 좀 있는 거 같죠? 어 됐다. 오네 강아지 입력하니까 강아지상"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

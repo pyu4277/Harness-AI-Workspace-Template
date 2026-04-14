@@ -1,0 +1,26 @@
+{
+  "scene_id": 1238,
+  "frame_name": "frame_038919.jpg",
+  "start_time": 19448.5,
+  "end_time": 19469.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "쓰거든요. 그래서 외부 서비스 활용이 너무 당연한 세상이에요. 그래서 개발자 어깨는 그 오픈 소스나 이런 생태가 너무 잘 돼 있는데음 약간 뭐 민도 재밌는 거 하나 보여 드리면 슬라이드를 아마 요거 AI 유행할 때 많이 보셨을 것 같은데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

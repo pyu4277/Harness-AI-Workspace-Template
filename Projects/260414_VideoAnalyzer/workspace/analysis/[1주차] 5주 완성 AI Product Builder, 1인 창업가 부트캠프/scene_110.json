@@ -1,0 +1,26 @@
+{
+  "scene_id": 110,
+  "frame_name": "frame_005509.jpg",
+  "start_time": 2747.5,
+  "end_time": 2760.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 진행해 보도록 하겠습니다. 네. 그래서 뭐 아시는 분들 아시겠지만 제가 구글 CEO 순다피이와 직접 만나서 네, 인터뷰도 했었는데 여기서 순다피이가 했던 말도 되게 인상적이었습니다. AI 시대 어떻게 해야 되냐? 뭐, AI로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 화면공유+웹캠, 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

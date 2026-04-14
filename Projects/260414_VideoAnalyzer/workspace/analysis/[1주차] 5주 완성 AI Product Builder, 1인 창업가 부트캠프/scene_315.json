@@ -1,0 +1,26 @@
+{
+  "scene_id": 315,
+  "frame_name": "frame_014431.jpg",
+  "start_time": 7208.0,
+  "end_time": 7222.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "예. 첫 번째 거 들어가 볼게요. 네. 이렇게 들어갔습니다. 이거 내용이랑 상관없이 그냥 아무거나 들어가시면 됩니다. 그다음에 마우스 우 클릭하고 검사라는 버튼이 있습니다. 네. 검사 딸깍 누르면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

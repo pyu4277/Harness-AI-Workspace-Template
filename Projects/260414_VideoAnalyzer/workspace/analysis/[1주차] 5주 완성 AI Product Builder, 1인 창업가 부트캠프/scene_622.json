@@ -1,0 +1,26 @@
+{
+  "scene_id": 622,
+  "frame_name": "frame_022135.jpg",
+  "start_time": 11054.5,
+  "end_time": 11080.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 거 QR도 넣어 놓을게요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (대본 짧지만 시각 정보 포함)",
+  "importance_rule_version": 1
+}

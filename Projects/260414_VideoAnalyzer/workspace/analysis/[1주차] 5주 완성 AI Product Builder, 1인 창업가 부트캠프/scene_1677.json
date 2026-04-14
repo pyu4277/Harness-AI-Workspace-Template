@@ -1,0 +1,26 @@
+{
+  "scene_id": 1677,
+  "frame_name": "frame_050260.jpg",
+  "start_time": 25120.0,
+  "end_time": 25139.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "저희 이런 동물상 테스트 만들잖아요. 동물상 테스트 만들면 얘도 알아서 통과가 됩니다. 그래서 얘도 바로 광고를 붙일 수가 있어요. 그래서 하나만 통과하면 나머지는이 같은 도메인으로 그냥 추가적인 서비스 붙이면 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

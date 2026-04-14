@@ -1,0 +1,26 @@
+{
+  "scene_id": 138,
+  "frame_name": "frame_006638.jpg",
+  "start_time": 3305.5,
+  "end_time": 3331.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "얼마 남지 않았다. 네. 그래서 시간이 없습니다. 그래서 빨리 배워서이 프로덕을 만들고 성공시키는 거를 지금 해야 됩니다. AGI가 오면 누구나 그냥 딸깍한 번에 모두가 너무 뛰어난게 공경이 되기 때문에 지금 사실 얼마 안 남은 시간 동안 어느 정도의 자산을 축적해 가지고 뭘 그 뭐 자산을 사 놓거나 해야 됩니다. 아니면 이런 돈이 나오는 시스템을 만들어 놔야 됩니다. 안 그러면 AGI 시대에 다 휩쓸려 나갑니다. 그래서 지금도 사실 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

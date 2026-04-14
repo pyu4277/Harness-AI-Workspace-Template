@@ -1,0 +1,26 @@
+{
+  "scene_id": 192,
+  "frame_name": "frame_010654.jpg",
+  "start_time": 5315.0,
+  "end_time": 5338.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거냐? 전반적으로 과정에서이 프론트엔드, 백엔드를 만드는 걸 배울 겁니다. 그래 가지고 뭐 당연히 세부적인 기술도 좀 있겠지만 결국엔 이걸 만들어 가지고 결국에 이거를 인터넷에서 올려 가지고 아이 서버를 누구나 접근할 수 있게 해 가지고 여기서 내 프론트엔드 백엔드를 이용해 가지고 여기에 이제 결제를 추가로 붙이고 결제도 이렇게 처리될 수 있도록 하고 해 가지고 만드는 구조를 5주 동안 구현할 겁니다. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

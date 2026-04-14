@@ -1,0 +1,26 @@
+{
+  "scene_id": 57,
+  "frame_name": "frame_001656.jpg",
+  "start_time": 821.5,
+  "end_time": 833.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가깝습니다. 그래서 이제 중요한 건 말을 더 빠르게 달리게 만드는게 아니라이 거친 말을 어떤 규칙과 절차, 어떤 검증 루프 위에 달리게 할지 설계하는 것이 중요하고 이게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "가깝습니다. 그래서 이제 중요한 건 말을 더 빠르게 달리게 만드는게 아니라이 거친 말을 어떤 규칙과 절차, 어떤 검증 루프 위에 달리게 할지 설계하는 것이 중요하고 이게",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

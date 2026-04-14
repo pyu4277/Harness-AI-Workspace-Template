@@ -1,0 +1,26 @@
+{
+  "scene_id": 406,
+  "frame_name": "frame_016354.jpg",
+  "start_time": 8171.5,
+  "end_time": 8181.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한꺼번에 나오게 바꿔 줄게. 네. 지금 열심히 바꾸고 있습니다. 음, 끊겼네. 다시"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

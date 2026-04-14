@@ -1,0 +1,26 @@
+{
+  "scene_id": 472,
+  "frame_name": "frame_018286.jpg",
+  "start_time": 9133.5,
+  "end_time": 9152.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이용하시면 되는데 그 회원 가입하실 동안 좀 시간이 걸리니까네 소개를 좀 드리도록 하겠습니다. 회사 입력하라고 하는 데는 뭐 가짜로 입력하셔도 됩니다. 그냥 가라로 막 입력하셔도 돼요. 이거는 그냥 가입만 바로 쓸 수 있기 때문에 공짜입니다.데 이걸 왜 쓰냐? 이걸 왜 쓰는지가 가장 중요한데 사실 다른 서비스도 많거든요. 그래서 뭘 쓰던 사실"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

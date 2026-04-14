@@ -1,0 +1,26 @@
+{
+  "scene_id": 1150,
+  "frame_name": "frame_035688.jpg",
+  "start_time": 17813.5,
+  "end_time": 17874.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아니 벌 스펠링이 틀렸는데 벌셀 벌셀은 약간 여기에 가깝죠. 여기에 가깝고 얘는 그냥 정적 웹페이지 배포하는 거. 그래서 벌셀은 이런 넥스트 JS 이런 거 연동이 되게 잘 되잖아요. 그래서 워커랑 비슷하다고 보시면 되고 얘는 돈이 좀 나갑니다. 그래서 무료로 쓰려면 요걸 써야 된다. 속도는 똑같나요? 얘가 훨씬 빠릅니다. 페이지스가 그냥 보내주고 끝이잖아요. 그래서 페이지스가 그 어떤 페이지를 렌더링 그냥 뭐라고지지 정적 웹하기에 제일 표준이고 워커스는 어떤 보통 작업을 처리하기 때문에 좀 느립니다. 그래서 빠르게 하려면 오히려 페이지에서 빨리 딱 HNL 보내기 보내기만 하면 됩니다. 넥스트 JS은 여기 올려야죠. 약간 프레임워크 좀 배우신 분들은 넥지 JS는 여기 올려야 됩니다. 워커스에 몰라도 됩니다. 아 지금 너무 또 되게 개념이이 아시는 분들 뭐 다 대답해드리나 좀 커졌는데 몰라도 되고 사실 핵심. 자 그럼 요약해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

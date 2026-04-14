@@ -1,0 +1,26 @@
+{
+  "scene_id": 1053,
+  "frame_name": "frame_032753.jpg",
+  "start_time": 16369.5,
+  "end_time": 16382.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어플리케이션을 누르신 다음에 자, looking for플loy 페이지라고 돼 있죠. 저희는 워커를 써 버렸는데 아 페이지스를 써야 됩니다. 페이지스가 공짜 그건데. 자 페이지스 눌러 가지고 겟 스타티드를 눌러서 아 이렇게 해야 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

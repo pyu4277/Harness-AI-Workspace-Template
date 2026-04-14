@@ -1,0 +1,26 @@
+{
+  "scene_id": 305,
+  "frame_name": "frame_002881.jpg",
+  "start_time": 1438.5,
+  "end_time": 1441.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대로 개발을 해요. 그냥 내가 기능 이거 개발해 줘. 요청하면은 그거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 (규칙 추가/제거에 시간이 걸린다는 설명, 시각 콘텐츠 없음)",
+  "importance_rule_version": 2
+}

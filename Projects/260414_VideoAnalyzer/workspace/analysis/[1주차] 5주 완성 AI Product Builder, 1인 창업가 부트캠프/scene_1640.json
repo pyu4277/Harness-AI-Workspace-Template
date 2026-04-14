@@ -1,0 +1,26 @@
+{
+  "scene_id": 1640,
+  "frame_name": "frame_049402.jpg",
+  "start_time": 24695.5,
+  "end_time": 24706.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네.요 코드랑 또 뭐 있었죠? 어, 사실이 중에 하나만 해도 될 거 같긴 한데 뭐 다 해 볼게요. 사실 이것도 필요할 수도 있어요. 애드, 텍스트 요것도 혹시 들 모르니까 요것도 그냥"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

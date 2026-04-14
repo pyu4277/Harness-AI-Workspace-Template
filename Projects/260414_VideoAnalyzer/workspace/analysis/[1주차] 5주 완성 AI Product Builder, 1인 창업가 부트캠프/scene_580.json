@@ -1,0 +1,26 @@
+{
+  "scene_id": 580,
+  "frame_name": "frame_020773.jpg",
+  "start_time": 10383.5,
+  "end_time": 10388.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "소개드리면 고급 개발할 때 뭐 할 거냐? 지금 좀 불편하잖아요. 이거 언제 그 메모장으로 열어서 언제 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

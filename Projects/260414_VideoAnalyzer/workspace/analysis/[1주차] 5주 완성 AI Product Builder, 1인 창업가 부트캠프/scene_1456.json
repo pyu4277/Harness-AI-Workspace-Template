@@ -1,0 +1,26 @@
+{
+  "scene_id": 1456,
+  "frame_name": "frame_043730.jpg",
+  "start_time": 21862.0,
+  "end_time": 21867.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "머신이라는 서비스고요. 시작하기 눌러 가지고 네. 새 프로젝트. 저는 이제 이미지 프로젝트를 했습니다. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

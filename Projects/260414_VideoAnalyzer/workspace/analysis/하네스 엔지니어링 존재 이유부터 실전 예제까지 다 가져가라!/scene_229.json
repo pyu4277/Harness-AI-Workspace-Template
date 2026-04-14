@@ -1,0 +1,26 @@
+{
+  "scene_id": 229,
+  "frame_name": "frame_001583.jpg",
+  "start_time": 788.5,
+  "end_time": 794.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "코드가 내가 어떤 거를 실행하기 전에 여러분들이 준 명령어를 실행을 하기 전에이 클로드 MD 파일을 한번 읽고 시작을 합니다. 무조건 얘는 읽고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

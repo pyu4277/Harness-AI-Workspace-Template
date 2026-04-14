@@ -1,0 +1,26 @@
+{
+  "scene_id": 228,
+  "frame_name": "frame_012330.jpg",
+  "start_time": 6151.5,
+  "end_time": 6178.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "설명드렸잖아요. 그래서 이런 민도 있습니다. 그 저는 HTML로 프로그램 다시요 만화를 좀 이해해 보자면 개발자 민 중에 유명한 건데이 살인마가 들어와서도이 개발자분입니다. 개발자분이 숨어 있다가 개발자분을 찾는 방법, 숨어 있는 개발자 찾기 이렇게 말하면 됩니다. 저는 HTML로 프로그래밍 해요라고 하면 개 빡쳐 가지고 HTML은 프로그래밍 언어가 아닙니다라고 말하는 네. 요런 민이 있습니다. 요게 어떤 거냐?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

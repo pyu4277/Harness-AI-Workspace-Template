@@ -1,0 +1,26 @@
+{
+  "scene_id": 574,
+  "frame_name": "frame_020666.jpg",
+  "start_time": 10331.0,
+  "end_time": 10334.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됐어요. 이제 사이트로 들어가 보면 오 아 화이트 모드 추가됐죠. 다크"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

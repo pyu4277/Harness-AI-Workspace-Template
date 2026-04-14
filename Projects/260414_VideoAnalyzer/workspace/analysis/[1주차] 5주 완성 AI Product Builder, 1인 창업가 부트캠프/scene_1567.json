@@ -1,0 +1,26 @@
+{
+  "scene_id": 1567,
+  "frame_name": "frame_047995.jpg",
+  "start_time": 23982.0,
+  "end_time": 24012.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좀 미리 말씀드리자면 에드센스 이제 붙일 건데 이런 경우가 많습니다. 뭐이 가치가 별로 없는 콘텐츠 심사가 좀 빡세요. 에드센스가 좀 안 좋은 점이 깐깐합니다. 그러니까이 사이트가 진짜로 광고를 붙일 만한 좀 좋은 사이트가 맞나를 좀 깐깐하게 봅니다. 그래서 가치가 별로 없는 콘텐츠 혹은 뭐 콘텐츠 없음 뭐 이런 걸로 거부를 당하거든요. 그래서이 심사를 통과를 해야 된다라고 좀 소개를 드리는데 근데 예전에는 이게 너무 어려워 가지고 아이 에드센스 통과하기가 너무 어렵네라고 생각이 들어서 애드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

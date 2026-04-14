@@ -1,0 +1,35 @@
+{
+  "scene_id": 1070,
+  "frame_name": "frame_032955.jpg",
+  "start_time": 16471.0,
+  "end_time": 16483.0,
+  "visual_analysis": {
+    "layout": "브라우저 웹앱 프리뷰 + 우측 웹캠/채팅 - Lotto Number Generator",
+    "elements": [
+      "Lotto Number Generator 제목",
+      "파란 번호 공: 12, 16, 21, 25, 33, 43",
+      "Generate Numbers 버튼 (초록)",
+      "깔끔한 카드 UI"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Lotto Number Generator",
+      "완성 웹앱 데모",
+      "AI 코딩 결과물"
+    ],
+    "summary": "여기 비짓 들어가 보시면 이렇게 지금 로또 버 생성기가 이렇게 나온 걸 볼 수가 있죠. 자, 여기까지 되셨으면 네. 이제 자 진짜 끝난 겁니다. 이제는 수정하는 거 보여 드릴게요. 여기까지 되신 다음에 어떻게 수정하면 되는지 보여 드리면 자, 여기서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Lotto Number Generator 완성 웹앱: 파란 원형 번호 6개 + Generate Numbers 버튼. 깔끔한 카드 UI 디자인",
+    "text_only_info": "AI가 생성한 로또 번호 생성기 완성 결과",
+    "combined_insight": "AI 코딩 결과물: ChatGPT/Gemini로 만든 Lotto Number Generator 완성 웹앱 데모"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: AI 코딩으로 완성된 Lotto Number Generator 웹앱 데모",
+  "importance_rule_version": 2
+}

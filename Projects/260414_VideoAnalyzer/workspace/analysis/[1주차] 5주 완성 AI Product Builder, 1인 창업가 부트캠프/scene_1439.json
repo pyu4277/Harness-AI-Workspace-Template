@@ -1,0 +1,26 @@
+{
+  "scene_id": 1439,
+  "frame_name": "frame_043286.jpg",
+  "start_time": 21641.0,
+  "end_time": 21644.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "초음마입니다. 네. 좋습니다. 미움 미운 미음. 이렇게 남겨 주신게 어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 800,
+  "frame_name": "frame_027522.jpg",
+  "start_time": 13749.0,
+  "end_time": 13772.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있죠? 두 번째 오픈 AI 코덱스 CLI 얘도 마찬가지입니다. 얘도 똑같이 하면 되는데 아 크롬으로 들어간 상태에서 그 로그인 버튼이 아마 뜨실 겁니다. 크롬에 구글 로그인을 진행하시면 돼요. 그 재미나이는 네. 로컬 아이디에서도 똑같이 됩니다. 로컬 아이디에서도 혹시 진행하실 분들은 똑같이 하면 되는데 근데 요거는 또 로컬에 사시는 분들을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

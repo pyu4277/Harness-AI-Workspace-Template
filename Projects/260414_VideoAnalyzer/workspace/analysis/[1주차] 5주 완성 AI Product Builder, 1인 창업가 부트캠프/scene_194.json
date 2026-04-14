@@ -1,0 +1,26 @@
+{
+  "scene_id": 194,
+  "frame_name": "frame_010716.jpg",
+  "start_time": 5343.5,
+  "end_time": 5372.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그니까 이것만 만들면은 이거 만들어 가지고 그냥 돈을 안 받는다 하면 자선 사업이잖아요. 이거 해서 뭐예요?이 프론트 백에드 열심히 만들어 가지고 막 개발 해가지고 만들어 놨는데 돈을 안 받는다 하면은 서버의 비용이 나갑니다. 그 서버비 이런 말 좀 들어 보셨죠? 서버의 비용이 또 돌리면 나오는데 이런 비용을 만약 돈을 안 붙이면 물론 공짜로도 일부 쓸 수 있는게 상당 부분이 있긴 한데 근데 돈을 받아야 실제로 내가 돈을 벌 수 있는 어떤 서비스가 되잖아요. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

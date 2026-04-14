@@ -1,0 +1,26 @@
+{
+  "scene_id": 1761,
+  "frame_name": "frame_051886.jpg",
+  "start_time": 25941.0,
+  "end_time": 25944.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "AI. AI 어디어? 요거 클라우드 플레이어에 요거 저희 배포한 거에 동물상 테스트 하나 붙여 놨잖아요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

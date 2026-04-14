@@ -1,0 +1,26 @@
+{
+  "scene_id": 595,
+  "frame_name": "frame_021068.jpg",
+  "start_time": 10531.0,
+  "end_time": 10536.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런 네. 뭐 그걸 봤는데 이것도 봐봐. 의미는 있죠. 음."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

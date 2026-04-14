@@ -1,0 +1,26 @@
+{
+  "scene_id": 1630,
+  "frame_name": "frame_049154.jpg",
+  "start_time": 24571.0,
+  "end_time": 24582.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보겠습니다. 네. 구글 에드센스 접속하신 다음에 사이트로 들어가 줍니다. 왼쪽 메뉴 중에 사이트 들어가 주신 다음에 이제 새 사이트를 추가를 해 주겠습니다. 여기 새 사이트 딸깍 눌러 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

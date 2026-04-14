@@ -1,0 +1,26 @@
+{
+  "scene_id": 713,
+  "frame_name": "frame_025070.jpg",
+  "start_time": 12529.5,
+  "end_time": 12540.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "분들은 미래에 보시는 분들을 위해서 잠깐 소개해 드리면 어, 저희가 코파일러도 가입 아, 코파일러 그 기터브도 가입했잖아요. 기터브 코드 스페이스라는 것도 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

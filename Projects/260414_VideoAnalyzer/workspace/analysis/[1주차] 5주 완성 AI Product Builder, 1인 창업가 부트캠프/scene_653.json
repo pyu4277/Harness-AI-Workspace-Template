@@ -1,0 +1,26 @@
+{
+  "scene_id": 653,
+  "frame_name": "frame_023115.jpg",
+  "start_time": 11553.5,
+  "end_time": 11560.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "했었죠. 어디냐? 메모장과치피 이용해서 네. 오직 상남자들의 코딩처럼"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

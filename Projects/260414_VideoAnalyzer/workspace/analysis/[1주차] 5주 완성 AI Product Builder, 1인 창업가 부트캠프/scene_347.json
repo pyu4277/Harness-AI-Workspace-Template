@@ -1,0 +1,26 @@
+{
+  "scene_id": 347,
+  "frame_name": "frame_015094.jpg",
+  "start_time": 7537.0,
+  "end_time": 7556.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보니까 뭐 이런 요. CSS 이즈 어섬 해 가지고 아 이거 CSS는 정말 대단해라고 하지만이 박스를 지금 어썸이 벗어났죠. 네. 그 정도로 이제 뭔가 CSS로 원래는 이제 뭐 가운데 정렬하거나이 맞추거나 박스 안에 넣거나 하는게 좀 어려웠어요. 왜냐면 아시 지금 보시면 아시겠지만 좀 복잡하잖아요. 약간 아 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

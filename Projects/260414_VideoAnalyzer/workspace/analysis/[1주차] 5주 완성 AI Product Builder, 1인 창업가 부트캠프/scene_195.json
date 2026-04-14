@@ -1,0 +1,26 @@
+{
+  "scene_id": 195,
+  "frame_name": "frame_010795.jpg",
+  "start_time": 5372.0,
+  "end_time": 5422.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "서비스가 되잖아요. 그래서 광고를 붙일 겁니다. 그래서 오늘 광고 붙이는 것까지 진행을 할 건데 구글 에드센스 광고를 붙이고 사람들이 내 사이트에 접속했을 때 광고를 보고 내가 돈을 받아갈 수 있게 구조를 만들 거고요. 그리고 결제도 붙일 겁니다. 폴라고 MOR이라는 어떤 그 플랫폼 통해서 사실 결제 대행해 주는 거예요. 그래서 폴라라는 곳에서 대칭 결제 받아주고 우리한테 떨어진 돈이 수수료 떼고 나눠주고 이런 구조인데 아무튼 글로벌 결제를 받을 겁니다. 네. 그리고 스트라이도 이제 미국 법인 그쪽에서 설명을 드릴 텐데 그래 스트라이프도 붙여서 돈 받는 방법 이렇게 소개를 드리면서 이제 프론트 백엔드 만들고 거기에 광고도 붙이고 결제 로직도 붙이고 해서 일어날 수 있는 어떤 서비스를 만든다라고 생각하시면 좀 전체적인 큰 그림에서 이해가 되실 겁니다. 좀 아시겠나요? 그래서 모든 서비스가 다 이런 구조로 돼 있습니다. 그래서 모든 서비스가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

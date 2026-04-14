@@ -1,0 +1,26 @@
+{
+  "scene_id": 283,
+  "frame_name": "frame_013889.jpg",
+  "start_time": 6936.5,
+  "end_time": 6952.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "설명드리기 위해서 이렇게 한 거고. 자, 이게 그럼 HTML 코드가 인터넷 웹사이트가 요렇게 완성이 된다라고 이해할 수가 있겠죠. 근데 여기서 이제 놀라운게 나옵니다. GPT. 네. 여러분, 채 GPT는 한 번쯤 써 보셨을 것 같은데 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

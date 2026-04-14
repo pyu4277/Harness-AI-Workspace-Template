@@ -1,0 +1,26 @@
+{
+  "scene_id": 1554,
+  "frame_name": "frame_047614.jpg",
+  "start_time": 23795.5,
+  "end_time": 23817.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "2015년 광고 매출 이런 거 검색해 보면 어 뭐야? 오. 와. 이렇게. 네. 2천 야. 2 1124억 달러래요. 야, 이거에 이제 1분기부터 3분기까지 누적 매출이. 그러니까 이렇게 수수료 받아가는 돈이 이렇게 큰 겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

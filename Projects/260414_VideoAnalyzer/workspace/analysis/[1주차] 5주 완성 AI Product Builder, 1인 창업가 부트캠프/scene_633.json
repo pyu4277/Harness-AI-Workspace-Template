@@ -1,0 +1,26 @@
+{
+  "scene_id": 633,
+  "frame_name": "frame_022586.jpg",
+  "start_time": 11276.5,
+  "end_time": 11309.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아무튼 이렇게 하실 수 있으니까요. 다 그 바이브 코딩 하시면은 사실 이게 뭐 디테일을 알 필요가 없습니다. 네. 그냥 이렇게 시키게만 하면 되니까. 네. 많은 참여 부탁드리겠습니다. 아, 이분도 들어야겠다. 이분이 번호가 아, 이거 되게 불편하겠네요. 82번으로 응무해 주셨고. 네. 이런 식으로 뽑아 가지고 해야겠다. 82번. 네. 한 다섯 분 드릴게요. 음. 오. 야, 이분도 네. 그 다시"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

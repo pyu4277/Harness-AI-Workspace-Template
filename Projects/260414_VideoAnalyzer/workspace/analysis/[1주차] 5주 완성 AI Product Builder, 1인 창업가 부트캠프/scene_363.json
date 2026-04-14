@@ -1,0 +1,26 @@
+{
+  "scene_id": 363,
+  "frame_name": "frame_015519.jpg",
+  "start_time": 7754.0,
+  "end_time": 7764.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좋을 것 같습니다. 인도 인도네시아도 인도 앞에 붙었고 인도 네시아도 붙었는데 다르잖아요. 그런 것처럼 완전히 다르다라고 이해하시면 좋을 것 같습니다. 네. 그럼 여기까지 이해하시면 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

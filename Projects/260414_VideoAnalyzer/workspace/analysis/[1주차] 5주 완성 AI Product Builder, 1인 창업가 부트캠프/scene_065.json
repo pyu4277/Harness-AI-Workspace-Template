@@ -1,0 +1,26 @@
+{
+  "scene_id": 65,
+  "frame_name": "frame_003586.jpg",
+  "start_time": 1791.0,
+  "end_time": 1794.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어떤 느낌이냐? 요렇게 스택 오브 플로우 코드를 복사에다가 내 코드에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

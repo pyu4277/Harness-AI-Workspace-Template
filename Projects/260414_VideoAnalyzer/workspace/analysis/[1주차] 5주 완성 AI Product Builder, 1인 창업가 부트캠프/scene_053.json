@@ -1,0 +1,26 @@
+{
+  "scene_id": 53,
+  "frame_name": "frame_002873.jpg",
+  "start_time": 1422.5,
+  "end_time": 1449.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 머지 않은 거 같습니다. 네. 근데 이게 또 명확한게 스케일링의 법칙이라고 해서 요즘에 그 많이 AI 발 AI 소식들이 워낙 핫해지면서 많이 들어보신 분들 있으실 겁니다. 뭐 컴퓨팅 파워가 좋아지고 뭐 데이터 센터 이런 거 많이 짓는다. 뭐 엔비디아 주가가 오른다. 이런 얘기 많이 들어 보셨잖아요. 이런 컴퓨팅 파워를 늘리고 데이터 사이즈도 늘리고 뭐 파라비터도 늘리고 하다 보면 AI가 점점 좋아지는 법칙이 아직도 통하고 있다고 합니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

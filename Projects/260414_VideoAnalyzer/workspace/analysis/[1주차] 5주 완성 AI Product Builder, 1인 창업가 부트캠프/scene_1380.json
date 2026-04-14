@@ -1,0 +1,26 @@
+{
+  "scene_id": 1380,
+  "frame_name": "frame_042240.jpg",
+  "start_time": 21093.5,
+  "end_time": 21146.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "지금. 뭐지? 껐다 켜 보겠습니다. 음. 네. 그냥 예. 예스만 눌러 주면 됩니다. 시켜 놓고 그냥 뭐 물어보면 답변해 주고 예. 예. 누르면 됩니다. 음. 아, 요거 요거 끄셔도 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

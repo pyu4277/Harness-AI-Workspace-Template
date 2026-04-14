@@ -1,0 +1,26 @@
+{
+  "scene_id": 44,
+  "frame_name": "frame_000266.jpg",
+  "start_time": 131.0,
+  "end_time": 134.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "히스토리를 알아야 잘하더라라는 거예요. 우리가 어떤 신입 사원보다 그래도 뭐 6개월 정도 일한 인턴이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

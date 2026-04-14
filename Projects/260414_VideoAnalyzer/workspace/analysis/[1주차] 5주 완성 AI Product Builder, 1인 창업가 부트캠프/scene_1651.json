@@ -1,0 +1,26 @@
+{
+  "scene_id": 1651,
+  "frame_name": "frame_049748.jpg",
+  "start_time": 24871.0,
+  "end_time": 24876.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 추가가 됐으니까 여기서 어, 코드 삽입했습니다. 클릭하고 확인을 누르면 되겠죠? 사이트 확인. 어,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

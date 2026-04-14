@@ -1,0 +1,26 @@
+{
+  "scene_id": 1656,
+  "frame_name": "frame_049803.jpg",
+  "start_time": 24897.5,
+  "end_time": 24905.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보셨죠? 여기에 보면은 아까 뭐 헤드에 어디 추가한다 이런 거 있었는데 여기 보면은 구글 어 아 새로 고침을 하면 생기겠죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

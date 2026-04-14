@@ -1,0 +1,26 @@
+{
+  "scene_id": 715,
+  "frame_name": "frame_025091.jpg",
+  "start_time": 12543.5,
+  "end_time": 12547.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "혹시나 이게 구글이 서비스를 접었다 할 수도 있을 것 같아서 서비스 접은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

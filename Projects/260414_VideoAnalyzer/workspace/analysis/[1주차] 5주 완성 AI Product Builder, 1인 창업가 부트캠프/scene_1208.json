@@ -1,0 +1,26 @@
+{
+  "scene_id": 1208,
+  "frame_name": "frame_037687.jpg",
+  "start_time": 18840.5,
+  "end_time": 18846.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "올라온 이미지라면 사실 여기 주소가 있잖아요. 이미지 주소 복사를 할 수가 있습니다. 그래서 이런 거 주소 복사해 가지고 요게 이제 여기 안에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

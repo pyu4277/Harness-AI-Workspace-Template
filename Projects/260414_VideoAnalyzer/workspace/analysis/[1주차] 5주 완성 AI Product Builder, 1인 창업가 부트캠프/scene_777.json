@@ -1,0 +1,26 @@
+{
+  "scene_id": 777,
+  "frame_name": "frame_026903.jpg",
+  "start_time": 13448.0,
+  "end_time": 13454.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐였지라고 까먹었거든요. 근데 어떻게 하면 되냐? 재미나이. 어 아 다시 까먹었는데 이런 거를이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

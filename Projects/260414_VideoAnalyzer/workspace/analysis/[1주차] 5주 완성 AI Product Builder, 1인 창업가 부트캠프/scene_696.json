@@ -1,0 +1,26 @@
+{
+  "scene_id": 696,
+  "frame_name": "frame_024541.jpg",
+  "start_time": 12263.5,
+  "end_time": 12277.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아 오른쪽에 이런 내용은 이건 제가 만든 거기 때문에 그렇고요. 이건 제가 만든 거고 네. 그냥 메인 페이지가 요렇게 생겼다라고 하시면 되겠습니다. 네, 맞아요. 컴파일 이런 것도 서버에서 하고 다 할 수가 있습니다. 여기서. 네. 아, 근데 디폴트가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 273,
+  "frame_name": "frame_002440.jpg",
+  "start_time": 1217.5,
+  "end_time": 1222.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "워크트리에서 구현을 하고 있습니다. 그래서 코드가 워크트리 환경에서 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

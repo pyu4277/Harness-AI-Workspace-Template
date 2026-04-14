@@ -1,0 +1,26 @@
+{
+  "scene_id": 46,
+  "frame_name": "frame_002465.jpg",
+  "start_time": 1223.5,
+  "end_time": 1241.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "드리면 그 아마 코딩하시는 분들은 한 번쯤 들어 보셨을 것 같습니다. 네. 국제 대학생 프로그래밍 대회 ICPC라는 대회가 있습니다. 여기에는 진짜 뭐 네로라는 엄청 천재 그 프로그래머들이 다 코딩 그 문제를 풀이하는 그런 국제 대학생 프로그래밍 대회입니다. 네. 그래서 문제가 막"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

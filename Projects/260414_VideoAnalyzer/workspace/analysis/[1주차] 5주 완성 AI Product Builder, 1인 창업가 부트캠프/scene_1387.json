@@ -1,0 +1,26 @@
+{
+  "scene_id": 1387,
+  "frame_name": "frame_042440.jpg",
+  "start_time": 21211.0,
+  "end_time": 21228.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어, 안 됐네. 어, 그럼 다시 깃 푸시 진행해. 아, 터미널 창셨다 하시는 분들은 요거 딸깍 눌러서 터미널 뉴 터미널 요걸로 여시면 됩니다. 그럼 요렇게 새로 열립니다. 그래서 여기에 재미나"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

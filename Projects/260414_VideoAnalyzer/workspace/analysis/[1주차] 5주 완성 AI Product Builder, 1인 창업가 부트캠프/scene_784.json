@@ -1,0 +1,26 @@
+{
+  "scene_id": 784,
+  "frame_name": "frame_027024.jpg",
+  "start_time": 13490.0,
+  "end_time": 13533.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 입력해 보겠습니다. 여기에 재미나이 입력하고 직접 입력해도 됩니다. 재미나이 입력하고 엔터 누르면 오네 재미나의 CLI를 쓰시겠습니까? 예스 어 커네. 얘는 파이어베이스 스튜디오에 쓰기 때문에 요런게 떴어요. 연결하시겠습니까? 이제 연결하고요. 네. 그다음에 이제 로그인을 해야 이제 좀 사용량이 기본 무료 사용량이 꽤 있거든요. 그래서 로그인을 해 주겠습니다. 로그인드 구글이라고 돼 있는 거에서 엔터를 누르시면 됩니다. 엔터 누르시면 네, 구글 로그인 할 수 있게 뜹니다. 어 그러면 어, 이거 위험한데. 아,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

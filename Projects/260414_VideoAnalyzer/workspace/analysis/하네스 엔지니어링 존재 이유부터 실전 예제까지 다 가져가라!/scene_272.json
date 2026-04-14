@@ -1,0 +1,26 @@
+{
+  "scene_id": 272,
+  "frame_name": "frame_002430.jpg",
+  "start_time": 1211.5,
+  "end_time": 1217.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "예정입니다. 그래서 계획이 끝나서 요렇게 계획 문서들이 나와 있는 상황이고요. 그리고 이제 코드를 워크트리에서 구현을 하고 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

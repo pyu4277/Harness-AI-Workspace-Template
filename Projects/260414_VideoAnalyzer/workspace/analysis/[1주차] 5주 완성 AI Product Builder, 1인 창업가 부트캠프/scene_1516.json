@@ -1,0 +1,26 @@
+{
+  "scene_id": 1516,
+  "frame_name": "frame_046147.jpg",
+  "start_time": 23069.5,
+  "end_time": 23076.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "파이어베이스 스튜디오를 썼습니다. 네. 이게 언제까지 존속될지는 모릅니다. 네. 그래서 지금 라이브로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

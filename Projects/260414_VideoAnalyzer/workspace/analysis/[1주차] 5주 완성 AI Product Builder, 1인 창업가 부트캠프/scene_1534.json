@@ -1,0 +1,26 @@
+{
+  "scene_id": 1534,
+  "frame_name": "frame_046838.jpg",
+  "start_time": 23415.0,
+  "end_time": 23422.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "서비스도 있습니다. 생각해 보니까 이거 굳이 이렇게 안 써도 그 레플릿 아마이 이전에 조코딩 채널에서도 소개했었는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

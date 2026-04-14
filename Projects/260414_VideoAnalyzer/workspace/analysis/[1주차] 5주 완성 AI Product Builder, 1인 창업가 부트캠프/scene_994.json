@@ -1,0 +1,26 @@
+{
+  "scene_id": 994,
+  "frame_name": "frame_031394.jpg",
+  "start_time": 15686.5,
+  "end_time": 15707.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "주셨어요, 지금. 그 이분이 여기요 꿀 정보를 주셨습니다. 요렇게 해결 방법. 어, 연필 모양 체인지 어카운트 서브. 어, 요걸 하면 된다고 합니다. 혹시 여기서 막혔다 하시는 분들은 요거 하시면 될 거 같습니다. 어, 감사합니다. 어, 좋은 꿀팁 주셨습니다. 네. 요거 한번 등록해 놓을게요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

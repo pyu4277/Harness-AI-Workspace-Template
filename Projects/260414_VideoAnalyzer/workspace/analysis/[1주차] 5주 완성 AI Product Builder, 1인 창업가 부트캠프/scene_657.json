@@ -1,0 +1,26 @@
+{
+  "scene_id": 657,
+  "frame_name": "frame_023243.jpg",
+  "start_time": 11610.0,
+  "end_time": 11632.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아 그 질문들 중에 뭐 일부는 약간 이런 거 있잖아요. 여기 보시면은음 배포한 거 마음에 안 드는데 지우는 방법 있을까요? 요거를 최치피티한테 클라우드 플레이어 지금까지 했던 거랑 그 지우는 방법 얘기해 줘라고 하면 알려줍니다. 그래서 웬만한 질문들은 채치피티가 다 해결해 주니까 네. 요런 거 참고하셔서 혹시 뭔가 간단한 거 있으면은 그 채치피티한테 물러 보시면 그냥 다 알려줄 겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

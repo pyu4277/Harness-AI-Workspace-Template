@@ -1,0 +1,26 @@
+{
+  "scene_id": 343,
+  "frame_name": "frame_014968.jpg",
+  "start_time": 7476.5,
+  "end_time": 7491.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가지고 브라우저로 표현했으면 요거를 이제 CSS라는 문법을 통해서 H1 클래스는 색깔 컬러를 레드로 바꿔라고 이런 코드를 입력하면 요게 동작해 가지고 이렇게 실제로 수행이 됩니다. 이렇게 수행이 되죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

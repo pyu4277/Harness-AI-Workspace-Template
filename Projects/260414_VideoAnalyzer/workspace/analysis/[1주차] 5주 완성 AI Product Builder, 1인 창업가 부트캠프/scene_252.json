@@ -1,0 +1,26 @@
+{
+  "scene_id": 252,
+  "frame_name": "frame_012902.jpg",
+  "start_time": 6446.0,
+  "end_time": 6455.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기 보기가 있습니다. 여기 옵션 들어가시면 렇게 열리는데 보기에서 알려진 파일 형식의 확 파일 확장면 숨기기 요거가 해제돼 있어야 됩니다. 해제하고 확인을 누르셔야 이제 요런"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

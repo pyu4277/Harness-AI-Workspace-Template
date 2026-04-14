@@ -1,0 +1,26 @@
+{
+  "scene_id": 1067,
+  "frame_name": "frame_032913.jpg",
+  "start_time": 16454.5,
+  "end_time": 16457.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하면서 얘가 자동으로 그 클라우드 플레이어 페이지스와 연동이 돼 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

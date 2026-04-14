@@ -1,0 +1,26 @@
+{
+  "scene_id": 182,
+  "frame_name": "frame_009929.jpg",
+  "start_time": 4961.5,
+  "end_time": 4966.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한번 보면 알파벳 연매출 490조원. 야씨. 네. 여러분들 이제 이번 강의를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

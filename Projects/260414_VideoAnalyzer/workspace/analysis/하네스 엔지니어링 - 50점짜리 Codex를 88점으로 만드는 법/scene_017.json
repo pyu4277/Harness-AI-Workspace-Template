@@ -1,0 +1,26 @@
+{
+  "scene_id": 17,
+  "frame_name": "frame_000802.jpg",
+  "start_time": 393.0,
+  "end_time": 408.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다만 여러분들이 파일 이름을 어떻게 설정하냐에 따라서 시스템적으로이 시스템 속에 있는 에이전트한테 지시 사항을 자동으로 전달할 수 있습니다. 대표적으로론 에이전트.md, 플랜스.md,스.md가 md가 있습니다. 먼저"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "다만 여러분들이 파일 이름을 어떻게 설정하냐에 따라서 시스템적으로이 시스템 속에 있는 에이전트한테 지시 사항을 자동으로 전달할 수 있습니다. 대표적으로론 에이전트.md, 플랜스.md,스.md가 md가 있습니다. 먼저",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

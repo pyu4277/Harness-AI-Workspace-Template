@@ -1,0 +1,26 @@
+{
+  "scene_id": 926,
+  "frame_name": "frame_029982.jpg",
+  "start_time": 14981.0,
+  "end_time": 15000.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "포스토리 중에 저는 플러드 빌더 레처 요거죠. 네. 요거를 이렇게 들어오시면 되겠습니다. 중앙과 우측 하단의 입력 폼은 어떻게 생각하면 되나요? 어, 터미널 폼을 이용하는 건가요? 어떤 거죠? 입력폼 중앙과 우측하다. 요건가요? 요게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 797,
+  "frame_name": "frame_027452.jpg",
+  "start_time": 13709.5,
+  "end_time": 13741.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "터미널 뉴 터미널 하면은 요렇게 새로 열립니다. 그래서 여기서 제미나이 로그인하시려면 제미나이 딸깍 하면은 재미나이가 열립니다.데 이게 클로드 코드나 뭐 오픈에 코덱스나 마찬가지입니다. 똑같이 진행하시면 됩니다. 요렇게 진행하시면 돼요. 그래서 오픈 AI 구독하시는 분들 좀 많을테니까 그것도 보여 드릴까요? 이게 혹시 이거 세팅하시는 김에 혹시나 나는 아 나는 오픈해야 유료 구독자다 하시는 분들 있을 것 같아서 나는 오픈해야 채치비T 유료 구독하니까 이걸 해 봐야겠다 하시는 분들은 자 이것도 보여 드릴게요. 세팅이 가장 또 어려운 거 하고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

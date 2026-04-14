@@ -1,0 +1,26 @@
+{
+  "scene_id": 45,
+  "frame_name": "frame_002394.jpg",
+  "start_time": 1170.0,
+  "end_time": 1223.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됐고요. 실제로 그런 시대가 오고 있습니다. 아마 조코딩 채널 혹은 뭐 다른 제 채널을 안 보시는 분들이라도 뭐 AI 뉴스 보다 보면은 항상 뭐 오픈 AI에서 무슨 모델 나왔고 뭐 구글에서 재미난 아이가 새로 나왔고 뭐 나왔고 뭐 나왔고 하면서 서로 경쟁을 어마어마하게 하면서 AI가 빠르게 발전하고 있다는 거는 자 모두가 느끼고 계실 것 같습니다. 네. 그리고 완전 업계를 떠나 계신 분들도 AI가 요즘 이런 것까지 돼 하고 놀라신 분들 많을 텐데. 네. 어떤 기업이든 뭐 기업이 중요한게 아니라 모든 이제이 세상의 모든 테크 기업들은 지금 다 AI 기업이 되고 심지어 이런 모델 만드는 기업들은 진짜 치열하게 경쟁하면서 계속 AI 성능을 끌어 올리고 있습니다. 네. 그래서 어마어마하게 빠르게 AI가 좋아지고 있는데 뭐 대표적으로 이제 그 저는 조코딩 코딩 채널이다 보니까 코딩이 얼마나 빨리 발전했나를 중심으로 좀 보도록 하겠습니다. 그래서 대표적인 사례를 하나 보여 드리면 그 아마 코딩하시는 분들은 한"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

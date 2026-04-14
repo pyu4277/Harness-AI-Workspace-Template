@@ -1,0 +1,26 @@
+{
+  "scene_id": 1626,
+  "frame_name": "frame_049027.jpg",
+  "start_time": 24508.5,
+  "end_time": 24517.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "분은 지금 벌 컬러 검색하면 1등으로 나옵니다. 그 나무 있게 다음으로. 네. 그래 가지고 엄청나죠. 1억번 개발자. 야씨. 아무튼 이분도 메일 주시고. 네. 그래서 구독자분들도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

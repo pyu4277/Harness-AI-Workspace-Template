@@ -1,0 +1,26 @@
+{
+  "scene_id": 282,
+  "frame_name": "frame_013825.jpg",
+  "start_time": 6887.5,
+  "end_time": 6936.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "실행이 돼서 실제로 H1 안녕에 해당하는게 요렇게 표시가 됐습니다. 와, 크롬이 뭐예요도? 크롬은요 인터넷 들어가는 창입니다. 그래서 인터넷 접속할 때 쓰는 건데 네, 요렇게 쓰시면 됩니다. 자, 그다음에 그 진짜 어려운 거 하나 해 볼게요. 예, 이거는 안 따라하셔도 됩니다. 그냥 보시면 됩니다. 버튼 하나 만들어 볼게요. 눌러 줘. 오케이. 네. 이렇게 버튼이라는 태그를 쓰면 얘는 HTML 문법을 쓰는 거니까 얘를 저장하면 놀랍게도 얘를 새로 고침하면 이렇게 뭘 눌러줘라는 버튼이 생깁니다. 딸깍딸깍 눌리죠. 네. 요렇게 이제 HTML이 동작한다라고 이해하실 수가 있겠습니다. 네. 근데 이제 사람이 이렇게 코딩하는 시대 지났습니다. 요거 안 하셔도 됩니다. 여기까지 그냥 개념을 설명드리기 위해서 이렇게 한 거고."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

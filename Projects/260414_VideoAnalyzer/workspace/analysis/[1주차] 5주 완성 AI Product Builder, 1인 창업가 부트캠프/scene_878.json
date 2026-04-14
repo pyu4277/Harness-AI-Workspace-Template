@@ -1,0 +1,26 @@
+{
+  "scene_id": 878,
+  "frame_name": "frame_028819.jpg",
+  "start_time": 14406.0,
+  "end_time": 14412.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어렵기 때문에. 근데 3, 4 세팅을 모두 완료했습니다. 그래서 요걸로 제가 등록을 해 놓게요. 예."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

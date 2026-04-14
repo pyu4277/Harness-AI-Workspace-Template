@@ -1,0 +1,26 @@
+{
+  "scene_id": 450,
+  "frame_name": "frame_017837.jpg",
+  "start_time": 8916.5,
+  "end_time": 8920.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐 하는 거냐? 쉽게 말해서 요거 하는 데입니다.이 24시간 켜 놓는데. 네. 그래서 요거 요런 거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

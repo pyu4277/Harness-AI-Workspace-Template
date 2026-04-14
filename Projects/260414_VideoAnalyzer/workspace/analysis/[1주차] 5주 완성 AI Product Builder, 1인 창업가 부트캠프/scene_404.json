@@ -1,0 +1,26 @@
+{
+  "scene_id": 404,
+  "frame_name": "frame_016318.jpg",
+  "start_time": 8149.0,
+  "end_time": 8168.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런 식으로 한글로 지금 이렇게 한글로네 아들 수정해 줘 수정해 줘라고 좀 더 구체적으로 써 보겠습니다. 요런 식으로 이렇게 한글로 써 가지고 딸깍 누르면은 네. 이게 말을 대충 말해도 이해합니다. 요즘 AI 똑똑해져 가지고 대충 말해도 이해합니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

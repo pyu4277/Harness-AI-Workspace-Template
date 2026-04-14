@@ -1,0 +1,26 @@
+{
+  "scene_id": 46,
+  "frame_name": "frame_001407.jpg",
+  "start_time": 693.0,
+  "end_time": 713.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "봤습니다. 그래서 평가된 그 결과를 먼저 보시면 기능 완성도의 경우 하네스 엔지니어링이 적용된 코드는 17점 그리고 적용되지 않은 코드는 14점이 나왔습니다. 그리고 데이터의 품질과 정규화 과정에서는 18대 12. 그리고 UI는 오히려 하네스 엔지니어링이 없는 코드가 더 좋았다고 평가하고 있습니다. 이런 식으로 쭉"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "봤습니다. 그래서 평가된 그 결과를 먼저 보시면 기능 완성도의 경우 하네스 엔지니어링이 적용된 코드는 17점 그리고 적용되지 않은 코드는 14점이 나왔습니다. 그리고 데이터의 품질과 정규화 과정에서는 18대 12. 그리고 UI는 오히려 하네스 엔지니어링이 없는 코드가 더 좋았다고 평가하고 있습니다. 이런 식으로 쭉",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

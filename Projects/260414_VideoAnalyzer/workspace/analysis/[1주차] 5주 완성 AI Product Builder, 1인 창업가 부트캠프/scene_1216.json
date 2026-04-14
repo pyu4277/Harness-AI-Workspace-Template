@@ -1,0 +1,26 @@
+{
+  "scene_id": 1216,
+  "frame_name": "frame_037871.jpg",
+  "start_time": 18909.0,
+  "end_time": 18961.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "나오는요 골뱅이 있잖아요. 요걸로 이렇게 파일 연결을 할 수가 있거든요. 어유, 가끔 렉 걸리던데. 이렇게. 아, 샷. 자, 골뱅이 피자. 어, 네. 어. 파일 연결이 잘 안 되네. 아, 근데 알아서 해 주긴 합니다. 이거 대충 말해도 알아먹어서 그 피자 이미지 올려둔 거 반영해서 보여 주도록 해. 어, 추천. 자, 좀 논리적으로 써 볼게요. 추첨기에서 피자를 선택하면 피자 이미지가 올려둔 거. 이거 반영해서 보여 주도록 해. 사실 좀 말도 이상하게 썼는데 이것도 알아먹습니다. 알아서 해도 그냥 알아서 딸깍하면 알아먹어요. 네. 그럼 리드 폴더 알아서 읽으면서요 피자 이미지 찾았습니다 아마. 네. 찾아 가지고 네. 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

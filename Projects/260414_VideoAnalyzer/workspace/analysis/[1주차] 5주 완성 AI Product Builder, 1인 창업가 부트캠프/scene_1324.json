@@ -1,0 +1,26 @@
+{
+  "scene_id": 1324,
+  "frame_name": "frame_040794.jpg",
+  "start_time": 20385.5,
+  "end_time": 20407.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됩니다. 네. 그냥 배포해라고 하니까 알아서 다 읽고 확인하고 네. 로직 확인하고 네. 기 그 리스트 보고 배포하는 것까지 다 진행이 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

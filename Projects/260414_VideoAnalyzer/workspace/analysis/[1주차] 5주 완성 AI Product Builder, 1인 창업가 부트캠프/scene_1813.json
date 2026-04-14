@@ -1,0 +1,26 @@
+{
+  "scene_id": 1813,
+  "frame_name": "frame_053266.jpg",
+  "start_time": 26629.5,
+  "end_time": 26635.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 링크딘도 뭐 몇몇 명이더라? 네. 한 35,000명 있는데 이거 누르면 35,000명한테 보여지거든요. 그래서 본인 사이트 홍보도 하시고 공보했다라 인증도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

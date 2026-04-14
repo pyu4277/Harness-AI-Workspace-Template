@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python pipeline/*)",
+      "Bash(pip install *)",
+      "Bash(ffmpeg *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(ls *)",
+      "Bash(wc *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(sudo *)",
+      "Bash(chmod 777*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/pre-tool-guard.js"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-tool-validate.js"
+          }
+        ]
+      }
+    ]
+  }
+}

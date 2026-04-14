@@ -1,0 +1,26 @@
+{
+  "scene_id": 1658,
+  "frame_name": "frame_049844.jpg",
+  "start_time": 24920.0,
+  "end_time": 24923.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "애드센스에서도 어 이게 추가가 됐네. 아 인식 확인됐습니다 하고 이렇게 한 거예요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 847,
+  "frame_name": "frame_028351.jpg",
+  "start_time": 14172.0,
+  "end_time": 14178.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "빠르게 하나 보여 드리면 요즘에 뭐 클로드 코드가 좋다 이런 얘기 많잖아요. 그래서 얘도 똑같이이 복사해 가지고 이렇게 붙여 놓고 어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 129,
+  "frame_name": "frame_006136.jpg",
+  "start_time": 3040.5,
+  "end_time": 3094.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그냥 요렇게 포장을 잘하시면 된다라고 소개를 드리겠습니다. 네. 그래서 이제 요즘 시대는 사실 뭐 수익을 많이 올리건 뭐 기업 가치가 크건 이런게 뭐 회사에 뛰어난 사람이 많아서 뭐 기술이 좋아서 전문성이 높아서 퀄리티가 좋아서 이런게 전혀 아닙니다. 요즘에는 이게 비례하지 않는 시대가 됐어요. 그래서 뭐 엄청난 수익을내는 거 뭐 엄청난 기업 밸류 뭐 기업 가치 서비스의 가치를 가지는게 뭐 인원수 상관없고요. 기술도 딱히 뭐 그냥 갖다 쓰면 되고요. 전문성도 뭐 없어도 되고요. 퀄리티도 그렇게 높지 않아도 됩니다. 그래서 이게 뭐 당연히 있으면 좋죠. 있으면 좋은데 아 인원수는 오히려 있으면 안 좋을 수도 있어요. 요즘 시대는 뭐 기술이야 전분성이야 있으면 좋은데 이게 너무 있어도 안 좋은 그런 시대가 됐습니다. 적정한 어떤 수준을 유지하면서 그냥 포장을 잘하는 그런 기업이 살아남는 빠르게 포장을 잘하는 기업이 살아남는 시대입니다. 네. 그러다 보니까 약간 대표적인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

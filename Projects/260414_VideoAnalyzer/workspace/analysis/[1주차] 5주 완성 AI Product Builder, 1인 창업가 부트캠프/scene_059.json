@@ -1,0 +1,26 @@
+{
+  "scene_id": 59,
+  "frame_name": "frame_003227.jpg",
+  "start_time": 1595.0,
+  "end_time": 1631.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "시대가 되었고요. 네. 그래서 이런 거 기사 많이 보셨죠? 개발자 10명 중 아홉명. 이제 생성형 AI 뭐 대체 가능하다. AI가 더 코딩을 잘한다. 그래서 요즘 신익 개발자 구직란 뭐 이런 얘기 엄청 많이 들어 보셨을 것 같습니다. 네. 그래서 프로그래머 이제 미국 일자리가 다 증발하고 있다. 네. 이런 시대가 어쩔 수 없이 다 되고 있는 그런 상황인 거 같습니다. 왜냐면 그냥 AI 딸깍하면은 코딩 다 해 주는데 왜 신입 개발자가 이제 필요가 없죠. 그냥 지금 있는 인원들이 AI 시켜 가면서 코딩하는게 더 효율적이니까. 네. 아무튼 그렇습니다. 네. 네. 그래서 요런 시대가 됐고요. 심지어 진짜 놀라운 사건으로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

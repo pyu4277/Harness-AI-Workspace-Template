@@ -1,0 +1,26 @@
+{
+  "scene_id": 219,
+  "frame_name": "frame_012180.jpg",
+  "start_time": 6069.5,
+  "end_time": 6109.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제가 아까 말씀드렸다시피 설치가 가장 어렵고 회원 가입 설치가 가장 어려운 거 같아요. 그러니까이 코딩을 배운다. 뭘 배운다에 있어서 가장 큰 진입 장벽은 제가 봤을 때 회원 가입 그리고 어떤 거 설치하는 거. 왜냐면 나머지는 AI가 해 주거든요. 근데 설치는 또 직접 권한 승인도 하고 누르고 해야 됩니다. 제일 어렵기 때문에 개발 환경은 메모장을 쓰겠습니다. 개발 환경 아마 윈도우 컴퓨터 쓰시는 분들은 윈도우 메모장 있으실 거고요. 맥 쓰신다 하시면 맥 메모장이 있을 거잖아요. 메모장을 씁니다. 일단은 처음에는 나중에는 뭐 좋은 데로 갈 거긴 한데 일단은 그 이해하데 있어서는 메모장으로 진행해 보도록 하겠습니다.네 네. 그리고 채치 쓸 겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

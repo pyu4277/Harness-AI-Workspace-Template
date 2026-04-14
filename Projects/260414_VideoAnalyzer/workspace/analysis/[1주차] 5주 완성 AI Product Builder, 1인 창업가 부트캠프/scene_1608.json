@@ -1,0 +1,26 @@
+{
+  "scene_id": 1608,
+  "frame_name": "frame_048793.jpg",
+  "start_time": 24389.5,
+  "end_time": 24402.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 동물상 이거 잠깐 그냥 동기 부여 차원에서 가입하실 동안 좀 소개를 드리면 아주 좋습니다. 요거 동물상 근황. 음. 이전에 발표 자료 얘가 제 얘가 예전에 준비해 가지고 사실 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

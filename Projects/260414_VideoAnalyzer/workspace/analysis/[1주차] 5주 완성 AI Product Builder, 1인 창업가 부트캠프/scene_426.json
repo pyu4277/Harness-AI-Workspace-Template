@@ -1,0 +1,26 @@
+{
+  "scene_id": 426,
+  "frame_name": "frame_016788.jpg",
+  "start_time": 8380.0,
+  "end_time": 8407.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됩니다. 요즘에 AI 시대잖아요. 뭐 더 컬러풀하게 만들어 줘. 네. 요렇게 입력을 하시면 됩니다. 네. 더 컬러풀하게 만들어 줘. 딸깍하면은 그렇게 만들어 줍니다. 코드도 네. 예쁘게 만들어 줘도 예쁘게 만들어 줘. 딸깍하면은 이쁘게 나옵니다. 네. 네. 아무튼 이거는 원하는 대로 바꾸실 수 있으니까요. 이제 그 개념을 이해하는게 중요합니다. 그래서 아, 프론트엔드는 HTML, CSS,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

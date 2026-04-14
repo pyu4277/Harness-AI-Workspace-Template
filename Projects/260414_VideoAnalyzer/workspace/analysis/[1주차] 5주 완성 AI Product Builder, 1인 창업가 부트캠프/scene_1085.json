@@ -1,0 +1,26 @@
+{
+  "scene_id": 1085,
+  "frame_name": "frame_033612.jpg",
+  "start_time": 16801.0,
+  "end_time": 16810.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오케이. 됐습니다. 자, 이거 슬라이드를 보여 드릴게요. 자, 지금까지 뭘 한 거냐? 아, 이거. 네. 요거를 좀 키워야겠다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

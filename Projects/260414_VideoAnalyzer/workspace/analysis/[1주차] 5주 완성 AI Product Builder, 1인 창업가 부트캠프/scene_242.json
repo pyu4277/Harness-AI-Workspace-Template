@@ -1,0 +1,26 @@
+{
+  "scene_id": 242,
+  "frame_name": "frame_012604.jpg",
+  "start_time": 6297.5,
+  "end_time": 6306.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하시는 분들을 위해서 키보드에 시프트 누르고 요거 누르면 이렇게 꺾세 나오고이 옆에 거 누르면 이제 닿는게 나오죠. 슬래시는 여기 있고요. 이렇게 세 가지 요렇게 붙어 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

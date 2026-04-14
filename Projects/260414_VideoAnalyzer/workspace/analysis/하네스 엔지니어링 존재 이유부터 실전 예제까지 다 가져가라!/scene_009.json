@@ -1,0 +1,26 @@
+{
+  "scene_id": 9,
+  "frame_name": "frame_000052.jpg",
+  "start_time": 24.0,
+  "end_time": 27.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 여러분들 이런 뭐 용어 가지고 쫄지마 알겠지? 일단 우리가 AI 왜"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

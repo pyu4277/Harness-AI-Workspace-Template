@@ -1,0 +1,26 @@
+{
+  "scene_id": 512,
+  "frame_name": "frame_019445.jpg",
+  "start_time": 9716.0,
+  "end_time": 9728.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어 뭐 이렇게 다 원인도 알려 주죠. 어, 가능성 높은 순으로 정리해 볼게요. 음. 직후. 어, 전파 중일 때 아직이 올라가고 좀 시간이 걸리잖아요. 그래서 아직 시간이 좀 걸릴 수 있을 것 같습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

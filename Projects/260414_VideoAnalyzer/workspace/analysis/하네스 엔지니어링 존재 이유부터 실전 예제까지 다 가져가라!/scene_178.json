@@ -1,0 +1,26 @@
+{
+  "scene_id": 178,
+  "frame_name": "frame_001159.jpg",
+  "start_time": 577.5,
+  "end_time": 580.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되면 어떡하겠어요? 어 AI가 하는 일에 실수가 많이 일어나겠죠. 그래서 아, AI한테 우리가 그냥 컨텍스트"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

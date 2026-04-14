@@ -1,0 +1,26 @@
+{
+  "scene_id": 50,
+  "frame_name": "frame_002639.jpg",
+  "start_time": 1286.5,
+  "end_time": 1352.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 AI는 요즘 얼마나 풀었나 보니까. 네. AI는 12 문제 맞췄습니다. 네. 즉이 오픈 AI의 그 ICPC 대회 참가한 AI 모델이 오픈 AI 모델이이 A부터 L까지 문제 중에 모든 문제를 다 맞췄고요. 심지어 여기 아래 보시면 1트라이라고 돼 있죠. 즉 1트 시도만에 바로 맞춰 버린 겁니다. 그니까 인간은 막 머리 싸매면서 막 알고리즘 짜면서 수정하면서 엄청나게 결혼은이 대회를 이제 그 AI는 딸각하면은 1트라이만의 11 문제를 해결했고 심지어이 G번 문제는 좀 어려웠나 봐요. 어려운 문제는 아홉 번의 시도만에 맞춰 가지고 결국 12 문제를 모두 맞춰서 이제는 인간을이 알고리즘 문제 풀이 대회에서는 뛰어넘은 그런 모습을 보여줄 수 보여 주고 있었습니다. 네.요 다시 보기 남고 편집본도 올라오긴 합니다. 네. 그래서 G는 구트 정도 했는데 결국에 일단 AI가 어떤 알고리즘 풀이 측면에서는 그래도 인간을 뛰어넘었다라고 충분히 말을 할 수 있을 것 같고요. 근데 사실 이게 시작일 뿐이죠. 이제 AI는 아까도 보여 드렸듯이 계속 발전하고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

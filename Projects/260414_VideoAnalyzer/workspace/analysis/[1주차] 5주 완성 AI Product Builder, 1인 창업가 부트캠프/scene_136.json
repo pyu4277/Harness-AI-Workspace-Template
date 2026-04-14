@@ -1,0 +1,26 @@
+{
+  "scene_id": 136,
+  "frame_name": "frame_006518.jpg",
+  "start_time": 3254.5,
+  "end_time": 3262.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "모두가 똑같아졌다. 즉 네. 이제 시간이 없습니다. 이제 AI 시대가 사실 AGI가 얼마 안 남았다 이런 얘기도 있잖아요. 특이점이 오면은 사실 이런 것도 이런 것도 AI가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

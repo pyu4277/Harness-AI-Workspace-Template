@@ -1,0 +1,40 @@
+{
+  "scene_id": 248,
+  "frame_name": "frame_002062.jpg",
+  "start_time": 1019.0,
+  "end_time": 1042.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code CLAUDE.md 5단계 + 빠른 시작 명령어",
+    "elements": [
+      "5단계: 커밋 -> 머지 -> 완료 처리",
+      "Conventional Commits 형식",
+      "complete-task.sh 실행",
+      "빠른 시작 명령어 섹션",
+      "bash scripts/start-task.sh add-feature-name feat",
+      "bash scripts/start-task.sh fix-bug-name fix"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "bash scripts/start-task.sh add-feature-name feat",
+      "bash scripts/start-task.sh fix-bug-name fix"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "빠른 시작 명령어",
+      "feat/fix 구분",
+      "complete-task.sh 자동 머지"
+    ],
+    "summary": "되잖아요. 그죠? 그래서 그런 것 또한 규칙으로 다 만들어 놨습니다. 그래서 여기에 보시면요. 허스키라는게 있거든요.이 헛스키라는 거는요. 여러분들이 어떤 커밋을 하기 전 또는 커밋을 하고 난 후에 어 반드시 실행시켜야 되는 체크해야 되는 훅 리스트들을 여러분들 적으실 수가 있습니다. 그래서 여기 보시면 프리커밋 그니까 커밋하기 전에 코드 세이브 하기 전에 무엇을 테스트해야 되는지가 쫙 나와 있습니다. 그래서 예를 들어서 코드 테스트 하기 전에음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "빠른 시작 명령어: 새 기능(feat)과 버그 수정(fix) 각각의 start-task.sh 사용법. 5단계 complete-task.sh로 자동 머지+완료",
+    "text_only_info": "메인 코드로 자동 합치는 과정 설명",
+    "combined_insight": "하네스 사용법 요약: start-task.sh로 시작(feat/fix 구분) -> 5단계 파이프라인 -> complete-task.sh로 자동 머지. 화면은 실제 CLI 명령어를, 대본은 이것이 자동 병합 과정임을 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

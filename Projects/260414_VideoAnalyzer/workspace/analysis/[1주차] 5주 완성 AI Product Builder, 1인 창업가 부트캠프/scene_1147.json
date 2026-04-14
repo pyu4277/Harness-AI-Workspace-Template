@@ -1,0 +1,26 @@
+{
+  "scene_id": 1147,
+  "frame_name": "frame_035336.jpg",
+  "start_time": 17628.0,
+  "end_time": 17707.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어떤 차이가 있냐면 아이고 자 둘 다 그거긴 합니다. 그러니까 내 코드를 올려 가지고 클라우드에서이 전 세계에 뿌리는 역할은 하긴 하는데이 워커스는 어떻게 보면 컴퓨팅 파워가 들어가는네 그런 어떤 연산이 들어갈 수가 있습니다. 페이지스는 말 그대로 딱 HTML 파일을 그냥 저장 캐싱이라고 하는데 저장해 놨다가 얘를 그냥 쑥하고 전송하는 역할이 끝이에요. 즉 사람이 들어오면 HTML 파일 보내 줄게 하고 보내 주는게 끝입니다. 그래서 이거는 진짜 역할이 간단해요. 그냥 정적인 어떤 파일 보내주기 네. 보내주기의 역할만 하고 있다면 워커스는 이름에서도 알듯이 알 수 있듯이 일을 합니다. 일을 한다는 거는 계산을 합니다. 예를 들어 코드에 막 엄청 연산이 있어요. 막 이거 연산해 가지고 페이지 요거 만들고 뭐 하고 막 엄청 복잡한 어떤 그 코드가 있다라고 하면 이걸 계산을 해 가지고 요청할 때마다 계산을 해서 보냅니다. 그래서 워커스로 뭘 할 수 있냐면 막 복잡한 수식 처리하는 거 있죠. 뭐 예를 들어 AI도 만들 수 있어요. AI 여기 놓고 그래서 뭐이 채 그 LM API를 넣고 아 이거 말이 설명 어려워지는데 딱 쉽게 설명하자면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

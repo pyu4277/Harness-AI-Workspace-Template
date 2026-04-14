@@ -1,0 +1,26 @@
+{
+  "scene_id": 1084,
+  "frame_name": "frame_033533.jpg",
+  "start_time": 16731.0,
+  "end_time": 16801.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이거 저 정리를 한번 해 볼게요. 자 정리를 한번 해 볼게요. 자 슬라이드로 하나 싹 정리를 해 보겠습니다. 자 고급 개발을 한번 쫙 정리를 해 볼게요. 자 슬라이드를 빠르게 제가 제작해 가지고 만들어 보겠습니다. 자, 약간 어려운데 생각보다 안 어렵습니다. 이거 여러분들 되게 복잡한 거 하셨는데 여기까지가 진짜 어려운 일들을 하신 거고요. 이제 진짜 끝났다라는 걸 좀 보여 드릴 수 있는게 자, 여기까지 하면 진짜 끝났습니다. 아, 계속 계속 진짜 끝났다고 하게 되는데 이제는 진짜 다 AI가 다 해 주거든요. 네. 그래서 지금 슬라이드 열심히 만들고 있는데 잠시만요. 클라우드 플레이어 페이지스. 오케이. 됐습니다. 자, 이거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

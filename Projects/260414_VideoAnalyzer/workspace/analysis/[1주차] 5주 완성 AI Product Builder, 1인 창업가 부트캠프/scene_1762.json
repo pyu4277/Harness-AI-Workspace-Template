@@ -1,0 +1,26 @@
+{
+  "scene_id": 1762,
+  "frame_name": "frame_051897.jpg",
+  "start_time": 25944.5,
+  "end_time": 25951.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "동물상 테스트 하나 붙여 놨잖아요. 요거 들어가서 동물상 테스트 요거를 이렇게 싹이 아"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

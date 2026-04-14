@@ -1,0 +1,26 @@
+{
+  "scene_id": 1791,
+  "frame_name": "frame_052347.jpg",
+  "start_time": 26171.5,
+  "end_time": 26174.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하시는 분들은 좀 지적 허영심을 채운다는 느낌으로 이런 거 좀 공부해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

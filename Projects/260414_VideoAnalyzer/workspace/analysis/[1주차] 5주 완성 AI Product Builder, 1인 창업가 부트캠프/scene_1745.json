@@ -1,0 +1,26 @@
+{
+  "scene_id": 1745,
+  "frame_name": "frame_051636.jpg",
+  "start_time": 25813.0,
+  "end_time": 25822.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 만드실 수가 있고 여기서 통과가 된다 하면은 이제 요런데 덕지덕지 이렇게 광고가 붙을 수가 있을 겁니다. 그래서 광고 자동화도 있거든요. 그래서 좀 더 제가 동물상이나 뭐 딴 걸로 좀 보여"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

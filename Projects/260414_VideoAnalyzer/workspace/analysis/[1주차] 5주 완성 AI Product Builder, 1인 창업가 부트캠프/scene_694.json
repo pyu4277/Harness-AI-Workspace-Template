@@ -1,0 +1,26 @@
+{
+  "scene_id": 694,
+  "frame_name": "frame_024432.jpg",
+  "start_time": 12199.5,
+  "end_time": 12231.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 여기까지 들어오셨으면 제 준비가 되신 겁니다. 네. 파이어베이스 잘 안 쓰지 않나 해주셨는데 사실 맞아. 잘 안 쓰긴 합니다. 근데 이걸 하게 된게 설치하기가 너무 번거러워요. 이게 다 한 1천명 지금 듣고 계신데 1천명이 각자의 컴퓨터의 사정이 다 다릅니다. 그래서 뭐 맥 쓰신 분, 뭐 하시는 분, 설치하고 용량 안 되시는 분, 뭐 안 되신, 권한 안 되신 분, 너무 많아져 가지고 뭐 설치는 최소화하려고 합니다. 그래서 인터넷 안에서이 개념도 똑같거든요. 지금 좀"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

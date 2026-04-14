@@ -1,0 +1,26 @@
+{
+  "scene_id": 1416,
+  "frame_name": "frame_043001.jpg",
+  "start_time": 21484.5,
+  "end_time": 21515.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "음. 아, 문제 찾았다고 합니다. 아, 그러게요. 지금 거의 한 1천000분 가까이가 꾸준히 봐 주시고 계십니다. 아유, 감사합니다. 좋아요 혹시 안 누르신 분들 한 번씩만 부탁드리겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

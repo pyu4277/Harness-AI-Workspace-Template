@@ -1,0 +1,13 @@
+# VideoAnalyzer 파이프라인 의존성
+# Stage 1: 프레임 추출
+opencv-python>=4.8.0
+
+# Stage 2: SSIM 장면 분할
+scikit-image>=0.21.0
+numpy>=1.24.0
+
+# Stage 5: 이미지 리사이즈 + base64 인코딩
+Pillow>=10.0.0
+
+# Stage 1B: Whisper 음성추출 (선택 -- 자막 없는 영상용)
+# openai-whisper>=20240930

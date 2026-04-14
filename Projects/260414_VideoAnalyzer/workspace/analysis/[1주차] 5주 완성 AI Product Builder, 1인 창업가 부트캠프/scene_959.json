@@ -1,0 +1,26 @@
+{
+  "scene_id": 959,
+  "frame_name": "frame_030762.jpg",
+  "start_time": 15374.5,
+  "end_time": 15387.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제 저는 재미라이로 했는데 원하시는 거 뭐 코덱스나 클로드 코드 뭐든 쓰셔도 됩니다. 아, 터미널에서 재미나한테 올려 달라고 말할 때 무슨 기터브 주소를 입력해야 해요? 해주셨는데 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

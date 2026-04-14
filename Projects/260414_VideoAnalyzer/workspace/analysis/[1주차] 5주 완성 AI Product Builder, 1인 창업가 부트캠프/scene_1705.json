@@ -1,0 +1,26 @@
+{
+  "scene_id": 1705,
+  "frame_name": "frame_050693.jpg",
+  "start_time": 25344.5,
+  "end_time": 25348.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 옛날 도메인도 1등에 한번 있으셨는데 막이 도메인이 크게 상관은 없습니다. 막 있다고 해서 무조건 뭐"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

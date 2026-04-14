@@ -1,0 +1,26 @@
+{
+  "scene_id": 1455,
+  "frame_name": "frame_043666.jpg",
+  "start_time": 21803.0,
+  "end_time": 21862.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어떤 그 교육용 서비스인데 이걸로 대박이 났죠. 일단 뒤에 수익화 때 좀 소개를 드릴 텐데 이걸로 돈을 진짜 어마어마하게 벌 수가 있었고 감사하게 생각하는 그런 티처올 머신 서비스입니다. 그래서 이제 이런 외부 서비스를 붙이는 것만으로도 다 웬만한 걸 할 수가 있습니다. 아 그때 처음 입문하셨나요? 와, 중일 때 시작했다가 벌써 고3. 아, 감사합니다. 이때 보셨군요. 네. 요거가 진짜 레전드에 시작이 됐던 네. 그런 서비스였습니다. 요거 뭐 하는 건가요? 소개를 드리겠습니다. 이것도 어떤 외부 서비스를 구현해 가지고 붙일 수 있게 이게 만들어 놓은 쌌습니다. 근데 조금 더 얘는 그 되게 간단하게 제공해서 교육용으로 제공하기 때문에 공짜로 그냥 다 제공하고 있어요. 그 만드는 거부터 모델 뭐 제공해 주는 거, 모델 서빙하는 거 이런 거 다 공짜로 제공해 주기 때문에 요거 이용하면 AI를 굉장히 쉽게 만들어서 내 사이트에 붙일 수가 있습니다. 네. 네. 좋습니다. 그러면은 이거 빠르게 시작을 해 보면 티처 머신이라는 서비스고요. 시작하기 눌러"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 105,
+  "frame_name": "frame_005184.jpg",
+  "start_time": 2564.5,
+  "end_time": 2619.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "시대가 됐습니다. 네. 그래 가지고 이제 AI 시대 당연히 모든 직업의 어떤 경계가 다 호물어지고 있고요. 왜냐면 다 쉬워지고 있잖아요. 다 딸각으로 되는데. 네. 이거 뭐 하나만 할 이유가 없죠. 하나만 하는 전문가는 이제 살아남기 쉽지 않을 것 같다. 심지어 AI가 발전하면 할수록 뭐 일론 머스크가 의대 가지 말라 뭐 이런 얘기도 했잖아요. 그니까 의대 투입하는 그 시간 대비해서 AI가 발전한 속도는 너무 빠를 거기 때문에 이제 거기에 투입되는게 아깝다는 거죠. 네. 그래서 이제 모든 직업의 경계 싹 무너집니다.이 너무 당연하죠.이 AI가 발전하면 그럴 수밖에 없죠. 상식적으로. 그래서 한 사람이 사실 모든 거를 할 수가 있는 그런 시대가 됩니다. 그래서 일자리 당연히 이제 그 뭐 당연히 새로운 형태 일자리는 당연히 생기겠죠. 근데 이제 모든 기존의 어떤 한 분야만 하던 직업은 다 경계가 무너지고 다 사라진 거는 너무 분명한 거 같다라고 생각이 듭니다. 네. 어 맨날 디자이너 개발자 싸우는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

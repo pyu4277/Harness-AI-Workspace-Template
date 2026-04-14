@@ -1,0 +1,26 @@
+{
+  "scene_id": 295,
+  "frame_name": "frame_002821.jpg",
+  "start_time": 1408.5,
+  "end_time": 1411.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하면 괜찮다고 생각은 하지만. 자, 그럼이 한네스 엔지니어링 지금 당장 적응해야 될까요? 어, 저는요. 어,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

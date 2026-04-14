@@ -1,0 +1,26 @@
+{
+  "scene_id": 91,
+  "frame_name": "frame_004627.jpg",
+  "start_time": 2305.0,
+  "end_time": 2321.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아닙니다. 코딩만 쉬워진 것도 아니고. 네. 아마 아시겠지만 그 디자인 이런 것도 되게 쉬워졌거든요. 바이브 디자인 뭐 이런 용어도 나오는데 디자인 툴도 있습니다. 대표적으로 영상 하나 가볍게 보여 드리면 네. 가볍게 영상 하나 보여 드리면 잠시 오네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

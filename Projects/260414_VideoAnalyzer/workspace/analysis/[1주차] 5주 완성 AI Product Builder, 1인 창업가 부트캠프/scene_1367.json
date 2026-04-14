@@ -1,0 +1,26 @@
+{
+  "scene_id": 1367,
+  "frame_name": "frame_041810.jpg",
+  "start_time": 20898.0,
+  "end_time": 20911.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "누른 다음에 네. 그래서 요거요 코드를 복사해 가지고 쓰면 되거든요. 여기 코드 다 제공해 주니까. 근데 이거 AI가 더 잘해요. 그래서 굳이 이걸 어디 넣을 필요라 널 생각을하시면 안 됩니다. 그냥 이거 복사해 가지고 그냥 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

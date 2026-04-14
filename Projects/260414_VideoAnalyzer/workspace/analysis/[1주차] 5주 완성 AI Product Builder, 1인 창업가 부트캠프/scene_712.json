@@ -1,0 +1,26 @@
+{
+  "scene_id": 712,
+  "frame_name": "frame_025052.jpg",
+  "start_time": 12522.0,
+  "end_time": 12529.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좀 희망을 살려보면서 진행을 해 보겠습니다. 네. 아, 그 혹시나 막혔다 하시는 분들은 미래에 보시는 분들을 위해서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

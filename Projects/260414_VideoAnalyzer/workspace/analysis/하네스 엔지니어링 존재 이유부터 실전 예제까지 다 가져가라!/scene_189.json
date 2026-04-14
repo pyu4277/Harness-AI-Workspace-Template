@@ -1,0 +1,26 @@
+{
+  "scene_id": 189,
+  "frame_name": "frame_001226.jpg",
+  "start_time": 610.5,
+  "end_time": 614.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "에이전트 MD 접금 방식을 시도를 했대요. 그니까 하나의 큰 에이전트 MD 파일에 그냥 모든 걸 다 때려"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

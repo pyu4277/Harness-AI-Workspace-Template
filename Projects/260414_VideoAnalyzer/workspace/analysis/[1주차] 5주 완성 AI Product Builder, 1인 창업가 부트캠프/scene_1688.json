@@ -1,0 +1,26 @@
+{
+  "scene_id": 1688,
+  "frame_name": "frame_050462.jpg",
+  "start_time": 25228.5,
+  "end_time": 25232.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "개를 가지는 거죠.이 이 클라우드 플레이어 페이지스의 어떤 그 홈페이지 주소도 있고요.요 주소도 남아 있는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

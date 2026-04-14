@@ -1,0 +1,26 @@
+{
+  "scene_id": 775,
+  "frame_name": "frame_026866.jpg",
+  "start_time": 13423.5,
+  "end_time": 13441.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됩니다. 마우스 우클릭하고 여기에 아 우클릭이 되나? 이게 꾹 누르면 되죠. 꾹 누르면이 붙여 넣기 있을 겁니다. 컨트롤 CV 하셔도 되고요. 아, 이거 설치되셨나요? 네. 그러면 이제 제미나의 CLI를 사용할 준비가 된 겁니다. 네. 거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

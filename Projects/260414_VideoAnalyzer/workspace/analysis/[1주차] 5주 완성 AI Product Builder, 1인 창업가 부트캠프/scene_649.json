@@ -1,0 +1,26 @@
+{
+  "scene_id": 649,
+  "frame_name": "frame_023060.jpg",
+  "start_time": 11528.0,
+  "end_time": 11531.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보도록 하겠습니다. 네. 슬라이드 상 하나 다시 한번 살려서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

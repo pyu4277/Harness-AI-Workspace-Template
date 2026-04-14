@@ -1,0 +1,26 @@
+{
+  "scene_id": 685,
+  "frame_name": "frame_024214.jpg",
+  "start_time": 12082.5,
+  "end_time": 12131.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "음. 이것도 네. 한번 정리를 진행을 한번 해 봤습니다. 아, 좋아요. 아, 좋아요 한 번씩 꼭 부탁드리겠습니다. 이제 가입 다 하셨나요? 네. 가입하셨으면 좋아요 한 번씩 꼭 부탁드리고요. 네. 1059명 지금 보고 계신데 좋아요는 800개. 아, 200개만 딱 있으면은 시청자랑 좋아요랑 같이 가면 좋을 것 같은데 한 번씩만 부탁드리겠습니다. 하나 가입하는데 10분 걸리는데. 자, 그러니까 가입이 가장 어렵습니다. 가입이 사실 진짜 제일 어렵고 요즘 AI 시대 코딩은 그냥 AI 딸깍하면 해 주는데 이런 거 가입하는게 제일 어렵더라고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

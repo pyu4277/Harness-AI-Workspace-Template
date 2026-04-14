@@ -1,0 +1,26 @@
+{
+  "scene_id": 1028,
+  "frame_name": "frame_032237.jpg",
+  "start_time": 16113.5,
+  "end_time": 16123.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "세팅을 바꿀 수가 있나? 빌딩. 네. 요거 다시 한번 해 볼게요. 요거 제가 좀 잘못 만든 거 같아서."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

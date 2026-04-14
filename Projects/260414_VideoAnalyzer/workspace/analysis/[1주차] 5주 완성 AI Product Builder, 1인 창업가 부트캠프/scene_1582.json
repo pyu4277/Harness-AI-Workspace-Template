@@ -1,0 +1,26 @@
+{
+  "scene_id": 1582,
+  "frame_name": "frame_048422.jpg",
+  "start_time": 24208.5,
+  "end_time": 24212.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "예. 도말 2부. 이것도 이걸 읽고 있다. 아, 이거 사람이 읽는게 아닙니다, 요즘은. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 942,
+  "frame_name": "frame_030354.jpg",
+  "start_time": 15164.0,
+  "end_time": 15189.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면 아 이렇게 수행할까요? 네. 이러고 이거 수행하는 거를 알아서 합니다. 그래서 얼로 원스 요걸 누르면 이제 한 번 허용하기고요. 그리고 이거를 그냥 허용 계속해 주기 귀찮다. 그냥 알아서 해라고 하면 두 번째 언로디스포 세션 하면은이 세션이 켜진 동안은 계속 그냥 알아서 자동으로 합니다. 그래서 자동화를 해 보겠습니다.요 정도는 자동으로 시켜도 되기 때문에네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

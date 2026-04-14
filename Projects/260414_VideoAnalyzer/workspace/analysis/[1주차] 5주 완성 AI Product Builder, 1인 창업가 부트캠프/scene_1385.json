@@ -1,0 +1,26 @@
+{
+  "scene_id": 1385,
+  "frame_name": "frame_042406.jpg",
+  "start_time": 21198.5,
+  "end_time": 21206.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여까지 왔습니다, 이제. 음. 됐나? 렉 걸렸나? 됐나? 네. 된 거 같기도 하고. 한번 볼게요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

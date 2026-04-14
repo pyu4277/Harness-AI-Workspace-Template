@@ -1,0 +1,26 @@
+{
+  "scene_id": 106,
+  "frame_name": "frame_000643.jpg",
+  "start_time": 319.5,
+  "end_time": 322.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하더라. 그래서 자기가 어떻게 그 시스템을 구축을 하게 됐는지 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

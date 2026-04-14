@@ -1,0 +1,26 @@
+{
+  "scene_id": 1376,
+  "frame_name": "frame_042055.jpg",
+  "start_time": 21017.0,
+  "end_time": 21037.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런 방법도 있다라고 그냥 소개를 드리고요. 어 이렇게 하고네 허용하기 어 뭐야 되고 있나? 네. 렉 렉이 걸렸습니다. 가끔 좀 렉이 이렇게 걸리는 거 같은데. 음."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

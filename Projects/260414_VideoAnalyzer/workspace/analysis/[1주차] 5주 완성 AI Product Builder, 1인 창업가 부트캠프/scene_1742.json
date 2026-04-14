@@ -1,0 +1,26 @@
+{
+  "scene_id": 1742,
+  "frame_name": "frame_051554.jpg",
+  "start_time": 25766.5,
+  "end_time": 25786.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그런게 다 요런 건데 이거는 뭐 일단은 나중에 알림하겠습니다. 일단 뭐 글로벌 하려면 나중에 필요하긴 할 텐데. 음. 아닌가? 이거 할까? 아. 네. 일단 나중에 알림하고 나중에 추가하겠습니다. 유럽 진출하려면 아직은 좀 걸릴테니까 일단은 나중에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

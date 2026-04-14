@@ -1,0 +1,26 @@
+{
+  "scene_id": 752,
+  "frame_name": "frame_026438.jpg",
+  "start_time": 13211.5,
+  "end_time": 13225.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "툴들이 있습니다. 그래서 지금 이제 2026년 1월 10일이죠. 오늘 기준으로는 아마 좀 클로드 코드가 가장 좀 대중적으로 개발자분들이 많이 쓰시는 네. 그런 그 개발 도구인 거 같고요. 그래서 클로드 코트를 많이 쓰시는데 요렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

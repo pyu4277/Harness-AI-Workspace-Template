@@ -1,0 +1,26 @@
+{
+  "scene_id": 256,
+  "frame_name": "frame_012981.jpg",
+  "start_time": 6487.0,
+  "end_time": 6493.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "일단은. 네. 그리고 이제 다시 맥에 쓰신다. 맥하시는 분들은 맥용에도 기본 메모장이 있습니다. 네. 맥 맥"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

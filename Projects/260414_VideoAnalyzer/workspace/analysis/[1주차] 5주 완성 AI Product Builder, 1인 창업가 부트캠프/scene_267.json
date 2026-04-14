@@ -1,0 +1,26 @@
+{
+  "scene_id": 267,
+  "frame_name": "frame_013174.jpg",
+  "start_time": 6579.5,
+  "end_time": 6594.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 이제 인덱스.html 파일을 만드시면 됩니다. 네. 요거 통과하셨나요? 아, 그럼 축하드립니다. 거의 다 오셨습니다. 이제 진짜 다 오셨습니다. 이게 안 열려 하신 분들은 이제 메모장을 켜신 다음에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

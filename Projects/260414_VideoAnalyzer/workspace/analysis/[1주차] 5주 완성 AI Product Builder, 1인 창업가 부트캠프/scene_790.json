@@ -1,0 +1,26 @@
+{
+  "scene_id": 790,
+  "frame_name": "frame_027197.jpg",
+  "start_time": 13592.5,
+  "end_time": 13603.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기 있습니다. 여기 아까 구글 로그인을 하시면 요런 식으로 뜨거든요. 요거를 커피 복사한 다음에 아까 붙여 놓고 엔터 하면은 이제 서로 통신이 돼 가지고 구글 아이디로 로그인 된 겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 214,
+  "frame_name": "frame_001441.jpg",
+  "start_time": 718.5,
+  "end_time": 721.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "벗어나려 그러면은 제동을 걸어서 다시 돌아오게 하는 거. 저는 한네스 엔지니어링의 핵심이라고 봅니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 9,
+  "frame_name": "frame_000247.jpg",
+  "start_time": 104.0,
+  "end_time": 142.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "생각하시면 됩니다. 즉 오늘날의 LM은 거의 적토마와 같은 존재입니다. 엄청나게 빠르게 코드를 작성하고 10년 이상 코드를 작성한 코더라고 보시면 됩니다. 그런데 문제는이 LLM은 10년차 이상의 코더인 건 사실이지만 디벨로퍼는 아닙니다. 즉 프로젝트의 문제를 날카롭게 정의하고 기획해서 코드를 작성하고 그 작성한 코드를 테스트해서 실질적인 서비스단으로 구현하는 능력까지는 부족한다는 거죠.이 이 LM이 문서도 읽고 코드도 쓰고 검색도 하면서 엄청난 일들을 버리지만 문제는 너무나도 잘 달리는데 길들려지지 않았다는 문제가 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "생각하시면 됩니다. 즉 오늘날의 LM은 거의 적토마와 같은 존재입니다. 엄청나게 빠르게 코드를 작성하고 10년 이상 코드를 작성한 코더라고 보시면 됩니다. 그런데 문제는이 LLM은 10년차 이상의 코더인 건 사실이지만 디벨로퍼는 아닙니다. 즉 프로젝트의 문제를 날카롭게 정의하고 기획해서 코드를 작성하고 그 작성한 코드를 테스트해서 실질적인 서비스단으로 구현",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

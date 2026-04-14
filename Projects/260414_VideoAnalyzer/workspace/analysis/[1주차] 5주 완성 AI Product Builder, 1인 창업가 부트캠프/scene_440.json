@@ -1,0 +1,26 @@
+{
+  "scene_id": 440,
+  "frame_name": "frame_017404.jpg",
+  "start_time": 8700.0,
+  "end_time": 8703.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요런 시설을 짓습니다. 그래서 다 요거 열풍인데 요즘. 네. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

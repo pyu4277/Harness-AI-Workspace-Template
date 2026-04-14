@@ -1,0 +1,26 @@
+{
+  "scene_id": 1169,
+  "frame_name": "frame_036291.jpg",
+  "start_time": 18139.0,
+  "end_time": 18151.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하셨다면. 네. 그래서 이제 요거 만들 시간입니다. 이제 뭘 만들지만 고민하면 됩니다. 네. 이제 요거 요거 만들어 보시죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1725,
+  "frame_name": "frame_050985.jpg",
+  "start_time": 25482.0,
+  "end_time": 25502.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "수정도 해 주고 알아서 다 해 주죠. 일주일에 한 개씩. 이제는 한한 한 시간에 한 개씩도 만들 수 있어요. 이런 식으로 하면은이 구조만 만들어 놓으신다. 한 시간에 하나씩 만들 수 있습니다. 아, 이게 무료 강의라니. 아유, 감사합니다. 좋습니다. 이걸로 제 목표는 이거 진행될 동안 좀 그냥 제 목표를 좀 말씀드리면 요겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

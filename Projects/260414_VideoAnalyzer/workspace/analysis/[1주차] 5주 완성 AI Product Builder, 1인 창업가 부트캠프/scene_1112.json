@@ -1,0 +1,26 @@
+{
+  "scene_id": 1112,
+  "frame_name": "frame_034747.jpg",
+  "start_time": 17368.0,
+  "end_time": 17378.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "수가 있습니다. 어, 아까 그렇죠. 아까 저희 그 메모장으로 만들었던 거, 상남자의 방법을 했던 거 그거 이제 디플로이가 잘 됐죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

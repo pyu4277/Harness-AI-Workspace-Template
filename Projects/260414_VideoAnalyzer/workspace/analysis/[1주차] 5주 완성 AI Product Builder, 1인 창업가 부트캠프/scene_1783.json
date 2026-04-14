@@ -1,0 +1,26 @@
+{
+  "scene_id": 1783,
+  "frame_name": "frame_052225.jpg",
+  "start_time": 26102.5,
+  "end_time": 26122.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 실습을 하면서 그 미션을 깨면서 공부를 할 수가 있습니다. 그래서 혹시 어 나는 그 H1 아까 봤던 거죠? 여기에 안녕 하면은 런 누르면 이렇게 안녕 표시되는 거 했었죠? 그래서 요거를 좀 더 나는 좀 심층 공부를 하고 싶다 하시면은 뭐 이런 걸 통해서 같이 실습하면서 공부하시면 되겠습니다. 어떤 식이냐? 여기 이렇게 그 미션이 나오거든요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

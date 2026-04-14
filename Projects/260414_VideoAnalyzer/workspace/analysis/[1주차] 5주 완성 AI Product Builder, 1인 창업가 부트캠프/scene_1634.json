@@ -1,0 +1,26 @@
+{
+  "scene_id": 1634,
+  "frame_name": "frame_049222.jpg",
+  "start_time": 24607.5,
+  "end_time": 24614.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래도이 웹사이트에 요걸 입력하시고 네.요 사이트 주소 입력하시면 되고요. 저장을 누르고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

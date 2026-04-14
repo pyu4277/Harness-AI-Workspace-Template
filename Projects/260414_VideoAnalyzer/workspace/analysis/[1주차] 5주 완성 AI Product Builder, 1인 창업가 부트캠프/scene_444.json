@@ -1,0 +1,26 @@
+{
+  "scene_id": 444,
+  "frame_name": "frame_017482.jpg",
+  "start_time": 8738.5,
+  "end_time": 8742.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "기업들이 되게 많습니다. 네. 그래서 유머도 하나 가져와 봤는데 서버실"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

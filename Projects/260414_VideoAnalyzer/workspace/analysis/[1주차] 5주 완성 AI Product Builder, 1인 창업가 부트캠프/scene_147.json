@@ -1,0 +1,36 @@
+{
+  "scene_id": 147,
+  "frame_name": "frame_007394.jpg",
+  "start_time": 3678.5,
+  "end_time": 3714.5,
+  "visual_analysis": {
+    "layout": "Product Builder 채용 공고 페이지 + 우측 웹캠/채팅",
+    "elements": [
+      "제목: 프로덕트 빌더(Product Builder) 채용",
+      "채용: Product Builder 1인 창업가 채용",
+      "AI가 열어주는 1인 유니콘의 시대",
+      "AI 도구: Claude Code MAX, Cursor $1, xANS, Windsurf",
+      "1인 창업 인프라가 되었다"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Product Builder 채용",
+      "AI 도구 생태계",
+      "1인 유니콘"
+    ],
+    "summary": "보여 드렸는데 요거 있잖아요. 프로덕 빌더. 실제로 저도 이런 분들 채용하고 있습니다. 그래서 이분들이 이제 월급도 받으시면서 매출도 나오면 그걸 나눠 갖는 구조를 만들었거든요. 그래서 이런 식으로 같이 창업하는 분도 좀 채용을 하고 있으니까요. 근데이 이거 이번 채용은 끝났는데 다음에도 이걸 열 거고 아마 제가 아니더라도 이렇게 하는 분들이 많아질 수밖에 없습니다. 네. 그래서 이거 실제로 제가 열고 다른 뭐 대표님들한테 연락 많이 받았는데 이거에 너무 관심 있다라고 해주신 분들 진짜 많았거든요. 네. 아마 이런 식으로 퍼지지 않을까 싶습니다. 이게 그냥 시작일 뿐이고요. 네. 아무튼 그렇습니다. 그래서 이게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Product Builder 채용 공고: AI 도구(Claude Code MAX/Cursor/xANS/Windsurf)로 1인 유니콘 가능. 채용 시장 변화",
+    "text_only_info": "1인 Product Builder 시대의 도래, AI 도구가 열어준 기회",
+    "combined_insight": "AI 시대 커리어: Product Builder 채용 트렌드. Claude Code MAX 등 AI 도구가 1인 창업 인프라로 전환"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: Product Builder 채용 공고 - AI 도구 생태계와 커리어 트렌드",
+  "importance_rule_version": 2
+}

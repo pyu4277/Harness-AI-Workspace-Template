@@ -1,0 +1,26 @@
+{
+  "scene_id": 69,
+  "frame_name": "frame_000418.jpg",
+  "start_time": 207.0,
+  "end_time": 210.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐냐? 아 AI가 스스로 일은 어느 정도 잘하더라. 근데 AI가 실수를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 453,
+  "frame_name": "frame_017891.jpg",
+  "start_time": 8940.5,
+  "end_time": 8950.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "내 웹사이트 직접 클라우드 플레어 페이지스에 직접 올려 가지고 전 세계 누구나 쓸 수 있게 배포를 해 보겠습니다. 네. 그러면이 클라우드 업체 중에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1531,
+  "frame_name": "frame_046450.jpg",
+  "start_time": 23219.0,
+  "end_time": 23230.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "세팅하는데 한참 걸렸죠.요 요요 세팅 와이 세팅이 진짜 제일 어려운 세팅인데 요거 세팅하고 기터브 가입해서 연결하고 페이지 요거까지 하실 수 있는 분이 이게 진입 장벽이에요. 제가 봤을 때 개발 얘는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

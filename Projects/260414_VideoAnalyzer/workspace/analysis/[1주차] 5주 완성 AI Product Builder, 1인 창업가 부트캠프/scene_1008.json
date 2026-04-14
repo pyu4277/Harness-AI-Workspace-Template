@@ -1,0 +1,26 @@
+{
+  "scene_id": 1008,
+  "frame_name": "frame_031719.jpg",
+  "start_time": 15839.5,
+  "end_time": 15878.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "누릅니다. 그다음에 이제 원래는 요거 했었죠. 원래는 업로드웨어 스태틱 파일 눌러 가지고 배포를 했었잖아요. 그냥 파일 htm 올려 가지고. 근데 이제는 진짜 고급 개발자처럼 작업을 해 보겠습니다. 고급 개발자 작업은 컨티뉴 위드 기터브 요거를 눌러 주고요. 연동을 해 줍니다. 네. 연동을 해 주고 여기서 제 기터 아 저는 연동을 이미 해 버렸네요. 그래서 여기서도 뭐 기터브 연동하기 누르면은 연동이 가능하고요. 그래서 저는 예 애드 기터브 어카운트 이렇게 하면은 별도로 이렇게 로그인 할 수가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

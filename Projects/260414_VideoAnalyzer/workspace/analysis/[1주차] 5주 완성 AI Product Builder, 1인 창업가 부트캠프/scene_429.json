@@ -1,0 +1,26 @@
+{
+  "scene_id": 429,
+  "frame_name": "frame_016884.jpg",
+  "start_time": 8436.5,
+  "end_time": 8446.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "자, 재밌는 거 한번 해 볼게요. 자, 이제 배포를 들어가 보도록 하겠습니다. 네, 배포를 해 보겠습니다. 지금 우리가 만든 거 뭐"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

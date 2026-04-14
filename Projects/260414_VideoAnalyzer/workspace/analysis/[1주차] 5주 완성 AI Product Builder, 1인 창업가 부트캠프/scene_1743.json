@@ -1,0 +1,26 @@
+{
+  "scene_id": 1743,
+  "frame_name": "frame_051595.jpg",
+  "start_time": 25786.5,
+  "end_time": 25807.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아직은 좀 걸릴테니까 일단은 나중에 알림 하고 네. 리뷰가 요청됐습니다. 네. 요청이 다 됐고요. 아, 며칠 이내 일단 완료될 수가 있는데 경우에 따라 2, 4주가 소요될 수가 있다고 합니다. 그래서 아마 다음 주에 안 붙을 수도 있어요. 네. 아, 다음 주에 안 붙을 수도 있는데 그래도 혹시 며칠 이내 완료된다고 하니까 이거 한번 다음 주에 보면은 좋을 것 같습니다. 네. 네. 그래서 여기까지 하시면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

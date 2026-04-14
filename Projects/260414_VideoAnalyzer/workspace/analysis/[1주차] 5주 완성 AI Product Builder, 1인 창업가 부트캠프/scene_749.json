@@ -1,0 +1,26 @@
+{
+  "scene_id": 749,
+  "frame_name": "frame_026380.jpg",
+  "start_time": 13180.5,
+  "end_time": 13198.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "얘는 뭐냐면 요즘 AI 시대 되면서 물론 아까처럼 최치T 메모장 왔다 갔다 하면서 코딩할 수 있어요. 근데 약간 불편한 거죠. 어 이거 복사 붙여 넣기를 굳이 해야 되나? 아니면 이거 왔다 갔다를 해야 되나 해서 최대한 편리하고 편리하고 어떻게 하면 편리할까를 고민 고민하다가이 구글이나"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

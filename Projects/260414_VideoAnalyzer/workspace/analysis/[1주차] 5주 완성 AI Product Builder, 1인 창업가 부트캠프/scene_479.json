@@ -1,0 +1,26 @@
+{
+  "scene_id": 479,
+  "frame_name": "frame_018606.jpg",
+  "start_time": 9285.0,
+  "end_time": 9320.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아, 이거 계정을 약간 귀찮긴 한데. 네. 도메인 연결도 공짜입니다. 물론 도메인은 구매를 하긴 해야 되는데 도메인 연결도 공짜로 할 수가 있습니다. 아, 요게 잠시만요. 제가 구글 계정 남는 거를 하나 찾아보겠습니다. 남는 거를 요걸로도 가입하면 되나? 아씨, 잠시만요. 제가 남는게 없네요. 어, 다 가입을 해 버렸나? 아, 네. 가입 과정은 그러면 나중에 올려 드리도록 하고 사실 가입 대충"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

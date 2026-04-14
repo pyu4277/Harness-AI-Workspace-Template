@@ -1,0 +1,26 @@
+{
+  "scene_id": 1802,
+  "frame_name": "frame_052778.jpg",
+  "start_time": 26387.0,
+  "end_time": 26390.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해커톤도 많은 시청 부탁드리겠습니다. 여기에 해커톤 여기 보시면 해커톤이 어디죠? 네, 여기에 네, 강의"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 823,
+  "frame_name": "frame_027991.jpg",
+  "start_time": 13981.5,
+  "end_time": 14009.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "합니다. 다시 명령어가 요걸로 입력하시면 됩니다. 로그인 디바이스 워스. 그럼 요걸로 로그인해 가지고요 엔터 코드를 넣으면 된다고 해요. 그래서 다시 그래서요 코드를 복사해 가지고 아씨 얘는 또 보안이 좀 빡세네요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

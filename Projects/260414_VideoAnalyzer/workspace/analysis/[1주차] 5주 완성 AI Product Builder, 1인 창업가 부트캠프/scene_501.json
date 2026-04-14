@@ -1,0 +1,26 @@
+{
+  "scene_id": 501,
+  "frame_name": "frame_019135.jpg",
+  "start_time": 9560.5,
+  "end_time": 9573.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만들어 줍니다. 네. 그리고 이제 어드밴스 세팅 이거는 굳이 안 건드셔도 돼서네 그냥 요대로 놔두고 디플로이를 눌러 줍니다. 네. 그러면 이제이 HTML 파일을 클라우드 컴퓨터 거기에 올려 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

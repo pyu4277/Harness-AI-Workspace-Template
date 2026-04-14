@@ -1,0 +1,26 @@
+{
+  "scene_id": 125,
+  "frame_name": "frame_000758.jpg",
+  "start_time": 377.0,
+  "end_time": 380.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "속도는 정말 빠른데 이거를 하나하나 테스트하는 인간은 너무 느리다는 거예요. 그래서이 생산 효율성의 병목"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

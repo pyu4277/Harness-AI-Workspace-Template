@@ -1,0 +1,35 @@
+{
+  "scene_id": 1350,
+  "frame_name": "frame_041569.jpg",
+  "start_time": 20762.5,
+  "end_time": 20806.0,
+  "visual_analysis": {
+    "layout": "Disqus 소개 페이지 + 우측 웹캠/채팅",
+    "elements": [
+      "Meet DISQUS 제목",
+      "Batman News 댓글 예시 (3 Comments)",
+      "댓글 기능: Join the discussion, Recommend, Share",
+      "Sort By Best",
+      "disqus.com URL"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Disqus 댓글",
+      "외부 서비스 연동"
+    ],
+    "summary": "네. 댓글 기능. 와, 이게 좀 핵심 기능 중에 하나죠. 댓글 기능 SNS를 그냥 갔다가 딸깍하면은 구현 끝입니다. 갖다 쓰는 거 중에 뭐 디스커스라고 저도 이거 많이 썼었는데 동물상 테스트 이런 거에서 어떤 거냐? 그 디스커스로 들어가서 요거 요것도 사이트 가입해 주시면 됩니다. 디스커스 가입한 다음에 네. 댓글 기능 백핸드로 물론 구현할 수도 있어요. 근데 귀찮잖아요. 그거 언제 구현하고 있어요? 물론 AI 딸깍하면 해 주긴 하는데 그 뭐 DB 관리하고 뭐 해야 되니까 귀찮잖아요. 네. 그래서 그냥 딸깍하면 됩니다. 이것도 네. 디스커스 여기 그 댓글 서비스 제공하는 그곳이거든요. 그래서 여기 로그인 하시면 이렇게 나옵니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Disqus 댓글 시스템 소개: Batman News 게시물에 3개 댓글 예시. 추천/공유/정렬 기능 UI",
+    "text_only_info": "외부 댓글 서비스를 웹사이트에 붙이는 방법",
+    "combined_insight": "외부 서비스 연동: Disqus 댓글 시스템을 웹사이트에 추가하여 커뮤니티 기능 구현"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: Disqus 댓글 시스템 UI 소개 - 외부 서비스 연동 시각 자료",
+  "importance_rule_version": 2
+}

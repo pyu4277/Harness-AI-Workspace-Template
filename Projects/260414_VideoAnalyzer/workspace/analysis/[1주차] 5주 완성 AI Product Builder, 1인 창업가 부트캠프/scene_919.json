@@ -1,0 +1,26 @@
+{
+  "scene_id": 919,
+  "frame_name": "frame_029771.jpg",
+  "start_time": 14883.5,
+  "end_time": 14886.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좀 불편하다 보니까 이거 안 하고 예, 요거 안 하고 여기서 연결을 해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1562,
+  "frame_name": "frame_047793.jpg",
+  "start_time": 23892.0,
+  "end_time": 23900.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "금액인데 네. 아무튼요 정도로 번 적도 있었고요. 그리고 해외에서도 바이러 돼 가지고 이제 글로벌 수익을 얻을 수가 있었습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

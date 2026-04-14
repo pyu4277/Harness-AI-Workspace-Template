@@ -1,0 +1,26 @@
+{
+  "scene_id": 1332,
+  "frame_name": "frame_040925.jpg",
+  "start_time": 20451.5,
+  "end_time": 20473.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "연결한다고 하는게 이거였습니다. 네. 아무튼 요거는 그냥 재미나이가 알아서 만들어 준 거 같고. 자, 이렇게 재유문이 폼을 받을 수 있는 거. 네. 요런 거를 만약 직접 개발한다. 어, 이거 쉽지 않죠? 백엔드도 만들고 뭐 해야 되는데. 이런 어떤 기업 웹사이트 제유무의 이런 것도 어 벌써 누가 제출 벌써 해 주셨네요. 어 누가 제출하셨습니다. 아닌가? 어 그러네요. 벌써 누가 제출해 주셨는데 자 이거 저도 제출해 볼게요.음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

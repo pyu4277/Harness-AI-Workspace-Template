@@ -1,0 +1,26 @@
+{
+  "scene_id": 1631,
+  "frame_name": "frame_049170.jpg",
+  "start_time": 24582.5,
+  "end_time": 24587.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기 새 사이트 딸깍 눌러 가지고 웹사이트를 추가를 해 주시면 되는데이 웹사이트는 요겁니다. 저희 클라우드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

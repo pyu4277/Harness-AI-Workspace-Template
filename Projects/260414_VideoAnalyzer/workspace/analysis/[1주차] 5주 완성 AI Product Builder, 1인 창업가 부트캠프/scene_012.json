@@ -1,0 +1,26 @@
+{
+  "scene_id": 12,
+  "frame_name": "frame_000579.jpg",
+  "start_time": 264.0,
+  "end_time": 314.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "많이 도움이 되실 것 같습니다. 네. 그래서 강의자료거 받아 주시면 되고 또 준비해야 될게 어 잠시만요. 네. 네. 일단 강의 자료 받아 주시고요. 아, 출책. 출책 아직 제가 안 만들어 놨다. 네. 출책을 얼른 등록해 두도록 하겠습니다. 그래서 뭔가 같이 동기 부여하면서 과제도 있고 막 이렇게 만들었는데 그런 이유가 사실 그냥 일방적으로 듣다 보면은 사실 좀 지칠 수가 있잖아요. 그래서 아 나 출책도 하고 좀 공부 다짐도 하고 그래서 5주 동안은 한번 AI 시대에 진짜 프로덕트 빌더가 돼 보겠다라는 좀 그런 그 마음가짐을 다질 수 있도록 제가 출책을 합니다. 그래서 출책 아마 이전 강의에서도 요거 진행했는데 반응이 괜찮았어 가지고 네. 또 이번에도 진행을 하려고 합니다. 네. 그래서 출책을 지금 링크를 네. 남겨 놨습니다. 네. 그래서 여기 출책"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

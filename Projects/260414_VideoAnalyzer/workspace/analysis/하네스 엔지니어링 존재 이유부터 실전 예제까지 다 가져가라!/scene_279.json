@@ -1,0 +1,26 @@
+{
+  "scene_id": 279,
+  "frame_name": "frame_002540.jpg",
+  "start_time": 1263.5,
+  "end_time": 1275.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "커밋하고 머지를 하면은 이제 오른쪽에 있는 할 목록에서 작성자 정보가 추가가 되게 됩니다. 그래서 지금 코드 커밋 전에 빌드까지 했고요. 지금 현재 머지가 되면서 작성자"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

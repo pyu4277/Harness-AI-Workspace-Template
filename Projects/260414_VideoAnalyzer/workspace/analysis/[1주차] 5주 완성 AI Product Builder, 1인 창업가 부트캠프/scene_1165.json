@@ -1,0 +1,26 @@
+{
+  "scene_id": 1165,
+  "frame_name": "frame_035971.jpg",
+  "start_time": 17969.0,
+  "end_time": 18001.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "벌셀은 안 쓰셔도 됩니다. 네. 벌셀 넥스 JS 뭐 쓰실 분들은 벌세 잘 돼 있긴 한데 네. 비싸요. 또 넥스제이스도 막 몇 몇 억 몰리고 하면 엄청 비싸져 가지고 이거는 페이지 써야 아예 공짜입니다. 네. 아 이제 정리를 해 보겠습니다. 자 이렇게 연결해서 지금까지 뭐 했는지 자 소개드리면 여까지 했죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

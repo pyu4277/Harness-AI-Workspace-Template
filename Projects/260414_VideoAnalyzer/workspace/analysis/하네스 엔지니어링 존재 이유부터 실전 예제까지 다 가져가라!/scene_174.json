@@ -1,0 +1,26 @@
+{
+  "scene_id": 174,
+  "frame_name": "frame_001135.jpg",
+  "start_time": 565.5,
+  "end_time": 568.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그러면은 문서 앞부분에 대충 읽어보고 에이 뒷부분은 뭐 대충 이럴 거야라고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

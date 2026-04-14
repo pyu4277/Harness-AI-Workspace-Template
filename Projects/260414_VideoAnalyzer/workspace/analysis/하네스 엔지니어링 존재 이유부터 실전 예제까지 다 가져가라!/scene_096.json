@@ -1,0 +1,26 @@
+{
+  "scene_id": 96,
+  "frame_name": "frame_000581.jpg",
+  "start_time": 288.5,
+  "end_time": 291.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "엔지니어링입니다. 아 사실이 하네스 엔지니어링이라는 개념은요. 나온지 좀"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

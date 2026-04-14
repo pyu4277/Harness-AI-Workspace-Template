@@ -1,0 +1,26 @@
+{
+  "scene_id": 728,
+  "frame_name": "frame_025597.jpg",
+  "start_time": 12781.5,
+  "end_time": 12815.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "창이 있는데 요게 이제 여기 들어간 겁니다. 네. 그래서 사실 코딩은 요거 구성만 있으면 모든 걸 만들 수 있는 좀 고급 개발에 대한 어떤 준비가 다 된 거예요. 요렇게만 있으면. 그래서 터미널 있고 코드 편집기 있고 파일 탐색기 있고 AI 있고 하면은 이제 모든 걸 할 수 있죠. 이제네 모든 걸 할 수가 있겠습니다. 네. 그래서 여기 오케이 프로시드 하고 Y 누르라고 하는데 Y 해 가지고 엔터 누르면 네. 아마 서버 설치해 가지고 오 이렇게 켜 줬어요. 그래서 주소가 온 뭐 이렇게 나와 있는데 얘를 컨트롤 클릭을 해 보시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

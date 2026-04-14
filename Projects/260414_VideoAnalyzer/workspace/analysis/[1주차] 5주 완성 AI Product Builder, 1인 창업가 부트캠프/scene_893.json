@@ -1,0 +1,26 @@
+{
+  "scene_id": 893,
+  "frame_name": "frame_029086.jpg",
+  "start_time": 14540.0,
+  "end_time": 14545.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요런 기준으로는. 그래서 요렇게 세 가지 모두 다 이용할 수 있게 만들어 놨습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

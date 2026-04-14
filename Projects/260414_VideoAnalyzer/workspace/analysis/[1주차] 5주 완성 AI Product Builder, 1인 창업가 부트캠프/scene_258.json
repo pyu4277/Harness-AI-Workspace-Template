@@ -1,0 +1,26 @@
+{
+  "scene_id": 258,
+  "frame_name": "frame_013043.jpg",
+  "start_time": 6519.0,
+  "end_time": 6523.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보시면 나오는데네 요거를 눌러 가지고 여기서 포맷을 플레인 텍스트로 바꾸셔야 됩니다. 플랜텍스트로 바꿔"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

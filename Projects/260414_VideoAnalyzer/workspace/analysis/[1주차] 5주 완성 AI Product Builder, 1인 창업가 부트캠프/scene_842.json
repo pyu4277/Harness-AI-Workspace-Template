@@ -1,0 +1,26 @@
+{
+  "scene_id": 842,
+  "frame_name": "frame_028256.jpg",
+  "start_time": 14107.5,
+  "end_time": 14148.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "로그인 됨. 이제는 로그인이 돼서 어, 석세플리 로그인이라고 로그인 됐으니까 이제는 코덱스라고 입력해 주시면 네. 이렇게 로그인된 상태니까 이렇게 without asking off. 네. 요거는 이제 그 승인 알아서 알아서 돌아가게 하려면 요거 누르면 되고 이거는 이제 두 번째 옵션은 이게 키보드로 방향키로 왔다 갔다 할 수 있거든요. 얘는 첫 번째는 알아서 어프로브해서 알아서 진행하는 옵션이고 얘는 하나씩 승인하는 옵션인데 이거 알아서 승인해서 알아서 돌아가도록 하겠습니다. 네. 이렇게 돌아가면 마찬가지로 이제 오픈 AI 코덱스네 설정도 됐습니다. 클로드 코드도 마찬가지거든요. 아 이거 기왕 한"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1635,
+  "frame_name": "frame_049255.jpg",
+  "start_time": 24614.0,
+  "end_time": 24640.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "입력하시면 되고요. 저장을 누르고 네. 그다음에 이제 사이트 소유권 확인이 필요하다. 그래서 에드센스 코드 스니펫 뭐 요거 요런 거 입력하라고 돼 있죠. 이거를 사람이 입력하나? 아닙니다. AI 시켜 가지고 요거 입력해 줘. 요거 입력해 줘. 하면 되겠죠? 네. 그래서 한번 해 보겠습니다. 그럼요 코드이 어디에 넣어야 된다고 합니다. 근데 어디에 넣는지 안 중요하죠. AI가 알아서 해 주니까. 그래서 요거 그냥 복사해 가지고음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

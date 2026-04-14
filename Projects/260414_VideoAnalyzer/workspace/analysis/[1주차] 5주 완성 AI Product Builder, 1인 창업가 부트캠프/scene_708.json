@@ -1,0 +1,26 @@
+{
+  "scene_id": 708,
+  "frame_name": "frame_025001.jpg",
+  "start_time": 12492.0,
+  "end_time": 12508.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "잠깐 잠깐 보여 드리자면 요거 아시나요? 구글이 어떤 서비스를 만들잖아요. 없어지는게 되게 많습니다. 네. 그래서 언제 없어질지 모르기 때문에 혹시나 없어져 계시다 하면은 뭐 비주얼 스튜디오 이미 그 제가 보여 드린 것처럼 설치해 쓰실 수도 있고요. 킬드바이 구글이라고 아예 이런 서비스 되게 많아요. 이런"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

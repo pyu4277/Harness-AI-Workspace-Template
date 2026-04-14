@@ -1,0 +1,26 @@
+{
+  "scene_id": 1244,
+  "frame_name": "frame_039167.jpg",
+  "start_time": 19581.0,
+  "end_time": 19585.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "활발하다 보니까 약간 요런 일도 있어요. 자바스크립트 MPM 마비 사태가 한번 일어난 적이 있었는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

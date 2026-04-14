@@ -1,0 +1,26 @@
+{
+  "scene_id": 281,
+  "frame_name": "frame_013770.jpg",
+  "start_time": 6881.5,
+  "end_time": 6887.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아까 봤던 것처럼 인터넷 브라우저에서 접속할 수 있는 HTML 코드가 실행이 돼서 실제로 H1 안녕에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

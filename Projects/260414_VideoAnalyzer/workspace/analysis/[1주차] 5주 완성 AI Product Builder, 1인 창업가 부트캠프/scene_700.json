@@ -1,0 +1,26 @@
+{
+  "scene_id": 700,
+  "frame_name": "frame_024641.jpg",
+  "start_time": 12318.0,
+  "end_time": 12322.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "주시고요. 여기 웹 쪽에 있습니다. 뭐 딴데도 있을 수 있는데 웹에 그 심플 HTML 선택하면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

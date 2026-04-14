@@ -1,0 +1,26 @@
+{
+  "scene_id": 52,
+  "frame_name": "frame_000314.jpg",
+  "start_time": 155.0,
+  "end_time": 158.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어 매일매일 리셋이 되는 그런 신인 말고 어 우리 일한 히스토리를 다"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,35 @@
+{
+  "scene_id": 74,
+  "frame_name": "frame_003957.jpg",
+  "start_time": 1959.5,
+  "end_time": 1997.0,
+  "visual_analysis": {
+    "layout": "ENIAC 역사 사진 + 핑크 주석 + 우측 웹캠/채팅",
+    "elements": [
+      "ENIAC 컴퓨터 흑백 역사 사진",
+      "기술자가 진공관 교체 작업 중",
+      "캡션: Replacing a bad tube meant checking among ENIAC's 19,000 possibilities",
+      "ENIAC 핑크 강조"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "ENIAC",
+      "컴퓨터 역사",
+      "19000개 진공관"
+    ],
+    "summary": "방식의 코딩이면 점점 발전해서 이제 컴퓨터 다운 컴퓨터가 나온게 요런 거죠. 네. 근데이 애니학이라는 컴퓨터입니다. 이게 애니학 최초의 컴퓨터 뭐 이렇게 불리기도 하는데 여기에 이제 19,000개의 요런 그요 튜브들이 있어 가지고 요거를 꽂고 연결하고 이런 걸로 코딩을 했어요. 예전에는. 그래서 요걸로 연결해서 코딩하던 시절이 애니학 시절에도 되게 빡셌겠죠. 근데 이전에 천공 카드에 비하면 와 쉬워졌다. 와 천공 카드 와 이거 뚫는 거 너무이었는데 아 이제는 19,000개만 이렇게 어떻게 연결하면은 디버 할 수 있네라고 해서 너무 쉬운 시대가 됐는데네 심지어이 디버깅이라고 하는 그 버그를 찾는다가 여기서 나왔다고 합니다.데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "ENIAC 초기 컴퓨터 역사 사진: 19,000개 진공관 중 불량 튜브를 찾아 교체하는 기술자. 컴퓨터 발전사 시각 자료",
+    "text_only_info": "컴퓨터 역사와 프로그래밍의 발전 배경",
+    "combined_insight": "컴퓨팅 역사: ENIAC 19,000개 진공관에서 현대 AI 코딩까지의 발전. 역사적 맥락으로 현재 위치 조명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: ENIAC 역사 사진 - 컴퓨팅 발전사 시각 자료",
+  "importance_rule_version": 2
+}

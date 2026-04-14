@@ -1,0 +1,26 @@
+{
+  "scene_id": 129,
+  "frame_name": "frame_000782.jpg",
+  "start_time": 389.0,
+  "end_time": 392.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "자꾸 테스트를 하고 개입을 해야 되니까 자꾸만 이제 AI가 계속"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 680,
+  "frame_name": "frame_024098.jpg",
+  "start_time": 12041.5,
+  "end_time": 12056.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보도록 하겠습니다. 네. 근데 창 정리 한번 볼게요. 창이 너무 많아졌다. 창을 한번 좀 정리하고 가도록 하겠습니다. 네. 창을 좀 정리를 하고. 음."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1620,
+  "frame_name": "frame_048957.jpg",
+  "start_time": 24476.0,
+  "end_time": 24480.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "비판하는 1년도 못감 해 주셨는데 뭐 충분히 뭐 이렇게 많이 벌었다라는 그 옛날 자료긴 한데 아무튼 요렇게 많이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

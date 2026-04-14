@@ -1,0 +1,26 @@
+{
+  "scene_id": 22,
+  "frame_name": "frame_001118.jpg",
+  "start_time": 552.5,
+  "end_time": 564.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "MD를 보면 앞으로이 에이전트한테 어떤 업무를 시킬 거냐면 AI 관련 국가 공모전이나 지원 사업이 뭐가 있는지 한 눈에 볼 수 있는 웹사이트를 만들라고 지시할 겁니다. 그래서이 업무에 대한 전반적인 지시"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "MD를 보면 앞으로이 에이전트한테 어떤 업무를 시킬 거냐면 AI 관련 국가 공모전이나 지원 사업이 뭐가 있는지 한 눈에 볼 수 있는 웹사이트를 만들라고 지시할 겁니다. 그래서이 업무에 대한 전반적인 지시",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 130,
+  "frame_name": "frame_006230.jpg",
+  "start_time": 3094.5,
+  "end_time": 3134.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러다 보니까 약간 대표적인 사례 이런 사례가 되게 많지 않을까 생각에 그냥 최치피 시켜 가지고 조사했거든요. 이게 맞는지 모르겠어요. 아마 이런 사례 더 많겠죠. 최치피가 찾아준 사례는 이렇습니다. 뭐 트론, 새로운 시작 이런 영화 있잖아요. 영화도 뭐 제작비가 1.7억 달러가 들었는데 막 최상급 시지 놓고 막 퀄리티 엄청 높여가면서 해도 사실 뭐 비주얼 레퍼런스용 영화는 성공했지만 흥행은 망했다. 약간 요런게 많죠. 그래서 뭐 파이널 판타지 이런 것도 막 실사급 CG를 만들고 모공 머리카락까지 표현해 가지고 막 우와 어마어마한 퀄리티 영화를 만들었지만 사실 파산 직전까지 갔다. 네. 이렇게 아무리 뭐 퀄리티가 높고 뭐 제작비가 많이 들어가고 이런게 아무"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

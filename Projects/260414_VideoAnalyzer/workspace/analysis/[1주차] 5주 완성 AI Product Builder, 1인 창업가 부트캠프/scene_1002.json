@@ -1,0 +1,38 @@
+{
+  "scene_id": 1002,
+  "frame_name": "frame_031601.jpg",
+  "start_time": 15782.0,
+  "end_time": 15818.5,
+  "visual_analysis": {
+    "layout": "Firebase Studio IDE + Gemini CLI 터미널 (git clone) + 우측 웹캠/채팅",
+    "elements": [
+      "HTML 코드: Lucky Number Generator",
+      "git clone 실행 출력: Cloning/Counting/Compressing/Receiving",
+      "GitHub URL: github.com/jocoding/product-builder-lecture",
+      "branch main set up 메시지",
+      "핑크 원형 강조: GitHub URL"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "git clone https://github.com/jocoding/product-builder-lecture.git"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "git clone",
+      "GitHub 연동",
+      "Gemini CLI git"
+    ],
+    "summary": "탭이잖아요. 이것처럼 얘도 탭 탭 탭 이렇게 넘길 수 있는 겁니다. 그래서 요게 다 각각 다른 탭이에요. 어 제미나이 API 키를 안 쓰셔도 됩니다. 이거는 제미나이 CLI는 구글 로그인 하시면 돼요. 장치 인증 코드는 네, 여기 아까 뜹니다. 이게 로그인 하시면 뜹니다. 그래서 다시 영상 뒤로 가게 하셔서 영상 다시 보시면은 그게 나올 겁니다. 네. 이렇게 한번 연결이 됐으니까 이렇게 두 개의 연결은 끝났습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Gemini CLI에서 git clone 실행: jocoding/product-builder-lecture 레포 클론 성공. 핑크 원형으로 GitHub URL 강조",
+    "text_only_info": "AI한테 레포지토리에 코드 올려달라고 시키면 알아서 해줌",
+    "combined_insight": "Git 워크플로우: Gemini CLI로 GitHub 레포 클론 -> 코드 업로드. AI가 git 명령어를 자동 실행"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: git clone GitHub 레포 연동 + Gemini CLI 자동 실행",
+  "importance_rule_version": 2
+}

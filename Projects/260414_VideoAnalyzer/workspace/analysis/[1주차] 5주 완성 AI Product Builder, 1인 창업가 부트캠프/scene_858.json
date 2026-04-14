@@ -1,0 +1,26 @@
+{
+  "scene_id": 858,
+  "frame_name": "frame_028500.jpg",
+  "start_time": 14245.5,
+  "end_time": 14254.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제가 바꿔 놓을게요. 강의 자료에 강의 자료에 클로드 코드는 요걸로 설치하시면 되고요. 코드 클로드 코드 요걸로 들어가서 설치하시면 되고."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

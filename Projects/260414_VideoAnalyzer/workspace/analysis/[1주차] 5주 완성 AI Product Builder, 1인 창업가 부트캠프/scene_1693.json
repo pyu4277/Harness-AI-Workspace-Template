@@ -1,0 +1,26 @@
+{
+  "scene_id": 1693,
+  "frame_name": "frame_050576.jpg",
+  "start_time": 25286.0,
+  "end_time": 25289.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어 알아서 최적화해 주는 거 같죠? 지금 보니까 아닌가?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

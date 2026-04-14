@@ -1,0 +1,35 @@
+{
+  "scene_id": 904,
+  "frame_name": "frame_029491.jpg",
+  "start_time": 14717.5,
+  "end_time": 14773.0,
+  "visual_analysis": {
+    "layout": "GitHub 대시보드 + 핑크 주석 + 우측 웹캠/채팅",
+    "elements": [
+      "GitHub Home 대시보드",
+      "New 버튼 핑크 원형 강조",
+      "Top Repositories 목록",
+      "Shimmy v1.9.0 업데이트 뉴스"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "GitHub 대시보드",
+      "레포지토리 생성",
+      "New 버튼"
+    ],
+    "summary": "하긴 해야 됩니다. 아, 지금 벌써 6시군요. 네. 일단 빠르게 해 보겠습니다. 자, 기터브 가입하셨다 하면은 로그인하면 요런 화면이 나오실 겁니다. 기터브.닷컴 가입하시면 요런 화면이 나오고요. 네. 그다음에 로그인 하신 다음에 아마 요렇게 그 레퍼 스토리 이미 만드신 분이 있다면 여기에 뉴 버튼이 있을 거고요. 없으신 분들은 뭐 여기에 뉴도 있는데 여기 상단에 보시면 여기 플러스 버튼이 있습니다. 그래서 크리에이트 뉴가 있거든요. 여기에서 이제 우리가 그 코드를 관리할 저장소를 만들어 줄 수가 있습니다. 폴더를 만든다라고 생각하시면 좋을 것 같은데요. 네. 여기서 플러스를 눌러 가지고 자. 뉴 레포지토리라고 있습니다. 뉴 레포지토리로 그 코드 저장소 하나를 파 주겠습니다. 뉴 레포지토리 눌러 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "GitHub 대시보드: New 버튼으로 레포지토리 생성 위치 핑크 원형 강조. 상단 Repositories 목록 보임",
+    "text_only_info": "GitHub에서 새 레포지토리를 만드는 방법 안내",
+    "combined_insight": "GitHub 사용법: New 버튼으로 레포지토리 생성. 코드 배포의 첫 단계"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: GitHub 대시보드 + New 버튼 위치 핑크 강조",
+  "importance_rule_version": 2
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 230,
+  "frame_name": "frame_012378.jpg",
+  "start_time": 6181.0,
+  "end_time": 6196.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이거 영상도 있는데이 HTML은이 뼈대를 만드는 거니까 막 로직이 들어가지 않아요. 그러니까 뭐 이걸 어떻게 했을 때 어떻게 되고 막 엄청 복잡한 로직이 들어가지 않고 이렇게 보통 뼈대를 구성하는데 많이 쓰이기 때문에 어렵지 않다. 그리고 논리적인 어떤 설계가 부족 아 들어가지 않기 때문에 이걸 프로그래밍 언어라고는 안"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

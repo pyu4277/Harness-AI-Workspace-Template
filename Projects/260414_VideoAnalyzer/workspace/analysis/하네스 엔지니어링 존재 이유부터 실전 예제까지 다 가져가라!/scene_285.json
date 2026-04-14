@@ -1,0 +1,26 @@
+{
+  "scene_id": 285,
+  "frame_name": "frame_002680.jpg",
+  "start_time": 1334.5,
+  "end_time": 1344.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "파일이 나와 있습니다. 그리고 또이 하네스 엔지니어링의 중요한 점이 뭡니까?이 AI가 일을 잘못하면 그걸 바로 잡아 줘야 되겠죠. 그래서 지금 현재 어 워크트리를 만들어 주지 않고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

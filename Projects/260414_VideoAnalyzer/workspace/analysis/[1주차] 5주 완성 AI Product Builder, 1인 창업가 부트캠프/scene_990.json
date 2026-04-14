@@ -1,0 +1,26 @@
+{
+  "scene_id": 990,
+  "frame_name": "frame_031318.jpg",
+  "start_time": 15655.0,
+  "end_time": 15662.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "생겼구나 하고 이렇게 파일 뭐가 바뀌었는지 이렇게 다 나오거든요. 이전 버전은 요거였는데 지금은 렇게 바뀌었다라는 거 다 나오죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

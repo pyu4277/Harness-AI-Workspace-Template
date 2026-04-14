@@ -1,0 +1,26 @@
+{
+  "scene_id": 1231,
+  "frame_name": "frame_038618.jpg",
+  "start_time": 19294.0,
+  "end_time": 19323.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되면 알아서 제업을 작업을 가서 그냥 알아서 수행하거든요. 근데 놀랍게도 이러다 보면은 얘가 할루시네이션이 살짝 있을 때가 있어요. 그래서 명령어 요런 걸 실행해 버립니다. 그러면 이렇게 실행하면 홈 디렉토리 전체가 삭제가 될 수도 있어요. 조금 조심해야 되긴 합니다. 네. 그래서 일단 뭐 올 오케이도 옵션은 있긴 한데 위험할 수도 있다. 네. 이러 좀 중요한 파일이나 이런 거 나눴다면 좀 위험하다입니다. 근데 이런 건 괜찮죠. 왜냐면 저희가 하는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

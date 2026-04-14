@@ -1,0 +1,26 @@
+{
+  "scene_id": 993,
+  "frame_name": "frame_031363.jpg",
+  "start_time": 15676.0,
+  "end_time": 15686.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "알려줍니다. 오. 야, 꿀 뭔가 꿀 정보를 주셨어요, 지금. 그 이분이 여기요"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

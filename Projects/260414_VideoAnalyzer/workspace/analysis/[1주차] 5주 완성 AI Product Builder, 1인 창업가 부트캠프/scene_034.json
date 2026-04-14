@@ -1,0 +1,26 @@
+{
+  "scene_id": 34,
+  "frame_name": "frame_001497.jpg",
+  "start_time": 719.0,
+  "end_time": 777.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진행이 됩니다. 네. 그리고 강의 자료는 여기서 아까 공지들렸듯이 여기서 확인하실 수 있고 강의 자료 다운로드도 여기서 받으실 수가 있겠습니다. 아, 정옥선 님 VIP 감사드리고요. 네. 그리고 중간중간 제가 스타 아, 그 메가 커피 기프티콘을 드리려고 합니다. 네. 메가 커피 매장이 그이 저가 커피 시장에서 가장 많다고 하더라고요. 그래서 제가 커피 아이스 아메리카노 시원하게 드실 수 있도록 이제 강의 중간중간에 제가 뭐 퀴즈를 내거나 뭐 문제를 내거나 하면은 맞추신 분들에게요 그 메가커피 기프티콘을 좀 드리려고 합니다. 네. 그래서 한번 테스트를 해 보자면 네. 지금 아무나 한 분 한번 드려 볼게요. 이게 잘 동작하는지 일단 봐야 되니까. 네. 아무나 한 분 응모해 주시면 아무나 한 분 드리겠습니다. 네. 지금 링크 제가 올렸거든요. 채팅에. 그래서 아무나 한번 진짜 아무나 한번 뽑게요. 그냥 인증해 주시면. 일단은 본인 아이디 인증은 약간 요런 식이거든요.이 들어가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-02: 메가커피 사진 + 웹캠만, 교육 시각 콘텐츠 없음",
+  "importance_rule_version": 2
+}

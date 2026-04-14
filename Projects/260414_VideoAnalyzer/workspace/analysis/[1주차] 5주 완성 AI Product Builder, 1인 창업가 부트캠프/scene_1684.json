@@ -1,0 +1,26 @@
+{
+  "scene_id": 1684,
+  "frame_name": "frame_050406.jpg",
+  "start_time": 25195.0,
+  "end_time": 25210.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 아, 테스트 도메인으로. 아하. 그러면은 다시 하셔야 됩니다. 네. 근데 다시 하도 되죠, 뭐 이게 딸깍딸깍 몇 번 하면은 바로 그냥 만들 수 있는데. 네. 다시 하시면 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

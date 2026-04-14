@@ -1,0 +1,26 @@
+{
+  "scene_id": 87,
+  "frame_name": "frame_004402.jpg",
+  "start_time": 2180.5,
+  "end_time": 2220.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 뭐이 민 하나 소개해 드리면 2020년대 개발자는 어떻게 했냐? 뭐 이즈이 좀 멍청하게 프로그램하는 방법해 가지고 짝스 홀스 판별할 때 뭐 그 홀스면은 이제 1이면 트루, 뭐 3이면 트루 이런 식으로 해서 코딩을 했다면 25년의 개발자들 오픈 AI에 물어봐서 이즈 오드 이거 홀스가 맞니 하고 요렇게 받아서 코딩을 한다라는 요런 미인데 요건 아마 코딩 잘 모르시면 좀 안 웃기실 수 있는데 요런 시대가 됐습니다. 그래서 이제는 모든 거를 다 AI한테 물어봐 가지고 코드를 짜는 네. 그런 시대가 돼 버렸습니다. 네. 아무튼이 정도로 코딩이 쉬워졌다. 네. 그래서 오늘날"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

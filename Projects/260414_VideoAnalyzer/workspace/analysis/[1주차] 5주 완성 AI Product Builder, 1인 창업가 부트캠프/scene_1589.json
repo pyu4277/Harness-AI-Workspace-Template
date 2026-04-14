@@ -1,0 +1,26 @@
+{
+  "scene_id": 1589,
+  "frame_name": "frame_048486.jpg",
+  "start_time": 24241.0,
+  "end_time": 24244.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해 놨습니다. 그 가입 처음 하신 분들이 좀 어려울 수 있을 것 같아서 에드센스 가입하기 해 가지고 계정"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

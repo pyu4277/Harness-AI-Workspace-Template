@@ -1,0 +1,26 @@
+{
+  "scene_id": 87,
+  "frame_name": "frame_000527.jpg",
+  "start_time": 261.5,
+  "end_time": 264.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "장치까지 하는 거 그거를 하네스 엔지니어링이라고 부르게 됩니다. 그래서 단순 뭐뭐 하지 마라는 말이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

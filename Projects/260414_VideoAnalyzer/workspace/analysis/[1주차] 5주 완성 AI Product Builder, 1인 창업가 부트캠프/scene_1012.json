@@ -1,0 +1,26 @@
+{
+  "scene_id": 1012,
+  "frame_name": "frame_031863.jpg",
+  "start_time": 15921.0,
+  "end_time": 15941.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하시는 분들은 특정 레퍼 스토리만 선택하셔도 됩니다. 그 저도 이렇게 저는 이렇게 선택해 놨는데 이렇게 온리라고 하면은 원하는 레포스토리만 지정해서 연결할 수 있고요. 아니면 올 하면은 모든게 연결돼서 사실 좀 편하게 하고 싶다 하면 올 하면 되시 되시고 좀 더 아 나는 요것만 딱 연결하고 싶어. 딱 이렇게 뭔가 철저하게 하시고 싶으신 분들은 요렇게 하시고 세이브를 하시면 되겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

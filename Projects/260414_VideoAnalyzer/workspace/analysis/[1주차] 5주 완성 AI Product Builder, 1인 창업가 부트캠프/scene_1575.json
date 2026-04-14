@@ -1,0 +1,26 @@
+{
+  "scene_id": 1575,
+  "frame_name": "frame_048330.jpg",
+  "start_time": 24156.0,
+  "end_time": 24173.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그에서 이제 고품질 사이트를 만들기 위한 도움 말이 있습니다. 어떻게 하면 이제 공식적으로 애드센스에서 인증하는 진짜 공식적인 고품질 사이트 이렇게 만들면 됩니다라고 1편 2편 이렇게 나눠져서 올라가 있습니다. 네. 그래서 이거를 이제 사람이 읽고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

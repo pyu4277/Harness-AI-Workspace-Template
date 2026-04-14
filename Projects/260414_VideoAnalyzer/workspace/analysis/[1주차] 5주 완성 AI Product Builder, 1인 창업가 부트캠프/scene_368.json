@@ -1,0 +1,26 @@
+{
+  "scene_id": 368,
+  "frame_name": "frame_015741.jpg",
+  "start_time": 7836.5,
+  "end_time": 7904.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보도록 하겠습니다. 자, 채치T 다시 들어오세요. 이제 코딩은 다 채치T 시킬 겁니다. 어떤 식으로 시키면 되냐? 자, 구체적으로 이번에 좀 시켜 보겠습니다. 이제 여러분들은 코딩의 어떤 지식인이 되신 겁니다. 그렇기 때문에 이제 채티 아직 AI는 완벽하지 않기 때문에 명령을 구체적으로 하는게 중요하거든요. 그래서 명령을이 정도로 이제 여러분은 지식이 있으시니까 구체적으로 입력하실 수가 있습니다. 예를 들어 인덱스.html html 파일 안에 어 하나 웹사이트 생각나는 거 만들어 볼게요. 어 버튼을 누르면 로또 번호를 추천해 주는 웹사이트 코드를 만들어 줘. 네. 이거 지금 막 제가 그냥 생각해서 만든 겁니다. 그러니까 아무 사이트나 만드셔도 돼요. 이런 식으로 인덱스.html이라는 그 파일 안에 들어갈 코드를 만드는데 여기서 버튼을 누르면 이게 자바스크립트가 동작하겠죠. 뭘 누르면 뭐가 바뀐다 이런 거니까 로또 번호를 추천해 주는 웹사이트 코드를 만들어 줘라고 입력하고 딸깍 누르면 실제로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

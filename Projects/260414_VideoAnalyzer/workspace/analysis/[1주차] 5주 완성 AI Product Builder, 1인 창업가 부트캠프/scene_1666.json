@@ -1,0 +1,26 @@
+{
+  "scene_id": 1666,
+  "frame_name": "frame_049990.jpg",
+  "start_time": 24991.0,
+  "end_time": 24998.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "사이트 만들기 1번 2번 있죠? 요거를 읽 사람이 읽을 필요는 없어요. 이렇게 하고 읽어 주고 그다음에 입력하고 네. 요거 이것도 복사해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

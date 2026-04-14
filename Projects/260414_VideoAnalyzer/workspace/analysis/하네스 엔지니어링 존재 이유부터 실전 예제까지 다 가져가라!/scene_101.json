@@ -1,0 +1,26 @@
+{
+  "scene_id": 101,
+  "frame_name": "frame_000612.jpg",
+  "start_time": 304.0,
+  "end_time": 307.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어떤 서비스를 만들었대요. 근데 그 서비스가 이제 AI가 알아서 일을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

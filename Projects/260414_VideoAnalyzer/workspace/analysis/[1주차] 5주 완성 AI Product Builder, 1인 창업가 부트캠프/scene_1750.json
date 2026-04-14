@@ -1,0 +1,26 @@
+{
+  "scene_id": 1750,
+  "frame_name": "frame_051737.jpg",
+  "start_time": 25862.0,
+  "end_time": 25874.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "광고 요런 거 알아서 들어가고요. 최적화 자동으로 다 켜 놓으면은 알아서 최적화도 해 줍니다. 그래서 굳이 뭐 광고 배너를 만든 다음에 넣는 것도 물론 가능한데 알아서 광고를 막 삽입해 주는 걸 구글에서 제공을 하거든요. 그래서 이거 자동 광고 켜 두시면은 알아서 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

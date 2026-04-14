@@ -1,0 +1,26 @@
+{
+  "scene_id": 274,
+  "frame_name": "frame_002457.jpg",
+  "start_time": 1222.0,
+  "end_time": 1234.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 코드가 워크트리 환경에서 이제 구현이 되기 때문에 현재 코드가 바뀌어도 오른쪽에 있는 할일 목록의 UI는 바뀌지가 않죠. 왜냐? 워크트리에서만 진행을 하고 있기 때문입니다. 나중에 합치면은 적용이 됩니다. 음. 그리고 이제 4단계"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

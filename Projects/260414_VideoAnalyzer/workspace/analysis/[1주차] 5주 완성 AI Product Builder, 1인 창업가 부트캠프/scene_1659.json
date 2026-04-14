@@ -1,0 +1,26 @@
+{
+  "scene_id": 1659,
+  "frame_name": "frame_049871.jpg",
+  "start_time": 24923.5,
+  "end_time": 24946.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거예요. 네. 그다음에 이제 검토 요청을 해야 되는데. 네. 이게 좀 심사가 빡셉입니다. 그래서 지금 검토 요청을 하시기보다는 이거 수정하고 할게요. 물론 이거 해 놓고 고쳐도 되긴 한데 일단 검토 요청하면은 심사 받는 거잖아요. 이제 양질의 사이트가 돼야 됩니다. 그래서 양질의 사이트로 만든 다음에 좀 검토를 하면 좋겠죠? 네. 양질의 사이트로 만들어 볼게요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

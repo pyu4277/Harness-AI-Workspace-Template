@@ -1,0 +1,26 @@
+{
+  "scene_id": 932,
+  "frame_name": "frame_030062.jpg",
+  "start_time": 15023.5,
+  "end_time": 15037.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 자, 연결할 텐데 물론 이제 찐 개발자 하실 분들은 사실 직접 하셔도 됩니다. 여기에 그래 여기까지는 한번 직접 해 보겠습니다. 요거는 이제 뭐 마지막 자존심 물론 이걸 시켜 되긴 하거든요. 예를 들어 이런 겁니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

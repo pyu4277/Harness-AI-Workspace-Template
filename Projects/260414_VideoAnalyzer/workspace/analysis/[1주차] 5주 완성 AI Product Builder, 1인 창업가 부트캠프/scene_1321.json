@@ -1,0 +1,26 @@
+{
+  "scene_id": 1321,
+  "frame_name": "frame_040673.jpg",
+  "start_time": 20332.0,
+  "end_time": 20340.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "배포도 됐나? 뽀가 됐나 보면 아 렉 걸려 가지고 화면이 조금 잘렸네요. 클리어를 다시음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

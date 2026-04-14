@@ -1,0 +1,26 @@
+{
+  "scene_id": 4,
+  "frame_name": "frame_000092.jpg",
+  "start_time": 37.0,
+  "end_time": 54.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭘까요? 생각해 보면 이유는 단순합니다. AI는 코딩을 잘합니다. 그런데 만들어진 그 제품이 쓸 만한 서비스로까지는 이어지지 못하고 있는 겁니다. 그래서 딸깍 한 번이면 다 될 것 같지만 막상 결과물을 보면 겉모습만 그렇듯하고 내부 로직은 너무 빈약한 경우가 많죠. 그래서 최근이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "뭘까요? 생각해 보면 이유는 단순합니다. AI는 코딩을 잘합니다. 그런데 만들어진 그 제품이 쓸 만한 서비스로까지는 이어지지 못하고 있는 겁니다. 그래서 딸깍 한 번이면 다 될 것 같지만 막상 결과물을 보면 겉모습만 그렇듯하고 내부 로직은 너무 빈약한 경우가 많죠. 그래서 최근이",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 (대본에 지시대명사 있으나 화면은 얼굴)",
+  "importance_rule_version": 1
+}

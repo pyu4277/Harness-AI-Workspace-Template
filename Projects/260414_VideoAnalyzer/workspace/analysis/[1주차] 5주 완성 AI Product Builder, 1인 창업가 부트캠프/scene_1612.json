@@ -1,0 +1,26 @@
+{
+  "scene_id": 1612,
+  "frame_name": "frame_048871.jpg",
+  "start_time": 24429.5,
+  "end_time": 24441.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그 동물상 테스트죠. 요게 한 때 뭐 실검 1위도 했고요. 뭐 다구어 붙이고 이런 거 예전에는 다 코딩을 했어야 됐는데 야 이제는 코딩을 할 필요가 없습니다. 그냥 AI한테 다구어 만들어 줘 하면 다 만들어 주죠. 야 옛날엔 진짜"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

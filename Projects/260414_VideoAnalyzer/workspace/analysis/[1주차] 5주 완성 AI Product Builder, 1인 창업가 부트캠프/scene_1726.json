@@ -1,0 +1,26 @@
+{
+  "scene_id": 1726,
+  "frame_name": "frame_051025.jpg",
+  "start_time": 25502.0,
+  "end_time": 25522.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "목표를 좀 말씀드리면 요겁니다. 이거는 진짜 이거는 뭐 제가 자의식 과잉일 수 있는데 이거 할 수 있을 것 같습니다. 이제는 이런 시대입니다. 이거 어디 있어? 네. 아까 뭐 처음 오신 분들 다 보셨겠지만"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

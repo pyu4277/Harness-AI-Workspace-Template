@@ -1,0 +1,26 @@
+{
+  "scene_id": 195,
+  "frame_name": "frame_001285.jpg",
+  "start_time": 636.5,
+  "end_time": 647.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "MD를 MD 파일을 어떤 식으로 목차화시켰는지가 이렇게 나와 있죠. 그죠? 그래서 어떻게 했다.이를 통해서 점진적으로 어 컨텍스트를 공개할 수 있도록 그래서 에이전트가 처음부터 부담 느끼지 않고 완정적인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

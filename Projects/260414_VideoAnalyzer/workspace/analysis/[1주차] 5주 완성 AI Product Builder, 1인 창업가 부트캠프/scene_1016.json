@@ -1,0 +1,26 @@
+{
+  "scene_id": 1016,
+  "frame_name": "frame_032000.jpg",
+  "start_time": 15990.0,
+  "end_time": 16009.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "같고요. 여기까지는 디플로이는 어 아마 알아서 되지 않을까 싶은데음네 여기까지 하고 디플로이를 해 보겠습니다. 와 브레드비트 님 아 축하드립니다.네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

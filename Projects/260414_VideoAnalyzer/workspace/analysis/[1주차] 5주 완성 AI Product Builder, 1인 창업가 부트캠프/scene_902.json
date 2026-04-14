@@ -1,0 +1,26 @@
+{
+  "scene_id": 902,
+  "frame_name": "frame_029386.jpg",
+  "start_time": 14674.0,
+  "end_time": 14711.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어디까지 했죠? 아 기터브도 기터브는 이제 하면서 해 보겠습니다.네 기터브는네 이제 아이씨 이것도 그냥 하는 김에 하는게 낫나?네 네. 설정하는 김에 그냥 설정하는 김에 끝내 버리겠습니다. 네. 자, 설정의 지옥. 네. 이제 설정이 가장 어렵고 이제 그다음부터 쉬운데 여기까지가 이제 코드 작업하는 어떤 설정은 끝났고요. 그다음에 이제 코드 버전 관리를 하는 걸 연결해야 되잖아요. 그게 이제 그 기터브랑 연결하면 되는데 네. 기터브랑 연동하고 진행을 해 보겠습니다. 아, 역시 상남자식 그 개발 방법이 이런 면에서는 확실히 쉽긴 한데."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

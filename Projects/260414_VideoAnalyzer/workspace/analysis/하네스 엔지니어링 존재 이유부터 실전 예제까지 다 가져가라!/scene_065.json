@@ -1,0 +1,26 @@
+{
+  "scene_id": 65,
+  "frame_name": "frame_000393.jpg",
+  "start_time": 194.5,
+  "end_time": 198.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "고쳐 줘. 어 이거 이상한데 이거 고쳐 줘. 계속 그런 작업이 막 들어가게 된단 말이에요. 우리 인간이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 (중간중간 개입/확인 설명, 시각 콘텐츠 없음)",
+  "importance_rule_version": 2
+}

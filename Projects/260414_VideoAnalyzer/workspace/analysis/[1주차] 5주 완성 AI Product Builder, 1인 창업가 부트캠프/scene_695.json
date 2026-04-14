@@ -1,0 +1,26 @@
+{
+  "scene_id": 695,
+  "frame_name": "frame_024496.jpg",
+  "start_time": 12231.5,
+  "end_time": 12263.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "안에서이 개념도 똑같거든요. 지금 좀 소개를 드리면 저희 클라우드 개념 배웠잖아요. 이게 클라우드가 여기에서 이제 그 설치를 이미 해 놓은 겁니다. 그래서 코드 편집기 있잖아요. 아이디라고 하는데 ID를 여기에서 실행해 가지고 우리 컴퓨터에서 렇게 소통하는 겁니다. 그러니까 클라우드에 외부 24 입사 시간 돌아가는 클라우드에 지금 그 개발 환경을 띄워 놓기 때문에 우리 컴퓨터는 똥컴이어도 돼요. 얘는 똥컴이어도 여기에다가 그 코드 편집기 띄워 놓고 수정할 거기 때문에네 여기서 작업하도록 하겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

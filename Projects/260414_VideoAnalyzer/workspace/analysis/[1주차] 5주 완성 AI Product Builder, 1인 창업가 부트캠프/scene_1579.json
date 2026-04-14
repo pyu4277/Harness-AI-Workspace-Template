@@ -1,0 +1,26 @@
+{
+  "scene_id": 1579,
+  "frame_name": "frame_048394.jpg",
+  "start_time": 24193.0,
+  "end_time": 24200.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되죠.이 사람이 읽으면 안 됩니다.이 사람이 언제 읽고 있어요? 이런 걸 이거는 이제 아,이 주소에 도움 말 있으니까 AI한테 이거 줘야겠다라고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

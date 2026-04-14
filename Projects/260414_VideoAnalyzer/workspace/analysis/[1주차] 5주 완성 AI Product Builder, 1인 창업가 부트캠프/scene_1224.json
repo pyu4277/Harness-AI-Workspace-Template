@@ -1,0 +1,26 @@
+{
+  "scene_id": 1224,
+  "frame_name": "frame_038364.jpg",
+  "start_time": 19179.5,
+  "end_time": 19183.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "얘가 알아서 나누바나 생성해 가지고 막 만들어가 하는 것 다 합니다. 네. 아, 렉 걸려 가지고 이런데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

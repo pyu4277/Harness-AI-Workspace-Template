@@ -1,0 +1,26 @@
+{
+  "scene_id": 1603,
+  "frame_name": "frame_048663.jpg",
+  "start_time": 24329.5,
+  "end_time": 24333.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만드신 사이트 그 주소 있잖아요.이 클라우드 플레이어 페이지스랑 연동된요 주소 요거 요거 눌러서 나오는 거요"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

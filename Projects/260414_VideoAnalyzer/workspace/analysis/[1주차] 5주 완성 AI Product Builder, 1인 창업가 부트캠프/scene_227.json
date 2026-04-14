@@ -1,0 +1,26 @@
+{
+  "scene_id": 227,
+  "frame_name": "frame_012299.jpg",
+  "start_time": 6146.5,
+  "end_time": 6151.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "수 있는데 사실이 HTML은 이렇게 뼈대를 표현하는 언어라고 설명드렸잖아요. 그래서 이런 민도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

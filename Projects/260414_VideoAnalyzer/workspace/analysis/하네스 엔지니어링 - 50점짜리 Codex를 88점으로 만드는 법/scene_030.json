@@ -1,0 +1,26 @@
+{
+  "scene_id": 30,
+  "frame_name": "frame_001204.jpg",
+  "start_time": 594.0,
+  "end_time": 609.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뒀습니다. 그리고 마지막으로 스킬스 폴더 안에는 QA 단계 혹은 릴리즈 단계, 데이터를 수집하는 단계, UI를 깎는 단계에서 어떤 업무를 반복적으로 전달하고 싶은지를 스킬점 파일로 만들었습니다. 대표적으로이 데이터 수집 단계에서 스킬.m MD 파일을 보면 국가 공모전이나 어떤"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "뒀습니다. 그리고 마지막으로 스킬스 폴더 안에는 QA 단계 혹은 릴리즈 단계, 데이터를 수집하는 단계, UI를 깎는 단계에서 어떤 업무를 반복적으로 전달하고 싶은지를 스킬점 파일로 만들었습니다. 대표적으로이 데이터 수집 단계에서 스킬.m MD 파일을 보면 국가 공모전이나 어떤",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

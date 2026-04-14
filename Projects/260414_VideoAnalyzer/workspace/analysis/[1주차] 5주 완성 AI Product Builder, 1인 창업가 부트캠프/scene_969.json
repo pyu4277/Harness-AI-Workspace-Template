@@ -1,0 +1,26 @@
+{
+  "scene_id": 969,
+  "frame_name": "frame_031070.jpg",
+  "start_time": 15531.0,
+  "end_time": 15538.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거냐면 요런 거잖아요. 이렇게 뜯다고 하면은 그 재미나이나 채치피pt 뭐 코덱스나 클로드 코드한테 이렇게 명령하시면 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

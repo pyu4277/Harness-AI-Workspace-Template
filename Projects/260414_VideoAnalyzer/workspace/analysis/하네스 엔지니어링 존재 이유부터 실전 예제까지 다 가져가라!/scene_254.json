@@ -1,0 +1,26 @@
+{
+  "scene_id": 254,
+  "frame_name": "frame_002185.jpg",
+  "start_time": 1087.0,
+  "end_time": 1097.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "왜냐면요. 가끔 에이전트가 이런 클로드 MD도요. 그냥 무시해 버릴 때가 많아요. 단지 이제 단지 이제 중요한 건 뭐다? 무시해 버렸을 때 다시 돌아올 수 있게끔 그 한스 장치를 만들어 두는게 중요합니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

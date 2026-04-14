@@ -1,0 +1,26 @@
+{
+  "scene_id": 245,
+  "frame_name": "frame_012738.jpg",
+  "start_time": 6343.0,
+  "end_time": 6394.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하면서 진행해 보겠습니다. 네. 이제 상남자의 코딩은 메모장만 있으면 됩니다. 그래서 메모장 윈도우 쓰시는 분들은 이렇게 마우스 우클릭해 보시면 어디 바탕 화면이 아무데서나 마우스 우클릭해 보시면이 새로 만들기라는게 있습니다. 그래서 여기서 놀랍게도 텍스트 문서를 여기서 바로 만들 수가 있습니다. 네. 그래서 텍스트 문서 딸깍 누르면은 이렇게 텍스트가 생기고요. 여기서 영어로 ingdex.html이라고 HTML이라고 이렇게 txt를 지우고 쓰시면 됩니다. 네. 요러면 인덱스.html이라는게 생겼죠. 보이시나요? 좀 작네요. 네. 아무튼 인덱스. HTML이랑 생겼는데 확장다가 안 뜨시. 제 가장 많이 막혔던 어떤 강의를 진행하면서 가장 많이 그 물어보시는 것 중에 하나가 어 이거 확장자 안 뜨는데요. 확장자가 뭐예요라는 그 질문을 가장"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-02: macOS 산 배경 바탕화면만 표시, 시각 콘텐츠 없음",
+  "importance_rule_version": 2
+}

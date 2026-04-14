@@ -1,0 +1,37 @@
+{
+  "scene_id": 217,
+  "frame_name": "frame_012058.jpg",
+  "start_time": 6002.0,
+  "end_time": 6055.5,
+  "visual_analysis": {
+    "layout": "HTML/CSS/JS 인체 비유 다이어그램 + 우측 웹캠/채팅",
+    "elements": [
+      "HTML 로고 + 해골(뼈대=구조)",
+      "CSS3 로고 + 옷 입은 아기(꾸미기=스타일)",
+      "JS 로고 + 신경계 인체(동작=행동)",
+      "핑크 원형 강조"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "HTML(뼈대/구조) -> CSS(옷/스타일) -> JS(신경/동작)"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "HTML/CSS/JS 역할",
+      "인체 비유 다이어그램",
+      "웹 프론트엔드 구조"
+    ],
+    "summary": "네. 그래서 좀 비유적으로 또 이해하기 쉽게 좀 설명을 해 보자면 HTML은 요런 뼈대를 딱 구성한다라고 보시면 될 거 같고 CSS로는 이렇게 꾸미는 거 네. 이렇게 다 꾸며 가지고 옷도 이쁜 거 입히고 이렇게 꾸미는 거가 CSS고 자바스크립트는 뭐 신경 이렇게 움직여야 되잖아요. 실제로 그 사람 만든 다음에 아 사람 만든다. 네. 아무튼 사람의 어떤 구성을 보면 이게 신경이 이렇게 움직여야 되기 때문에 이렇게 신경이 자바스크립트다라고 이해하시면 좀 더 어이 역할에 대해서 좀 개념적으로 이해하시기 좋을 것 같습니다. 네. 그래서 이것만 아시면 웹프론엔드는 다 이렇게 구성되 있습니다. 요즘에 뭐 뭐 리액트니 뭐니 뒤에 다 배울 거긴 한데 뭐 자 넥스트 JS 다 결국에는 결국에는 다 이렇게 구성돼 있는데 그냥 포장하고 포장하고 한 그것뿐입니다. 결국엔 다 이렇게 돼 있습니다. 네. 그래서 결국엔 다 이렇게 돼 있다라고 소개를 드릴 수 있고 같"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "HTML/CSS/JS 3대 요소를 인체 비유로 시각화: 해골=HTML구조, 옷입은아기=CSS스타일, 신경계=JS동작",
+    "text_only_info": "HTML은 뼈대, CSS는 꾸미기, JS는 신경(움직임). 리액트/Next.js도 결국 이 3가지",
+    "combined_insight": "웹 프론트엔드 3대 요소 핵심 교육 다이어그램: 인체 비유로 HTML/CSS/JS 역할 직관적 이해"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: HTML/CSS/JS 인체 비유 다이어그램 - 핵심 교육 시각자료",
+  "importance_rule_version": 2
+}

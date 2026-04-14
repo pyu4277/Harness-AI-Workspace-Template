@@ -1,0 +1,26 @@
+{
+  "scene_id": 1129,
+  "frame_name": "frame_035030.jpg",
+  "start_time": 17504.5,
+  "end_time": 17525.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아까 보여 드린 게. 자, 다시 저희가 한 개 요렇게 연동하는 겁니다. 요렇게 연결해서 요렇게 가는 거. 네. 요렇게 연결했었죠. 그래서 저희 프로젝트에서 터미널 이용해서 그 제미나 CLI로 저희 진행했죠. 요걸로 기터브랑 연동하고 그 연동된 기터브를 요렇게 연결하면 됩니다. 그래서 요걸 어떻게 하냐?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

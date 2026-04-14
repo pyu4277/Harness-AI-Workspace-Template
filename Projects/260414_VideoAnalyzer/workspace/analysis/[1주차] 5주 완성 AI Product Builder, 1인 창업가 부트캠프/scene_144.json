@@ -1,0 +1,26 @@
+{
+  "scene_id": 144,
+  "frame_name": "frame_007255.jpg",
+  "start_time": 3621.5,
+  "end_time": 3633.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있으니까. 네. 충분히 진짜 어떤 K이 한 이거의 한축으로 KIT 어떤 제품이 나올 수 있지 않을까네 생각이 듭니다.네 아무튼네 충분히 이제 나올 수 있는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

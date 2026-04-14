@@ -1,0 +1,26 @@
+{
+  "scene_id": 322,
+  "frame_name": "frame_014551.jpg",
+  "start_time": 7255.5,
+  "end_time": 7295.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제목을 이렇게 클릭해 볼게요. 네. 그러면은이 스펜이라는 태그 안쪽에 위메이드 뭐 미르 정시 출시 뭐 이런게 들어가 있죠. 요거를 지울 수가 있습니다. 놀랍게도. 그리고 조코딩 채널 구독자 뭐 70만 달성 이렇게 치고 엔터를 누르면 와 실제로 웹사이트가 바뀌어 버립니다. 놀랍죠?네 그래서 기사를 조작을 해 버릴 수가 있습니다.이 해킹을 해 버릴 수가 있어요. HTML을 이해해 버리니까요 태그를 바꿔 가지고 조작을 할 수 있잖아요. 네. 그래서 요렇게 조작이 가능해서 요런 것도 되고 뭐 뭐 딱"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

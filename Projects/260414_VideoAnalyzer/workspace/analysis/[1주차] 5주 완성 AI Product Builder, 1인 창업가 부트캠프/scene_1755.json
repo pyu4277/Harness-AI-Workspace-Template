@@ -1,0 +1,26 @@
+{
+  "scene_id": 1755,
+  "frame_name": "frame_051815.jpg",
+  "start_time": 25905.0,
+  "end_time": 25909.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "수가 있죠. 그래서 여러분도 승인 되시면은 여러분의 사이트에 이렇게 광고가 들어갈 수가 있겠고요. 요게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

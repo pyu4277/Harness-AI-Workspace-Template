@@ -1,0 +1,26 @@
+{
+  "scene_id": 188,
+  "frame_name": "frame_010513.jpg",
+  "start_time": 5248.5,
+  "end_time": 5264.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 오신 겁니다. 네. 그다음에 뭐 미으로 좀 비유를 해 보자면 프론트엔드 여러분들 보는 화면은 이렇게 깔끔하게 이제 로그인 화면 뭐 버튼 이런게 딱 깔끔하게 있다면 이걸 눌렀을 때 뒤에서 막 엄청 복잡한 처리가 이루어진다 해서 프론트 엔드 백핸드 이렇게 나눠 볼 수 있을 것 같고요. 네. 프런트엔드 이렇게 어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

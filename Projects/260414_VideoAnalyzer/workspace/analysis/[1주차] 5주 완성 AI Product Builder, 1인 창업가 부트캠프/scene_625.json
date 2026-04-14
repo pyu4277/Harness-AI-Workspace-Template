@@ -1,0 +1,26 @@
+{
+  "scene_id": 625,
+  "frame_name": "frame_022272.jpg",
+  "start_time": 11129.5,
+  "end_time": 11142.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "드릴게요. 지금 요렇게. 아, 요렇게 요렇게 하는 거죠? 요렇게 본인 사이트 주소 지금 배포 잘 됐죠? 데브 주소 클라우드 플레이어 배포도 됐고. 예. 사이트고. 네. 2분 드리겠습니다. 이거 만드신 분 축하드립니다. 요거 지금 어디지?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

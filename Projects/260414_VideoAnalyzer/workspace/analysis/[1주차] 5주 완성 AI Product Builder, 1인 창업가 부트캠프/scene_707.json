@@ -1,0 +1,26 @@
+{
+  "scene_id": 707,
+  "frame_name": "frame_024946.jpg",
+  "start_time": 12453.0,
+  "end_time": 12492.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "허용을 해 주면 아 귀찮아지네 그냥 캔슬 하면은 안 할 수도 있습니다.네 아무튼 여기까지 들어가셨으면네 이제 세팅이 다 되신 겁니다. 아 아니면은 또 혹시나 이게 구글 이게 옵션을 여러 개 제시하면 좋은게 사실 약간 불안하기도 하거든요. 제가 지금 시기가 2026년 1월 10일이거든요.요 아마 지금 보시는 분들은 다 알 텐데 아마이 강의가 편집돼서 미래에 보시는 분들 있을 거잖아요. 미래에는 파웨이 스튜디오가 남아 있을까라는 생각은 좀 들더라고요. 왜 그러냐면이이 잠깐 잠깐 보여 드리자면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

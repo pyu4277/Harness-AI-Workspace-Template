@@ -1,0 +1,26 @@
+{
+  "scene_id": 1250,
+  "frame_name": "frame_039279.jpg",
+  "start_time": 19636.5,
+  "end_time": 19641.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그 MPM에 공개했던 패키지를 전부 삭제를 해 버렸습니다.이 개발자분이 아 내가 만든 이거 레프트 패드 아"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

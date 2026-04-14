@@ -1,0 +1,39 @@
+{
+  "scene_id": 242,
+  "frame_name": "frame_001985.jpg",
+  "start_time": 984.5,
+  "end_time": 999.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code scripts/ 폴더 구조 + CLAUDE.md",
+    "elements": [
+      "scripts/ 폴더: check-arch.js, check-file-size.sh, cleanup-worktree.sh, complete-task.sh, new-worktree.sh, quality-score.sh, verify-task.sh",
+      "worktree-registry.json",
+      "CLAUDE.md 5단계 파이프라인 내용"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "scripts/check-arch.js",
+      "scripts/check-file-size.sh",
+      "scripts/cleanup-worktree.sh",
+      "scripts/complete-task.sh",
+      "scripts/verify-task.sh"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "하네스 스크립트 7종",
+      "구조적 강제 파일 구조"
+    ],
+    "summary": "할 수 있게끔 요렇게 소스 코드 파일을 만들어 놨다라는 겁니다. 음. 여기에서 이제 5단계 뭐다? 이제 소스 코드를 스스로 커밋하고 머지하고 완료 처리까지 해 줘라. 어, 너 개발하고 끝나지 말고 이거 메인 코드로 네가 알아서 좀 합쳐 줘라는 겁니다. 왜냐? 우리는 인간의 개입을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "하네스 스크립트 7종 파일 구조: check-arch.js(아키텍처 검증), check-file-size.sh(크기 제한), cleanup-worktree.sh(정리), complete-task.sh(완료), new-worktree.sh(생성), quality-score.sh(품질), verify-task.sh(검증)",
+    "text_only_info": "이 스크립트들이 커밋 전 검증을 강제하는 메커니즘",
+    "combined_insight": "하네스 시스템의 실체: 7개 셸 스크립트가 AI 에이전트의 개발 흐름을 구조적으로 강제. 화면은 실제 파일 목록을, 대본은 이것이 save 전 필수 검증임을 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

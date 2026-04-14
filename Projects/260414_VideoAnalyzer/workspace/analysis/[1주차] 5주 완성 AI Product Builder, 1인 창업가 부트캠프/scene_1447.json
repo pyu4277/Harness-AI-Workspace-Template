@@ -1,0 +1,26 @@
+{
+  "scene_id": 1447,
+  "frame_name": "frame_043415.jpg",
+  "start_time": 21704.5,
+  "end_time": 21709.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 어, 계속 댓글이 달리고 있어요. 네. 이제 넘어가겠습니다. 요렇게 이제 댓글기는 구현할 수가 있다. 네. 재유분이 이렇게 넣을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

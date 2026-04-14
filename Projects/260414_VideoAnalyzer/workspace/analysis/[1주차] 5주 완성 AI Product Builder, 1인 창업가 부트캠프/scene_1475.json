@@ -1,0 +1,26 @@
+{
+  "scene_id": 1475,
+  "frame_name": "frame_044778.jpg",
+  "start_time": 22367.5,
+  "end_time": 22409.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오, 깃 커밋까지 지금 수행하고 있고요. 네. 어, 됐습니다. 어, 완성되어 배포되었습니다. 오 야, 커밋 하고 푸시도 했나? 네. 한번 들어가 보면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 927,
+  "frame_name": "frame_030011.jpg",
+  "start_time": 15000.0,
+  "end_time": 15010.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "중앙과 우측하다. 요건가요? 요게 이제 명령어를 내리는 것입니다. 뭘 해 달라라고 여기 명령을 내리면 됩니다. 자, 이제 자, 어려운 일을 하고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

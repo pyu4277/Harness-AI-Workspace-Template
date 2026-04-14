@@ -1,0 +1,26 @@
+{
+  "scene_id": 923,
+  "frame_name": "frame_029926.jpg",
+  "start_time": 14960.0,
+  "end_time": 14965.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거 마우스로 클릭하는 거 못 합니다. 다 무조건 자동으로 연결돼야 돼요. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

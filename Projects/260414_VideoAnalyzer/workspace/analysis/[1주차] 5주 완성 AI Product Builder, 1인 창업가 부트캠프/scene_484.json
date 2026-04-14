@@ -1,0 +1,26 @@
+{
+  "scene_id": 484,
+  "frame_name": "frame_018696.jpg",
+  "start_time": 9345.5,
+  "end_time": 9350.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 가입하시면 아마 제일 메일 페이지가 요렇게 뜰 거고요. 저도 이거 적극 쓰고 있습니다. 이게 너무 좋아요. 네. 그래서 그 클라우드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

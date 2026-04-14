@@ -1,0 +1,26 @@
+{
+  "scene_id": 770,
+  "frame_name": "frame_026769.jpg",
+  "start_time": 13363.0,
+  "end_time": 13405.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "복사해 가지고 그냥 여기 터미널 있죠? 아까 터미널 여는 거 소개드렸는데 여기에다가 마우스 우클릭하면 붙여 놓기가 됩니다. 그래서 여기 설치하는 명령어가 요렇게 들어가거든요. 설치하는 명령어 이렇게 들어가서 여기서 엔터를 누르면 설치가 됩니다. 그래서 설치도 뭐 인스톨 눌러서 다음 누르는 거 필요 없이 그냥 이게 누르면 설치가 되니까 요런 식으로 깔면은 좀 편리하게 설치를 할 수도 있습니다. 음. 아, 채치T 링크. 채치 류로 쓰고 있다면 이것도 좋습니다. 코덱스도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

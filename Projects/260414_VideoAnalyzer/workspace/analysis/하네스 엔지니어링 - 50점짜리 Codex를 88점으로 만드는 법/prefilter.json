@@ -1,0 +1,678 @@
+{
+  "video_stem": "하네스 엔지니어링 - 50점짜리 Codex를 88점으로 만드는 법",
+  "rule_version": 1,
+  "total_scenes": 62,
+  "stats": {
+    "LIKELY_IMPORTANT": 17,
+    "NEEDS_VISUAL_CHECK": 44,
+    "LIKELY_SKIP": 1
+  },
+  "scenes": [
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보시면"
+      ],
+      "transcript_length": 90,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 1,
+      "frame_name": "frame_000012.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 30,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 2,
+      "frame_name": "frame_000026.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 2,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 212,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 3,
+      "frame_name": "frame_000052.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 2,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 156,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 4,
+      "frame_name": "frame_000092.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 150,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 5,
+      "frame_name": "frame_000126.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 95,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 6,
+      "frame_name": "frame_000153.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 39,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 7,
+      "frame_name": "frame_000167.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 171,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 8,
+      "frame_name": "frame_000189.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보시면"
+      ],
+      "transcript_length": 297,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 9,
+      "frame_name": "frame_000247.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 141,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 10,
+      "frame_name": "frame_000297.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 93,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 11,
+      "frame_name": "frame_000321.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 437,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 12,
+      "frame_name": "frame_000384.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 221,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 13,
+      "frame_name": "frame_000463.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 284,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 14,
+      "frame_name": "frame_000524.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 681,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 15,
+      "frame_name": "frame_000639.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 300,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 16,
+      "frame_name": "frame_000753.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 120,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 17,
+      "frame_name": "frame_000802.jpg"
+    },
+    {
+      "deictic_count": 1,
+      "deictic_found": [
+        "여기"
+      ],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 867,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 18,
+      "frame_name": "frame_000922.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 140,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 19,
+      "frame_name": "frame_001039.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 152,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 20,
+      "frame_name": "frame_001069.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 2,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 92,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 21,
+      "frame_name": "frame_001096.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 113,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 22,
+      "frame_name": "frame_001118.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 36,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 23,
+      "frame_name": "frame_001133.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "화면에"
+      ],
+      "transcript_length": 54,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 24,
+      "frame_name": "frame_001139.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 35,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 25,
+      "frame_name": "frame_001145.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 59,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 26,
+      "frame_name": "frame_001152.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 40,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 27,
+      "frame_name": "frame_001160.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 62,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 28,
+      "frame_name": "frame_001168.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 73,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 29,
+      "frame_name": "frame_001181.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 154,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 30,
+      "frame_name": "frame_001204.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 95,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 31,
+      "frame_name": "frame_001228.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 36,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 32,
+      "frame_name": "frame_001239.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 75,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 33,
+      "frame_name": "frame_001248.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 38,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 34,
+      "frame_name": "frame_001259.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 112,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 35,
+      "frame_name": "frame_001275.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 77,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 36,
+      "frame_name": "frame_001293.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 37,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 37,
+      "frame_name": "frame_001302.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 76,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 38,
+      "frame_name": "frame_001312.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 54,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 39,
+      "frame_name": "frame_001323.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 38,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 40,
+      "frame_name": "frame_001330.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 39,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 41,
+      "frame_name": "frame_001336.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 39,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 42,
+      "frame_name": "frame_001342.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 56,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 43,
+      "frame_name": "frame_001348.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 37,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 44,
+      "frame_name": "frame_001355.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 149,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 45,
+      "frame_name": "frame_001372.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보시면"
+      ],
+      "transcript_length": 176,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 46,
+      "frame_name": "frame_001407.jpg"
+    },
+    {
+      "deictic_count": 1,
+      "deictic_found": [
+        "이렇게"
+      ],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보시면"
+      ],
+      "transcript_length": 170,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 47,
+      "frame_name": "frame_001444.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 114,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 48,
+      "frame_name": "frame_001474.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 90,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 49,
+      "frame_name": "frame_001495.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 34,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 50,
+      "frame_name": "frame_001507.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "화면에"
+      ],
+      "transcript_length": 76,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 51,
+      "frame_name": "frame_001520.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 80,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 52,
+      "frame_name": "frame_001535.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 302,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 53,
+      "frame_name": "frame_001573.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 92,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 54,
+      "frame_name": "frame_001613.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 1,
+      "visual_keywords_found": [
+        "보면"
+      ],
+      "transcript_length": 40,
+      "prefilter_hint": "LIKELY_IMPORTANT",
+      "scene_id": 55,
+      "frame_name": "frame_001626.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 75,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 56,
+      "frame_name": "frame_001637.jpg"
+    },
+    {
+      "deictic_count": 1,
+      "deictic_found": [
+        "이게"
+      ],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 94,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 57,
+      "frame_name": "frame_001656.jpg"
+    },
+    {
+      "deictic_count": 1,
+      "deictic_found": [
+        "이게"
+      ],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 93,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 58,
+      "frame_name": "frame_001676.jpg"
+    },
+    {
+      "deictic_count": 1,
+      "deictic_found": [
+        "그게"
+      ],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 195,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 59,
+      "frame_name": "frame_001707.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 78,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 60,
+      "frame_name": "frame_001738.jpg"
+    },
+    {
+      "deictic_count": 1,
+      "deictic_found": [
+        "여기"
+      ],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 115,
+      "prefilter_hint": "NEEDS_VISUAL_CHECK",
+      "scene_id": 61,
+      "frame_name": "frame_001759.jpg"
+    },
+    {
+      "deictic_count": 0,
+      "deictic_found": [],
+      "visual_keyword_count": 0,
+      "visual_keywords_found": [],
+      "transcript_length": 7,
+      "prefilter_hint": "LIKELY_SKIP",
+      "scene_id": 62,
+      "frame_name": "frame_001772.jpg"
+    }
+  ]
+}

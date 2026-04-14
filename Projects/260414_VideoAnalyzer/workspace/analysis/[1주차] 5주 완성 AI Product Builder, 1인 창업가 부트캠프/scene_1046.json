@@ -1,0 +1,26 @@
+{
+  "scene_id": 1046,
+  "frame_name": "frame_032598.jpg",
+  "start_time": 16293.5,
+  "end_time": 16304.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 이러고 리트라이 빌드를 하면 될 거 같긴 합니다. 이제 이러면 될 거 같은데. 어 뭐야?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

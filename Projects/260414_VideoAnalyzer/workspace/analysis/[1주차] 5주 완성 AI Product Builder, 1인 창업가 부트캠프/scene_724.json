@@ -1,0 +1,34 @@
+{
+  "scene_id": 724,
+  "frame_name": "frame_025330.jpg",
+  "start_time": 12589.0,
+  "end_time": 12740.0,
+  "visual_analysis": {
+    "layout": "Firebase Studio IDE + AI 챗봇 + 우측 웹캠/채팅 - HTML 코딩 실습",
+    "elements": [
+      "Firebase Studio: productBuilder-week1",
+      "index.html 편집",
+      "Hello Coding AI 챗봇"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Firebase Studio",
+      "HTML",
+      "AI 코딩 도우미"
+    ],
+    "summary": "여기는 아예 자바스크립트 뭐 CSS가 따로따로 돼 있어요. 근데 따로따로 해도 되고 아니면 하나의 파일로 해도 되긴 한데 이렇게 따로따로 한 경우에는 요런 식으로 돼 있죠. 여기 보면은 CSS 파일을 요렇게 스타일.css 파일을 요렇게 링크로 불러온다라고 돼 있는데 사실 뭐 같은 개념입니다. 여기에 직접 써도 되고 자바스크립트도 스크립트 안에 메인. js를 불러온다라고 돼 있는데 결국 같은 개념입니다. 네. 클라우드에서 코딩하면 파일도 클라우드에 저장되는 거죠. 맞습니다. 네. 이게 클라우드에 저장이 됩니다. 네. 그래서 요렇게 파일하고 편집할 수 있는 거 똑같죠. 근데 훨씬 편하죠. 뭔가 딱 한 눈에 보기 좋잖아요. 폴더 이렇게 직접 열 필요도 없이 바로 딱딱 볼 수 있게 돼 있고. 그래서 요게 이제 폴더 구조 관리하는 거. 이걸 눌렀을 때 코드 수정하는 거 다 붙어 있고. 심지어이 오른쪽에 보면 재미나이도 붙어 있습니다. 구글에서 만든 거라서 제미나이랑 연결해 가지고 바로 수정이 수정을 할 수도 있습니다. 네. 그래서 뭐 그냥 하나 대표적으로 해 보자면 요런 것도 됩니다. 여기서 뭘 도와줄까요? 음. 인덱스.html 파일을 로또 번호 추첨 사이트로 만들어 줘. 네. 이런 거 시켜 보면은 네. 여기에다가 AI가 아까 최치피에 들어가서 했잖아요.이 최치피 화면이 여기 있습니다. 어 그러면 AI가 여기 있고 코드 편집기가 여기 있고 그 파일 탐색기가 여기 있는네 요런 구조로 돼 있습니다. 어 그럼 알아서 수정해 줘요. 알아서 막 수정해 줍니다. 블루프린트. 오, 이런 거 세워 가지고. 야. 아, 그외 MD 파일 아, 요거 설명드릴게요. 이따가 설명드릴 텐데 일단 이런 식으로 시키면 된다라고 잠깐 소개를 드릴 수 있을 것 같고요. 어, 뭐야? 계획을 세웠다. 뭐 이런 거 같고. 업데이트 했나? 어, 로더 넘버 제너레이터로 바뀌었죠? 네. 그래서 요거를 보려면 어떻게 해야 되냐? 이거 이제 열어야 되잖아요. 이거를 어 뭐야? 이거 말고 어떻게 열더라? 잠시 여는 거 있었는데? 이것도 AI 시키면 되긴 합니다. 그 웹 브라우저로 열어 줘."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Firebase Studio에서 productBuilder-week1 index.html 편집 + AI 코딩 도우미",
+    "text_only_info": "HTML 파일 수정 과정",
+    "combined_insight": "Firebase Studio에서 웹앱 코딩 + AI 챗봇 활용 실습"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

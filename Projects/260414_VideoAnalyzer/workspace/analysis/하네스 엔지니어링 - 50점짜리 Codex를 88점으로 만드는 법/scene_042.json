@@ -1,0 +1,26 @@
+{
+  "scene_id": 42,
+  "frame_name": "frame_001342.jpg",
+  "start_time": 669.0,
+  "end_time": 672.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대해서 몇 점을 부유하라라는 식으로 프롬프트를 전달했습니다. 그리고 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "대해서 몇 점을 부유하라라는 식으로 프롬프트를 전달했습니다. 그리고 그",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

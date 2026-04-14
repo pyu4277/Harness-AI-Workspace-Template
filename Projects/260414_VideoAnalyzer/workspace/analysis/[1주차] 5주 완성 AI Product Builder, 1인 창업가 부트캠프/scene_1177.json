@@ -1,0 +1,26 @@
+{
+  "scene_id": 1177,
+  "frame_name": "frame_036518.jpg",
+  "start_time": 18242.0,
+  "end_time": 18275.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런데 아마 제가 봤을 때 막 한 1년 뒤에 보면은 어 이거 없어져 있을 수도 있어요. 이거 망해 망했고 망했 아 이거 좀 그런가?네 네. 아무튼 뭔가 없어져 있을 수도 있습니다. 그래서 어, 이거 검색 안 나오는데요. 망한 망한 걸 수 있습니다. 갑자기 뭐 새로운게 나와 가지고 요즘 대세는 뭐 A 해가지고 새로운게 나오고 나머지 다 없어지고 요런 일도 있을 수가 있습니다. 그렇기 때문에 그냥 최신 소식은 항상 참고하시고이 큰 그림만 보시면 되겠습니다. 네. 그래서 뉴스 조코딩 채널 구독하시면 가장 최신 소식 네. 다 알려 드리니까요. 제가 제가 대신"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

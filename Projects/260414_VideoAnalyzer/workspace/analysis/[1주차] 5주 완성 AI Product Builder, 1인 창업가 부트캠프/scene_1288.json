@@ -1,0 +1,26 @@
+{
+  "scene_id": 1288,
+  "frame_name": "frame_039900.jpg",
+  "start_time": 19944.5,
+  "end_time": 19954.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만들면 이런 거 있잖아요. 자, 어떤 사이트에 재유 문의해 가지고 뭐 사업자 등록번호 입력하고 이메일 입력하고 그리고 주소 입력해서 확인 누르면 제출되는 거 있잖아요. 이런 폼 같은 거 많이 운영하잖아요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

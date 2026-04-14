@@ -1,0 +1,26 @@
+{
+  "scene_id": 254,
+  "frame_name": "frame_012932.jpg",
+  "start_time": 6463.5,
+  "end_time": 6467.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있거든요. 요거를 마우스 우클릭하시면 이렇게 이름 바꾸기를 할 수 있습니다. 이름 바꿔 가지고 이거를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

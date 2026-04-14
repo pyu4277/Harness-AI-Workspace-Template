@@ -1,0 +1,26 @@
+{
+  "scene_id": 232,
+  "frame_name": "frame_001667.jpg",
+  "start_time": 829.0,
+  "end_time": 837.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - OpenAI 하네스 엔지니어링 문서 (CLAUDE.md 미언급 포인트)",
+    "elements": ["OpenAI 공식 블로그 문서", "에이전트 가독성 특징 본문", "핵심 관찰: 이 CLAUDE.md 파일에 대한 언급은 없습니다 (왜냐 codex니까)"],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["하네스 엔지니어링 단계 명시", "OpenAI 문서의 한계", "Codex vs Claude Code 차이"],
+    "summary": "다시 제대로 작성을 했습니다. 그래서 여기 보시면요. 우리가 항상 하네스 엔지니어링을 위해서 항상 거쳐야 되는 단계를 제가 명시를 했습니다. 첫"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "OpenAI 하네스 엔지니어링 문서에 CLAUDE.md 파일 언급이 없음 (Codex 기준 문서이므로). Claude Code 적용 시 이 차이를 인식하고 수정 필요",
+    "text_only_info": "하네스 엔지니어링 필수 단계를 재작성하여 명시함",
+    "combined_insight": "OpenAI 하네스 엔지니어링 문서의 한계 발견: Codex 기준이라 CLAUDE.md 언급 없음. Claude Code에 적용하려면 이 차이를 인식하고 CLAUDE.md 중심으로 재설계 필요. 대본이 화면의 한계를 지적하는 대본-화면 보완 관계"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

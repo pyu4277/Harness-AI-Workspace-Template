@@ -1,0 +1,26 @@
+{
+  "scene_id": 176,
+  "frame_name": "frame_001147.jpg",
+  "start_time": 571.5,
+  "end_time": 574.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대충 추측하고 넘어간다던가 뒷부분은 읽어보지 않고 넘어간다던가 그런 이제 상황이 발생이 된 거예요. 그렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

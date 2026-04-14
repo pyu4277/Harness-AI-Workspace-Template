@@ -1,0 +1,26 @@
+{
+  "scene_id": 336,
+  "frame_name": "frame_003068.jpg",
+  "start_time": 1532.0,
+  "end_time": 1535.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": ""
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 화면공유+웹캠이지만 대본 내용 없음",
+  "importance_rule_version": 1
+}

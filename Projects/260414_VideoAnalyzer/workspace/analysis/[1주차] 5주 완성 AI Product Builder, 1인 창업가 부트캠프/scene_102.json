@@ -1,0 +1,26 @@
+{
+  "scene_id": 102,
+  "frame_name": "frame_004955.jpg",
+  "start_time": 2467.0,
+  "end_time": 2487.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "정도다라고 할 수가 있겠고요. 네. 그리고 그 마케팅도 쉬워졌습니다. 뭐 나노바나 프로로 마노바나 프로가 요즘에 구글에도 들어왔다고 합니다. 그래서 이런 광고 이미지 있잖아요. 뭐 이런 제품을 광고한다면 광고 이미지 만드는거나 광고 문구 써 주는거나 이런 거 다 AI가 다 도와줄 수가 있고요. 뭐 다 아시겠지만이 AI 시대 이전에도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

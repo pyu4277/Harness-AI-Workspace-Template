@@ -1,0 +1,26 @@
+{
+  "scene_id": 1312,
+  "frame_name": "frame_040509.jpg",
+  "start_time": 20222.0,
+  "end_time": 20286.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "재미나이한테 네. 시켜 보겠습니다. 어네 그 뭐야 폼스프리로 어 뭘 해 볼까요? 그러면 점심 메뉴 추천을 받는 그 문의 양식을 만들어 볼게요. 아, 그거 좀실무적이지 않은가? 뭔가 실무적인 걸로 해 볼까요? 실무적인게 뭐가 있을까요? 점 무늬 그렇죠? 제일 많이 하던게 제휴 이런 거 많죠? 폼스프리로 재휴의 받을 수 있는 그 간단한 폼 만들어 줘. 음.라고 하고 그 엔드 포인트가 필요하겠죠. 왜냐면 어디로 보낼지 알아야 되니까. 그래서 엔드 포인트를 요렇게 입력을 해 주겠습니다. 그러면 제유받을 수 있는 간단한 폼 만들어 줘 하고 요렇게 입력하고 엔터요 정도만 시켜 보겠습니다. 그러면 제유문이 만들 받을 수 있는 폼을 만들어 주겠죠. 네. 폼 스프린 어떻게 돈 벌어요?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

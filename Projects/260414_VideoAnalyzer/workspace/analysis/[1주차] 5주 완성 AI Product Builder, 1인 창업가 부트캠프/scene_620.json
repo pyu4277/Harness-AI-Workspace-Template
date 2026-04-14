@@ -1,0 +1,26 @@
+{
+  "scene_id": 620,
+  "frame_name": "frame_021998.jpg",
+  "start_time": 10976.0,
+  "end_time": 11021.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이벤트 다시 한번 해 보겠습니다.네 그러면 이제 만드신 서비스 있잖아요. 배포까지 완료하셨다 하시는 분들은 커피를 제가 또 추첨해 가지고 드리도록 하겠습니다.네 그래서 링크를 또 찾아야 되는데 어 여기 있다.네 링크 응모 페이지 아 관리자를 또 아 잠 핸드폰 놓고 왔다. 잠시만요. 네. 응모 URL 보내 드릴게요. 네. 그러면 이벤트 약간 쉬는 시간을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

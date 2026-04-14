@@ -1,0 +1,26 @@
+{
+  "scene_id": 931,
+  "frame_name": "frame_030044.jpg",
+  "start_time": 15020.0,
+  "end_time": 15023.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진짜 개발자들이 하는 건데 요거를 이제 AI와 쉽게 하실 수가 있습니다. 자, 연결할 텐데 물론"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

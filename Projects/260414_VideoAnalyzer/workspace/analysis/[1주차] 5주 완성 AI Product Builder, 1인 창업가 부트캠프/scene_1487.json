@@ -1,0 +1,26 @@
+{
+  "scene_id": 1487,
+  "frame_name": "frame_045088.jpg",
+  "start_time": 22539.0,
+  "end_time": 22548.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 네. 네. 네, 아무튼 이걸 만들 겁니다. 이제 구현할 건데 그때 이제 필요한 그 개념들을 좀 배우고 있는 단계입니다. 어, 좋습니다. 네, 완료됐고 사진"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

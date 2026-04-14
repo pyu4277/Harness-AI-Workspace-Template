@@ -1,0 +1,26 @@
+{
+  "scene_id": 210,
+  "frame_name": "frame_011679.jpg",
+  "start_time": 5825.0,
+  "end_time": 5853.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "HTML은 뭐 하는 거냐? 이렇게 뼈대를 잡는 역할을 합니다. 뭐 네이버 로그인 페이지를 만든다라고 하면은 여기에 제목은 네이버 요렇게 들어가 있고 뭐 입력창 입력창은 여다 만들고 입력창 그다음 만들고 버튼을 로그인 버튼을 만든다. 요렇게 구성하는 어떤 뼈대를 잡는게 HTML의 역할입니다. 네. 뼈대는 HTML이다. 어렵지 않죠? 거 괜찮죠? 네. 그래서 좀 비유적으로 보자면 아이 다시 아네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 256,
+  "frame_name": "frame_002211.jpg",
+  "start_time": 1103.5,
+  "end_time": 1106.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "설명을 하는게 아니라 단순히 이렇게 목차만 주는 거예요. 목차만. 어. 자. 야, 너 뭐 아키텍처 규칙 쓰"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 921,
+  "frame_name": "frame_029881.jpg",
+  "start_time": 14931.0,
+  "end_time": 14949.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보겠습니다. 와, 이거 뭐 이렇게 파일을 이렇게 끌어다가 놔도 되긴 하거든요. 그래서 아, 나는이 끌어다 하는 그 개념이 좋다 하시는 분들은 이게 여기에 보면은 뭐 이런 거 인덱스.html Hm 있잖아요. 요거를 다운로드 받을 수 있습니다. 다운로드 받으면은 이게 다운로드 받아지거든요. 요거를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-03: 파일 컨텍스트 메뉴 UI, 대본으로 충분히 설명 가능",
+  "importance_rule_version": 2
+}

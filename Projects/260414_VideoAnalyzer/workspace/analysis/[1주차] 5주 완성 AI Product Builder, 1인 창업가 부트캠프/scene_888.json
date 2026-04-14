@@ -1,0 +1,26 @@
+{
+  "scene_id": 888,
+  "frame_name": "frame_028980.jpg",
+  "start_time": 14486.0,
+  "end_time": 14493.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "김에 걸로 설치. 재미나이가 확실히 그 잘 돼 있네요. 그 파이웨이 스튜디오랑 연동이 좋아 가지고 얘가 제일 문제가 없었고 얘도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

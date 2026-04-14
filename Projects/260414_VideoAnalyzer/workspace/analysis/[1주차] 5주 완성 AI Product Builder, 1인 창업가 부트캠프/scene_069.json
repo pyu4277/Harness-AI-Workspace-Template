@@ -1,0 +1,26 @@
+{
+  "scene_id": 69,
+  "frame_name": "frame_003634.jpg",
+  "start_time": 1804.5,
+  "end_time": 1829.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거예요. 와, 이거 너무 어렵다. 이거 더 효율적이다. 그 AI가 훨씬 효율적이다라고 해 가지고 이제는 스태오플로우 망했습니다. 지금 스태오플로우의 디클라인. 네. 채치피티 런칭하고 아, 엄청나게 빠르게 하락하는 모습을 보여주고 있죠. 네. 그래서 이제는 질문 답변 사이트에서 질문하고 뭐 답변 받고 혹은 뭐 있는 질문 중에 찾고 하는 것도 할 필요가 없어졌습니다. 네. 그래서 예전 미매 이런게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

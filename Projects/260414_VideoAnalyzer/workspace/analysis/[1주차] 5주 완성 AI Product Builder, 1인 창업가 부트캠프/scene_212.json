@@ -1,0 +1,26 @@
+{
+  "scene_id": 212,
+  "frame_name": "frame_011717.jpg",
+  "start_time": 5856.0,
+  "end_time": 5860.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "비유적으로 보자면 아이 다시 아네 요거 요게 먼저 나와야 되는데 아무튼 좀 비유적으로 보자면 HTML은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": 289,
+  "frame_name": "frame_002730.jpg",
+  "start_time": 1354.0,
+  "end_time": 1375.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - 머지 완료 + 문서 구조 + 스냅샷 목록",
+    "elements": [
+      "파일 탐색기: DOC_GARDENING.md, OBSERVABILITY.md 등 문서 목록",
+      "Merge and complete task 완료 메시지",
+      "좌측: 작업 스냅샷 파일 목록",
+      "우측: Todo 앱 실행 화면",
+      "기존 데이터(author 필드) 확인 가능"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "머지 완료",
+      "문서 구조",
+      "스냅샷 아카이브",
+      "자기 문서화"
+    ],
+    "summary": "워크트리를 다시 만들고 그 위에다가 플랫 문서를 다시 제작성을 하고 있습니다. 그래서 이렇게 자동으로 피드백도 가능하다라는 점. 자, 우리가 이렇게 기똥차 하네스 엔지니어링을 보고서도 우리 프로젝트 적용하지 않는 이유는 뭡니까? 바로 귀찮아서잖아요. 이거 얼마나 귀찮아. 그죠? 대충 아 이거 기능 개발해 줘라고 해서 대충 딱 나오고 대충 내가 테스트하고 이렇게 하면 되는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "머지 완료 후 상태: 문서 구조(DOC_GARDENING/OBSERVABILITY 등), 스냅샷 아카이브, 하네스 프로세스 처리 완료 메시지. 로고/결과물 기반으로 추가 수정 요청 가능",
+    "text_only_info": "이 기록물(로고/스냅샷)을 가지고 추가 수정 요청 가능",
+    "combined_insight": "하네스 워크플로우 완료 후 상태: 머지 완료 + 문서 구조 + 스냅샷 아카이브가 모두 자동 생성. 이 기록물을 기반으로 후속 작업을 요청할 수 있는 자기 문서화 시스템"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

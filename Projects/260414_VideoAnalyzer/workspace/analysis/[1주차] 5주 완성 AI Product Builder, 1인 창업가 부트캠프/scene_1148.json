@@ -1,0 +1,26 @@
+{
+  "scene_id": 1148,
+  "frame_name": "frame_035485.jpg",
+  "start_time": 17707.5,
+  "end_time": 17776.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "설명 어려워지는데 딱 쉽게 설명하자면 워커스에서는 어떤 막 복잡한 수식 작업이 있다.네 그거를 이제 유저가 유저가 요청을 하면이 복잡한 연산을 수행하고 그다음에 돌려 줍니다. 그 차이입니다. 그래서 얘가 복잡한 걸 수행할 수 있기 때문에 얘가 좀 더 비싸요. 얘는 그냥 단순히 페이지 전달이 끝이어 가지고 싸고 요렇게 해서 차이입니다. 웹과 와스의 차이인가 봐요. 뭐 비슷한데 이제 워커스의 역할이 좀 다양하긴 하거든요. 엣지 펑션도 할 수 있고 뭐 되게 역할이 많 뭐 넥넥스트 JS 이런 거 프레임워크 쓰시는 분들은 뭐 그런 거 있잖아요. 그 뭐야 SSR 뭐 이런 서버 사이드 렌더링 뭐 이런 거 있잖아요. 그런 거 서버 사이드 처리를 여기서 할 수가 있습니다. 그래서 넥스트 JS 이런 프레임워크 이건 되게 뒤에 배울 건데 아시는 분들은 여기 쓰시면 되는데 워커스를. 근데 요거는 이제 그런 프레임워크 막 서버에서 돌아가는 어떤 연산이 들어가는게 여기에 들어가는 거고 얘는 그냥 HTML 파일 보내기요 역할이다라고 보시면 되겠습니다. 그래서 얘는 정적 웹 얘는 뭐 프레임워크 뭐 넥스트 JS 같은 프레임워크 돌릴 때 쓸 수가 있겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1373,
+  "frame_name": "frame_041902.jpg",
+  "start_time": 20947.5,
+  "end_time": 20953.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 읽을 필요가 없습니다. 어디 있지? 네. 그 디스커스가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

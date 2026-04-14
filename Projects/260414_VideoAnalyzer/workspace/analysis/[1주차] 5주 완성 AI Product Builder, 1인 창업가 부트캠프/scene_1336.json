@@ -1,0 +1,26 @@
+{
+  "scene_id": 1336,
+  "frame_name": "frame_040990.jpg",
+  "start_time": 20489.0,
+  "end_time": 20500.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "누르면 어 보내집니다. 보내줬어요. 그래서 실제로 제 이메일로 들어가 보면 어 벌써 제출 많이 하고 계시네요. 지금 여기 들어오셔서 많이 하고 계신데네 요렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

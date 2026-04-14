@@ -1,0 +1,26 @@
+{
+  "scene_id": 70,
+  "frame_name": "frame_003691.jpg",
+  "start_time": 1829.0,
+  "end_time": 1861.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 예전 미매 이런게 있었거든요. 그 예전 프로그래머들, 옛날 프로그래머들은 뭐 아폴로 미션 코드를 막 엄청나게 효율적으로 코딩을 해 가지고 50K바로 만들었다 막 이런 되게 옛날에 대단한 프로그래머들에 대한 그 칭찬과 함께 요즘 프로그래머들은 어 헬로월드 이런 거 만드는데도 스택 오버플로우에서 검색이나 하고 말이야. 어 이거 너무 비효율적으로 했다라고 요런 미미이 있었거든요 예전에. 근데 놀랍게도요 시대가 이제 지나가고 이제는 스택오버"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

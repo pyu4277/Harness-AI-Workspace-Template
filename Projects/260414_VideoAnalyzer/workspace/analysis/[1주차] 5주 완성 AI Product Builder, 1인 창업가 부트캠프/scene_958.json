@@ -1,0 +1,26 @@
+{
+  "scene_id": 958,
+  "frame_name": "frame_030705.jpg",
+  "start_time": 15329.5,
+  "end_time": 15374.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "줍니다. 이그노어도 설명해 주세요. 어 이근노는 이제 뭐 기세 안 올라갈 거 이제 막는 건데 그것도 이제 AI가 또 설명해 주거든요. 그래서 예, 요거는 이제 프론트엔드 코드니까 어차피 다 여기 있는 건 올릴 거니까 네, 나중에 나올 때 소개드리도록 하겠습니다. 네. 안 되는 오류 뜨셨다. 바로 얘한테 물어보면 됩니다. 여기 지금 우리가 여기까지 오면 끝난 거라고 하셨잖아요. 아 말씀드렸잖아요. 여기다 다 입력하면 다 해결해 줍니다. 이제이 모든 통제권을 갖고 있기 때문에 뭐 깃까지 연결하셨으면 이제 끝났습니다. 사실상 와 이제 어려운 길 오셨습니다. 저희 제 저는 재미라이로 했는데 원하시는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

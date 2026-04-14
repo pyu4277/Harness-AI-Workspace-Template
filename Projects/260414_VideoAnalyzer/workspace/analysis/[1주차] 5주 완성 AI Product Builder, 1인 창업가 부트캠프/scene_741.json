@@ -1,0 +1,26 @@
+{
+  "scene_id": 741,
+  "frame_name": "frame_025994.jpg",
+  "start_time": 12975.0,
+  "end_time": 13018.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진행하실 수가 있습니다. 그럼 메모장보다 좀 보기 편하지 않나요? 이렇게 뭐 간격도 잘 돼 있고 이런 거 열었다 폈다도 할 수 있고 좀 더 뭔가 메모장보다 좀 보기가 좋게 돼 있습니다. 네. 그래서 요걸로 이제 작업을 할 거고요. 근데 어 제 생각에 요걸로 물론 하셔도 되거든요. 그래서 이걸로 진행하셔도 되는데 저는 어떤 거를 좀 하려고 생각을 했냐면 사실 이게 약간 불편해요. 이게 뭘론 이제 그이 터미널이 안 익숙하시면 이게 편할 수도 있는데 요렇게 작업하는 거보다 요즘 좀 더 유행하는 방법이 있어서 그걸로 진행해 보려고 합니다. 그래서 재미나이를 일단 정지하고 그냥 다 뜨셔도 돼요. 잠깐 요거 누르면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

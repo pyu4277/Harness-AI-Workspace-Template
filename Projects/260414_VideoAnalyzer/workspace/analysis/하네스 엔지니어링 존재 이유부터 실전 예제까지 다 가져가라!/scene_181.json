@@ -1,0 +1,26 @@
+{
+  "scene_id": 181,
+  "frame_name": "frame_001177.jpg",
+  "start_time": 586.5,
+  "end_time": 589.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "AI가 스스로 내가 원하는 컨텍스트를 찾아가도록 해야겠다. 그래서 우리가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

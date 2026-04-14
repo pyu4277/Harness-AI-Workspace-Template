@@ -1,0 +1,26 @@
+{
+  "scene_id": 133,
+  "frame_name": "frame_000812.jpg",
+  "start_time": 404.0,
+  "end_time": 407.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "자기네들끼 테스트하고 북칙박칙 할테니까 그럼 완벽하게 만들어질 텐데 이놈의 인간이 오히려이 AI의"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

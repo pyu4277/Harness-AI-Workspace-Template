@@ -1,0 +1,26 @@
+{
+  "scene_id": 447,
+  "frame_name": "frame_017673.jpg",
+  "start_time": 8808.5,
+  "end_time": 8864.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 아무튼 요렇게 그 서버라는 개념 이해를 하셨으면 이제는 그 배포하는 개념을 이해하실 수가 있습니다. 그러니까 내 컴퓨터를 항상 켜두기 어려우니까 외부 24시간 돌아가는 어떤 클라우드 서버를 빌려 가지고 여기에 HTML 파일을 싹 얹어 놓게 되면 네. 이제이 HTML은 누구나 외부 서버로 들어와 가지고 받아가니까 뭐 내 컴퓨터는 이제 털릴 일이 없죠. 왜냐면 IP 서버, IP 주소가 요렇게 노출이 돼 있으니까. 그래서 딴 사람들이 요렇게 접속해 가지고 내 웹사이트를 이용할 수가 있습니다. 네. 그러면 요렇게 올리는 행위를 이거 배포한다라고 합니다. 그죠? 요렇게 올린 행위를 배포한다. 영어로는 디플로이라고 합니다. 네. 요거 이해되시나요? 요것도 좀 개념이 여러데 그러면 이제 클라우드랑 배포의 개념을 이해하신 겁니다. 네. 쿠팡. 아, 그거네. 아무튼 네. 네. 요렇게 된다라고 이해하시면 좋을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

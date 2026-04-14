@@ -1,0 +1,26 @@
+{
+  "scene_id": 891,
+  "frame_name": "frame_029037.jpg",
+  "start_time": 14501.5,
+  "end_time": 14534.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요렇게 하면 되고 네. 요렇게 하시면 되겠습니다. 음. 오늘은 재미나이. 네. 뭘 쓰셔도 상관없습니다. 네. 편하신 거 쓰시면 되고요. 각자 구독하신 걸로 쓰시면 되겠습니다. 그래서 뭘 쓰시든 사실 사용 방법은 다 거의 비슷합니다. 재미나이가 외부에서 하려면 뭔가 최고 좋아요. 네. 어떤 것들은 사실 어느 정도의 상향 평준한 돼 있습니다. 물론 그 디테일한 어떤 잘하는 거는 뭐 시기에 따라서 왔다 갔다 하는데 네. 지금은 그렇습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

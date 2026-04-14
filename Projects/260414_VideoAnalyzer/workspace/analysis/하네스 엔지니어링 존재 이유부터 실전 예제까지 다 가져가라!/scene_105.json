@@ -1,0 +1,26 @@
+{
+  "scene_id": 105,
+  "frame_name": "frame_000637.jpg",
+  "start_time": 316.5,
+  "end_time": 319.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "구축을 해 놨더니 AI가 내가 별로 이게 끼어들지 않아도 알아서 일을 잘 하더라. 그래서 자기가 어떻게 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

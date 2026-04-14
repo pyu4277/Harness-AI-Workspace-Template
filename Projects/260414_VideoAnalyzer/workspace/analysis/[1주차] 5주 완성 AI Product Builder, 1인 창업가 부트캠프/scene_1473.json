@@ -1,0 +1,26 @@
+{
+  "scene_id": 1473,
+  "frame_name": "frame_044695.jpg",
+  "start_time": 22342.5,
+  "end_time": 22352.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 지금 요거 하고 있습니다. 이제 요거 두 요것만 남았 스위커만 남았습니다. 아 스위커가 남았습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

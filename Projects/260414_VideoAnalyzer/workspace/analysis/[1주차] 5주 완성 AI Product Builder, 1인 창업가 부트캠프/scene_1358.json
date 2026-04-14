@@ -1,0 +1,26 @@
+{
+  "scene_id": 1358,
+  "frame_name": "frame_041710.jpg",
+  "start_time": 20848.0,
+  "end_time": 20861.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그대로 웹사이트 네임 어 뭐야? 프로덕트 빌더. 네. 이렇게 하고 아 비즈니스 랭귀지 코리안. 네. 이렇게 해서 만들겠습니다. 아, 근데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

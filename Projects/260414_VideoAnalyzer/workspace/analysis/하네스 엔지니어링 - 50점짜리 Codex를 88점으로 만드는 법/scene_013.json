@@ -1,0 +1,26 @@
+{
+  "scene_id": 13,
+  "frame_name": "frame_000463.jpg",
+  "start_time": 217.0,
+  "end_time": 245.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "겁니다. 실제로 올해 발표된 스킬스 벤치라는 연구에서는 잘 설계된 하네스를 붙였을 때 성능이 평균적으로 16.2% 증가했다고 합니다. 특히 코덱스와 GPT 5.2 모델 조합에서 한네스를 붙였을 때 30.6%에서 44.7%로 14.1% 1% 성능이 향상됐다고 합니다. 그러니까 모델은 그대로인데 그 모델이 2라는 방식만 바꿨더니 성능이 오르더라라는 것이 숫자로 확인된 겁니다. 그렇다면 LM이라는이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "겁니다. 실제로 올해 발표된 스킬스 벤치라는 연구에서는 잘 설계된 하네스를 붙였을 때 성능이 평균적으로 16.2% 증가했다고 합니다. 특히 코덱스와 GPT 5.2 모델 조합에서 한네스를 붙였을 때 30.6%에서 44.7%로 14.1% 1% 성능이 향상됐다고 합니다. 그러니까 모델은 그대로인데 그 모델이 2라는 방식만 바꿨더니 성능이 오르더라라는 것이 숫자로",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

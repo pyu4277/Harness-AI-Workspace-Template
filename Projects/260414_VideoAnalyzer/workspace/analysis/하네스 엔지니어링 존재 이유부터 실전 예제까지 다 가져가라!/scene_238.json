@@ -1,0 +1,26 @@
+{
+  "scene_id": 238,
+  "frame_name": "frame_001910.jpg",
+  "start_time": 951.5,
+  "end_time": 957.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code CLAUDE.md 3~5단계 (Test/Verify/Merge)",
+    "elements": ["3단계: 테스트 작성 상세 (Vitest + React Testing Library)", "4단계: 검증 실행 (필수 - 건너뛸 수 없음)", "bash scripts/verify-task.sh 실행", "단위 테스트 (vitest), 린트 (eslint), 빌드 (vite build)", "파일 크기 제한, 타입 검증", "검증 미통과 시 커밋 불가 (강조)", "5단계: 머지 + 완료 처리"],
+    "extracted_formulas": [],
+    "extracted_code": ["bash scripts/verify-task.sh", "**검증을 통과하지 않으면 커밋하지 않는다.**"],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["verify-task.sh 검증 스크립트", "5단계 검증 항목", "커밋 전 강제 검증"],
+    "summary": "하게 만들어 줍니다. 그래서 여기에 보시면은 스크립트 파일들이 있거든요. 이게 바로 제가이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "verify-task.sh 스크립트로 5가지 검증 자동 실행: vitest, eslint, vite build, 파일 크기 제한, 타입 검증. 5단계 머지+완료 처리까지 전체 파이프라인 확인",
+    "text_only_info": "스크립트 파일들이 검증을 강제하는 구조 설명",
+    "combined_insight": "하네스 4~5단계: verify-task.sh로 5종 검증(테스트/린트/빌드/크기/타입)을 자동 실행하고 미통과 시 커밋 자체를 차단. 프롬프트가 아닌 스크립트가 품질을 강제하는 하네스 핵심 원리"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

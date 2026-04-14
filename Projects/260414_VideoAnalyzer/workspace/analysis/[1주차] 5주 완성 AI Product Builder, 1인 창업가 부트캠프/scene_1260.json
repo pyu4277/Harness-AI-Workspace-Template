@@ -1,0 +1,26 @@
+{
+  "scene_id": 1260,
+  "frame_name": "frame_039481.jpg",
+  "start_time": 19727.5,
+  "end_time": 19753.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "너무 많은데 뭐 대표적으로 API 뭐 이런게 있습니다. 용어는 이제 뒤에서 이제 한 2주차 3주차 때 좀 더 소개를 드릴 텐데 API 뭐 용어는 지금 좀 어려우니까 모르셔도 되고 그냥 이런 거를 가져다 쓸 수 있는 겁니다. 쉽게 말해서 가져다 쓸 수 있는 건데네 가져다 쓸 수 있는 거 예를 들어 아예 한국어로 만들어 놓은 것도 있더라고요. 그래서 가져다 쓸 수"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

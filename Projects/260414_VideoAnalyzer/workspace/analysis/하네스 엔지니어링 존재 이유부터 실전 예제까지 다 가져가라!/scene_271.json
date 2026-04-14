@@ -1,0 +1,26 @@
+{
+  "scene_id": 271,
+  "frame_name": "frame_002420.jpg",
+  "start_time": 1208.0,
+  "end_time": 1211.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 그리고 완료가 되면은 자동으로 컴플리티드로 이따 옮겨질 예정입니다. 그래서 계획이 끝나서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

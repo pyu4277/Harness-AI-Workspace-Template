@@ -1,0 +1,26 @@
+{
+  "scene_id": 1598,
+  "frame_name": "frame_048582.jpg",
+  "start_time": 24281.5,
+  "end_time": 24300.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기 접속을 하셔 가지고 가입하기 버튼 누르셔 가지고 가입을 진행하시면 되겠습니다. 네. 그래서 가입할 시간 조금 드리도록 하겠습니다. 그래서 가입하시면은 이제 그 정보 입력하고이 가이드 따라서 에드센스 가입을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

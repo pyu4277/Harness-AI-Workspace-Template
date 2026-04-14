@@ -1,0 +1,26 @@
+{
+  "scene_id": 51,
+  "frame_name": "frame_000308.jpg",
+  "start_time": 152.0,
+  "end_time": 155.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "히스토리, 우리이 회사의 컨텍스트를 잘 전달을 할까? 어떻게 하면은 얘가 어 매일매일 리셋이 되는 그런 신인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

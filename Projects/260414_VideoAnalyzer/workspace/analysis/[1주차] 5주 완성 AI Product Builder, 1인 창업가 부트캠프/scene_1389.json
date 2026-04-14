@@ -1,0 +1,26 @@
+{
+  "scene_id": 1389,
+  "frame_name": "frame_042558.jpg",
+  "start_time": 21263.5,
+  "end_time": 21293.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "볼게요.이 가끔 지금 재미나가 약간 맛이 간 거 같아요. 네. 클로드가 약간 믿음직합니다. 클로드가 아주 좋아요. 어, 완료됐습니다. 네, 디스커스 추가됐고요. 푸시했고요. 그러면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 628,
+  "frame_name": "frame_022411.jpg",
+  "start_time": 11184.5,
+  "end_time": 11225.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 이렇게 해 주시면 됩니다. 아까 62번 해 주신 것처럼 보내주시면 드리겠습니다. 아까 아 하루에 한 번만 응모가 돼 있구나. 아 죄송합니다. 아 그 그 관리를 풀어 볼게요. 죄송합니다. 아이씨 이거네 수정해 볼게요. 지금 중복 참여를 아 이거 수정이 안 되네. 아 죄송합니다. 한 번만 참여하실 수가 있습니다. 새로 오신 분들.네 네. 일단 끝나고 이벤트도 있으니까요. 마지막 이벤트 참여하시면은 네. 그 커피 50분 드리니까요. 그거 받아가시면 좋을 것 같습니다. 아씨, 이거 수정이 안 됩니다. 이거 구라가 아니라 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

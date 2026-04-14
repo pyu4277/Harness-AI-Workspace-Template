@@ -1,0 +1,26 @@
+{
+  "scene_id": 780,
+  "frame_name": "frame_026939.jpg",
+  "start_time": 13462.5,
+  "end_time": 13476.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "물어보면 돼요. 어 실행하는 거 뭐였지? 이렇게 입력하면 됩니다. 어 이거 이용해서 제미나이 CLI 설치했는데 실행은 명령 어 뭐 입력하면 돼?네 네. 이런 거 하나씩"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1328,
+  "frame_name": "frame_040861.jpg",
+  "start_time": 20427.5,
+  "end_time": 20433.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오늘 저녁 뭐 먹지? 해가지고 제휴 무늬가 있습니다. 야, 이거 제휴해 뭐 식당 이런데 제휴 받을 수도 있겠죠. 어,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 791,
+  "frame_name": "frame_027262.jpg",
+  "start_time": 13603.5,
+  "end_time": 13658.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "로그인 된 겁니다. 아, 메모창이 가장 어렵다면서? 아, 그러네요. 요게 조금 더 어렵네요. 네. 아무래도 이제 고급 개발이다 보니까 이제 고급 개발 세팅은 좀 어렵죠? 네. 네. 됐나요? 요거 시간은 좀 들려야 될까요? 이게 아무래도 좀 걸릴 테니까. 예. 다시 좀 소개를 드리자면 네. 이제 여기까지 되셨다. 여러분들은 고급 개발자입니다. 이제는 어 다 할 수 있어요. 못 하는게 없습니다.요 정도까지 되면은 이제 뭐 백엔드도 이걸로 다 할 수 있는데 이따가 일단은 뭐 프론트엔드부터 할 텐데 이걸로 모든 걸 할 수가 있습니다. 여러분들 이제 고급 개발자입니다. 네. 여기까지 되셨나요? 요렇게 요거 좀 진행을 해 볼게요. 여기까지"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

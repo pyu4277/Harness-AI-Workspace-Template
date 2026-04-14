@@ -1,0 +1,26 @@
+{
+  "scene_id": 1339,
+  "frame_name": "frame_041117.jpg",
+  "start_time": 20540.5,
+  "end_time": 20575.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 요런 거 프라이싱에 도달하면은 아마 안 될 겁니다. 어, 지금 계속 계속 제출을 해 주고 계세요. 아유, 감사합니다. 네. 아무튼 제유 문의를 계속 주고 계신데 이런 식으로 사이트를 만들어 가지고 재유 문의를 받는게 사실 그 기업 어떤 홈페이지를 만든다라고 하면 진짜 많이 쓰는 방식이잖아요. 그거를 그냥 지금 이렇게 연결 딸깍 한 번에 구현 끝입니다. 너무 쉽죠? 너무 쉬워요, 이게. 이런 거 보면은 와 이게 저도이 시장 얼마 안 남았다라는 생각이 드는게 예를 들어 이런 거 있잖아요. 예를 들어 몽 자 크몽 이런 서비스 자주 쓰는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

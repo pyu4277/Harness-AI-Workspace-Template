@@ -1,0 +1,26 @@
+{
+  "scene_id": 154,
+  "frame_name": "frame_008378.jpg",
+  "start_time": 4181.5,
+  "end_time": 4195.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 그래서 여기 들어가 보시면 네. 그래서 5주 과정 마무리한 다음에 이제 70만 구독자 기념 조코딩 AI 해커톤 오프라인으로 진행하니까요. 네. 2월 중순, 3월 초 사이에 이렇게 신청해 주시면 되겠습니다. 그래서 상세 내용 확정되면은 여기 등록하신 이메일로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 372,
+  "frame_name": "frame_015862.jpg",
+  "start_time": 7929.0,
+  "end_time": 7932.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "쫙 만들어 주고 있죠. 아, 열심히 보면 여기 보니까 이게 CSS 문법이다라는 거 좀 느껴지시나요?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

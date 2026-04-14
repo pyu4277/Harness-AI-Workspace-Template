@@ -1,0 +1,26 @@
+{
+  "scene_id": 1555,
+  "frame_name": "frame_047640.jpg",
+  "start_time": 23817.5,
+  "end_time": 23821.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 큰 겁니다. 야씨. 네. 그래서 요런 식으로 돈을 벌어요. 구글은이 이게 메인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 736,
+  "frame_name": "frame_025803.jpg",
+  "start_time": 12893.0,
+  "end_time": 12909.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이거 지우면 됩니다. 이것도 지워요. 네. 그러면 남은 거는 HTML, CSS, 자바스크립트 밖에 없죠. 이것만 있으면 다시 되긴 합니다. 이게이 웹페이지 프런트엔드를 구성하는 모든 파일이기 때문에 이렇게만 하면 됩니다. 아, 오른쪽 하단에 프리뷰가 있나요? 오른쪽 하단에 프리뷰. 오른쪽 하단에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

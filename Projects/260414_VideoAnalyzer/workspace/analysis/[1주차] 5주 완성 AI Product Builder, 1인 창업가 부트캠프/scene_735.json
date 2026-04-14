@@ -1,0 +1,26 @@
+{
+  "scene_id": 735,
+  "frame_name": "frame_025776.jpg",
+  "start_time": 12882.0,
+  "end_time": 12893.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "없어요. 이거 제미나이.md MD 얘는 이제 재미나이가 이해할 수 있는 어떤 명령어 어떤 모음인데 이거 어이 설정 모음 이런 거 필요 없습니다. 이거 그냥 기본도 똑똑해요. 네. 이거 지우면 됩니다. 이것도 지워요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

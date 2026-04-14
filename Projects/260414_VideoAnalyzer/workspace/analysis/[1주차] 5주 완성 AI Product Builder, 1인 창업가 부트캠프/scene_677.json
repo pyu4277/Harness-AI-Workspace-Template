@@ -1,0 +1,26 @@
+{
+  "scene_id": 677,
+  "frame_name": "frame_024041.jpg",
+  "start_time": 12011.0,
+  "end_time": 12029.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "근데 뭐 기터브 말고도 사실 많습니다. 이게 관리하는 어떻게 보면이 구글 클라우드도 있고 구글 드라이브도 있고 막 아 구글 드라이브도 있고 애플 그 포토도 있고 이러잖아요. 그런 것처럼이 코드 저장하는 공간이 뭐 다른 것도 있긴 한데 비트 버킷이라던가 뭐 다 많긴 한데 그래도 많이 쓰는 게터브다 보니까 좀 많이 쓰는 거 위주로 소개를 드립니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 (대본에 지시대명사 있으나 화면은 얼굴)",
+  "importance_rule_version": 1
+}

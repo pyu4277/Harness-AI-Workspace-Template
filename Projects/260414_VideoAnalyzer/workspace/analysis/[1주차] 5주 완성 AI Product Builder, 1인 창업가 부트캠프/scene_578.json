@@ -1,0 +1,26 @@
+{
+  "scene_id": 578,
+  "frame_name": "frame_020723.jpg",
+  "start_time": 10358.5,
+  "end_time": 10364.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "디플로이하고 수정하는 거까지 다 구현을 완료를 해봤습니다. 네. 이제는 고급 개발을 조금 쉬었다가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

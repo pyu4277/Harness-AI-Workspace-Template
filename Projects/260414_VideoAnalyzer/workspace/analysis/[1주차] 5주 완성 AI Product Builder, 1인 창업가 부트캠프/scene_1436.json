@@ -1,0 +1,26 @@
+{
+  "scene_id": 1436,
+  "frame_name": "frame_043251.jpg",
+  "start_time": 21621.5,
+  "end_time": 21629.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "댓글 기능을 만약에 직접 구현한다 조금 걸립니다. 물론 이제 5주차까지 들으시면 다 싹 AI 딸깍하면서 하실 수 있는데 5주차 듣기 전에는네 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

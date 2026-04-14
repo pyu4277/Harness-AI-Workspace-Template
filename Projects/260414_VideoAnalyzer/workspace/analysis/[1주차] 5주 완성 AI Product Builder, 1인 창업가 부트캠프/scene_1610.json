@@ -1,0 +1,26 @@
+{
+  "scene_id": 1610,
+  "frame_name": "frame_048836.jpg",
+  "start_time": 24408.5,
+  "end_time": 24426.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "발표했던 건데 요거 강의 자료네 요게 이제 진짜 시 실행하게 너무 좋은 시대가 됐습니다. 운영비 빵원 지금까지 만든 거 운영비 빵원이죠. 더 전 세계 모든 전 세계 인구가 접속해도 공짜입니다. 60억 명 접속해도 동시 접속해도 공짜예요. 글로벌 수익형 AI 서비스 만든요 제작기를 한번 진행을 했었는데 요게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1647,
+  "frame_name": "frame_049637.jpg",
+  "start_time": 24787.0,
+  "end_time": 24849.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "줍니다. 음. 재밌는 게임. 아, 재밌지 않나요? 저는이 너무 재밌어요. 이즘 AI 시대 되면서 아 너무 재밌습니다. 아 그래서 사실 좀 안타까워요. 그러니까 사실 아 제 어떤 뭐 그냥 개인적인 욕심은 저도 프로덕 빌딩을 너무 하고 싶거든요. 근데 이제 크리에이터로서의 어떤 일들이 꽤 있습니다. 그래서 아 프로덕 빌딩을이 집중해서 못 하고 있는데 안타깝죠? 어, 네. 어, 다 추가했어요. 야, 에드센스 추가 완료했고. 자, 그다음에 어, 광고를 배치할 수 있습니다. 알려줘요. 이것도. 자, 이게 다 여기까지 됐으니까. 음. 아, 좋아요. 일단 일단 여기까지 여기까지도 배포해 줘. 네. 배포해 달라고 해 보겠습니다. 배포하면서 진행해 볼게요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

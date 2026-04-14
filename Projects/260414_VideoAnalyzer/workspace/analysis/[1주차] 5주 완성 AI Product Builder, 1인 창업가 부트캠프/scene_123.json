@@ -1,0 +1,26 @@
+{
+  "scene_id": 123,
+  "frame_name": "frame_005812.jpg",
+  "start_time": 2882.5,
+  "end_time": 2929.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대부분 요즘의 어떤 핫 AI 스타트업 아, 요즘에 잘 나간다, 스타트업 아,이 스타트업 너무 유망하다 하는 기업들 보면은 사실은 그냥 래퍼인 경우가 많습니다. 즉 AI는 뭐 오픈 AI나 구글이나 이런 데서 너무 잘 만들잖아요. 그러니까 이걸 갖다가 그냥 붙여 가지고 그냥 내 제품을 만들어서 이거를 출시한 거지. 뭐 AI 기술이 막 엄청나고 연구원이 막 어 박사급이 몇 명이 있어 가지고 이걸로 연구하고 이런 시대는 사실 이제 뭐 물론 그 소수의 기업도 있지만 그런 그런 기업들이 만든 걸 받아다가 래퍼라고 하죠. 포장지 래핑한다고 하잖아요. 그래서 래퍼로 감싸기만 해도 이제 어마어마한 핫 AI 스타트업이 될 수가 있는 네. 그런 시대입니다. 네. 그런 시대고 그러다 보니까 뭐"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

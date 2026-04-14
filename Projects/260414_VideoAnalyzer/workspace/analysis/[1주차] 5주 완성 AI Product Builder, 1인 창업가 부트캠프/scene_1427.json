@@ -1,0 +1,26 @@
+{
+  "scene_id": 1427,
+  "frame_name": "frame_043138.jpg",
+  "start_time": 21565.5,
+  "end_time": 21571.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어유 감사합니다. 이렇게 댓글 기능 바로 그냥 추가가 돼 버렸습니다. 어, 리사 님 안녕하세요. 여기 또 오셨군요. 네. 이렇게 바로 그냥"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}
