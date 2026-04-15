@@ -176,3 +176,58 @@ ECC_HOOK_PROFILE=minimal로 충돌 훅 비활성화. ECC_DISABLED_HOOKS=session:
 - governance-rules.md 루트 구조 테이블에 SYSTEM_NAVIGATOR.md 행 추가
 - navigator-updater.js PostToolUse 훅으로 자동 갱신
 - CLAUDE.md 참조 문서에 시스템 네비게이터 추가
+
+---
+
+## ADR-009: 브랜치 분리 전략 -- system/* vs feat/*
+
+**상태**: 채택 (2026-04-15)
+
+**컨텍스트**:
+단일 master 브랜치에 시스템 인프라(.claude/, .harness/, .bkit/, .agents/skills/, root CLAUDE.md)와 프로젝트 작업(Projects/*)을 혼합 커밋하면, 변경 이력 추적과 롤백이 어렵다. 특히 하네스 훅/스킬 변경이 프로젝트 코드에 영향을 주는 경우 원인 분리가 불가능하다.
+
+**결정**:
+커밋 시 시스템 변경과 프로젝트 변경을 별도 브랜치로 분리한다.
+
+| 브랜치 패턴 | 범위 | 포함 경로 |
+|------------|------|-----------|
+| `master` | 안정 통합 | merge만 |
+| `system/*` | 하네스/bkit/스킬 인프라 | `.claude/`, `.harness/`, `.bkit/`, `.agents/`, root `CLAUDE.md`, `adr.md` |
+| `feat/*` | 프로젝트 작업 | `Projects/`, `.gitignore`, `Output/` |
+
+**근거**:
+- 시스템 훅 변경이 프로젝트 코드를 깨뜨릴 때 즉시 식별 가능
+- 프로젝트 추가/제거가 하네스 이력을 오염시키지 않음
+- 하네스 4기둥 중 기둥2(CI/CD): 시스템 변경과 비즈니스 변경의 관심사 분리
+
+**결과**:
+2026-04-15 첫 적용. `system/harness-evolution` + `feat/projects` 브랜치 생성.
+
+---
+
+## ADR-010: .gitignore 생성파일 제외 정책
+
+**상태**: 채택 (2026-04-15)
+
+**컨텍스트**:
+`.bkit/runtime/`, `.bkit/snapshots/`, `HarnessWorkspace/`, `.harness/tmp_refine/`, `**/.bkit_runtime/` 등 런타임 생성 디렉토리가 git에 추적되어 VS Code Source Control에 10,000+ 변경이 표시됨. OneDrive 동기화와 결합하여 파일 감시 이벤트가 폭증.
+
+**결정**:
+런타임/캐시/생성 파일은 `.gitignore`에서 구조적으로 제외한다.
+
+| 제외 경로 | 근거 |
+|-----------|------|
+| `HarnessWorkspace/` | 하네스 작업 임시 공간 |
+| `.bkit/runtime/`, `.bkit/snapshots/` | bkit 런타임 상태 |
+| `.harness/ingest-cache.json`, `.harness/refine-log.jsonl`, `.harness/tmp_refine/` | 하네스 캐시/임시 |
+| `**/.bkit_runtime/` | 프로젝트별 생성 데이터 (json, png, mmd) |
+| `/Output/` | 루트 레벨 산출물 |
+| `**/input/Question/` | 사용자 질문 스크린샷 |
+
+**근거**:
+- 생성 파일은 재생성 가능. git 추적은 저장소 비대화만 유발
+- OneDrive 동기화 환경에서 생성 파일 추적은 VS Code 성능 저하 원인
+- 하네스 4기둥 중 기둥3(도구경계): 추적 대상을 소스코드+설정으로 한정
+
+**결과**:
+root `.gitignore`에 13줄 추가. VS Code Source Control 변경 수 10,000+ -> 7건으로 감소.
