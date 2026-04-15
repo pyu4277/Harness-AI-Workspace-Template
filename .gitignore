@@ -46,3 +46,21 @@ docs/archive/
 
 # Backup files (atomicWriteWithBackup, scaffold tools)
 *.bak
+
+# Generated runtime/cache (harness, bkit)
+HarnessWorkspace/
+.bkit/runtime/
+.bkit/snapshots/
+.harness/ingest-cache.json
+.harness/refine-log.jsonl
+.harness/tmp_refine/
+.claude/scheduled_tasks.lock
+
+# Per-project runtime output (generated, regenerable)
+**/.bkit_runtime/
+
+# Root-level Output (non-project)
+/Output/
+
+# Screenshots / question images (user-local)
+**/input/Question/
