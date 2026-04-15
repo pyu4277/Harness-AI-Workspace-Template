@@ -50,6 +50,17 @@ flowchart LR
   VC --> T
   T --> D[7-Layer Detector]
   D --> RP[Reporter]
-  RP --> O1[Output/Reports]
-  RP --> O2[Output/Errors]
+  RP --> O1[Output/Reports/*.md]
+  RP --> O2[Output/Errors/*.md]
+  O1 --> HX[md_to_hwpx.py - 최종 단계 필수]
+  O2 --> HX
+  HX --> H1[Output/Reports_HWPX/*.hwpx]
+  HX --> H2[Output/Errors_HWPX/*.hwpx]
+
+  classDef final fill:#ffe0e0,stroke:#c00,stroke-width:2px
+  class HX,H1,H2 final
 ```
+
+## 산출 종료 조건 (필수, IMP-046)
+
+본 분석기의 작업은 **HWPX 산출이 마지막 단계**다. MD만 작성하고 종료하면 미완료로 간주한다. 변환 명령·검증 체크리스트는 `docs/report_format_v2.md` Section 7 참조.

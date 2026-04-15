@@ -94,3 +94,63 @@ flowchart TD
 2. v2 표준에 따라 신규 작성 (덮어쓰기)
 3. 파일명 변경: `260415_1700_*` (v2 시간 prefix)
 4. HWPX 재변환은 `src/renderers/md_to_hwpx.py` 그대로 사용
+
+## 7. HWPX 산출 — 보고서 작업의 마지막 단계 (필수, IMP-046 적용)
+
+> **모든 분석 보고서 작업은 MD 작성으로 끝나지 않는다. HWPX 산출이 최종 단계다.**
+
+### 7-1. 강제 원칙
+
+- `Output/Reports/*.md` 또는 `Output/Errors/*.md` 신규 작성·수정 후, 동일 stem의 HWPX가 `Output/Reports_HWPX/`·`Output/Errors_HWPX/`에 존재하지 않거나 MD보다 mtime이 오래된 경우 **작업 미완료**로 간주한다.
+- "보고서 작성 완료" 보고는 HWPX 산출 후에만 가능. MD만 산출하고 종료 시 하네스 위반.
+
+### 7-2. 변환 명령 (표준)
+
+```bash
+# 디렉토리 일괄
+python src/renderers/md_to_hwpx.py \
+  --md   Output/Reports \
+  --out  Output/Reports_HWPX \
+  --mmd-dir .bkit_runtime/mmd \
+  --png-dir .bkit_runtime/png
+
+python src/renderers/md_to_hwpx.py \
+  --md   Output/Errors \
+  --out  Output/Errors_HWPX \
+  --mmd-dir .bkit_runtime/mmd \
+  --png-dir .bkit_runtime/png
+
+# 단일 파일
+python src/renderers/md_to_hwpx.py \
+  --md   Output/Reports/260415_1700_종합_분석보고서.md \
+  --out  Output/Reports_HWPX/260415_1700_종합_분석보고서.hwpx \
+  --mmd-dir .bkit_runtime/mmd --png-dir .bkit_runtime/png
+```
+
+### 7-3. 산출 검증 체크리스트
+
+- [ ] `*.hwpx` 파일이 같은 stem으로 존재
+- [ ] `[OK] ... (images: N/N)` 로그에서 분자 = 분모 (모든 Mermaid 삽입 성공)
+- [ ] HWPX mtime ≥ MD mtime
+- [ ] 한컴 COM(`HWPFrame.HwpObject`)이 정상 종료(Phase 2 완료)
+
+### 7-4. 갱신 워크플로우 (Mermaid)
+
+```mermaid
+flowchart LR
+  A[MD 작성/수정] --> B{HWPX 동시 갱신 필요?}
+  B -- YES --> C[md_to_hwpx.py 실행]
+  C --> D[Phase 1: python-hwpx 텍스트+표+마커]
+  D --> E[Phase 2: 한컴 COM Mermaid PNG 삽입]
+  E --> F{images N/N 일치?}
+  F -- YES --> G[작업 완료 보고]
+  F -- NO --> H[누락 마커 재처리 또는 mmdc 오류 분석]
+  H --> C
+  B -- NO(존재 + mtime 일치) --> G
+```
+
+### 7-5. 예외
+
+- `_v1_backup/` 하위 파일은 HWPX 재변환 면제 (이력 보존용)
+- `docs/`·`README.md` 등 본 보고서 외 문서는 적용 면제
+- 변환 실패 시 사용자에게 구체적 오류 보고 후 정지 (자동 무시 금지)

@@ -760,12 +760,36 @@
         "viewer touchstart 에서 _isCloseBtn() true 면 return (이벤트 가로채지 않음)"
       ],
       "recall_count": 0
+    },
+    {
+      "id": "IMP-046",
+      "created": "2026-04-15T17:30:00Z",
+      "category": "report-output-finalization",
+      "trigger_keywords": [
+        "보고서 작성 완료",
+        "분석보고서",
+        "오류정정표",
+        "Output/Reports",
+        "Output/Errors",
+        "HWPX 변환",
+        "md_to_hwpx",
+        "마지막 단계"
+      ],
+      "situation": "문서분석 프로젝트(예: 260415_document_analyzer)에서 보고서 MD를 작성·수정한 뒤 사용자에게 '완료' 보고를 했으나, HWPX 변환을 별도 승인이 있어야만 진행하는 흐름으로 운영되어 사용자가 매번 'HWPX도 변환해줘'라고 명시 요청해야 하는 비효율 발생",
+      "mistake": "MD 산출이 보고서 작업의 종착점이라고 모델이 판단. 사용자는 HWPX를 최종 산출물로 요구하나, 게이트가 없어 매 세션 누락 가능. 상위/프로젝트 CLAUDE.md에도 종료 조건이 명시되지 않았음",
+      "rule": "문서분석 계열 프로젝트의 보고서 산출은 HWPX 변환을 마지막 단계로 강제한다. 절차: (1) Output/Reports/*.md 또는 Output/Errors/*.md 신규·수정 직후 src/renderers/md_to_hwpx.py를 같은 세션에서 실행 (2) 동일 stem의 HWPX가 Output/Reports_HWPX/·Output/Errors_HWPX/에 존재하고 mtime ≥ MD (3) [OK] ... (images: N/N) 로그에서 분자=분모 (Mermaid 100% 삽입) (4) 미충족 시 '완료' 보고 금지. 예외: _v1_backup/, docs/, README.md",
+      "examples": [
+        "MD 6건 작성 직후 자동으로 python src/renderers/md_to_hwpx.py --md Output/Reports --out Output/Reports_HWPX 실행",
+        "변환 로그 확인: [OK] 260415_1700_종합_분석보고서.md -> ... (images: 3/3) — 분자=분모 확인 후에만 완료 보고",
+        "Mermaid 변환 실패 시 (images: 2/3) → mmdc 오류 분석 → 재실행, 사용자에게 '완료' 보고 금지"
+      ],
+      "recall_count": 0
     }
   ],
   "stats": {
-    "total_imprints": 30,
+    "total_imprints": 38,
     "total_recalls": 5,
-    "last_updated": "2026-04-14T15:00:00Z",
-    "total": 37
+    "last_updated": "2026-04-15",
+    "total": 38
   }
 }

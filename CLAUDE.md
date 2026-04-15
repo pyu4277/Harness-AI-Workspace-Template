@@ -59,6 +59,7 @@
 - 구현 완료 후 컨텍스트 사용량 40% 이하 유지 권장
 - /harness-architect 호출 시 SKILL.md Phase 1~7 전체를 반드시 순서대로 실행. Phase 건너뛰기 금지 (2026-04-10 실수 기반 추가)
 - 계획/설계/개발 요청 시 SKILL.md에 정의된 프로세스가 있으면 그 프로세스를 100% 따른다. 임의 단축 금지 (2026-04-10 실수 기반 추가)
+- 문서분석 계열 프로젝트의 보고서 산출은 **HWPX 변환을 마지막 단계로 강제**한다. `Output/Reports/*.md` 또는 `Output/Errors/*.md` 신규/수정 후 동일 stem의 HWPX(`Output/Reports_HWPX/`·`Output/Errors_HWPX/`)가 mtime ≥ MD로 존재해야 완료. 미충족 시 하네스 위반 (IMP-046, 2026-04-15). 상세는 해당 프로젝트 CLAUDE.md 및 `docs/report_format_v2.md` Section 7
 
 ## 완료 체크리스트 (구조적 강제 -- prompt-refiner.js가 자동 주입)
 
