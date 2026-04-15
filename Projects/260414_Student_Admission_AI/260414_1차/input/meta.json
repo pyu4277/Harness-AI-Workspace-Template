@@ -1,0 +1,36 @@
+{
+  "company_name": "현대글로비스",
+  "company_legal_name": "현대글로비스(주)",
+  "industry": "도로화물운송업 / 종합물류",
+  "parent_group": "현대자동차그룹",
+  "recruitment_type": "채용연계형 인턴십",
+  "program_name": "2026년 상반기 Make GLOVIS 인턴십",
+  "job_title": "미정 (사용자 선택 필요)",
+  "job_categories_available": [
+    "연구개발/설계",
+    "생산/제조",
+    "영업/고객상담",
+    "경영/사무",
+    "마케팅/광고/홍보",
+    "IT/인터넷",
+    "무역/유통",
+    "서비스"
+  ],
+  "work_locations": [
+    "서울 성동구",
+    "전북 전주시",
+    "경기 평택시",
+    "경기 용인시 기흥구",
+    "경기 시흥시",
+    "경기 화성시",
+    "울산 전지역",
+    "전남 광양시"
+  ],
+  "deadline": "2026-04-18",
+  "deadline_time": "23:59 KST",
+  "application_period_start": "2026-04-09",
+  "is_reapply": false,
+  "previous_round": null,
+  "data_collected_at": "2026-04-14",
+  "notes": "사용자가 지원 직무(job_title) 및 세부 분야를 선택한 후 researcher/writer 실행. 현재는 전형 전반 정보만 수집된 상태."
+}
