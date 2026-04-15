@@ -225,6 +225,152 @@ document.hwpx (ZIP archive)
 | 저장 | `doc.save_to_path(path)` | |
 | bytes 반환 | `doc.to_bytes()` | |
 
+## 이미지 삽입 (2-Phase COM 방식)
+
+> **핵심 교훈 (2026-04-15 실증)**:
+> python-hwpx의 `add_image()` / `add_shape("pic")`으로 삽입한 이미지는
+> 한/글에서 "파일을 읽거나 저장하는데 오류가 있습니다" 에러를 발생시킨다.
+> `[Content_Types].xml` 주입, OWPML 규격 `<hp:pic>` 빌드 등 모든 XML 직접 접근 방식 실패.
+> **한/글 COM 자동화(`HWPFrame.HwpObject`)만이 작동하는 유일한 방법이다.**
+
+### 2-Phase 아키텍처
+
+```
+Phase 1: python-hwpx      Phase 2: 한/글 COM
+┌──────────────────┐      ┌──────────────────────┐
+│ 텍스트 전용 HWPX  │ ──→  │ 마커 → 실제 이미지 교체 │
+│ + 이미지 마커     │      │ InsertPicture()       │
+│ <<IMG:파일명>>    │      │ SaveAs("HWPX")        │
+└──────────────────┘      └──────────────────────┘
+```
+
+- **Phase 1**: python-hwpx로 텍스트 + `<<IMG:파일명>>` 마커 단락 삽입 후 저장
+- **Phase 2**: 한/글 COM으로 HWPX 열기 → `RepeatFind`로 마커 탐색 → 마커 삭제 → `InsertPicture` → 재저장
+
+### InsertPicture 이미지 크기 제어 (핵심)
+
+```
+InsertPicture(Path, Embedded, SizeOption, Reverse, Watermark, Effect[, Width, Height])
+```
+
+| 파라미터 | 값 | 설명 |
+|----------|-----|------|
+| Embedded | True | 이미지를 문서에 임베드 |
+| SizeOption | 0=원래크기, 2=문단맞춤, 3=글자처럼 | **Width/Height 파라미터를 무시함** |
+| Width, Height | HWPU | **sizeoption에 관계없이 무시됨 (실증 확인)** |
+
+> **결정적 발견**: `InsertPicture`의 Width/Height 파라미터와 sizeoption은 이미지 크기를 제어하지 못한다.
+> 한/글은 **이미지 픽셀 크기를 내부 96 DPI로 변환**하여 표시한다.
+> JPEG의 DPI 메타데이터도 무시한다. **오직 픽셀 수만이 표시 크기를 결정한다.**
+
+### 본문 폭 맞춤 공식
+
+```
+본문 폭 (HWPU) = A4 폭(59528) - 좌여백(8504) - 우여백(8504) = 42520 HWPU
+본문 폭 (mm)   = 42520 / 283.465 = 150mm
+본문 폭 (px)   = 150 / 25.4 * 96 = 567px  ← 이미지를 이 크기로 리사이즈
+```
+
+| 항목 | 값 | 비고 |
+|------|-----|------|
+| A4 용지 | 59528 x 84186 HWPU | 210 x 297mm |
+| 좌/우 여백 | 8504 HWPU (30mm) | 한/글 기본값 |
+| **본문 폭** | **42520 HWPU (150mm)** | 이미지 최대 폭 |
+| 내부 DPI | 96 | InsertPicture 고정 |
+| **타겟 픽셀** | **567px** | 150mm at 96 DPI |
+| 1px → HWPU | 75 | 7200/96 = 75 |
+
+### section0.xml 내 이미지 요소 구조
+
+COM `InsertPicture`가 생성하는 XML:
+
+```xml
+<hp:pic id="..." zOrder="0" numberingType="PICTURE"
+        textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES"
+        lock="0" dropcapstyle="None" href="" groupLevel="0"
+        instid="..." reverse="0">
+  <hp:offset x="0" y="0"/>
+  <hp:orgSz width="42450" height="23850"/>     <!-- 원본 크기 (HWPU) -->
+  <hp:curSz width="0" height="0"/>             <!-- 0 = orgSz 사용 -->
+  <hp:flip horizontal="0" vertical="0"/>
+  <hp:rotationInfo angle="0" centerX="..." centerY="..." rotateimage="1"/>
+  <hp:renderingInfo>
+    <hc:transMatrix e1="1" e2="0" e3="0" e4="0" e5="1" e6="0"/>
+    <hc:scaMatrix e1="1" e2="0" e3="0" e4="0" e5="1" e6="0"/>
+    <hc:rotMatrix e1="1" e2="0" e3="0" e4="0" e5="1" e6="0"/>
+  </hp:renderingInfo>
+  <hc:img binaryItemIDRef="image1" bright="0" contrast="0"
+          effect="REAL_PIC" alpha="0"/>
+  <hp:imgRect>...</hp:imgRect>
+  <hp:imgClip left="0" right="0" top="0" bottom="0"/>
+  <hp:inMargin left="0" right="0" top="0" bottom="0"/>
+  <hp:imgDim dimwidth="0" dimheight="0"/>
+  <hp:sz width="42450" widthRelTo="ABSOLUTE"
+         height="23850" heightRelTo="ABSOLUTE" protect="0"/>
+  <hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1"
+          allowOverlap="0" holdAnchorAndSO="0"
+          vertRelTo="PARA" horzRelTo="COLUMN"
+          vertAlign="TOP" horzAlign="LEFT"
+          vertOffset="0" horzOffset="0"/>
+  <hp:outMargin left="0" right="0" top="0" bottom="0"/>
+</hp:pic>
+```
+
+- `orgSz`: 픽셀 * 75 (96 DPI 기준). 567px → 42525 HWPU
+- `curSz width="0"`: 0이면 orgSz를 표시 크기로 사용
+- `sz`: 셰이프 바운딩 박스 (orgSz와 동일해야 함)
+- `treatAsChar="1"`: 글자처럼 취급 (인라인)
+- BinData 참조: `binaryItemIDRef="image1"` → `BinData/image1.jpg`
+
+### COM 마커 교체 코드 패턴
+
+```python
+import win32com.client as win32
+
+hwp = win32.gencache.EnsureDispatch("HWPFrame.HwpObject")
+hwp.RegisterModule("FilePathCheckDLL", "FileCheck")
+hwp.XHwpWindows.Item(0).Visible = False
+hwp.Open(str(hwpx_path))
+
+for marker_text, img_path in markers:
+    hwp.MovePos(2)  # BOF
+
+    # 마커 찾기
+    pset = hwp.HParameterSet.HFindReplace
+    hwp.HAction.GetDefault("RepeatFind", pset.HSet)
+    pset.FindString = marker_text
+    pset.Direction = 0
+    pset.IgnoreMessage = 1
+
+    if hwp.HAction.Execute("RepeatFind", pset.HSet):
+        # 마커 선택 & 삭제
+        hwp.HAction.Run("Cancel")
+        for _ in range(len(marker_text)):
+            hwp.HAction.Run("MoveLeft")
+        for _ in range(len(marker_text)):
+            hwp.HAction.Run("MoveSelRight")
+        hwp.HAction.Run("Delete")
+
+        # 이미지 삽입 (sizeoption=2, 크기는 픽셀 기반)
+        hwp.InsertPicture(str(img_path), True, 2, False, False, 0)
+
+hwp.SaveAs(str(hwpx_path), "HWPX")
+hwp.Quit()
+```
+
+### 실패한 접근법 기록 (반복 방지)
+
+| 시도 | 결과 | 원인 |
+|------|------|------|
+| python-hwpx `add_image()` + `add_shape("pic")` | 한/글 열기 실패 | BinData 바이너리 포맷 비호환 |
+| OWPML 규격 `<hp:pic>` 직접 빌드 (lxml) | 한/글 열기 실패 | add_image의 BinData 자체가 비호환 |
+| `[Content_Types].xml` OPC 파일 주입 | 효과 없음 | 텍스트 전용 HWPX는 이 파일 없이도 열림 |
+| InsertPicture `sizeoption=3` + Width/Height | 이미지 극소 | 줄 높이에 맞춰 축소됨, 명시적 크기 무시 |
+| InsertPicture `sizeoption=0` + Width/Height | 이미지 넘침 | 명시적 크기 무시, 원본 픽셀 크기 사용 |
+| InsertPicture `sizeoption=2` + Width/Height | 이미지 넘침 | 명시적 크기 무시 |
+| JPEG DPI 메타데이터 설정 (203 DPI) | 효과 없음 | 한/글이 JPEG DPI 무시, 내부 96 DPI 고정 |
+| **이미지를 567px로 리사이즈 + sizeoption=2** | **성공** | **96 DPI 기준 150mm = 본문 폭** |
+
 ## low-level XML 접근
 
 python-hwpx의 고수준 API로 처리할 수 없는 경우:

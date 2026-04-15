@@ -13,8 +13,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 파일명: `YYMMDD_[이름]_[태그]` (예: `260414_변압기강의_AI분석보고서`)
 - 분석 시 프레임 이미지 반드시 Read로 시각 분석 (텍스트만 분석 금지)
 - 레퍼런스 수집 시 LLM 품질 검증 통과만 보고서 통합
-- 보고서 출력: HWPX 형식 (python-hwpx), 중요 프레임 이미지 직접 삽입
+- 보고서 출력: HWPX 2-Phase (python-hwpx 텍스트 + 한/글 COM 이미지). python-hwpx 단독 이미지 삽입 금지 (ADR-VA-005)
 - 이미지 아래 AI용 텍스트 설명서 필수 (구조/코드/Mermaid/학습포인트)
+- HWPX 이미지 크기: 본문 폭 150mm = 567px (HWP 내부 96 DPI 고정, ADR-VA-006)
 - 중요도 판별: importance_rules.json 규칙 엔진 (IN-01~03 포함, EX-01~03 제외)
 - 자막 없으면 Whisper 자동 음성추출 (한국어 우선)
 - 임계값/간격은 pipeline/config.json에서만 관리 (하드코딩 금지)
@@ -47,6 +48,7 @@ python pipeline/01_extract_frames.py  # Stage 1 실행
 - 아키텍처 결정: `adr.md`
 - 파이프라인 설정: `pipeline/config.json`
 - 중요도 규칙: `pipeline/importance_rules.json` (진화 가능 규칙 엔진)
+- HWPX 이미지 삽입 레퍼런스: `HWPX_Master/references/hwpx-format.md` (실패 7건 + 성공 패턴)
 - TransTest 참조: `C:\TransTest\pipeline\` (01_extract, 02_scene_segment 개량)
 
 ## 에이전트 운영
