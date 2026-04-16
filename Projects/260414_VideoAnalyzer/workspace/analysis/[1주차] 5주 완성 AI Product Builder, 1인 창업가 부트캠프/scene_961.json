@@ -1,0 +1,26 @@
+{
+  "scene_id": 961,
+  "frame_name": "frame_030826.jpg",
+  "start_time": 15408.5,
+  "end_time": 15416.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "깃 메인 화면부터가 볼게요. 메인 화면에서 자 내 레포 스토리가 있습니다. 레포지스토리이 프로필 눌러서 레포지토리 누르면 내가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

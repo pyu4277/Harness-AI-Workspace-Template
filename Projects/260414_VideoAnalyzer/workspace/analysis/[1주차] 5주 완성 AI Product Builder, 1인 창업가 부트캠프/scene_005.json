@@ -1,0 +1,26 @@
+{
+  "scene_id": 5,
+  "frame_name": "frame_000471.jpg",
+  "start_time": 232.5,
+  "end_time": 237.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "커리큘럼 있고 아래쪽에 출석 체크 강의 자료 과제 제출 해 가지고 1주차가 있습니다. 여기 클릭해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

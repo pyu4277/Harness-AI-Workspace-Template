@@ -1,0 +1,26 @@
+{
+  "scene_id": 145,
+  "frame_name": "frame_007292.jpg",
+  "start_time": 3633.0,
+  "end_time": 3658.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아무튼네 충분히 이제 나올 수 있는 그런 시대가 됐고 그래서 요거를 이번에 5주 완성네 이번 주 시작으로 5주 완성으로 다룹니다.네 근데 놀랍게도 개우만 다뤘는데 벌써 한 시간 지나가 버려서 약간 아 이게 한 5시간 되겠다라는 생각이 들긴 하는데네 그렇습니다. 아무튼네 요렇게 만들어 보도록 하겠습니다.네 성공하면 원자재값도 없이 외워볼 수 있어서 진짜 애국인 거네요. 맞습니다. 저는 진짜 애국자를 키워"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

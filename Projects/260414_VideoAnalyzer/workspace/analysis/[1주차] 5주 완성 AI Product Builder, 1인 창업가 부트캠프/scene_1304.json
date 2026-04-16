@@ -1,0 +1,26 @@
+{
+  "scene_id": 1304,
+  "frame_name": "frame_040316.jpg",
+  "start_time": 20153.5,
+  "end_time": 20161.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가봐 이거 들어와 봤습니다. 샘플로. 어, 뭐야? 확실히 조금 뭔가 되게 불안정한데요. 로그인이 안 되는데요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

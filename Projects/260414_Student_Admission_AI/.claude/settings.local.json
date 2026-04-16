@@ -1,0 +1,79 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(**)",
+      "Edit(**)",
+      "Bash(ls *)",
+      "Bash(mkdir -p *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(rm *)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push)",
+      "Bash(unzip *)",
+      "WebSearch",
+      "WebFetch",
+      "mcp__exa-web-search__*",
+      "mcp__firecrawl__*"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(rm -rf /*)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Write(.env)",
+      "Write(.env.*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/pre_tool_guard.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "WebSearch|WebFetch|mcp__exa-web-search__.*|mcp__firecrawl__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/pre_mcp_pii_guard.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/post_tool_validate.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/post_round_check.sh"
+          }
+        ]
+      }
+    ],
+    "_note": "프로젝트 루트로 승격된 훅 세트. 회차 패턴은 260414_[0-9]+차/ (한글 차 포함). 현재 active 회차는 mtime 기준 가장 최근 260414_N차/ 로 자동 인식."
+  }
+}

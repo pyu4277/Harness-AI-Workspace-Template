@@ -1,0 +1,26 @@
+{
+  "scene_id": 45,
+  "frame_name": "frame_001372.jpg",
+  "start_time": 678.5,
+  "end_time": 693.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다만 어 위드 폴더 안에 이미이 스킬스 혹은 에이전스.md라는 MD라는 이런 파일들이 있으니 평가를 할 때 아 당연히 요게 더 잘했겠지라고 편양돼서 클로드 코드가 평가할 수도 있다고 생각해서 평가할 때는이 폴더를 지우고서 평가를 해 봤습니다. 그래서 평가된 그 결과를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "다만 어 위드 폴더 안에 이미이 스킬스 혹은 에이전스.md라는 MD라는 이런 파일들이 있으니 평가를 할 때 아 당연히 요게 더 잘했겠지라고 편양돼서 클로드 코드가 평가할 수도 있다고 생각해서 평가할 때는이 폴더를 지우고서 평가를 해 봤습니다. 그래서 평가된 그 결과를",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

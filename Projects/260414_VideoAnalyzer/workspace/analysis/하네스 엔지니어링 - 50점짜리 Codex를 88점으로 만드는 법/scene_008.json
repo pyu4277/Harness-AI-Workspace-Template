@@ -1,0 +1,26 @@
+{
+  "scene_id": 8,
+  "frame_name": "frame_000189.jpg",
+  "start_time": 84.5,
+  "end_time": 104.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "산책시킬 때 강아지 끈 이런 것들을 다 하네스라고 합니다. 그래서이 하네스 엔지니어링이라는 용어가 등장하게 된 배경 자체가 LLM이라는 언어 모델 자체가 너무나도 강력해서이 강력한 모델을 어떻게 컨트롤할 것인가 원하는 방향으로 다스리기 위한 그 엔지니어링 기법이 등장했다라고 생각하시면 됩니다. 즉 오늘날의"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "산책시킬 때 강아지 끈 이런 것들을 다 하네스라고 합니다. 그래서이 하네스 엔지니어링이라는 용어가 등장하게 된 배경 자체가 LLM이라는 언어 모델 자체가 너무나도 강력해서이 강력한 모델을 어떻게 컨트롤할 것인가 원하는 방향으로 다스리기 위한 그 엔지니어링 기법이 등장했다라고 생각하시면 됩니다. 즉 오늘날의",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

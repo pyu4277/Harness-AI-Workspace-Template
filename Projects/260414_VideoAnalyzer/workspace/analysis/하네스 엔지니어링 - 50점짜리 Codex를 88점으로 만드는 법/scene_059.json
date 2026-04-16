@@ -1,0 +1,36 @@
+{
+  "scene_id": 59,
+  "frame_name": "frame_001707.jpg",
+  "start_time": 841.5,
+  "end_time": 864.5,
+  "visual_analysis": {
+    "layout": "요약 슬라이드 - 구성요소 목록",
+    "elements": [
+      "5개 구성요소 불릿",
+      "파란색 하이라이트",
+      "계층 표시"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "AGENTS.md",
+      "PLANS.md",
+      "SKILL.md",
+      "evals",
+      "CHECKLIST.md"
+    ],
+    "summary": "마법이라기보단 에이전트.md로 규칙을 고정하고 플랜스.md로 계획과 리스크를 명시하고 스킬.md로 MD로 반복 검증 절차를 분리해 두고 샘플 데이터와 평가 프롬프트까지 미리 준비해 놓는 것. 즉 팀의 일하는 방식을 AI가 읽을 수 있는 파일로 저장소 안에 심어 놓는 것. 그게 하스 엔지니어링의 본질이다라고 정리할 수 있겠습니다. 그래서 그냥 만들어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "하네스 5대 구성요소: AGENTS.md(상시규칙), PLANS.md(작업별실행), SKILL.md(반복자동화), evals/(검증), CHECKLIST.md(출시전확인). 슬라이드 25페이지",
+    "text_only_info": "",
+    "combined_insight": "하네스 엔지니어링의 완전한 프레임워크: 규칙(AGENTS.md) + 계획(PLANS.md) + 자동화(SKILL.md) + 검증(evals/) + 체크리스트(CHECKLIST.md). 각각이 에이전트의 품질을 구조적으로 보장하는 계층"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

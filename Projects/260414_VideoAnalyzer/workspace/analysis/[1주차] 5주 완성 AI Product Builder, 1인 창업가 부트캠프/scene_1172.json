@@ -1,0 +1,26 @@
+{
+  "scene_id": 1172,
+  "frame_name": "frame_036411.jpg",
+  "start_time": 18196.5,
+  "end_time": 18213.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 일단은 좀 소개를 또 드리면 저희가 이렇게 연결했잖아요. 재미나에 연결했잖아요. 그리고 클로드 코드 이거 다 사실이 세 개 다 연결했는데 어 이건 좀 오픈 소스니까 조금 약간 조금 더 아시는 분들 하시면 좋을 것 같고. 네. 그 코딩 도구가 뭐가 좋아질지는 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

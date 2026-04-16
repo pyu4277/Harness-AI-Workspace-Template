@@ -1,0 +1,26 @@
+{
+  "scene_id": 269,
+  "frame_name": "frame_002370.jpg",
+  "start_time": 1181.5,
+  "end_time": 1187.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "목록이 나와 있는 상태고요. 그래서 일단 첫 번째로 어 테스크를 시작을 하는데요. 먼저 워킹 트리를 먼저"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

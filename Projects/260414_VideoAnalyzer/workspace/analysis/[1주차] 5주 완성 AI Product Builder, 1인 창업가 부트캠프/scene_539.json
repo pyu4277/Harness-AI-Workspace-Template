@@ -1,0 +1,26 @@
+{
+  "scene_id": 539,
+  "frame_name": "frame_020064.jpg",
+  "start_time": 9997.0,
+  "end_time": 10066.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "고급 개발로 가보도록 하겠습니다. 네. 그래서 이제 이해되시죠? 이제 프론트엔드 여러분 거의 마스터하셨죠? 그러면 채치피 딸깍딸깍해 가면서 그냥 원하는 사이트 바꾸기만 하면은 이걸 무제한 바꿀 수가 있습니다. 네. 매주 토요일 이렇게 강의하는데 이제 전 세계 글로벌 사스를 만들 수 있게 5주 동안 강의를 하려고 합니다. 네. 그 녹화보는 멤버십 가입해 주시면 네. 보실 수가 있습니다. 네. 저도 이제 먹고 살아야 되기 때문에 저도 프로덕 빌더 세 분이나 모셔 가지고 이제 기존 그 비용 지출에서 1억 2천이 더 나갑니다. 네. 1억 2천이 지금 비용으로 나가고 네. 그렇기 때문에 이제 후원 후원 겸 한번 멤버십 가입해 주시면 굉장히 큰 힘이 되니까요. 후원 겸 한번 멤버십 그 가입 한번 해 주시면 감사드리겠습니다. 다시 보게 하시려면 네. 공짜로 라이브는 볼실 수 있으니까요. 네. 좋습니다. 네. 매주 토요일 오후 2시에 공짜로 강의를 합니다. 다시 보기는 멤버십 해 주시면 감사드리겠습니다. 네. 아무튼 여기까지 이해되셨다면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

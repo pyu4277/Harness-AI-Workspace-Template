@@ -1,0 +1,26 @@
+{
+  "scene_id": 240,
+  "frame_name": "frame_012570.jpg",
+  "start_time": 6274.5,
+  "end_time": 6294.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해 보겠습니다. 일단은 좀 개념적인 걸 알고 시작하면 좋잖아요. HTML이 어떤 식으로 구성되 있냐? 굉장히 간단합니다. HTML은 이렇게 요거 이렇게 꺾세에 연다고 하죠. 요렇게 열고 태그 이름을 쓰고 닫고 그 안에 내용을 넣고 꺾세 열고 슬래시 태그 이름하고 닫고 요런 식으로 다 구성이 돼 있습니다. 요거 이해하시면 거의 다 이해하신 건데."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

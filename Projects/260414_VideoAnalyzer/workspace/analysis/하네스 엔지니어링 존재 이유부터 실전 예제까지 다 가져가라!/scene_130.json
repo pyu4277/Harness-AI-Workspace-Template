@@ -1,0 +1,26 @@
+{
+  "scene_id": 130,
+  "frame_name": "frame_000788.jpg",
+  "start_time": 392.0,
+  "end_time": 395.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되니까 자꾸만 이제 AI가 계속 기다리게 되는 거예요. 인간이 테스트할 때까지. 그러다 보니까 오히려 생산성이 안 나오더라."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

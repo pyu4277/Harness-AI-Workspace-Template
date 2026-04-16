@@ -1,0 +1,26 @@
+{
+  "scene_id": 885,
+  "frame_name": "frame_028929.jpg",
+  "start_time": 14456.0,
+  "end_time": 14472.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 클로드 아 유료 사용자가 클로드 코드가 되다 보니까 네. 요거는 이렇게 유료 사용자 하시는 분들은 쓰시면 좋을 것 같습니다. 아, 맞아. 요거 요것도 써 놓을게요. 로그인 디바이스. 요거 강의 자료에 요걸로 로그인하셔야"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

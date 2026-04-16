@@ -18,5 +18,11 @@
       "automationLevel": "semi-auto"
     },
     "custom": {}
+  },
+  "sessionCount": 1,
+  "lastSession": {
+    "startedAt": "2026-04-15T23:51:41.769Z",
+    "platform": "claude",
+    "level": "Starter"
   }
 }

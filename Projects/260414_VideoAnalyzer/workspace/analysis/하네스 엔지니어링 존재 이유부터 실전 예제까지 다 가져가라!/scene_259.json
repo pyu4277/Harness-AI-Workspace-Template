@@ -1,0 +1,43 @@
+{
+  "scene_id": 259,
+  "frame_name": "frame_002250.jpg",
+  "start_time": 1115.0,
+  "end_time": 1134.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - CLAUDE.md 강제 메커니즘 테이블 + 테스트 명령어",
+    "elements": [
+      "## 강제 메커니즘 (위반 시 커밋 차단됨) 섹션",
+      "Conventional Commits | commit-msg 룰 | 커밋 차단",
+      "ESLint 아키텍처 규칙 | lint-staged | 커밋 차단",
+      "파일 크기 제한 | lint-staged | 커밋 차단",
+      "문서 가드닝 | lint-staged | 커밋 차단",
+      "## 테스트 명령어: npm test, npm run test:watch",
+      "E2E 테스트 (Playwright)"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "npm test",
+      "npm run test:watch",
+      "npm run test:e2e"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "강제 메커니즘 4종",
+      "lint-staged",
+      "commit-msg 룰",
+      "Playwright E2E"
+    ],
+    "summary": "목차만 제공을 합니다. 그럼 AI가 스스로 여기에 와서 필요한게 뭔지 확인을 하고 그 거기로 가게 되겠죠. 그래서 여기에 있는 문서가 이제 대부분 어디 들어 있게 되느냐? 여기 다큐먼트 파일에 들어가 있게 됩니다. 그래서 여기 보시면요. 이제 대부분의 규칙이이 안에 들어가 있습니다. 그래서 아키텍처이 시스템 구조에 대한 문서 같은 거음 이런 거는 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "CLAUDE.md 강제 메커니즘 4종: (1) Conventional Commits commit-msg 룰 (2) ESLint 아키텍처 규칙 lint-staged (3) 파일 크기 제한 lint-staged (4) 문서 가드닝 lint-staged. 모두 위반 시 커밋 차단",
+    "text_only_info": "에이전트가 CLAUDE.md를 가끔 무시하는 문제 언급",
+    "combined_insight": "하네스 강제 메커니즘 전체 목록: 4가지 lint-staged/commit-msg 규칙이 위반 시 커밋을 자동 차단. AI에게 부탁하는 것이 아닌, git 훅으로 물리적 차단하는 구조. 에이전트가 CLAUDE.md를 무시해도 커밋 자체가 불가능"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

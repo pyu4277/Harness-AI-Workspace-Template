@@ -1,0 +1,26 @@
+{
+  "scene_id": 804,
+  "frame_name": "frame_027614.jpg",
+  "start_time": 13801.5,
+  "end_time": 13811.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거고요. 네. 요렇게 뜨시면 됩니다. 요렇게 요렇게 뜨시면 되고 혹시 이제 다른 거 그 최pt 쓰시는 분들 위해서 또 소개를 드리면 구글 연결 말고 최치T"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

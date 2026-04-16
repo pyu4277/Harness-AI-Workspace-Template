@@ -1,0 +1,26 @@
+{
+  "scene_id": 964,
+  "frame_name": "frame_030975.jpg",
+  "start_time": 15476.0,
+  "end_time": 15498.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있거든요. 여기 들어가면은 저 여기 커미지라고 이렇게 버전을 볼 수가 있어요. 그러니까 얘가 뭐 최종 얘다 얘가 그 완 뭐 최종 1, 최종 2 뭐 이런 식으로 그 아까 논문 보여 드렸던 거 있잖아요. 졸업 논문 같은 거 보면은 졸업 논문 다시 깃터브네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

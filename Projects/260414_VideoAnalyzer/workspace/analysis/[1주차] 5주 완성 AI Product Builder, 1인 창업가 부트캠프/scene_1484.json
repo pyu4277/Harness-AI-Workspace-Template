@@ -1,0 +1,26 @@
+{
+  "scene_id": 1484,
+  "frame_name": "frame_045040.jpg",
+  "start_time": 22518.0,
+  "end_time": 22521.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 나오고 몇 %인지 나오고 이런게 AI 딸깍 하면 만들 수가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

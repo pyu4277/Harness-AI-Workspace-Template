@@ -1,0 +1,26 @@
+{
+  "scene_id": 1486,
+  "frame_name": "frame_045064.jpg",
+  "start_time": 22524.0,
+  "end_time": 22539.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있는 겁니다. 예 그래서 결제도 붙여 놨습니다. 여기 폴라 붙여 놨거든요. 그래서 누르면은 네. 폴라 결제랑 또 연동이 돼 있습니다. 네. 그래서 이렇게 4.99에 팔고 있습니다. 네. 네. 네, 아무튼"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

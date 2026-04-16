@@ -1,0 +1,26 @@
+{
+  "scene_id": 1154,
+  "frame_name": "frame_035810.jpg",
+  "start_time": 17903.0,
+  "end_time": 17906.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "산으로 갔는데 아, 다시 그 삭제하는 것도 알려 드릴게요. 삭제하는 거. 그 이제 제가 너무 많이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

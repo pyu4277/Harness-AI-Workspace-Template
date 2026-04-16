@@ -1,0 +1,26 @@
+{
+  "scene_id": 237,
+  "frame_name": "frame_001851.jpg",
+  "start_time": 898.5,
+  "end_time": 951.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - Codex 가독성 향상 문서 (Chrome DevTools 연동 상세)",
+    "elements": ["제목: 애플리케이션의 가독성 향상", "Codex가 git worktree로 앱 부팅 + Chrome DevTools Protocol 연결", "DOM 스냅샷, 스크린샷 탐색 스킬", "하단: Codex drives the app with Chrome DevTools MCP to validate its work"],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": ["Codex -> git worktree (앱 부팅) -> Chrome DevTools Protocol -> DOM 스냅샷/스크린샷 -> 버그 발견 + 수정 검증"]
+  },
+  "text_analysis": {
+    "key_concepts": ["git worktree 격리의 이유", "메인 브랜치 보호", "Codex 자동 테스트/검증", "인간 개입 최소화"],
+    "summary": "그죠? 우리가 메인에서 무작정 작업을 하다가 망가지면 어떡할 거야. 그죠? 어 그래서이 오픈 AI 팀이 최대한 인간의 개입을 안 하기 위해 이런 것까지 고려를 했다라는 거예요. 어 메인에서 지원자 작업하면 망가지면 또 인간이가 가지고 이거 뜯어서 고치고 해야 되잖아. 이게 싫으니까 아예 공간 하나 새로 파서 여기서 완벽하게 테스트 통과면 일로 합쳐라고 이제 워크 트리를 분리를 한 겁니다. 그리고 나서 테스트를 또 작성을 합니다. 어이 내가 맞는 기능을 어떻게 테스트를 할지 어 요렇게 이제 테스트를 작성을 하고 그리고 나서 이제 구현된 기능에 대해서는요. 이제 검증을 실행을 하게 됩니다. 그래서 뭐 단위 테스트, 린트 테스트, 빌드 테스트, 뭐 파티 파일 크기 제한 이런 식으로 이거를 해라라고 지금 나와 있게 되죠. 그죠? 음. 요거에 대해서는이 실행은요. 이제 어떻게 하게 되느냐? 바로 여기 스크립트/베verify 테스크라는 걸 통해서 강제로 수행을 하게 만들어 줍니다. 그래서 여기에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Codex의 Chrome DevTools MCP 연동 구조: worktree에서 앱 부팅 후 DevTools Protocol로 DOM 스냅샷/스크린샷 자동 탐색. 'Codex drives the app with Chrome DevTools MCP to validate its work' 캡션",
+    "text_only_info": "worktree 분리의 근본 이유: 메인에서 작업하다 망가지면 인간이 수동 복구해야 하므로, 격리 공간에서 완벽히 테스트 후 병합",
+    "combined_insight": "하네스 엔지니어링의 '인간 개입 최소화' 철학: worktree 격리 + Chrome DevTools 자동 검증으로 AI가 독립적으로 개발-테스트-검증 사이클을 완주. 화면은 기술 구현을, 대본은 왜 이런 구조가 필요한지 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

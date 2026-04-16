@@ -1,0 +1,26 @@
+{
+  "scene_id": 124,
+  "frame_name": "frame_005884.jpg",
+  "start_time": 2929.0,
+  "end_time": 2954.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그런 시대고 그러다 보니까 뭐 커서 AI 대표적으로 네. AR 1450억. 네. 지금 100만. 어, 1억 달러지죠. 1억 달러. 1억 달러. 요즘 환율로 치면 대충 한 연간 1,450억 정도를 버는게 한 20명 정도의 달성을 했다고 합니다. 네. 물론 지금은 이제 커서 인원도 좀 늘어났어요. 한 300명인가 된다고 하고 훨씬 더 이제 커지긴 했는데데 20명일 때도 1,450억을 버는 요런 기업이 됐고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1479,
+  "frame_name": "frame_044916.jpg",
+  "start_time": 22431.5,
+  "end_time": 22483.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "음. 카메라 그러면 카메라로 연결하지 말고음 파일 입력 받아서 그걸로 판단 하도록 만들어. 네. 요렇게 하면 됩니다. 와, 이게 너무 쉬워졌죠? 이제는 뭐 인풋 만들고 뭐 사진 뭐 이런 거 필요가 없어요. 그냥 아 카메라 하지 말고 파일해서 만들어 깍 누르면 다 해 줍니다. 아 8시 15분.네 지금 6시간.네 예, 최대한 빨리 한 10시 안에는 끝내 보겠습니다. 네. 예. 동물 상세을 때 업데이트 실제로도 이거 나오고 업데이트를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

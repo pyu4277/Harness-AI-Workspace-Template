@@ -1,0 +1,2770 @@
+{
+  "video_stem": "하네스 엔지니어링 존재 이유부터 실전 예제까지 다 가져가라!",
+  "total_scenes": 344,
+  "stats": {
+    "CONTENT_RICH": 113,
+    "TALKING_HEAD": 34,
+    "SPARSE_SCREEN": 0,
+    "MIXED": 197,
+    "ERROR": 0
+  },
+  "thresholds": {
+    "edge_high": 0.08,
+    "edge_low": 0.02,
+    "face_area_ratio": 0.05
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "frame_name": "frame_000004.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0875,
+      "face_count": 1,
+      "face_area_ratio": 0.3117
+    },
+    {
+      "scene_id": 2,
+      "frame_name": "frame_000010.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0862,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 3,
+      "frame_name": "frame_000016.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0947,
+      "face_count": 2,
+      "face_area_ratio": 0.2701
+    },
+    {
+      "scene_id": 4,
+      "frame_name": "frame_000022.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0973,
+      "face_count": 2,
+      "face_area_ratio": 0.2616
+    },
+    {
+      "scene_id": 5,
+      "frame_name": "frame_000028.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0855,
+      "face_count": 1,
+      "face_area_ratio": 0.1365
+    },
+    {
+      "scene_id": 6,
+      "frame_name": "frame_000034.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0878,
+      "face_count": 1,
+      "face_area_ratio": 0.1324
+    },
+    {
+      "scene_id": 7,
+      "frame_name": "frame_000040.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0828,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 8,
+      "frame_name": "frame_000046.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0891,
+      "face_count": 1,
+      "face_area_ratio": 0.1951
+    },
+    {
+      "scene_id": 9,
+      "frame_name": "frame_000052.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0732,
+      "face_count": 1,
+      "face_area_ratio": 0.1406
+    },
+    {
+      "scene_id": 10,
+      "frame_name": "frame_000058.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0836,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 11,
+      "frame_name": "frame_000064.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.075,
+      "face_count": 1,
+      "face_area_ratio": 0.0985
+    },
+    {
+      "scene_id": 12,
+      "frame_name": "frame_000070.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0818,
+      "face_count": 1,
+      "face_area_ratio": 0.1056
+    },
+    {
+      "scene_id": 13,
+      "frame_name": "frame_000076.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0823,
+      "face_count": 1,
+      "face_area_ratio": 0.1365
+    },
+    {
+      "scene_id": 14,
+      "frame_name": "frame_000083.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0869,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 15,
+      "frame_name": "frame_000090.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0639,
+      "face_count": 1,
+      "face_area_ratio": 0.1206
+    },
+    {
+      "scene_id": 16,
+      "frame_name": "frame_000096.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0927,
+      "face_count": 1,
+      "face_area_ratio": 0.1713
+    },
+    {
+      "scene_id": 17,
+      "frame_name": "frame_000102.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0975,
+      "face_count": 1,
+      "face_area_ratio": 0.1578
+    },
+    {
+      "scene_id": 18,
+      "frame_name": "frame_000108.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0858,
+      "face_count": 1,
+      "face_area_ratio": 0.1713
+    },
+    {
+      "scene_id": 19,
+      "frame_name": "frame_000114.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0948,
+      "face_count": 1,
+      "face_area_ratio": 0.1667
+    },
+    {
+      "scene_id": 20,
+      "frame_name": "frame_000120.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0941,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 21,
+      "frame_name": "frame_000126.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0948,
+      "face_count": 1,
+      "face_area_ratio": 0.169
+    },
+    {
+      "scene_id": 22,
+      "frame_name": "frame_000132.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0917,
+      "face_count": 1,
+      "face_area_ratio": 0.1512
+    },
+    {
+      "scene_id": 23,
+      "frame_name": "frame_000138.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0835,
+      "face_count": 1,
+      "face_area_ratio": 0.1304
+    },
+    {
+      "scene_id": 24,
+      "frame_name": "frame_000144.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0903,
+      "face_count": 1,
+      "face_area_ratio": 0.1365
+    },
+    {
+      "scene_id": 25,
+      "frame_name": "frame_000150.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1084,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 26,
+      "frame_name": "frame_000157.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1053,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 27,
+      "frame_name": "frame_000163.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0936,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 28,
+      "frame_name": "frame_000169.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0826,
+      "face_count": 1,
+      "face_area_ratio": 0.1491
+    },
+    {
+      "scene_id": 29,
+      "frame_name": "frame_000175.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0822,
+      "face_count": 1,
+      "face_area_ratio": 0.1491
+    },
+    {
+      "scene_id": 30,
+      "frame_name": "frame_000181.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0887,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 31,
+      "frame_name": "frame_000187.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0886,
+      "face_count": 1,
+      "face_area_ratio": 0.1951
+    },
+    {
+      "scene_id": 32,
+      "frame_name": "frame_000193.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0943,
+      "face_count": 1,
+      "face_area_ratio": 0.1854
+    },
+    {
+      "scene_id": 33,
+      "frame_name": "frame_000199.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.072,
+      "face_count": 2,
+      "face_area_ratio": 0.2047
+    },
+    {
+      "scene_id": 34,
+      "frame_name": "frame_000206.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0919,
+      "face_count": 1,
+      "face_area_ratio": 0.1806
+    },
+    {
+      "scene_id": 35,
+      "frame_name": "frame_000212.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.093,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 36,
+      "frame_name": "frame_000218.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0923,
+      "face_count": 1,
+      "face_area_ratio": 0.205
+    },
+    {
+      "scene_id": 37,
+      "frame_name": "frame_000224.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0939,
+      "face_count": 1,
+      "face_area_ratio": 0.1713
+    },
+    {
+      "scene_id": 38,
+      "frame_name": "frame_000230.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1021,
+      "face_count": 1,
+      "face_area_ratio": 0.2152
+    },
+    {
+      "scene_id": 39,
+      "frame_name": "frame_000236.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0737,
+      "face_count": 1,
+      "face_area_ratio": 0.16
+    },
+    {
+      "scene_id": 40,
+      "frame_name": "frame_000242.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0935,
+      "face_count": 1,
+      "face_area_ratio": 0.2204
+    },
+    {
+      "scene_id": 41,
+      "frame_name": "frame_000248.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0885,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 42,
+      "frame_name": "frame_000254.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1175,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 43,
+      "frame_name": "frame_000260.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0935,
+      "face_count": 1,
+      "face_area_ratio": 0.16
+    },
+    {
+      "scene_id": 44,
+      "frame_name": "frame_000266.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0895,
+      "face_count": 1,
+      "face_area_ratio": 0.183
+    },
+    {
+      "scene_id": 45,
+      "frame_name": "frame_000272.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0939,
+      "face_count": 1,
+      "face_area_ratio": 0.1759
+    },
+    {
+      "scene_id": 46,
+      "frame_name": "frame_000278.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.085,
+      "face_count": 1,
+      "face_area_ratio": 0.16
+    },
+    {
+      "scene_id": 47,
+      "frame_name": "frame_000284.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 2,
+      "face_area_ratio": 0.2281
+    },
+    {
+      "scene_id": 48,
+      "frame_name": "frame_000290.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.083,
+      "face_count": 1,
+      "face_area_ratio": 0.1385
+    },
+    {
+      "scene_id": 49,
+      "frame_name": "frame_000296.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0901,
+      "face_count": 2,
+      "face_area_ratio": 0.2171
+    },
+    {
+      "scene_id": 50,
+      "frame_name": "frame_000302.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0931,
+      "face_count": 1,
+      "face_area_ratio": 0.2101
+    },
+    {
+      "scene_id": 51,
+      "frame_name": "frame_000308.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0871,
+      "face_count": 1,
+      "face_area_ratio": 0.2126
+    },
+    {
+      "scene_id": 52,
+      "frame_name": "frame_000314.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.083,
+      "face_count": 1,
+      "face_area_ratio": 0.1667
+    },
+    {
+      "scene_id": 53,
+      "frame_name": "frame_000320.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0896,
+      "face_count": 2,
+      "face_area_ratio": 0.1816
+    },
+    {
+      "scene_id": 54,
+      "frame_name": "frame_000326.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.087,
+      "face_count": 2,
+      "face_area_ratio": 0.2057
+    },
+    {
+      "scene_id": 55,
+      "frame_name": "frame_000332.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0723,
+      "face_count": 2,
+      "face_area_ratio": 0.1427
+    },
+    {
+      "scene_id": 56,
+      "frame_name": "frame_000338.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0925,
+      "face_count": 1,
+      "face_area_ratio": 0.1534
+    },
+    {
+      "scene_id": 57,
+      "frame_name": "frame_000344.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0902,
+      "face_count": 1,
+      "face_area_ratio": 0.1926
+    },
+    {
+      "scene_id": 58,
+      "frame_name": "frame_000350.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1034,
+      "face_count": 1,
+      "face_area_ratio": 0.2178
+    },
+    {
+      "scene_id": 59,
+      "frame_name": "frame_000356.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0919,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 60,
+      "frame_name": "frame_000362.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1073,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 61,
+      "frame_name": "frame_000368.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0818,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 62,
+      "frame_name": "frame_000375.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1153,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 63,
+      "frame_name": "frame_000381.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0872,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 64,
+      "frame_name": "frame_000387.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0826,
+      "face_count": 1,
+      "face_area_ratio": 0.1111
+    },
+    {
+      "scene_id": 65,
+      "frame_name": "frame_000393.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0847,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 66,
+      "frame_name": "frame_000400.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1072,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 67,
+      "frame_name": "frame_000406.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0792,
+      "face_count": 1,
+      "face_area_ratio": 0.0367
+    },
+    {
+      "scene_id": 68,
+      "frame_name": "frame_000412.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0847,
+      "face_count": 2,
+      "face_area_ratio": 0.2424
+    },
+    {
+      "scene_id": 69,
+      "frame_name": "frame_000418.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0773,
+      "face_count": 1,
+      "face_area_ratio": 0.1578
+    },
+    {
+      "scene_id": 70,
+      "frame_name": "frame_000424.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.073,
+      "face_count": 1,
+      "face_area_ratio": 0.1427
+    },
+    {
+      "scene_id": 71,
+      "frame_name": "frame_000430.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0823,
+      "face_count": 1,
+      "face_area_ratio": 0.1448
+    },
+    {
+      "scene_id": 72,
+      "frame_name": "frame_000436.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0821,
+      "face_count": 2,
+      "face_area_ratio": 0.2124
+    },
+    {
+      "scene_id": 73,
+      "frame_name": "frame_000442.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.085,
+      "face_count": 1,
+      "face_area_ratio": 0.1385
+    },
+    {
+      "scene_id": 74,
+      "frame_name": "frame_000448.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0939,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 75,
+      "frame_name": "frame_000454.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0792,
+      "face_count": 1,
+      "face_area_ratio": 0.1736
+    },
+    {
+      "scene_id": 76,
+      "frame_name": "frame_000460.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0875,
+      "face_count": 1,
+      "face_area_ratio": 0.1951
+    },
+    {
+      "scene_id": 77,
+      "frame_name": "frame_000466.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0849,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 78,
+      "frame_name": "frame_000472.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0859,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 79,
+      "frame_name": "frame_000478.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0875,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 80,
+      "frame_name": "frame_000484.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0845,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 81,
+      "frame_name": "frame_000490.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0889,
+      "face_count": 1,
+      "face_area_ratio": 0.1854
+    },
+    {
+      "scene_id": 82,
+      "frame_name": "frame_000496.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0888,
+      "face_count": 1,
+      "face_area_ratio": 0.1186
+    },
+    {
+      "scene_id": 83,
+      "frame_name": "frame_000502.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0862,
+      "face_count": 1,
+      "face_area_ratio": 0.1878
+    },
+    {
+      "scene_id": 84,
+      "frame_name": "frame_000508.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0902,
+      "face_count": 1,
+      "face_area_ratio": 0.2025
+    },
+    {
+      "scene_id": 85,
+      "frame_name": "frame_000514.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0765,
+      "face_count": 1,
+      "face_area_ratio": 0.1385
+    },
+    {
+      "scene_id": 86,
+      "frame_name": "frame_000521.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1041,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 87,
+      "frame_name": "frame_000527.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0834,
+      "face_count": 2,
+      "face_area_ratio": 0.2168
+    },
+    {
+      "scene_id": 88,
+      "frame_name": "frame_000533.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0879,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 89,
+      "frame_name": "frame_000539.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0614,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 90,
+      "frame_name": "frame_000545.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0872,
+      "face_count": 1,
+      "face_area_ratio": 0.1667
+    },
+    {
+      "scene_id": 91,
+      "frame_name": "frame_000551.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0806,
+      "face_count": 2,
+      "face_area_ratio": 0.2584
+    },
+    {
+      "scene_id": 92,
+      "frame_name": "frame_000557.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0838,
+      "face_count": 1,
+      "face_area_ratio": 0.169
+    },
+    {
+      "scene_id": 93,
+      "frame_name": "frame_000563.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0921,
+      "face_count": 1,
+      "face_area_ratio": 0.1713
+    },
+    {
+      "scene_id": 94,
+      "frame_name": "frame_000569.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0889,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 95,
+      "frame_name": "frame_000575.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 96,
+      "frame_name": "frame_000581.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0822,
+      "face_count": 1,
+      "face_area_ratio": 0.1759
+    },
+    {
+      "scene_id": 97,
+      "frame_name": "frame_000587.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0835,
+      "face_count": 1,
+      "face_area_ratio": 0.1406
+    },
+    {
+      "scene_id": 98,
+      "frame_name": "frame_000593.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0893,
+      "face_count": 1,
+      "face_area_ratio": 0.183
+    },
+    {
+      "scene_id": 99,
+      "frame_name": "frame_000599.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0816,
+      "face_count": 1,
+      "face_area_ratio": 0.1186
+    },
+    {
+      "scene_id": 100,
+      "frame_name": "frame_000606.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0837,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 101,
+      "frame_name": "frame_000612.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0781,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 102,
+      "frame_name": "frame_000619.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0723,
+      "face_count": 1,
+      "face_area_ratio": 0.1148
+    },
+    {
+      "scene_id": 103,
+      "frame_name": "frame_000625.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.071,
+      "face_count": 1,
+      "face_area_ratio": 0.1186
+    },
+    {
+      "scene_id": 104,
+      "frame_name": "frame_000631.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0939,
+      "face_count": 1,
+      "face_area_ratio": 0.205
+    },
+    {
+      "scene_id": 105,
+      "frame_name": "frame_000637.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1053,
+      "face_count": 1,
+      "face_area_ratio": 0.223
+    },
+    {
+      "scene_id": 106,
+      "frame_name": "frame_000643.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0908,
+      "face_count": 1,
+      "face_area_ratio": 0.102
+    },
+    {
+      "scene_id": 107,
+      "frame_name": "frame_000649.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0841,
+      "face_count": 1,
+      "face_area_ratio": 0.1167
+    },
+    {
+      "scene_id": 108,
+      "frame_name": "frame_000655.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.08,
+      "face_count": 1,
+      "face_area_ratio": 0.1074
+    },
+    {
+      "scene_id": 109,
+      "frame_name": "frame_000661.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0861,
+      "face_count": 2,
+      "face_area_ratio": 0.2539
+    },
+    {
+      "scene_id": 110,
+      "frame_name": "frame_000667.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0878,
+      "face_count": 2,
+      "face_area_ratio": 0.2502
+    },
+    {
+      "scene_id": 111,
+      "frame_name": "frame_000673.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0841,
+      "face_count": 1,
+      "face_area_ratio": 0.1667
+    },
+    {
+      "scene_id": 112,
+      "frame_name": "frame_000679.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0851,
+      "face_count": 1,
+      "face_area_ratio": 0.1902
+    },
+    {
+      "scene_id": 113,
+      "frame_name": "frame_000685.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0841,
+      "face_count": 2,
+      "face_area_ratio": 0.1732
+    },
+    {
+      "scene_id": 114,
+      "frame_name": "frame_000691.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0821,
+      "face_count": 1,
+      "face_area_ratio": 0.1093
+    },
+    {
+      "scene_id": 115,
+      "frame_name": "frame_000697.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0791,
+      "face_count": 1,
+      "face_area_ratio": 0.1111
+    },
+    {
+      "scene_id": 116,
+      "frame_name": "frame_000703.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0831,
+      "face_count": 2,
+      "face_area_ratio": 0.164
+    },
+    {
+      "scene_id": 117,
+      "frame_name": "frame_000709.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0851,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 118,
+      "frame_name": "frame_000715.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0807,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 119,
+      "frame_name": "frame_000721.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0888,
+      "face_count": 1,
+      "face_area_ratio": 0.1093
+    },
+    {
+      "scene_id": 120,
+      "frame_name": "frame_000727.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0856,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 121,
+      "frame_name": "frame_000733.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0894,
+      "face_count": 1,
+      "face_area_ratio": 0.1406
+    },
+    {
+      "scene_id": 122,
+      "frame_name": "frame_000739.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.094,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 123,
+      "frame_name": "frame_000745.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0917,
+      "face_count": 1,
+      "face_area_ratio": 0.0951
+    },
+    {
+      "scene_id": 124,
+      "frame_name": "frame_000751.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.099,
+      "face_count": 1,
+      "face_area_ratio": 0.1578
+    },
+    {
+      "scene_id": 125,
+      "frame_name": "frame_000758.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0836,
+      "face_count": 2,
+      "face_area_ratio": 0.1867
+    },
+    {
+      "scene_id": 126,
+      "frame_name": "frame_000764.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0823,
+      "face_count": 2,
+      "face_area_ratio": 0.1776
+    },
+    {
+      "scene_id": 127,
+      "frame_name": "frame_000770.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0808,
+      "face_count": 2,
+      "face_area_ratio": 0.1767
+    },
+    {
+      "scene_id": 128,
+      "frame_name": "frame_000776.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0838,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 129,
+      "frame_name": "frame_000782.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0822,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 130,
+      "frame_name": "frame_000788.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 2,
+      "face_area_ratio": 0.164
+    },
+    {
+      "scene_id": 131,
+      "frame_name": "frame_000797.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.111,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 132,
+      "frame_name": "frame_000806.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0945,
+      "face_count": 1,
+      "face_area_ratio": 0.1854
+    },
+    {
+      "scene_id": 133,
+      "frame_name": "frame_000812.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0804,
+      "face_count": 1,
+      "face_area_ratio": 0.1534
+    },
+    {
+      "scene_id": 134,
+      "frame_name": "frame_000818.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0874,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 135,
+      "frame_name": "frame_000824.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0771,
+      "face_count": 1,
+      "face_area_ratio": 0.1406
+    },
+    {
+      "scene_id": 136,
+      "frame_name": "frame_000830.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.081,
+      "face_count": 2,
+      "face_area_ratio": 0.2441
+    },
+    {
+      "scene_id": 137,
+      "frame_name": "frame_000836.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0727,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 138,
+      "frame_name": "frame_000842.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.093,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 139,
+      "frame_name": "frame_000848.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0888,
+      "face_count": 2,
+      "face_area_ratio": 0.2374
+    },
+    {
+      "scene_id": 140,
+      "frame_name": "frame_000854.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0769,
+      "face_count": 2,
+      "face_area_ratio": 0.1719
+    },
+    {
+      "scene_id": 141,
+      "frame_name": "frame_000860.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0889,
+      "face_count": 1,
+      "face_area_ratio": 0.1902
+    },
+    {
+      "scene_id": 142,
+      "frame_name": "frame_000866.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0856,
+      "face_count": 2,
+      "face_area_ratio": 0.2188
+    },
+    {
+      "scene_id": 143,
+      "frame_name": "frame_000872.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0828,
+      "face_count": 1,
+      "face_area_ratio": 0.1304
+    },
+    {
+      "scene_id": 144,
+      "frame_name": "frame_000878.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0835,
+      "face_count": 2,
+      "face_area_ratio": 0.1786
+    },
+    {
+      "scene_id": 145,
+      "frame_name": "frame_000884.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0908,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 146,
+      "frame_name": "frame_000890.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0823,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 147,
+      "frame_name": "frame_000896.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0818,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 148,
+      "frame_name": "frame_000902.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.086,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 149,
+      "frame_name": "frame_000908.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0772,
+      "face_count": 2,
+      "face_area_ratio": 0.1681
+    },
+    {
+      "scene_id": 150,
+      "frame_name": "frame_000914.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0878,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 151,
+      "frame_name": "frame_000920.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0812,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 152,
+      "frame_name": "frame_000926.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.085,
+      "face_count": 1,
+      "face_area_ratio": 0.1736
+    },
+    {
+      "scene_id": 153,
+      "frame_name": "frame_000932.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0784,
+      "face_count": 1,
+      "face_area_ratio": 0.1427
+    },
+    {
+      "scene_id": 154,
+      "frame_name": "frame_000938.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.103,
+      "face_count": 1,
+      "face_area_ratio": 0.2126
+    },
+    {
+      "scene_id": 155,
+      "frame_name": "frame_000945.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 1,
+      "face_area_ratio": 0.1534
+    },
+    {
+      "scene_id": 156,
+      "frame_name": "frame_000952.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 157,
+      "frame_name": "frame_000958.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0789,
+      "face_count": 2,
+      "face_area_ratio": 0.1789
+    },
+    {
+      "scene_id": 158,
+      "frame_name": "frame_000964.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.078,
+      "face_count": 2,
+      "face_area_ratio": 0.168
+    },
+    {
+      "scene_id": 159,
+      "frame_name": "frame_000970.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.075,
+      "face_count": 2,
+      "face_area_ratio": 0.1782
+    },
+    {
+      "scene_id": 160,
+      "frame_name": "frame_000976.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0906,
+      "face_count": 1,
+      "face_area_ratio": 0.1878
+    },
+    {
+      "scene_id": 161,
+      "frame_name": "frame_000982.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0884,
+      "face_count": 1,
+      "face_area_ratio": 0.1512
+    },
+    {
+      "scene_id": 162,
+      "frame_name": "frame_000988.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 1,
+      "face_area_ratio": 0.1448
+    },
+    {
+      "scene_id": 163,
+      "frame_name": "frame_000994.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0827,
+      "face_count": 1,
+      "face_area_ratio": 0.1448
+    },
+    {
+      "scene_id": 164,
+      "frame_name": "frame_001000.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0905,
+      "face_count": 1,
+      "face_area_ratio": 0.169
+    },
+    {
+      "scene_id": 165,
+      "frame_name": "frame_001006.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0758,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 166,
+      "frame_name": "frame_001012.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1016,
+      "face_count": 1,
+      "face_area_ratio": 0.2584
+    },
+    {
+      "scene_id": 167,
+      "frame_name": "frame_001018.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0979,
+      "face_count": 1,
+      "face_area_ratio": 0.1951
+    },
+    {
+      "scene_id": 168,
+      "frame_name": "frame_001041.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0763,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 169,
+      "frame_name": "frame_001084.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0986,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 170,
+      "frame_name": "frame_001111.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0804,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 171,
+      "frame_name": "frame_001117.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0846,
+      "face_count": 2,
+      "face_area_ratio": 0.1493
+    },
+    {
+      "scene_id": 172,
+      "frame_name": "frame_001123.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0877,
+      "face_count": 1,
+      "face_area_ratio": 0.1324
+    },
+    {
+      "scene_id": 173,
+      "frame_name": "frame_001129.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0866,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 174,
+      "frame_name": "frame_001135.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0926,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 175,
+      "frame_name": "frame_001141.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0868,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 176,
+      "frame_name": "frame_001147.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0903,
+      "face_count": 2,
+      "face_area_ratio": 0.1667
+    },
+    {
+      "scene_id": 177,
+      "frame_name": "frame_001153.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0768,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 178,
+      "frame_name": "frame_001159.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0839,
+      "face_count": 2,
+      "face_area_ratio": 0.1918
+    },
+    {
+      "scene_id": 179,
+      "frame_name": "frame_001165.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0774,
+      "face_count": 1,
+      "face_area_ratio": 0.1206
+    },
+    {
+      "scene_id": 180,
+      "frame_name": "frame_001171.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0702,
+      "face_count": 1,
+      "face_area_ratio": 0.1003
+    },
+    {
+      "scene_id": 181,
+      "frame_name": "frame_001177.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0847,
+      "face_count": 2,
+      "face_area_ratio": 0.1429
+    },
+    {
+      "scene_id": 182,
+      "frame_name": "frame_001183.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0825,
+      "face_count": 1,
+      "face_area_ratio": 0.1186
+    },
+    {
+      "scene_id": 183,
+      "frame_name": "frame_001189.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0965,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 184,
+      "frame_name": "frame_001195.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0905,
+      "face_count": 1,
+      "face_area_ratio": 0.1206
+    },
+    {
+      "scene_id": 185,
+      "frame_name": "frame_001201.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0782,
+      "face_count": 2,
+      "face_area_ratio": 0.1831
+    },
+    {
+      "scene_id": 186,
+      "frame_name": "frame_001207.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0879,
+      "face_count": 1,
+      "face_area_ratio": 0.1427
+    },
+    {
+      "scene_id": 187,
+      "frame_name": "frame_001213.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0857,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 188,
+      "frame_name": "frame_001219.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1005,
+      "face_count": 1,
+      "face_area_ratio": 0.2256
+    },
+    {
+      "scene_id": 189,
+      "frame_name": "frame_001226.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0798,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 190,
+      "frame_name": "frame_001233.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.078,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 191,
+      "frame_name": "frame_001239.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0844,
+      "face_count": 1,
+      "face_area_ratio": 0.1074
+    },
+    {
+      "scene_id": 192,
+      "frame_name": "frame_001245.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0808,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 193,
+      "frame_name": "frame_001251.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.089,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 194,
+      "frame_name": "frame_001264.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1313,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 195,
+      "frame_name": "frame_001285.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.117,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 196,
+      "frame_name": "frame_001299.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.114,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 197,
+      "frame_name": "frame_001305.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1111,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 198,
+      "frame_name": "frame_001315.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0444,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 199,
+      "frame_name": "frame_001337.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1351,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 200,
+      "frame_name": "frame_001355.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0861,
+      "face_count": 2,
+      "face_area_ratio": 0.1881
+    },
+    {
+      "scene_id": 201,
+      "frame_name": "frame_001361.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0901,
+      "face_count": 1,
+      "face_area_ratio": 0.2309
+    },
+    {
+      "scene_id": 202,
+      "frame_name": "frame_001367.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0744,
+      "face_count": 1,
+      "face_area_ratio": 0.1074
+    },
+    {
+      "scene_id": 203,
+      "frame_name": "frame_001373.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0811,
+      "face_count": 1,
+      "face_area_ratio": 0.1365
+    },
+    {
+      "scene_id": 204,
+      "frame_name": "frame_001379.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0828,
+      "face_count": 1,
+      "face_area_ratio": 0.1074
+    },
+    {
+      "scene_id": 205,
+      "frame_name": "frame_001386.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0809,
+      "face_count": 1,
+      "face_area_ratio": 0.1736
+    },
+    {
+      "scene_id": 206,
+      "frame_name": "frame_001393.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0818,
+      "face_count": 1,
+      "face_area_ratio": 0.1304
+    },
+    {
+      "scene_id": 207,
+      "frame_name": "frame_001399.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0889,
+      "face_count": 1,
+      "face_area_ratio": 0.1206
+    },
+    {
+      "scene_id": 208,
+      "frame_name": "frame_001405.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0794,
+      "face_count": 2,
+      "face_area_ratio": 0.166
+    },
+    {
+      "scene_id": 209,
+      "frame_name": "frame_001411.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0756,
+      "face_count": 1,
+      "face_area_ratio": 0.1385
+    },
+    {
+      "scene_id": 210,
+      "frame_name": "frame_001417.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.092,
+      "face_count": 1,
+      "face_area_ratio": 0.183
+    },
+    {
+      "scene_id": 211,
+      "frame_name": "frame_001423.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0829,
+      "face_count": 1,
+      "face_area_ratio": 0.1491
+    },
+    {
+      "scene_id": 212,
+      "frame_name": "frame_001429.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0905,
+      "face_count": 1,
+      "face_area_ratio": 0.169
+    },
+    {
+      "scene_id": 213,
+      "frame_name": "frame_001435.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0905,
+      "face_count": 1,
+      "face_area_ratio": 0.1578
+    },
+    {
+      "scene_id": 214,
+      "frame_name": "frame_001441.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.097,
+      "face_count": 1,
+      "face_area_ratio": 0.1736
+    },
+    {
+      "scene_id": 215,
+      "frame_name": "frame_001447.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0761,
+      "face_count": 1,
+      "face_area_ratio": 0.16
+    },
+    {
+      "scene_id": 216,
+      "frame_name": "frame_001453.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.078,
+      "face_count": 1,
+      "face_area_ratio": 0.1806
+    },
+    {
+      "scene_id": 217,
+      "frame_name": "frame_001460.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0952,
+      "face_count": 1,
+      "face_area_ratio": 0.1759
+    },
+    {
+      "scene_id": 218,
+      "frame_name": "frame_001466.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0925,
+      "face_count": 1,
+      "face_area_ratio": 0.1759
+    },
+    {
+      "scene_id": 219,
+      "frame_name": "frame_001472.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.083,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 220,
+      "frame_name": "frame_001478.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0938,
+      "face_count": 1,
+      "face_area_ratio": 0.1878
+    },
+    {
+      "scene_id": 221,
+      "frame_name": "frame_001484.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0856,
+      "face_count": 1,
+      "face_area_ratio": 0.1534
+    },
+    {
+      "scene_id": 222,
+      "frame_name": "frame_001490.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0872,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 223,
+      "frame_name": "frame_001496.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0812,
+      "face_count": 1,
+      "face_area_ratio": 0.1365
+    },
+    {
+      "scene_id": 224,
+      "frame_name": "frame_001502.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0935,
+      "face_count": 1,
+      "face_area_ratio": 0.2
+    },
+    {
+      "scene_id": 225,
+      "frame_name": "frame_001508.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0912,
+      "face_count": 1,
+      "face_area_ratio": 0.2025
+    },
+    {
+      "scene_id": 226,
+      "frame_name": "frame_001519.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0725,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 227,
+      "frame_name": "frame_001541.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1164,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 228,
+      "frame_name": "frame_001566.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0747,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 229,
+      "frame_name": "frame_001583.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1132,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 230,
+      "frame_name": "frame_001604.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0698,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 231,
+      "frame_name": "frame_001639.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1054,
+      "face_count": 1,
+      "face_area_ratio": 0.0306
+    },
+    {
+      "scene_id": 232,
+      "frame_name": "frame_001667.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1194,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 233,
+      "frame_name": "frame_001696.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1049,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 234,
+      "frame_name": "frame_001734.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1145,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 235,
+      "frame_name": "frame_001754.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1214,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 236,
+      "frame_name": "frame_001778.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1173,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 237,
+      "frame_name": "frame_001851.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1119,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 238,
+      "frame_name": "frame_001910.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1198,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 239,
+      "frame_name": "frame_001922.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1144,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 240,
+      "frame_name": "frame_001939.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1099,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 241,
+      "frame_name": "frame_001959.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1151,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 242,
+      "frame_name": "frame_001985.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.123,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 243,
+      "frame_name": "frame_002003.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.114,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 244,
+      "frame_name": "frame_002009.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1006,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 245,
+      "frame_name": "frame_002015.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0969,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 246,
+      "frame_name": "frame_002026.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1022,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 247,
+      "frame_name": "frame_002036.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.098,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 248,
+      "frame_name": "frame_002062.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.092,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 249,
+      "frame_name": "frame_002088.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.083,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 250,
+      "frame_name": "frame_002102.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0851,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 251,
+      "frame_name": "frame_002129.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1148,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 252,
+      "frame_name": "frame_002150.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1059,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 253,
+      "frame_name": "frame_002165.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1102,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 254,
+      "frame_name": "frame_002185.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1052,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 255,
+      "frame_name": "frame_002202.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.11,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 256,
+      "frame_name": "frame_002211.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.104,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 257,
+      "frame_name": "frame_002219.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1046,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 258,
+      "frame_name": "frame_002228.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1118,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 259,
+      "frame_name": "frame_002250.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1018,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 260,
+      "frame_name": "frame_002272.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1543,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 261,
+      "frame_name": "frame_002281.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1521,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 262,
+      "frame_name": "frame_002295.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1603,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 263,
+      "frame_name": "frame_002307.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.177,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 264,
+      "frame_name": "frame_002318.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1615,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 265,
+      "frame_name": "frame_002329.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1694,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 266,
+      "frame_name": "frame_002338.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1667,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 267,
+      "frame_name": "frame_002349.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1081,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 268,
+      "frame_name": "frame_002360.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1107,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 269,
+      "frame_name": "frame_002370.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0948,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 270,
+      "frame_name": "frame_002396.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0841,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 271,
+      "frame_name": "frame_002420.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0797,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 272,
+      "frame_name": "frame_002430.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0764,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 273,
+      "frame_name": "frame_002440.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0542,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 274,
+      "frame_name": "frame_002457.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0616,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 275,
+      "frame_name": "frame_002474.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0955,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 276,
+      "frame_name": "frame_002495.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1089,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 277,
+      "frame_name": "frame_002516.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1005,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 278,
+      "frame_name": "frame_002524.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0982,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 279,
+      "frame_name": "frame_002540.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0953,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 280,
+      "frame_name": "frame_002565.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0806,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 281,
+      "frame_name": "frame_002591.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0948,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 282,
+      "frame_name": "frame_002610.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0838,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 283,
+      "frame_name": "frame_002634.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0928,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 284,
+      "frame_name": "frame_002661.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1033,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 285,
+      "frame_name": "frame_002680.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0971,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 286,
+      "frame_name": "frame_002693.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1231,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 287,
+      "frame_name": "frame_002699.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1166,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 288,
+      "frame_name": "frame_002706.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1502,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 289,
+      "frame_name": "frame_002730.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0986,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 290,
+      "frame_name": "frame_002756.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1089,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 291,
+      "frame_name": "frame_002774.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1254,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 292,
+      "frame_name": "frame_002792.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1162,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 293,
+      "frame_name": "frame_002804.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1221,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 294,
+      "frame_name": "frame_002814.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.1209,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 295,
+      "frame_name": "frame_002821.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0808,
+      "face_count": 1,
+      "face_area_ratio": 0.1186
+    },
+    {
+      "scene_id": 296,
+      "frame_name": "frame_002827.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0843,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 297,
+      "frame_name": "frame_002833.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0796,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 298,
+      "frame_name": "frame_002839.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.08,
+      "face_count": 1,
+      "face_area_ratio": 0.1074
+    },
+    {
+      "scene_id": 299,
+      "frame_name": "frame_002845.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0817,
+      "face_count": 1,
+      "face_area_ratio": 0.1225
+    },
+    {
+      "scene_id": 300,
+      "frame_name": "frame_002851.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0802,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 301,
+      "frame_name": "frame_002857.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0812,
+      "face_count": 1,
+      "face_area_ratio": 0.1324
+    },
+    {
+      "scene_id": 302,
+      "frame_name": "frame_002863.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0868,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 303,
+      "frame_name": "frame_002869.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0899,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 304,
+      "frame_name": "frame_002875.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0885,
+      "face_count": 1,
+      "face_area_ratio": 0.1167
+    },
+    {
+      "scene_id": 305,
+      "frame_name": "frame_002881.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0873,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 306,
+      "frame_name": "frame_002887.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0842,
+      "face_count": 1,
+      "face_area_ratio": 0.1093
+    },
+    {
+      "scene_id": 307,
+      "frame_name": "frame_002893.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0873,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 308,
+      "frame_name": "frame_002899.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0912,
+      "face_count": 1,
+      "face_area_ratio": 0.1427
+    },
+    {
+      "scene_id": 309,
+      "frame_name": "frame_002905.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0763,
+      "face_count": 1,
+      "face_area_ratio": 0.1186
+    },
+    {
+      "scene_id": 310,
+      "frame_name": "frame_002911.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0845,
+      "face_count": 1,
+      "face_area_ratio": 0.1284
+    },
+    {
+      "scene_id": 311,
+      "frame_name": "frame_002917.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.08,
+      "face_count": 1,
+      "face_area_ratio": 0.1264
+    },
+    {
+      "scene_id": 312,
+      "frame_name": "frame_002923.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.084,
+      "face_count": 1,
+      "face_area_ratio": 0.1003
+    },
+    {
+      "scene_id": 313,
+      "frame_name": "frame_002929.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0841,
+      "face_count": 1,
+      "face_area_ratio": 0.1304
+    },
+    {
+      "scene_id": 314,
+      "frame_name": "frame_002935.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0855,
+      "face_count": 1,
+      "face_area_ratio": 0.1245
+    },
+    {
+      "scene_id": 315,
+      "frame_name": "frame_002941.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0868,
+      "face_count": 1,
+      "face_area_ratio": 0.1304
+    },
+    {
+      "scene_id": 316,
+      "frame_name": "frame_002947.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.081,
+      "face_count": 1,
+      "face_area_ratio": 0.1093
+    },
+    {
+      "scene_id": 317,
+      "frame_name": "frame_002953.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0848,
+      "face_count": 1,
+      "face_area_ratio": 0.1225
+    },
+    {
+      "scene_id": 318,
+      "frame_name": "frame_002960.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0845,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 319,
+      "frame_name": "frame_002966.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0824,
+      "face_count": 1,
+      "face_area_ratio": 0.1225
+    },
+    {
+      "scene_id": 320,
+      "frame_name": "frame_002972.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0965,
+      "face_count": 1,
+      "face_area_ratio": 0.1902
+    },
+    {
+      "scene_id": 321,
+      "frame_name": "frame_002978.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0939,
+      "face_count": 1,
+      "face_area_ratio": 0.1806
+    },
+    {
+      "scene_id": 322,
+      "frame_name": "frame_002984.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0906,
+      "face_count": 2,
+      "face_area_ratio": 0.2268
+    },
+    {
+      "scene_id": 323,
+      "frame_name": "frame_002990.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.085,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 324,
+      "frame_name": "frame_002996.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0946,
+      "face_count": 2,
+      "face_area_ratio": 0.2302
+    },
+    {
+      "scene_id": 325,
+      "frame_name": "frame_003002.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0916,
+      "face_count": 1,
+      "face_area_ratio": 0.1622
+    },
+    {
+      "scene_id": 326,
+      "frame_name": "frame_003008.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1108,
+      "face_count": 1,
+      "face_area_ratio": 0.2256
+    },
+    {
+      "scene_id": 327,
+      "frame_name": "frame_003014.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0904,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 328,
+      "frame_name": "frame_003020.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1004,
+      "face_count": 1,
+      "face_area_ratio": 0.1806
+    },
+    {
+      "scene_id": 329,
+      "frame_name": "frame_003026.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0977,
+      "face_count": 1,
+      "face_area_ratio": 0.1806
+    },
+    {
+      "scene_id": 330,
+      "frame_name": "frame_003032.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.091,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 331,
+      "frame_name": "frame_003038.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1038,
+      "face_count": 1,
+      "face_area_ratio": 0.1759
+    },
+    {
+      "scene_id": 332,
+      "frame_name": "frame_003044.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0907,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 333,
+      "frame_name": "frame_003050.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0943,
+      "face_count": 1,
+      "face_area_ratio": 0.1556
+    },
+    {
+      "scene_id": 334,
+      "frame_name": "frame_003056.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.1,
+      "face_count": 1,
+      "face_area_ratio": 0.16
+    },
+    {
+      "scene_id": 335,
+      "frame_name": "frame_003062.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0832,
+      "face_count": 1,
+      "face_area_ratio": 0.1622
+    },
+    {
+      "scene_id": 336,
+      "frame_name": "frame_003068.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0963,
+      "face_count": 2,
+      "face_area_ratio": 0.1681
+    },
+    {
+      "scene_id": 337,
+      "frame_name": "frame_003074.jpg",
+      "visual_class": "TALKING_HEAD",
+      "edge_density": 0.0792,
+      "face_count": 1,
+      "face_area_ratio": 0.1344
+    },
+    {
+      "scene_id": 338,
+      "frame_name": "frame_003080.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0819,
+      "face_count": 2,
+      "face_area_ratio": 0.1579
+    },
+    {
+      "scene_id": 339,
+      "frame_name": "frame_003086.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0961,
+      "face_count": 1,
+      "face_area_ratio": 0.1783
+    },
+    {
+      "scene_id": 340,
+      "frame_name": "frame_003092.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0967,
+      "face_count": 1,
+      "face_area_ratio": 0.1926
+    },
+    {
+      "scene_id": 341,
+      "frame_name": "frame_003098.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0964,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 342,
+      "frame_name": "frame_003104.jpg",
+      "visual_class": "CONTENT_RICH",
+      "edge_density": 0.0943,
+      "face_count": 0,
+      "face_area_ratio": 0.0
+    },
+    {
+      "scene_id": 343,
+      "frame_name": "frame_003110.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0942,
+      "face_count": 1,
+      "face_area_ratio": 0.1806
+    },
+    {
+      "scene_id": 344,
+      "frame_name": "frame_003113.jpg",
+      "visual_class": "MIXED",
+      "edge_density": 0.0822,
+      "face_count": 1,
+      "face_area_ratio": 0.16
+    }
+  ]
+}

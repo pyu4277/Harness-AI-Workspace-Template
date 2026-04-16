@@ -1,0 +1,26 @@
+{
+  "scene_id": 344,
+  "frame_name": "frame_015013.jpg",
+  "start_time": 7491.0,
+  "end_time": 7521.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 수행이 되죠. 네. 그래서 이런 식으로 가능합니다. 아이디라는 걸 지정해 가지고 아이디가 애플 그레이를 따로따로 지정해서이 애플이라는 아이디를 레드로 바꾸고 그레이라는 아이디를 퍼플로 바꾸면 얘가 요렇게 반영되고 얘가 요렇게 반영되고 요런 식으로 동작을 합니다. 즉 그냥 큰 개념만 이해하시면 돼요. 이거 문법 필요 없습니다. 이거 알 필요 없고 그냥 CSS를 이용하면은이 요소를 요렇게 바꾸고 요거를 요렇게 바꾸고 하는게 가능합니다. 네. 그래서 요런 거를 할 수가 있고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

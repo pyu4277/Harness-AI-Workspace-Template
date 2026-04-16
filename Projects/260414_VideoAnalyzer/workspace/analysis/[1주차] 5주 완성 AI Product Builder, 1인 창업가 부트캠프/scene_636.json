@@ -1,0 +1,26 @@
+{
+  "scene_id": 636,
+  "frame_name": "frame_022698.jpg",
+  "start_time": 11336.0,
+  "end_time": 11361.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오, 이렇게 랜덤 국가 추첨기도 만드신 분도 계십니다. 네. 이분은 75번. 네. 새로 고침하고 새로 제출된 것들 보도록 하겠습니다. 어, 97번도 계십니다. 오 야,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

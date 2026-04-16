@@ -1,0 +1,26 @@
+{
+  "scene_id": 170,
+  "frame_name": "frame_001111.jpg",
+  "start_time": 553.5,
+  "end_time": 556.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "중요하지만 우리가 너무 많은 정보를 주다 보니까 AI가 대충 읽고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

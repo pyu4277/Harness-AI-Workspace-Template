@@ -1,0 +1,26 @@
+{
+  "scene_id": 1676,
+  "frame_name": "frame_050237.jpg",
+  "start_time": 25116.0,
+  "end_time": 25120.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만들었잖아요. 근데 여기에다가 이걸 통과했어요. 이게 통과가 되면 여기 아래에 저희 이런 동물상 테스트 만들잖아요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

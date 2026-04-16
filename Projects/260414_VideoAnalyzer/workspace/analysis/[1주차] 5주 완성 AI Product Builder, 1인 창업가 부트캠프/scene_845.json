@@ -1,0 +1,26 @@
+{
+  "scene_id": 845,
+  "frame_name": "frame_028322.jpg",
+  "start_time": 14155.0,
+  "end_time": 14166.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "나는데. 네. 일단 클로드를 쓰시 클로드가 제일 좋긴 하거든요. 저는 클로드를 강추하긴 합니다. 네. 그래서 지금은 그렇습니다. 남. 근데 다른 것도 사실 웬만큼 상향 평준환 돼서 다른 것도 괜찮긴 한데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

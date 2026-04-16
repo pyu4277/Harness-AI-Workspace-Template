@@ -1,0 +1,26 @@
+{
+  "scene_id": 1622,
+  "frame_name": "frame_048980.jpg",
+  "start_time": 24483.5,
+  "end_time": 24496.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되고 23년 24년 수익을 정리해 보니까요 정도 나왔습니다. 그래서 뭐 원래 한 120만 원 뭐 60만 원 70만 원 막 큰 돈은 아니지만 그래도 그냥 용돈 버리로 괜찮죠.요 정도 그냥 꾸준히 벌었었습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

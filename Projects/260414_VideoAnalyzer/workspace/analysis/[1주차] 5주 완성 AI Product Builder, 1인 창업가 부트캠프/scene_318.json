@@ -1,0 +1,26 @@
+{
+  "scene_id": 318,
+  "frame_name": "frame_014466.jpg",
+  "start_time": 7230.0,
+  "end_time": 7235.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "써져 있는 어떤 코드가 나옵니다. 이제 HTML 개념을 이해하셨으니까 이거가 뭔지 알겠죠? 예 뭔지"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

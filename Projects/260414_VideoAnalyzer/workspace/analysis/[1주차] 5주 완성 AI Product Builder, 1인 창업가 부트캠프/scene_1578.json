@@ -1,0 +1,26 @@
+{
+  "scene_id": 1578,
+  "frame_name": "frame_048375.jpg",
+  "start_time": 24181.0,
+  "end_time": 24193.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "겁니다. 이거 지금 사람이 읽을게 아니죠. 이제이 글을 사람이 읽을 필요가 없습니다. 그냥 제목만 딱 보시면 됩니다. 어, 고품지 사이트 만들기. 도움말. 어, 이거 AI 이렇게 하면 되겠네. 야, AI 읽어. 이거 가서 읽어. 하면 되죠.이 사람이 읽으면 안 됩니다.이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "scene_id": 1551,
+  "frame_name": "frame_047498.jpg",
+  "start_time": 23707.5,
+  "end_time": 23789.5,
+  "visual_analysis": {
+    "layout": "Google Ads 수익 흐름 다이어그램 + 핑크 주석 + 우측 웹캠/채팅",
+    "elements": [
+      "Advertisers: $1 (코인 스택)",
+      "Google Ads Campaign: 85c (15c 수수료)",
+      "Google AdSense: 68c (17c 수수료)",
+      "Publishers: 최종 수익",
+      "핑크 화살표: 수익 흐름"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "Advertisers($1) -> Google Ads(85c) -> Google AdSense(68c) -> Publishers"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Google Ads 수익 구조",
+      "에드센스 수수료",
+      "광고 수익화"
+    ],
+    "summary": "것 같고요. 그래서 뭐 구조를 조금 소개해 드리면 요런 식입니다. 그래서 광고주가 있으면 광고주가 1달러를 냅니다. 네. 그러면은 이제 구글 에라는 곳에 냅니다. 그러니까 광고주가 이용하는 서비스는 구글 에예요. 그래서 요거를 아마 이제 5주차 마케팅할 때 제가 소개를 드릴 텐데 이제 구글 에로 우리가 광고주가 될 수도 있습니다. 왜냐면 내가 만든 서비스 있잖아요. 이거를 광고를 태워야 사람들이 볼 수 있잖아요. 그래서 이런 저 같은 사람 혹은 이걸 뭐 만든 사람은 내 제품을 광고를 태워야 됩니다. 그때 쓰는게 이제 구글 에즈입니다. 그래서 구글에 1달러를 주면은이 구글 에즈 디스플레이 캠페인 뭐 이런 데서 15트를 가져갑니다. 그러면은 이제 85트가 남죠. 요거를 이제 구글 에드센스가 받아 가지고 이제 광고를 배너 해 가지고 이렇게 뿌려 주고 이걸 대행해 주고 그리고 17 달러 말고 뭐지? 네. 17를 또 가져갑니다. 그러면 이제 68세트가 남죠. 요거를 이제 저희가 퍼블리셔가 그 웹사이트 만든 사람인데이 사람들이 가져갑니다. 네. 그래서 우리가 1달러를 그 광고주가 되면 그중에 이제 한 68원 정도 68를 가져갈 수 있다라고 이해하시면 좋을 것 같습니다. 네. 30% 정도를 이제 구글에서 가져갑니다. 그러다 보니까 이제 구글이 아무래도 광고 매출이 어마어마하잖아요. 그래서 그게 다 여기서 나오는 겁니다. 그 사람들이 아마 이거 뭐 주식하시거나 이러면 다 아실 텐데 뭐 이런 거 있죠. 구글"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Google Ads 수익 분배 구조: 광고주 $1 -> Google Ads Campaign 85c -> Google AdSense 68c -> 퍼블리셔. 각 단계별 수수료 시각화",
+    "text_only_info": "에드센스 안 붙여도 직접 배너 광고주 모집 가능 (월 30만원). 에드센스는 자동으로 광고주 매칭",
+    "combined_insight": "구글 광고 수익 구조: $1에서 퍼블리셔까지 도달하는 68c의 수익 흐름. 직접 vs 에드센스 비교"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: Google Ads 수익 흐름 다이어그램 - 수익화 핵심 시각자료",
+  "importance_rule_version": 2
+}

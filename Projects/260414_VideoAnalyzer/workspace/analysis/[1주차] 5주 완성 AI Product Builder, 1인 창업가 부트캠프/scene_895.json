@@ -1,0 +1,26 @@
+{
+  "scene_id": 895,
+  "frame_name": "frame_029177.jpg",
+  "start_time": 14550.5,
+  "end_time": 14626.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "재미나이 뭐 오픈 코덱스 클로드 코드 중에 아무거나 여기에 원하는 걸 입력하시면 됩니다. 원하는 거 여기에 입력하시면 싹 다 만들어 주거든요. 네. 싹 다 만들어 주니까 이제 다 끝났습니다. 요거까지 되셨다. 끝. 이제 개발 다 했다. 네. 요거 요거 이제 이제 한 글만 남았습니다. 한 글만 쓰면 됩니다. 여기 한 글만 쓰면 됩니다. 음흠. 이제 뭘 만들까요? 네. 그게 이제 시작입니다. 이제 시작입니다. 여기까지가 가장 어려운 길을 여러분들 긴 어려운 길을 오셨습니다. 아, 레플릿 써도 될까요? 근데 래플릿은 약간의 그 한계가 있긴 합니다. 뭐 물론 좋긴 한데 이제 커스터마이징을 이제 플리하려면 물론 애플레이터 다 만들어 주긴 하는데 디플로이까지도 해주고 근데 이런 5S 아 그 뭐지? 저희 결국에는 클라우드 플레이어 페이지나 이런 좀 무료 제공을 많이 이용하려고 하거든요. 그런 거 하려면은 결국에는 뭐 연동은 물론 가능하지만 요게 좀 더 편할 수도 있습니다. 별로 레플릿이 비싸요. 네. 비싼게 좀 단점이 있습니다. 그래서 공짜로 쓰고 싶다. 재미나이."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

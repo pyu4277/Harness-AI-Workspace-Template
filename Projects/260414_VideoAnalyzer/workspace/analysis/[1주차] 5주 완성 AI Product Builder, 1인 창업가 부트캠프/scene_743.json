@@ -1,0 +1,35 @@
+{
+  "scene_id": 743,
+  "frame_name": "frame_026140.jpg",
+  "start_time": 13037.5,
+  "end_time": 13101.5,
+  "visual_analysis": {
+    "layout": "Firebase Studio IDE + 터미널 - Lucky Number Generator 앱",
+    "elements": [
+      "HTML: Lucky Number Generator",
+      "container + button + result",
+      "터미널"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "Lucky Number Generator HTML"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Lucky Number Generator",
+      "HTML 구조"
+    ],
+    "summary": "그래서 이렇게 새로 열면은 요런 식으로 깜빡깜빡하면서 뭐이 쭉 여기 경로에 깜빡깜빡 하고 있으면 이렇게 엔터 치면은 이렇게 되고 명령어 여기다가 입력할 수 있고 요런 식으로 구성이 된게 이제 기본 터미널이 열린 겁니다. 그래서 배시 창이 열렸다고 하는데 요거를 뭐 여기에 터미널에 뉴 터미널로 요렇게 열어도 되고요. 아니면 여기 다 닫혀 있으면 여기서 요거 플러스 버튼 눌러서도 이렇게 터미널을 열 수도 있습니다. 네. 그래서 요런 식으로 구성해서 여기에서 AI를 쓸 수도 있거든요. 그래서 여기에서 AI를 써 가지고 진행을 해 보도록 하겠습니다. 아, 메모장보다 어려운 듯. 아, 사실 조금 불편하게 이게 좀 어려우신 분들은 메모장을 하셔도 사실 큰 상관은 없습니다. 왜냐면 그 기본적인 거 다 할 수 있기 때문에. 네. 그래서 요거 여시려면 다시 터미널 어떻게 열어 해 주셨는데 자, 순서대로 소개해 드릴게요. 먼저 1번 요걸 누릅니다. 왼쪽에 있는요 버튼.요 요 햄버거 버튼이라고 하죠. 이렇게 세 줄 돼 있는 거. 요거 눌러서 터미널로 들어갑니다. 그리고 뉴 터미널 있죠? 컨트롤 시프트 C로도 열 수 있어요. 이걸 누르면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Lucky Number Generator 웹앱 HTML: container + button + result",
+    "text_only_info": "코드 작성 과정",
+    "combined_insight": "간단한 웹앱: Lucky Number Generator HTML/CSS/JS 실습"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1650,
+  "frame_name": "frame_049729.jpg",
+  "start_time": 24857.0,
+  "end_time": 24871.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "에드센스. 어, 요거 아니고 요거다. 어, 이미 배포. 아, 벌써 예, 알아서 배포를 했군요. 아, 알아서 해 버렸습니다. 네. 알아서 했고. 네. 그럼 추가가 됐을 거고. 자, 이제 추가가 됐으니까 여기서 어,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

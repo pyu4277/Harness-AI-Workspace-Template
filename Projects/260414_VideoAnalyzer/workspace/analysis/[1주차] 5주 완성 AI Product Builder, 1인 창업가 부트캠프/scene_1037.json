@@ -1,0 +1,26 @@
+{
+  "scene_id": 1037,
+  "frame_name": "frame_032392.jpg",
+  "start_time": 16186.0,
+  "end_time": 16205.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 정적 외 보통은 이제 뭐 리액트나 이런 거 빌딩해야 되는 어떤 걸로 돼 있기 때문에 사실 기본 세팅이 이렇게 복잡하게 돼 있는데 어 익시 0 어 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

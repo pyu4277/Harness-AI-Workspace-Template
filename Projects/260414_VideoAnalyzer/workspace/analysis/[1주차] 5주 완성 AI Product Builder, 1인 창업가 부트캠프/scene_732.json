@@ -1,0 +1,26 @@
+{
+  "scene_id": 732,
+  "frame_name": "frame_025715.jpg",
+  "start_time": 12846.5,
+  "end_time": 12867.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "자바스크립트 있고요. CSS 그 꾸며 주는 CSS도 잘 들어가 있고. 네. 요런 식으로 잘 구성이 된 걸 볼 수가 있죠. 네. 그러면 요런 식으로 하면 이제 모든 서비스를 이걸로 다 만들 수가 있겠죠. 근데 여기서 좀 쓸데없는 거 지울게요. 여기 리드미.md 이거는 뭐 이게 그냥 읽어 주세요. 뭐 이런 템플릿입니다. 그래서 이거 이거 필요"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-03: scene_738과 유사한 Firebase Studio+Gemini CLI 화면, 서버 실행 전 단계",
+  "importance_rule_version": 2
+}

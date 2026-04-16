@@ -1,0 +1,26 @@
+{
+  "scene_id": 1275,
+  "frame_name": "frame_039734.jpg",
+  "start_time": 19853.5,
+  "end_time": 19879.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 이런 거를 좀 진행을 해 볼 건데 그중에 좀 그냥 간단하게 쓰면서도 유용하게 쓸 수 있는게 뭐가 있을까를 생각을 해 봤는데요 폼 스프리라는게 있어 가지고 요거 좀 소개해 드리고자 합니다. 요게 어떤 거냐? 네. 요거는 이것도 그냥 그 많은 어떤 누군가 만들어 놓은 API 중에 하나예요. 그래서 얘도 없어질 수도 있어요. 이거 뭐 내년에 봤는데 어 이거 사이트 망했는데요. 할 수도 있습니다. 그냥 어떤 개인 누군가 만들 거기 때문에 이거 누가 만들었습니다. 그래서 진짜"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

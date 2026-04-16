@@ -1,0 +1,26 @@
+{
+  "scene_id": 1719,
+  "frame_name": "frame_050896.jpg",
+  "start_time": 25444.5,
+  "end_time": 25451.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "튈 때도 있고요. 그래서 뭐 3년 하면은 대충 이게 얼마야? 12만7이 환율이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

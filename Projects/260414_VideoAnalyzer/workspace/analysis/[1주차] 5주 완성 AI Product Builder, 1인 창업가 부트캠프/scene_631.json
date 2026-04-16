@@ -1,0 +1,26 @@
+{
+  "scene_id": 631,
+  "frame_name": "frame_022521.jpg",
+  "start_time": 11255.0,
+  "end_time": 11265.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어. 야, 이분은 와, 이거 어떻게 만드셨지? 벌써 스케치 피부 진단. 이야, 이거 방금 만드신 건가요? 와, 바이브 코딩이니까 피부 진단"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

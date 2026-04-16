@@ -1,0 +1,38 @@
+{
+  "scene_id": 377,
+  "frame_name": "frame_015945.jpg",
+  "start_time": 7957.0,
+  "end_time": 7987.5,
+  "visual_analysis": {
+    "layout": "ChatGPT 5.2 코드 화면 + 핑크 주석 + 우측 웹캠/채팅",
+    "elements": [
+      "HTML section/div 구조 코드",
+      "JavaScript: pickBtn, copyBtn, bonusChk DOM 요소",
+      "function randInt(min,max) 함수",
+      "핑크 원형 강조: 주요 변수/함수"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "JavaScript DOM: getElementById(pickBtn/copyBtn/bonusChk/ballsEl/metaEl/announceEl)",
+      "function randInt(min,max) { return Math.floor(Math.random()*(max-min+1))+min }"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "ChatGPT 코드 생성",
+      "JavaScript DOM",
+      "randInt 함수"
+    ],
+    "summary": "되는데 여기 보면 스크립트라는게 있습니다. 오 스크립트가 뭐지? 보면은 스크립트 안에 요런 식으로 뭔가 어 펑션 이게 뭔지 모르겠지만 약간 함수 이런 말이거든요. 그래서 오 좀 뭔가 동작하는 어떤 펑션하는 어떤 작업들이 들어가 있다라는 좀 느낌만 받으시면 됩니다. 그래서 아이 코드가 뭘 뭐 눌렀을 때 뭐가 동작하거나 뭐 클릭했을 때 변화를 주거나 하는 어떤 프로그래밍 로직이 여기 들어가 있구나라고 생각하시면 되겠습니다. 네. 그래서 이렇게 HTML,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "ChatGPT 5.2가 생성한 JS 코드: DOM 요소 접근(6개 변수) + randInt 랜덤 함수. 핑크 주석으로 핵심 로직 강조",
+    "text_only_info": "ChatGPT에게 물어봐서 코드를 얻는 과정",
+    "combined_insight": "ChatGPT 코드 생성 실습: DOM 조작 + 랜덤 함수를 AI가 작성. 핑크 주석으로 구조 이해 유도"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: ChatGPT 생성 JavaScript 코드 + 핑크 주석 강조",
+  "importance_rule_version": 2
+}

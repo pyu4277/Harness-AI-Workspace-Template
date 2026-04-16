@@ -1,0 +1,26 @@
+{
+  "scene_id": 1454,
+  "frame_name": "frame_043591.jpg",
+  "start_time": 21787.5,
+  "end_time": 21803.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어떤 AI 그 서비스를 쉽게 만들어 가지고 내 웹사이트에 붙일 수 있게 만드는네 그런 툴입니다. 그러다 보니까 이게 뭐 구체적으로 보자면 이제 온 디바이스 모델을 만드는 거예요. 그래서 온바이스 모델을 만들어 가지고네 브라우저에서 돌아갈 수 있는 AI 기능을 간단하게 붙이는 어떤 그 교육용 서비스인데 이걸로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

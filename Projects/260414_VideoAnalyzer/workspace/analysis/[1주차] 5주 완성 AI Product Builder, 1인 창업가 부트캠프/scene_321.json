@@ -1,0 +1,26 @@
+{
+  "scene_id": 321,
+  "frame_name": "frame_014507.jpg",
+  "start_time": 7251.0,
+  "end_time": 7255.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요렇게 특정 영역을 이렇게 지정할 수도 있습니다. 예를 들어 뉴스의 제목을 이렇게 클릭해 볼게요. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

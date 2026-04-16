@@ -1,0 +1,26 @@
+{
+  "scene_id": 387,
+  "frame_name": "frame_016133.jpg",
+  "start_time": 8053.5,
+  "end_time": 8079.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 들어가 있습니다. 보너스도 뽑기. 아, 이런 식으로 이것도 AI가 알아서 만들어졌어요. 그래서 이런 웹을 직접 채팅t 시켜 가면서 만들 수가 있다. 근데 여기 보면은 조금 아쉬운게 하나만 나오잖아요. 그래서 보통 뭐 로또 구매하면 한 다섯 개 게임 구매하고 이러잖아요. 그러면은 한 다섯 개 게임이 한 번에 나왔으면 좋겠다라는 그 어떻게 바꾸고 싶다라는 생각이 들잖아요. 어떻게 바꾸면 될까요? 그럼 HTML이랑 뭐 자바스크립트나 이런 거 이용해서 바꾸면 되겠죠? 그러면 이거를 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

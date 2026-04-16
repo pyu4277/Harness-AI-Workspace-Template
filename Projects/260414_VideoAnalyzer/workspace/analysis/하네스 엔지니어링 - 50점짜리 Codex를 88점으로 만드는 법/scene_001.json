@@ -1,0 +1,40 @@
+{
+  "scene_id": 1,
+  "frame_name": "frame_000012.jpg",
+  "start_time": 0.0,
+  "end_time": 11.0,
+  "visual_analysis": {
+    "layout": "평가 결과 미리보기 - 비교 테이블",
+    "elements": [
+      "평가 리포트 표",
+      "Claude Code 채팅 인터페이스",
+      "자막"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "harness_eng_with(88점) vs harness_eng_without(52점) 7항목 비교표: 기능완성도(17/14), 데이터품질(18/12), UI/UX(12/13), 코드구조(13/7), 검증체계(14/3), 문서화(9/2), 릴리즈준비도(5/1)"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "harness_eng_with",
+      "harness_eng_without",
+      "평가 리포트",
+      "Codex 점수"
+    ],
+    "summary": "이런 식으로 쭉 일곱 개의 항목에 대해서 평가하라고 했고 그 합계를 보시면 하네스 엔지니어링이 적용된 코드는 88점, 그렇지 않은 코드는 52점을 평가받았습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "with/without 점수 테이블: 100점 만점 중 88 vs 52. 검증체계(14:3)와 코드구조(13:7) 격차 가장 큼",
+    "text_only_info": "",
+    "combined_insight": "하네스 엔지니어링 적용 여부에 따라 Codex 평가 점수가 52->88점으로 69% 향상. 특히 검증체계(+367%), 코드구조(+86%), 문서화(+350%)에서 극적 차이 발생"
+  },
+  "reference_needs": [
+    "OpenAI Codex",
+    "AI 코드 품질 평가 기준"
+  ],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

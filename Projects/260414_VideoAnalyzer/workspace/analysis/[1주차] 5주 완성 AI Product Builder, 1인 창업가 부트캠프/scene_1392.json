@@ -1,0 +1,26 @@
+{
+  "scene_id": 1392,
+  "frame_name": "frame_042711.jpg",
+  "start_time": 21352.5,
+  "end_time": 21357.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진짜 아무것도 안 해도 됩니다. 그냥 해 줘. 딸깍 하면은. 어 배포됐어요. 자 댓글 기능 잘 추가되는지 볼까요? 어 뭐 먹지? 어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

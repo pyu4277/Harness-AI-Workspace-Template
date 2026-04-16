@@ -1,0 +1,26 @@
+{
+  "scene_id": 1513,
+  "frame_name": "frame_045648.jpg",
+  "start_time": 22808.5,
+  "end_time": 22838.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만드셔도 좋을 것 같고요. 네. 수익화를 해 볼 건데 아, 요것도 잠깐 쉬는 시간을 가지고 시작을 해 보도록 하겠습니다. 잠깐에 쉬는 시간. 수익화. 3 30분. 네. 휴식 후 오후 8시 30분 시작. 수익화를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

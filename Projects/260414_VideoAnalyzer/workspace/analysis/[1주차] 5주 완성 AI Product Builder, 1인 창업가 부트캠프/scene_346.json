@@ -1,0 +1,26 @@
+{
+  "scene_id": 346,
+  "frame_name": "frame_015065.jpg",
+  "start_time": 7527.0,
+  "end_time": 7537.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이해하시면 좋을 것 같고. 네. 그래서 약간 예전에 되게 민도 있었어요.이 CSS라는게 뭐 색깔도 바꾸고 폰트 사이즈도 위치도 이런 거 다 이쁘게 꾸미는데 쓰잖아요. 그러다 보니까 뭐 이런 요. CSS 이즈"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

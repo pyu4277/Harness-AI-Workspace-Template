@@ -1,0 +1,41 @@
+{
+  "scene_id": 291,
+  "frame_name": "frame_002774.jpg",
+  "start_time": 1380.5,
+  "end_time": 1393.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - Claude Code 터미널 실행 화면 (하네스 시스템 동작 중)",
+    "elements": [
+      "auto-complete.mjs 자동 실행",
+      "4번 루프 + 5번 CDP 검증 자동 실행",
+      "pnpm boot --worktree --name inline-edit 명령",
+      "runtime.json 생성 확인",
+      "plan 작성 시작: Envisioning... (3/3 - 1,289 tokens)"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "bash: cd /todo-harness-demo && pnpm boot --worktree --name inline-edit --zkli",
+      "cat runtime.json 2>/dev/null | grep \"name\"",
+      "Envisioning... (3/3 - 1,289 tokens - thought for 2s)"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Claude Code 실전 실행",
+      "auto-complete.mjs",
+      "worktree 부팅",
+      "자동 계획 수립"
+    ],
+    "summary": "이렇게 만들어 줄래? 이런 규칙 만들어 줄래? 막 이런 계속 해야 되고 그죠? 일이 두 배로 늘어나는 느낌이란 말이에요. 그죠? 어, 사실 이게 하네스 엔지니어링이 있다 보면은요. 어, 초반에 구축한데 시간이 오래 걸려요. 하네스 엔지니어도 테스트를 하면서 내가 뭐"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Claude Code가 하네스 시스템 내에서 실제 동작하는 터미널: auto-complete.mjs 실행, worktree 부팅, runtime.json 생성, 계획 작성(Envisioning) 전 과정이 자동 진행",
+    "text_only_info": "AI가 일을 잘못하면 바로 잡아줘야 하는 이유 - 하네스가 자동으로 감지/교정",
+    "combined_insight": "하네스 시스템 실전 동작: Claude Code가 자동으로 worktree 부팅 -> runtime.json 생성 -> 계획 수립(Envisioning) -> 실행. AI가 잘못하면 CDP 검증(5번)이 자동 감지. 화면은 실제 터미널 로그를, 대본은 자동 교정의 필요성을 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

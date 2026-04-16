@@ -1,0 +1,26 @@
+{
+  "scene_id": 131,
+  "frame_name": "frame_006283.jpg",
+  "start_time": 3134.5,
+  "end_time": 3148.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제작비가 많이 들어가고 이런게 아무 상관이 없습니다. 요즘 시대는 아무 상관이 없어요. 그냥 포장을 잘해 가지고 빨리 많이 진짜 고객의 니즈에 맞는 걸 출시하는게 중요하지. 뭐 기업 뭐이 돈을 얼마나 투입했고 인원이 많아 아무 소용이 없습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

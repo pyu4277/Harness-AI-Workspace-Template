@@ -1,0 +1,26 @@
+{
+  "scene_id": 1233,
+  "frame_name": "frame_038660.jpg",
+  "start_time": 19326.0,
+  "end_time": 19333.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하는 거잖아요. 그래서 파이어베이 스튜디오 안에서 하는 거야 뭐 상관없죠. 아 시간 지체돼요. 아 죄송합니다.네 지금 또 잠깐 잡단을 했는데 바로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

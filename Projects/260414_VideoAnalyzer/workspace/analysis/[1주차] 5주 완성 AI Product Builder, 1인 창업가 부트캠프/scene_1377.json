@@ -1,0 +1,26 @@
+{
+  "scene_id": 1377,
+  "frame_name": "frame_042098.jpg",
+  "start_time": 21037.5,
+  "end_time": 21060.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "렉이 이렇게 걸리는 거 같은데. 음. 네. 껐다 켜 주시면 됩니다. 혹시나 아 답답하다 하면은 다시 한번 껐다 켜 가지고 재미나이. 아, 맞아요. 그냥 이거는 쭉 아, 이런 식으로 하는구나라고 보시면 됩니다. 이게 뭐 엄청 어려운 것도 아니고. 네. 그 백핸드 배우면 이미"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

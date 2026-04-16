@@ -1,0 +1,26 @@
+{
+  "scene_id": 1478,
+  "frame_name": "frame_044849.jpg",
+  "start_time": 22416.5,
+  "end_time": 22431.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "퓨 세컨 저거니까 됐고. 들어가서 어 야, 여기 댓글 서비스 동물상 테스트가 생겼어요. 링크 딸깍 눌러 보면 와, 동물상 확인해 보세요. 시작하기. 아, 카메 카메라 카메라 이거 안 되는데. 음. 카메라 그러면 카메라로 연결하지"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 976,
+  "frame_name": "frame_031170.jpg",
+  "start_time": 15581.5,
+  "end_time": 15587.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면은 이제 거의 끝났습니다. 야, 이렇게 연결이 다 돼 버렸어요. 네. 이제 모든 작업을 한 거 깃"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

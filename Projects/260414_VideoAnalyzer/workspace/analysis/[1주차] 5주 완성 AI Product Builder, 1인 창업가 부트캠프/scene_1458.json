@@ -1,0 +1,26 @@
+{
+  "scene_id": 1458,
+  "frame_name": "frame_043779.jpg",
+  "start_time": 21870.5,
+  "end_time": 21907.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요거 어 뭐 표준으로 생성을 해 보도록 하겠습니다. 자 아 근데 제 웹캠이 지금 사용 중이라 가지고 이게 될지 모르겠는데음 이런 겁니다.이 AI 모델을 학습시키고 그걸 활용할 수 있게 되게 쉽게 제공해 주는 툴인데 예를 들어 뭐가 있을까요? 뭐 주먹 어 가위 가위바이보 하나 만들어 볼게요. 어네 이렇게 주먹 가위보 만들어서 웹캠이 되나 한번 해 볼게요. 어 아 이거 아마 지금 쓰고 있어 가지고 그러면 잠깐 얘를 꺼야 되나?네 네. 끄고 다시"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 937,
+  "frame_name": "frame_030212.jpg",
+  "start_time": 15099.5,
+  "end_time": 15111.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해 보자면 자 요거를 직접 해 보겠습니다.네 먼저 기닛 여기 명령어들 여기 나와 있어요. 그래서 요거를 그대로 순서대로 하면 되거든요.음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

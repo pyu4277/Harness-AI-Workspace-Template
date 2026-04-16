@@ -1,0 +1,26 @@
+{
+  "scene_id": 167,
+  "frame_name": "frame_001018.jpg",
+  "start_time": 507.0,
+  "end_time": 510.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "통해서 이제 뭔가 그 수정을 하고 로그를 보면서 수정을 하고 다시 어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 (손가락으로 위를 가리키며 말하는 장면, 대본 충분)",
+  "importance_rule_version": 2
+}

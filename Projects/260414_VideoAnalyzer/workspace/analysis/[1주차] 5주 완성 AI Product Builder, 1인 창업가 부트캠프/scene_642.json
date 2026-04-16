@@ -1,0 +1,26 @@
+{
+  "scene_id": 642,
+  "frame_name": "frame_022845.jpg",
+  "start_time": 11413.5,
+  "end_time": 11430.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "들어가 보면 오 ws 오호 [음악] 아이고 아네 엄청 완성도가 있지 않지만 아무튼 이런 식으로 만들면 되죠 고쳐줘 고쳐줘 하면 만들었지니까 야 아무튼 붐도 만드신 분도 계십니다"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 52,
+  "frame_name": "frame_002783.jpg",
+  "start_time": 1359.5,
+  "end_time": 1422.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거는 너무 명확한 거 같습니다. 네. 그래서 아마 그 아시는 분들 아시겠지만 그 알파고와 이세돌 9단님의 대결. 네. 여기서 보면은 딱 이때 대결해서 이제 그 이세돌 님 1승 하시고 겨우 인간의 마지막 승 1승을 하시고 이제 알파고가 4승을 하면서 이제 바둑은 이때 이후로 너무 더 발전해 가지고 더 이상 인간이 AI한테 뭐 바둑을 이길 수 없는 시점이 됐잖아요. 그래서 이세돌 님 직접 제가 팟캐스트에도 모셔 가지고 조코딩 채널에서도 같이 이야기도 해 봤었는데 그런 말씀도 하시더라고요. 그 이제는 바둑이 뭐 아 이제는 AI가 뭐 바둑의 신이랑 거의 다를 바가 없다. 바둑의 신이랑 진비 없다. 뭐 이런 말씀을 해 주셨는데 그 정도로 이제 인간과 그 AI의 실력 차이는 너무나 아득해 가지고 네. 조은 AI를 이길 수 없는네 그런 시점이 되었습니다. 바둑 업계는. 근데 아마 모든 업계가 똑같겠죠. 특히 뭐 코딩 업계는이 정도 빠른 발전을 보이는 거 보면 아마 바둑이랑 똑같이 될 날이 이제 머지 않은 거 같습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

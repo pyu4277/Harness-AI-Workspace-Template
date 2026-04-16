@@ -1,0 +1,26 @@
+{
+  "scene_id": 127,
+  "frame_name": "frame_006034.jpg",
+  "start_time": 3013.0,
+  "end_time": 3020.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "바이브 코딩툴 만드는 회사입니다. 그래서 AI 붙여 가지고 그냥 코딩을 잘할 수 있게 도와주는 회사예요. 맞아요. 이제 API 포장만 잘하면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

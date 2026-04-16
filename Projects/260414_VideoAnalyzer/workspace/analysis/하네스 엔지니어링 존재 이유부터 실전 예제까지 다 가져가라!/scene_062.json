@@ -1,0 +1,26 @@
+{
+  "scene_id": 62,
+  "frame_name": "frame_000375.jpg",
+  "start_time": 185.5,
+  "end_time": 188.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이러면은 이렇게 일하라는 거 아니었는데 이렇게 너 마음대로 막 꿈을 펼치라는 거 아니었는데 그래"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-02: 장식적 밈 오버레이 (꿈을 펼치는 중.png - 정보성 콘텐츠 아님)",
+  "importance_rule_version": 2
+}

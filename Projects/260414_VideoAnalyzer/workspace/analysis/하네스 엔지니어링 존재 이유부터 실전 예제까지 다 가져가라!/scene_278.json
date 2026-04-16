@@ -1,0 +1,37 @@
+{
+  "scene_id": 278,
+  "frame_name": "frame_002524.jpg",
+  "start_time": 1260.0,
+  "end_time": 1263.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - EXEC_PLAN + worktree 터미널 + 실행 앱 3분할 화면",
+    "elements": [
+      "좌상: EXEC_PLAN 문서 (실행 계획 + 체크 항목 목록)",
+      "좌하: App.jsx 터미널 - worktree에서 구현 로그",
+      "좌: 파일 탐색기 (DESIGN.md, OBSERVABILITY.md 등 문서 구조)",
+      "우: 할 일 목록 앱 브라우저 실행 화면 (localhost)"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "EXEC_PLAN(계획) -> worktree(격리 구현) -> 브라우저(실행 확인) 3단계 동시 진행"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "EXEC_PLAN + worktree + 브라우저 3분할",
+      "격리 개발 환경",
+      "실전 워크플로우"
+    ],
+    "summary": "코드 커밋 단계를 진행을 하게 됩니다. 그래서 여기서 이제 코드를 커밋하고 머지를 하면은 이제 오른쪽에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "하네스 개발 환경 전체 조감: EXEC_PLAN(계획문서) + worktree 터미널(격리 개발) + 브라우저(실행 앱) 3분할. 계획->구현->확인이 한 화면에서 동시 진행",
+    "text_only_info": "코드가 워크트리 환경에서 구현되기 때문에 메인 브랜치 안전",
+    "combined_insight": "하네스 실전 개발 화면: EXEC_PLAN(무엇을) + worktree(어디서) + 브라우저(결과 확인) 3분할로 계획-구현-검증 사이클이 한 화면에서 진행. 화면이 보여주는 이 구조가 하네스 엔지니어링의 실전 워크플로우"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

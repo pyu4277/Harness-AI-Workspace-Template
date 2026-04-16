@@ -1,0 +1,26 @@
+{
+  "scene_id": 558,
+  "frame_name": "frame_020504.jpg",
+  "start_time": 10250.0,
+  "end_time": 10253.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있는데 수정이 다 되면 요걸로 어 다 됐습니다. 이제 수정된 코드 복사해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

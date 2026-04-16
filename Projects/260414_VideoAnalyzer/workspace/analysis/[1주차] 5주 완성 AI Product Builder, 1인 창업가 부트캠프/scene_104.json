@@ -1,0 +1,26 @@
+{
+  "scene_id": 104,
+  "frame_name": "frame_005083.jpg",
+  "start_time": 2518.0,
+  "end_time": 2564.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "AI와 함께 하는 그런 시대가 됐습니다. 네. 그래서 뭐 IT 프로덕을 만든다라고 하면 보통 뭐 팀이 이런 식으로 돼 있잖아요. 뭐 기획하는 팀 있고 개발하는 팀 있고 이걸 마케팅하는 팀이 있고 뭐 수익화 뭐 연계 어느 정도 다 붙어 있는 거긴 한데 뭐 수익화 하는 팀도 있고 데이터 분석하는 팀도 있고 이거 성장시키는 팀도 있고 한데 사실 이게 모두 다 AI가 수행하면서 이제 너무 쉬워졌거든요. 그래서 한 사람 한 팀이이 하나만 파기에는 너무이 인력이 남아요. 왜냐면 AI가 다 해 주는데 나머지도 AI가 다 해 주거든요. 그래서 하나만 하기에는 이제 너무 부족한 시대입니다. 다 이제 경계가 싹 허물어졌어요. 이제 모든게 하나의 그냥 IT 프로덕 팀이 그냥 한 명이 모드 할 수 있는 시대가 됐습니다. 네. 그래 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1120,
+  "frame_name": "frame_034851.jpg",
+  "start_time": 17420.5,
+  "end_time": 17429.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요거를 누른 다음에 프로젝트네임투이 이거는 영어 이름으로 아무렇게나 정해 주시고 크리에이트 프로젝트 눌러서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

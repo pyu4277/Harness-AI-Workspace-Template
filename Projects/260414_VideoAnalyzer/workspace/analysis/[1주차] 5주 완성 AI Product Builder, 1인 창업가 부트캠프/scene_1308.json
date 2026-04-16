@@ -1,0 +1,26 @@
+{
+  "scene_id": 1308,
+  "frame_name": "frame_040401.jpg",
+  "start_time": 20193.0,
+  "end_time": 20207.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "폼을 하고 크리에이트 폼을 해서 어 벌써 주소가 나왔어요. 엔드 포인트라고 하는데 요게 이제 그 백엔드에 접근을 하려면 어떤 뭐 주소가 있어야 접근을 할 수 있잖아요. 그래서 요렇게 주소를 줍니다. 그래서 요렇게 해서 이거를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

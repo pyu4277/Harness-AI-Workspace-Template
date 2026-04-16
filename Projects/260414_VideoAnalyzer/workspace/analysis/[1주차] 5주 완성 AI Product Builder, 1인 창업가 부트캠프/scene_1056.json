@@ -1,0 +1,26 @@
+{
+  "scene_id": 1056,
+  "frame_name": "frame_032794.jpg",
+  "start_time": 16395.0,
+  "end_time": 16398.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가지고 그다음에 셋업 누르고 메인 브랜치를 저희는 요거 배포할 거고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

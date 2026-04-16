@@ -1,0 +1,26 @@
+{
+  "scene_id": 152,
+  "frame_name": "frame_000926.jpg",
+  "start_time": 461.0,
+  "end_time": 464.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "개발자들이 개발을 할 때에는요. 제가 개발자 시절에 손개발자 시절에 제가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

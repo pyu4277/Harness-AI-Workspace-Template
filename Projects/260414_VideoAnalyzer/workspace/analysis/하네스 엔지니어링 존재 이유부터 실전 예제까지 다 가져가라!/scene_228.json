@@ -1,0 +1,26 @@
+{
+  "scene_id": 228,
+  "frame_name": "frame_001566.jpg",
+  "start_time": 777.0,
+  "end_time": 788.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - ChatGPT 대화 화면 (하네스 엔지니어링 프롬프트)",
+    "elements": ["ChatGPT 대화 인터페이스", "프롬프트: Codex를 사용해 보세요 박스", "URL: https://openai.com/ko-KR/index/harness-engineering/", "프롬프트 내용: 이 글을 참고해서 하네스 엔지니어링 시스템을 완벽하게 만들어줄 수 있는 프롬프트를 만들어줘", "ChatGPT 응답: 신규 버전에 피드백을 주고 계십니다"],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["CLAUDE.md 핵심 중요성", "Claude Code 실행 전 자동 로드", "하네스 시스템 프롬프트 생성"],
+    "summary": "사항들도 제가 알려 드리도록 할게요. 자, 일단 여기서의 핵심은요. 저는 여전히 클로드.md MD 파일이라고 생각합니다. 자,이 클로드 MD 파일이 중요한 이유는요.이 클로드 코드가 내가 어떤 거를 실행하기 전에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "ChatGPT에게 OpenAI 하네스 엔지니어링 URL을 제공하고 시스템 구축 프롬프트 생성을 요청한 실제 대화 화면. 프롬프트 전문과 응답 시작 부분 확인 가능",
+    "text_only_info": "핵심은 CLAUDE.md 파일. Claude Code가 실행 전에 자동으로 이 파일을 로드하므로 가장 중요한 컨텍스트 파일",
+    "combined_insight": "하네스 엔지니어링 실전 구축 과정: OpenAI 공식 문서 URL을 ChatGPT에 입력하여 시스템 구축 프롬프트를 자동 생성. 화면은 실제 프롬프트 입력 과정을 보여주고, 대본은 CLAUDE.md가 핵심인 이유를 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

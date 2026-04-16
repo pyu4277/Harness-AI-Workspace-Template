@@ -1,0 +1,26 @@
+{
+  "scene_id": 1675,
+  "frame_name": "frame_050226.jpg",
+  "start_time": 25109.5,
+  "end_time": 25116.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "사실 예를 들어 이런 거죠. 저희 저녁 뭐먹지라는 그 사이트 만들었잖아요. 근데 여기에다가 이걸"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

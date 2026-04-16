@@ -1,0 +1,26 @@
+{
+  "scene_id": 280,
+  "frame_name": "frame_002565.jpg",
+  "start_time": 1275.5,
+  "end_time": 1288.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "지금 현재 머지가 되면서 작성자 정보가 추가가 된 걸 보실 수가 있습니다. 그래서 메인 작업 환경에서 바로 바뀌는게 아니라 어 거크트에서 작업을 하고 바뀐다라는 거. 그리고 계획 문서도요. 지금 현재 컴플리티드로 옮겨졌습니다. 자동으로."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

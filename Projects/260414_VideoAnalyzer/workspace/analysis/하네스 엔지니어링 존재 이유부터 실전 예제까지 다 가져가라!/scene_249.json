@@ -1,0 +1,26 @@
+{
+  "scene_id": 249,
+  "frame_name": "frame_002088.jpg",
+  "start_time": 1042.0,
+  "end_time": 1045.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "예를 들어서 코드 테스트 하기 전에음 예를 들어서 어 그 마스터 브렌치에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

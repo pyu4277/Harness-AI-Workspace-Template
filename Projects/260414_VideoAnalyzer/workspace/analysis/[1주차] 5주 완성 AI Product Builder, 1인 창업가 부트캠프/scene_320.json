@@ -1,0 +1,26 @@
+{
+  "scene_id": 320,
+  "frame_name": "frame_014490.jpg",
+  "start_time": 7238.5,
+  "end_time": 7251.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "알겠죠? 그러면은 확실히 이렇게 딱 그 마우스를 움직일 때마다 이게 어느 영역을 표현하고 있는이 프론트엔드 코드구나라는 걸 이해할 수가 있습니다. 네. 그래서 요거 요거 있거든.요 버튼.요 버튼을 누르면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

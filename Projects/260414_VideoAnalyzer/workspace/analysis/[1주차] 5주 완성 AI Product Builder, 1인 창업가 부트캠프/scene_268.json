@@ -1,0 +1,26 @@
+{
+  "scene_id": 268,
+  "frame_name": "frame_013240.jpg",
+  "start_time": 6594.0,
+  "end_time": 6645.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다음에 네. 그 그냥 빈 메모장이죠. 여기서이 인덱스ht htm 있잖아요. 요거를 쓱 떨구면은 이렇게 인덱스.html HTML 열리게 됩니다. 여기에 이제 HTML 코드를 여기에 쓰면 됩. 아, 재미나한테 물어봐서 겨우했네. 맞아. 모르신 분들은 이제 여기서 이제 막힌 분들 있을 거예요. AI한테 물어보시면서 진행하시면 됩니다. 어, 텍스트 에디 안 깔려 있나요? 아, 그러면 쉽지 않은데. 음. 아, 윈도우 돋보기 옆에 메모라고 입력하시면 됩니다. 아, 그렇죠.이 이 메모장을 켜시는 방법도 모르신 분들 있을 텐데 아 죄송합니다. 요거는 메모장을 어떻게 켜냐면 그 어떻게 되냐? 그 윈도우 키 그 키보드에 보시면은 윈도우 키가 있거든요. 여기에 오 요거 있죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-02: macOS 바탕화면 + 거의 빈 웹페이지(전구 아이콘만), 시각 콘텐츠 부족",
+  "importance_rule_version": 2
+}

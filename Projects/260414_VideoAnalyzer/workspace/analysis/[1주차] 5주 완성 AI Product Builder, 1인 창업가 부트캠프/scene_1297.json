@@ -1,0 +1,26 @@
+{
+  "scene_id": 1297,
+  "frame_name": "frame_040037.jpg",
+  "start_time": 20015.5,
+  "end_time": 20021.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "받을 때는 아무거나 연결하면 되죠. 네. 네. 그렇기 때문에 이제 이걸 한번 해 보도록 하겠습니다. 네. 그럼 요겁니다. 그래서 여기"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

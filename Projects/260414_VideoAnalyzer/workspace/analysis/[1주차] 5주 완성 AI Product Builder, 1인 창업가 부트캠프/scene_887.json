@@ -1,0 +1,26 @@
+{
+  "scene_id": 887,
+  "frame_name": "frame_028969.jpg",
+  "start_time": 14482.0,
+  "end_time": 14486.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "실행하시면 되겠습니다. 재미나이는 재미나이로 실행하시면 되고. 네. 아, 좀 정리를 해 놓을게요. 한 김에 걸로 설치."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

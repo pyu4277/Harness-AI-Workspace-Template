@@ -1,0 +1,26 @@
+{
+  "scene_id": 239,
+  "frame_name": "frame_001922.jpg",
+  "start_time": 957.5,
+  "end_time": 964.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code CLAUDE.md 4단계 검증 상세 (verify-task.sh)",
+    "elements": ["4단계: 검증 실행 상세 항목", "단위 테스트 (vitest)", "린트 (eslint)", "빌드 (vite build)", "파일 크기 제한", "타입 검증", "검증 미통과 시 커밋 불가 (강조 박스)"],
+    "extracted_formulas": [],
+    "extracted_code": ["bash scripts/verify-task.sh 를 실행하여 전체 검증", "**검증을 통과하지 않으면 커밋하지 않는다.**"],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["커밋 전 필수 검증 5종", "구조적 강제 메커니즘"],
+    "summary": "이게 바로 제가이 코드를 어떤 커밋하기 전에 그러니까 세이브하기 전에 반드시 검증 단계에서 지켜야 되는 것들에 대해서 나와"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "검증 5종 목록 상세: vitest(단위테스트), eslint(린트), vite build(빌드), 파일 크기 제한, 타입 검증. 커밋 차단 규칙 강조 표시",
+    "text_only_info": "커밋 전 검증은 세이브 전 반드시 지켜야 하는 것들",
+    "combined_insight": "하네스 검증 단계 상세: 5종 자동 검증으로 코드 품질 게이트 구현. 화면은 구체적 검증 항목과 차단 규칙을, 대본은 이것이 '세이브 전 필수 검증'임을 강조"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

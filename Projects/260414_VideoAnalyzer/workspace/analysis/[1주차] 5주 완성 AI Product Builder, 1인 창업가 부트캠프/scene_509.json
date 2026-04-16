@@ -1,0 +1,26 @@
+{
+  "scene_id": 509,
+  "frame_name": "frame_019331.jpg",
+  "start_time": 9660.0,
+  "end_time": 9670.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기서 요거 지원되지 않는 프로토콜 사용합니다. 요거 요런 거 있잖아요. 요거에 어, 왜 일어났지? 저저도 모르거든요. 이거 뭔지 모릅니다. 저도. 근데 렇게 입력하시면 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

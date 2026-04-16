@@ -1,0 +1,26 @@
+{
+  "scene_id": 1499,
+  "frame_name": "frame_045267.jpg",
+  "start_time": 22631.0,
+  "end_time": 22635.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "놀랍죠? 네. 사진 세 장만으로도 이렇게 학습이 되고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

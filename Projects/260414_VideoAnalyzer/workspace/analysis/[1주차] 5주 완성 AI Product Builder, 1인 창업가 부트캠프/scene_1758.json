@@ -1,0 +1,26 @@
+{
+  "scene_id": 1758,
+  "frame_name": "frame_051838.jpg",
+  "start_time": 25915.0,
+  "end_time": 25922.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "600만 원씩 이렇게 받을 수 있는 요런 사이트로 충분히 이제 성장할 수가 있겠습니다. 어, 광고가 안 뜨시나요? 아, 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

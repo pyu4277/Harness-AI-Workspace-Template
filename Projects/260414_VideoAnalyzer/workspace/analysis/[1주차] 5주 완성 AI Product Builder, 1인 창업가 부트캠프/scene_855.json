@@ -1,0 +1,26 @@
+{
+  "scene_id": 855,
+  "frame_name": "frame_028473.jpg",
+  "start_time": 14234.5,
+  "end_time": 14238.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 오 그 재미나이 쓰셔도 되고 오픈에 코덱 쓰셔도 되고 아니면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

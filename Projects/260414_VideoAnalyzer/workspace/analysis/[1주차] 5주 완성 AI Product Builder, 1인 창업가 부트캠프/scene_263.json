@@ -1,0 +1,26 @@
+{
+  "scene_id": 263,
+  "frame_name": "frame_013116.jpg",
+  "start_time": 6553.5,
+  "end_time": 6562.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "텍스트를 써야 됩니다. 어. 아, 요거에 커맨드가이 커맨드가 안 나요. 이거 자 채비티가 알려 준 거긴 한데. 네. 아무튼 요렇게 그 런치"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

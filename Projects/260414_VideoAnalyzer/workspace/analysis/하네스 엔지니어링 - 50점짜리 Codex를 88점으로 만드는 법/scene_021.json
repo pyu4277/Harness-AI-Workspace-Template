@@ -1,0 +1,35 @@
+{
+  "scene_id": 21,
+  "frame_name": "frame_001096.jpg",
+  "start_time": 543.0,
+  "end_time": 552.5,
+  "visual_analysis": {
+    "layout": "GitHub 스크린샷 - 레포지토리 구조",
+    "elements": [
+      "GitHub 파일 리스트",
+      "harness_eng_with 폴더"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "GitHub 레포",
+      "harness_eng",
+      "실습 예제"
+    ],
+    "summary": "폴더 위드 폴더를 보면 앞서 드린 에이전트.md, 플랜.md 그리고 에버스 폴더와 스킬스 폴더가 있습니다. 그리고이 에이전트.md를 MD를 보면 앞으로이 에이전트한테"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "jayapkdevkr/harness_eng 레포. harness_eng_with 디렉토리 내부: evals/(Init), skills/(Init), AGENTS.md, PLAN.md, README.md",
+    "text_only_info": "",
+    "combined_insight": "실제 GitHub 레포에서 하네스 엔지니어링 적용 구조를 보여줌. harness_eng_with와 harness_eng_without을 나란히 비교할 수 있는 실습 레포"
+  },
+  "reference_needs": [
+    "jayapkdevkr/harness_eng GitHub"
+  ],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 660,
+  "frame_name": "frame_023338.jpg",
+  "start_time": 11655.0,
+  "end_time": 11682.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 고급 개발은 어떤 거냐? 일단 파이어베이스 스튜디오라는 것을 사용하도록 하겠습니다. 요거는 사실 뭐 직접 내 컴퓨터에 설치해도 되긴 한데 아무래도 이제 컴퓨터마다 환경이 너무 다르고 뭐 용량도 부족하고 뭐 아무튼 뭐 문제가 되게 많이 터질 것 같아서 그냥 똑같이 클라우드 환경에서 개발을 진행할 수 있는네 파이어베이 스튜디오라는 거를 이용해 보도록 하겠습니다. 그래서 AI 쓰는 것도 여기서 좀 편리하게 연결이 잘 돼 있거든요. 그래서 파이어베이 스튜디오 이용해서 개발 해 보려고 하고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

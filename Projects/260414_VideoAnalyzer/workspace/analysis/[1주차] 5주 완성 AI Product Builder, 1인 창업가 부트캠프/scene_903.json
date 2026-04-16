@@ -1,0 +1,26 @@
+{
+  "scene_id": 903,
+  "frame_name": "frame_029429.jpg",
+  "start_time": 14711.0,
+  "end_time": 14717.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "쉽긴 한데. 네. 이런 좀 설정 좀 귀찮은 걸 좀 하긴 해야 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

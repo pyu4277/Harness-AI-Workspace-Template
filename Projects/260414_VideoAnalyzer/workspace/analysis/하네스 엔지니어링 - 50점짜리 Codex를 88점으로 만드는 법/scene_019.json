@@ -1,0 +1,26 @@
+{
+  "scene_id": 19,
+  "frame_name": "frame_001039.jpg",
+  "start_time": 512.5,
+  "end_time": 525.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐가 있는지 기록할 수 있죠. 그러면 실제로 한번 하네스 엔지니어링 기법 녹여서 했을 때와 녹이지 않았을 때의 결과를 비교해 보겠습니다. 제가 폴더 하나를 만들어서 깃업에다가 올려 놨습니다. 고정 링크에도 있는이 링크 따라 들어오시면 요런 폴더 하나가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "뭐가 있는지 기록할 수 있죠. 그러면 실제로 한번 하네스 엔지니어링 기법 녹여서 했을 때와 녹이지 않았을 때의 결과를 비교해 보겠습니다. 제가 폴더 하나를 만들어서 깃업에다가 올려 놨습니다. 고정 링크에도 있는이 링크 따라 들어오시면 요런 폴더 하나가",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

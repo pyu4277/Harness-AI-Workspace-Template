@@ -1,0 +1,26 @@
+{
+  "scene_id": 204,
+  "frame_name": "frame_001379.jpg",
+  "start_time": 687.5,
+  "end_time": 690.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "핵심이라고 봅니다. 우리가 단순히 프롬프트만 이렇게 막 하지 마 이거 제발하지 마 부탁이야 이렇게 쓰는게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 (하지 말라는 얘기 설명, 시각 콘텐츠 없음)",
+  "importance_rule_version": 2
+}

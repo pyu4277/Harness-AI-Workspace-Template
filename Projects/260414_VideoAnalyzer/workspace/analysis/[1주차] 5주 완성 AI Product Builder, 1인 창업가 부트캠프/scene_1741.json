@@ -1,0 +1,26 @@
+{
+  "scene_id": 1741,
+  "frame_name": "frame_051513.jpg",
+  "start_time": 25745.5,
+  "end_time": 25766.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "검토 요청을 해 보겠습니다. 어, 동의 메시지. 아, 요거는 요즘에 구글 에센스 이런게 그 아무래도 그 구글에서 아마 정보 가져가는게 있다 보니까 요런게 있을 거예요. 유럽, 경제 지역, 영국, 스위스 사용자들은 동의를 얻어야 됩니다. 네. 그래서 보통 외국 사이트 가면 무슨 뭐 쿠키 허용하시겠습니까? 뭐 해가 뜨는 거 있잖아요. 이렇게 팝업 뜨는 거. 그런게 다 요런 건데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

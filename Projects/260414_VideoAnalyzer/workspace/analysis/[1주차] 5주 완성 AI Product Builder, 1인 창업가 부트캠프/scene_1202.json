@@ -1,0 +1,26 @@
+{
+  "scene_id": 1202,
+  "frame_name": "frame_037618.jpg",
+  "start_time": 18807.0,
+  "end_time": 18810.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이미지 하나 그럼 해 볼게요. 저 피자 피자 이미지. 어 피자 근데 이거 무료 이미지 써야"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

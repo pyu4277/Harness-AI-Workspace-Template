@@ -1,0 +1,26 @@
+{
+  "scene_id": 1801,
+  "frame_name": "frame_052746.jpg",
+  "start_time": 26358.5,
+  "end_time": 26387.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 요런 기업. 네. 구글 뭐 인스타그램 최치 넷플릭스 요런 기업이 이제 여기서 나올 수 있지 않을까? 지금 라이브 계속 계시나요? 983분. 아, 아직 계시는군요. 감사합니다. 983분 아마 계속 계시다면 이런 서비스를 여러분의 손에서 만들 수 있는 네. 그런 세상이 열렸습니다. 다 래퍼거든요. 네. 그래서 래핑만 잘하시면 됩니다. 해커톤이 기대됩니다. 해주셨는데 아, 해커톤도 많은 시청 부탁드리겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

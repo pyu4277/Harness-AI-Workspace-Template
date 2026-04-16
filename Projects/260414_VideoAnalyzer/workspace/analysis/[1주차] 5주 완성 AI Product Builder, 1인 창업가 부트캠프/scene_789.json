@@ -1,0 +1,37 @@
+{
+  "scene_id": 789,
+  "frame_name": "frame_027145.jpg",
+  "start_time": 13552.0,
+  "end_time": 13592.5,
+  "visual_analysis": {
+    "layout": "Firebase Studio IDE + Gemini CLI 터미널 + 우측 웹캠/채팅",
+    "elements": [
+      "HTML 코드: Lucky Number Generator",
+      "Gemini CLI ASCII 아트 로고",
+      "Tips for getting started 안내",
+      "productBuilder-week1 프로젝트"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "Lucky Number Generator HTML + Gemini CLI 연동"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Gemini CLI",
+      "Firebase Studio 통합",
+      "AI 코딩 환경"
+    ],
+    "summary": "이렇게 뜨고요. 요거를 복사해 가지고 여기에 마찬가지로 마우스 우클릭하면은 이렇게 붙여 넣어집니다. 그리고 엔터를 누르면 이제 로그인이 된 겁니다. 와 그러면 이제 제미나의 CLI라는 거를 설치를 한 겁니다. 와 이게 세팅이 가장 어려운 거 같아요.네 여기까지 되셨다 하시면은 이제는 이게 끝이지 않을까 뭔가 어려운 거. 왜냐면 여기 돌아가면 이제 뭐 해 줘, 딸깍 뭐 해 줘. 딸깍만 하면 되니까이 과정이 어렵지. 여기까지 되셨다. 끝난 겁니다. 여기까지가 진짜 어려운 고지를 오셨다. 아 코드값 어떻게 봤나요? 여기 있습니다. 여기 아까 구글"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Firebase Studio에서 Lucky Number Generator HTML + Gemini CLI 터미널 (ASCII 로고). 코드 에디터와 AI CLI가 한 화면에 공존",
+    "text_only_info": "Gemini CLI 설치 완료. 로그인 과정이 가장 어려운 부분, 여기까지 되면 끝",
+    "combined_insight": "AI 코딩 환경 완성: Firebase Studio(코드) + Gemini CLI(AI) 통합. 세팅 완료 = 가장 어려운 고비 통과"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: Firebase Studio + Gemini CLI 통합 환경 시각화",
+  "importance_rule_version": 2
+}

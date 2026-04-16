@@ -1,0 +1,26 @@
+{
+  "scene_id": 1345,
+  "frame_name": "frame_041209.jpg",
+  "start_time": 20602.5,
+  "end_time": 20605.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "홈페이지 제작 얼마야? 110만 원 와 110만 원 와 정확하게 저희"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

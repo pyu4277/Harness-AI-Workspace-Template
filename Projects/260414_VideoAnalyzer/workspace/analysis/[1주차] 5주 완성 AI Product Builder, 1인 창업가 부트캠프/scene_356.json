@@ -1,0 +1,26 @@
+{
+  "scene_id": 356,
+  "frame_name": "frame_015418.jpg",
+  "start_time": 7701.5,
+  "end_time": 7715.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐 자바 뭐 이런 얘기를 좀 하시는데 사실 자바랑 자바스크립트가 완전 다르거든요. 그래서 좀 착각하시는 분들이 있어요. 어 이거 자바에서 뭘 추가하면 자바스크립트인 거 아닌가? 뭐 이런 느낌으로 생각할 수가 있을 것 같은데 아예 다른 겁니다. 그 자바스크립트는 이제 인터넷 브라우저"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

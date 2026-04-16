@@ -1,0 +1,26 @@
+{
+  "scene_id": 1504,
+  "frame_name": "frame_045431.jpg",
+  "start_time": 22709.5,
+  "end_time": 22720.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요렇게까지 해서 이제 모든 웹사이트 사실 프론트 엔드만 있거나 혹은 백엔드도 그냥 외부 서비스를 붙이는 것까지 다 구현을 해 봤습니다. 네. 그래서 이제 요런 식으로 어떤 사이트 완성한 거를 볼 수가 있겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

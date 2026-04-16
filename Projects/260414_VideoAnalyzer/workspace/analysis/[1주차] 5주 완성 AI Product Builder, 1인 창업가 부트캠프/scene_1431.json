@@ -1,0 +1,26 @@
+{
+  "scene_id": 1431,
+  "frame_name": "frame_043208.jpg",
+  "start_time": 21601.5,
+  "end_time": 21605.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "줍니다. 또 시간이 가니까 그냥 빨리 해 보면은 와이트 그 다크 모드 풀어서 볼게요. 네. 다크 모드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

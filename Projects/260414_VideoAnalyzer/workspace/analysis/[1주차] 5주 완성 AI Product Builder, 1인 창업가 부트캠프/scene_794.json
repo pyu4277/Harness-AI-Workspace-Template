@@ -1,0 +1,26 @@
+{
+  "scene_id": 794,
+  "frame_name": "frame_027372.jpg",
+  "start_time": 13671.5,
+  "end_time": 13699.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "채치피pt 물어보러 가면서 이거를 제작하셔서요 상태까지 만들면은 이제 재미나이가 여기서 쓸 수 있거든요. 여기서 쓰면 이제 끝났습니다. 여기서만 이렇게 하면 됩니다. 아 어려운 길을 오셨습니다. 그래서 여기까지 되셨다.네 네. 그러면은 이제 많이 세팅이 되신 겁니다. 어, 터미널 창이 사라졌어요 하시는 분들은 여기서 딸깍 터미널, 뉴 터미널 혹은 컨트롤 시프트 C를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-03: scene_789와 거의 동일한 화면 (Firebase Studio + Gemini CLI), 추가 시각 정보 없음",
+  "importance_rule_version": 2
+}

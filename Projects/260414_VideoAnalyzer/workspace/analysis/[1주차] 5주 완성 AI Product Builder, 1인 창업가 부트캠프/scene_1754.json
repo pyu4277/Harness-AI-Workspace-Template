@@ -1,0 +1,26 @@
+{
+  "scene_id": 1754,
+  "frame_name": "frame_051803.jpg",
+  "start_time": 25897.5,
+  "end_time": 25905.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "지정이 가능합니다. 그것도 이제 클로드나 채치피 뭐 제미나이 이용해 가지고 다 만들면 됩니다. 예. 그래서 요거 광고 잘 들어간 걸 볼 수가 있죠. 그래서 여러분도 승인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

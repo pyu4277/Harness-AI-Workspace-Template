@@ -1,0 +1,26 @@
+{
+  "scene_id": 304,
+  "frame_name": "frame_014278.jpg",
+  "start_time": 7135.5,
+  "end_time": 7141.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "인풋하고 슬래시 닫게 하면 이게 하나로 구성된 것도 있습니다. 꼭 여는 태그, 닿는 태그 이렇게 아닌 것도 있고 하나로 구성된 것도 있고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

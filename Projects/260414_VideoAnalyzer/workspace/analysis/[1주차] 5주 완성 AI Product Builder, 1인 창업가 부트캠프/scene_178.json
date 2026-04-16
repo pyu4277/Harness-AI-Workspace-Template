@@ -1,0 +1,26 @@
+{
+  "scene_id": 178,
+  "frame_name": "frame_009231.jpg",
+  "start_time": 4595.0,
+  "end_time": 4635.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "소개를 드리겠습니다. 커서 안 써도 됩니다. 커서는 유료잖아요. 그래서 최대한 유료를 뺐습니다. 돈 들어가는 걸 최대한 빼고 진짜 마음만 먹으면 무료로 모든 걸 할 수 있게 일단은 구성을 최대한 해 놨습니다. 네. 물론 이제 돈을 내야 되는 경우도 있긴 하거든요. 구독가 들어가는 경우도 있잖아요. 근데 최대한 일단 돈 안 들어가는 방향으로 일단 설계는 해 놨습니다. 앤티 그래비티 안 쓰고 요거 씁니다. 파이어웨이 스튜디오. 네. 요게 클라우드 기반이라 훨씬 좋습니다. 물론 앤티그랩 쓰셔도 됩니다. 이제이 아시는 분들은 딴 거 쓰셔도 되는데 이제 저는 아예 모르신 분들 대상으로 합니다. 수업은 아예 모르신 분들 대상으로 진행된다라고 소개를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

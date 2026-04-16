@@ -1,0 +1,26 @@
+{
+  "scene_id": 107,
+  "frame_name": "frame_005309.jpg",
+  "start_time": 2636.5,
+  "end_time": 2671.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한다면. 네. 그래서 사실 뭐 본인이 기획자건, 개발자건, 마케터건, 수익 뭐 담당자, 데이터 분석 그로스 하는 사람이건 결국에는 이제 그냥 한 사람이 다 하는 시대가 올 수밖에 없다고 생각을 합니다. 왜냐면 각각 분야를 AI가 다 해 주기 때문에. 그래서 어느 분야에 계시더라도 IT 어느 분야에 계시더라도 결국에는이 모든 것을 할 줄 아셔야 되지 않을까?이 AI가 발전하면 할수록 그런 생각이 듭니다. 네. 그래서 결국에는 어떤 프로덕 빌더 한 명이 IT 프로덕을 다 만드는 네. 그런 시대가 될 거 같고요. 네. 그러다 보면은 이제 이런 시대가 저는 너무나"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

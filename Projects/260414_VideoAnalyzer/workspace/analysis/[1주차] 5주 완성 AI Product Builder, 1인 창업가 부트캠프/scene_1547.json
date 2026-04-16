@@ -1,0 +1,26 @@
+{
+  "scene_id": 1547,
+  "frame_name": "frame_047227.jpg",
+  "start_time": 23610.0,
+  "end_time": 23616.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하겠습니다. 네, 요겁니다. 구글 에드센스고요. 콘텐츠를 만드세요. 수익 창출은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

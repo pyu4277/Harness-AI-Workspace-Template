@@ -1,0 +1,26 @@
+{
+  "scene_id": 1119,
+  "frame_name": "frame_034839.jpg",
+  "start_time": 17417.5,
+  "end_time": 17420.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "눌러서 자 드래그 앤드롭요 파일 요거를 누른 다음에 프로젝트네임투이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 162,
+  "frame_name": "frame_008708.jpg",
+  "start_time": 4346.5,
+  "end_time": 4360.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "약간만 좀 숨 돌리고이 IT 플러덕의 큰 그림네 진행해 보도록 하겠습니다. 그래서 요거 2번부터 시작하고 나머지도 아직 많이 나왔습니다.네 그래서 요거 빠르게 한번 쭉 진행을 해 보겠습니다. 큰 그림부터 요거 쭉 진행을 해 보겠습니다. 와우. 네. [웃음] 어 이게 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

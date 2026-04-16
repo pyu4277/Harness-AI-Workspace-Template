@@ -1,0 +1,26 @@
+{
+  "scene_id": 430,
+  "frame_name": "frame_016907.jpg",
+  "start_time": 8446.5,
+  "end_time": 8459.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보겠습니다. 지금 우리가 만든 거 뭐 로또 사이트 만들었는데 그냥 내 컴퓨터에서 돌아가요. 내 컴퓨터에서 인덱스. hhtm 만들어서 얘를 클릭해야지만이 사이트가 열리잖아요. 그래서 실제로 여러분들 만드신 걸 주소를 보면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 230,
+  "frame_name": "frame_001604.jpg",
+  "start_time": 794.0,
+  "end_time": 809.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "시작을 합니다. 무조건 얘는 읽고 시작을 하는 거예요. 그래서 여기에 사실 중요한 규칙을 넣는게 중요합니다. 어, 참고로이 문서에서는요.요 문서에서는요.이 클로드 MD 파일에 대한 언급은 없습니다. 그래서 제가 실제로 하네스 엔지니어링 만들어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

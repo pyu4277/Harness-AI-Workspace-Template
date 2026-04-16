@@ -1,0 +1,26 @@
+{
+  "scene_id": 1009,
+  "frame_name": "frame_031763.jpg",
+  "start_time": 15878.5,
+  "end_time": 15883.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하면은 별도로 이렇게 로그인 할 수가 있거든요. 이렇게 그래서 기터브랑 연동하면 연결이 됩니다. 이렇게 다시"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

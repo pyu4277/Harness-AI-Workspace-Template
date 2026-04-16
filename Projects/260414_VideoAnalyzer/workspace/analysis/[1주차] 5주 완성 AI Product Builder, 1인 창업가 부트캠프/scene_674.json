@@ -1,0 +1,26 @@
+{
+  "scene_id": 674,
+  "frame_name": "frame_023935.jpg",
+  "start_time": 11937.0,
+  "end_time": 11997.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "내가 코드가 털리겠네요. 해셨는데 이게 그 권한이 두 권한을 관리할 수 있습니다. 그러니까 공개 저장할 수도 있고요. 아니면 나만 보게 저장하거나 내가 뭐 내가 추가한 사람만 보게 저장할 수 있습니다. 사실이 개념이랑 같죠.이 구글 드라이브, 구글 포토 이런데도 뭐 네이버 클라우드 이런 것도 사실 내 사진들 막 올리잖아요. 근데 내 사진들 올린다고 전 세계 모두가 볼 수 있게 만들면 좀 안 되겠죠. 그래서 이것도 권한 조정을 할 수가 있잖아요. 그것처럼 기터브도 똑같습니다. 네. 기터브에 수업 작성한 코드 올려 놓겠습니다. 네. 올려 놓도록 하겠습니다. 아무튼 그런 개념으로 돌아간다라고 이해해 주시면 좋을 것 같고요. 스샷 찍으면 안 됨. 스샷도 괜찮긴 한데 근데 아무래도이 텍스트가 있는게 좀 수정하기가 편하잖아요. 그래 가지고 예. 이렇게 기터브라는 걸로 이제 코드로 관리한다라고 보시면 될 것 같습니다. 네. 그래서 요렇게 가입을 하시는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

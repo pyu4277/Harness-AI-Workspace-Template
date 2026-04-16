@@ -1,0 +1,26 @@
+{
+  "scene_id": 141,
+  "frame_name": "frame_006760.jpg",
+  "start_time": 3370.0,
+  "end_time": 3389.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해야지 차별점이 생기지. 모두가 이제 그냥 딸각으로 모든 걸 만들어 버리는 진짜 그런 시대가 AGI 시대가 오면은 이제는 그 경쟁력 마저도 없어질 수 있기 때문에네 빨리 지금이 시점 정도에 시작을 해야 된다라고 소개를 드릴 수가 있겠습니다. 네. 그렇습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

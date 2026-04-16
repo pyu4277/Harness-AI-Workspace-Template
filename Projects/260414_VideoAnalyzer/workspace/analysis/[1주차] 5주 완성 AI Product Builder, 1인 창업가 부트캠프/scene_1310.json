@@ -1,0 +1,26 @@
+{
+  "scene_id": 1310,
+  "frame_name": "frame_040428.jpg",
+  "start_time": 20211.0,
+  "end_time": 20216.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있죠. 네. 요렇게 돼 있죠. 그러면 이걸 직접 연결해 볼게요. 그러 요게 엔드 포인트니까 재미나이한테 시켜 보겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

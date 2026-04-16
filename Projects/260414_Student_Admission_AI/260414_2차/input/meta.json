@@ -1,0 +1,40 @@
+{
+  "company_name": "삼성전자",
+  "company_legal_name": "삼성전자 주식회사",
+  "industry": "반도체/디스플레이 및 가전/모바일/영상 제조",
+  "parent_group": "삼성그룹",
+  "recruitment_type": "정규직 공채 (사용자 확정 -- 정확 공고 URL 재확인 필요)",
+  "program_name": "삼성전자 2026 DX-MX 연구개발 공채 (가칭 -- researcher 가 최종 명칭 확인)",
+  "job_title": "연구개발 (R&D)",
+  "division": "DX-MX (Mobile eXperience)",
+  "division_pool": [
+    "DS (Device Solutions, 반도체)",
+    "DX-VD (Visual Display, TV/디스플레이)",
+    "DX-MX (Mobile eXperience, 스마트폰/웨어러블)",
+    "DX-DA (Digital Appliances, 생활가전)",
+    "DX-NW (Networks, 네트워크/통신)",
+    "Harman (전장/오디오 자회사)"
+  ],
+  "deadline": null,
+  "deadline_time": null,
+  "application_period_start": null,
+  "is_reapply": false,
+  "previous_round": "260414_1차 (현대글로비스 -- 테스트 전용, output 미생성)",
+  "data_collected_at": "2026-04-14",
+  "form_file": "20251114_삼성전자.hwpx",
+  "form_verified": true,
+  "form_source": "사용자 제공 HWPX (Preview/PrvText.txt 파싱 확인)",
+  "essay_questions_count": 4,
+  "essay_total_chars": 1300,
+  "evidence_source": "../260414_1차/evidence_vault/",
+  "evidence_policy": "1차 vault 공유 참조 (사용자 결정 2026-04-14). 2차 자체 vault 는 미사용 -- INDEX.md 제외 모두 비움.",
+  "applicant_name": "박용운",
+  "applicant_basis": "1차 evidence_vault 자료 명의 (박사 성적, 2013/2019 우수논문상). 학부생 자료 (서은재 등) 는 지도학생 사례로만 인용 가능",
+  "output_format_policy": "출력은 입력 양식 확장자를 echo (HWPX -> HWPX, DOCX -> DOCX). 자소서 4문항은 fill_hwpx.py 스크립트가 양식 내 빈 paragraph 에 삽입하고 자수 카운터 갱신",
+  "output_files": {
+    "자소서": "output/20251114_삼성전자_박용운.hwpx (양식 echo)",
+    "이력서": "양식 미제공 -- 사용자가 양식 투입 후 작성. 미제공 시 자체 markdown 폴백 (output/이력서.md)",
+    "포트폴리오": "양식 미제공 -- 동일"
+  },
+  "notes": "사업부 DX-MX / 직군 연구개발 확정. researcher 는 DX-MX (Galaxy 생태계) + 연구개발 (SW/HW/AI 알고리즘) 범위로 실행."
+}

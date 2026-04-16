@@ -1,0 +1,26 @@
+{
+  "scene_id": 510,
+  "frame_name": "frame_019372.jpg",
+  "start_time": 9670.0,
+  "end_time": 9701.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "저도. 근데 렇게 입력하시면 됩니다. 채치피 들어가셔서 어 그 클라우드 플레이어 페이지로 그 배포 지금 배포하고 있죠. 뭐 하는지 알아야 됩니다. 배포하고 있는데 어 아 다시 정확하게 좀 더 구체적으로 써 줄수록 AI가 이해하기가 좋겠죠로 인덱스.html 파일 배포하고 있는데 이런 오류가 떴어. 무슨 문제야?라고 라고 AI 채치피T한테 물어보면 싹 다 알려줍니다. 딸깍 누르면은 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

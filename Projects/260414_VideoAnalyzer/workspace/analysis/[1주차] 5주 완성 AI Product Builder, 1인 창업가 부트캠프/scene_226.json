@@ -1,0 +1,26 @@
+{
+  "scene_id": 226,
+  "frame_name": "frame_012286.jpg",
+  "start_time": 6138.5,
+  "end_time": 6146.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보겠습니다. 아, 그전에 사실 조금 일단 안심시켜 드린 말씀을 좀 드리자면 아, 이거 이제 너무 어려워지는 거 아니야라고 생각이 드실 수 있는데 사실이 HTML은 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

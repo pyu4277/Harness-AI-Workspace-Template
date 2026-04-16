@@ -1,0 +1,26 @@
+{
+  "scene_id": 1074,
+  "frame_name": "frame_033104.jpg",
+  "start_time": 16520.5,
+  "end_time": 16583.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "추가하고 싶은데 생각이 들면 어, 야, 그 야, 안 해도 됩니다. 야, 그냥 붙인 겁니다. 어, 다크 모드, 화이트 모드 기능 추가해서 어, 깃 푸시로 배포까지 진행해.라고 해보겠습니다. 자, 이게 좀 어려운데 명령이 좀 어려운데 이해하시면 쉬워요. 자, 기능을 추가해서 기 푸시로 배포까지 하는 겁니다. 즉, 기능 이걸로 코드를 수정해요. 얘가 HTMLCS 자바스크립트를 수정합니다. 재미나이가. 그리고 깃푸시라는 거는 이제 배포하는 명령어인데 아 이것도 너무 구시대적이다. 굳이 이렇게 안 쓰셔도 기스로 배포까지 진행해. 네. 조금 더 간략화해 볼게요.요 정도만 해도 알아먹을 것 같거든요. 네. 다코 하이트 모드 기능 추가해서 기수로 배포까지 진행해라고 하면은 이게 기능 수정 그리고 배포까지 한 번에 됩니다. 요걸로. 네. 다시가 볼게요. 엔터 선택."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 74,
+  "frame_name": "frame_000448.jpg",
+  "start_time": 222.0,
+  "end_time": 225.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되더라 이거예요. 그래서 나온게 바로 뭐다? 하네스 엔지니어링이에요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

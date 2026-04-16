@@ -1,0 +1,26 @@
+{
+  "scene_id": 1127,
+  "frame_name": "frame_034977.jpg",
+  "start_time": 17477.5,
+  "end_time": 17498.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보시면 마찬가지로 페이지스라는이 경로에 이렇게 배포가 잘 된 거를 볼 수가 있습니다. 네. 이러면 진짜 페이지 클라우 플레이어 페이지스 전 세계 무제한 트래픽 공짜입니다. 페이지스에서 기터브랑 연결은 어떻게 하나요? 아까 보여 드린게 그겁니다. 네. 그래서 아까 기터브랑 연동"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

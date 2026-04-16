@@ -1,0 +1,26 @@
+{
+  "scene_id": 1796,
+  "frame_name": "frame_052661.jpg",
+  "start_time": 26313.5,
+  "end_time": 26346.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "드리면서 마무리 좀 해 보자면 네. 오늘날의 개발자 네. 요렇게 세팅만 이것만 한번 싹 해 놓으면은 이번 강의를 통해서 1주차만 했는데 이것만 하면은 이제 모든 걸 할 수 있습니다. 그래서이 세팅만 마치시면은 이제 여러분들의 할 일에 2주차부터 5주차까지 남은 과정 할 일은 요겁니다. 네. 오늘날 개발자가 하시는 일 요것만 하시면 되니까 네. 오늘 과정 여러 번 복습하시면서 직접 세팅도 해 보시고 네. 다 완벽하게 만드시면 좋을 것 같습니다. 네. 그래서 이제 여러분도 그이 여기"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

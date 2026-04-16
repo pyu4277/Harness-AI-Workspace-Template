@@ -1,0 +1,26 @@
+{
+  "scene_id": 768,
+  "frame_name": "frame_026712.jpg",
+  "start_time": 13353.5,
+  "end_time": 13358.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하겠습니다. 네. 그래서이 중에 원하는 거 설치하셔도 되고 설치하는 과정은 거의 비슷합니다. 여기에 설치 명령어가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

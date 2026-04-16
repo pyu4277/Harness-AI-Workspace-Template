@@ -1,0 +1,26 @@
+{
+  "scene_id": 241,
+  "frame_name": "frame_001959.jpg",
+  "start_time": 974.0,
+  "end_time": 984.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 린트 테스트 꼭 해라. 빌드 테스트 꼭 해야 된다. 파일 크기 테스트해야 된다. 이런 식으로 강제로 테스트를 할 수 있게 테스트해 줘라고 말만 남기는게 아니라 강제로 테스트 할 수 있게끔 요렇게 소스 코드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

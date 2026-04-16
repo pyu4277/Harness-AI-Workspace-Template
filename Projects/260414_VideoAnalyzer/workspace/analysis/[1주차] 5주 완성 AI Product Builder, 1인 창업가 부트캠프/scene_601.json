@@ -1,0 +1,26 @@
+{
+  "scene_id": 601,
+  "frame_name": "frame_021166.jpg",
+  "start_time": 10556.0,
+  "end_time": 10609.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "겁니다. 어, 용량 제한 없어요. 어. 채치비트 다른 사람 없는 이게 할루시네이션일 수도 있으니까 공식 문서는 한번 봐야 됩니다. 공식 문서는 한번 봐야 되는데 일단은 제한 없다고 합니다. htmlcs 자바스크립트 이미지 아무리 커도 오케이. 근데 이미지 너무 크거나 하면 뭐 느려지긴 하겠죠. 네. 느려지는 거야 뭐 그럴 수 있는데. 음. 아 파일 하나에 25MB 제한. 와 근데 코드로만 파일이 25kg로 아 25MB가 넘기는 쉽지 않을걸요. 왜냐면 웬만한 코드 길이로는 이게 몇 K바 뭐 몇 MB바니까 25M를 넘기는 쉽지 않지 않을까? 아, 근데 재미나이 쓰셔도 됩니다. 이제 저는 채치피pt 썼는데 뭐 재미나이 쓰셔도 되고 클로 쓰셔도 되고 AI는 뭐 쓰셔도 상관없는데 아마 가장 많이 쓰시는게 채치피티라"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

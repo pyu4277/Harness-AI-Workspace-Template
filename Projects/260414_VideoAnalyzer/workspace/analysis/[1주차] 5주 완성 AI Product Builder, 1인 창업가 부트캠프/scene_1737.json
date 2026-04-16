@@ -1,0 +1,26 @@
+{
+  "scene_id": 1737,
+  "frame_name": "frame_051436.jpg",
+  "start_time": 25713.5,
+  "end_time": 25722.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "지원도 되고네 동물상 테스트 되게 뜬금없긴 한데 이렇게도 있고네 이렇게 있고 아 이거 뭐 이런 것도 추가됐고요.네 네. 개인 정보 처리 방침도 추가됐습니다. 네.이 정도면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

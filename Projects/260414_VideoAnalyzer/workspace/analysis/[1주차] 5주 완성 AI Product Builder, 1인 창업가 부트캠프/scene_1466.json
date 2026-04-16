@@ -1,0 +1,26 @@
+{
+  "scene_id": 1466,
+  "frame_name": "frame_044514.jpg",
+  "start_time": 22242.0,
+  "end_time": 22271.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "얘를 복사해 가지고 예한테 또 붙여 놓을게요. 그음 강아지 고양이 구분 하는 모델을 만들어서 이거를 이용해서 어 동물상 테스트하는 사이트를 어 만들어 줘 하고 이거 관련 코드를 제공해 주면 되겠죠. 이렇게 하고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

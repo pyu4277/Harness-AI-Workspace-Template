@@ -1,0 +1,26 @@
+{
+  "scene_id": 545,
+  "frame_name": "frame_020298.jpg",
+  "start_time": 10147.0,
+  "end_time": 10150.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "드리고 고급으로 넘어가겠습니다. 수정하는 것까지. 네. 예를 들어서 지금 이렇게 하면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

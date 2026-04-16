@@ -1,0 +1,26 @@
+{
+  "scene_id": 662,
+  "frame_name": "frame_023426.jpg",
+  "start_time": 11700.0,
+  "end_time": 11725.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 개발 편리하게 해주는 어떤 도구들이 모여 있다. 근데 사실은 뭐 메모장이나 뭐 이런 비슷합니다. 근데 그 좀 더 이쁘게 그냥 글씨도 좀 이렇게 이쁘게 표현해 주고 막 색깔도 넣고 알록달록하게 만드는게 어떤 그 아이디의 역할이고 뭐 터미널 이런 것도 그냥 같이 붙어 있고 해서 좀 더 개발하기 편하게 만들어 줬다일 뿐이지 여러분들이 하시는 아까 하셨던 메모장에 코딩하는 거랑 사실 똑같다라고 아시면 될 거 같습니다. 네. 그래서 요거 이용하실 거고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

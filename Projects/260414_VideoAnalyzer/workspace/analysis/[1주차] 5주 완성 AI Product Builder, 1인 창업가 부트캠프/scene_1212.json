@@ -1,0 +1,26 @@
+{
+  "scene_id": 1212,
+  "frame_name": "frame_037727.jpg",
+  "start_time": 18861.5,
+  "end_time": 18864.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보유하고 있다라고 하면은 얘를 일단 저장해 볼게요. 저장해서 아이고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

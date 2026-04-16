@@ -1,0 +1,26 @@
+{
+  "scene_id": 1352,
+  "frame_name": "frame_041639.jpg",
+  "start_time": 20817.0,
+  "end_time": 20821.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 다시 이거 로그인하셨죠? 여기에 사이트 들어가서 뉴를 누릅니다. 뉴 딸깍 누르면 어 이렇게 크리ate이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

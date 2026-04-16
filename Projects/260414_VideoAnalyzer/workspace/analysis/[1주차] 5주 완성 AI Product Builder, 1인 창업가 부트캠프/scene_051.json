@@ -1,0 +1,26 @@
+{
+  "scene_id": 51,
+  "frame_name": "frame_002712.jpg",
+  "start_time": 1352.0,
+  "end_time": 1359.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보여 드렸듯이 계속 발전하고 있잖아요. 계속 발전하고 있기 때문에 이거를 이제 더 금방 더 뛰어나질 거는 너무 명확한 거 같습니다. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

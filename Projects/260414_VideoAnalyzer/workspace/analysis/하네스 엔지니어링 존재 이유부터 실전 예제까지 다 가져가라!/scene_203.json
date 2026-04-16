@@ -1,0 +1,26 @@
+{
+  "scene_id": 203,
+  "frame_name": "frame_001373.jpg",
+  "start_time": 684.5,
+  "end_time": 687.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "룰을 딱 세팅을 해 줘야겠죠. 이게 바로 저는 한네스 엔지니어링의 핵심이라고 봅니다. 우리가 단순히"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

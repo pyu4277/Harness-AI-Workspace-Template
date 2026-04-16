@@ -1,0 +1,26 @@
+{
+  "scene_id": 1735,
+  "frame_name": "frame_051410.jpg",
+  "start_time": 25699.5,
+  "end_time": 25709.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오 야 이제 소개 페이지가 생겼어요. 사이트 소개 안녕하세요. 저녁 메뉴 추천 서비스에 오신 거 환영합니다.네 마일 변복되는 오늘 저녁 뭐 먹지라는 고민을 해결하기 위해 만들어 서비스입니다. 야 이렇게 다구어"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

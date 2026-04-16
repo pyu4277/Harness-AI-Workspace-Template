@@ -1,0 +1,26 @@
+{
+  "scene_id": 134,
+  "frame_name": "frame_006392.jpg",
+  "start_time": 3192.0,
+  "end_time": 3199.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 제 생각에는 이런 요소들 있잖아요. 뭐 인원수나 기술, 전문성, 퀄리티가 되게 복잡한 어떤 함수인 거 같아요. 뭐 AI도 다 그냥 함수잖아요. 그런 것처럼 막"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 3,
+  "frame_name": "frame_000434.jpg",
+  "start_time": 204.0,
+  "end_time": 229.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아, 좋습니다. 네. 다시 보기는 그 멤버십 용으로 네. 돌아갈 예정인데 네. 일단은 라이브는 이제 무료 전체 공개로 같이 마치 해커톤 하듯이 따라오시면 좋을 것 같습니다. 네. 아무튼 와주신 분들 너무 감사드리고요. 네. 이제 빠르게 시작해 보도록 하겠습니다. 많이 기다려 주신 만큼. 네. 이제 강의 시작해 볼 텐데 그전에 이제 여기는 좀 준비 사항들이 있어서 여기 홈페이지 고정 채팅 링크 남겨 놓은 홈페이지로 접속을 해 보시면네 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

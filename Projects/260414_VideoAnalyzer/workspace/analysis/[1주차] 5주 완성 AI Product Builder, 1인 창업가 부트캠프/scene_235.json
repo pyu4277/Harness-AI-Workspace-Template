@@ -1,0 +1,26 @@
+{
+  "scene_id": 235,
+  "frame_name": "frame_012491.jpg",
+  "start_time": 6234.0,
+  "end_time": 6256.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "개발차 진심 개 빡치게 하는 말 보시면 >> 정원 씨는 어떤 개발 좋아하세요? >> 아 저는 HTML로 프로그래밍 하는 거 제일 좋아. 미친 새낀가 정씨. >> 네. 요게 이제 506만 해로 가장 높은 조회스를 지금 기록하고 있는데 개발자가 그만큼 진심 개빡치게 하는 말이다. 그러니까 HTML로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

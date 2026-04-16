@@ -1,0 +1,26 @@
+{
+  "scene_id": 523,
+  "frame_name": "frame_019560.jpg",
+  "start_time": 9771.0,
+  "end_time": 9788.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "원인은 여기서 다 알려 주니까요. 여기에 해당하는 거 뭐 제일 빨리 원인은 잘 이거 다 알려줍니다. 어떻게 해결해? 알려 줘. 뭐 이렇게만 하면 됩니다. 그러니까 얘가 완전 전문가 선생님이거든요. 그러니까 그냥 물어보기만 하면 됩니다. 어떤 오류가 나왔다. 그냥 이름 물어보면 됩니다. 알아서 다 알려주고 해결해 줍니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

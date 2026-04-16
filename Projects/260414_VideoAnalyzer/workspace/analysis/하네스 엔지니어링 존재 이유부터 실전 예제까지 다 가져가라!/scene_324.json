@@ -1,0 +1,26 @@
+{
+  "scene_id": 324,
+  "frame_name": "frame_002996.jpg",
+  "start_time": 1496.0,
+  "end_time": 1499.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "배워보고 싶으신 분들은요. 제 바이브 코딩 스터디 모집하고 있으니깐요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 767,
+  "frame_name": "frame_026688.jpg",
+  "start_time": 13333.5,
+  "end_time": 13353.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "시점 성능은 가장 좋습니다. 네. 그래서 이제 재미나의 CLI를 일단 공짜로 이용해서 일단 최대한 해 보려고 하고요. 음해 보도록 하겠습니다. 요게 아니 최근에 이제 3도 지원합니다. 네. 그래 가지고 최 지금 기준으로 제일 최근은 제미나 3 플래시도 지원하기 때문에 그걸로 진행해 보도록 하겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

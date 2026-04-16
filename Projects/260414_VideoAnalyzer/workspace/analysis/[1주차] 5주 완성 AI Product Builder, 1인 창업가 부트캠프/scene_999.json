@@ -1,0 +1,26 @@
+{
+  "scene_id": 999,
+  "frame_name": "frame_031523.jpg",
+  "start_time": 15759.5,
+  "end_time": 15763.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 터미널 우측에 아, 요게 요게 그 터미널들 목록이거든요. 요게 어떤"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

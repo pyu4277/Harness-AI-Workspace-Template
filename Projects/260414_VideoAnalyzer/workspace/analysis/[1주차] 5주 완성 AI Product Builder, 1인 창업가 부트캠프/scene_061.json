@@ -1,0 +1,26 @@
+{
+  "scene_id": 61,
+  "frame_name": "frame_003452.jpg",
+  "start_time": 1706.0,
+  "end_time": 1745.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있겠습니다. 네. 그리고 또 대표적인 사례 중에 스택 오버플로우라고이 개발자분들 한 번씩 들어보셨을 것 같습니다. 요게 어떤 거냐면 그 뭐 네이버 지식인 이런 것처럼 질문 올리면 사람들이 답변해 주고 이런 사이트였습니다. 네. 그 사이트였다고 표현할 정도로 요즘에 많이 안 쓰는데 네. 사람들이 이제 개발 관련해서 막히는게 있으면 네이버 지식인한테 찾듯이 뭐 이거 뭐예요 하고 이거 오류 어떻게 해결해요 하면 막 천재들이 답변해 주고 요런 서비스였는데 이게 엄청 화랑이다 보니까 사람들이 너도 나도 뭔가 막히는게 있다 하면 스태고 오플로우 와 가지고 그 이미 질문한 것 중에 나랑 똑같은 문제 겪은 사람 있나 찾아보면서 답변을 복사해 가지고 쓰고네 그래서 민 중에 이런 것도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

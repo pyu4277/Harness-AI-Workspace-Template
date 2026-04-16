@@ -1,0 +1,26 @@
+{
+  "scene_id": 769,
+  "frame_name": "frame_026722.jpg",
+  "start_time": 13358.0,
+  "end_time": 13363.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "비슷합니다. 여기에 설치 명령어가 있거든요. 왜 이게 있냐? 요거를 복사해 가지고 그냥 여기 터미널"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

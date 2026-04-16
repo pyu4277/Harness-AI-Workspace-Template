@@ -1,0 +1,26 @@
+{
+  "scene_id": 276,
+  "frame_name": "frame_002495.jpg",
+  "start_time": 1239.0,
+  "end_time": 1255.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "끝나고 나서 5단계 이제 전체 검증을 시작하게 됩니다. 그래서 검증하는 동안에 로그라던가 뭐 스크린샷이라든가 그런 거를 이제 다 남기게 됩니다. 음. 그래서 로그하면서이 정보들을 나중에 확인을 할 수가 있고요. 그렇게 해서 이제 완료가 되면은 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

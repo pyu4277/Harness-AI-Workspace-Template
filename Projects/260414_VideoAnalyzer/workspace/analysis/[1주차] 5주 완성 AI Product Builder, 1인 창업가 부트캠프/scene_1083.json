@@ -1,0 +1,26 @@
+{
+  "scene_id": 1083,
+  "frame_name": "frame_033433.jpg",
+  "start_time": 16701.0,
+  "end_time": 16731.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거는 이제 수정해 줘 하면은 뭐 기치니 뭐 직접 클라우드 플레이어 이렇게 떨궈서 올리는 거니 이런게 필요가 없습니다. 그냥 알아서 버전 관리 뭐 수정 그리고 그 실제 배포하는 거 한 번에 다 수행을 해 줍니다. 아 이거 이해되시나요? 아, 이거 약간 이제 진짜 많은 걸 했거든요. 아, 네. 진짜 많은 걸 했습니다. 그래서 약간 헷갈리실 수 있는데 아 이거 저 정리를 한번 해 볼게요. 자"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

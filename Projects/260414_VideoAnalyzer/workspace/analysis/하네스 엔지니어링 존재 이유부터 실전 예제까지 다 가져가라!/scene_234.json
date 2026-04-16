@@ -1,0 +1,26 @@
+{
+  "scene_id": 234,
+  "frame_name": "frame_001734.jpg",
+  "start_time": 858.5,
+  "end_time": 874.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code CLAUDE.md 1~3단계 (EXEC_PLAN/Worktree/Test)",
+    "elements": ["1단계: EXEC_PLAN 생성 (bash scripts/start-task.sh)", "생성된 EXEC_PLAN: 목표, 접근법, 단계별, 완료 기준", "계획 없이 코드를 작성하지 않는다 (강조)", "2단계: Worktree에서 구현", "AGENTS.md + ARCHITECTURE.md 참조", "master 브랜치에서 src/ 직접 수정 금지 (강조)", "3단계: 테스트 작성 시작"],
+    "extracted_formulas": [],
+    "extracted_code": ["bash scripts/start-task.sh <task-name> <type>", "EXEC_PLAN = worktree + 포트 + 로그 디렉터리를 한 번에 생성", "**계획 없이 코드를 작성하지 않는다.**"],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["EXEC_PLAN 생성 스크립트", "git worktree 격리 개발", "master 브랜치 직접 수정 금지"],
+    "summary": "개발을 그냥이 내가 일하고 있는이 로컬에서 바로 작업하는게 아니라요.이 깃 워크트리를 따로 파서 여기서 작업을 하고 합치는 행동을 하더라고요. 요게 어디 나와 있냐면요. 자, 여기 보시면요. 워크트리별로 앱을 부팅할 수 있게 해서 코덱스가 변경 사항 하나의"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "CLAUDE.md 실제 코드: start-task.sh 스크립트로 EXEC_PLAN + worktree + 포트 + 로그 디렉터리를 한 번에 자동 생성. 참조 문서 목록(AGENTS.md, ARCHITECTURE.md) 명시",
+    "text_only_info": "git worktree를 사용하여 로컬 복사본에서 작업 후 메인에 합치는 이유 설명",
+    "combined_insight": "하네스 엔지니어링 5단계 중 1~2단계 실전 구현: (1) EXEC_PLAN 자동 생성으로 계획 없는 코딩 구조적 차단 (2) Worktree 격리로 메인 브랜치 보호. 화면은 실제 CLAUDE.md 코드와 스크립트를, 대본은 왜 worktree 분리가 필요한지 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

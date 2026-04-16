@@ -1,0 +1,26 @@
+{
+  "scene_id": 1259,
+  "frame_name": "frame_039433.jpg",
+  "start_time": 19705.0,
+  "end_time": 19727.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "서비스들도 너무 많아요. 그래서 본격 개발을 물론 다 배울 거예요. 어떻게 개발할지 다 배울 건데 그 전에 외부 서비스를 활용하는 방법도 배워 보도록 하겠습니다. 그래야 이제 우리가 다 만들지 않고 이미 만들어진 잘 만들어진 거 있으면 가져다 쓰면 되잖아요. 그래서 만들기보다는 이제 외부 서비스를 가져오는 방법을 좀 소개를 드리겠습니다. 그래서 가져오는 방법도 코드도 방법 뭐 그 종류도 너무 많은데 뭐 대표적으로 API 뭐"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

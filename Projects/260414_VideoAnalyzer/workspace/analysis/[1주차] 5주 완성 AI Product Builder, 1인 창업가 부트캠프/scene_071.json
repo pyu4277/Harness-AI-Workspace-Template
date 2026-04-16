@@ -1,0 +1,26 @@
+{
+  "scene_id": 71,
+  "frame_name": "frame_003790.jpg",
+  "start_time": 1861.0,
+  "end_time": 1928.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "시대가 이제 지나가고 이제는 스택오버 플로우에서 그 헬로우월드가 어떻게 하는지 찾는 거 이런게 오히려 대단한 프로그래머고 와 예전에 어떻게 검색해서 복부을 했지라고 어마어마하게 대단한 프로그래머고 사실 요즘 개발자들은 이제는 딸깍하면서 그냥 이거 켜 놓고 아 이거 만들어 줘. 딸깍 이거 만들어 줘. 딸깍만 하면은 다 코딩이 되기 때문에 이것마저도 어마어마한 시대가 됐습니다. 그래서 점점 더 쉬워지고 있어요. 네. 그래서 진짜 이제는 코딩이 너무 쉬워졌다. 네. 드디어 이제 아무 누구나 배울 수 있는 쉬운 코딩 채널 이게 조코딩 채널의 슬로건이었거든요. 근데 이제 그 시대가 왔습니다. 이제 남녀 노소 누구나 이렇게 딸깍만 하면은 내가 원하는 서비스를 만들 수 있는네 그런 시대가 됐습니다. 네. 그래서 이제는 검색 복사 붙여 넣기도 안 해도 된다. 네. 요거 제가 만들었습니다. 요거 그 AI로 그냥 그 딸깍 민처럼이 도지 만들어 줘 하니까 이렇게 AI가 그려 주더라고요. 네. 네. 아무튼 그렇습니다. 네. 네. 그래서 요렇게 오늘날 개발자는 딸깍만 하면 되는 그런 시대가 됐고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

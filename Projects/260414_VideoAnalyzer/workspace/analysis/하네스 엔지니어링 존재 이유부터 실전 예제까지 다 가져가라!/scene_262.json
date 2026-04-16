@@ -1,0 +1,42 @@
+{
+  "scene_id": 262,
+  "frame_name": "frame_002295.jpg",
+  "start_time": 1143.0,
+  "end_time": 1151.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - AGENTS.md 목적별 문서 참조 테이블",
+    "elements": [
+      "# AGENTS.md -- 하네스 엔지니어링 진입점",
+      "## 4. 빠른 참조 테이블",
+      "아키텍처 규칙: docs/ARCHITECTURE.md",
+      "실행 계획 체계: docs/PLAN_SYSTEM.md",
+      "관찰성: docs/OBSERVABILITY.md",
+      "보안: docs/SECURITY.md",
+      "프론트엔드: docs/FRONTEND.md",
+      "제조 스펙: docs/product-specs/index",
+      "기술 부채: docs/exec-plans/tech-debt-tracker.md"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "AGENTS.md (진입점) -> [ARCHITECTURE.md, PLAN_SYSTEM.md, OBSERVABILITY.md, SECURITY.md, FRONTEND.md, product-specs/, tech-debt-tracker.md]"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "AGENTS.md 진입점",
+      "목적별 문서 맵 8종",
+      "점진적 공개"
+    ],
+    "summary": "있잖아요. 로그들. 로그들은 다 어디에 저장이 되느냐? 여기에 또 로그 파일이 따로 있습니다. 로그스. 보이시나요? 스크린샵 보시면요.이 친구가 직접 이제 테스트를 했던"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "AGENTS.md 목적별 문서 맵: 8개 전문 문서로 에이전트를 도메인별 안내. 아키텍처/플랜/관찰성/보안/프론트엔드/제품스펙/기술부채 각각 전용 문서 경로 제공",
+    "text_only_info": "아키텍처 규칙 확인하고 싶으면 이 문서 보라는 점진적 공개 방식 설명",
+    "combined_insight": "AGENTS.md = 하네스의 점진적 공개 핵심: 거대한 단일 규칙 파일 대신, 목적별 8개 전문 문서로 분리하고 AGENTS.md가 목차 역할. 에이전트가 필요한 규칙만 찾아볼 수 있는 정보 아키텍처"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

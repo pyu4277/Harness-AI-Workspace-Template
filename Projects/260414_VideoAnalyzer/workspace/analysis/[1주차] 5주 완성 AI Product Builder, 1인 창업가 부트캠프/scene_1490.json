@@ -1,0 +1,26 @@
+{
+  "scene_id": 1490,
+  "frame_name": "frame_045131.jpg",
+  "start_time": 22559.5,
+  "end_time": 22570.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보세요. 자, 착 아, 아이고 이렇게 눌러서 업로드 해야 되구나. 네, 이거는 이것도 바꿔 달려면 바꿔 줍니다. 네. 그러면 강아지 싹 입력하면은에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

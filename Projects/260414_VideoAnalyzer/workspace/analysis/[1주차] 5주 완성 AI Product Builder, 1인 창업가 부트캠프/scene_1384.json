@@ -1,0 +1,26 @@
+{
+  "scene_id": 1384,
+  "frame_name": "frame_042381.jpg",
+  "start_time": 21181.5,
+  "end_time": 21198.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 지금 댓글까지 거의 끝나갑니다. 거의 끝나갑니다. 이제 AI까지 하고 AI도 하면 좋을 것 같아요. 거 좀 재밌긴 해요. 요거 하고 그다음에 수익화하고 네. 이렇게 해 보겠습니다. 거의 다 왔습니다. 이제 여까지 왔습니다, 이제."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 729,
+  "frame_name": "frame_025637.jpg",
+  "start_time": 12815.0,
+  "end_time": 12821.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "컨트롤 클릭을 해 보시면 오 실제로 사이트가 열립니다. 얘는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

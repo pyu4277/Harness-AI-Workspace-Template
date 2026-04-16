@@ -1,0 +1,26 @@
+{
+  "scene_id": 55,
+  "frame_name": "frame_001626.jpg",
+  "start_time": 810.5,
+  "end_time": 814.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있었습니다. 정리해 보면이 하네스라는 것은 마구라는 뜻이고 지금 엄청나게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "있었습니다. 정리해 보면이 하네스라는 것은 마구라는 뜻이고 지금 엄청나게",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

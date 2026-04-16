@@ -1,0 +1,26 @@
+{
+  "scene_id": 433,
+  "frame_name": "frame_016959.jpg",
+  "start_time": 8466.0,
+  "end_time": 8492.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아 다시 여기 요렇게 돼 있습니다. C드라이브에 뭐 조코딩에 인덱스.html HTML 요런 식으로 돼 있어요. 어, 주소가 인터넷 주소가 아니네라고 생각이 들잖아요. 왜 그러냐면 얘는 C드라이브라는 내 컴퓨터 안에 있는 겁니다. 그래서 이거를 사람들이 쓰게 하려면 어떻게 해야 되냐? 방법이 없습니다. 이거를 어떻게 봐요? 그러니까이 두 가지 방법이 있는데 크게 내 컴퓨터에 있어서 아,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

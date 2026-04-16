@@ -1,0 +1,26 @@
+{
+  "scene_id": 632,
+  "frame_name": "frame_022542.jpg",
+  "start_time": 11265.0,
+  "end_time": 11276.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "와, 바이브 코딩이니까 피부 진단 서비스 만들어 줘. 딸깍하면 이렇게 나올 수 있겠죠? 와, 리액트 썼습니다. 야, 엄청나시군요. 야, 아무튼 이렇게 하실 수 있으니까요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

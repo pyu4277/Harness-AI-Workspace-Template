@@ -1,0 +1,26 @@
+{
+  "scene_id": 215,
+  "frame_name": "frame_011828.jpg",
+  "start_time": 5901.5,
+  "end_time": 5926.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 요거 이해되시나요? 네. 자, 그러면 이제 비율을 통해 좀 알아보자면 HTML로 이렇게 철근 뼈대를 이렇게 딱 잡는다고 하면 이제 CSS로 이렇게 이쁘게 꾸미는 역할을 한다라고 이해하시면 좋을 것 같습니다. 그래서 뭐 CSS가 없으면은이 철근만 남으면 되게 앙상해요, 사이트가. 네. 그래서 이렇게 그 HTML로 뼈대 잡고 이거를 CSS로 이쁘게 꾸민다라고 이해해 주시면 좋을 것 같습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

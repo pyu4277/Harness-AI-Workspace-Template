@@ -1,0 +1,26 @@
+{
+  "scene_id": 1305,
+  "frame_name": "frame_040327.jpg",
+  "start_time": 20161.5,
+  "end_time": 20164.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "불안정한데요. 로그인이 안 되는데요. 아씨, 딴 거 가지고 그거 했나? 네. 아무튼 이런 비슷한 서비스 되게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

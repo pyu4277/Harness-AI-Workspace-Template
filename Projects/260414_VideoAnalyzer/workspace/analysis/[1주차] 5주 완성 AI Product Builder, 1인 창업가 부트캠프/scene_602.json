@@ -1,0 +1,26 @@
+{
+  "scene_id": 602,
+  "frame_name": "frame_021235.jpg",
+  "start_time": 10609.0,
+  "end_time": 10625.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아마 가장 많이 쓰시는게 채치피티라 예시로 이걸 쓰다 뿐이지 아무거나 쓰셔도 됩니다. 네. 아무튼 그렇습니다. 아, 근데 제가 잡다하느라 쉬는 시간을 못 가졌는데. 자, 5시 10분에 돌아오겠습니다. 네. 자,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

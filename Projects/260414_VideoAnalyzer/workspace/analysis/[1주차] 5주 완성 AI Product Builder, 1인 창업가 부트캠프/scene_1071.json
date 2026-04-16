@@ -1,0 +1,26 @@
+{
+  "scene_id": 1071,
+  "frame_name": "frame_032993.jpg",
+  "start_time": 16483.0,
+  "end_time": 16509.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되는지 보여 드리면 자, 여기서 여기까지 됐으면은 이제 다 된 거잖아요. 다. 자, 다 됐다. 일단 좀 클리어를 한번 할게요. 이거 좀 히스토리 좀 날려야겠다. 새로 새로 켜 보겠습니다. 재미난 아이도 새로 켜 볼게요. 아, 너무 지저분한 걸 많이 해 가지고 다시 네. 다시 재미나이 다시 켰고요. 이거는 쓸데없는 거 제가 해가지고 좀"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

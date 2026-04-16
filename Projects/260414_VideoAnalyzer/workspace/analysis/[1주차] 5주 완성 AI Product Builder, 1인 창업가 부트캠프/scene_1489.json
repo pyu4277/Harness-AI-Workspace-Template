@@ -1,0 +1,26 @@
+{
+  "scene_id": 1489,
+  "frame_name": "frame_045113.jpg",
+  "start_time": 22552.5,
+  "end_time": 22559.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "선택하게 생겼어요. 자, 그러면 이제 새로 배포된 됐습니다. 사진 업로드해서 확인해 보세요. 자, 착 아, 아이고 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

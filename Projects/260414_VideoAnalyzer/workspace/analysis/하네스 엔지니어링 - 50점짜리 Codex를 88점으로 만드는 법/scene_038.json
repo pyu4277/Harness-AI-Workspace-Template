@@ -1,0 +1,34 @@
+{
+  "scene_id": 38,
+  "frame_name": "frame_001312.jpg",
+  "start_time": 652.0,
+  "end_time": 659.5,
+  "visual_analysis": {
+    "layout": "GitHub 스크린샷 - 메인 페이지",
+    "elements": [
+      "harness_eng 레포 메인",
+      "CLAUDE.md 파일",
+      "with/without 폴더"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "CLAUDE.md",
+      "A/B 비교",
+      "하네스 with/without"
+    ],
+    "summary": "코드에게 평가하라고 지시했습니다. 그리고 평가할 때 마찬가지로 그냥 지시하는게 아니라 로드.md 파일을 하나 만들어 놨습니다. 그래서 두"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "harness_eng 레포 루트: CLAUDE.md + harness_eng_with/ + harness_eng_without/ + README.md. HOTFIX 커밋 17분전",
+    "text_only_info": "",
+    "combined_insight": "실습 레포 전체 구조: CLAUDE.md(루트 규칙), with/without 디렉토리로 A/B 비교 실험 구조. 지시가 아니라 구조로 차이를 만드는 접근"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

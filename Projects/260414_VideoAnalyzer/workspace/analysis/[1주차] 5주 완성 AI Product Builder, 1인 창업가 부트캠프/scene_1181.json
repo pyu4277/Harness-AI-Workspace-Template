@@ -1,0 +1,26 @@
+{
+  "scene_id": 1181,
+  "frame_name": "frame_036711.jpg",
+  "start_time": 18325.5,
+  "end_time": 18385.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한번 만들어 보도록 하겠습니다. 네. 식사하시면서 보셔도 되겠습니다. 네. 그러면은 약간 쉬는 시간을 갖고 요거 외부 서비스 활용은 쉬는 시간을 갖고 몇 시부터 할까요? 7시 15분. 네. 시작. 네. 요렇게 진행해 보도록 하겠습니다. 아. 야, 의문의 남자님 아유 너무 감사합니다. 만 원 후원 너무 감사드립니다. 요거 몇 시에 끝날 예정인가요? 저는 처음에 7시로 봤는데 벌써 7시가 넘어 버렸습니다. 아, 제 생각에 광고까지 붙이면은 9시. 네, 9시 봅니다. 네. 일단 15분 네에 시작해 보도록 하겠습니다. 저도 화장실 한번 다녀오겠습니다. 아이고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

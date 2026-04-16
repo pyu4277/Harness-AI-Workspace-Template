@@ -1,0 +1,26 @@
+{
+  "scene_id": 1239,
+  "frame_name": "frame_038984.jpg",
+  "start_time": 19469.5,
+  "end_time": 19513.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "많이 보셨을 것 같은데 요런 거 예 해 예전짜리긴 한데 뭐 달리 2 그림을 베겼을 때 디자이너분들은 아 직접 이제 디자인도 하시니까 아 이거는 불법이야네 디자인 베기지 마라고 했다면 면 프로그래머들은 어 내가 너의 기터브 털었다. 코드 다 너 거 다 털었다 했더니 이제 나도 I스 2 나도 털었다. 즉이 개발자들은 다 갔습니다. 그래서 직접 만드는 경우가 예전부터 많이 없었어요. 뭐 직접 한 줄 한 줄 짜는 거는 옛날부터도 되게 구시적인 방법이었습니다. 그래서 다들 갖다 쓰고요. 뭐 이런 짤들 되게 많은데 재밌는 거 이렇게 또 보여 드리면음 요런 거 아 요것도 뭐 비슷한 거긴"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

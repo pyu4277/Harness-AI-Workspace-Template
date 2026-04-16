@@ -1,0 +1,26 @@
+{
+  "scene_id": 1274,
+  "frame_name": "frame_039698.jpg",
+  "start_time": 19844.0,
+  "end_time": 19853.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "수도 없습니다. 사실 여기 있는 거는 그냥 오픈 API라는 그 형태에 해당하는 것들 중에 그냥 뭐 몇 개 모아 놓은 건데 이거 말고도 막 수억 개 있습니다. 갖다 쓸 수 있는 게. 그래서 이런 거를 좀 진행을 해 볼"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1702,
+  "frame_name": "frame_050668.jpg",
+  "start_time": 25331.0,
+  "end_time": 25336.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "바꾸셨나? 아무튼 진짜 막 옛날 도메인 있었는데이 새로 바꾸셨구나. 이번에 업데이트 하신 거 같아요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 802,
+  "frame_name": "frame_027575.jpg",
+  "start_time": 13777.0,
+  "end_time": 13797.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런 거 깔아야 됩니다. 그래서 이거 설치하는게 귀찮아서 저는 클라우드로 왔거든요. 왜냐면 깔려 있으니까. 이게 이걸 깔아야 되는데 요거 로컬에서 하신 분들은 요걸 깔아야 됩니다. 다운로드 눌러 가지고 요거 까시면 됩니다. 것도 설치해 가지고 음. 어 네. 정확합니다. 지금 타입 메시지 이렇게 뜨면은 잘 설정이 되신"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

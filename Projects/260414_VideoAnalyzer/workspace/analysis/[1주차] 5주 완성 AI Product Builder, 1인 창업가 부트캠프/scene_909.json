@@ -1,0 +1,26 @@
+{
+  "scene_id": 909,
+  "frame_name": "frame_029662.jpg",
+  "start_time": 14826.5,
+  "end_time": 14834.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "누르면 어 이제 요렇게 저장소가 생겼습니다. 여기에 코드를 올리면 되긴 하거든요. 그래서 사실 그 연결해 가지고 하면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

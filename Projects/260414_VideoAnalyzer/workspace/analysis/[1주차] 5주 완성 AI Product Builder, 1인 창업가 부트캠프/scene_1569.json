@@ -1,0 +1,26 @@
+{
+  "scene_id": 1569,
+  "frame_name": "frame_048110.jpg",
+  "start_time": 24036.5,
+  "end_time": 24073.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 에드센스 위반 사항 사람이 고칠 필요가 없습니다. 컨텐츠가 가치가 없다. 이거 수정 사람이 안 고쳐도 됩니다. AI가 최적화해 가지고 에디센스 통과하기 최적화된 사이트로 최적화해서 만들어 줘. 딸깍 하면 싹 다 고쳐 줘 가지고 에드센스 최적화된 어떤 사이트로 딱 만들어 줍니다. 네. 그래서 이제는 에드센스 통과하기 어렵지 않다. 예전에는 이걸 다루기가 뭐 컨텐츠 추가하고 뭐 이런 거 있었는데 이제는 AI 딸깍하면은 컨텐츠 싹 채워주고 AI로 그냥 싹 채워 줘서 그냥 통과 바로 시켜 버립니다. 그래서 애드이 옛날"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

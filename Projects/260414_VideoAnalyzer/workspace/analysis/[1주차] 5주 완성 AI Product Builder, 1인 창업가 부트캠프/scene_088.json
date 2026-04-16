@@ -1,0 +1,26 @@
+{
+  "scene_id": 88,
+  "frame_name": "frame_004484.jpg",
+  "start_time": 2220.5,
+  "end_time": 2262.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "쉬워졌다. 네. 그래서 오늘날 개발자는 딸깍만 하면 되기 때문에 여러분들이 오늘 배우실 과정 그냥 전체적으로 IT 프로덕이 어떻게 생겼고 그리고 어떤 걸 만들어야 될지 어떻게 수익을 낼지 그 전반적인 과정을 그냥 전체적인 큰 그림을 익히신 다음에 뭐 툴 회원 가입하고 이게 이게 일에요. 이런데 회원 가입을 해야 되잖아요. 회원 가입을 하는게 일입니다. 그래서 회원 가입하고 뭐 이거 그 화면 켜고 이게 제일 어렵습니다. 이거 켜는게 제일 어렵고 그다음에 이제 딸깍 딸깍만 하면 됩니다. 네. 그래서 오늘날 개발자요 정도만 하면 되니까 네. 같이 오늘 수업 들으시면서 어떤 걸 만들어야 되는지 좀이 쉬워졌으니까 용기를 가지시면서 같이 진행해 보면 좋을 것 같습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

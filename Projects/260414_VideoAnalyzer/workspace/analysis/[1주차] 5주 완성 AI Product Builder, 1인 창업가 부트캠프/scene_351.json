@@ -1,0 +1,26 @@
+{
+  "scene_id": 351,
+  "frame_name": "frame_015230.jpg",
+  "start_time": 7579.0,
+  "end_time": 7650.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그다음에 이제 자바스크립트도 들어가 볼 텐데 자바스크립트는 이제 말 그대로 동작을 처리한다고 말씀드렸잖아요. 그래서 자바스크립트로는 뭘 할 수 있냐면 어떤 걸 구체적으로 할 수 있냐? 브라우저를 직접 조작을 하거나 혹은 HTML CSS를 변화시킬 수가 있습니다. 사실 메인 기능은이 두 가지가 끝이에요. 자바스크립트가 뭐 동적인 어떤 걸 한다라고 하는데 역할이 브라우저 조작이랑이 HTML CSS를 바꾸는 거 요렇게 두 가지 역할을 수행합니다. 그래서 이제 브라우저를 켜 가지고 뭐 자바스크립트로 예를 들어 그 경고창을 띄워 줘 하면은 이렇게 얼러트 경고해서 버튼 클릭하면 경고창이 나오는 거 이런 거 만들 수가 있고요. 아니면은 뭐 주소창을 구글닷컴에서 뭐 뭐 닷컴으로 네이버닷컴으로 옮겨 줘 하는 거 혹은 뭐 그 새로 고침해 줘. 뭐 뒤로 가기 해 줘. 앞으로 가기 해 줘. 요런 거를 이제 자바스크립트가 수행할 수 있고요. 그리고 HTML, CSS 이것도 변화를 시킬 수가 있습니다. 그래서 버튼을 클릭했을 때 뭐 제목이 뭘로 바뀐다 뭐 이런 거 있잖아요. 동작 바꾸는 거 수행하는 거. 요런게 이제 자바스크립트의 역할이다라고 이해하시면 이제 거의 큰 그림은 다 이해하신 겁니다. 네. 자바스크립트가 그런 개념이고요. 그래서 요런 동적인 걸 처리한다라고 큰 그림에서 이해하고 계시면 약간"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 196,
+  "frame_name": "frame_010886.jpg",
+  "start_time": 5422.0,
+  "end_time": 5463.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "돼 있습니다. 그래서 모든 서비스가 여러분 앞에 보셨던이 서비스들 다 이렇게 돼 있죠. 뭐 구글도 뭐 구글 이런 구독해 가지고 구글 이용할 수 있게 돼 있고 아니면 광고 이런 거 구글에도 검색 광고니 뭐니 이런 거 엄청 많잖아요. 그래 돈 벌고 인스타그램도 똑같죠. 광고로 돈 벌고 뭐 그 체크 배지 하려면 결제해야 되고 다 구조가 똑같습니다. 채지피트도 구독 결제해야지 AI 쓸 수 있도록 뚫어주고 다 똑같이 프론트핸드 백핸드 있고 뭐 거기에 결제로직 붙어 있고 하는 건 모든게 똑같습니다. 뭐 롤도 똑같고 넷플릭스도 똑같죠. 네. 그래서 다 이런 구조로 돼 있으니까 이거를 이번에 5주 동안 만드는 과정 다 배운다라고 생각하시면 되겠습니다. 네. 근데 물론 뭐 조금"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

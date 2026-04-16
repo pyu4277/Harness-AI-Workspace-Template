@@ -1,0 +1,26 @@
+{
+  "scene_id": 272,
+  "frame_name": "frame_013425.jpg",
+  "start_time": 6673.0,
+  "end_time": 6751.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어려워요. 사실 그 컴퓨터를 잘 모르신 분들은 실제로 저도 약간 관했던게 그 코딩 강의를 한다면 아 이거 누구나 배울 수 있는 코딩이라고 강조하면서 막 했는데 이것도 안 알려 주면서 하면은 실제로 못 따라오시는 분도 많습니다. 왜냐면 사실 컴퓨터를 쓰시는 분들은 아 이게 너무 쉽내라고 생각할 수 있는데 고정 관념인게 일반적으로 보통 컴퓨터를 안 쓰시는 분도 되게 많거든요. 그러면이 확장자라는게 뭔지 모르시는 분들이 사실 대한민국 인구로 치면은 한 30, 20%는 되지 않을까 생각이 들어요. 그 많은 인구가 이걸 모르는 분들이 진짜 많습니다.음 맞아요. 맞아요. IT 업계 사람들이나 확장자 이게 뭐 뭔지 딱 알지이 모르시는 분들 많습니다. 그래서 아무튼 메모장을 켠 다음에 얘를 싹 드래그하면 렇게 열리거든요. 네. 어, 완료했고 HTML 이렇게 막 받든 다음에 이렇게 열면은 이제 코딩 준비 끝입니다. 여기에 이제 HTML 코드를 입력하면 프론트엔드 화면이 딱 나옵니다. 네, 프론트엔드 화면이 딱 나오는데. 자, 이제 시작을 해 보겠습니다. 준비되셨나요? 준비되셨나요? 자, 이제 해 보겠습니다. 그 키보드 이제 진짜 어렵습니다. 이제 처음에는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-02: macOS 바탕화면 + 빈 메모장, 시각 콘텐츠 없음",
+  "importance_rule_version": 2
+}

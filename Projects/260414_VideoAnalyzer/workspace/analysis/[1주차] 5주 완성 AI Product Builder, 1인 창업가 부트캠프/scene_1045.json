@@ -1,0 +1,26 @@
+{
+  "scene_id": 1045,
+  "frame_name": "frame_032570.jpg",
+  "start_time": 16275.5,
+  "end_time": 16293.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 일단 빌드 커맨드를 논으로 했습니다. 그러면 없어도 된다는 걸 테니까. 왜냐면 빌드라는게 이제 뒤에 리액트 배울 때는 할 텐데 얘는 필요가 없거든요. 인덱스 HDML 그냥 주면 되니까. 그래서 빌드가 필요 없어서 오히려 복잡한데. 음."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

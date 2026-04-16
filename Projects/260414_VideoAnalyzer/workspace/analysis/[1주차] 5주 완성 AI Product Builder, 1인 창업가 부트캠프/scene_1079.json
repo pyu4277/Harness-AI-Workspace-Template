@@ -1,0 +1,26 @@
+{
+  "scene_id": 1079,
+  "frame_name": "frame_033370.jpg",
+  "start_time": 16682.5,
+  "end_time": 16686.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "바로 배포가 됐죠. 그래서 여기서 새로 고치만 딸깍 눌러 보시면 다크모드, 화이트 모드 와 기능이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

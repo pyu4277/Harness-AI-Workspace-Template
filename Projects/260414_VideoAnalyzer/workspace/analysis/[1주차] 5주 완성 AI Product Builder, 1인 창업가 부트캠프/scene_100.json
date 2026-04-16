@@ -1,0 +1,26 @@
+{
+  "scene_id": 100,
+  "frame_name": "frame_004776.jpg",
+  "start_time": 2378.0,
+  "end_time": 2397.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 이렇게 쉬워졌다고 할 수가 있겠고요. 뭐 그리고 그런 UIUX 디자인뿐만 아니죠. 요즘에 뭐 나노바나 써 보신 분들 아시겠지만 이미지도 워낙에 잘 만들어냅니다. 근데 뭐 이게 나노 프로면서 더 좋아졌는데 최근에 구글 엔티 그래비티라고 이제 코딩 개발 툴이랑도 결합돼 가지고 더 좋아졌거든요. 그래서 어떤 식이냐 뭐 게임 만든다"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1023,
+  "frame_name": "frame_032157.jpg",
+  "start_time": 16070.5,
+  "end_time": 16086.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 이런 식으로 물어보면 됩니다. 뭐가 문제인지 알려줘. 저도 뭔지 뭐가 문제인지 모릅니다. 아마 뭐 별명 문제지 않을까 싶긴 한데 네. 모릅니다. 네. 그래서 이런 거 알려 줘 하면은 수정해 주고 도와줍니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

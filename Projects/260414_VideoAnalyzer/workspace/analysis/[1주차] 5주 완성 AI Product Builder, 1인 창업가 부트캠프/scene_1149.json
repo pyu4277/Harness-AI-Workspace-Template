@@ -1,0 +1,26 @@
+{
+  "scene_id": 1149,
+  "frame_name": "frame_035591.jpg",
+  "start_time": 17776.5,
+  "end_time": 17813.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 근데 페이지 뭐 리액트도 돼요. 당연히 리액트로 만들어서 빌드 한 다음에 이걸 배포하면 되니까. 네. 얘는 이제 어떤 서버에서의 복잡한 처리가 필요하다면 워커스 그냥 페이지 완성된 걸 보내겠다. 그 페이지스 돈 벌려면 워커스 아닙니다. 또 페이지스로도 돈 벌 수 있는데 이걸 뒤에 소개해 드리겠습니다. 클라우드 플레이어가 버셀의 차이. 좀 더 여기에 가깝죠. 벌세 쓰시는 분들은 아니 벌 스펠링이 틀렸는데 벌셀"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

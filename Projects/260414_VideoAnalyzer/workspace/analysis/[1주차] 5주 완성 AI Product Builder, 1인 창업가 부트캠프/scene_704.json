@@ -1,0 +1,26 @@
+{
+  "scene_id": 704,
+  "frame_name": "frame_024841.jpg",
+  "start_time": 12414.0,
+  "end_time": 12426.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "코드라고 있어요. 요게 오픈 소스거든요. 그래서 누구나 다운 받을 수 있는데 요것도 혹시 모르니까 소개해 드릴게요. 여기로 접속해 가지고 다운로드 4 윈도우 있죠? 요거를 딸깍 누르거나 뭐 먹기면 이걸 설치하셔도 사실은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

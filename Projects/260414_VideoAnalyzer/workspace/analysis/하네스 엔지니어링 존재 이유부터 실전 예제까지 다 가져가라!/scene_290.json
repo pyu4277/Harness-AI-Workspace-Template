@@ -1,0 +1,38 @@
+{
+  "scene_id": 290,
+  "frame_name": "frame_002756.jpg",
+  "start_time": 1375.0,
+  "end_time": 1380.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - HTML 스냅샷 + JSON 상태 파일 + Todo 앱",
+    "elements": [
+      "stats-display.png 선택",
+      "HTML 스냅샷 코드: localhost:3000 캡처",
+      "JSON 형식 앱 상태 데이터",
+      "우측: Todo 앱 실행 화면"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "src: http://localhost:3000",
+      "viewport: width=device-width, initial-scale=1.0"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "HTML/JSON 스냅샷",
+      "자동 아카이브",
+      "감사 추적"
+    ],
+    "summary": "내가 테스트하고 이렇게 하면 되는데 굳이 한스 엔지니어링 하려면은 내가 막 이거 이거 이거 엔지니어링 시스템 이렇게 만들어 줄래? 이런 규칙"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "하네스 자동 기록물: HTML 스냅샷(앱 전체 DOM 캡처) + JSON 상태 파일이 작업 완료 후 자동 아카이브. stats-display.png 등 시각 증거도 보존",
+    "text_only_info": "JSON 파일로 앱 상태가 남아있어 추적/검증 가능",
+    "combined_insight": "하네스의 관찰성(Observability) 구현: 작업 완료 후 HTML 스냅샷, JSON 상태, 스크린샷이 자동 저장되어 완전한 감사 추적 가능. 프롬프트가 아닌 시스템이 증거를 자동 수집"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1707,
+  "frame_name": "frame_050706.jpg",
+  "start_time": 25351.0,
+  "end_time": 25354.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이론 못 올라간다는 아니긴 한데 음. 네. 아무튼 지금은 그 도메인은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

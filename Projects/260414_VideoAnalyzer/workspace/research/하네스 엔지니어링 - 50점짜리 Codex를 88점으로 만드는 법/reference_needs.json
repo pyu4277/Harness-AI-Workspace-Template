@@ -1,0 +1,44 @@
+[
+  {
+    "keyword": "OpenAI Codex",
+    "source_scene": 1,
+    "collected": false,
+    "verified": false
+  },
+  {
+    "keyword": "AI 코드 품질 평가 기준",
+    "source_scene": 1,
+    "collected": false,
+    "verified": false
+  },
+  {
+    "keyword": "Context Engineering",
+    "source_scene": 12,
+    "collected": false,
+    "verified": false
+  },
+  {
+    "keyword": "Prompt Engineering vs Context Engineering",
+    "source_scene": 12,
+    "collected": false,
+    "verified": false
+  },
+  {
+    "keyword": "Codex AGENTS.md",
+    "source_scene": 16,
+    "collected": false,
+    "verified": false
+  },
+  {
+    "keyword": "Claude Code CLAUDE.md",
+    "source_scene": 16,
+    "collected": false,
+    "verified": false
+  },
+  {
+    "keyword": "jayapkdevkr/harness_eng GitHub",
+    "source_scene": 21,
+    "collected": false,
+    "verified": false
+  }
+]

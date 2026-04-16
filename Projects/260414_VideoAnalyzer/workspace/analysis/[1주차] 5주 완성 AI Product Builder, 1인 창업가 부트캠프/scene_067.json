@@ -1,0 +1,26 @@
+{
+  "scene_id": 67,
+  "frame_name": "frame_003600.jpg",
+  "start_time": 1798.0,
+  "end_time": 1801.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 개발자들의 일이었습니다. 개발자들 보통 이런 식으로 코딩했는데 이것마저도 이제 너무 큰 일이 된"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

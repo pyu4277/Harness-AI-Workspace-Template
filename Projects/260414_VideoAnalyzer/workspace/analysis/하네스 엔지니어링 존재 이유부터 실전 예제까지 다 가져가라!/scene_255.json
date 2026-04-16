@@ -1,0 +1,41 @@
+{
+  "scene_id": 255,
+  "frame_name": "frame_002202.jpg",
+  "start_time": 1097.5,
+  "end_time": 1103.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - pre-commit 훅 코드 (단위테스트 강제 실행)",
+    "elements": [
+      "EXEC_PLAN 존재 확인 로직",
+      "src/ 파일 변경 감지 시 단위 테스트 자동 실행",
+      "npx vitest run 2>&1 | tee UNIT_LOG",
+      "VITEST_EXIT=${PIPESTATUS[0]}",
+      "테스트 실패 시 커밋 차단 (exit 1)"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "if [ -z \"$PLAN_EXISTS\" ]; then exit 1",
+      "STAGED_SRC=",
+      "npx vitest run 2>&1 | tee $UNIT_LOG",
+      "if [ $VITEST_EXIT -ne 0 ]; then echo \"x 단위 테스트 실패\""
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "pre-commit 단위테스트 강제",
+      "EXEC_PLAN 검사",
+      "vitest 자동 실행"
+    ],
+    "summary": "장치를 만들어 두는게 중요합니다. 에이전트 파일 보시면은 뭐 에이전트 하나하나가 이런 기능이 있어라고 설명을 하는게 아니라 단순히 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "pre-commit 훅 상세 코드: EXEC_PLAN 미존재 시 차단, src/ 변경 시 vitest 자동 실행, 테스트 로그 저장, 실패 시 커밋 차단. PIPESTATUS로 정확한 종료 코드 캡처",
+    "text_only_info": "파일 변경 시 무조건 단위 테스트를 실행하는 이유 설명",
+    "combined_insight": "pre-commit 훅의 핵심 로직: EXEC_PLAN 없으면 차단 + src/ 변경 시 vitest 강제 실행 + 실패 시 커밋 불가. 프롬프트가 아닌 git 훅으로 테스트를 구조적 강제하는 하네스 원리의 실제 bash 구현"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1590,
+  "frame_name": "frame_048492.jpg",
+  "start_time": 24244.0,
+  "end_time": 24247.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "에드센스 가입하기 해 가지고 계정 만드는 거 이런 거 가이드가 여기"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

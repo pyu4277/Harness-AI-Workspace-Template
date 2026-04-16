@@ -1,0 +1,26 @@
+{
+  "scene_id": 1088,
+  "frame_name": "frame_034302.jpg",
+  "start_time": 17146.0,
+  "end_time": 17155.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하겠습니다. 네, 워커. 아, 죄송합니다. 제 페이지를 만든 줄 알았는데 워커를 만들었는데. 예, 삭제하려면 자, 요거 잘못 만든 거 있죠? 여기 세팅 들어가서 뷰 세팅에서 여기 아래쪽에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

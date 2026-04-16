@@ -1,0 +1,38 @@
+{
+  "scene_id": 303,
+  "frame_name": "frame_014246.jpg",
+  "start_time": 7109.5,
+  "end_time": 7135.5,
+  "visual_analysis": {
+    "layout": "HTML 태그 문법 교육 슬라이드 + 우측 웹캠/채팅",
+    "elements": [
+      "HTML 제목",
+      "태그 문법: <태그이름 속성=값>내용</태그이름>",
+      "예시: <h1 class=title>제목입니다.</h1>",
+      "핑크 주석: 태그 구조 강조"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "<태그이름 속성=\"값\">내용</태그이름>",
+      "<h1 class=\"title\">제목입니다.</h1>"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "HTML 태그 문법",
+      "태그 속성",
+      "h1 class 예시"
+    ],
+    "summary": "HTML 요거고 그리고 뭐 부가적으로 이런 것도 있습니다. 여기에 태그 이름 H1 이런 거 말고이 사이에 뭐 클래스는 타이틀이라고 이런 식으로 뭐 덧붙여 주는게 있어요. 이걸 뭐 속성 갑 이렇게 부르는데 뭐 개념은 그냥 그게 중요하지 않는데 그냥 최치T 물어보시면 이게 뭔지 알려 주실 거고 이런 식으로 부가적으로 붙는 것도 있고네 인풋 태그 이런 입력창도 이렇게 꺾세 인풋하고 슬래시 닫게 하면 이게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "HTML 태그 구조 교육: 여는 태그(이름+속성) -> 내용 -> 닫는 태그. h1 class 예시로 설명",
+    "text_only_info": "HTML 기본 문법 설명",
+    "combined_insight": "HTML 핵심 문법: 태그 구조를 시각적으로 분해하여 초보자도 이해 가능하게 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: HTML 태그 문법 구조 교육 슬라이드 - 핵심 개념",
+  "importance_rule_version": 2
+}

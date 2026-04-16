@@ -1,0 +1,26 @@
+{
+  "scene_id": 1193,
+  "frame_name": "frame_037358.jpg",
+  "start_time": 18669.5,
+  "end_time": 18688.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아까 그 설명드렸죠? 여기 마우스로 드래그 앤드롭해서 할 수도 있습니다. 근데 그게 좀 귀찮으니까 개발자 특히 그냥 연결해 놓는 거 제일 좋아합니다. 네. 몇 천 줄, 몇 만 줄 다 됩니다. 다 잘 다 잘 동작합니다. 물론 AI가 할루시네이션이 있을 수 있는데. 아, 일단 배포한 거 한번 볼게요.이 빚집 누르면은 어, 오늘"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

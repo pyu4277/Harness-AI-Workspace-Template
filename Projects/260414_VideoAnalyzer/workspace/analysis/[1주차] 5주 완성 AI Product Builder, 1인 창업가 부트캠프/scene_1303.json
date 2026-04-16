@@ -1,0 +1,26 @@
+{
+  "scene_id": 1303,
+  "frame_name": "frame_040297.jpg",
+  "start_time": 20143.0,
+  "end_time": 20153.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "화면으로 들어오거든요. 폼스프리 이거 사실 누가 만든지 모릅니다. 저도이 망할 수도 있고 한데 그냥 일단 이런 폼 만드는 되게 잘되는 데가 있어서 가봐 이거 들어와 봤습니다. 샘플로."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

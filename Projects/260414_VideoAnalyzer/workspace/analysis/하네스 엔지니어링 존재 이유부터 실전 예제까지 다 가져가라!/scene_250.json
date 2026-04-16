@@ -1,0 +1,26 @@
+{
+  "scene_id": 250,
+  "frame_name": "frame_002102.jpg",
+  "start_time": 1045.5,
+  "end_time": 1055.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "예를 들어서 어 그 마스터 브렌치에 있는 코드를 직접 바꾸려고 하면은요 바로 차단 바로 차단 받고요. 뭐 그런 내용들이 있습니다. 만약에 플랜 없이 계획 없이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

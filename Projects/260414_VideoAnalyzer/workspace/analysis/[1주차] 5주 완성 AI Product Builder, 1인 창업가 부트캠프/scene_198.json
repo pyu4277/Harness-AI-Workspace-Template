@@ -1,0 +1,26 @@
+{
+  "scene_id": 198,
+  "frame_name": "frame_011044.jpg",
+  "start_time": 5495.0,
+  "end_time": 5548.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 이제 큰 그림 이해하셨나요? 어떤게 구현할 건지 큰 그림 이해를 하셨으면 이제 웹 개발로 들어가 보려고 합니다. 네. 좋아요 안 누르신 분들 네. 좋아요 한 번씩만 부탁드리고요. 지금 좋아요가 활동. 네. 상태 어디지? 네. 아, 동시 시청자. 오, 1121분. 아, 감사합니다. 근데 좋아요 수가 500개밖에 안 되는 아, 반밖에 안 눌러주셨습니다. 한 번씩만 눌러 주시면 굉장히 큰 힘이 됩니다. 네, 반밖에 안 눌러주셨는데네 많이 눌러 주시면 이제 아, 또 뒤에 웹 개발 기초 과정 진행해 보도록 하겠습니다. 네. 이거 이해되시나요? 이해. 안 되신 분 손 들어 주시면 제가 추가 설명드리겠습니다. 음. 네. 이게 뭐 웹사이트 지금 이제 뒤에 만들 건데 웹사이트뿐만이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

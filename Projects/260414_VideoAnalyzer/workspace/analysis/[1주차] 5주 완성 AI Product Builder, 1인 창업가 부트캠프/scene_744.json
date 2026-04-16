@@ -1,0 +1,26 @@
+{
+  "scene_id": 744,
+  "frame_name": "frame_026236.jpg",
+  "start_time": 13101.5,
+  "end_time": 13134.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "C로도 열 수 있어요. 이걸 누르면 요렇게 열립니다. 웹 콘솔이 있다. 웹 콘솔 어떤 거죠? 터미널에 뉴 터미널 여기죠. 여기서 이거 플러스 하면 렇게 열리죠. 네. 그래서 최대한 좀 깔끔하게 하려고 네. 요렇게 구성을 해 봤습니다. 네. 그다음에 이제 여기에 이제 AI를 깔아서 진행을 해 볼 건데 와이 고급 개발이다 보니까 세팅이 제일 어렵습니다. 세팅이 가장 어려운데 자"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 585,
+  "frame_name": "frame_020944.jpg",
+  "start_time": 10455.5,
+  "end_time": 10488.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐 예를 들어 여기이 페이지는 아니지만 그 모바일 뷰도 대응할 수 있게 반응으로 만들어줘라고 입력하시면 됩니다. 요렇게만 입력하시면 됩니다. 네. 그래서 원하는게 있다. 어, 이거 만들어 줘 하면 코드 고쳐 주잖아요. 네. 그거를 하실 수가 있겠습니다. 방금 보여진 서버 무료는 최대 용량 얼만큼 업로드 허용되나요? 용량 제한이 있나 모르겠네요. 이게 그냥 웹사이트 그냥 올린다고 하면 사실 웹사이트가 용량이 크지 않잖아요. 아까 9k바트인가 그랬는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

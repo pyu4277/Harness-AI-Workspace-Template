@@ -1,0 +1,26 @@
+{
+  "scene_id": 1793,
+  "frame_name": "frame_052418.jpg",
+  "start_time": 26203.5,
+  "end_time": 26214.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "볼까라는 느낌으로 좀 보시면 되겠습니다. 네, 맞아요. 어, 정확하게 채팅에서도 그런 말씀해 주셨는데 놀랍게도 제가 여기 슬라이드에도 아마 준비를 해 왔거든요. 요거 다음 슬라이드가 일론 머스크가 한 발언이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 416,
+  "frame_name": "frame_016568.jpg",
+  "start_time": 8274.0,
+  "end_time": 8293.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진행하고 네. 빨리 되는 것도 이제 써 보도록 하겠습니다. 아, 컴퓨터는 좋아야 하지 않습니다. 요즘에 워낙 뭐 클라우드 컴퓨팅이니 이런게 발달했기 때문에 똥컴에서도 할 수 있습니다. 여기까지는 좀 컴퓨터가 좀 좋아야 될 수도 있거든요. 왜냐면 그 어느 정도 아, 사실 안 좋아도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

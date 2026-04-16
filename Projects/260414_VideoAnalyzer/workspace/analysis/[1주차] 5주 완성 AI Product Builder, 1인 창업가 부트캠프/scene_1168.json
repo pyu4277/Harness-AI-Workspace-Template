@@ -1,0 +1,26 @@
+{
+  "scene_id": 1168,
+  "frame_name": "frame_036272.jpg",
+  "start_time": 18132.5,
+  "end_time": 18139.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 이제는 진짜 대기업 개발자랑 같은 세팅을 했고 여러분들이 더 빨리 달릴 준비가 됐습니다. 여기까지 하셨다면. 네. 그래서 이제 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

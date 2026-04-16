@@ -1,0 +1,26 @@
+{
+  "scene_id": 280,
+  "frame_name": "frame_013760.jpg",
+  "start_time": 6877.5,
+  "end_time": 6881.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "열립니다. 크롬으로 열어 보면 오 놀랍게도 이렇게 인터넷 브라우저죠. 아까 봤던 것처럼 인터넷 브라우저에서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

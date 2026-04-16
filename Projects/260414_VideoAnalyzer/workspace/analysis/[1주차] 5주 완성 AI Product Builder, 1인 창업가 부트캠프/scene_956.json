@@ -1,0 +1,26 @@
+{
+  "scene_id": 956,
+  "frame_name": "frame_030611.jpg",
+  "start_time": 15291.5,
+  "end_time": 15319.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 코드 새로 고침 딸깍해 주면 아주 잘 올라갔습니다. 이제는 뭐 다운 받아서 올린다 혹은 뭐 직접 긴 명령어 쓴다. 되게 구시대적입니다. 사실 아 잠깐 좀 구시대적인 생각을 좀 해 버렸어요. 아 이거 긴 명령어를 직접 쓸까라는 생각을 했는데 아 그런 시대가 아니죠. 너무 옛날 코딩을 할 뻔했습니다. 아, 어, 안 됨. 안 됨. 하시는 분들은 어떤게 안 되는지 알려주시면 좀 도와드리겠습니다. 아니면은이이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

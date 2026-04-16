@@ -1,0 +1,26 @@
+{
+  "scene_id": 27,
+  "frame_name": "frame_000922.jpg",
+  "start_time": 453.5,
+  "end_time": 467.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "사실 따라하셔도 괜찮긴 합니다. 네. 어, 일단 라이브는 무료 강의고요. 요거를 이제 끝나고 멤버십으로 전환을 하려고 합니다. 그래서 라이브는 이제 무료로 같이 들으실 수 있다라고 네, 알아 주시면 좋을 것 같습니다. 네. 그러면은 이제 본격적인"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

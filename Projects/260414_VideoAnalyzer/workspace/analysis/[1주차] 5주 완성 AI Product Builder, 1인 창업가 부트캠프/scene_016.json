@@ -1,0 +1,26 @@
+{
+  "scene_id": 16,
+  "frame_name": "frame_000708.jpg",
+  "start_time": 341.5,
+  "end_time": 366.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 제출이 됐고요. 네. 그래서 여기 출책 현황에 이제 새로 고침하시면 뜨게 됩니다. 어. 오. 벌써 벌써 올리셨군요. 네. 제가 조코딩 꼭 안강합시다 해주셨는데 이렇게 김백 님, 썰린 파파 님, 네, 무디 님, 피지컬 브레인 님 70만 감사드립니다. 네. 그래서 요렇게 출책 혜택 아, 혜택은 제가 출책까진 준비는 못 했는데 과제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 374,
+  "frame_name": "frame_015886.jpg",
+  "start_time": 7939.5,
+  "end_time": 7946.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "느낌만 오시면 됩니다. 아, 스타일이라는 거 태그 안에는 CSS 문법이 들어가는구나라고 이해하시면 좋을 것 같고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

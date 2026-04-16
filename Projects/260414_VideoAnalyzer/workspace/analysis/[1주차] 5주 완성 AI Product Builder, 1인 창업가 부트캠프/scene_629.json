@@ -1,0 +1,26 @@
+{
+  "scene_id": 629,
+  "frame_name": "frame_022457.jpg",
+  "start_time": 11225.5,
+  "end_time": 11230.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "됩니다. 이거 구라가 아니라 이렇게 그 중복 참여를 허용합니다. 이거 체크를 못 해요. 아, 이거 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

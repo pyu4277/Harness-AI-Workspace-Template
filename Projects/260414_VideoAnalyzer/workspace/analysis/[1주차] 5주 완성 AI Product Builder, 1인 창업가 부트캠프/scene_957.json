@@ -1,0 +1,26 @@
+{
+  "scene_id": 957,
+  "frame_name": "frame_030649.jpg",
+  "start_time": 15319.0,
+  "end_time": 15329.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좀 도와드리겠습니다. 아니면은이이 친구한테 도와달라고 해도 돼요. 뭐 재미나이나 뭐 코덱스나 다 애들 똑똑하거든요. 그래서 얘한테 야 뭐가 안 된다 고쳐 줘 하면 알아서 고쳐 줍니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

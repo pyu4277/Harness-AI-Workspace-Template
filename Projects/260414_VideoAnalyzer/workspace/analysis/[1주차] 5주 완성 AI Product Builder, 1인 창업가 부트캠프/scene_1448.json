@@ -1,0 +1,26 @@
+{
+  "scene_id": 1448,
+  "frame_name": "frame_043436.jpg",
+  "start_time": 21709.5,
+  "end_time": 21726.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있다. 네. 재유분이 이렇게 넣을 수도 있고요. 좋습니다. 네. 5주차까지 다 들으시면 이거 직접 다 구현하실 수 있습니다. 이렇게 외부 서비스 굳이 안 쓰셔도 됩니다. 그리고 디자인 바꾸는 거 뭐 당연히 AI 딸깍하면 다 해 주고요. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

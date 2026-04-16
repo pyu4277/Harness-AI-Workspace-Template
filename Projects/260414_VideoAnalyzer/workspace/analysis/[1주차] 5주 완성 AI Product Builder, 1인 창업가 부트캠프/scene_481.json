@@ -1,0 +1,26 @@
+{
+  "scene_id": 481,
+  "frame_name": "frame_018659.jpg",
+  "start_time": 9323.5,
+  "end_time": 9334.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다음 클릭해 가지고 일단 채우는 거 가라로 막 채우져 가지고 들어가면 되긴 하거든요. 네. 그래서 그냥 가입만 하시는게 제일 중요합니다. 그래서 가입하시면은 어떻게 되는지 그다음을 보여 드리도록 하겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

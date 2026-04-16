@@ -1,0 +1,26 @@
+{
+  "scene_id": 1400,
+  "frame_name": "frame_042799.jpg",
+  "start_time": 21396.5,
+  "end_time": 21402.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "눌러 보시면 요런 식으로 오류가 막 뜹니다. 보면은 어 안 뜨네. 잘 됐네. 아무튼 그 오류 내용 보내 주면서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1219,
+  "frame_name": "frame_037969.jpg",
+  "start_time": 18980.5,
+  "end_time": 18988.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "음. 자, 추가됐다고 해요. 그럼 이제 아, 배포까지 됐나? 어, 배포도 됐네요. 야씨, 배포도 알아서 해 줍니다. 자, 그럼 저녁 메뉴"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

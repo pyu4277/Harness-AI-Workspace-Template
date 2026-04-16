@@ -1,0 +1,26 @@
+{
+  "scene_id": 292,
+  "frame_name": "frame_014063.jpg",
+  "start_time": 7028.5,
+  "end_time": 7033.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "지금 다 완성이 됐죠? 완성이 됐으면 여기 코드 복사 버튼이 있습니다. 얘를 복사해 가지고 여기에 HTML에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

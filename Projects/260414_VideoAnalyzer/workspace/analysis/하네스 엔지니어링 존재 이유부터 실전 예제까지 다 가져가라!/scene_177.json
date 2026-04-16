@@ -1,0 +1,26 @@
+{
+  "scene_id": 177,
+  "frame_name": "frame_001153.jpg",
+  "start_time": 574.5,
+  "end_time": 577.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "상황이 발생이 된 거예요. 그렇게 되면 어떡하겠어요? 어 AI가 하는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

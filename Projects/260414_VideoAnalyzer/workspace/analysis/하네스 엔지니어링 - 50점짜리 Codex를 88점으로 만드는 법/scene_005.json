@@ -1,0 +1,33 @@
+{
+  "scene_id": 5,
+  "frame_name": "frame_000126.jpg",
+  "start_time": 54.0,
+  "end_time": 71.0,
+  "visual_analysis": {
+    "layout": "타이틀 슬라이드 - 하네스 엔지니어링 소개",
+    "elements": [
+      "제목 텍스트",
+      "부제목",
+      "Bloom AI 로고"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Harness Engineering",
+      "Bloom AI"
+    ],
+    "summary": "빈약한 경우가 많죠. 그래서 최근이 문제를 해결하기 위해 등장한 개념이 바로 하네스 엔지니어링입니다. 오늘은이 하네스 엔지니어링이 뭔지 빠르게 알아본 뒤 간단한 실습을 통해서 하네스 엔지니어링을 적용했을 때와 적용하지 않았을 때 그 성능 차이를 비교해 보겠습니다. 먼저"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "슬라이드 4페이지. 발표자 Bloom AI 소속",
+    "text_only_info": "",
+    "combined_insight": "하네스 엔지니어링(Harness Engineering) 개념을 소개하는 프레젠테이션 시작. 프롬프트 엔지니어링, 컨텍스트 엔지니어링을 넘어선 새로운 패러다임"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

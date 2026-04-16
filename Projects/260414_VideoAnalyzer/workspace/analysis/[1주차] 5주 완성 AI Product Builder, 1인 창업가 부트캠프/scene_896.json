@@ -1,0 +1,26 @@
+{
+  "scene_id": 896,
+  "frame_name": "frame_029256.jpg",
+  "start_time": 14626.0,
+  "end_time": 14629.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그래서 공짜로 쓰고 싶다. 재미나이. 네. 추천. 네. 그다음에 채치 이미"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

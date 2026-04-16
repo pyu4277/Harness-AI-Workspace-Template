@@ -1,0 +1,26 @@
+{
+  "scene_id": 376,
+  "frame_name": "frame_015912.jpg",
+  "start_time": 7954.0,
+  "end_time": 7957.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거 다 크게 막 깊게 이해 안 하셔도 되는데 여기 보면 스크립트라는게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

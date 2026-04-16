@@ -1,0 +1,26 @@
+{
+  "scene_id": 1052,
+  "frame_name": "frame_032718.jpg",
+  "start_time": 16348.0,
+  "end_time": 16369.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다시 다시가 보겠습니다. 자, 페이지가 맞습니다. 여러분들 페이지가 맞고요. 워커는 이제 뭐 그런 뭐네 넥스트 뭐 이런 JS 이런 거 빌드 필요하고 뭐 이런 거 필요한 것들 하는 거지. 아, 제가 잘못 만들었네요. 다시가 보겠습니다. 다시 자,이 기억을 잊어 주세요. 요건 다 편집할 겁니다. 네, 기억을 잊어 주시고요. 워커스 앤 페이지 들어와서 크리에이트 어플리케이션을 누르신 다음에 자,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

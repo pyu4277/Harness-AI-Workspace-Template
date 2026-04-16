@@ -1,0 +1,26 @@
+{
+  "scene_id": 111,
+  "frame_name": "frame_005547.jpg",
+  "start_time": 2760.5,
+  "end_time": 2785.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "어떻게 해야 되냐? 뭐, AI로 인해서 그 어느 때보다도 더 창의적으로 표현할 수 있는 시대가 됐다. 네. 워낙 이제 AI로 모든 걸 할 수 있잖아요. 그러다 보니까 이제 당신이 성취할 수 있는 목표를 더 크게 상상하세요. 이런 에이전트들이 많은 일을 대신해 줄 수 있으니까 이제 여러분들은 더 큰 그림을 상상하고 그냥 A에전트한테 시켜 가면서 하기만 하면 됩니다. 이제는 하기만 하면 돼요. 그냥 딸각을 하기만 하면 됩니다. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

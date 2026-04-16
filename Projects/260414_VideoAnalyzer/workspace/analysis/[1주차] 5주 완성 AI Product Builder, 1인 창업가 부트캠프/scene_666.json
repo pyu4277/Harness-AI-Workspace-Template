@@ -1,0 +1,26 @@
+{
+  "scene_id": 666,
+  "frame_name": "frame_023594.jpg",
+  "start_time": 11792.5,
+  "end_time": 11801.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "체계적으로 관리한 다음에 요거를 이제 코드 저장소에 그 관리된 거를 클라우드에 얹어 가지고 코드 저장하는 곳이 기타 보입니다. 네. 그래서 그 두 개념이 좀 다른데기로 버전 관리를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

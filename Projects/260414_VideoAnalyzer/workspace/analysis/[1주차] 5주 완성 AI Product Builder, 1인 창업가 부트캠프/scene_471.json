@@ -1,0 +1,26 @@
+{
+  "scene_id": 471,
+  "frame_name": "frame_018256.jpg",
+  "start_time": 9122.0,
+  "end_time": 9133.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이메일로 회원 가입하실 수가 있네요. 그래서 이메일 주소 자주 쓰시는 뭐 구글 계정이나 이런 거 Gma 있으시죠? 이메일이랑 비밀번호 입력해 가지고 회원 가입 진행하시면 되겠습니다. 그래서 클라우드 플레이어 이용하시면 되는데 그 회원 가입하실"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

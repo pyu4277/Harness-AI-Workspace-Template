@@ -1,0 +1,26 @@
+{
+  "scene_id": 196,
+  "frame_name": "frame_001299.jpg",
+  "start_time": 647.5,
+  "end_time": 650.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "처음부터 부담 느끼지 않고 완정적인 진입점에서 조금 자기가 이제 찾아서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

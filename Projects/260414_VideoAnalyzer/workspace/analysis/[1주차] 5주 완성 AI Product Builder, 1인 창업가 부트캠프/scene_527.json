@@ -1,0 +1,26 @@
+{
+  "scene_id": 527,
+  "frame_name": "frame_019731.jpg",
+  "start_time": 9843.5,
+  "end_time": 9887.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 요렇게 이용하실 수가 있고요. 네. 근데 약간 그까 미무로서 좀 소개를 드리면 최근에 이거 화제된 거 아세요?이 이런 화면 혹시 보신 적 있으신가요? 최근에 뭐 채지T라던가 뭐 뭐 모든 웬만한 서비스는 이렇게 장애가 났었거든요. 이게 뭐 하는 거냐면 저희도 클라우드 플레이어를 쓰잖아요. 근데 클라우드 플레어가 이렇게 맛이 갑니다. 그러면 전 세계 인터넷이 마비가 돼요. 네. 그래서 클라우드 플레이어를 이용하는 기업이 진짜 많거든요. 그래서 이런 클라우드 플레이어가 혹시나 고장이 났다. 뭐 누가 아까 민처럼 서버 전원을 끄고 나왔다. 그러면 이제 끝장 난 겁니다. 이제 클라우드 플레어에 올라간 서비스들 다 안 됩니다. 그래서 뭐 트위터 뭐 채지 뭐 다 안된 다 안 된 사건이 있었는데네 그게 다 요런 구조"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

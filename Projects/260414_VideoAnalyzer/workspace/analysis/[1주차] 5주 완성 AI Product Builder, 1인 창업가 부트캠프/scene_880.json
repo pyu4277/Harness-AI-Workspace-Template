@@ -1,0 +1,26 @@
+{
+  "scene_id": 880,
+  "frame_name": "frame_028854.jpg",
+  "start_time": 14424.0,
+  "end_time": 14429.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 오픈 코드는 뭐 오픈 소스인데 얘는 조금 더 복잡하거든요. 그래서 편하게 하시려면 그냥 그 채지랑"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

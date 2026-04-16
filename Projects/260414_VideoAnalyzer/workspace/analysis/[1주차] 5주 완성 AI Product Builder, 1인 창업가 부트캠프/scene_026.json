@@ -1,0 +1,26 @@
+{
+  "scene_id": 26,
+  "frame_name": "frame_000905.jpg",
+  "start_time": 450.5,
+  "end_time": 453.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "싶다 하시는 분들은요 강의 자료 보고 사실 따라하셔도 괜찮긴 합니다. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1253,
+  "frame_name": "frame_039306.jpg",
+  "start_time": 19648.0,
+  "end_time": 19657.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있었는데 그것 때문에 이게 다들 레프트패드를 갖다 썼거든요. 모든 사람들이 레프트패드 다 갖다 쓰고 갖다 쓰고 하다 보니까 이제 다 무너지는 일이 있었습니다. 그래서 다"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

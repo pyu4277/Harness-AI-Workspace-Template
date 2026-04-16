@@ -1,0 +1,26 @@
+{
+  "scene_id": 504,
+  "frame_name": "frame_019170.jpg",
+  "start_time": 9581.0,
+  "end_time": 9588.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그러면 어, 이렇게 주소가 벌써 나왔어요. 16초전 해가지고 로또닷 조코딩 워커스 데브 여기로 들어가면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

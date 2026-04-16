@@ -1,0 +1,25 @@
+{
+  "pipeline": {
+    "frame_interval": 0.5,
+    "ssim_threshold": 0.85,
+    "min_scene_duration": 3.0,
+    "whisper_language": "ko",
+    "whisper_model": "base"
+  },
+  "report": {
+    "image_max_width": 1280,
+    "image_quality": 80,
+    "max_report_size_mb": 50,
+    "output_format": "md"
+  },
+  "paths": {
+    "input_video": "input/video",
+    "input_subtitle": "input/subtitle",
+    "input_audio": "input/audio",
+    "workspace_frames": "workspace/frames",
+    "workspace_manifest": "workspace/manifest",
+    "workspace_analysis": "workspace/analysis",
+    "workspace_research": "workspace/research",
+    "output": "output"
+  }
+}

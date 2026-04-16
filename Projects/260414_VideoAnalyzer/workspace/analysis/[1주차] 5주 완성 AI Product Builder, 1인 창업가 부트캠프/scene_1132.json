@@ -1,0 +1,26 @@
+{
+  "scene_id": 1132,
+  "frame_name": "frame_035083.jpg",
+  "start_time": 17538.0,
+  "end_time": 17544.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "기레포토리 요거를 눌러 가지고 레포지토리랑 연결 하시면 됩니다. 요건 아까 보여 드리긴 했죠. 다시 한번 보여 드리자면 깃터브 선택해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

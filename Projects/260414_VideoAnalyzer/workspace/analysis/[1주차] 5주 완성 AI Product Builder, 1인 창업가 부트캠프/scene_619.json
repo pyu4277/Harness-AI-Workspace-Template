@@ -1,0 +1,26 @@
+{
+  "scene_id": 619,
+  "frame_name": "frame_021909.jpg",
+  "start_time": 10932.5,
+  "end_time": 10976.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 가입 요거 두 개 진행하시면 좋을 것 같고요. 이따가 쉬는 시간 끝나고 설명을 쭉 드리겠습니다. 일단 저도 구글 아이디 하나 찾아 가지고 그 얼른 해 보겠습니다. 일단네 아무래도 같이 따라가면 좋을 것 같아요. 소형 가입도 음글 아이디도 한번가 보겠습니다. 오 바바바 님 배포 안 됐다고 했던 사람입니다. 시간 지나니까 되네요. 되셨는데 아 시간 지나면은 되는 케이스들이 있는 거 같습니다.네 그래서 조금 기다리고 새로 고침해 보시면 아마 되실 겁니다. 어 그전에 또 쉬는 시간 가지는 김에 이벤트도 하나 할까요? 이벤트 제가 커피 드린다고 하고 안 드리고 있었는데네 이벤트 다시 한번 해 보겠습니다.네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

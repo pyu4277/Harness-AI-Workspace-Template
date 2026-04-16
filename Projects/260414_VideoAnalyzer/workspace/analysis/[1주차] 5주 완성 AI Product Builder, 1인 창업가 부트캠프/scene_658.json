@@ -1,0 +1,26 @@
+{
+  "scene_id": 658,
+  "frame_name": "frame_023281.jpg",
+  "start_time": 11632.5,
+  "end_time": 11648.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "보시면 그냥 다 알려줄 겁니다. 설정해서 딜리트 하면 돼. 여기 채팅에서도 알려 주시긴 합니다. 네. 그래서 일단 좀 수업을 진행하면서 중간중간 좀 중요한 거 위주로 답변을 드리도록 하겠습니다. 그래서 팁을 드리자면 일단 JT한테 물어보면 웬만한 답변을 다 줍니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1078,
+  "frame_name": "frame_033357.jpg",
+  "start_time": 16674.0,
+  "end_time": 16682.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 했습니다. 즉 이제는 기터 올리고 뭐 이거 클라우드 플레이어에서 다시 배포하고 이런 거 필요가 없습니다. 그냥 바로 few 세컨거에서 바로 배포가 됐죠. 그래서 여기서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

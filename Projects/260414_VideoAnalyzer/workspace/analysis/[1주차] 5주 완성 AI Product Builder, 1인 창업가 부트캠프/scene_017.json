@@ -1,0 +1,26 @@
+{
+  "scene_id": 17,
+  "frame_name": "frame_000764.jpg",
+  "start_time": 366.0,
+  "end_time": 397.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제가 출책까진 준비는 못 했는데 과제 혜책이 있습니다. 과제 제출 이벤트를 진행하려고 합니다. 그래서 이따 강의 자료 끝에도 준비해 놨는데 아, 이걸 듣고 나면은 첫 주차부터 결과물이 나옵니다. 예. 물론 이게 막 엄청 아, 엄청난 결과물을 나오긴 합니다. 사실 이제 처음 배우는 과정이 이제 수익화까지 오늘 다룰 거예요. 그래서 오늘 조금 빡세긴 할 수도 있는데 수익화까지 다 들 다 다르니까 이제 수익을 얻을 수 있는 실제 웹사이트를 만드셔 가지고 네. 그걸 좀 자랑하는 그런 이벤트도 진행하고 있으니까요. 네. 끝까지 따라오시면 감사드리겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

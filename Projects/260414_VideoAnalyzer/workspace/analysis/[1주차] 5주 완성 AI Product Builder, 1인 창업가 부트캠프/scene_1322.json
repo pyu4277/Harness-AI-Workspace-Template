@@ -1,0 +1,26 @@
+{
+  "scene_id": 1322,
+  "frame_name": "frame_040720.jpg",
+  "start_time": 20340.5,
+  "end_time": 20379.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다시음 배포는 아직 안 된 거 같은데. 어 깃 어 코드가 잘 동작하는지 확인하고 깃 배포까지 진행해.이 터브죠. 아이 정도.네 네. 그냥 배포까지 진행해라고 이렇게 시켜 보겠습니다. 아, 토큰 생성 유도하면 안 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 475,
+  "frame_name": "frame_018345.jpg",
+  "start_time": 9170.5,
+  "end_time": 9173.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이게 가장 좋은게 공짜 플랜인데도 아래쪽에 플랜별 어떤 그 제공하는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

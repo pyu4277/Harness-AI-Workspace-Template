@@ -1,0 +1,26 @@
+{
+  "scene_id": 48,
+  "frame_name": "frame_002532.jpg",
+  "start_time": 1252.5,
+  "end_time": 1278.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "프로그래밍 대회인데요. 네. 놀랍게도 여기서 이번에 2025년 네. 지금 2026년 1월인데 그 작년 최근 대회죠. 가장 최근 대회에서 1등한 팀이 놀랍게도 이제 총 12 문제 중에서 11 문제를 풀어 가지고 1등을 한 그런 사건이 있었습니다. 여기 어마어마한 천재들이 팀으로 모여 가지고 막 열심히 결혼은 그런 대회인데네 11개밖에 못 풀었고요.네 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

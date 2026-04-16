@@ -1,0 +1,26 @@
+{
+  "scene_id": 867,
+  "frame_name": "frame_028621.jpg",
+  "start_time": 14307.5,
+  "end_time": 14312.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요걸로 해 볼까? 요걸로는 될 거 같은데. 요걸로 해 볼게요. 그럼 명령을 바꿔서 요걸로. 요거는 될 거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 925,
+  "frame_name": "frame_029958.jpg",
+  "start_time": 14976.0,
+  "end_time": 14981.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "새로 다시 와오셔서 여기 뉴 이거 눌러 가지고 만들거나 아니면네 뭐 포스토리"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

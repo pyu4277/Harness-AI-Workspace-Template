@@ -1,0 +1,26 @@
+{
+  "scene_id": 20,
+  "frame_name": "frame_001069.jpg",
+  "start_time": 525.5,
+  "end_time": 543.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "따라 들어오시면 요런 폴더 하나가 준비되어 있습니다. 하네스 언더바 엔지니어링 하네스 언더바라는 폴더가 있는데 그 폴더 안에 두 개의 폴더를 만들어 놨습니다. 하나는 하네스 엔지니어링이 적용된 폴더 하나는 적용되지 않은 폴더입니다. 적용된 폴더 위드 폴더를 보면 앞서 드린"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "따라 들어오시면 요런 폴더 하나가 준비되어 있습니다. 하네스 언더바 엔지니어링 하네스 언더바라는 폴더가 있는데 그 폴더 안에 두 개의 폴더를 만들어 놨습니다. 하나는 하네스 엔지니어링이 적용된 폴더 하나는 적용되지 않은 폴더입니다. 적용된 폴더 위드 폴더를 보면 앞서 드린",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

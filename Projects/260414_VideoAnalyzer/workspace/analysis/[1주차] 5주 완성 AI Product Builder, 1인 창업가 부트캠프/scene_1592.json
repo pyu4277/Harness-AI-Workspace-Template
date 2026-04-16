@@ -1,0 +1,26 @@
+{
+  "scene_id": 1592,
+  "frame_name": "frame_048512.jpg",
+  "start_time": 24252.0,
+  "end_time": 24259.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되겠습니다.요 가입도 시간이 좀 걸리니까. 네. 가입하고 그다음에 결제 정보 이게 좀 오래 걸릴 것 같아요.이 결제 정보 입력이 필요하거든요. 네. 그래 가지고 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

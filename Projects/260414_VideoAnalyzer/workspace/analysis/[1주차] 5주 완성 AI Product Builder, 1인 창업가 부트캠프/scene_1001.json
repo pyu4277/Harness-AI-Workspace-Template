@@ -1,0 +1,26 @@
+{
+  "scene_id": 1001,
+  "frame_name": "frame_031555.jpg",
+  "start_time": 15772.0,
+  "end_time": 15782.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 요런 거잖아요. 여기 윈도우도 자 1인 창업자 강의 제가 강의 자료 있고 넘겨 가지고 이렇게 탭을 넘길 수가 있잖아요. 이렇게 탭 탭 얘는 문서 탭이고 얘는 뭐 폴더 탭이잖아요. 이것처럼 얘도 탭 탭 탭"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

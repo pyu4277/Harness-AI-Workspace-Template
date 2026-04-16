@@ -1,0 +1,26 @@
+{
+  "scene_id": 29,
+  "frame_name": "frame_001181.jpg",
+  "start_time": 586.0,
+  "end_time": 594.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "파일 하나를 만들어서 데이터 수집했을 때 어떤 형태로 파일이 있어야 된다라는 테스트 샘플을 넣어 뒀습니다. 그리고 마지막으로 스킬스"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "파일 하나를 만들어서 데이터 수집했을 때 어떤 형태로 파일이 있어야 된다라는 테스트 샘플을 넣어 뒀습니다. 그리고 마지막으로 스킬스",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

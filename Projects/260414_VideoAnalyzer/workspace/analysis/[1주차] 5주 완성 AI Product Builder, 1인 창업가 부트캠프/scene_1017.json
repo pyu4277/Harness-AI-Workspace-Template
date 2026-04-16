@@ -1,0 +1,26 @@
+{
+  "scene_id": 1017,
+  "frame_name": "frame_032029.jpg",
+  "start_time": 16009.0,
+  "end_time": 16019.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "와 브레드비트 님 아 축하드립니다.네 요런 식으로 하나씩 하시면은 다 만드실 수가 있습니다. 광고 붙이고 하려면 도메인 사야 하나요? 안 사도 됩니다. 도메인은 필요가 없어요.어야 이제 연결되고 있어요. 아까이 기터브 레포지토리"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

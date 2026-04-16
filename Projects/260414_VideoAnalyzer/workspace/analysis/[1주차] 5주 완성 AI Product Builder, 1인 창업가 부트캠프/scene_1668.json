@@ -1,0 +1,26 @@
+{
+  "scene_id": 1668,
+  "frame_name": "frame_050045.jpg",
+  "start_time": 25001.5,
+  "end_time": 25043.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가지고 얘를 주고네 요렇게 해서 시키면 알아서 읽고 알아서 만들어 줍니다.네 패칭이 이제 불러오는 건데 이거 웹사이트 읽으려고 하니까 허용해 줄게. 허용해 줄게. 이렇게 하면은 뭐야? 슬랙이 왜 있지? 예. 뭐야? 이거 좀 잘못 들어간 거 같은데. 네. 슬 슬랙 연동을 왜 하죠? 네. 요거 가끔 이런 오류가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

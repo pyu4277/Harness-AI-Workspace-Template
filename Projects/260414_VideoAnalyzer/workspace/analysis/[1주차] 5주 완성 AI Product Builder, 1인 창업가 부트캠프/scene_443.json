@@ -1,0 +1,26 @@
+{
+  "scene_id": 443,
+  "frame_name": "frame_017469.jpg",
+  "start_time": 8729.5,
+  "end_time": 8738.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되게 많을 거잖아요. 뭐 여기서 대표적으로 그 XI가 쓰는 거 이거 지금 콜로서스라는 이런 데이터 센터도 있고 한데 이런 거와 연계된 어떤 기업들이 되게 많습니다. 네. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

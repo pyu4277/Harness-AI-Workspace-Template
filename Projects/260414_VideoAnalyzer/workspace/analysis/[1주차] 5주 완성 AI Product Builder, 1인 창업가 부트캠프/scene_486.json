@@ -1,0 +1,26 @@
+{
+  "scene_id": 486,
+  "frame_name": "frame_018755.jpg",
+  "start_time": 9360.0,
+  "end_time": 9394.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "컴퓨트 앤 AI 워커스앤 페이지스라는 페이지가 있습니다. 다시이 메인 페이지 로그인하시면은 여기에 빌드 아래에 컴퓨트 앤 AI 워커스 앤 페이지스가 있습니다. 여기에 이제 페이지가 있기 때문에 여기에 이제 웹사이트를 올릴 수가 있습니다. 어 AWS가 가장 창렬 이거는 뭐 AWS도 근데 프리티어가 있기 때문에 뭐 프리티어만 이용하신다면 공짜긴 한데 이거는 무제한 평생 공짜거든요. 일단이 지금 정책상네 그렇기 때문에 요거 이용하시는게 지금 가장 좋습니다. 벌셀은 좀 돈이 나갈"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

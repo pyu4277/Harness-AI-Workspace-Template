@@ -1,0 +1,26 @@
+{
+  "scene_id": 1282,
+  "frame_name": "frame_039838.jpg",
+  "start_time": 19917.0,
+  "end_time": 19920.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "같은데 보면은 뭐 제한하는 거 있잖아요. 제안하는 거 있나? 제한하는 거. 뭐 견적 무의, 제유"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

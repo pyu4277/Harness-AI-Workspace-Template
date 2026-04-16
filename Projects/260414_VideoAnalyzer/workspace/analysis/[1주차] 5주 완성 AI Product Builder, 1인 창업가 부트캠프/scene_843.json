@@ -1,0 +1,26 @@
+{
+  "scene_id": 843,
+  "frame_name": "frame_028300.jpg",
+  "start_time": 14148.0,
+  "end_time": 14151.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "마찬가지거든요. 아 이거 기왕 한 개만 할까요?네 네. 기왕. 아, 계속 욕심이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

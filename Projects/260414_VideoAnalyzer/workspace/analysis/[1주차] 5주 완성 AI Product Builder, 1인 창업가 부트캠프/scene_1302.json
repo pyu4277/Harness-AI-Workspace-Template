@@ -1,0 +1,26 @@
+{
+  "scene_id": 1302,
+  "frame_name": "frame_040266.jpg",
+  "start_time": 20122.5,
+  "end_time": 20143.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "로그인 해 보시면 요렇게 나오게 됩니다. 그래서 이런 사스 서비스는 이렇게 되게 잘 꾸며 놨어요. 그래서 유료 결제하도록 막 유도를 하는 거죠. 이제 여러분도 이런 걸 만들 수가 있습니다. 누구나. 음. 아, 왓 그 이용 용도는 그냥 설문 받는 거니까 아무거나 누르시면 됩니다. 아무거나 누르시면은 결국에요 화면으로 들어오거든요. 폼스프리 이거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

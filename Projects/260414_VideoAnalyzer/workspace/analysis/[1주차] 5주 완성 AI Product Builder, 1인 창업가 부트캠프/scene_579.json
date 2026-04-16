@@ -1,0 +1,26 @@
+{
+  "scene_id": 579,
+  "frame_name": "frame_020748.jpg",
+  "start_time": 10364.0,
+  "end_time": 10383.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제는 고급 개발을 조금 쉬었다가 진행을 해 보겠습니다. 아, 너무 달렸죠? 지금 4시 53분인데 어, 거의 3시간 달렸네요. 지금 2시부터 했으니까. 3세시간 달렸는데 한 10분 휴식하고 네. 5시 한 5분쯤에 다시 시작할까요? 네. 10분 휴식하고 이제 고급 개발로 넘어가겠습니다. 네. 뭐 할지만 잠깐 소개드리면 고급 개발할 때 뭐 할"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

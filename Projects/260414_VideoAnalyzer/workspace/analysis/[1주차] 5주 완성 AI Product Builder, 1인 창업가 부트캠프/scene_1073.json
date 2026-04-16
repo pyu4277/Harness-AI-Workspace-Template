@@ -1,0 +1,26 @@
+{
+  "scene_id": 1073,
+  "frame_name": "frame_033038.jpg",
+  "start_time": 16516.5,
+  "end_time": 16520.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "예를 들어 지금 여기도 다크 모드, 화이트 모드 없잖아요. 어, 이거 추가하고 싶은데 생각이 들면 어,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

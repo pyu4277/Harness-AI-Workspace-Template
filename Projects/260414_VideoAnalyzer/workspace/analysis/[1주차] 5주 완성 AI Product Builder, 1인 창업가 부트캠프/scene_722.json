@@ -1,0 +1,26 @@
+{
+  "scene_id": 722,
+  "frame_name": "frame_025147.jpg",
+  "start_time": 12571.0,
+  "end_time": 12575.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "비슷합니다. 사용하는 건 아마 시작하게 누르면 이렇게 비슷한 화면이 뜰 거예요. 어떻게 돼 있냐? 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

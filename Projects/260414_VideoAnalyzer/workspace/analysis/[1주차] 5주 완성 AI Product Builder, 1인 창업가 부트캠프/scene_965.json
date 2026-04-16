@@ -1,0 +1,26 @@
+{
+  "scene_id": 965,
+  "frame_name": "frame_031008.jpg",
+  "start_time": 15498.5,
+  "end_time": 15508.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요런 식으로 관리하잖아요. 그래서 이거를 관리하는 겁니다. 그래서 제일 최신 거를 가장 먼저 녹하고 과거 것도 보면 좋잖아요. 과거 내가 어떤 거 어떻게 변경했지라는게 여기 기록에"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

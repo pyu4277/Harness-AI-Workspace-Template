@@ -1,0 +1,26 @@
+{
+  "scene_id": 1805,
+  "frame_name": "frame_052901.jpg",
+  "start_time": 26439.0,
+  "end_time": 26461.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그 보고 싶다 하시는 분들은 좀 한 번씩네 멤버십 가입도 해 주시면 아주 감사드리겠습니다. 아 재밌는 아이 다 쓰셨군요. 아 케빈 킴 님 아 이런 감사합니다. 항상 후원해 주셔서 너무 감사합니다. 내일 AI 뉴스 있습니다.네 AI 뉴스는 당연히 진행해야죠. 소식들 계속 또 많더라고요. 재밌는 것도 많아서 그것도 소개해 드릴 거고요. 해커톤의 노트북 가져오셔야 됩니다. 아, 그리고 이벤트 제일 중요한 거."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

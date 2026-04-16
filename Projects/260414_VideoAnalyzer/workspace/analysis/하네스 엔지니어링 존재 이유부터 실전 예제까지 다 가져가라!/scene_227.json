@@ -1,0 +1,26 @@
+{
+  "scene_id": 227,
+  "frame_name": "frame_001541.jpg",
+  "start_time": 763.0,
+  "end_time": 777.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - OpenAI 하네스 엔지니어링 공식 문서 페이지 (한국어)",
+    "elements": ["OpenAI 공식 블로그 헤더", "제목: 에이전트의 가독성의 특징", "본문: 컨텍스트 관리 철학, Codex 접근 방식 설명", "시간 지남에 따른 컨텍스트 리포지터리 확장 방법", "핵심 인용: 이 문서를 GPT한테 그대로 주고 구축해달라고 요청"],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["OpenAI 하네스 엔지니어링 문서", "프롬프트 기반 시스템 구축", "적용 후 수정 과정"],
+    "summary": "구축해 달라고 요청할 예정이다라고 이렇게 만들어서 받은 프롬프트를 그대로 적용을 했습니다. 그 물론 이렇게만 했을 때에 적용이 안 되는 부분이 또 굉장히 많았습니다. 그래서 제가 어 수정해야 될 사항은 조금 조금씩 수정을 했거든요. 그래서 그런 사항들도 제가 알려 드리도록 할게요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "OpenAI 공식 하네스 엔지니어링 문서 전문 (한국어 번역판). 에이전트 가독성 특징, 컨텍스트 리포지터리 점진적 확장 방법론 상세 텍스트",
+    "text_only_info": "이 문서를 GPT에게 그대로 주고 하네스 시스템 구축을 요청했으나 적용 안되는 부분이 많아 수정 필요",
+    "combined_insight": "실전 적용 과정: OpenAI 공식 하네스 엔지니어링 문서를 GPT에게 직접 입력하여 시스템 구축 요청. 화면은 원본 문서 내용을 보여주고, 대본은 이를 실제 적용했을 때의 시행착오와 수정 과정을 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

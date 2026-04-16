@@ -1,0 +1,26 @@
+{
+  "scene_id": 688,
+  "frame_name": "frame_024325.jpg",
+  "start_time": 12153.5,
+  "end_time": 12170.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요렇게 생긴게 이제 아이디라고 부르거든요. 그래서 요거를 뭐 사실 이게 별거 없습니다. 이게 막 와이 뭐 특별한 프로그램이다라고 생각할 수 있는데 그냥 메모장이랑 그 메모장과 연결된 어떤 뭐 터미널이랑 이런 걸 그냥 같이 붙여 놓은 겁니다. 네. 그래서 메모장인데 좀 알록달록하다라고 이해하시면 좋을 것 같고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

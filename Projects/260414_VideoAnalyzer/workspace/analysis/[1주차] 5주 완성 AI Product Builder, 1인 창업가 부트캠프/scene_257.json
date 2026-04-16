@@ -1,0 +1,26 @@
+{
+  "scene_id": 257,
+  "frame_name": "frame_013013.jpg",
+  "start_time": 6493.5,
+  "end_time": 6519.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "메모장이 있습니다. 네. 맥 맥 쓰시는 분들은 이제이 기본 텍스트 에디터 그 기본 메모장이 있어요. 그래서이이 주의하셔야 들게요 노트가 아닙니다. 요거는 이제 아이폰에서 쓸 수 있고 이런 메모장 연동되고 막 복잡한 건데이 복잡한 거 말고 가장 단순한 거 요거 텍스트 에디이라는게 있습니다. 그 런치패드 열어 보시면 스포라이나 이런 거 텍스트 에디 쳐 보시면 나오는데네 요거를 눌러 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "scene_id": 240,
+  "frame_name": "frame_001939.jpg",
+  "start_time": 964.0,
+  "end_time": 974.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code CLAUDE.md 3~5단계 전체 요약",
+    "elements": [
+      "테스트 기준 상세",
+      "4단계: 검증 실행 (vitest/eslint/vite build/파일크기/아키텍처)",
+      "검증 미통과 시 커밋 불가",
+      "5단계: Conventional Commits 형식 커밋 + 머지"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "커밋 메시지: Conventional Commits 형식 feat(scope): 설명",
+      "master 머지 후 bash scripts/complete-task.sh <task-id> 실행"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "5단계 파이프라인 전체",
+      "Conventional Commits",
+      "complete-task.sh"
+    ],
+    "summary": "있습니다. 그래서 뭐 베리if파이 테스크 같은 경우에는 여기 가시면은 이제 테스크 뭘 해야 되는지에 대해서 이렇게 쭉 나와 있죠. 음. 그래서 린트 테스트 꼭 해라. 빌드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "하네스 5단계 파이프라인 전체: 테스트->검증(5종)->커밋(Conventional Commits)->머지->완료(complete-task.sh). 각 단계별 구체적 명령어와 규칙",
+    "text_only_info": "린트/빌드/파일크기 테스트의 중요성 설명",
+    "combined_insight": "하네스 5단계 파이프라인 전체 조감: 테스트 작성 -> 5종 자동 검증 -> Conventional Commits 커밋 -> 머지 -> complete-task.sh 완료. 화면은 전체 파이프라인 코드를, 대본은 각 단계의 의미를 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

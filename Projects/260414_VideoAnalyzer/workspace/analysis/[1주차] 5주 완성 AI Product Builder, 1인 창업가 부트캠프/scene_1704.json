@@ -1,0 +1,26 @@
+{
+  "scene_id": 1704,
+  "frame_name": "frame_050687.jpg",
+  "start_time": 25341.5,
+  "end_time": 25344.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "도메인으로도 막 1등에 있었습니다. 네. 옛날 도메인도 1등에 한번"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

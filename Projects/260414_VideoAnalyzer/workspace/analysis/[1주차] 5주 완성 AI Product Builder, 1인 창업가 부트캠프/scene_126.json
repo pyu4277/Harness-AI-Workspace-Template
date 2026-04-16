@@ -1,0 +1,26 @@
+{
+  "scene_id": 126,
+  "frame_name": "frame_005973.jpg",
+  "start_time": 2959.5,
+  "end_time": 3013.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "나왔었는데 베이스 44라는 기업은 놀랍게도 이런 일이 있었습니다. 설립 6개월 만에 1인 소유. 물론 직원분들이 있었다고 해요. 근데 막 엄청 큰 기업이 아니고 1인 소유 기업입니다. 네. 운영되던 그 바이브 코딩 플랫폼인데 베이스 아사가 익스에 8천만 달러 현금의 매각이 된 사건도 있었습니다. 즉 8천만 달러 이게 다 이게 한 하나로 치면 막 1100억이 넘죠. 거의 한 1,200억 정도의 팔린 일이 있었는데 엄청나죠. 네. 이제 1인으로도이 정도 성과를 낼 수 있는 시대가 됐고 그렇다고 베이스 44가 뭐 기술적으로 막 어마어마해 가지고 못 만드는 어떤게 있냐? 아닙니다. 그냥 다 딸각으로 AI, 외부 AI를 갖다가 붙여 가지고 그냥 만든 어떤 서비스일 뿐입니다. 그래서 그냥 진짜 누구나 만들 수가 있어요. 이게 뭐 만드는게 어렵지가 않습니다. 네. 광고 회사 아니고요. 이게 바이브 코딩 회사입니다. 그래서 바이브 코딩툴 만드는 회사입니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

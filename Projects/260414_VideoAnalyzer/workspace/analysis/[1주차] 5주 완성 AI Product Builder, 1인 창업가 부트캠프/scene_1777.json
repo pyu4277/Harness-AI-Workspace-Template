@@ -1,0 +1,26 @@
+{
+  "scene_id": 1777,
+  "frame_name": "frame_052164.jpg",
+  "start_time": 26079.0,
+  "end_time": 26084.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "공짜로 쓸 수가 있습니다. 유료 결제 이거 하지 마세요.이 유료 결제 하신 분도 있는데 이거 공짜로 그냥 하실 수 있고요. 유료 결제 안 하셔도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

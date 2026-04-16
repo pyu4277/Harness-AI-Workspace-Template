@@ -1,0 +1,26 @@
+{
+  "scene_id": 771,
+  "frame_name": "frame_026815.jpg",
+  "start_time": 13405.0,
+  "end_time": 13409.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있다면 이것도 좋습니다. 코덱스도 괜찮거든요.이 코덱스 CLI도 비슷한 겁니다.이 오픈에 만든 이런 비슷한"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

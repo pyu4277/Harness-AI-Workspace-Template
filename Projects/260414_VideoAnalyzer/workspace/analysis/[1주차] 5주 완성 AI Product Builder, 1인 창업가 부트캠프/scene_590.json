@@ -1,0 +1,26 @@
+{
+  "scene_id": 590,
+  "frame_name": "frame_021025.jpg",
+  "start_time": 10509.0,
+  "end_time": 10515.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "지금 구글링으로 이렇게 검색을 했는데 이게 옛날 개발자들 특이거든요. 그러니까 모든 걸 다 구글에서 찾는게 이제 옛날 습관이었다면 이제 요즘"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

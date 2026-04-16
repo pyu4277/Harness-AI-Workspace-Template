@@ -1,0 +1,27 @@
+# Large binary data (frames, videos, audio)
+input/video/
+input/audio/
+workspace/frames/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+pipeline/_tmp_*.py
+
+# HarnessWorkspace (generated)
+HarnessWorkspace/
+
+# Harness cache
+.harness/ingest-cache.json
+.harness/refine-log.jsonl
+
+# Claude scheduled tasks
+.claude/scheduled_tasks.lock

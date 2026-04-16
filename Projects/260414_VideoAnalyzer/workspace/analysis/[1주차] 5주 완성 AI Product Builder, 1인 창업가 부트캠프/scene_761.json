@@ -1,0 +1,26 @@
+{
+  "scene_id": 761,
+  "frame_name": "frame_026576.jpg",
+  "start_time": 13285.5,
+  "end_time": 13289.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "나머지는 또 새로 가입하고 요금제 등록하면 비싸잖아요. 그래서 공짜"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

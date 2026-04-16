@@ -1,0 +1,26 @@
+{
+  "scene_id": 305,
+  "frame_name": "frame_014308.jpg",
+  "start_time": 7141.5,
+  "end_time": 7165.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "것도 있고 하나로 구성된 것도 있고 뭐 부모 자식 관계도 있어요. 그러니까 부모 태그가 이렇게 열리고 다치고 있는 사이에 이렇게 자식이 두 가지 들게 들어가면 얘를 부모 태그라 부르고 얜 자식 태그라 부릅니다.요 정도 개념만 이해하셔도 약간 HTML을 거의 다 정복하신 겁니다.이 이미 이제 어떤 그 마크업 번호 하나를 정복하신게요 정도만 아셔도 사실 충분합니다. 네. 놀랍죠?"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

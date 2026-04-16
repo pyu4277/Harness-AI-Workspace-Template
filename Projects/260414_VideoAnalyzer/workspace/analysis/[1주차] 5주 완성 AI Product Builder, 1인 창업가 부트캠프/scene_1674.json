@@ -1,0 +1,26 @@
+{
+  "scene_id": 1674,
+  "frame_name": "frame_050200.jpg",
+  "start_time": 25089.5,
+  "end_time": 25109.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게. 아, 2012년. 네. 되게 옛날 자료긴 한데. 네. 좋습니다. 아, 이미 승인 받은 도메인이 있다면 아, 그거 좋죠. 이미 승인 받으면은 그 밑에 이렇게 추가하면 됩니다. 사실 예를 들어 이런 거죠. 저희"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

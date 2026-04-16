@@ -1,0 +1,26 @@
+{
+  "scene_id": 330,
+  "frame_name": "frame_014661.jpg",
+  "start_time": 7328.5,
+  "end_time": 7331.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "제 사진이 들어갑니다. 놀랍죠? 와 놀랍죠? 와 이제 뉴스 해킹해"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

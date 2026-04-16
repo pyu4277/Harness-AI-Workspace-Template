@@ -1,0 +1,26 @@
+{
+  "scene_id": 57,
+  "frame_name": "frame_003039.jpg",
+  "start_time": 1499.0,
+  "end_time": 1539.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하는 모습을 보여주고 있고. 네. 그러다 보니까 이제 코딩이 너무 쉬워졌어요. AI가 코딩을 너무 잘해 주다 보니까. 네. 이제는 바이브 코딩의 시대가 됐습니다. 그래서 바이브 코딩이 뭐냐? 아마 요즘에는 다들 한 번씩 들어 보셨을 거 같지만 네. 바이브 코딩이란 코딩이 AI를 통해서 너무 쉬워지다 보니까 그냥 생성형 AI 인공지능으로 코딩을 시켜 가지고 뭐 엄밀한 논리 설계를 바탕으로 하지 않고 직관과 느낌에 의존한다는 의미로 쓰인다고 합니다. 즉 그냥 파이브가 느낌이잖아요. 느낌대로 코딩하는 시대가 됐습니다. AI가 너무 코딩을 잘해 주다 보니까. 네. 그래서 벌써 이런 시대가 와 버렸죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

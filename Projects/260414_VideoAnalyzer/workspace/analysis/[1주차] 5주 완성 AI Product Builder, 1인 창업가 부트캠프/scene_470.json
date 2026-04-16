@@ -1,0 +1,26 @@
+{
+  "scene_id": 470,
+  "frame_name": "frame_018231.jpg",
+  "start_time": 9108.0,
+  "end_time": 9122.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭔가? 네. 여러분들 회원 가입하실 시간을 좀 드리도록 하겠습니다. 회원 가입 진행해 보시면 되겠습니다. 아, 이메일로 회원 가입하실 수가 있네요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

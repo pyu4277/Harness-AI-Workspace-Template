@@ -1,0 +1,26 @@
+{
+  "scene_id": 445,
+  "frame_name": "frame_017502.jpg",
+  "start_time": 8742.5,
+  "end_time": 8759.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "유머도 하나 가져와 봤는데 서버실 이런 데이터 센터 이런 거 개념을 좀 이해하기 쉬우려면 이런 서버실을 운영하는 기업들 있을 거잖아요. 그래서 어떤 분이 서버실 문 잘 잠고 나왔지? 네. 전원도 다 끄고 나왔어요. 익. 네. 이렇게 되는 이유가 이제 서버라 서버시라는 거는 요런 걸 전문적으로 제공하는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

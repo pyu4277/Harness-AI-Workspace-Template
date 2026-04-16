@@ -1,0 +1,26 @@
+{
+  "scene_id": 1051,
+  "frame_name": "frame_032674.jpg",
+  "start_time": 16325.0,
+  "end_time": 16348.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "크리에이트 어플리케이션을 다시 눌러서 워커를 만들고 있다. 아, 제가 잘못 배포했군요. 아, 아, 이거 처음이 UI가 바뀌어 가지고 기본적으로 페이지지 않을까 싶었는데 아씨. 아, 이거 그 처음에 좀 실수를 했군요. 이거 다시 제녹화를 해야겠네, 그 부분은. 네, 맞아요. 다시 다시가 보겠습니다. 자,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

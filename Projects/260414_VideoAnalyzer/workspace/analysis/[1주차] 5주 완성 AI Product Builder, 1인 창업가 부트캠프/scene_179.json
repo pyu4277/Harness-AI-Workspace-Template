@@ -1,0 +1,26 @@
+{
+  "scene_id": 179,
+  "frame_name": "frame_009299.jpg",
+  "start_time": 4635.0,
+  "end_time": 4663.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대상으로 진행된다라고 소개를 드립니다. 네. 그러면은 아 20분에 딱 시작하겠습니다. 2분만 조금 숨 돌렸다가네 뭐 할지 저도 그 준비는 해 놨는데 다시 한번 보면서네 2분 뒤에 바로 시작해 보겠습니다. 좋아요 안 누르신 분들 좋아요 한 번씩만 부탁드리겠습니다. 링크는 그 고정 채팅 저희 여기도 보이죠? 화면에도 고정 채팅에 남겨 놨습니다. 음. 아예 모르는 분들도 이걸 다 할 수 있게 제가 구성을 해 놨습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

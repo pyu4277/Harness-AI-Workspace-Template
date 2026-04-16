@@ -1,0 +1,26 @@
+{
+  "scene_id": 98,
+  "frame_name": "frame_000593.jpg",
+  "start_time": 294.5,
+  "end_time": 297.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이유가요. 바로이 오픈 AI에서 어떤 문서를 내놨기 때문입니다.이 오픈"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

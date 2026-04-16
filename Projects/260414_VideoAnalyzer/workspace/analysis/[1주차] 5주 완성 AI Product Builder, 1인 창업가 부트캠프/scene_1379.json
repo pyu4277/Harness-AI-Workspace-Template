@@ -1,0 +1,26 @@
+{
+  "scene_id": 1379,
+  "frame_name": "frame_042180.jpg",
+  "start_time": 21086.0,
+  "end_time": 21093.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 이렇게 요건 뭔가 렉 걸린 거 같아요, 지금. 뭐지? 껐다 켜 보겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

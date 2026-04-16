@@ -1,0 +1,26 @@
+{
+  "scene_id": 725,
+  "frame_name": "frame_025506.jpg",
+  "start_time": 12740.0,
+  "end_time": 12765.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "열어 줘. 네. 다 AI 시키면 됩니다. 어. 어, 이렇게 런 누르면 열어 줍니다. 어, 이게 터미널이라는게 열렸는데 요거부터 약간 소개를 드리면 여기서 이걸 눌러서 터미널에 뉴 터미널 있죠? 요걸 누르면 요런 식으로 명령어를 입력할 수 있는 창이 나옵니다. 뭐 윈도우 컴퓨터나 이런 데서는 파워쉘 이런 거 아마 보신 적 있을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,37 @@
+{
+  "scene_id": 1462,
+  "frame_name": "frame_044150.jpg",
+  "start_time": 22029.0,
+  "end_time": 22120.0,
+  "visual_analysis": {
+    "layout": "Teachable Machine - AI 이미지 분류 학습",
+    "elements": [
+      "dog/cat 클래스",
+      "학습 버튼",
+      "미리보기",
+      "Google Drive 저장"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": [
+      "이미지 -> 클래스(dog/cat) -> 학습 -> 미리보기"
+    ]
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Teachable Machine",
+      "dog/cat 분류",
+      "노코드 AI"
+    ],
+    "summary": "웹캠 말고 파일. 예. 그래서 지금 요렇게 강아지는 얘고 고양이 얘라라고 AI 모델을 지금 학습을 시킨 겁니다. 그래서 한 장이랑 금방 학습이 끝났는데 그래서 실제로 다른 강아지 사진을 한번 넣어 볼게요. 학습시키지 않은 강아지 사진을. 학습시키지 않은 그 강아지를 넣으면은 어 이런 거네 이거 한 장이라 아 이게 아마 그 트랜스퍼 러닝 뭐 이런 기반이 아마 되긴 할 겁니다. 다 되긴 할 건데 한번 보겠습니다. 이걸 보면은 이거는 이제 lm 채치 나오기 전에 AI입니다. 네. 제 강아지 고양이 구분하는 거 이렇게 강아지 싹 올리면은 네. 이게 잘 안 되는게이 한 장밖에 없기 때문이에요. 이거 많이 하면 잘 됩니다. 많이 하면 잘 되는데 얘 고양이로 판단 안 했네. 어 예. 아무튼 요거 느낌 뭔지 아시겠죠?이 올랐을 때 이게 강아지 많이 하고 고양이 많이 하면은 이제 강아지 넣으면 강아지로 나오는 거. 아이씨. 이거 좀 강아지 나오는 걸로 해 볼게요. 이거 좀 고양이 같은 강아지인가? 좀 더 진짜 강아지 같은 애 해 볼까요? 음. 네. 얘로 네. 데이터가 하나기 때문에 그렇습니다. 데이터가 하나기 때문에 그런데 아, 네.이 데이터를 좀 많이 하면은 정확해지거든요. 아, 이거 조금 더 해 봐야겠다. 이렇게 얘네가 강아지다. 오케이. 강아지 세 장"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Teachable Machine: dog/cat 이미지 분류 모델 학습 인터페이스",
+    "text_only_info": "AI 이미지 분류 학습 과정",
+    "combined_insight": "노코드 AI: Teachable Machine으로 분류 모델 직접 학습"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

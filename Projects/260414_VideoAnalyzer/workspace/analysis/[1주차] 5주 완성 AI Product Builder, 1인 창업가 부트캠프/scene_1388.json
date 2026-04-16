@@ -1,0 +1,26 @@
+{
+  "scene_id": 1388,
+  "frame_name": "frame_042492.jpg",
+  "start_time": 21228.0,
+  "end_time": 21263.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "새로 열립니다. 그래서 여기에 재미나 있으시면 됩니다. 실행합니다. 왜 실행을 안 해? 그래, 실행해. 뭐야? 약간 좀 맛이 간 거 같아요. 가끔 이럴 때가 있는 거 같은데. 네. 또 똑똑한 클로드로가 보겠습니다. 네. 지금 작성한 내용 푸시 진행해. 예. 이거 뭐 왔다 갔다 하면서 해 볼게요.이 가끔 지금 재미나가 약간"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

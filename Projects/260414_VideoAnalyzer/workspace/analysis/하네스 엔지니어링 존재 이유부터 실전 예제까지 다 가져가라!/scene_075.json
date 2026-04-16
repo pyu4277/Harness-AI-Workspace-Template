@@ -1,0 +1,26 @@
+{
+  "scene_id": 75,
+  "frame_name": "frame_000454.jpg",
+  "start_time": 225.0,
+  "end_time": 228.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뭐다? 하네스 엔지니어링이에요. 하네스가 뭐예요?이 몸에 이렇게 딱 차는 그런 거 있잖아요. 우리가 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

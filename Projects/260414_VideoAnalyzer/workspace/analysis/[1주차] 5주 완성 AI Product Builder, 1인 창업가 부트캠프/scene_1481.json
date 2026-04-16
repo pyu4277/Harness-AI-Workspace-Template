@@ -1,0 +1,26 @@
+{
+  "scene_id": 1481,
+  "frame_name": "frame_044980.jpg",
+  "start_time": 22488.0,
+  "end_time": 22491.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "놀랍게도 붙어 있습니다. 이제 동물상 테스트 애니멀 페이스 사이트 들어가 보시면 어 광고도 막 덕지덕지 있는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

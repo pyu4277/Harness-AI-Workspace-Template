@@ -1,0 +1,26 @@
+{
+  "scene_id": 1528,
+  "frame_name": "frame_046357.jpg",
+  "start_time": 23143.0,
+  "end_time": 23213.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "하면 다 해 줍니다. 그래서 아이디어 그냥이 안에서 물론 하셔도 되고요. 여기에 그 클로드 코드 지금 저는 그 무제 안으로 그냥 돌리는 걸로 쓰고 있는데 여기에 그것도 있거든요. 플랜 모드라고. 어 어떻게 하지? 시프트 탭 시프트 탭 누르면 이렇게 플랜 모드라는게 있습니다. 그래서 뭐 서비스 만들고 싶은데 아이디어 알려줘 하면은이 플랫 모드니까이 코드는 안 고치고 그냥 아이디어만 여기서 토론할 수도 있습니다. 그래서 시프트 탭 이런 거 누르면서 진행하실 수 있습니다. 네. 구체화해서 당연히 코드 구현이나 이런 거 다 해 주고요. 그냥 싹 다 해 줍니다. 그냥 AI한테 뭐든 시키면은 그냥 진짜 딸까이 시됩니다. 음. 네. 파이웨이스 스튜디오 말고 딴 거 쓰셔도 됩니다. 이거는 그냥 그 환경 세팅하기 뭐 설치하기 귀찮아 가지고 하는 거지. 네. 설치하셔서 직접 내 컴퓨터에 쓰셔도 됩니다. 이거 그냥 설치하기 귀찮아서 하는 겁니다. 네. 아이디어가 중요하고 심지어이 세팅이 아직 좀 어렵잖아요. 그래서 조코딩 채널 영상을 그 시청하실 수 있는 정도의 어떤 뭐랄까 그 끈기는 있으셔야 됩니다. 왜냐면이 세팅이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-03: scene_1503과 유사한 다크모드 코드 화면, 추가 시각 정보 제한적",
+  "importance_rule_version": 2
+}

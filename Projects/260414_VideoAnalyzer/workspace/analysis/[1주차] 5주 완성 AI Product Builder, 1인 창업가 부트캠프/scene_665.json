@@ -1,0 +1,26 @@
+{
+  "scene_id": 665,
+  "frame_name": "frame_023538.jpg",
+  "start_time": 11745.0,
+  "end_time": 11792.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "사실 기터브라는 거 이전에 사실 기시라는 개념이 있습니다. 기이 뭐냐면 버전 관리의 도구입니다. 그래서 버전 관리 이게 뭔가라고 좀 모르실 수 있을 것 같은데 예를 들어 뭐 졸업 논문 이런 거 쓰면은 아마 다 경험해 보셨었겠지만 계속 수정이 생기죠. 그러면 아 수정 1 최종 진짜 최종 진짜 최종 이게 진짜이 최종 최종 진짜 참 리얼 최종 이런 거 아마 다들 한 번씩은 겪어 보셨을 것 같습니다.네 그래서 요런 일들이 많이 있는데 코드도 똑같습니다. 아까 뭐 그 다크모드 추가한 버전 뭐 아니면 뭐 수정한 버전 이런 거를 계속 만들다 보면 헷갈립니다. 아, 이게 언제 어디서 고쳤고 이게 무슨 버전이지라는 거를 이제 관리하는 네. 그런 버전 관리 도구가 기시라는게 있는데 요거를 이용해서 이거를 체계적으로 관리한 다음에 요거를 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 589,
+  "frame_name": "frame_021012.jpg",
+  "start_time": 10502.0,
+  "end_time": 10509.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "용량 제한이 있나요? 아. 아, 제가 너무 구시세적인 방법을 잠깐 써 버렸어요. 제가 옛날 개발자다 보니까 지금 구글링으로 이렇게 검색을 했는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

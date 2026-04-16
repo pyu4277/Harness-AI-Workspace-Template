@@ -1,0 +1,26 @@
+{
+  "scene_id": 179,
+  "frame_name": "frame_001165.jpg",
+  "start_time": 580.5,
+  "end_time": 583.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아, AI한테 우리가 그냥 컨텍스트 원하는 만큼을 그냥 빡 주는게 아니라"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

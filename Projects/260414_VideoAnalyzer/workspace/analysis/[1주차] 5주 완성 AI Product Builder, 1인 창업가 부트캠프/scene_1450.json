@@ -1,0 +1,26 @@
+{
+  "scene_id": 1450,
+  "frame_name": "frame_043524.jpg",
+  "start_time": 21745.5,
+  "end_time": 21778.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "재밌는 거. 아, 이거 진짜 재밌는게 있습니다. 자, AI를 갖다 붙이는 그런 서비스도 있습니다. 그래서 이게 진짜 레전드의 시작 조코딩 채널에 어떻게 보면 그 가장 큰 부을 일으켰던게이 티처물 머신이 아닐까? 그래서 이것도 갖다 붙이는 것 중에 하나거든요. 네. 갖다 붙이는 것 중에 하난데 요거 한번 해 보도록 하겠습니다. 이게 AI 기능을 이거 LM 이런 거 나오기도 전에 제가 2020년도에 아마 이걸 써 가지고 만들었을 겁니다. 그 정도로 꽤 오래된 구글의 서비스인데음"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

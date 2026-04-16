@@ -1,0 +1,26 @@
+{
+  "scene_id": 382,
+  "frame_name": "frame_016009.jpg",
+  "start_time": 8001.5,
+  "end_time": 8006.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래 가지고 요걸 이용해서 네. 코드가 다 완성이 됐습니다. 그러면 채치T가 따 준 거니까. 네. 코드"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

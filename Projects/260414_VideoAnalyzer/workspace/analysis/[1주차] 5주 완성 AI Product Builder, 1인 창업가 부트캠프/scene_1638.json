@@ -1,0 +1,26 @@
+{
+  "scene_id": 1638,
+  "frame_name": "frame_049340.jpg",
+  "start_time": 24650.0,
+  "end_time": 24689.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "들어가서 여기서 네. 자, 이제 설명을 해 줘야겠죠? 이제 뭐 할 건지를 알려 주고 그다음에 쭉쭉 관련 코드를 넣어 줄게요. 어이 사이트에 구글 애드 센스를 추가할 거야.음 제공 하는 정보를 기반으로 광고 추가해 줘. 아이고. 기반으로 광고 추가해 줘. 네. 요렇게 하고 추가를 해 주겠습니다. 그러면 이렇게 에드센스 아까 그 스니"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

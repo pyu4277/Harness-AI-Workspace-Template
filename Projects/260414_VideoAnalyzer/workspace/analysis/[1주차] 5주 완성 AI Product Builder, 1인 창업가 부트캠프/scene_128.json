@@ -1,0 +1,26 @@
+{
+  "scene_id": 128,
+  "frame_name": "frame_006062.jpg",
+  "start_time": 3020.5,
+  "end_time": 3040.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "맞아요. 이제 API 포장만 잘하면 됩니다. 요런 것만 잘하면 됩니다. 그냥 최치T AI 잘 감싸 가지고 포장하면은 이제 뭐 1천억에 팔리는 그런 스타트업이 나오는 거예요. 그냥 포장만 잘하면 되고 그 포장 잘하는 건 막 기술적인 어떤 지식이 뛰어나야 할 수 있는게 아니죠. 그냥 포장만 잘하면 되죠. 진짜. 네. 그래서 그냥 요렇게 포장을 잘하시면 된다라고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

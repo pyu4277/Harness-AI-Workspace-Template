@@ -1,0 +1,26 @@
+{
+  "scene_id": 814,
+  "frame_name": "frame_027761.jpg",
+  "start_time": 13876.0,
+  "end_time": 13884.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "띄워 가지고 여기서 어이고 이거는 어 얘는 막히네. 얘는 왜 막혔지? 얘는 요거 요걸 복사해야 될 거 같아요. 아, 이게 기본적으로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

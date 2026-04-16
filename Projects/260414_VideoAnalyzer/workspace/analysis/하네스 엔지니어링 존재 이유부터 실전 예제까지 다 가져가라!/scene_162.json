@@ -1,0 +1,26 @@
+{
+  "scene_id": 162,
+  "frame_name": "frame_000988.jpg",
+  "start_time": 492.0,
+  "end_time": 495.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "가지고 나온게 첫 번째이 로그 시스템을 달아주고 그래서 그 가시성을 위해서 어떻게 했느냐?이 어 로그를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

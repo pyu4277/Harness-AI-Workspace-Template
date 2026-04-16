@@ -1,0 +1,26 @@
+{
+  "scene_id": 342,
+  "frame_name": "frame_014944.jpg",
+  "start_time": 7467.0,
+  "end_time": 7476.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 나머지도 다 가능하겠죠. 예를 들어 이제 CSS라는게 아까 꾸미는 거다라고 말씀드렸는데 HTML로 이렇게 사과라고 글씨를 메모장 해 가지고 브라우저로 표현했으면 요거를"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

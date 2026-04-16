@@ -1,0 +1,26 @@
+{
+  "scene_id": 511,
+  "frame_name": "frame_019418.jpg",
+  "start_time": 9701.0,
+  "end_time": 9716.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "알려줍니다. 딸깍 누르면은 이제 선생님입니다. AI가 다 알려주니까 이제는 뭐 인간이 지식을 보유할 필요가 없습니다. 머릿속에서 그냥 대충 큰 개념만 아시면 돼요. 네. 어 뭐 이렇게 다 원인도 알려 주죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

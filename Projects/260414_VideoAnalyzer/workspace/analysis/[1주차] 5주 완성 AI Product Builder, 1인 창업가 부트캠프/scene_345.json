@@ -1,0 +1,26 @@
+{
+  "scene_id": 345,
+  "frame_name": "frame_015049.jpg",
+  "start_time": 7521.5,
+  "end_time": 7527.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 요런 거를 할 수가 있고 뭐 클래스로 묶을 수도 있고 한데 이거는 별로 안 중요합니다. 그냥 요런 식으로 할 수 있다라고 이해하시면 좋을 것 같고. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

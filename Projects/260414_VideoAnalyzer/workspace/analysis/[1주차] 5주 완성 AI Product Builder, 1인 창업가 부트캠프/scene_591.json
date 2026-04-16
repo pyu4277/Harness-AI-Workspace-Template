@@ -1,0 +1,26 @@
+{
+  "scene_id": 591,
+  "frame_name": "frame_021036.jpg",
+  "start_time": 10515.5,
+  "end_time": 10519.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 옛날 습관이었다면 이제 요즘 MG한 어떤 Z제트 세대 개발자들은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

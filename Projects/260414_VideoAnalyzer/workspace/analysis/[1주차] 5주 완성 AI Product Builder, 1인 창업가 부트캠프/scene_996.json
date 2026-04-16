@@ -1,0 +1,26 @@
+{
+  "scene_id": 996,
+  "frame_name": "frame_031452.jpg",
+  "start_time": 15710.0,
+  "end_time": 15741.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 요거를 다시 아, 네. 와, 이게 아, 아시겠지만 코딩은 없습니다. 이제 세팅이 가장 큰 일입니다. 세팅하는게 이렇게 어렵고요. 이게 된다. 끝났습니다. 사실 세팅만 끝나면 진짜 끝나 버렸습니다. 오류"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

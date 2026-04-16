@@ -1,0 +1,26 @@
+{
+  "scene_id": 1463,
+  "frame_name": "frame_044273.jpg",
+  "start_time": 22120.0,
+  "end_time": 22152.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "강아지다. 오케이. 강아지 세 장 고양이 세 장까지만 해 볼게요. 그러면 겟 세 장하면은 좀 되지 않을까? 이렇게 AI 학습을 지금 시키고 있습니다. 아, 이건 옛날 영상 보시는게 나을 것 같네요. 옛날이랑 얘는 크게 바뀌지 않아서. 네. 고양이. 네. 옛날 영상 보시면 더이 그 영상 남아 있으니까요. 거 보시면 될 거 같고. 이제는 될 거 같은데 이렇게 하면 세"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

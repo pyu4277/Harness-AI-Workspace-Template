@@ -1,0 +1,26 @@
+{
+  "scene_id": 137,
+  "frame_name": "frame_000836.jpg",
+  "start_time": 416.0,
+  "end_time": 419.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "스스로 만들 수 있게끔 하는 그 시스템을 만들자 하는게이 한네스"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

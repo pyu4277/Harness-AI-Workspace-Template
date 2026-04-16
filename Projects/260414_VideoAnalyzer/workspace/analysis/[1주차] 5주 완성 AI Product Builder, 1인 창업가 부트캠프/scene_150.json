@@ -1,0 +1,26 @@
+{
+  "scene_id": 150,
+  "frame_name": "frame_007572.jpg",
+  "start_time": 3784.0,
+  "end_time": 3787.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "봤네요. 생각보니까. 네. 목차를 안 봤는데. 그래서 어떤 걸 배울 거냐? 네. 그래서 이제 1인 창업과 AI"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 103,
+  "frame_name": "frame_005006.jpg",
+  "start_time": 2487.0,
+  "end_time": 2518.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 아시겠지만이 AI 시대 이전에도 이미 어떤 AI 광고 성과를 AI로 최적화하고 이런게 너무 당연한 거 당연한 일이었습니다. 근데 AI 시대가 되면서 이게 더 좋아졌죠. 뭐 이미지나 이런 거 광고 에세도 자동으로 만들 수 있으니까. 네. 그래서 뭐 메타 이런 거 인스타그램, 페이스북 광고 아마 많이 하실 텐데 기업들에서. 그런데 이제 AI로 캠페인 성과 극대화 이런게 너무나 당연한 시대가 됐죠. 그래서 이제 뭐 개발하는 것이든 뭐 디자인이든 마케팅이든 다 그냥 진짜 딸깍하고 AI와 함께 하는 그런 시대가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

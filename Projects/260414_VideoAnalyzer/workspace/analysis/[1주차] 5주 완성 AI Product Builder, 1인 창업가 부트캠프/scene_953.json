@@ -1,0 +1,26 @@
+{
+  "scene_id": 953,
+  "frame_name": "frame_030535.jpg",
+  "start_time": 15257.0,
+  "end_time": 15277.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오케이. 아, 이거 2 이차 인증도 제가 걸어 놨기 때문에 어 기터브 이차 인장 안 걸어 놓으셨으면 바로 되실 겁니다. 저는 요거 보안 때문에 이거 해 놔 가지고. 네. 됐고."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

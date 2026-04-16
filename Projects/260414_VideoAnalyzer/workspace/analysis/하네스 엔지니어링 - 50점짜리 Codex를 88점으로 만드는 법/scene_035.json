@@ -1,0 +1,26 @@
+{
+  "scene_id": 35,
+  "frame_name": "frame_001275.jpg",
+  "start_time": 631.5,
+  "end_time": 643.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "반대로이 위웃 폴더에는 아무것도 만들어 놓지 않고 그냥 에이전트한테 대한민국 AI 관련 정부지원 사업과 공무전을 한 눈에 볼 수 있는 웹서비스 만들어 달라라는 간단한 프롬프트만 작성해 놨습니다. 그렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "반대로이 위웃 폴더에는 아무것도 만들어 놓지 않고 그냥 에이전트한테 대한민국 AI 관련 정부지원 사업과 공무전을 한 눈에 볼 수 있는 웹서비스 만들어 달라라는 간단한 프롬프트만 작성해 놨습니다. 그렇게",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

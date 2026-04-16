@@ -1,0 +1,35 @@
+{
+  "scene_id": 1503,
+  "frame_name": "frame_045363.jpg",
+  "start_time": 22652.5,
+  "end_time": 22709.5,
+  "visual_analysis": {
+    "layout": "Firebase Studio IDE - CSS 다크모드 구현",
+    "elements": [
+      "CSS theme-switch-wrapper",
+      "Dark Mode 토글",
+      "네비게이션 링크"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [
+      "theme-toggle Dark Mode"
+    ],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "다크모드",
+      "CSS 테마 토글"
+    ],
+    "summary": "네. 그래서 이거 티처 머신 활용하는 것까지 해서 네. 이렇게 간단하게 그냥 모든 서비스 외부 서비스 갖다 쓴다 하면은 그냥 이거 가이드 있으면 가이드 붙여 놓고 이거 만들어 줘 하면 만들어 줍니다. 네. 아, 디자인 레퍼런스. 어, 그것도 여기 이미지도 여기 들어갈 수 있거든요. 이미지 놓고 이게 이미지가 이렇게 돼요. 피자 예를 들어 요거 있잖아요. 요렇게 뭐 이렇게 참고가 됩니다. 지금 골뱅이 입력하고 요거 파일 이름 이렇게 그 탭 누르면 자동 완성도 되는데 요걸로 해서 요거 참고해서 뭐 만들어 줘 하면 됩니다. 여기에 스샷 넣으시면 되겠죠, 그러면. 네. 그래서 뭐 이미지도 볼 수 있고 아마 이렇게 해도 될 거예요. 이렇게 하면 안 되나? 어, 되네요. 되네요. 이렇게 하면 경로도 되니까 그냥 요거 참고해 줘 하면 되니까 끌어놔도 됩니다. 끌어놔도 되고요. 네. 아, 좋습니다. 네. 이제 요렇게까지 해서 이제 모든 웹사이트"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "CSS 다크모드: theme-toggle + theme-switch-wrapper",
+    "text_only_info": "다크모드 구현 방법",
+    "combined_insight": "웹앱 다크모드: CSS 테마 토글 실습"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

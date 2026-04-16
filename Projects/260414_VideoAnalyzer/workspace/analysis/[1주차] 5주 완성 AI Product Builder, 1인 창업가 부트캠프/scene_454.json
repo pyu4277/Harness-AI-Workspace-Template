@@ -1,0 +1,26 @@
+{
+  "scene_id": 454,
+  "frame_name": "frame_017931.jpg",
+  "start_time": 8950.0,
+  "end_time": 8980.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면이 클라우드 업체 중에 저희는 요거 쓸 겁니다. 클라우드 플레이어 페이지스라는 거를 쓸 겁니다. 네. 클라우 플레어 페이지스 요거 써 주시면 되는데 어 바로 들어가 보겠습니다. 얘를 왜 쓰는지 일단 좀 소개를 드릴게요. 아 클라우드 아이 클라우드 플레이어를 넣어 놨는데네 사실 같은 거긴 한데 이렇게네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

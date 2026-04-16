@@ -1,0 +1,26 @@
+{
+  "scene_id": 1600,
+  "frame_name": "frame_048623.jpg",
+  "start_time": 24303.0,
+  "end_time": 24319.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "진행하시면 되고 혹시나 막혔다. 채지T한테 물어보시면서 야 이거 막혔는데 여기서 어떻게 하면은 알려 줍니다. 아 가입 완료. 해피 스카이콘 님 가입 완료. 좋습니다. 사이트는 만든 걸로 입력하면 되나요? 해줬는데 어 좋습니다. 벌써 거기까지 가셨군요. 사이트는 요거 하시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

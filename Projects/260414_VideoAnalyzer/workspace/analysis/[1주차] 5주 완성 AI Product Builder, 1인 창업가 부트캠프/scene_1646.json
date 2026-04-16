@@ -1,0 +1,26 @@
+{
+  "scene_id": 1646,
+  "frame_name": "frame_049560.jpg",
+  "start_time": 24772.0,
+  "end_time": 24787.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면 알아서 막 이런 거 다 해 가지고 뭐 넣어 주고 있네요. 동물상도 넣어 주고 있고 뭐 어 이렇게 싹 에.txt 요것도 만들어 줬죠. 이런 거 굳이 내가 안 만들어도 됩니다. AI가 다 만들어 줍니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

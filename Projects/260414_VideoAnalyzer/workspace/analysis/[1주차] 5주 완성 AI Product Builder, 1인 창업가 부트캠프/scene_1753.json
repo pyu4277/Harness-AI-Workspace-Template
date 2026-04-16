@@ -1,0 +1,26 @@
+{
+  "scene_id": 1753,
+  "frame_name": "frame_051789.jpg",
+  "start_time": 25891.0,
+  "end_time": 25897.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이걸 좀 줄이고 싶다 하면 빈도 이렇게 줄이셔도 되고요. 이거는 원한 위치에만 하셔도 되고요. 이건 다 지정이 가능합니다. 그것도 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

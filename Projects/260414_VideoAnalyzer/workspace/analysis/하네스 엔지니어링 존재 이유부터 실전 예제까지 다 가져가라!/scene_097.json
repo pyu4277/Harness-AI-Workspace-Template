@@ -1,0 +1,26 @@
+{
+  "scene_id": 97,
+  "frame_name": "frame_000587.jpg",
+  "start_time": 291.5,
+  "end_time": 294.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "엔지니어링이라는 개념은요. 나온지 좀 됐는데요. 요게 최근에 핫해진 이유가요. 바로이 오픈 AI에서 어떤"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 702,
+  "frame_name": "frame_024787.jpg",
+  "start_time": 12376.5,
+  "end_time": 12409.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이런 아이 화면이 이제는 그 인터넷 브라우저 안에 들어가 있습니다. 원래는 막 그 제가 이전 강의나 이럴 때는 어떤 걸 했냐면 비주얼 스튜디오 코드 막 이런 거를 설치를 했습니다. 근데 아마 설치를 하는게 좀 귀찮거나 이렇게게 좀 안 되시는 분들이 있어서 예를 들어 사실은 이걸 설치 옛날 영상 보시면은이 설치하는 과정도 나오거든요. 그래서 혹시나 이제 아 이거 내 컴퓨터에서 해보고 싶다. 난 클라우드 이용하고 싶지 않다. 하시는 분들은 요렇게 그 비주얼 스튜디오"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

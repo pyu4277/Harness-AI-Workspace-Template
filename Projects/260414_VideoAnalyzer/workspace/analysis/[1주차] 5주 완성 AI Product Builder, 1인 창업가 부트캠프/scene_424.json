@@ -1,0 +1,26 @@
+{
+  "scene_id": 424,
+  "frame_name": "frame_016708.jpg",
+  "start_time": 8332.5,
+  "end_time": 8374.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "바뀌었어요. 추천 받기. 딸깍하면 와 다섯 개가 한 번에 나옵니다. 엄청나죠? 보너스 번호 포함도 딸깍. 오 보너스 번호 포함해서 한 번에 나옵니다. 그래서 원하는 대로 다 바꿀 수 있습니다. 뭐 배경을 뭘로 바꿔 줘, 뭐 기능 뭘 추가해 줘. 하는 거 시키면은 싹 다 바꿀 수가 있습니다. 네. 네. 그래서 요렇게 하는게 어렵지 않다. 코딩 프론트엔드 이제 여러분들 거의 다 마스터하셨습니다. 이제 이걸로 못 만들 수 있는게 거의 프론트핸드에서 돌아가는 건 다 만들 수 있습니다. 요걸로. 이걸로 다 만들 수 있는데 이제는 여기서 조금 편리해지는 걸 추가할 뿐이죠. 이제 프론트엔드는 다 마스터 여러분들이 다 했습니다. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

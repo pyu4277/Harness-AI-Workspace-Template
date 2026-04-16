@@ -1,0 +1,26 @@
+{
+  "scene_id": 1215,
+  "frame_name": "frame_037788.jpg",
+  "start_time": 18878.0,
+  "end_time": 18909.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 있고 어 그러면 여기에 어떻게 하면 되냐면이 피자 이미지가 있잖아요. 얘를 올리면 됩니다. 그냥 여기에 이렇게 슉 올리면은 어 피자 이미지가 들어갔죠. 그래서 요거를 반영해 줘 하면 반영해 줍니다. 어, 피자를 선택하면 요요 파일 있잖아요. 요거 올린 것도 인식하거든요. 아까 뭐 주소 쓰셔야 되고 골뱅이 아, 이거 명령어 좀 알려 드리면이 그 시프트 2번 누르면 나오는요 골뱅이 있잖아요. 요걸로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

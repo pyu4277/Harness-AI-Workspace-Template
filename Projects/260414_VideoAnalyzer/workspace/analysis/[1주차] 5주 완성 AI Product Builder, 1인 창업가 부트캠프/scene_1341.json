@@ -1,0 +1,26 @@
+{
+  "scene_id": 1341,
+  "frame_name": "frame_041177.jpg",
+  "start_time": 20583.0,
+  "end_time": 20593.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "크몽에서 어 기업 웹사이트네 자 이거 보겠습니다. 크몽 이게 모르신 분들 소개해드리면 외주 이런 거 맡기는 서비스입니다. 그래서 개발 같은 거 해 주세요 하고 매주 맡기거나 막 이럴 때 쓰는 서비스인데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

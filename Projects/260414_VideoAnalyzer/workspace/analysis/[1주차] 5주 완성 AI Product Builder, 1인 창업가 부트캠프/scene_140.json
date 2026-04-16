@@ -1,0 +1,26 @@
+{
+  "scene_id": 140,
+  "frame_name": "frame_006734.jpg",
+  "start_time": 3363.0,
+  "end_time": 3370.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대기업이 되고 뭐 지금 과거 세상이 흘러가고 있잖아요. AI 시대 이전에 세상들이 돌아가고 있을 때 그때 해야지 차별점이 생기지. 모두가 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

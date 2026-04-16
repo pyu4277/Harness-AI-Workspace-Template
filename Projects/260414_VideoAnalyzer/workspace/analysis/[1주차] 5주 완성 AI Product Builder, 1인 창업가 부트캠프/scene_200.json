@@ -1,0 +1,26 @@
+{
+  "scene_id": 200,
+  "frame_name": "frame_011142.jpg",
+  "start_time": 5557.5,
+  "end_time": 5584.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그림에서 보면 다 이런 식으로 돼 있고 다 이런 결제 붙어 있고 똑같습니다. 다. 그래서 돈 버는 거 뭐 이게 여기서 파생된 거죠. 결국에 뭐 광고를 받거나 결제를 받는 건데 뭐 어 누구한테 받느냐 플랫폼이 돼서 이렇게 뭐 중계를 해 주냐 뭐 뭐에 따라 다르긴 한데 결국에 나누자면이 두 개 중에 하나입니다. 결국에 좀 큰 그림으로 나누자면네 그래서 결국에이 두 개의 큰 그림이고 이걸 구현한다라고 이해해 주시면 좋을 것 같습니다.네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

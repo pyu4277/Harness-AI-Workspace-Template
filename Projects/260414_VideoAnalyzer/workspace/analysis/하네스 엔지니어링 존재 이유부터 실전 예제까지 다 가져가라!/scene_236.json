@@ -1,0 +1,26 @@
+{
+  "scene_id": 236,
+  "frame_name": "frame_001778.jpg",
+  "start_time": 879.0,
+  "end_time": 898.5,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - VS Code CLAUDE.md 2~3단계 (Worktree/Test 상세)",
+    "elements": ["2단계: Worktree에서 구현 상세", "3단계: 테스트 작성 (필수 - 건너뛸 수 없음)", "테스트 파일: src/**/*.test.jsx (Vitest + React Testing Library)", "테스트 기준: 정상 동작 + 엣지 케이스 + props 검증", "버그 수정: 재현 테스트(실패+수정+통과)", "npm test 미통과 시 pre-commit 훅이 커밋 차단"],
+    "extracted_formulas": [],
+    "extracted_code": ["src/**/*.test.jsx (Vitest + React Testing Library)", "npm test 가 통과하지 않으면 pre-commit 훅이 커밋을 차단한다."],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": ["Worktree 격리 개발", "필수 테스트 작성", "pre-commit 훅 강제", "Vitest + React Testing Library"],
+    "summary": "했다라고 되어 있죠. 그래서 기존에 있는 로컬 시스템 있잖아요. 내가 지금 현재 돌리고 있는이 로컬 시스템에 복사본인 워커트리를 하나 만들어서 여기에서 자기네들끼리 테스트하고 뭐 하고 실컷 작업을 하고 여기서 완벽해지면은이 메인에 딱 병합을 하는 거예요. 그래야 완벽하게 딱 합쳐지겠죠. 그죠? 우리가 메인에서 무작정 작업을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "테스트 필수 규칙 상세: Vitest + React Testing Library 사용, 엣지 케이스/props 검증 필수, 버그 수정 시 재현 테스트 3단계(실패->수정->통과). pre-commit 훅으로 npm test 미통과 시 커밋 자동 차단",
+    "text_only_info": "로컬 복사본(worktree)에서 완벽하게 테스트 후 메인에 병합하는 워크플로우 설명",
+    "combined_insight": "하네스 3단계 테스트 강제: 테스트를 '건너뛸 수 없음'으로 규정하고, pre-commit 훅으로 구조적 강제. 프롬프트가 아닌 시스템이 품질을 보장하는 하네스 원리의 핵심 구현"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

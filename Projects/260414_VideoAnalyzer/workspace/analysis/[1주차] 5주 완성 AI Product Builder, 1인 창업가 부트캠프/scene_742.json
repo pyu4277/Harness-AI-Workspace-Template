@@ -1,0 +1,26 @@
+{
+  "scene_id": 742,
+  "frame_name": "frame_026057.jpg",
+  "start_time": 13018.5,
+  "end_time": 13037.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다 뜨셔도 돼요. 잠깐 요거 누르면 다칠 텐데. 네. 요기 이렇게 세 개 화면만 하면 좀 더 좀 보기가 좋잖아요. 그래서 일단 터미널에서도 컨트롤 C를 누르면 이렇게 종류가 되거든요. 다 뭐가 더 있더라도 아니면 요거 플러스 누르면은 이렇게 새로 열리기도 하고 다 닫아주고 네. 그래서 이렇게 새로 열면은 요런"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

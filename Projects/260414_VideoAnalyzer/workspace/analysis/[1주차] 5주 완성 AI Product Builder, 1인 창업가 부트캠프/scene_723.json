@@ -1,0 +1,26 @@
+{
+  "scene_id": 723,
+  "frame_name": "frame_025165.jpg",
+  "start_time": 12575.5,
+  "end_time": 12589.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뜰 거예요. 어떻게 돼 있냐? 이렇게 메뉴를 눌러 보면 요런 거 종이 모양 있죠? 요거. 요거 눌러 보면 이렇게 폴더 구조가 나옵니다. 이렇게 폴더가 나오죠. 인덱스.html. 어, 요거는 이제 뭔지 알겠죠? 아까 배웠으니까. 이렇게 HTML 파일이 있고요. 아, 여기는 아예 자바스크립트 뭐 CSS가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

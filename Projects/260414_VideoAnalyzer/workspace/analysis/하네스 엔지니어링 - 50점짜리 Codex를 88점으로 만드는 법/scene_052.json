@@ -1,0 +1,26 @@
+{
+  "scene_id": 52,
+  "frame_name": "frame_001535.jpg",
+  "start_time": 763.5,
+  "end_time": 770.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "뿌려 준 것을 볼 수 있었습니다. 그리고 그렇게 수집한 데이터를 파싱을 한 다음에 프런트엔드와 연결해서 더욱 안정적으로 시스템이 돌아가게 됐죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "뿌려 준 것을 볼 수 있었습니다. 그리고 그렇게 수집한 데이터를 파싱을 한 다음에 프런트엔드와 연결해서 더욱 안정적으로 시스템이 돌아가게 됐죠.",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

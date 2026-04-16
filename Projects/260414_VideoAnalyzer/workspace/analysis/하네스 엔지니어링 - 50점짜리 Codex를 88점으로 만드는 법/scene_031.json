@@ -1,0 +1,26 @@
+{
+  "scene_id": 31,
+  "frame_name": "frame_001228.jpg",
+  "start_time": 609.5,
+  "end_time": 617.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "파일을 보면 국가 공모전이나 어떤 지원 사업들 공고에 대해서 데이터를 수집하는 단계에서 데이터 스키는 어떻게 되고 정규환을 어떻게 해야 되는지 쭉 작성해 놨습니다. 그러면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "파일을 보면 국가 공모전이나 어떤 지원 사업들 공고에 대해서 데이터를 수집하는 단계에서 데이터 스키는 어떻게 되고 정규환을 어떻게 해야 되는지 쭉 작성해 놨습니다. 그러면",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

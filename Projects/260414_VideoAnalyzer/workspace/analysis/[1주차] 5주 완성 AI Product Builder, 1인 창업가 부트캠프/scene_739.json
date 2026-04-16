@@ -1,0 +1,26 @@
+{
+  "scene_id": 739,
+  "frame_name": "frame_025932.jpg",
+  "start_time": 12961.5,
+  "end_time": 12970.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "클릭하면 외부 브라우저로도 통째로도 볼 수 있다라고 할 수가 있겠습니다. 이제 그러면 아까 했던 거를 좀 더 단순화해서 할 수가 있겠죠. 좀 더"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

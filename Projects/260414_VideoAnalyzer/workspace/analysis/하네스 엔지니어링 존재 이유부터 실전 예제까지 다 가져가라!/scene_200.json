@@ -1,0 +1,26 @@
+{
+  "scene_id": 200,
+  "frame_name": "frame_001355.jpg",
+  "start_time": 675.5,
+  "end_time": 678.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "AI가 우리 룰 밖으로 벗어나면은 에러를 탁 걸어 줄 수 있는 어떤"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

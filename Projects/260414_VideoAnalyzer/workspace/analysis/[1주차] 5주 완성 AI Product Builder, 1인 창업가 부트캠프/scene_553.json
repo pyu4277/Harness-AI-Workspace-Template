@@ -1,0 +1,26 @@
+{
+  "scene_id": 553,
+  "frame_name": "frame_020426.jpg",
+  "start_time": 10208.5,
+  "end_time": 10216.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 할 수 있습니다. 사이트 소리 소리도 만들 수 있죠. 소리도 뭐 어렵지 않죠. 소리도 자바스크립트도 넣을 수 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

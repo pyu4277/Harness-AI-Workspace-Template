@@ -1,0 +1,26 @@
+{
+  "scene_id": 1398,
+  "frame_name": "frame_042775.jpg",
+  "start_time": 21382.5,
+  "end_time": 21391.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "도메인 등록해야 되는 거 같아요. 이거 읽기 귀찮잖아요. 그냥 넣어서 예, 클러드한테 이거 왜 안 돼? 하고 이거 오류랑 오류 내용 그냥 싹 붙여 주면 돼요. 이런 것도 아마 그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

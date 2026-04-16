@@ -1,0 +1,26 @@
+{
+  "scene_id": 757,
+  "frame_name": "frame_026506.jpg",
+  "start_time": 13242.0,
+  "end_time": 13263.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "업치락 뒤치락 다 그냥 그 계속 성능이 왔다 갔다 하기 때문에 지금 현시점 가장 좋은 거 쓰시면 됩니다. 그래서 다 설치 방법이나 이런 건 비슷해 가지고 현시점 가장 좋은게 뭔지를 뭐 조코딩 채널 뉴스 매주 보신다면 요즘 가장 좋은 AI 계속 소개하고 있으니까 매주 한 번씩 조건 채널 확인하시면서 제일 좋은 거 그냥 쓰시면 됩니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

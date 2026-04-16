@@ -1,0 +1,26 @@
+{
+  "scene_id": 14,
+  "frame_name": "frame_000083.jpg",
+  "start_time": 39.0,
+  "end_time": 43.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "대신에 돈 벌어다 주고 나 대신에 겨울 방학 숙제해 주고 나 대신에 여름방학 숙제해 주고 나 원하는 모든"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

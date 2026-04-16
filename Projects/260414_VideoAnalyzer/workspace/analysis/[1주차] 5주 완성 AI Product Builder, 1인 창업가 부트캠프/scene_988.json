@@ -1,0 +1,26 @@
+{
+  "scene_id": 988,
+  "frame_name": "frame_031296.jpg",
+  "start_time": 15643.0,
+  "end_time": 15652.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "기의 각 버전 목록. 네. 여기 요거 있죠. 커미치라고 있죠. 여기 메인 페이지가 보시면 커미치라고 있거든요. 요거 눌러 보면 각 파일이 어떻게 생겼나 볼 수 있습니다. 여기 들어가서 아 얘 파일은 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

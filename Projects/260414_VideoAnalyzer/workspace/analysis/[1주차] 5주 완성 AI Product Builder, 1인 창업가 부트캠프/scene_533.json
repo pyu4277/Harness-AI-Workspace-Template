@@ -1,0 +1,26 @@
+{
+  "scene_id": 533,
+  "frame_name": "frame_019875.jpg",
+  "start_time": 9935.5,
+  "end_time": 9938.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "장애가 발생하고 네. 이런 일이 있었던 이유가 다 우리 같은 일을"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

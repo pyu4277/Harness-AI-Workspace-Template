@@ -1,0 +1,26 @@
+{
+  "scene_id": 1075,
+  "frame_name": "frame_033195.jpg",
+  "start_time": 16583.0,
+  "end_time": 16611.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 다시가 볼게요. 엔터 선택. 아, 브랜치가 필요하다. 그 메인 쓰시면 됩니다. 배포 메인 브랜치가 기본으로 생기거든요. 그거 쓰시면 됩니다. 브렌치가 이제 여러 개 버전 관리한다면이 버전,요 버전 이렇게 나눠 가지고 관리할 수도 있잖아요. 그래서 그 브랜치를 나눈다라고 하는데 가지 나누는게 가지가 브랜치거든요. 그래서 브랜치를 나누는데 네. 굳이 여기서 안 나눠도 되고 그냥 상남자로 메인 브랜치 하나로 가져가겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

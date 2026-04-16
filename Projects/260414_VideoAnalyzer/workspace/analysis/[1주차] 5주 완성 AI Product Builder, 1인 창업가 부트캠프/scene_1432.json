@@ -1,0 +1,26 @@
+{
+  "scene_id": 1432,
+  "frame_name": "frame_043217.jpg",
+  "start_time": 21605.5,
+  "end_time": 21610.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "풀어서 볼게요. 네. 다크 모드 풀어서 보면은 물론 이것도 고쳐 달라면 그거에 따라 다 해 주겠죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

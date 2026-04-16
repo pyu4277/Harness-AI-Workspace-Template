@@ -1,0 +1,26 @@
+{
+  "scene_id": 1298,
+  "frame_name": "frame_040056.jpg",
+  "start_time": 20021.0,
+  "end_time": 20034.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그럼 요겁니다. 그래서 여기 이름부터 여기 노버죠? 이제 서버 없이도이 폼을 연결할 수 있다라는 건데 요거 한번 가입해서 이용해 보도록 하겠습니다. 네. 그러면 겟스타티드 눌러 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 730,
+  "frame_name": "frame_025664.jpg",
+  "start_time": 12821.0,
+  "end_time": 12842.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "오 실제로 사이트가 열립니다. 얘는 애초에 지금 클라우드에서 돌아가잖아요. 그렇기 때문에 주소도 알아서 나와요. 주소도 내 로컬 주소가 아니라 그 클라우드 주소로 기본적으로 나옵니다. 그래서 기본적으로 지금 클라우드 상에 있는 거예요. 그래서 로또 버 생성기 이렇게 이게 그냥 딸깍하고 요런 식으로 만들 수가 있겠습니다. 네. 요렇게. 어, 잘 동작하죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

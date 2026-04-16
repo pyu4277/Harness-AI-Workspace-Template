@@ -1,0 +1,35 @@
+{
+  "scene_id": 1374,
+  "frame_name": "frame_041967.jpg",
+  "start_time": 20953.5,
+  "end_time": 21013.0,
+  "visual_analysis": {
+    "layout": "Disqus 설치 가이드 + 우측 웹캠/채팅",
+    "elements": [
+      "Universal Code Install Instructions",
+      "How to Install Disqus Using the Universal Code (YouTube)",
+      "Disqus 관리 페이지 좌측 메뉴",
+      "코드 삽입 안내"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "Disqus 설치",
+      "Universal Code",
+      "댓글 기능 추가"
+    ],
+    "summary": "어디 있지? 네. 그 디스커스가 유료냐라고 그 질문 두셨는데 일단은 무료로 제공이 되고요. 그리고 광고가 붙습니다. 대신 무료 플랜을 쓰신다 하면은 여기 광고가 붙게 돼 있어서 이런 사스 툴들은 다 그런 식입니다. 그러니까 유료 구독을 해야지 뭐 제공이 다 되고 뭐 용량 뭐 되고 하는게 다 이런 걸로 제공을 해요. 그래서 결국에는 AI를 좀 더 깊게 아시고 이제 전반적으로 개발을 이제 5주차 과정을 끝내시면 이거 더 이상 안 하 안 하셔야 됩니다. 이거 돈 나갑니다. 돈나가고 괜히 광고 붙어서 이거는 좀 구시대의 산물인 거 같아요. 그러니까 어떤 외부 사스를 붙인다. 물론 유효한 것도 꽤 있긴 한데 직접 구축할 수 있는 기능들도 있거든. 예를 들어 이런 거 이런 거 댓글 기능 직접 구현하는 거 뭐 그냥 딸가 몇 번이면 되잖아요. 근데 이거를 굳이 붙인다. 좀 구시대적이긴 하죠. 네. 네. 그래서 이거 무료입니다. 일단 일단 무료고 백핸드 배우신 다음에 이거 직접 만드시면 됩니다. 근데 배우기 전에 일단 배우기 전에는 그냥 붙인다라고 이해하시면 될 거 같습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "Disqus Universal Code 설치 페이지: YouTube 가이드 영상 + 코드 삽입 위치 안내",
+    "text_only_info": "Disqus를 웹사이트에 설치하는 방법",
+    "combined_insight": "Disqus 설치 실습: Universal Code 방식으로 웹사이트에 댓글 기능 추가하는 과정"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: Disqus 설치 가이드 페이지 - 실습 과정 시각화",
+  "importance_rule_version": 2
+}

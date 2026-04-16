@@ -1,0 +1,26 @@
+{
+  "scene_id": 114,
+  "frame_name": "frame_005649.jpg",
+  "start_time": 2820.0,
+  "end_time": 2828.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "린 리더보드네 요겁니다. 그래서 요즘 AI 네이티브로 일하고 있는 기업이 어느 정도 성과를 내고 있냐 약간 기업별로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

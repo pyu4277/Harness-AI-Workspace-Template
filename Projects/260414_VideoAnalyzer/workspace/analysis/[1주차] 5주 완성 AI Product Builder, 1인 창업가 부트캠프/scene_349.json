@@ -1,0 +1,26 @@
+{
+  "scene_id": 349,
+  "frame_name": "frame_015139.jpg",
+  "start_time": 7562.5,
+  "end_time": 7575.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "CSS 뭔지 알겠는데 이걸 제대로 하려면 좀 어렵다라고 해서 이렇게 표현이 됐는데 요즘 시대는 그렇지 않죠. 요즘 시대는 이제 AI로 딸깍하면은 다 표현이 되기 때문에 이제는 요것도 옛날 유머가 되지 않았나 생각이 듭니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

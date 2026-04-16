@@ -1,0 +1,26 @@
+{
+  "scene_id": 149,
+  "frame_name": "frame_000908.jpg",
+  "start_time": 452.0,
+  "end_time": 455.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그러니까이 AI한테이 가시성을 확보해 준 거예요. 눈을 달아 준 거예요. 어떻게 눈을 달아줬냐? 바로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드",
+  "importance_rule_version": 1
+}

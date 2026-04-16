@@ -1,0 +1,26 @@
+{
+  "scene_id": 816,
+  "frame_name": "frame_027780.jpg",
+  "start_time": 13887.5,
+  "end_time": 13892.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다시 자, 요요 주소 있죠? 얘를 수동으로 복사합니다. 드래그 해 가지고 복사하고 여기에 넣고 여기서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

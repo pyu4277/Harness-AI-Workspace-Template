@@ -1,0 +1,26 @@
+{
+  "scene_id": 1540,
+  "frame_name": "frame_046930.jpg",
+  "start_time": 23457.0,
+  "end_time": 23472.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면 이제 진행해 보겠습니다. 아, 네. 오래 기다리셨습니다. 네. 돈을 쓰면 된다. 아, 그렇죠. 돈을 쓰면 되는데 이제 무료로 하려면 약간 요런 노력이 필요하다. 아직까지는. 네. 지금까지 한 거 다 무료죠. 싹다 무료로 하실 수 있습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

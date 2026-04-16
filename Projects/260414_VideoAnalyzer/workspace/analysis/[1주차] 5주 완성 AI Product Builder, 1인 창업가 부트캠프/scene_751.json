@@ -1,0 +1,26 @@
+{
+  "scene_id": 751,
+  "frame_name": "frame_026417.jpg",
+  "start_time": 13204.5,
+  "end_time": 13211.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있습니다. 클로드라던가 뭐 오픈 코드라고 아예 오픈 소스로 나온 것도 있어요. 이런 AI를 다 쉽게 연결할 수 없을까 하고 나온 것들이 요런 툴들이 있습니다. 그래서 지금 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

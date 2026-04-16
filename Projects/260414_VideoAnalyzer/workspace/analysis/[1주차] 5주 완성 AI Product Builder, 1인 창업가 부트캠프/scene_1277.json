@@ -1,0 +1,26 @@
+{
+  "scene_id": 1277,
+  "frame_name": "frame_039790.jpg",
+  "start_time": 19887.5,
+  "end_time": 19902.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 얘가 뭐 하는 거냐? 그래서 조금 뭐 좀 어려운 용어로 뭐 사스 이렇게 부르기도 하거든요. 소프트웨어 as a serv라고 해서 이런 사스 툴이라고 하는데 별거 없습니다. 그냥 누구나 만들어 놓은 거 이제 갖다 쓰는 거예요. 쉽게 말해서. 네. 그래서 뭐 서밋 API를 제공하겠다라고 하는데 이런 경우"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

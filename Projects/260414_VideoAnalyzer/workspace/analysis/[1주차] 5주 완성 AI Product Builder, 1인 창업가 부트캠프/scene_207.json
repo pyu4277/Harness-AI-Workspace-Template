@@ -1,0 +1,26 @@
+{
+  "scene_id": 207,
+  "frame_name": "frame_011443.jpg",
+  "start_time": 5699.5,
+  "end_time": 5743.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좋을 것 같고요. 네. 그래서 웹사이트 아까 소개드렸듯이 웹사이트도 마찬가지로 이렇게 프론트엔드 클라이언트 부분과 백핸드 서버 부분이 있습니다. 네. 근데 서버 쪽은 약간은 좀 난이도가 있을 수 있어요. 왜냐면 이제 아까 말씀드렸다시피 로그인 정보 입력하면 아이디 패스워드가 날아가고 막 이걸 처리하고 하는 요런 로직이 있기 때문에 물론 AI가 다 해 주긴 할 겁니다. 근데 아우 처리하는게 복잡해라고 생각할 수 있어서 그냥이 프론트엔드 화면 만드는 건 그나마 좀 직관적으로 이해하기 좋거든요. 네. 그래서 렇게 왔다 갔다 할 거지만 결국 프론트엔 백엔드 이번 5주 과정에 모두 배울 거지만이 프론트엔드를 먼저 배운다라고 이해해 주시면 좋을 것 같습니다. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

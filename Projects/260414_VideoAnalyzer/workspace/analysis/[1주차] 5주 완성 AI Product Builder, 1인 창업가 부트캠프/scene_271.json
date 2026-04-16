@@ -1,0 +1,26 @@
+{
+  "scene_id": 271,
+  "frame_name": "frame_013327.jpg",
+  "start_time": 6653.5,
+  "end_time": 6673.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 요거 윈도우 키가 있습니다. 요거를 누르면은 이제 윈도우 어떤 앱들을 열 수 있게 띡 해가지고 검색창이 뜨거든요. 여기에 이제 메모라고 입력하시면은 한글로 메모 혹은 영어로 메모하시면 메모장을 켜실 수가 있습니다. 아 맞아. 이거 진짜이 어려워. 이거 어려워요. 사실 그 컴퓨터를 잘"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

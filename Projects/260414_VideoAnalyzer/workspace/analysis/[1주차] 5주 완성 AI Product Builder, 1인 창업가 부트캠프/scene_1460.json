@@ -1,0 +1,26 @@
+{
+  "scene_id": 1460,
+  "frame_name": "frame_043951.jpg",
+  "start_time": 21924.5,
+  "end_time": 22026.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "그러면은 그냥 아 아 요걸로 해 볼게요. 그럼 진짜 간단하게이 뭔 느낌인지만 보여 드릴게요. 강아지 뭔 느낌인지만 보여 드릴게요. 업로드로.음 되나? 아, 이렇게는 안 되네. 그러면 그 또 저작권 또 중요하니까 빅사베이 들어가서 아, 약간 구식이긴 한데 네. 빠르게 그냥 느낌만 보여 드리겠습니다. 느낌만. 음. 이것도 제대로 하려면 또 오래 걸리니까 그냥 어떤 건지 보시면 딱 감이 오실 겁니다. 네. 요거고 이제 강아지 여기에는 고양이. 네. 이미지가 사실 AI를 좀 아시는 분들은 그 이미지 데이터가 많을수록 정확하잖아요. 근데 한 장씩만 일단 해 보겠습니다. 그냥 더그네 장씩 하면 안 정확하거든요. 안 정확한데 일단 이거 한 장만 해가지고 학습시켜 볼게요. 모델 학습시키기 누르면은 이제 우리가 강아지는 얘고 고양이는 얘야라고 이렇게 알려줬잖아요. 그래서 이게지도 학습을 해 줍니다. 그래서 네. 미리 보기를 볼게요. 음. 아,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

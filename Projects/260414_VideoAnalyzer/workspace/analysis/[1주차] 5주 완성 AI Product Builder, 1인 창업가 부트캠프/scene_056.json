@@ -1,0 +1,26 @@
+{
+  "scene_id": 56,
+  "frame_name": "frame_002979.jpg",
+  "start_time": 1479.0,
+  "end_time": 1499.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아직도 깨지지 않고 있다.네 그래서 스케일링 법칙 깨졌다고 하는 거는 클래식ic 미디어이다. 즉 그냥 미디어에서 클릭 얻으려고 하는 어떤 조회수 파리용이다라는 얘기까지 하셨어요. 네. 그 정도로 이제 스케링 법칙 AI가 계속 발전할 거라는 건 너무나 명확하죠. 네. 그래서 AI가 계속 발전하는 거, 하는 모습을 보여주고 있고. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1573,
+  "frame_name": "frame_048299.jpg",
+  "start_time": 24146.0,
+  "end_time": 24152.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "요런게 있습니다. 한국 애드센스 그 공식 블로그에서 보시면 에드센스 한국 공식 블로그"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

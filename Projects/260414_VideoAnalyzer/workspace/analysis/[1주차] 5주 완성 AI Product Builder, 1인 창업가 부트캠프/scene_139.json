@@ -1,0 +1,26 @@
+{
+  "scene_id": 139,
+  "frame_name": "frame_006695.jpg",
+  "start_time": 3331.5,
+  "end_time": 3363.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "나갑니다. 그래서 지금도 사실 이제 뭐 대기업이나 1인 창업자나 똑같은 출발선이고 오히려 1인 창업자가 더 빨리 갈 수가 있습니다. 훨씬 유연하고 지금 트렌드에 맞게 빨리빨리 변화할 수가 있기 때문에 네. 그래서 지금 시간이 없습니다. 네. 빨리 1인 창업자를 지금 시작해야지 안 그러면은 점점 늦어집니다. 네. 뇌의 치박으면 이제 딸깍도 필요가 없죠. 그런 시대가 오기 전에 지금이라도 그 아무래도 이제 다른 많은 분들은 아직까지는 그냥 어떤 직업 직장에 한 부분 담당하시고 그냥 대기업이 되고 뭐 지금 과거 세상이"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 480,
+  "frame_name": "frame_018645.jpg",
+  "start_time": 9320.5,
+  "end_time": 9323.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "올려 드리도록 하고 사실 가입 대충 다음 클릭해 가지고 일단 채우는 거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

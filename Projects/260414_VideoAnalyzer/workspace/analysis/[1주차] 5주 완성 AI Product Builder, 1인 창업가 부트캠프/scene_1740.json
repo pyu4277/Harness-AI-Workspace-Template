@@ -1,0 +1,26 @@
+{
+  "scene_id": 1740,
+  "frame_name": "frame_051477.jpg",
+  "start_time": 25731.0,
+  "end_time": 25745.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 요걸로 이제 검토 요청 이제 하면 되겠습니다. 네. 이제 보완이 됐으니까. 물론 좀 더 심사 떨어질 수도 있어요. 떨어지면 뭐 더 보완해서 더 보완하고 하면 되죠. AI로 딸깍딸깍 보완하면 되니까. 검토 요청을 해 보겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

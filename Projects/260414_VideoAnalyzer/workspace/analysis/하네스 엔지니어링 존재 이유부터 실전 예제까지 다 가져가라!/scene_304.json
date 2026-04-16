@@ -1,0 +1,26 @@
+{
+  "scene_id": 304,
+  "frame_name": "frame_002875.jpg",
+  "start_time": 1435.5,
+  "end_time": 1438.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여러분들이 일단은 그냥 여러분들 편한 대로 개발을 해요. 그냥 내가 기능"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 화면공유 레이아웃 (콘텐츠 포함 가능성)",
+  "importance_rule_version": 1
+}

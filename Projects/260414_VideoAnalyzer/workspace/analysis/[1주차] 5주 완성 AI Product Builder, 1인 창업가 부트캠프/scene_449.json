@@ -1,0 +1,26 @@
+{
+  "scene_id": 449,
+  "frame_name": "frame_017791.jpg",
+  "start_time": 8873.5,
+  "end_time": 8916.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한데 뭐 이런 데가 많아요. 그래서 대표적으로 아마 많이 들어보셨을게 AWS가 뭐 클라우드 사업한다 이런 거 많이 들어보셨죠? 아마존 웹서비스 아니면 뭐 마이크로소프트도 애저 해 가지고 클라우드 브랜드가 있고 뭐 구글 클라우드 이런 클라우드 기업들이 다 이런 거 하는 겁니다. 그래서 다 컴퓨터가 그냥 운영하면서 여기에 사람들이 올리는 거 받아주고 뭐 이거 운영해 주고 하는 일을 하는게 이제 클라우드 업체들입니다. 그래서이 세 개가 가장 큰 업체들이거든요. 가장 규모가 큰 업체들이 요건데 그 외에도 사실 더자들이 편리하게 이용할 수 있도록 뭐 네트리파이 버셀 뭐 클라우플레어 페이지 뭐 등등 되게 많습니다. 이것만 해도 막 수십개 될 거 수백개 될 거예요. 이런 거 제공하는 기업만 해도이 기업들이 다 뭐 하는 거냐? 쉽게 말해서 요거"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

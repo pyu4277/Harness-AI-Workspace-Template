@@ -1,0 +1,26 @@
+{
+  "scene_id": 1469,
+  "frame_name": "frame_044609.jpg",
+  "start_time": 22280.0,
+  "end_time": 22328.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "주는 거죠. 딱 입력하면은 네. 아, 영상 업로드 하면이 그 VIP 그냥 기본 멤버십만 하셔도 보실 수 있게 할 겁니다. 네. 동물세스 사이트를 만들겠습니다. 시 머신 모델 활용해서 재밌는 테스트 페이지를 만들어 드릴게요라고 나오죠. 음. 아, 요것도 올려 드릴게요. 네. 네, 요거 올려 드리겠습니다. 이제 좀 알 거 같. 아, 좋습니다. 어, 만들고 있어요. 알아서. 네. 만들고 있고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

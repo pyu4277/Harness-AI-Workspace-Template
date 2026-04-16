@@ -1,0 +1,26 @@
+{
+  "scene_id": 1331,
+  "frame_name": "frame_040893.jpg",
+  "start_time": 20441.0,
+  "end_time": 20451.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "만들어 준 거 같아요. AI가 만들어 준 거 같은데. 어. 어. 아,이 서비스가 그거구나. 아, 나노바나 뭐 이미 생성 아까 연결한다고 하는게 이거였습니다. 네."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

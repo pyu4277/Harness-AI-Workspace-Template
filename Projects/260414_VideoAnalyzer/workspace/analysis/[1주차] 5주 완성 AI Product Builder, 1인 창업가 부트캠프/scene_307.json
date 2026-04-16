@@ -1,0 +1,26 @@
+{
+  "scene_id": 307,
+  "frame_name": "frame_014347.jpg",
+  "start_time": 7168.5,
+  "end_time": 7177.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "놀랍게도 여러분들은 해커가 될 수가 있습니다. 해커가 될 수가 있는데 네이버 뉴스를 한번 해킹해 보겠습니다. HM을 이해했다 그럼 해킹을 할 수가 있습니다. 한번 해킹해 보겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

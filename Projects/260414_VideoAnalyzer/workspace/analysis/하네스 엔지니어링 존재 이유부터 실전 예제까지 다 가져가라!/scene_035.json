@@ -1,0 +1,26 @@
+{
+  "scene_id": 35,
+  "frame_name": "frame_000212.jpg",
+  "start_time": 104.0,
+  "end_time": 107.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거. 어, 나는 이거 만들고 싶은데 여기는 요런게 필요하고 요런 걸 위해서는요 정보를 봐야 되고 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": false,
+  "importance_reason": "EX-01: 토킹 헤드 + 소품(책) 들고 설명 (시각 정보가 핵심 내용 아님, 대본 충분)",
+  "importance_rule_version": 2
+}

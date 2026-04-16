@@ -1,0 +1,26 @@
+{
+  "scene_id": 759,
+  "frame_name": "frame_026547.jpg",
+  "start_time": 13271.5,
+  "end_time": 13274.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그러면은 이제이 중에서 아무거나 요즘 제일 잘 나가는 걸로 쓰면 되는데 저는 어떤 걸 쓸 거냐? 음."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

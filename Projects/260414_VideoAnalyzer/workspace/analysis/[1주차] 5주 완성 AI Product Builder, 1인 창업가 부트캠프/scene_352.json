@@ -1,0 +1,26 @@
+{
+  "scene_id": 352,
+  "frame_name": "frame_015308.jpg",
+  "start_time": 7650.5,
+  "end_time": 7657.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "큰 그림에서 이해하고 계시면 약간 이벤트라는 개념도 이해하시기 어렵지 않습니다. 어떤 거냐면 이벤트라는 걸 이용해서 브라우저나이 HTML CSS"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

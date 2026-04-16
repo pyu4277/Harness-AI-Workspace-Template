@@ -1,0 +1,26 @@
+{
+  "scene_id": 1393,
+  "frame_name": "frame_042724.jpg",
+  "start_time": 21357.5,
+  "end_time": 21365.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "추가되는지 볼까요? 어 뭐 먹지? 어 아 트러블 슈팅 가이드가 갑자기 나온 거 보면 네. 이런 오류가 있습니다 가끔. 네. 이런 오류가 있고. 어,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

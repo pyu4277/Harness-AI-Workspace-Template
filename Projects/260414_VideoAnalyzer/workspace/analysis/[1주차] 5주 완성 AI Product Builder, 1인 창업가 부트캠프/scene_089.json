@@ -1,0 +1,26 @@
+{
+  "scene_id": 89,
+  "frame_name": "frame_004564.jpg",
+  "start_time": 2262.5,
+  "end_time": 2300.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좋을 것 같습니다. 네. 그래서 이제 시대가 바뀌었습니다. 그래서 코딩은 너무나 쉬워졌고요. 이제 같이 있는 제품을 만들어야 되는네 그런 시대가 됐습니다. 네. 코딩은 누구나 그냥 딸깍하면 다 할 수 있으니까 이제는 실제로 고객이 좋아하고 고객이 가치를 느끼고 고객이 돈을 낼 만한 그런 제품을 만들어야 사실 의미가 있잖아요. 왜냐면 뭐 목적이 다양하겠지만 뭐 내가 실제로 같이 있게 쓰려고 뭐 내 일이 효율적이려고 혹은 뭐 돈 벌어서이 내 제품으로 돈 벌려고 뭐 이런 식으로 코딩을 하시잖아요. 그렇기 때문에 이제 가치 있는 제품을 만드는 일이 너무나 중요해졌다라는네 그런 말씀을 드립니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

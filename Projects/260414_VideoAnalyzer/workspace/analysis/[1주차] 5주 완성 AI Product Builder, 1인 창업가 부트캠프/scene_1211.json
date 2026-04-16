@@ -1,0 +1,26 @@
+{
+  "scene_id": 1211,
+  "frame_name": "frame_037715.jpg",
+  "start_time": 18852.5,
+  "end_time": 18861.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "거기 때문에 이걸 주면서 피자는이 이미지 반영해라고 이렇게 주면 돼요. 그래서 요게 좀 쉬운 방법, 조금 복잡한 방법은 이제 내가 이미지를 보유하고 있다라고 하면은 얘를 일단"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

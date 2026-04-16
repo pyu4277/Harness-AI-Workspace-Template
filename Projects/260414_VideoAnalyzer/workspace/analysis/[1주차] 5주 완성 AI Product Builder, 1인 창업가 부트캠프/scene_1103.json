@@ -1,0 +1,26 @@
+{
+  "scene_id": 1103,
+  "frame_name": "frame_034574.jpg",
+  "start_time": 17256.5,
+  "end_time": 17316.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "클릭해 주셔야 페이지가 디플로이가 됩니다. 요걸 눌러 주셔야 됩니다. 네. 그다음에 여기 드래그앤드롭스 여기서겟스티드를 눌러서네 프로젝트 네임 입력해 주시고 어 프로덕트 빌더 테스트 요거는 영어로 그냥 편하신 거 입력해 주시면 되고 크리에이트 프로젝트 눌러 가지고 여기에다가 인덱스.html HTML 파일을 이렇게 올리시면 됩니다. 아, 싱글 G파일 아, 네. 그럼 지파일 만들어야 되니까 압축해서 올려야 된대요. 그러면 인덱스. HTML 요거를 마우스 우클릭. 그 아, 압축 파일 아, 이것도 어려운데 압축 파일을 압축을 하면은 이게 반디집 이런 거 설치하셔야 되거든요. 아, 이것도 약간 어렵다. 아, 그래. 아까 그냥 아까는 워커로 하는게 맞을 수도 있겠네요. 네. 반디집 뭐 이런 거 압축 프로그램"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

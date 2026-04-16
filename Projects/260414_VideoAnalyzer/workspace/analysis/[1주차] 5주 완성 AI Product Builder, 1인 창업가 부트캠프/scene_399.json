@@ -1,0 +1,26 @@
+{
+  "scene_id": 399,
+  "frame_name": "frame_016240.jpg",
+  "start_time": 8118.0,
+  "end_time": 8121.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "있잖아요. 이전에 채팅 내역을 열어 가지고 네. 여기에다가 그 이전에 코드가"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

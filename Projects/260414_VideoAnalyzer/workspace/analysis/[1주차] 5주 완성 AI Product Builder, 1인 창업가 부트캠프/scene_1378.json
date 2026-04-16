@@ -1,0 +1,26 @@
+{
+  "scene_id": 1378,
+  "frame_name": "frame_042147.jpg",
+  "start_time": 21060.0,
+  "end_time": 21086.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "아니고. 네. 그 백핸드 배우면 이미 다 구현할 수 있는 건데 굳이 그냥 외부 서비스를 붙이면 요런 식으로 붙일 수 있다라는 거죠. 아, 맞아요. 정확합니다. 와드루 님이 제일 정확합니다. 그냥 빠르게 만든다 했을 때 아, 직접 만들기 귀찮아. 아, 그냥 붙여. 약간 이런 느낌이죠. 네. 그러면은 어, 잠깐만.이 디스커스 기능 구현 완성하고 배포해. 네. 이렇게"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

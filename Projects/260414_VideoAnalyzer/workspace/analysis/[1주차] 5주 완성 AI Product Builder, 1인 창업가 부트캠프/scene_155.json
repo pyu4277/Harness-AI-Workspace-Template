@@ -1,0 +1,26 @@
+{
+  "scene_id": 155,
+  "frame_name": "frame_008409.jpg",
+  "start_time": 4195.5,
+  "end_time": 4212.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "확정되면은 여기 등록하신 이메일로 제가 안내를 드리겠습니다. 네. 그래서 이전 내용대로 여기 보실 수 있는데 이것보다 좀 더 스케일을 지금은 키워 보려고 합니다. 그래서 굉장히 그 재밌는 이벤트가 될 것 같습니다. 그래서 여기 나오시는 분 중에 뭔가 한국의 그 오징어 게임처럼 KIT 프로덕의 어마어마한 성공"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

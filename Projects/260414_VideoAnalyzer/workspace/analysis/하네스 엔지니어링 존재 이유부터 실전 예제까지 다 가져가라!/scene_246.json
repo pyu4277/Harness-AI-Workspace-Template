@@ -1,0 +1,26 @@
+{
+  "scene_id": 246,
+  "frame_name": "frame_002026.jpg",
+  "start_time": 1009.0,
+  "end_time": 1016.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "커밋 메시지도 이렇게 형식을 딱 정해 주게 됩니다. 어, 요런 거밋 메시지 형식 맞춰서 또 해야 될 거 아니에. AI가 멋대로 커밋 메시지 쓰면 안"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

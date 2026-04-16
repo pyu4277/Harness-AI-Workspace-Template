@@ -1,0 +1,26 @@
+{
+  "scene_id": 1296,
+  "frame_name": "frame_040010.jpg",
+  "start_time": 19993.5,
+  "end_time": 20015.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해야 되는데 이거를 대신 백엔드를 누가 만들어 준 겁니다. 그래서 백엔드를 누가 대신 만들어 줘 가지고 이거를 그냥 우리 거랑 연결한 거예요. 요렇게도 가능합니다. 그래서 직접 만들 필요가 없긴 해요. 이거를. 뭐 물론 보안이나 뭐 되게 중요한 거는 당연히 내가 보관해야 되기 때문에 어떤 내 서버나 이런게 있어야겠지만 그냥 아무거나 이렇게 받을 때는 아무거나 연결하면 되죠."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

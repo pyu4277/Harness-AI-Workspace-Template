@@ -1,0 +1,26 @@
+{
+  "scene_id": 1133,
+  "frame_name": "frame_035095.jpg",
+  "start_time": 17544.0,
+  "end_time": 17550.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한번 보여 드리자면 깃터브 선택해 가지고 제 기터브 어카운트 연결하고 레퍼 스토리도 권한 열어 가지고 이렇게 연결해서 선택 셋업 하고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

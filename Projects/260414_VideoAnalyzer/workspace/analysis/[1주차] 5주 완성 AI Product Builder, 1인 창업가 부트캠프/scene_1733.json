@@ -1,0 +1,26 @@
+{
+  "scene_id": 1733,
+  "frame_name": "frame_051358.jpg",
+  "start_time": 25664.0,
+  "end_time": 25693.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "한 번에 만들어집니다.음 음. 어바웃. 네. 사이트 소개 페이지도 만들어 줬고요. SEO 최적화. 아, 이거 다음 주에 할 건데. 아, 다음 주에 할 내용을 벌써 해 버렸습니다. AI가 좀 앞서갑니다. 네. 최적화 해 줬고요. 사이트 구조도 싹 개선해 줬고요. 품질 향상도 해줬고요. 승인 체크리스트 싹 다 체크해 가지고 보완해 준 걸 볼 수가 있습니다. 네. 그래서 이것도 안 된다 하면은 뭐 더 보완해. 더 보완해 줘. 해 가지고 컨텐츠 늘리고 뭐 기능 추가하고 하면 되겠죠? 네. 그래 가지고 이렇게 해 가지고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

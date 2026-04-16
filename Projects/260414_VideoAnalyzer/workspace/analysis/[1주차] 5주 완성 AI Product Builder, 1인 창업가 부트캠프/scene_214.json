@@ -1,0 +1,26 @@
+{
+  "scene_id": 214,
+  "frame_name": "frame_011766.jpg",
+  "start_time": 5864.0,
+  "end_time": 5901.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "갈게요.이 뒤에 나오니까 다시네 그다음에 이제 CSS라는 걸 좀 알아보자면네 CSS는 뭐냐 아까 HTML로 이렇게 뼈대를 잡았잖아요. 요거를 이렇게 꾸며 주는 역할을 합니다.네 예. 그래서 뭐 제목은 아 이거 좀 초록색으로 굴 긁게 뭐 글씨 폰트는 뭐고 막 이런 거 설정하는 거 있잖아요. 그래서 요렇게 표현하고 뭐 배경은 회색이었으면 좋겠다 하면 회색으로 하고 뭐 입력창은 흰색이고 요렇게 길이 요렇고 버튼은 초록색이었으면 좋겠고 요런 걸하는게 CSS라고 합니다. 즉 이렇게 꾸미는 역할을 하는게 CSS다라고 이해해 주시면 좋을 것 같습니다. 네. 요거 이해되시나요? 네. 자,"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

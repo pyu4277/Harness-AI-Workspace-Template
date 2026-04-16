@@ -1,0 +1,26 @@
+{
+  "scene_id": 448,
+  "frame_name": "frame_017738.jpg",
+  "start_time": 8864.0,
+  "end_time": 8873.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "것 같고요. 네. 그래서 이런 외부 서버 제공하는 이런 기업들이 있습니다. 뭐 데이터 센터를 직접 운영하는데도 있고 이거에 뭐 붙여 가지고 서비스만 운영하는데도 있고 한데 뭐 이런 데가 많아요. 그래서"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

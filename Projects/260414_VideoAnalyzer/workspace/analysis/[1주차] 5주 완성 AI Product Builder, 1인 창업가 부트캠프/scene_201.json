@@ -1,0 +1,26 @@
+{
+  "scene_id": 201,
+  "frame_name": "frame_011178.jpg",
+  "start_time": 5584.0,
+  "end_time": 5593.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "것 같습니다.네 그러면 이제 웹 개발 바로 진행해 보도록 하겠습니다. 이제 진짜 본론을 들어갑니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

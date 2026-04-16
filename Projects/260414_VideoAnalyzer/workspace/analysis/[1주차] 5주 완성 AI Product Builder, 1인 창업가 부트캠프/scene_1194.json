@@ -1,0 +1,26 @@
+{
+  "scene_id": 1194,
+  "frame_name": "frame_037380.jpg",
+  "start_time": 18688.0,
+  "end_time": 18691.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "볼게요.이 빚집 누르면은 어, 오늘 저녁 뭐 먹지? 바로 만들어 줬습니다. 라이트 다크모드 있고요."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

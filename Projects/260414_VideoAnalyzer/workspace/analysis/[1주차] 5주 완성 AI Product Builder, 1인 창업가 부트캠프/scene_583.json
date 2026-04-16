@@ -1,0 +1,26 @@
+{
+  "scene_id": 583,
+  "frame_name": "frame_020899.jpg",
+  "start_time": 10447.0,
+  "end_time": 10451.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "개발자도에서 이렇게 모바일로 하면 모바일 뷰도 볼 수 있거든요. 근데이 이것도 이렇게 입력하시면 됩니다. 뭐"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 251,
+  "frame_name": "frame_002129.jpg",
+  "start_time": 1055.5,
+  "end_time": 1072.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "없이 계획 없이 뭔지 모를 코드가 들어왔다. 계획이 없는 코드가 들어왔다. 그럼 바로 차단 박아 버리고요.음 음. 그리고 이제 어 단위 테스트를 무조건 파일이 변경이 되면은 무조건 테스트할 수 있게끔 이런 식으로 강제를 다 해 놓게 됩니다. 그냥 뭐뭐 해 줘라고"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

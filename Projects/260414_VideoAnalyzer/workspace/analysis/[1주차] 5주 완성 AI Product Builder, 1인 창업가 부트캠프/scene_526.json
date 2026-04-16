@@ -1,0 +1,26 @@
+{
+  "scene_id": 526,
+  "frame_name": "frame_019642.jpg",
+  "start_time": 9797.5,
+  "end_time": 9843.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "네. 그래서 지금까지 여러분들 뭐 하신 거냐? 네. 지금 사이트 다 올리셨다면 이제 내 컴퓨터에서만 돌아가던이 웹 프론트엔드 요거를 외부 24시간 돌아가는 클라우드 플레어라는 그 클라우드 서비스에 얹어 가지고 이제 전 세계 누구나 뭐 60억 뭐 100억 인구 뭐 봇까지 해가지고 막 200억이 들어가더라도 이제이 사이트를 누구나 전 세계에서 다 접속해서 내 사이트를 이용하실 수 있는데 가장 중요한 건 공짜입니다. 이거를 전 세계 몇 백만 몇 몇 억 명이 쓰더라도 공짜입니다. 네. 그래서 이런 식으로 웹서비스를 만들면 이제 공짜로 내 웹서비스 운영할 수가 있는 겁니다. 서버비 빵원. 네. 아예 필요가 없습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

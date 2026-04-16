@@ -1,0 +1,26 @@
+{
+  "scene_id": 1495,
+  "frame_name": "frame_045211.jpg",
+  "start_time": 22595.0,
+  "end_time": 22615.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여기서 이제 여기 클라우드의 모델을 그냥 공유해 주는 건데 돌아가는 건 온 디바이스로 돌아갑니다. 그래서 즉 그냥 내 컴퓨터에서 돌아가는 거기 때문에 이게 여기서도 돈이 별로 안 들거든요. 그냥 모델만 갖고 있다가 주는 것만 하는 그런 역할만 하는데 공짜로 무제한 쓸 수가 있습니다. 이것도 네. 그래서 요렇게 쓸 수 있는 웹사이트 이제는 와 예전에는 무슨"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

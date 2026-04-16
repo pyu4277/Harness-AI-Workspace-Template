@@ -1,0 +1,26 @@
+{
+  "scene_id": 1060,
+  "frame_name": "frame_032849.jpg",
+  "start_time": 16419.0,
+  "end_time": 16429.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이제 필요가 없습니다. 아 제 잘못 만들었군요. 아 기존에도 페이지로 만들었어야 됐는데 괜히 워커로 만들었네요. 아네"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

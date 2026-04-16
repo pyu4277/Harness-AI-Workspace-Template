@@ -1,0 +1,26 @@
+{
+  "scene_id": 354,
+  "frame_name": "frame_015349.jpg",
+  "start_time": 7661.0,
+  "end_time": 7687.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "변화를 시킬 수가 있는데 어떤 걸 할 수 있냐? 이벤트가 발생하면 이렇게 해라라는 거를 어떤 조건으로 설정을 해 둘 수가 있습니다. 예를 들어 버튼을 클릭했을 때 뭐 사이트가 뭐 파란색으로 바뀐다 이런 거 있잖아요. 클릭했을 때 뭐가 벗인다. 뭐 이런 뭐 했을 때 뭐가 된다. 이런 걸 이제 이벤트라고 하는데 요런 발생하는 거를 요거를 잡아서 자바스크립트로 뭔가 변화를 시키는 요런 행위들을 할 수 있는게 이제 자바스크립트라는"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 1443,
+  "frame_name": "frame_043350.jpg",
+  "start_time": 21657.0,
+  "end_time": 21692.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "해야겠죠. 그러니까 프론트엔드 저희가 개발했으니까 이제 백핸드 개발도 해서 데이터베이스 이제 저장하는 거 만들어서 자, 이렇게 저장해 가지고 댓글 저장하고 댓글 저장됐으면 댓글을 가져와 가지고 표시하고 이런 거 구현해 줘야 되는데 귀찮잖아요. 그래서 요거 그냥 없이도 외부 어떤 백엔드를 붙여 가지고 댓글 쓰고 보여주고 하는 거를 구현을 해 봤습니다. 네. 그래서 일단 5주 하면 이것도 다 할 거예요. 이것도 할 건데 그 전에 그냥 맛보기로 해 본 겁니다. 네. 어, 계속 댓글 달아주고 계시는군요. 감사합니다. 네. 아, 댓글 감사드리고요. 한번 새로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

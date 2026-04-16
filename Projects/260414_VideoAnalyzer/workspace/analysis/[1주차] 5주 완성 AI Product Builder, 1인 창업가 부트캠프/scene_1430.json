@@ -1,0 +1,26 @@
+{
+  "scene_id": 1430,
+  "frame_name": "frame_043188.jpg",
+  "start_time": 21585.5,
+  "end_time": 21601.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "되죠. 이거 텍스트가 안 보여. 네. 이거 텍스트가 안 보이고 있어. 텍스트 흰색으로 해서 아, 다 아, 다크 모드를 안 보이겠구나. 다 다크 모드 풀 일단 고쳐 달라면 고쳐 줍니다. 또 시간이 가니까 그냥 빨리"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

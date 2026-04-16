@@ -1,0 +1,26 @@
+{
+  "scene_id": 49,
+  "frame_name": "frame_002566.jpg",
+  "start_time": 1278.5,
+  "end_time": 1286.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "11개밖에 못 풀었고요.네 네. 그래서 근데 아, 다시 네. 이렇게 인간은 11 문제밖에 못 풀었는데 이제 AI는 요즘 얼마나 풀었나"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

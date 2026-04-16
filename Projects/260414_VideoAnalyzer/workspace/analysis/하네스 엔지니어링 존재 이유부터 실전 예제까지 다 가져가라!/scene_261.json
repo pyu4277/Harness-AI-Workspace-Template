@@ -1,0 +1,26 @@
+{
+  "scene_id": 261,
+  "frame_name": "frame_002281.jpg",
+  "start_time": 1137.0,
+  "end_time": 1143.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "여러분들 이제 어 개발 환경에 따라서 다르겠죠. 그리고 요런 시스템을 진행을 하면서 생기게 되는 로그들 있잖아요. 로그들. 로그들은 다"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

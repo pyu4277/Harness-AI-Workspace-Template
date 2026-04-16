@@ -1,0 +1,26 @@
+{
+  "scene_id": 1819,
+  "frame_name": "frame_053489.jpg",
+  "start_time": 26737.0,
+  "end_time": 26751.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "다음 주 커리큘럼 자 오늘 자 1주차 진행했습니다. 1주차 개요 웹배 웹개발 기초 배포 API 그 외부 서비스 붙이는 거 알아봤죠? 그다음에 광고 수익화까지 이렇게 1주차 진행했고요. 나머지 주차가 더 재밌습니다. 나머지 주차 재밌는 거 많이 남았습니다. 유입 성장 이제"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 250,
+  "frame_name": "frame_012862.jpg",
+  "start_time": 6418.5,
+  "end_time": 6442.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "꽤 있으신 분인데 확장자라는게 뭐냐? 그 여기 이걸 안 켜신 분들은 윈도우 옵션 중에 안 켜신 분들은 인덱스 만들려고 하니까 요렇게만 만드신 분이 있습니다. 그러니까 점하고 어쩌고 붙은게 없는 분들이 계세요. 그런 분들은이 윈도우 그 탐색기가 있습니다. 윈도우 폴더 모양 그 아이콘 누르시면 요런 탐색기가 열리는데 여기에서 요거 요거 있죠? 점점점 누른 다음에 옵션에 들어가시면"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

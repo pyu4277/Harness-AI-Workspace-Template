@@ -1,0 +1,26 @@
+{
+  "scene_id": 190,
+  "frame_name": "frame_010588.jpg",
+  "start_time": 5276.0,
+  "end_time": 5311.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "이렇게 가져와 봤습니다. 네. 그럼 요런 것도 좀 비유로서 맞을 수 있겠죠. 프론트엔드가 우리 화면이니까 백엔드에서 이렇게 뭐 정보를 왔다 갔다 합니다. 프론트엔드에서 이거 줘 하면은 이렇게 백엔드에서 주고 요런 구조가 되는데 가끔 이제 인터넷 들어가 보면 뭐 서버 에러 이런 거 뜰 때가 있죠. 그래서 백엔드에서 이런 에러 같은 거 보내 주면은 이제 프론트엔드에서 요런 화면이 뜨는 겁니다.이 구조 이해하셨나요? 프론트 엔드 백핸드 요거 이해하시면 이제 거의 큰 그림을 잡으신 겁니다. 네. 그래서 요렇게 큰 그림을 이해하셨으면 이제 여기에 대한 거 세부적으로 하나씩 배우도록 하겠습니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 화면공유+웹캠, 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

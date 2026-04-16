@@ -1,0 +1,35 @@
+{
+  "scene_id": 270,
+  "frame_name": "frame_002396.jpg",
+  "start_time": 1187.5,
+  "end_time": 1208.0,
+  "visual_analysis": {
+    "layout": "화면 공유 + 하단 웹캠 오버레이 - 작업 아카이브 (TASK-20260407-add-author) + 스크린샷 기록",
+    "elements": [
+      "logs/archive/TASK-20260407-add-author/screenshots/",
+      "스크린샷 파일: 01-empty-initial.png, 02-empty-after-add.png, 03-lifecycle-after-complete.png 등",
+      "우측: 할 일 목록 앱 실제 스크린샷 (체크박스, 할 일 항목)",
+      "snapshots 폴더도 존재"
+    ],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [
+      "작업 아카이브",
+      "스크린샷 자동 기록",
+      "자가 에러 발견"
+    ],
+    "summary": "하는데요. 먼저 워킹 트리를 먼저 만들어 줍니다. 그래서 워크트리 어, 작업 환경을 먼저 세팅을 해 주고요. 그래서 절대 메인에서 바로 코드를 바꾸지 않도록 먼저 워크트리를 만들어 줍니다. 그리고 두 번째로 계획 문서를 작성을 해 줍니다. 그래서 계획 문서함에가 보시면요. 액티브랑 컴플리티 두 가지가 있는데요. 액티브에 이제 현재 진행하고 있는 계획 문서를 여러분들이 보실 수가 있습니다. 그리고 완료가 되면은"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "하네스 작업 아카이브 구조: TASK-YYYYMMDD-taskname 폴더에 스크린샷(앱 상태 변화 기록)과 스냅샷 자동 저장. 실제 할 일 목록 앱의 빈 상태->추가 후->완료 후 스크린샷 시퀀스",
+    "text_only_info": "이 기록 내에서 에이전트가 스스로 에러를 발견하고 수정하는 과정",
+    "combined_insight": "하네스의 자기 검증 메커니즘: 작업 단계별 스크린샷을 자동 기록하여 에이전트가 시각적으로 결과를 확인. 화면은 실제 아카이브 구조와 앱 스크린샷을, 대본은 이 기록으로 에러를 자가 발견하는 과정을 설명"
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 2
+}

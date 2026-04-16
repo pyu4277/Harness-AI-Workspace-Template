@@ -1,0 +1,26 @@
+{
+  "scene_id": 1822,
+  "frame_name": "frame_053542.jpg",
+  "start_time": 26762.5,
+  "end_time": 26778.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "통해서 돈을 버는게 딱 직접적이잖아요. 그래서 글로벌 결제 구현할 거고요. 그다음에 반복 매출 구독. 네. 구독 서비스 이때 4주차 때 구현할 거고 5주차 때 이제 확장 운영 이런 거 하는 전략 미국 법인 이런 것도 다 해 가지고 다뤄 보도록 하겠습니다. 오프라인 해커톤도"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

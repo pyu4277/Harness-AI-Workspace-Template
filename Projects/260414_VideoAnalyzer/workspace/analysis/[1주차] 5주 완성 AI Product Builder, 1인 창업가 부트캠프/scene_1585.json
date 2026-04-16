@@ -1,0 +1,26 @@
+{
+  "scene_id": 1585,
+  "frame_name": "frame_048451.jpg",
+  "start_time": 24222.5,
+  "end_time": 24228.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "참고하신 다음에 이거 나중에 이제 가이드로 넣어 줄 거예요. 네. 그다음에 이제 요거까지 봤으니까"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

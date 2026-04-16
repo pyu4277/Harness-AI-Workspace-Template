@@ -1,0 +1,26 @@
+{
+  "scene_id": 586,
+  "frame_name": "frame_020980.jpg",
+  "start_time": 10488.0,
+  "end_time": 10491.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "않잖아요. 아까 9k바트인가 그랬는데 기본적으로 웬만한 건 다 되긴"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": 348,
+  "frame_name": "frame_015119.jpg",
+  "start_time": 7556.0,
+  "end_time": 7562.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "좀 복잡하잖아요. 약간 아 이렇게 지정해서 막 코드로 표현해 가지고 이렇게 입력하고 하니까 약간 아 CSS 뭔지 알겠는데 이걸 제대로"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}

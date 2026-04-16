@@ -1,0 +1,26 @@
+{
+  "scene_id": 592,
+  "frame_name": "frame_021044.jpg",
+  "start_time": 10519.5,
+  "end_time": 10523.5,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "MG한 어떤 Z제트 세대 개발자들은 이런 거 안 쓰죠. 이제 채지피티나 재미나이한테 이렇게 물어봐야 됐는데"
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-02: 콘텐츠 프레임 (시각 정보 포함)",
+  "importance_rule_version": 1
+}

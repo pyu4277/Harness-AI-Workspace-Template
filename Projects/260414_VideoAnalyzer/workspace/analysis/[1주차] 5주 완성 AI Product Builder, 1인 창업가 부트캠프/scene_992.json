@@ -1,0 +1,26 @@
+{
+  "scene_id": 992,
+  "frame_name": "frame_031347.jpg",
+  "start_time": 15670.0,
+  "end_time": 15676.0,
+  "visual_analysis": {
+    "layout": "",
+    "elements": [],
+    "extracted_formulas": [],
+    "extracted_code": [],
+    "extracted_diagrams": []
+  },
+  "text_analysis": {
+    "key_concepts": [],
+    "summary": "나온다. 뭐가 안 된다 하시면은 여기까지 되시면 사실 끝났습니다. 여기에 얘한테 물어보면 다 알려줍니다. 얘한테 물어보면 싹 다 알려줍니다."
+  },
+  "integrated_analysis": {
+    "visual_only_info": "",
+    "text_only_info": "",
+    "combined_insight": ""
+  },
+  "reference_needs": [],
+  "is_important_frame": true,
+  "importance_reason": "IN-01/02: 콘텐츠 프레임 + 지시대명사/시각키워드",
+  "importance_rule_version": 1
+}
